@@ -1,0 +1,15 @@
+#include "Tools/Tool Helpers.txt"
+//this file defines the macro:
+//setMugEntry(number, data, mouth_x, mouth_y, eye_x, eye_y)
+
+Marco_Mug:
+#incext PortraitFormatter "pops-hackbox-u.png"
+setMugEntry(0x08, Marco_Mug, 3,5,3,3)
+
+Janissa_Mug:
+#incext PortraitFormatter "JanissaV3.png"
+setMugEntry(0x04, Janissa_Mug, 3,5,3,3)
+
+Alysa_Mug:
+#incext PortraitFormatter "Recruit.png"
+setMugEntry(0x05, Alysa_Mug, 3,6,3,4)

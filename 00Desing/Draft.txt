@@ -1,0 +1,46 @@
+world
+
+west desert kingdom
+-- chill 'bout dragon (fertile soot)
+-- Horn, sword princess, wing
+
+mid trad kingdom
+-- descendant's of hero
+-- claw, prince, troub, edge
+
+northeast snowscape
+-- permafrost, dragon tracks
+-- Inga, peg/falco, trainee
+ 
+southeast republic
+--dragon origins
+--Tail + parents, old man adventurer
+
+south _____
+--starting point
+--local militia cavs, Diane, pops, temp jeigan 
+
+chars
+
+Eye
+--Axe
+
+Tail
+--Mage
+
+Claw
+--Vagabond, mercenary
+--Edgy
+
+Pompadour cav
+--sword
+--loudmouth, opionated
+
+other cav
+--lance
+--meek
+
+Temp Jeigan Janissa
+--Falcoknight(axe/lance) woman
+--Diane Aunt
+
