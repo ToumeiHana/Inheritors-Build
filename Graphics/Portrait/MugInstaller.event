@@ -2,9 +2,13 @@
 //this file defines the macro:
 //setMugEntry(number, data, mouth_x, mouth_y, eye_x, eye_y)
 
-Marco_Mug:
-#incext PortraitFormatter "pops-hackbox-u.png"
-setMugEntry(0x08, Marco_Mug, 3,5,3,3)
+Curtis_Mug:
+#incext PortraitFormatter "Eye.png"
+setMugEntry(0x02, Curtis_Mug, 3,5,3,3)
+
+CurtisShirtless_Mug:
+#incext PortraitFormatter "EyeShirtless.png"
+setMugEntry(0x03, CurtisShirtless_Mug, 3,5,3,3)
 
 Janissa_Mug:
 #incext PortraitFormatter "JanissaV3.png"
@@ -13,3 +17,31 @@ setMugEntry(0x04, Janissa_Mug, 3,5,3,3)
 Alysa_Mug:
 #incext PortraitFormatter "Recruit.png"
 setMugEntry(0x05, Alysa_Mug, 3,6,3,4)
+
+Jacob_Mug:
+#incext PortraitFormatter "Jacob.png"
+setMugEntry(0x06, Jacob_Mug, 3,5,3,3)
+
+Lucian_Mug:
+#incext PortraitFormatter "Lucian.png"
+setMugEntry(0x07, Lucian_Mug, 3,5,3,3)
+
+Marco_Mug:
+#incext PortraitFormatter "pops-hackbox-u.png"
+setMugEntry(0x08, Marco_Mug, 3,5,3,3)
+
+Diane_Mug:
+#incext PortraitFormatter "Diane.png"
+setMugEntry(0x09, Diane_Mug, 3,6,3,4)
+
+Lauren_Mug:
+#incext PortraitFormatter "LaurenV2.png"
+setMugEntry(0x0A, Lauren_Mug, 3,6,3,4)
+
+Mauritch_Mug:
+#incext PortraitFormatter "Mauritch.png"
+setMugEntry(0x0B, Mauritch_Mug, 4,5,4,3)
+
+MysteryMage_Mug:
+#incext PortraitFormatter "FacelessMageAmBrosiac.png"
+setMugEntry(0x57, MysteryMage_Mug, 2,5,3,3)

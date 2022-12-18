@@ -131,7 +131,7 @@ Certain Blow: +40 Hit[N]
 when initiating battle.[X]
 
 ## SD_ArmoredBlow
-Armored Blow: +10 Def[N]
+Armored Blow: +4 Def[N]
 when initiating battle.[X]
 
 ## SD_Vantage
@@ -484,12 +484,12 @@ Critical Force: Base critical is[N]
 Skl * 1.5.[X]
 
 ## SD_Chivalry
-Chivalry: When foe is at full HP,[N]
-attack and def/res +2.[X]
+Opener: When foe is at full HP,[N]
+attack +2.[X]
 
 ## SD_Pragmatic
-Pragmatic: When foe is not at full HP,[N]
-attack +3 and def/res+1.[X]
+Closer: When foe is not at full HP,[N]
+attack +2.[X]
 
 ## SD_Armsthrift
 Armsthrift: Luck % chance to not[N]
@@ -794,7 +794,7 @@ Puissance: +3 Damage when the user's[N]
 Strength is higher than the enemy's.[X]
 
 ## SD_BattleVeteran
-Battle Veteran: Gain +1 damage and[N]
+Aspiration: Gain +1 damage and[N]
 +5% Hit per 10 levels unit has.[X]
 
 ## SD_HolyAura

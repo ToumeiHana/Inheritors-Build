@@ -1,0 +1,52 @@
+## CurtisName
+Curtis[X]
+
+## CurtisDesc
+Young man from Laftia.[N]
+Inheritor of the dragon's eye.[X]
+
+## JanessaName
+Janessa[X]
+
+## JanessaDesc
+Commander of a Laftian militia unit.[N]
+adjective1 & adjective2[X]
+
+## AlysaName
+Alysa[X]
+
+## AlysaDesc
+Pegasus knight in-training[N]
+under Janessa's wing.[X]
+
+## JacobName
+Jacob[X]
+
+## JacobDesc
+placeholder[X]
+
+## LucianName
+Lucian[X]
+
+##LucianDesc
+placeholder[X]
+
+## MarcoName
+Marco[X]
+
+## MarcoDesc
+Laftian woodcutter. Former soldier,[N]
+current father. Stoic.[X]
+
+## DianeName
+Diane[X]
+
+## DianeDesc
+placeholder[X]
+
+## LaurenName
+Lauren[X]
+
+## MauritchName
+Mauritch[X]
+

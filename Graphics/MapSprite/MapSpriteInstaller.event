@@ -1,0 +1,49 @@
+ALIGN 4
+CerapterStand:
+#incbin "dmp/CerapterStand.dmp"
+//#incext Png2Dmp "sms/CerapterStand.png" --lz77
+
+ALIGN 4
+CerapterWalk:
+#incbin "dmp/CerapterWalk.dmp"
+//#incext Png2Dmp "mms/CerapterWalk.png" --lz77
+
+ALIGN 4
+SwordCavStand:
+#incbin "dmp/CavalierSwordSALVAGEDstand.dmp"
+
+ALIGN 4
+SwordCavWalk:
+#incbin "dmp/CavalierSwordSALVAGEDwalk.dmp"
+
+ALIGN 4
+LanceCavStand:
+#incbin "dmp/CavalierLanceSALVAGEDstand.dmp"
+
+ALIGN 4
+LanceCavWalk:
+#incbin "dmp/CavalierLanceSALVAGEDwalk.dmp"
+
+ALIGN 4
+KnightSwordStand:
+#incbin "dmp/KnightSwordAgrostand.dmp"
+
+ALIGN 4
+KnightSwordWalk:
+#incbin "dmp/KnightSwordAgrowalk.dmp"
+
+ALIGN 4
+KnightAxeStand:
+#incbin "dmp/KnightAxeAgrostand.dmp"
+
+ALIGN 4
+KnightAxeWalk:
+#incbin "dmp/KnightAxeAgrowalk.dmp"
+
+ALIGN 4
+KnightBowStand:
+#incbin "dmp/KnightBowAgrostand.dmp"
+
+ALIGN 4
+KnightBowWalk:
+#incbin "dmp/KnightBowAgrowalk.dmp"

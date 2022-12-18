@@ -38,8 +38,43 @@ adding yourself!
 
 # Animations
 
-- Flasuban: Improved FalcoKnight
+- Flasuban: Improved FalcoKnight, FHero
+- SALVAGED: Cavaliers
+- TheBlindArcher: Knight Extra Weapons
+- Vilkalizer: Knight Lance
+- Nuramon: FHero
 
+# Tilesets
 
+- Flasuban: Improved Village
 
+# MapSprites
 
+- Flasuban: Improved FalcoKnight (base for Cerapter Knight)
+- SALVAGED: Cavaliers
+- Agro: Knights
+
+# Mugs
+
+- AmBrosiac: Faceless Mage
+
+# Patches
+
+- Scraiza: NarrowFont 
+- Huichelaar: Minimug Palette Fix
+- circles: drumfix
+- SKILLSYS QoL+Other credits here
+
+# Music
+
+- Lemon Tart: Super Robot Wars - Trombe!
+- Thegis: Etrian Odyssey 3 - The First Campaing
+- Sme: TMS#FE - Quest Battle, MK Wii - Mushroom Gorge
+- Psyche: PMD EoS - Defend Globe
+- RSFlame: Berwick Saga - Departure
+- RandomWizard: FE7 - A Knight's Oath
+- Mycahel: Monster Hunter 3 - Jhen Mohran Battle
+
+# Other
+
+- Snakey1: REDA helpers, Repointers

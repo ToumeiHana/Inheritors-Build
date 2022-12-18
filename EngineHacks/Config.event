@@ -8,10 +8,10 @@
 // =========================
 
 // If commented, the test map will not be installed.
-#define USE_TEST_MAP
+//#define USE_TEST_MAP
 
 // The amount of attack speed needed to double an opponent.
-#define AS_DOUBLING_THRESHOLD 3
+#define AS_DOUBLING_THRESHOLD 4
 
 // If true, dropped items will retain their durability.
 #define DROPPED_ITEM_DURABILITY True
@@ -83,7 +83,7 @@
 #define SEMITRANSPARENCY_CHANGES
 
 //If uncommented, will enable use of Supply during the prologue.
-//#define PROLOGUE_SUPPLY
+#define PROLOGUE_SUPPLY
 
 //If uncommented, will enable PC and Generic Music.
 //#define CHARACTER_CHAPTER_SPECIFIC_BATTTLETHEMES
@@ -149,7 +149,7 @@
 
 //If uncommented, Cannot Crit will be implemented.
 //Makes weapon crit of 255 negate crits.
-//#define CANNOT_CRIT
+#define CANNOT_CRIT
 
 //If uncommented, AdvWeaponLocks will be implemented.
 //This is a rewrite of venno's array-based weapon locks.
@@ -166,7 +166,7 @@
 // If uncommented, the fourth page of the stat screen will include personal information on the character.
 // This information can be edited in the "Personal Data Editor.csv" file.
 // This will automatically enable Narrow Font.
-#define ENABLE_PERSONAL_INFO
+//#define ENABLE_PERSONAL_INFO
 
 // If uncommented, the third page of the stat screen will only show weapon ranks that the unit has a rank in.
 #define ONLY_SHOW_USED_RANKS
@@ -327,7 +327,7 @@
 #define USE_STAT_COLORS False
 
 //If true, Fixed Growths mode will exist.
-#define FIXED_GROWTHS_MODE False
+#define FIXED_GROWTHS_MODE True
 
 //ID of flag to use for fixed growths mode, if enabled
 #define FIXED_GROWTHS_FLAG_ID 0xEF

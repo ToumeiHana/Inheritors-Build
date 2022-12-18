@@ -21,12 +21,21 @@ mov r2,#0x1
 and r1,r2
 cmp r1,r2 @checks if it has the byte 0x1, IE promoted
 bne Next
-mov r1,#0x2 @If promoted, gain an extra 20 levels
+mov r1,#3 @If promoted, gain an extra 30 levels
 mov r2,#10
 b Loop
 
 Next:
-mov r1,#0x0 @If not promoted, start at 0
+ldrb r1, @loads class ability 3
+mov r2,#0x8
+and r1,r2
+cmp r1, r2 @checks for byte 0x8, IE TraineeLevelCap
+beq Trainee
+mov r1,#1 @If not promoted, start at 10
+mov r2,#10
+
+Trainee:
+mov r1,#0 @If trainee, start at 0
 mov r2,#10
 
 Loop:

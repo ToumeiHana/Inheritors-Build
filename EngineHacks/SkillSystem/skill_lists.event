@@ -4,6 +4,7 @@ BYTE 00 00
 ALIGN 4
 
 EirikaLordSkillList:
+BYTE 1 SupplyID
 BYTE 00 00
 ALIGN 4
 
@@ -13,7 +14,7 @@ BYTE 00 00
 ALIGN 4
 
 EirikaGreatLordSkillList:
-BYTE 1 SupplyID
+BYTE 255 SupplyID
 BYTE 00 00
 ALIGN 4
 
@@ -79,8 +80,8 @@ WyvernLordSkillList:
 BYTE 00 00
 ALIGN 4
 
-WyvernKnightSkillList:
-BYTE 1 LunaID
+CerapterKnightSkillList:
+BYTE 1 ArmoredBlowID
 BYTE 00 00
 ALIGN 4
 

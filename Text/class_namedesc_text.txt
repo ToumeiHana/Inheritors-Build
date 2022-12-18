@@ -1,0 +1,12 @@
+## CerapterClass
+^{Cerapter Knight}[X]
+
+## CerapterDesc
+Experienced Pegasus Knights with[N]
+superior defense. Equip: Lances, Axes[X]
+
+## SwordCavClass
+^{Sword Cavalier}[X]
+
+## LanceCavClass
+^{Lance Cavalier}[X]

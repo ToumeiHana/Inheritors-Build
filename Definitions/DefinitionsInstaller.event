@@ -1,0 +1,8 @@
+//#include "MapDefinitions.event"
+#include "ChapterDefinitions.event"
+#include "CharacterDefinitions.event"
+//#include "ItemDefinitions.event"
+#include "ClassDefinitions.event"
+#include "MusicDefinitions.event"
+#include "MiscDefinitions.event"
+#include "Repointers.event"

@@ -1,0 +1,4 @@
+#include "BattleAnim/AnimDefinitions.event"
+#include "BattleAnim/Master Animation Installer.event"
+#include "Portrait/MugInstaller.event"
+#include "MapSprite/MapSpriteInstaller.event"

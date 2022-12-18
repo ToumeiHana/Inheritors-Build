@@ -110,7 +110,7 @@ mov r2, #0x42
 tst r1, r2
 bne     SkillReturn @do nothing if magic bit set
 mov r2, #0x2
-lsl r2, #0x10 @0x20000 negate def/res
+lsl r2, #0x10 @0x20000 negate def/res 
 tst r1, r2
 bne SkillReturn
 ldr r0, =0x203a4ec
@@ -122,7 +122,7 @@ ldr r0, =0x203a4ec
 @testing
 add r0, #0x5c @attacker defense
 ldrh r3, [r0]
-add r3, #10
+add r3, #4
 strh r3, [r0]
 b SkillReturn
 
@@ -145,10 +145,10 @@ add     r0,#0x5a    @Move to the attacker's dmg.
 ldrh    r3,[r0]     @Load the attacker's dmg into r3.
 add     r3,#2    @Add 2 to the attacker's dmg.
 strh    r3,[r0]     @Store attacker dmg.
-add     r0,#2    @Move to the attacker's def.
-ldrh    r3,[r0]     @Load the attacker's def into r3.
-add     r3,#2    @Add 2 to the attacker's def.
-strh    r3,[r0]     @Store attacker def.
+@add     r0,#2    @Move to the attacker's def.
+@ldrh    r3,[r0]     @Load the attacker's def into r3.
+@add     r3,#2    @Add 2 to the attacker's def.
+@strh    r3,[r0]     @Store attacker def.
 b       SkillReturn
 
 PragmaticSkill:
@@ -160,12 +160,12 @@ beq SkillReturn
 ldr     r0,=0x203A4EC       @Move attacker data into r0.
 add     r0,#0x5a    @Move to the attacker's dmg.
 ldrh    r3,[r0]     @Load the attacker's dmg into r3.
-add     r3,#3    @Add 3 to the attacker's dmg.
+add     r3,#2    @Add 2 to the attacker's dmg.
 strh    r3,[r0]     @Store attacker dmg.
-add     r0,#2    @Move to the attacker's def.
-ldrh    r3,[r0]     @Load the attacker's def into r3.
-add     r3,#1    @Add 1 to the attacker's def.
-strh    r3,[r0]     @Store attacker def.
+@add     r0,#2    @Move to the attacker's def.
+@ldrh    r3,[r0]     @Load the attacker's def into r3.
+@add     r3,#1    @Add 1 to the attacker's def.
+@strh    r3,[r0]     @Store attacker def.
 b       SkillReturn
 
 HeroesDeathSkill:

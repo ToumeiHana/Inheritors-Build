@@ -5,6 +5,7 @@
     ORG FreeSpace
 
     #include "repointedTextTable.event"
+	#include "Definitions/DefinitionsInstaller.event"
 
     //Text first for Text ID definitions
     #include "Text/InstallTextData.event"
@@ -13,26 +14,30 @@
     //CSV tables
     #include "Tables/TableInstaller.event"
     MESSAGE Used table space ends at currentOffset
-
-    //Engine Hacks
-    #include "EngineHacks/_MasterHackInstaller.event"
-    MESSAGE Used hax space ends at currentOffset
-
-	#ifdef USE_TEST_MAP
-    //Events
-    #include "Events/Release_map.event"
-    #include "Events/WorldMapEvents.event"
-
-    //Maps
-    #include "Maps/MasterMapInstaller.event"
-    #endif // USE_TEST_MAP
-	
-    MESSAGE Used free space ends at currentOffset
 	
 	//Graphics
-	#include "Graphics/BattleAnim/Master Animation Installer.event"
-	#include "Graphics/Portrait/MugInstaller.event"
+	#include "Graphics/MasterGraphicsInstaller.event"
+	#include "Maps/TilesetInstaller.event"
+	MESSAGE Used graphics space ends at currentOffset
 	
+	//Music
+	#include "Music/Music Installer.event"
+	MESSAGE Used music space ends at currentOffset
+	
+    //Engine Hacks
+    #include "EngineHacks/_MasterHackInstaller.event"
+	#include "EngineHacks/MMPFix/MinimugPalette.event"
+    MESSAGE Used hax space ends at currentOffset
+
+    //Events
+	#include "Events/REDAs.event"
+	#include "Events/MasterEventInstaller.event"
+    #include "Events/WorldMapEvents.event"
+	MESSAGE Used event space ends at currentOffset
+
+    //Maps
+    #include "Maps/MasterMapInstaller.event"	
+    MESSAGE Used free space ends at currentOffset
 	
 #else
     ERROR "You are not assembling FE8 events!"

@@ -1,0 +1,223 @@
+EventPointerTable(Chapter1Events, PointerList)
+
+
+setText(0x160, NewChName)
+
+ALIGN 4
+NewChName:
+String("Chapter 1: Village Raid")
+BYTE 0
+
+ALIGN 4
+PointerList:
+	POIN TurnBasedEvents
+	POIN CharacterBasedEvents
+	POIN LocationBasedEvents
+	POIN MiscBasedEvents
+	POIN Dunno1 Dunno2 Dunno3 Tutorial
+	POIN Traps1 Traps2
+	POIN Units1 Units1  //This unit group determines the number and position of deployment slots when there is a prep screen
+	POIN $0 $0 $0
+	POIN $0 $0 $0
+	POIN BeginningScene EndingScene
+
+TurnBasedEvents:
+
+	TurnEventPlayer(0, ReinforcementGroupSpawn, 3)
+	END_MAIN
+
+ALIGN 32
+CharacterBasedEvents:
+
+	CharacterEventBothWays(7,Ch1JanessaDianeTalk,Janessa,Diane)
+	CharacterEventBothWays(8,Ch1JanessaMarcoTalk,Janessa,Marco)
+	END_MAIN
+
+MiscBasedEvents:
+	CauseGameOverIfLordDies
+	DefeatBoss(EndingScene)
+	END_MAIN
+
+LocationBasedEvents:
+
+	Village(9,TopVillage,9,3)
+	Village(10,BottomVillage,10,9)
+	House(11,HouseEvent,4,16)
+	END_MAIN
+
+Dunno1:
+
+	END_MAIN
+
+Dunno2:
+
+	END_MAIN
+
+Dunno3:
+
+	END_MAIN
+
+Tutorial:
+
+	END_MAIN
+
+MarcoGroup:
+
+	UNIT Marco Fighter Curtis Level(8,Ally,False) [9,3] 0x00 0x00 0x01 REDA9R4 [SteelAxe] NoAI
+	UNIT
+
+DianeGroup:
+
+	UNIT Diane Outlaw_F Curtis Level(1,Ally,False) [9,3] 0x00 0x00 0x01 REDA8R4 [IronBow] NoAI
+	UNIT
+	
+Units1:
+
+	UNIT Curtis Eye Curtis Level(1,Ally,False) [8,23] 0x00 0x00 0x00 0x01 [Rapier, Vulnerary, EvilEye] NoAI 
+	UNIT Janessa CerapterKnight Curtis Level(1,Ally,False) [6,23] 0x00 0x00 0x00 0x01 [SilverAxe, SlimLance] NoAI //[6,23]
+	UNIT Alysa Recruit_1 Curtis Level(1,Ally,False) [7,23] 0x00 0x00 0x01 [IronLance, Vulnerary] NoAI
+	UNIT Jacob SwordCavalier Curtis Level(1,Ally,False) [8,24] 0x00 0x00 0x00 0x01 [IronSword] NoAI
+	UNIT Lucian LanceCavalier Curtis Level(1,Ally,False) [7,24] 0x00 0x00 0x00 0x01 [IronLance] NoAI
+	UNIT
+
+EnemyUnits:
+
+	UNIT ONeill SwordKnight 0x0 Level(7,Enemy,False) [18,1] 0x00 0x00 0x00 0x00 [SteelSword] AttackInRangeAI
+	UNIT Farum Mercenary ONeill Level(2,Enemy,True) [0,4] 0x00 0x00 0x00 0x00 [IronSword] AttackWallAI
+	UNIT Farum Mercenary ONeill Level(2,Enemy,True) [2,3] 0x00 0x00 0x00 0x00 [IronSword] AttackWallAI
+	UNIT Farum Fighter ONeill Level(2,Enemy,True) [10,19] 0x00 0x00 0x00 0x00 [IronAxe] AttackInRangeAI
+	UNIT Farum Fighter ONeill Level(2,Enemy,True) [11,19] 0x00 0x00 0x00 0x00 [IronAxe] AttackInRangeAI
+	UNIT Farum SwordCavalier ONeill Level(2,Enemy,True) [14,11] 0x00 0x00 0x00 [SteelSword] AttackInRangeAI
+	UNIT Farum PegasusKnight ONeill Level(2,Enemy,True) [19,12] 0x00 0x00 0x00 [IronLance] TwoActionAI
+	UNIT Farum Soldier ONeill Level(2,Enemy,True) [19,2] 0x00 0x00 0x00 [IronLance] DefaultAI
+	UNIT Farum Soldier ONeill Level(2,Enemy,True) [3,18] 0x00 0x00 0x00 [IronLance] DefaultAI
+	UNIT Farum Soldier ONeill Level(2,Enemy,True) [4,13] 0x00 0x00 0x00 [IronLance] TwoActionAI
+	UNIT Farum Soldier ONeill Level(3,Enemy,True) [17,0] 0x00 0x00 0x00 [IronLance] MoveWithLeaderAI
+	UNIT Goon Soldier ONeill Level(1,Enemy,True) [18,2] 0x00 0x00 0x00 [IronLance] DoNothing
+	UNIT
+	
+ReinforcementGroup:
+
+	UNIT Farum LanceCavalier ONeill Level(1,Enemy,True) [19,3] 0x00 0x00 0x00 [IronLance] DefaultAI
+	UNIT Farum SwordCavalier ONeill Level(1,Enemy,True) [19,4] 0x00 0x00 0x00 [IronSword] DefaultAI
+	UNIT Farum SwordCavalier ONeill Level(1,Enemy,True) [19,21] 0x00 0x00 0x00 [IronSword] DefaultAI
+	UNIT
+	
+	
+Traps1:
+	ENDTRAP
+	ALIGN 4
+
+Traps2:
+	ENDTRAP
+	ALIGN 4
+
+BeginningScene:
+	SetBackground(0x35)
+	TEXTSTART
+	TEXTSHOW Ch1PreMap
+	TEXTEND
+	MUSC 0x48
+	BACKGROUND_CHANGE 0x35 1 10 //import a tent bg for this
+	TEXTCONT
+	TEXTEND
+	EndConvo
+
+	MUSC Tension
+	CAMERA [18,1]
+	EVBIT_F 9
+	//FADU 10
+	LOAD1 0x1 EnemyUnits
+	ENUN
+	LOAD1 0x01 Units1
+	ENUN
+	CURSOR_FLASHING ONeill
+	STAL 40
+	REMOVE_CURSORS
+	Text(Ch1EnemyOpeningText)
+	NoFade
+	EVBIT_T 9
+	MOVE 0 Goon [9,5]
+	ENUN
+	STAL 20
+	
+	CAMERA Curtis
+	CURSOR_FLASHING Curtis
+	STAL 50
+	REMOVE_CURSORS
+	Text(Ch1PlayerOpeningText)
+	NoFade
+		
+	CAMERA [9,3]
+	CURSOR [9,3]
+	STAL 30
+	REMOVE_CURSORS
+	FADI 10
+	SetBackground(0x00)
+	Text(VillageSpawnText)
+	EndConvo
+	LOAD1 0x1 MarcoGroup
+	StartBattle
+	NormalDamage(0,15)
+	MissedAttack(1,0)
+	EndAttack
+	ENUN
+	FIGHT_MAP Marco Goon SteelAxe False
+	ENUN
+	LOAD1 0x01 DianeGroup
+	ENUN
+	StartBattle
+	CriticalHit(0,18)
+	EndAttack
+	FIGHT_MAP Diane Goon IronBow False
+	ENUN
+	Text(VillageSpawnText2)	
+	NoFade
+	ENDA
+
+ReinforcementGroupSpawn:
+	LOAD1 0x01 ReinforcementGroup
+	CAMERA [19,3]
+	CAMERA [19,21]
+	NoFade
+	ENDA
+	
+Ch1JanessaDianeTalk:
+	MUSS FlapperGirlID
+	Text(Ch1JanessaDianeTalkText)
+	MURE 5
+	NoFade
+	ENDA
+	
+Ch1JanessaMarcoTalk:
+	MUSS FlapperGirlID
+	Text(Ch1JanessaMarcoTalkText)
+	MURE 5
+	NoFade
+	ENDA
+
+TopVillage:
+	CHECK_ACTIVEID Marco
+	BNE 1 s0 sC
+	CHECK_ACTIVEID Diane
+	BNE 1 s0 sC
+	VillageEventItem(Ch1TopVillageB,0x00,Elixir)
+	ENDA
+
+	LABEL 1
+	VillageEventItem(Ch1TopVillageA,0x00,Elixir)
+	ENDA
+	
+BottomVillage:
+	VillageEventItem(Ch1BottomVillageText,0x00,Javelin)
+	ENDA
+	
+HouseEvent:
+	SetBackground(0x00)
+	Text(Ch1HouseText)
+	ENDA
+	
+EndingScene:
+	MNC2 Chapter2
+	NoFade
+	ENDA

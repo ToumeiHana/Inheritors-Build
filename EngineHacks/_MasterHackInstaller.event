@@ -127,7 +127,7 @@ POP
   #include "Necessary/SuspendDebuffs/Debuffs.event"
 
   //Stat Screens palette by allegiance
-  #include "ExternalHacks/StatScreenAllegiance/StatScreenAllegiance.event"
+  //#include "ExternalHacks/StatScreenAllegiance/StatScreenAllegiance.event"
 
   //Menu Semitransparency
   #include "QualityOfLife/SemitransparencyChanges.event"
@@ -247,3 +247,4 @@ POP
     #include "Necessary/SuspendDebuffs/SuspendExpansion.event"
 
   #endif // USE_SAVE_EXPANSION
+  

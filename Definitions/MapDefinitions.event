@@ -1,0 +1,56 @@
+
+//Tilesets
+#define VillageObjectsID 0x88
+
+//Palettes
+#define VillagePaletteID 0x89
+
+//Tile Configs
+#define VillageConfigID 0x8A
+
+
+
+//Map IDs
+#define Chapter1Map 0x04
+#define Chapter2Map 0x08
+#define Chapter3Map 0x0B
+#define Chapter4Map 0x11
+#define Chapter5Map 0x15
+#define Chapter6Map 0x1B
+#define Chapter7Map 0x1F
+#define Chapter8Map 0x22
+#define Chapter9Map 0x25
+#define Chapter10Map 0x28
+#define Chapter11Map 0x2B
+#define Chapter12Map 0x31
+#define Chapter13Map 0x35
+#define Chapter14Map 0x39
+#define Chapter15Map 0x3F
+#define Chapter16Map 0x45
+#define Chapter17Map 0x49
+#define Chapter18Map 0x4D
+#define Chapter19Map 0x53
+#define Chapter20Map 0x58
+#define Chapter1CutsceneMap 0x5B
+
+//Tilechanges
+#define Chapter1MapChanges 0x06
+#define Chapter2MapChanges 0x09
+#define Chapter3MapChanges 0x0C
+#define Chapter4MapChanges 0x13
+#define Chapter5MapChanges 0x16
+#define Chapter6MapChanges 0x1D
+#define Chapter7MapChanges 0x20
+#define Chapter8MapChanges 0x23
+#define Chapter9MapChanges 0x26
+#define Chapter10MapChanges 0x29
+#define Chapter11MapChanges 0x2C
+#define Chapter12MapChanges 0x32
+#define Chapter13MapChanges 0x36
+#define Chapter14MapChanges 0x3A
+#define Chapter15MapChanges 0x40
+#define Chapter16MapChanges 0x46
+#define Chapter17MapChanges 0x4A
+#define Chapter18MapChanges 0x4E
+#define Chapter19MapChanges 0x55
+#define Chapter20MapChanges 0x59

@@ -1,0 +1,11 @@
+#define TrombeID 0x1b
+#define FirstCampaingID 0x19
+#define HeavyArmorCorpsID 0x34
+#define QuestBattleID 0x46
+#define DefendGlobeID 0x3f
+#define DepartureID 0x27
+#define KnightsOathID 0x28
+#define MushroomGorgeID 0x35
+#define MiitopiaBattleID 0x16
+#define JhenMohranID 0x0b
+#define FlapperGirlID 0x44

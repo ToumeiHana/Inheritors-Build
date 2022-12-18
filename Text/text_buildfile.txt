@@ -120,6 +120,8 @@ a skill when used.[X]
 
 #include "unitinfo_text.txt"
 
-#include "unitname_text.txt"
+#include "unit_namedesc_text.txt"
 
-#include "classname_text.txt"
+#include "class_namedesc_text.txt"
+
+#include "chaptertextinstaller.txt"

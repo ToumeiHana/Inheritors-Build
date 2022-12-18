@@ -1,0 +1,48 @@
+#ifdef _FE6_
+  #define SongTableOffset  0x3994D8
+  voicegroup000:
+  //include your voicemap here, FE6 has no native instrument map at this time
+#endif
+
+#ifdef _FE7_
+  #define SongTableOffset  0x69d6E0
+  voicegroup000:
+  #incbin "FE7_NI_Map.bin"
+#endif
+
+#ifdef _FE8_
+  #define SongTableOffset  0x224470
+  #include "drumfix_fe8.event"
+  voicegroup000:
+  #incbin "FE8_NI_Map.bin"
+#endif
+
+#define SongTable(index,SongPointer,Group) "PUSH; ORG SongTableOffset+(8*index); POIN SongPointer; SHORT Group Group; POP"
+#define BattleMusicGroup 0
+#define MapMusicGroup 1
+#define SFXGroup 6
+
+//SongTable(37,song25,MapMusicGroup)
+//#include "event/song25.event"
+SongTable(TrombeID,Trombe,BattleMusicGroup)
+#include "event/Trombe.event"
+SongTable(FirstCampaingID,FirstCampaing,BattleMusicGroup)
+#include "event/FirstCampaing.event"
+SongTable(HeavyArmorCorpsID,song34,MapMusicGroup)
+#include "event/HeavyArmorCorps.event"
+SongTable(QuestBattleID,questbattle,MapMusicGroup)
+#include "event/TokyoMirageSessionFEQuestBattleSme.event"
+SongTable(DefendGlobeID,song2E,MapMusicGroup)
+#include "event/DefendGlobePsyche.event"
+//SongTable(DepartureID,song03A3,MapMusicGroup)
+//#include "event/DepartureRSFlame.event"
+SongTable(KnightsOathID,song28,MapMusicGroup)
+#include "event/FE7AKnight_sOathRandomWizard.event"
+SongTable(MushroomGorgeID,Gorge,MapMusicGroup)
+#include "event/MarioKartWiiMushroomGorgeSme.event"
+SongTable(MiitopiaBattleID,EventBattle,MapMusicGroup)
+#include "event/MiitopiaEventBattleSme.event"
+SongTable(JhenMohranID,songMohran,MapMusicGroup)
+#include "event/MonsterHunter3JhenMohranMycahel.event"
+SongTable(FlapperGirlID,FlapperGirl,MapMusicGroup)
+#include "event/FlapperGirl.event"

@@ -552,7 +552,7 @@
 
 //Vigilance: Avoid +20.
 //By Sme
-#define VigilanceID 255
+#define VigilanceID 17
 
 //Wind Disciple: +10 Hit and Avoid when HP is not at max.
 //Author Unknown (Initial Commit)
@@ -615,23 +615,28 @@
 
 //Adept: Gain a consecutive attack. (Speed % activation)
 //Author Unknown (Initial Commit)
-#define AdeptID 14
+
+//#define AdeptID 14
+#define AdeptID 255
 
 //Aegis: Nullify a magic attack. (Skill % activation)
 //Author Unknown (Initial Commit)
-#define AegisID 17
+#define AegisID 255
 
 //Aether: First strike absorbs HP, second strike negates defenses. (Skill/2 % activation)
 //Author Unknown (Initial Commit)
-#define AetherID 13
+//#define AetherID 13
+#define AetherID 255
 
 //Astra: 5 attacks at half damage. (Skill % activation)
 //Author Unknown (Initial Commit)
-#define AstraID 15
+//#define AstraID 15
+#define AstraID 255
 
 //Bane: Leave the opponent at 1 HP. (Skill/2 % activation)
 //Author Unknown (Initial Commit)
-#define BaneID 20
+//#define BaneID 20
+#define BaneID 255
 
 //Barricade: Damage taken is halved after first being struck.
 //By Snakey1
@@ -643,15 +648,18 @@
 
 //Black Magic: Skill% chance to inflict a random status.
 //By Tequila
-#define BlackMagicID 39
+//#define BlackMagicID 39
+#define BlackMagicID 255
 
 //Colossus: Triples Strength. (Skill % activation)
 //Author Unknown (Initial Commit)
-#define ColossusID 32
+//#define ColossusID 32
+#define ColossusID 255
 
 //Corona: Negate enemy resistance. (Skill% activation)
 //By Sme
-#define CoronaID 35
+//#define CoronaID 35
+#define CoronaID 255
 
 //Counter: Reflect physical damage when attacked at 1-2 range.
 //Author Unknown (Initial Commit)
@@ -663,7 +671,8 @@
 
 //Deadeye: Doubles hit rate. Skill% chance to inflict sleep.
 //By Sme
-#define DeadeyeID 42
+//#define DeadeyeID 42
+#define DeadeyeID 255
 
 //Devil's Luck: Immune to Devil Reversal. Gives unit's Devil Reversal to the enemy. (31-Luck % chance of Devil Reversal).
 //By Leonarth
@@ -682,7 +691,8 @@
 
 //Dragon Fang: 1.5x damage. (Skill% activation)
 //By Sme
-#define DragonFangID 33
+//#define DragonFangID 33
+#define DragonFangID 255
 
 //Eclipse: Leave opponent with 1 HP. (Skill % activation)
 //By Sme
@@ -702,11 +712,13 @@
 
 //Ignis: Add Def/2 and Res/2 to damage dealt. (Skill % activation)
 //Author Unknown (Initial Commit)
-#define IgnisID 27
+//#define IgnisID 27
+#define IgnisID 255
 
 //Impale: Deal 4x damage. (Skill % activation)
 //Author Unknown (Initial Commit)
-#define ImpaleID 36
+//#define ImpaleID 36
+#define ImpaleID 255
 
 //Lethality: Instantly kill opponent. (Skill/2 % activation)
 //Author Unknown (Initial Commit)
@@ -726,7 +738,8 @@
 
 //Pavise: Nullify a physical attack. (Skill % activation)
 //Author Unknown (Initial Commit)
-#define PaviseID 16
+//#define PaviseID 16
+#define PaviseID 255
 
 //Petrify: Inflict stone status. (Skill% activation)
 //By Sme
@@ -734,27 +747,33 @@
 
 //Sol: Restore damage dealt as HP. (Skill % activation)
 //Author Unknown (Initial Commit)
-#define SolID 12
+//#define SolID 12
+#define SolID 255
 
 //Sure Shot: A precision attack that always hits and does 1.5x damage. (Skill % activation)
 //Author Unknown (Initial Commit)
-#define SureShotID 10
+//#define SureShotID 10
+#define SureShotID 255
 
 //Corrosion: Decrease durability of enemy's weapon by User's level (Skill/2 % activation)
 //By Sme
-#define CorrosionID 22
+//#define CorrosionID 22
+#define CorrosionID 255
 
 //Glacies: Add unit's Resistance to damage dealt. (Skill % activation)
 //By Sme
-#define GlaciesID 28
+//#define GlaciesID 28
+#define GlaciesID 255
 
 //Great Shield: Negate all damage. (Defense % activation)
 //By Sme
-#define GreatShieldID 8
+//#define GreatShieldID 8
+#define GreatShieldID 255
 
 //Vengeance: Add half of damage taken to damage dealt. (Skill % activation)
 //By Sme
-#define VengeanceID 38
+//#define VengeanceID 38
+#define VengeanceID 255
 
 //Range Skills
 
@@ -980,11 +999,13 @@
 
 //Rightful King: +10% to Skill activation rate.
 //Author Unknown (Initial Commit)
-#define RightfulKingID 104
+//#define RightfulKingID 104
+#define RightfulKingID 255
 
 //Rightful God: +30% to Skill activation rate.
 //Author Unknown (Initial Commit)
-#define RightfulGodID 105
+//#define RightfulGodID 105
+#define RightfulGodID 255
 
 //Rightful Arch: Sets Skill activation rate to 100%.
 //Author Unknown (Initial Commit)
