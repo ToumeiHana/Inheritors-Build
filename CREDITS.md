@@ -63,6 +63,7 @@ adding yourself!
 - Scraiza: NarrowFont 
 - Huichelaar: Minimug Palette Fix
 - circles: drumfix
+- NIMAP 2: Alusq
 - SKILLSYS QoL+Other credits here
 
 # Music

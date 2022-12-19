@@ -42,6 +42,10 @@ Mauritch_Mug:
 #incext PortraitFormatter "Mauritch.png"
 setMugEntry(0x0B, Mauritch_Mug, 4,5,4,3)
 
+Katja_Mug:
+#incext PortraitFormatter "Katja.png"
+setMugEntry(0x0C, Katja_Mug, 3,6,3,4)
+
 MysteryMage_Mug:
 #incext PortraitFormatter "FacelessMageAmBrosiac.png"
 setMugEntry(0x57, MysteryMage_Mug, 2,5,3,3)

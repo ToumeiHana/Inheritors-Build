@@ -8,8 +8,8 @@
 #define Diane 0x07
 #define Lauren 0x08
 #define Mauritch 0x09
-/*#define Garcia 0x0A
-#define Innes 0x0B
+#define Katja 0x0A
+/*#define Innes 0x0B
 #define Lute 0x0C*/
 #define Nella 0x0D
 /*#define Cormag 0x0E
