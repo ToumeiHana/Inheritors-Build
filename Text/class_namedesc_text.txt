@@ -10,3 +10,6 @@ superior defense. Equip: Lances, Axes[X]
 
 ## LanceCavClass
 ^{Lance Cavalier}[X]
+
+## AxeCavClass
+^{Axe Cavalier}[X]

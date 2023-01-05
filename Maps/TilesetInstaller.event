@@ -1,0 +1,10 @@
+ALIGN 4
+VillageObjects:
+#incext Png2Dmp "VillageV2StandardTiles.png" --lz77
+
+ALIGN 4
+VillageConfig:
+#incext compress "VillageV2Config.mapchip_config"
+
+EventPointerTable(VillageObjectsID, VillageObjects)
+EventPointerTable(VillageConfigID, VillageConfig)

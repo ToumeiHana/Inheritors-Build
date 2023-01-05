@@ -5,7 +5,8 @@ setText(0x160, NewChName)
 
 ALIGN 4
 NewChName:
-String("Chapter 1: Village Raid")
+//String("Chapter 1: Village Raid")
+String("Invasion")
 BYTE 0
 
 ALIGN 4
@@ -75,7 +76,7 @@ Units1:
 
 	UNIT Curtis Eye Curtis Level(1,Ally,False) [8,23] 0x00 0x00 0x00 0x01 [Rapier, Vulnerary, EvilEye] NoAI 
 	UNIT Janessa CerapterKnight Curtis Level(1,Ally,False) [6,23] 0x00 0x00 0x00 0x01 [SilverAxe, SlimLance] NoAI //[6,23]
-	UNIT Alysa Recruit_1 Curtis Level(1,Ally,False) [7,23] 0x00 0x00 0x01 [IronLance, Vulnerary] NoAI
+	UNIT Alysa Recruit_1 Curtis Level(1,Ally,False) [7,23] 0x00 0x00 0x01 [Skygazer, IronLance, Vulnerary] NoAI
 	UNIT Jacob SwordCavalier Curtis Level(1,Ally,False) [8,24] 0x00 0x00 0x00 0x01 [IronSword] NoAI
 	UNIT Lucian LanceCavalier Curtis Level(1,Ally,False) [7,24] 0x00 0x00 0x00 0x01 [IronLance] NoAI
 	UNIT
@@ -113,12 +114,16 @@ Traps2:
 	ALIGN 4
 
 BeginningScene:
-	SetBackground(0x35)
+	SetBackground(0x20)
 	TEXTSTART
 	TEXTSHOW Ch1PreMap
 	TEXTEND
 	MUSC 0x48
-	BACKGROUND_CHANGE 0x35 1 10 //import a tent bg for this
+	BACKGROUND_CHANGE 0x35 1 10 //import an inside tent bg for this
+	TEXTCONT
+	TEXTEND
+	//MUSC 
+	BACKGROUND_CHANGE Plain 1 10 //import camp bg
 	TEXTCONT
 	TEXTEND
 	EndConvo
@@ -157,11 +162,11 @@ BeginningScene:
 	Text(VillageSpawnText)
 	EndConvo
 	LOAD1 0x1 MarcoGroup
+	ENUN
 	StartBattle
 	NormalDamage(0,15)
 	MissedAttack(1,0)
 	EndAttack
-	ENUN
 	FIGHT_MAP Marco Goon SteelAxe False
 	ENUN
 	LOAD1 0x01 DianeGroup
@@ -171,6 +176,7 @@ BeginningScene:
 	EndAttack
 	FIGHT_MAP Diane Goon IronBow False
 	ENUN
+	REMOVEUNIT Goon
 	Text(VillageSpawnText2)	
 	NoFade
 	ENDA
@@ -215,9 +221,23 @@ BottomVillage:
 HouseEvent:
 	SetBackground(0x00)
 	Text(Ch1HouseText)
+	EndConvo
 	ENDA
 	
 EndingScene:
+	//FADU 10
+	MUSC Victory
+	SetBackground(Outside_Village_Day)
+	
+	CHECK_ALIVE Marco
+	BEQ 2 s0 sC
+	CHECK_ALIVE Diane
+	BEQ 2 s0 sC
+	Text(MarcoDianeAliveText)
+	
+	LABEL 2
+	Text(Ch1EndText)
+	EndConvo
 	MNC2 Chapter2
 	NoFade
 	ENDA

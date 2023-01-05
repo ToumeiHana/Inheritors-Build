@@ -1,0 +1,14 @@
+## RustedNailName
+Rusted Nail[X]
+
+## DragonClawName
+Dragon Claw[X]
+
+## ElstoneName
+Elstone[X]
+
+## SkygazerName
+Skygazer[X]
+
+## SkygazerDesc
+Alysa only. Effective against other fliers.[X]

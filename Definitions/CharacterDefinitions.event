@@ -9,11 +9,11 @@
 #define Lauren 0x08
 #define Mauritch 0x09
 #define Katja 0x0A
-/*#define Innes 0x0B
-#define Lute 0x0C*/
+//#define Innes 0x0B
+#define Libby 0x0C
 #define Nella 0x0D
-/*#define Cormag 0x0E
-#define Ephraim 0x0F
+#define Emmanuel 0x0E
+/*#define Ephraim 0x0F
 #define Forde 0x10
 #define Kyle 0x11
 #define Amelia 0x12
@@ -42,8 +42,8 @@
 #define FadoCC 0x2A
 #define IsmaireCC 0x2B
 #define HaydenCC 0x2C
-#define LyonSummon 0x3B
-#define KnollSummon 0x3E
+#define LyonSummon 0x3B*/
+#define BoulderSummon 0x3E/*
 #define EvanSummon 0x3F
 #define Lyon_Ch17 0x40
 #define Morva_Ch20 0x41
@@ -86,6 +86,7 @@
 #define Goon 0x81
 #define HeroKing 0x95
 #define SceneDrago 0x96
+#define Brigand_Enemy 0x97
 /*#define Fomortiis 0xBE
 #define Fado 0xC5
 #define Hayden 0xC7

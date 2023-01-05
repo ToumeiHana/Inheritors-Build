@@ -388,8 +388,8 @@ Anathema: -10 Avoid/Dodge to all[N]
 enemies within 3 tiles.[X]
 
 ## SD_LilysPoise
-Lily's Poise: Adjacent allies gain[N]
-+1/-3 damage dealt/received.[X]
+Good Neighbour: Adjacent allies[N]
+receive -3 damage.[X]
 
 ## SD_Expertise
 Expertise: Reduce bonus damage[N]
@@ -918,7 +918,7 @@ Daunt: -5 Hit and Crit to all[N]
 enemy units in a 3-tile radius.[X]
 
 ## SD_BloodTide
-Blood Tide: Atk and Hit +5[N]
+Blood Tide: Atk +3 and Hit +5[N]
 to adjacent allies.[X]
 
 ## SD_WhitePool
@@ -1100,8 +1100,8 @@ Push Resistance: When HP is[N]
 full, gain +5 resistance.[X]
 
 ## SD_Skybreaker
-Skybreaker: Deal effective[N]
-damage to flying units.[X]
+Air superiority: Deal effective[N]
+damage to other flying units.[X]
 
 ## SD_Resourceful
 Resourceful: Double bonus[N]

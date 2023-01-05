@@ -40,12 +40,20 @@ and		r0,r2
 cmp		r0,#0
 bne		NullifyCheck
 
-Skybreaker:
+Skybreaker:					@modified to air superiority
 mov		r0,r4
 ldr		r1,SkybreakerID
 ldr		r3,SkillTester
 mov		r14,r3
 .short	0xF800
+cmp		r0,#0
+beq		RetFalse
+
+ldr		r2,[r4,#4]
+mov		r1,#0x50
+ldrh	r2,[r2,r1]			@weaknesses attacker unit has
+ldrh 	r0,SkybreakerClassType
+and		r0,r2
 cmp		r0,#0
 beq		RetFalse
 

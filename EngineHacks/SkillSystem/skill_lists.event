@@ -30,6 +30,7 @@ BYTE 00 00
 ALIGN 4
 
 GeneralSkillList:
+BYTE 1 LilysPoiseID
 BYTE 00 00
 ALIGN 4
 
@@ -51,6 +52,7 @@ BYTE 00 00
 ALIGN 4
 
 SwordmasterSkillList:
+BYTE 1 SwordfaireID
 BYTE 00 00
 ALIGN 4
 
@@ -64,11 +66,13 @@ ArcherSkillList:
 BYTE 00 00
 ALIGN 4
 
-SniperSkillList:
+AdventurerSkillList:
+BYTE 1 ReMoveID
 BYTE 00 00
 ALIGN 4
 
 RangerSkillList:
+BYTE 1 BowfaireID
 BYTE 00 00
 ALIGN 4
 
@@ -132,6 +136,7 @@ BYTE 00 00
 ALIGN 4
 
 WarriorSkillList:
+BYTE 1 SealDefID
 BYTE 00 00
 ALIGN 4
 
@@ -144,6 +149,7 @@ BYTE 00 00
 ALIGN 4
 
 BerserkerSkillList:
+BYTE 1 AxefaireID
 BYTE 00 00
 ALIGN 4
 
@@ -160,6 +166,7 @@ BYTE 00 00
 ALIGN 4
 
 FalcoknightSkillList:
+BYTE 1 LancefaireID
 BYTE 00 00
 ALIGN 4
 
@@ -192,6 +199,7 @@ BYTE 00 00
 ALIGN 4
 
 PhantomSkillList:
+BYTE 1 VoidCurseID
 BYTE 00 00
 ALIGN 4
 
@@ -212,5 +220,45 @@ BYTE 00 00
 ALIGN 4
 
 DemonKingSkillList:
+BYTE 00 00
+ALIGN 4
+
+GreatLancerSkillList:
+BYTE 1 ChargeID
+BYTE 00 00
+ALIGN 4
+
+ForrestKnightSkillList:
+BYTE 00 00
+ALIGN 4
+
+BallisticanSkillList:
+BYTE 00 00
+ALIGN 4
+
+SharpclawSkillList:
+BYTE 00 00
+ALIGN 4
+
+SkypiercerSkillList:
+BYTE 00 00
+ALIGN 4
+
+FlamelashSkillList:
+BYTE 1 TomeRangeUpID
+BYTE 00 00
+ALIGN 4
+
+GutSkillList:
+BYTE 00 00
+ALIGN 4
+
+FellwingSkillList:
+BYTE 1 SkybreakerID
+BYTE 00 00
+ALIGN 4
+
+FangSkillList:
+BYTE 1 SwordfaireID
 BYTE 00 00
 ALIGN 4

@@ -1,0 +1,37 @@
+## ClawRecruitText
+[MidLeft][LoadCurtis]
+text[a][X]
+
+## KatjaRecruitText
+[MidLeft][LoadFace][CurrentPortrait]
+[MidRight][LoadKatja]
+text[A][X]
+
+## LaurenRecruitText
+[MidLeft][LoadFace][CurrentPortrait]
+[MidRight][LoadLauren]
+text[A][X]
+
+## MauritchRecruitText
+[MidRight][LoadMauritch]
+[MidLeft][LoadLauren]
+text[a][X]
+
+## Ch2BrigandText
+[MidRight][LoadFace][0x56][0x1]
+Hee hee hoo! That village[n]
+looks ripe for picking![a][X]
+
+## Ch2BossChargeText
+
+[MidLeft][LoadFace][0x31][0x1]
+Bah! This is going nowhere.[n]
+Men! Charge in![A][X]
+
+## Ch2VillageText
+[MidLeft][LoadFace][CurrentPortrait]
+[MidRight][LoadVillagerYoungWomanB]
+There's a Farumese raiding party[n]
+AND bandits outside? [a][n]
+Thank you for warning us,[n]
+please take this with you.[a][X]

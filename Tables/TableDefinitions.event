@@ -54,12 +54,9 @@
   #define WeaponLock3 0x00100000
   #define WeaponLock4 0x00200000
 #endif
-#ifdef _FE7_
-  #define EliwoodLock 0x00040000
-  #define HectorLock 0x00080000
-  #define LynLock 0x00100000
-  #define AthosLock 0x00200000
-#endif
+#define ClawLock 0x01000000
+#define SkygazerLock 0x02000000
+
 
 // Weapon Effect
 #define NoEffect 0x0

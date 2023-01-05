@@ -1,5 +1,5 @@
 //Items
-#define IronSword 0x01
+/*#define IronSword 0x01
 #define SlimSword 0x02
 #define SteelSword 0x03
 #define SilverSword 0x04
@@ -204,10 +204,10 @@
 #define DragonStone 0xAA
 #define Dragonstone 0xAA
 #define DemonSurge 0xAB
-#define Shadowshot 0xAC
-#define RottenClaw 0xAD
-#define FetidClaw 0xAE
-#define PoisonClaw 0xAF
+#define Shadowshot 0xAC*/
+#define RustyNail 0xAD
+#define DragonClaw 0xAE
+/*#define PoisonClaw 0xAF
 #define LongPoisonClaw 0xB0
 #define LethalTalon 0xB0
 #define FireFang 0xB1
@@ -221,4 +221,7 @@
 #define _150G 0xB8
 #define _200G 0xB9
 #define BlackGem 0xBA
-#define GoldGem 0xBB
+#define GoldGem 0xBB*/
+#define Elstone 0xBD
+#define Skygazer 0xBE
+#define DoublePilum 0xBF //Spell slot 18 freed

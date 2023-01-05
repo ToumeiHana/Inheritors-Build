@@ -8,6 +8,8 @@
 {
 #include "SalvagedCavV2/Sword Installer.event"
 #include "SalvagedCavV2/Lance Installer.event"
+#include "SalvagedCavV2/Axe Installer.event"
+#include "SalvagedCavV2/Handaxe Installer.event"
 #include "SalvagedCavV2/Unarmed Installer.event"
 }
 
@@ -29,4 +31,17 @@
 #include "NuramonFHero/Axe Installer.event"
 #include "NuramonFHero/Handaxe Installer.event"
 #include "NuramonFHero/Unarmed Installer.event"
+}
+
+{
+#include "BlackMageFFighter/Axe Installer.event"
+#include "BlackMageFFighter/Handaxe Installer.event"
+#include "BlackMageFFighter/Unarmed Installer.event"
+}
+
+{
+#include "FlasubanPegRepal/Axe Installer.event"
+#include "FlasubanPegRepal/Handaxe Installer.event"
+#include "FlasubanPegRepal/Lance Installer.event"
+#include "FlasubanPegRepal/Unarmed Installer.event"
 }

@@ -3,8 +3,8 @@
   #define SongTableOffset  0x224470
   #include "drumfix_fe8.event"
   voicegroup000:
-  #incbin "FE8_NI_Map.bin"
-  //#incbin "FE8_NI_MAP_2.bin"
+  //#incbin "FE8_NI_Map.bin"
+  #incbin "FE8_NI_MAP_2.bin"
 #endif
 
 #define SongTable(index,SongPointer,Group) "PUSH; ORG SongTableOffset+(8*index); POIN SongPointer; SHORT Group Group; POP"

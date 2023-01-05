@@ -1,0 +1,207 @@
+EventPointerTable(Chapter2Events, PointerList)
+
+setText(0x161, NewChName)
+
+ALIGN 4
+NewChName:
+String("The Hunt")
+BYTE 0
+
+ALIGN 4
+PointerList:
+	POIN TurnBasedEvents
+	POIN CharacterBasedEvents
+	POIN LocationBasedEvents
+	POIN MiscBasedEvents
+	POIN Dunno1 Dunno2 Dunno3 Tutorial
+	POIN Traps1 Traps2
+	POIN Units1 Units1  //This unit group determines the number and position of deployment slots when there is a prep screen
+	POIN $0 $0 $0
+	POIN $0 $0 $0
+	POIN BeginningScene EndingScene
+
+TurnBasedEvents:
+	
+	TurnEventPlayer(0, BrigandOneSpawn, 4)
+	//TurnEventPlayer(0, BrigandTwoSpawn, 5)
+	TurnEventPlayer(0, AIChange, 8)
+	TurnEventPlayer(0, ReinforcementSpawn,5)
+	END_MAIN
+
+ALIGN 32
+CharacterBasedEvents:
+
+	CharacterEvent(7, ClawRecriutment, Curtis, Innes)
+	CharacterEvent(8, KatjaRecruitment, 0, Katja)
+	CharacterEvent(9, LaurenRecruitment, 0, Lauren)
+	CharacterEvent(10, MauritchRecruitment, Lauren, Mauritch)
+	END_MAIN
+
+MiscBasedEvents:
+	CauseGameOverIfLordDies
+	DefeatBoss(EndingScene)
+	END_MAIN
+
+LocationBasedEvents:
+	Village(11,VillageEvent,2,16)
+	END_MAIN
+
+Dunno1:
+
+	END_MAIN
+
+Dunno2:
+
+	END_MAIN
+
+Dunno3:
+
+	END_MAIN
+
+Tutorial:
+
+	END_MAIN
+
+Units1:
+
+	UNIT Curtis Eye Curtis Level(1,Ally,False) [27,16] 0x00 0x00 0x00 0x01 [Rapier, Vulnerary, EvilEye] NoAI //[27,16]
+	UNIT Janessa CerapterKnight Curtis Level(1,Ally,False) [25,17] 0x00 0x00 0x00 0x01 [SilverAxe, SlimLance] NoAI
+	UNIT Alysa Recruit_1 Curtis Level(1,Ally,False) [26,16] 0x00 0x00 0x01 [IronLance, Vulnerary] NoAI
+	UNIT Jacob SwordCavalier Curtis Level(1,Ally,False) [26,18] 0x00 0x00 0x00 0x01 [IronSword] NoAI
+	UNIT Lucian LanceCavalier Curtis Level(1,Ally,False) [27,18] 0x00 0x00 0x00 0x01 [IronLance] NoAI
+	UNIT Marco Fighter Curtis Level(8,Ally,False) [26,17] 0x00 0x00 0x00 0x01 [SteelAxe] NoAI	
+	UNIT Diane Outlaw_F Curtis Level(1,Ally,False) [27,17] 0x00 0x00 0x00 0x01 [IronBow] NoAI
+	UNIT
+
+EnemyUnits:
+
+	UNIT Breguet LanceCavalier 0x0 Level(10,Enemy,False) [3,0] 0x00 0x00 0x00 0x00 [SteelLance, Javelin] NeverMoveAI
+	UNIT Farum LanceKnight Breguet Level(4,Enemy,True) [1,2] 0x00 0x00 0x00 0x00 [Javelin] NeverMoveAI
+	UNIT Farum AxeKnight Breguet Level(4,Enemy,True) [5,2] DropItem 0x00 0x00 0x00 [HandAxe] NeverMoveAI
+	UNIT Farum BowKnight Breguet Level(4,Enemy,True) [3,1] 0x00 0x00 0x00 0x00 [IronBow] TwoActionAI
+	UNIT Farum Fighter Breguet Level(4,Enemy,True) [15,4] 0x00 0x00 0x00 0x00 [HandAxe] NeverMoveAI
+	UNIT Farum Fighter Breguet Level(4,Enemy,True) [15,6] 0x00 0x00 0x00 0x00 [HandAxe] NeverMoveAI
+	UNIT Farum LanceCavalier Breguet Level(3,Enemy,True) [14,4] 0x00 0x00 0x00 0x00 [IronLance] DefaultAI
+	UNIT Farum AxeCavalier Breguet Level(3,Enemy,True) [14,6] 0x00 0x00 0x00 0x00 [IronAxe] DefaultAI
+	UNIT Farum Mercenary Breguet Level(3,Enemy,True) [11,5] DropItem 0x00 0x00 0x00 [IronBlade] AttackInRangeAI
+	UNIT Farum PegasusKnight Breguet Level(3,Enemy,True) [17,12] 0x00 0x00 0x00 0x00 [IronLance] TwoActionAI
+	UNIT Farum Soldier Breguet Level(4,Enemy,True) [9,8] 0x00 0x00 0x00 0x00 [IronLance] TwoActionAI
+	UNIT Farum Mercenary Breguet Level(4,Enemy,True) [10,9] 0x00 0x00 0x00 0x00 [IronSword] TwoActionAI
+	UNIT Farum Soldier Breguet Level(3,Enemy,True) [4,13] 0x00 0x00 0x00 0x00 [IronLance] TwoActionAI
+	UNIT Farum PegasusKnight Breguet Level(4,Enemy,True) [5,0] 0x00 0x00 0x00 [IronLance] TwoActionAI
+	UNIT Brigand_Enemy Outlaw 0x0 Level(4,Enemy,True) [9,13] 0x00 0x00 0x00 0x00 [SteelBow] AttackInRangeAI
+	UNIT Farum AxePeg Breguet Level(3,Enemy,True) [1,10] 0x00 0x00 0x0 0x0 [IronAxe] AttackInRangeAI
+	UNIT
+	
+BrigandOne:
+	UNIT Brigand_Enemy Brigand 0x0 Level(3,Enemy,True) [15,14] 0x00 0x00 0x01 REDA15R14 [IronAxe] BrigandAI
+	UNIT
+	
+BrigandTwo:
+
+	UNIT Farum Fighter Breguet Level(4,Enemy,True) [1,2] 0x00 0x00 0x01 REDA1R3 [IronAxe] DefaultAI
+	UNIT Farum Myrmidon Breguet Level(3,Enemy,True) [5,2] 0x00 0x00 0x01 REDA5R3 [IronSword] DefaultAI
+	UNIT Brigand_Enemy Brigand 0x0 Level(3,Enemy,True) [15,14] 0x00 0x00 0x01 REDA15R14 [IronAxe] BrigandAI
+	UNIT
+	
+InnGroup:
+
+	UNIT Innes Claw Curtis Level(2,NPC,False) [22,4] 0x00 0x00 0x00 0x01 [RustyNail, DragonClaw] AttackInRangeAI
+	UNIT Katja Fighter_F Curtis Level(2,NPC,False) [23,5] 0x00 0x00 0x00 0x01 [IronAxe] AttackInRangeAI
+	UNIT Mauritch Myrmidon Curtis Level(2,NPC,False) [25,5] 0x00 0x00 0x00 0x01 [KillingEdge] AttackInRangeAI
+	UNIT Lauren Troubadour Curtis Level(2,NPC,False) [26,4] 0x00 0x00 0x00 0x01 [Heal, Vulnerary] HealUnits
+	UNIT
+
+Traps1:
+	ENDTRAP
+	ALIGN 4
+
+Traps2:
+	ENDTRAP
+	ALIGN 4
+
+BeginningScene:
+	LOAD1 0x1 EnemyUnits
+	ENUN
+	
+	LOAD1 0x0 Units1
+	ENUN
+	
+	LOAD1 0x1 InnGroup
+	ENUN
+	
+	NoFade
+	ENDA
+
+ClawRecriutment:
+	MUSC FlapperGirlID
+	Text(ClawRecruitText)
+	CUSA Innes
+	MURE 5
+	NoFade
+	ENDA
+	
+KatjaRecruitment:
+	MUSC FlapperGirlID
+	Text(KatjaRecruitText)
+	CUSA Katja
+	MURE 5
+	NoFade
+	ENDA
+
+LaurenRecruitment:
+	MUSC FlapperGirlID
+	Text(LaurenRecruitText)
+	CUSA Lauren
+	MURE 5
+	NoFade
+	ENDA
+
+MauritchRecruitment:
+	MUSC FlapperGirlID
+	Text(MauritchRecruitText)
+	CUSA Mauritch
+	MURE 5
+	NoFade
+	ENDA
+	
+BrigandOneSpawn:
+	
+	EVBIT_T 9
+	LOAD1 0x1 BrigandOne
+	ENUN
+	Text(Ch2BrigandText)
+	NoFade
+	ENDA
+
+ReinforcementSpawn:
+	
+	EVBIT_T 9
+	LOAD1 0x1 BrigandTwo
+	ENUN
+	NoFade
+	ENDA
+	
+AIChange:
+	
+	CAMERA Breguet
+	Text(Ch2BossChargeText)
+	SETVAL 1 0x00400000
+	CHAI Breguet
+	SETVAL 1 0x0000030D
+	CHAI [1,2]
+	CHAI [5,2]
+	CHAI [5,0]
+	CHAI [3,1]
+	NoFade
+	ENDA
+
+VillageEvent:
+
+	VillageEventItem(Ch2VillageText,Village,Mend)
+	ENDA
+
+EndingScene:
+	MNC2 Chapter3
+	NoFade
+	ENDA

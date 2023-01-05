@@ -1311,7 +1311,7 @@ FirstCampaing_003:
 // 000   ----------------------------------------
  BYTE   KEYSH   FirstCampaing_key+0
 Label_2_0103014A:
- BYTE   VOICE   56
+ BYTE   VOICE   29
  BYTE   VOL   59*FirstCampaing_mvl/mxv
  BYTE   PAN   c_v-61
  BYTE   W96

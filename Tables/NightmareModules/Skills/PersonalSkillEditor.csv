@@ -1,16 +1,16 @@
 INLINE PersonalSkillTable,Skill
 None,0x0
 Eirika,CharismaID
-Janessa,NiceThighsID
+Janessa,CantoPlusID
 Alysa,BattleVeteranID
 Jacob,ChivalryID
 Moulder,PragmaticID
 Marco,SlowBurnID
 Diane,VigilanceID
-Neimi,RallyLukID
-Colm,RallySpdID
-Garcia,ColossusID
-Innes,BowRangeUpID
+Lauren,PerfectionistID
+Mauritch,0x0
+Katja,BloodTideID
+Innes,0x0
 Lute,ParagonID
 Natasha,SealLukID
 Cormag,RallyStrID

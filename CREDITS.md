@@ -38,11 +38,13 @@ adding yourself!
 
 # Animations
 
-- Flasuban: Improved FalcoKnight, FHero
+- Flasuban: Improved FalcoKnight, FHero, PegasusKnight
 - SALVAGED: Cavaliers
 - TheBlindArcher: Knight Extra Weapons
 - Vilkalizer: Knight Lance
-- Nuramon: FHero
+- Nuramon: FHero, Hero
+- BlackMage: FFighter
+- Norikins: Elstone
 
 # Tilesets
 
@@ -53,18 +55,22 @@ adding yourself!
 - Flasuban: Improved FalcoKnight (base for Cerapter Knight)
 - SALVAGED: Cavaliers
 - Agro: Knights
+- Alusq: FFighter
 
 # Mugs
 
 - AmBrosiac: Faceless Mage
+- Eldritch Abomination: FE8 color rat face bandit
 
 # Patches
 
 - Scraiza: NarrowFont 
 - Huichelaar: Minimug Palette Fix
 - circles: drumfix
-- NIMAP 2: Alusq
+- Alusq: NIMAP 2
+- Tequila: New CHAI
 - SKILLSYS QoL+Other credits here
+- Pikmin1211: Green summons
 
 # Music
 

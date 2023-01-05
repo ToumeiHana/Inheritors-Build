@@ -1,0 +1,187 @@
+EventPointerTable(Chapter3Events, PointerList)
+
+PointerList:
+	POIN TurnBasedEvents
+	POIN CharacterBasedEvents
+	POIN LocationBasedEvents
+	POIN MiscBasedEvents
+	POIN Dunno1 Dunno2 Dunno3 Tutorial
+	POIN Traps1 Traps2
+	POIN Units1 Units1  //This unit group determines the number and position of deployment slots when there is a prep screen
+	POIN $0 $0 $0
+	POIN $0 $0 $0
+	POIN BeginningScene EndingScene
+
+TurnBasedEvents:
+
+	END_MAIN
+
+ALIGN 32
+CharacterBasedEvents:
+
+	CharacterEventBothWays(8,EmmanuelRecruitment,Libby,Emmanuel)
+	CharacterEventBothWays(9,CurtisLibbyTalk,Curtis,Libby)
+	END_MAIN
+
+MiscBasedEvents:
+	VeinEffect(7,DragonveinEvent)
+	CauseGameOverIfLordDies
+	DefeatAll(EndingScene)
+	DefeatBoss(BossDefeatedEvent)
+	END_MAIN
+
+LocationBasedEvents:
+
+	Door(22,15)
+	Door(20,21)
+	END_MAIN
+
+Dunno1:
+
+	END_MAIN
+
+Dunno2:
+
+	END_MAIN
+
+Dunno3:
+
+	END_MAIN
+
+Tutorial:
+
+	END_MAIN
+
+Units1:
+	
+	UNIT Curtis Eye Curtis Level(1,Ally,False) [16,2] 0x00 0x00 0x00 0x01 [Rapier, Vulnerary, EvilEye] NoAI
+	UNIT Curtis Eye Curtis Level(1,Ally,False) [15,2] 0x00 0x00 0x00 0x01 [Rapier, Vulnerary, EvilEye] NoAI
+	UNIT Curtis Eye Curtis Level(1,Ally,False) [17,2] 0x00 0x00 0x00 0x01 [Rapier, Vulnerary, EvilEye] NoAI
+	UNIT Curtis Eye Curtis Level(1,Ally,False) [16,1] 0x00 0x00 0x00 0x01 [Rapier, Vulnerary, EvilEye] NoAI
+	UNIT Curtis Eye Curtis Level(1,Ally,False) [15,1] 0x00 0x00 0x00 0x01 [Rapier, Vulnerary, EvilEye] NoAI
+	UNIT Curtis Eye Curtis Level(1,Ally,False) [17,1] 0x00 0x00 0x00 0x01 [Rapier, Vulnerary, EvilEye] NoAI
+	UNIT Curtis Eye Curtis Level(1,Ally,False) [16,0] 0x00 0x00 0x00 0x01 [Rapier, Vulnerary, EvilEye] NoAI
+	UNIT Curtis Eye Curtis Level(1,Ally,False) [15,0] 0x00 0x00 0x00 0x01 [Rapier, Vulnerary, EvilEye] NoAI
+	UNIT Curtis Eye Curtis Level(1,Ally,False) [17,0] 0x00 0x00 0x00 0x01 [Rapier, Vulnerary, EvilEye] NoAI
+	UNIT
+
+EnemyUnits:
+
+	UNIT Bone Brigand 0x0 Level(10,Enemy,False) [5,6] 0x00 0x00 0x00 0x00 [SteelAxe, HandAxe] NeverMoveAI
+	UNIT Emmanuel Mage 0x0 Level(2,Enemy,False) [5,7] 0x00 0x00 0x00 0x00 [Fire, Elstone] AttackInRangeAI
+	UNIT Brigand_Enemy Brigand Bone Level(4,Enemy,True) [27,3] DropItem 0x00 0x00 0x00 [IronAxe, DoorKey] AttackInRangeAI
+	UNIT Brigand_Enemy Outlaw Bone Level(4,Enemy,True) [12,9] 0x00 0x00 0x00 0x00 [IronBow] TwoActionAI
+	UNIT Brigand_Enemy Brigand Bone Level(3,Enemy,True) [19,9] 0x00 0x00 0x00 0x00 [IronAxe] TwoActionAI
+	UNIT Brigand_Enemy Outlaw Bone Level(4,Enemy,True) [23,9] 0x00 0x00 0x00 0x00 [IronBow] AttackInRangeAI
+	UNIT Brigand_Enemy Brigand Bone Level(3,Enemy,True) [18,6] 0x00 0x00 0x00 0x00 [IronAxe] DefaultAI
+	UNIT Brigand_Enemy Mercenary Bone Level(3,Enemy,True) [8,15] 0x00 0x00 0x00 0x00 [IronSword] AttackInRangeAI
+	UNIT
+
+LibbyGroup:
+	
+	UNIT Libby Cleric 0x0 Level(2,NPC,False) [4,6] 0x00 0x00 0x00 0x01 [Heal] NeverMoveAI
+	UNIT
+
+BoulderOne:
+	UNIT BoulderSummon Boulder 0x0 Level(17,Enemy,True) [8,9] 0x00 0x00 0x00 0x00 [0x0] NeverMoveAI
+	UNIT
+	
+BoulderTwo:
+	UNIT EvanSummon Boulder 0x0 Level(17,Enemy,True) [7,9] 0x00 0x00 0x00 0x00 [0x0] NeverMoveAI
+	UNIT
+
+Traps1:
+	Vein(24,17,7)
+	ENDTRAP
+	ALIGN 4
+
+Traps2:
+	ENDTRAP
+	ALIGN 4
+
+BeginningScene:
+
+	CAMERA [5,6]
+	LOAD1 0x1 EnemyUnits
+	ENUN
+	
+	LOAD1 0x1 LibbyGroup
+	ENUN
+	
+	Text(Ch3OpeningText)
+	MOVE 0 Libby [4,1]
+	MOVE 0 Bone [3,4]
+	ENUN
+	SOUN 0xB1
+	TILECHANGE 0
+	MOVE 0 Bone [5,6]
+	ENUN
+	EVBIT_T 9
+	MOVE 0 Emmanuel [8,10]
+	ENUN
+	CAMERA Emmanuel
+	STAL 50
+	LOAD1 0 BoulderOne
+	SUMMONUNIT BoulderSummon
+	ENUN	
+	MOVE 0 Emmanuel [7,10]
+	ENUN	
+	LOAD1 0 BoulderTwo
+	SUMMONUNIT EvanSummon
+	ENUN
+	MOVE 0 Emmanuel [1,12]
+	ENUN
+	
+	LOAD1 0x0 Units1
+	GotoPrepScreen
+	ENDA
+
+DragonveinEvent:
+	VeinActivation
+	SOUN 0xAF
+	TILECHANGE 1
+	SOUN 0xAF
+	TILECHANGE 2
+	
+	CHECK_EXISTS Bone
+	BEQ 1 s0 sC
+	CAMERA Bone
+	Text(Ch3DragonVeinText)
+	
+	LABEL 1
+	NoFade
+	ENDA
+
+BossDefeatedEvent:
+	
+	TILEREVERT 0
+	SOUN 0xB1
+	TILECHANGE 3
+	CAMERA Libby
+	Text(LibbyJoinText)
+	CUSA Libby
+	ENUF 2
+	NoFade
+	ENDA
+
+CurtisLibbyTalk:
+
+	Text(Ch3CurtisLibbyTalk)
+	NoFade
+	ENDA
+
+EmmanuelRecruitment:
+
+	MUSC FlapperGirlID
+	Text(EmmanuelRecruitText)
+	CUSA Emmanuel
+	MURE 5
+	REMOVEUNIT BoulderSummon
+	REMOVEUNIT EvanSummon
+	NoFade
+	ENDA
+
+EndingScene:
+	MNC2 Chapter4
+	NoFade
+	ENDA

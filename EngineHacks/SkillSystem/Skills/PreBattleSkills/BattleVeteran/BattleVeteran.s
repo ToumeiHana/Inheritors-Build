@@ -26,13 +26,17 @@ mov r2,#10
 b Loop
 
 Next:
-ldrb r1, @loads class ability 3
+
+ldr r1,[r4,#0x4] @Loads Class Data
+mov r2,#42								@???
+ldrb r1,[r1,r2] @loads class ability 3
 mov r2,#0x8
 and r1,r2
 cmp r1, r2 @checks for byte 0x8, IE TraineeLevelCap
 beq Trainee
 mov r1,#1 @If not promoted, start at 10
 mov r2,#10
+b Loop
 
 Trainee:
 mov r1,#0 @If trainee, start at 0

@@ -25,7 +25,7 @@
 
 //Blood Tide: Atk and Hit +5 to adjacent allies.
 //By Sme
-#define BloodTideID 255
+#define BloodTideID 104
 
 //Charisma: Grants +10 Hit/Avoid to all allies within three tiles.
 //By Darrman
@@ -159,7 +159,7 @@
 //By Tequila
 #define SlayerID 7
 
-//Skybreaker: Deal effective damage to flying units.
+//Skybreaker: Deal effective damage to flying units. (if flying)
 //By Sme
 #define SkybreakerID 47
 

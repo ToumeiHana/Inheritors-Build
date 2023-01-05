@@ -36,21 +36,32 @@
 
 #define SALVCavSword 0x09
 #define SALVCavLance 0x07
+#define SALVCavAxe 0x38
+#define SALVCavHandaxe 0x39
 #define SALVCavUnarmed 0x08
 
 #define ArmorSword 0x0D
 #define ArmorLance 0x0A
 #define ArmorAxe 0x0E
 #define ArmorHandaxe 0x0F
-#define ArmorUnarmed 0x26
+#define ArmorUnarmed 0x36
 
-#define ArmorBow 0x27
+#define ArmorBow 0x37
 #define ArmorBowUnarmed 0x2A
 
 #define FHeroAxe 0x2B
 #define FHeroSword 0x2C
 #define FHeroHandaxe 0x2D
 #define FHeroUnarmed 0x2E
+
+#define FFighterAxe 0x31
+#define FFighterHandaxe 0x34
+#define FFighterUnarmed 0x35
+
+#define PegaLance 0x66
+#define PegaAxe 0x65
+#define PegaHandaxe 0x64
+#define PegaUnarmed 0x67
 
 //////////
  
@@ -66,6 +77,8 @@ ALIGN 4
 CavAnims:
 SwordAnim(SALVCavSword)
 SpearAnim(SALVCavLance)
+AxeAnim(SALVCavAxe)
+HandAxeAnim(SALVCavHandaxe)
 UnarmedAnim(SALVCavUnarmed)
 WORD 0x0
 
@@ -92,3 +105,17 @@ HandAxeAnim(FHeroHandaxe)
 UnarmedAnim(FHeroUnarmed)
 WORD 0x0
 
+ALIGN 4
+FFighterAnims:
+AxeAnim(FFighterAxe)
+HandAxeAnim(FFighterHandaxe)
+UnarmedAnim(FFighterUnarmed)
+WORD 0x0
+
+ALIGN 4
+PegaAnims:
+AxeAnim(PegaAxe)
+HandAxeAnim(PegaHandaxe)
+SpearAnim(PegaLance)
+UnarmedAnim(PegaUnarmed)
+WORD 0x0

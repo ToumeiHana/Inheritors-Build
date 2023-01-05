@@ -12,8 +12,8 @@ Armour Knight,0,0,20,0
 Armour Knight (F),0,0,20,0
 General,0,0,22,0
 General (F),0,0,22,0
-Thief,1,5,20,0
-Manakete,0,0,20,0
+ForrestKnight,1,5,20,0
+GreatLancer,0,0,20,0
 Mercenary,0,0,20,0
 Mercenary (F),0,0,20,0
 Hero,0,0,23,0
@@ -80,7 +80,7 @@ Dancer,1,45,20,0
 Soldier,0,0,20,0
 Necromancer,9,55,30,0
 Fleet,0,0,20,0
-Phantom,0,0,20,0
+Phantom,0,0,0,0
 Revenant,0,0,20,0
 Entombed,0,0,21,0
 Bonewalker,0,0,20,0
@@ -88,7 +88,7 @@ Bonewalker (Bow),0,0,20,0
 Wight,0,0,21,0
 Wight (Bow),0,0,21,0
 Bael,0,0,20,0
-Elder Bael,0,0,22,0
+Elder Bael,0,0,22,3
 Cyclops,0,0,21,0
 Mauthe Doog,0,0,20,0
 Gwyllgi,0,0,23,0

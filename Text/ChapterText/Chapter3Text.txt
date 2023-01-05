@@ -1,0 +1,27 @@
+## Ch3PreMapText
+a[X]
+
+## Ch3OpeningText
+[FarLeft][LoadLibby]
+[MidRight][LoadEmmanuel]
+[Left][LoadFace][0x32][0x1]
+a[a][X]
+
+## Ch3DragonVeinText
+[MidLeft][LoadFace][0x32][0x1]
+What in the blazes was that?[n]
+Who are these people?! [a][X]
+
+## LibbyJoinText
+[MidLeft][LoadLibby]
+I... I'm free? I must find Emmanuel![A][X]
+
+## Ch3CurtisLibbyTalk
+[MidRight][LoadCurtis]
+[MidLeft][LoadLibby]
+a[a][X]
+
+## EmmanuelRecruitText
+[MidLeft][LoadEmmanuel]
+[MidRight][LoadLibby]
+a[a][X]

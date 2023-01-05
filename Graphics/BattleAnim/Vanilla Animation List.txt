@@ -4,7 +4,7 @@
 0x02 Ephraim Disarmed			//Keep for now
 0x03 Eirika 				//replaced
 0x04 Eirika Disarmed 			//replaced
-0x05 Great Lord Ephraim 		//Keep for now
+0x05 Great Lord Ephraim 		//replaced
 0x06 Eirika 				//replaced
 0x07 Great Lord Ephraim Disarmed 	//replaced
 0x08 Great Lord Eirika 			//replaced
@@ -37,8 +37,8 @@
 0x23 Berserker				//Keep
 0x24 Berserker w/ Hand Axe		//Keep
 0x25 Berserker Disarmed			//Keep
-0x26 Archer				//Replaced
-0x27 Archer Disarmed			//Replaced
+0x26 Archer				//Replace later
+0x27 Archer Disarmed			//Replace later
 0x28 Archer (F)				//Replace later
 0x29 Archer (F) Disarmed		//Replace later
 0x2A Sniper				//Replaced
@@ -48,15 +48,15 @@
 0x2E Forrest Knight w/ Sword		//Replaced
 0x2F Forrest Knight w/ Bow		//Keep
 0x30 Forrest Knight Disarmed		//Keep
-0x31 Forrest Knight (F) w/ Sword	
+0x31 Forrest Knight (F) w/ Sword	//Replaced
 0x32 Forrest Knight (F) w/ Bow		//Keep
 0x33 Forrest Knight (F) Disarmed	//Keep
-0x34 Socialknight w/ Sword
-0x35 Socialknight w/ Spear
-0x36 Socialknight Disarmed
-0x37 Socialknight (F)
-0x38 Socialknight (F)
-0x39 Socialknight (F) Disarmed
+0x34 Socialknight w/ Sword		//Replaced
+0x35 Socialknight w/ Spear		//Replaced
+0x36 Socialknight Disarmed		//Replaced
+0x37 Socialknight (F)			//Replaced
+0x38 Socialknight (F)			//Replaced
+0x39 Socialknight (F) Disarmed		//Replaced
 0x3A Paladin w/ Sword
 0x3B Paladin w/ Spear
 0x3C Paladin Disarmed
@@ -99,10 +99,10 @@
 0x61 Dragon Master (F) Disarmed
 0x62 Wyvern Knight
 0x63 Wyvern Knight Disarmed
-0x64 Wyvern Knight (F)
-0x65 Wyvern Knight Disarmed
-0x66 Pegasus Knight
-0x67 Pegasus Knight Disarmed
+0x64 Wyvern Knight (F)			//replaced
+0x65 Wyvern Knight Disarmed		//replAced
+0x66 Pegasus Knight			//replaced
+0x67 Pegasus Knight Disarmed		//Replaced
 0x68 Falcon Knight w/ Sword
 0x69 Falcon Knight w/ Spear
 0x6A Falcon Knight Disarmed

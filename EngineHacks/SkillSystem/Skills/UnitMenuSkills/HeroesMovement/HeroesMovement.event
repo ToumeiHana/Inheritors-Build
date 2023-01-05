@@ -129,7 +129,7 @@ BYTE 0
 BYTE 0
 
 ShoveClassList:
-BYTE Outlaw Outlaw_F Mercenary Mercenary_F Fighter Brigand Pirate Berserker Warrior Priest Cleric Bishop Bishop_F Summoner Summoner_F Mage Mage_F Sage Sage_F Monk Shaman Shaman_F Druid Druid_F Eye EphraimLord Recruit_1
+BYTE Outlaw Outlaw_F Mercenary Mercenary_F Fighter Brigand Pirate Berserker Warrior Priest Cleric Bishop Bishop_F Summoner Summoner_F Mage Mage_F Sage Sage_F Monk Shaman Shaman_F Druid Druid_F Eye EphraimLord Recruit_1 Fighter_F Claw
 BYTE 0
 
 SmiteClassList:

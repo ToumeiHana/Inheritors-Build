@@ -46,13 +46,16 @@
 
 //Tilesets
 #define VillageObjectsID 0x88
+#define PlainsObjectsID 0x01
 
 //Palettes
 #define VillagePaletteID 0x89
+#define Plains1PaletteID 0x02
 
 //Tile Configs
 #define VillageConfigID 0x8A
 #define MoutainousConfigID 0x6E
+#define PlainsConfigID 0x03
 
 //Map IDs
 #define Chapter1Map 0x04

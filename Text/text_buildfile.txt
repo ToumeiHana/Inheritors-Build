@@ -125,3 +125,5 @@ a skill when used.[X]
 #include "class_namedesc_text.txt"
 
 #include "chaptertextinstaller.txt"
+
+#include "item_namedesc.txt"

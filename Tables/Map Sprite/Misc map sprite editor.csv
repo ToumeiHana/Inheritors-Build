@@ -11,8 +11,8 @@ Lance Armour Knight,0x81c7580,0x81c7e74
 Bow Armour Knight,KnightBowWalk|IsPointer,0x81c7e74
 General,0x81c7fcc,0x81c8a80
 General (F),0x81c7fcc,0x81c8a80
-Thief,0x81c8be0,0x81c945c
-Mamkute,0x81c95b4,0x81ca124
+ForrestKNIGHT,0x81c8be0,0x81c945c
+greatLancer,0x81c95b4,0x81ca124
 Mercenary,0x81ca27c,0x81caa20
 Mercenary (F),0x81cab78,0x81cb2e0
 Hero,0x81cb438,0x81cbd94
@@ -30,9 +30,9 @@ Sniper (F),0x81d1ea0,0x81d2714
 Forrest Knight,0x81d286c,0x81d3194
 Forrest Knight (F),0x81d286c,0x81d3194
 Dragon Knight,0x81d32ec,0x81d403c
-Dragon Knight (F),0x81d419c,0x81d4eec
+Axe Cav,AxeCavWalk|IsPointer,0x81c692c
 Dragon Master,0x81d504c,0x81d5e58
-Dragon Master (F),0x81d5fc0,0x81d6d6c
+Axe Cav F,AxeCavWalk|IsPointer,0x81c692c
 Wyvern Knight,0x81d6ec4,0x81d7cc8
 Cerapter Knight,CerapterWalk|IsPointer,0x81ea5dc
 Mage,0x81d7e28,0x81d8668
@@ -91,7 +91,7 @@ TailPromo,0x81f38ec,0x81f3fa0
 Gut,0x81f40f8,0x81f49b8
 Axe Armor,KnightAxeWalk|IsPointer,0x81c7e74
 Sword Armor,KnightSwordWalk|IsPointer,0x81c7e74
-Tarvos,0x81f61d4,0x81f6ad0
+Fighter F,FighterFWalk|IsPointer,0x81f6ad0
 Macdaire,0x81f6c28,0x81f7570
 Bigl,0x81f76c8,0x81f7e28
 Archbigl,0x81f7f80,0x81f876c

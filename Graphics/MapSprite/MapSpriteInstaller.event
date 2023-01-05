@@ -25,6 +25,14 @@ LanceCavWalk:
 #incbin "dmp/CavalierLanceSALVAGEDwalk.dmp"
 
 ALIGN 4
+AxeCavStand:
+#incbin "dmp/CavalierAxeSALVAGEDstand.dmp"
+
+AlIGN 4
+AxeCavWalk:
+#incbin "dmp/CavalierAxeSALVAGEDwalk.dmp"
+
+ALIGN 4
 KnightSwordStand:
 #incbin "dmp/KnightSwordAgrostand.dmp"
 
@@ -47,3 +55,11 @@ KnightBowStand:
 ALIGN 4
 KnightBowWalk:
 #incbin "dmp/KnightBowAgrowalk.dmp"
+
+ALIGN 4
+FighterFStand:
+#incbin "dmp/FighterFAxeAlusqStand.dmp"
+
+ALIGN 4
+FighterFWalk:
+#incbin "dmp/FighterFAxeAlusqWalk.dmp"

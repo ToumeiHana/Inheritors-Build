@@ -27,6 +27,7 @@
     //Engine Hacks
     #include "EngineHacks/_MasterHackInstaller.event"
 	#include "EngineHacks/MMPFix/MinimugPalette.event"
+	#include "EngineHacks/NewCHAI/NewCHAI.event"
     MESSAGE Used hax space ends at currentOffset
 
     //Events
