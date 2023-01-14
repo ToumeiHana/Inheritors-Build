@@ -14,12 +14,13 @@ PointerList:
 
 TurnBasedEvents:
 
+	TurnEventPlayer(0,LooterSpawn,8)
 	END_MAIN
 
 ALIGN 32
 CharacterBasedEvents:
 
-	CharacterEventBothWays(8,EmmanuelRecruitment,Libby,Emmanuel)
+	CharacterEvent(8,EmmanuelRecruitment,Libby,Emmanuel)
 	CharacterEventBothWays(9,CurtisLibbyTalk,Curtis,Libby)
 	END_MAIN
 
@@ -32,8 +33,10 @@ MiscBasedEvents:
 
 LocationBasedEvents:
 
+	Chest(PureWater,12,16)
+	Chest(Rescue,15,16)
+	Door(21,15)
 	Door(22,15)
-	Door(20,21)
 	END_MAIN
 
 Dunno1:
@@ -54,27 +57,30 @@ Tutorial:
 
 Units1:
 	
-	UNIT Curtis Eye Curtis Level(1,Ally,False) [16,2] 0x00 0x00 0x00 0x01 [Rapier, Vulnerary, EvilEye] NoAI
-	UNIT Curtis Eye Curtis Level(1,Ally,False) [15,2] 0x00 0x00 0x00 0x01 [Rapier, Vulnerary, EvilEye] NoAI
-	UNIT Curtis Eye Curtis Level(1,Ally,False) [17,2] 0x00 0x00 0x00 0x01 [Rapier, Vulnerary, EvilEye] NoAI
-	UNIT Curtis Eye Curtis Level(1,Ally,False) [16,1] 0x00 0x00 0x00 0x01 [Rapier, Vulnerary, EvilEye] NoAI
-	UNIT Curtis Eye Curtis Level(1,Ally,False) [15,1] 0x00 0x00 0x00 0x01 [Rapier, Vulnerary, EvilEye] NoAI
-	UNIT Curtis Eye Curtis Level(1,Ally,False) [17,1] 0x00 0x00 0x00 0x01 [Rapier, Vulnerary, EvilEye] NoAI
-	UNIT Curtis Eye Curtis Level(1,Ally,False) [16,0] 0x00 0x00 0x00 0x01 [Rapier, Vulnerary, EvilEye] NoAI
-	UNIT Curtis Eye Curtis Level(1,Ally,False) [15,0] 0x00 0x00 0x00 0x01 [Rapier, Vulnerary, EvilEye] NoAI
-	UNIT Curtis Eye Curtis Level(1,Ally,False) [17,0] 0x00 0x00 0x00 0x01 [Rapier, Vulnerary, EvilEye] NoAI
+	UNIT Curtis Eye Curtis Level(1,Ally,False) [14,2] 0x00 0x00 0x00 0x01 [0x0] NoAI
+	UNIT Janessa CerapterKnight Curtis Level(1,Ally,False) [13,2] 0x00 0x00 0x00 0x01 [0x0] NoAI
+	UNIT Janessa CerapterKnight Curtis Level(1,Ally,False) [15,2] 0x00 0x00 0x00 0x01 [0x0] NoAI
+	UNIT Janessa CerapterKnight Curtis Level(1,Ally,False) [15,1] 0x00 0x00 0x00 0x01 [0x0] NoAI
+	UNIT Janessa CerapterKnight Curtis Level(1,Ally,False) [14,1] 0x00 0x00 0x00 0x01 [0x0] NoAI
+	UNIT Janessa CerapterKnight Curtis Level(1,Ally,False) [13,1] 0x00 0x00 0x00 0x01 [0x0] NoAI
+	UNIT Janessa CerapterKnight Curtis Level(1,Ally,False) [15,0] 0x00 0x00 0x00 0x01 [0x0] NoAI
+	UNIT Janessa CerapterKnight Curtis Level(1,Ally,False) [14,0] 0x00 0x00 0x00 0x01 [0x0] NoAI
+	UNIT Janessa CerapterKnight Curtis Level(1,Ally,False) [13,0] 0x00 0x00 0x00 0x01 [0x0] NoAI
 	UNIT
 
 EnemyUnits:
 
 	UNIT Bone Brigand 0x0 Level(10,Enemy,False) [5,6] 0x00 0x00 0x00 0x00 [SteelAxe, HandAxe] NeverMoveAI
 	UNIT Emmanuel Mage 0x0 Level(2,Enemy,False) [5,7] 0x00 0x00 0x00 0x00 [Fire, Elstone] AttackInRangeAI
-	UNIT Brigand_Enemy Brigand Bone Level(4,Enemy,True) [27,3] DropItem 0x00 0x00 0x00 [IronAxe, DoorKey] AttackInRangeAI
+	UNIT Brigand_Enemy Brigand Bone Level(4,Enemy,True) [24,3] DropItem 0x00 0x00 0x00 [IronAxe, DoorKey] AttackInRangeAI
 	UNIT Brigand_Enemy Outlaw Bone Level(4,Enemy,True) [12,9] 0x00 0x00 0x00 0x00 [IronBow] TwoActionAI
-	UNIT Brigand_Enemy Brigand Bone Level(3,Enemy,True) [19,9] 0x00 0x00 0x00 0x00 [IronAxe] TwoActionAI
-	UNIT Brigand_Enemy Outlaw Bone Level(4,Enemy,True) [23,9] 0x00 0x00 0x00 0x00 [IronBow] AttackInRangeAI
-	UNIT Brigand_Enemy Brigand Bone Level(3,Enemy,True) [18,6] 0x00 0x00 0x00 0x00 [IronAxe] DefaultAI
+	UNIT Brigand_Enemy Brigand Bone Level(3,Enemy,True) [17,9] 0x00 0x00 0x00 0x00 [IronAxe] TwoActionAI
+	UNIT Brigand_Enemy Outlaw Bone Level(4,Enemy,True) [21,9] 0x00 0x00 0x00 0x00 [IronBow] AttackInRangeAI
+	UNIT Brigand_Enemy Brigand Bone Level(3,Enemy,True) [17,6] 0x00 0x00 0x00 0x00 [IronAxe] DefaultAI
 	UNIT Brigand_Enemy Mercenary Bone Level(3,Enemy,True) [8,15] 0x00 0x00 0x00 0x00 [IronSword] AttackInRangeAI
+	UNIT Brigand_Enemy Myrmidon Bone Level(4,Enemy,True) [24,7] 0x0 0x0 0x0 0x0 [SteelSword] TwoActionAI
+	UNIT Brigand_Enemy Brigand Bone Level(3,Enemy,True) [14,14] 0x0 0x0 0x0 0x0 [IronAxe] DefaultAI
+	UNIT Brigand_Enemy Mercenary Bone Level(3,Enemy,True) [13,13] 0x0 0x0 0x0 0x0 [SteelSword] DefaultAI
 	UNIT
 
 LibbyGroup:
@@ -89,9 +95,13 @@ BoulderOne:
 BoulderTwo:
 	UNIT EvanSummon Boulder 0x0 Level(17,Enemy,True) [7,9] 0x00 0x00 0x00 0x00 [0x0] NeverMoveAI
 	UNIT
+	
+LooterGroup:
+	UNIT Brigand_Enemy Outlaw 0x0 Level(3,Enemy,True) [18,16] 0x0 0x0 0x0 0x0 [IronBow, ChestKey] LootingThiefAI
+	UNIT
 
 Traps1:
-	Vein(24,17,7)
+	Vein(22,17,7)
 	ENDTRAP
 	ALIGN 4
 
@@ -135,9 +145,17 @@ BeginningScene:
 	LOAD1 0x0 Units1
 	GotoPrepScreen
 	ENDA
+	
+LooterSpawn:
+	
+	LOAD1 0x1 LooterGroup
+	ENUN
+	NoFade
+	ENDA
 
 DragonveinEvent:
 	VeinActivation
+	CAMERA [15,8]
 	SOUN 0xAF
 	TILECHANGE 1
 	SOUN 0xAF
@@ -153,13 +171,17 @@ DragonveinEvent:
 	ENDA
 
 BossDefeatedEvent:
-	
-	TILEREVERT 0
+
 	SOUN 0xB1
+	TILEREVERT 0	
 	TILECHANGE 3
 	CAMERA Libby
 	Text(LibbyJoinText)
+	//SVAL s1 0x00040A06
+	//CHAI Libby
 	CUSA Libby
+	SVAL s1 0x00040B06
+	CHAI Emmanuel
 	ENUF 2
 	NoFade
 	ENDA
@@ -172,9 +194,10 @@ CurtisLibbyTalk:
 
 EmmanuelRecruitment:
 
-	MUSC FlapperGirlID
+	MUSS FlapperGirlID
 	Text(EmmanuelRecruitText)
 	CUSA Emmanuel
+	//CUSA Libby
 	MURE 5
 	REMOVEUNIT BoulderSummon
 	REMOVEUNIT EvanSummon

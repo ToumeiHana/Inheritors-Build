@@ -106,3 +106,8 @@
 #define OldCivilian 0xFC
 #define Wall 0xFE
 #define Snag 0xFF*/
+
+//TalkAi
+
+#define LIBBY_AI2 0xA
+#define EMMANUEL_AI2 0xB

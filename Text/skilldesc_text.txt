@@ -1,3 +1,10 @@
+## SD_Rockhard
+Sturdy as Rock: +3 defense when[N]
+equipped with Elstone.[X]
+
+## SD_DesperateGambit
+Desperate Gambit: Add enemy[N]
+crit to your own.[X]
 
 ## SD_Savior
 Savior: Can rescue[N]

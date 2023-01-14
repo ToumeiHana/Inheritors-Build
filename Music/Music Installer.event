@@ -14,25 +14,60 @@
 
 //SongTable(37,song25,MapMusicGroup)
 //#include "event/song25.event"
-SongTable(TrombeID,Trombe,BattleMusicGroup)
-#include "event/Trombe.event"
+
+SongTable(TrombeID,Trombe0,BattleMusicGroup)
+#include "event/Trombe0.event"
+
 SongTable(FirstCampaingID,FirstCampaing,BattleMusicGroup)
 #include "event/FirstCampaing.event"
-SongTable(HeavyArmorCorpsID,song34,MapMusicGroup)
-#include "event/HeavyArmorCorps.event"
+
+SongTable(HeavyArmorCorpsID,HeavyArmorCorps0,MapMusicGroup)
+#include "event/HeavyArmorCorps0.event"
+
 SongTable(QuestBattleID,questbattle,MapMusicGroup)
 #include "event/TokyoMirageSessionFEQuestBattleSme.event"
+
 SongTable(DefendGlobeID,song2E,MapMusicGroup)
 #include "event/DefendGlobePsyche.event"
-//SongTable(DepartureID,song03A3,MapMusicGroup)
-//#include "event/DepartureRSFlame.event"
+
+SongTable(DepartureID,Departure,MapMusicGroup)
+#include "event/DepartureRSFlame.event"
+
 SongTable(KnightsOathID,song28,MapMusicGroup)
 #include "event/FE7AKnight_sOathRandomWizard.event"
+
 SongTable(MushroomGorgeID,Gorge,MapMusicGroup)
 #include "event/MarioKartWiiMushroomGorgeSme.event"
+
 SongTable(MiitopiaBattleID,EventBattle,MapMusicGroup)
 #include "event/MiitopiaEventBattleSme.event"
+
 SongTable(JhenMohranID,songMohran,MapMusicGroup)
 #include "event/MonsterHunter3JhenMohranMycahel.event"
+
 SongTable(FlapperGirlID,FlapperGirl,MapMusicGroup)
 #include "event/FlapperGirl.event"
+
+SongTable(LandOfConflictID,LandOfConflict,MapMusicGroup)
+#include "event/LandOfConflict.event"
+
+SongTable(SteelCockpitID,SteelCockpit0,MapMusicGroup)
+#include "event/SteelCockpit0.event"
+
+SongTable(ObstacleInOurPathID,XBObstacle,BattleMusicGroup)
+#include "event/AnObstacleInOurPathMonopolyRubixMiffe.event"
+
+SongTable(DarkColossusID,DarkColossus,MapMusicGroup)
+#include "event/DarkColossusDestroysAllMycahel.event"
+
+SongTable(OctopathBattle2ID,OTBattle2,MapMusicGroup)
+#include "event/OctopathTravelerBattle2AReliableChair.event"
+
+SongTable(CapAmericaID,CapAm,BattleMusicGroup)
+#include "event/CaptainAmericaThemeMeatOfJustice.event"
+
+SongTable(ItHasToBeThisWayID,it_has_to_be_this_way,BattleMusicGroup)
+#include "event/ItHasToBeThisWaySme.event"
+
+SongTable(SwordsBurstingID,SwordsBursting0,MapMusicGroup)
+#include "event/SwordsBursting0.event"

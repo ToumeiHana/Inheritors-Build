@@ -3,3 +3,4 @@
 #include "Portrait/MugInstaller.event"
 #include "MapSprite/MapSpriteInstaller.event"
 #include "CSA_Creator/Master Spell Animation Installer.event"
+#include "BG/BGInstaller.event"

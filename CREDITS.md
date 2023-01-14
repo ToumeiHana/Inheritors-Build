@@ -76,12 +76,20 @@ adding yourself!
 
 - Lemon Tart: Super Robot Wars - Trombe!
 - Thegis: Etrian Odyssey 3 - The First Campaing
-- Sme: TMS#FE - Quest Battle, MK Wii - Mushroom Gorge
+- Sme: TMS#FE - Quest Battle, MK Wii - Mushroom Gorge, Metal Gear Revengeance - It Has To Be This Way
 - Psyche: PMD EoS - Defend Globe
 - RSFlame: Berwick Saga - Departure
 - RandomWizard: FE7 - A Knight's Oath
-- Mycahel: Monster Hunter 3 - Jhen Mohran Battle
+- Mycahel: Monster Hunter 3 - Jhen Mohran Battle, NieR Automata - Dark Colossus Destroys All 
+- MeatOfJustice: Marvel vs Capcom Clash of the Superheroes - Captain America's Theme
+- A Reliable Chair: Octopath Traveller - Battle 2
+- MonopolyRubix: Xenoblade - An Obstacle In Our Path
+- Miffe: Xenoblade - An Obstacle In Our Path 
 
 # Other
 
 - Snakey1: REDA helpers, Repointers
+
+# Special Thanks
+
+- Everyone who helped via discord :)

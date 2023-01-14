@@ -28,7 +28,7 @@ ALIGN 4
 AxeCavStand:
 #incbin "dmp/CavalierAxeSALVAGEDstand.dmp"
 
-AlIGN 4
+ALIGN 4
 AxeCavWalk:
 #incbin "dmp/CavalierAxeSALVAGEDwalk.dmp"
 
@@ -63,3 +63,27 @@ FighterFStand:
 ALIGN 4
 FighterFWalk:
 #incbin "dmp/FighterFAxeAlusqWalk.dmp"
+
+ALIGN 4
+PegaLanceStand:
+#incbin "dmp/PegasiLanceFlasubanstand.dmp"
+
+ALIGN 4
+PegaLanceWalk:
+#incbin "dmp/PegasiLanceFlasubanwalk.dmp"
+
+ALIGN 4
+PegaAxeStand:
+#incbin "dmp/PegasiAxeFlasubanstand.dmp"
+
+ALIGN 4
+PegaAxeWalk:
+#incbin "dmp/PegasiAxeFlasubanwalk.dmp"
+
+ALIGN 4
+RockStand:
+#incbin "dmp/Rockstand.dmp"
+
+ALIGN 4
+RockWalk:
+#incbin "dmp/Rockwalk.dmp"

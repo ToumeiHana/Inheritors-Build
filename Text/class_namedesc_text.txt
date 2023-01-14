@@ -13,3 +13,9 @@ superior defense. Equip: Lances, Axes[X]
 
 ## AxeCavClass
 ^{Axe Cavalier}[X]
+
+## BoulderClass
+Boulder[X]
+
+## BoulderDesc
+Big rock[X]

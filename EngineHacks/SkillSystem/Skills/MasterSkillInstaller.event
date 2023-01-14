@@ -37,4 +37,6 @@ POP
 #include "WTASkills/WTASkills.event"
 #include "GrowthSkills/GrowthSkills.event"
 
+#include "Custom/CustomSkills.event"
+
 #include "charge_table.event"

@@ -1,0 +1,5 @@
+ALIGN 4
+Rockhard:
+#incbin "Rockhard.dmp"
+POIN SkillTester
+WORD RockhardID

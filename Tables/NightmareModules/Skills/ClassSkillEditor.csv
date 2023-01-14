@@ -24,12 +24,12 @@ INLINE ClassSkillTable,Skill
 0x16 Swordmaster (F),CritUpID
 0x17 Assassin,CunningID
 0x18 Assassin (F),CunningID
-0x19 Outlaw,LockTouchID
-0x1A Outlaw (F),LockTouchID
-0x1B Sniper,SureShotID
-0x1C Sniper (F),SureShotID
-0x1D Ranger,0x0
-0x1E Ranger (F),0x0
+0x19 Outlaw,0x0
+0x1A Outlaw (F),0x0
+0x1B Sniper,0x0
+0x1C Sniper (F),0x0
+0x1D Ranger,CantoID
+0x1E Ranger (F),CantoID
 0x1F Wyvern Rider,CantoID
 0x20 Wyvern Rider (F),CantoID
 0x21 Wyvern Lord,CantoID

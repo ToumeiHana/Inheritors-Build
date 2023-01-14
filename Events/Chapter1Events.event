@@ -79,6 +79,7 @@ Units1:
 	UNIT Alysa Recruit_1 Curtis Level(1,Ally,False) [7,23] 0x00 0x00 0x01 [Skygazer, IronLance, Vulnerary] NoAI
 	UNIT Jacob SwordCavalier Curtis Level(1,Ally,False) [8,24] 0x00 0x00 0x00 0x01 [IronSword] NoAI
 	UNIT Lucian LanceCavalier Curtis Level(1,Ally,False) [7,24] 0x00 0x00 0x00 0x01 [IronLance] NoAI
+	//UNIT Knoll Sage 0x0 Level(1,Ally,False) [1,0] 0x0 0x0 0x0 0x0 [Elstone,Thunder] NoAI
 	UNIT
 
 EnemyUnits:
@@ -119,11 +120,11 @@ BeginningScene:
 	TEXTSHOW Ch1PreMap
 	TEXTEND
 	MUSC 0x48
-	BACKGROUND_CHANGE 0x35 1 10 //import an inside tent bg for this
+	BACKGROUND_CHANGE 0x31 1 10 
 	TEXTCONT
 	TEXTEND
-	//MUSC 
-	BACKGROUND_CHANGE Plain 1 10 //import camp bg
+	MUSC LandOfConflictID 
+	BACKGROUND_CHANGE 0x32 1 10 
 	TEXTCONT
 	TEXTEND
 	EndConvo
@@ -179,6 +180,9 @@ BeginningScene:
 	REMOVEUNIT Goon
 	Text(VillageSpawnText2)	
 	NoFade
+	
+	//WEATHER 4
+	
 	ENDA
 
 ReinforcementGroupSpawn:
@@ -219,9 +223,7 @@ BottomVillage:
 	ENDA
 	
 HouseEvent:
-	SetBackground(0x00)
-	Text(Ch1HouseText)
-	EndConvo
+	HouseEvent(Ch1HouseText,0x00)
 	ENDA
 	
 EndingScene:
@@ -239,5 +241,5 @@ EndingScene:
 	Text(Ch1EndText)
 	EndConvo
 	MNC2 Chapter2
-	NoFade
+	//NoFade
 	ENDA

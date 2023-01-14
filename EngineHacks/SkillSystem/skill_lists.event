@@ -62,11 +62,13 @@ BYTE 1 LethalityID
 BYTE 00 00
 ALIGN 4
 
-ArcherSkillList:
+OutlawSkillList:
+BYTE 1 LocktouchID
 BYTE 00 00
 ALIGN 4
 
 AdventurerSkillList:
+BYTE 255 LocktouchID
 BYTE 1 ReMoveID
 BYTE 00 00
 ALIGN 4
@@ -94,6 +96,7 @@ BYTE 00 00
 ALIGN 4
 
 SageSkillList:
+BYTE 1 TomefaireID
 BYTE 00 00
 ALIGN 4
 
@@ -102,6 +105,7 @@ BYTE 00 00
 ALIGN 4
 
 BishopSkillList:
+BYTE 1 TomebreakerID
 BYTE 00 00
 ALIGN 4
 
@@ -110,6 +114,7 @@ BYTE 00 00
 ALIGN 4
 
 DruidSkillList:
+BYTE 1 SealResID
 BYTE 00 00
 ALIGN 4
 
@@ -233,6 +238,7 @@ BYTE 00 00
 ALIGN 4
 
 BallisticanSkillList:
+BYTE 1 TowerShieldID
 BYTE 00 00
 ALIGN 4
 

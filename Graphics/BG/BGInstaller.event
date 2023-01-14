@@ -1,0 +1,23 @@
+#define ConvoBackgroundTable $95DD1C
+#define SetConvoBackground(Index, ImagePointer, TSAPointer, PalettePointer) "PUSH; ORG ConvoBackgroundTable + (Index * 0xC); POIN ImagePointer TSAPointer PalettePointer; POP"
+
+ArmycampImage:
+#incbin "ArmyCamp3DayImage.dmp"
+
+ArmycampTsa:
+#incbin "ArmyCamp3DayTSA.dmp"
+
+ArmycampPalette:
+#incbin "ArmyCamp3DayPal.dmp"
+
+TentImage:
+#incbin "FE7TentImage.dmp"
+
+TentTSA:
+#incbin "FE7TentTSA.dmp"
+
+TentPalette:
+#incbin "FE7TentPal.dmp"
+
+SetConvoBackground(0x31, TentImage, TentTSA, TentPalette)
+SetConvoBackground(0x32, ArmycampImage, ArmycampTsa, ArmycampPalette)

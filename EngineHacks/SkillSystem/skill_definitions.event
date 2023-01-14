@@ -151,6 +151,9 @@
 
 //Effectiveness Skills
 
+// Effective on rain of non-fliers on water
+#define ThunderEffectID 15
+
 //Nullify: Unit is protected from all effective attacks.
 //By Tequila
 #define NullifyID 46
@@ -318,6 +321,12 @@
 
 
 //Pre-Battle Skills
+
+//Desperate Gambit: Add enemy crit to your own
+#define DesperateGambitID 14
+
+//Rockhard: +3 def when elstone equipped
+#define RockhardID 13
 
 //Axefaith: Axes can't lose durability, and grants +Luck*1.5 Hit when wielding axes.
 //By 2WB & Colorz
@@ -883,7 +892,7 @@
 
 //Capture: Capture an enemy after defeating it with reduced stats.
 //By Tequila
-#define CaptureID 63
+#define CaptureID 255
 
 //Dance: Refresh an ally unit to let them act again.
 //By Sme
@@ -995,7 +1004,7 @@
 
 //Hero: +30% skill activation rate when HP is below 50%.
 //By Sme
-#define HeroID 106
+#define HeroID 255
 
 //Rightful King: +10% to Skill activation rate.
 //Author Unknown (Initial Commit)

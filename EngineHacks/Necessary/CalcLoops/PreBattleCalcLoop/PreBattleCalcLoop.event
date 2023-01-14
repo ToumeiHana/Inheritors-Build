@@ -48,6 +48,9 @@ POIN LethalitySkill Bane
 POIN LethalitySkill NonGBALethalitySkill Bane
 #endif
 
+POIN DesperateGambit
+POIN Rockhard
+
 #ifdef MODULAR_PRE_BATTLE_SKILLS
 	POIN ModularPreBattleSkill 
 #endif // MODULAR_PRE_BATTLE_SKILLS

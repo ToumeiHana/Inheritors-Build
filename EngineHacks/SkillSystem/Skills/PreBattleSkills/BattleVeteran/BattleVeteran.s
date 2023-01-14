@@ -28,7 +28,7 @@ b Loop
 Next:
 
 ldr r1,[r4,#0x4] @Loads Class Data
-mov r2,#42								@???
+mov r2,#42								
 ldrb r1,[r1,r2] @loads class ability 3
 mov r2,#0x8
 and r1,r2

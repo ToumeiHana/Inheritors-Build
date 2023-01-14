@@ -1,0 +1,6 @@
+
+Chapter3Escapepoint:
+EscapePoint(0,18,MoveLeft)
+EscapePointEnd
+
+EscapePointPointerTable(Chapter3,Chapter3Escapepoint)

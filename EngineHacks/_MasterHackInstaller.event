@@ -59,6 +59,12 @@ POP
 
 ////////////////////////////////FREE SPACE OUT OF BL RANGE
 
+  #include "Externalhacks/ItemUsePerChap.event"
+
+  #include "AiPerformExtension/AiInstaller.event"
+
+  #include "ExternalHacks/BowWTA/BowAdvantage.event"
+
   // Display damage numbers in battle animations.
   #include "ExternalHacks/AnimNumbers/AnimNumbers.event"
 
@@ -247,4 +253,5 @@ POP
     #include "Necessary/SuspendDebuffs/SuspendExpansion.event"
 
   #endif // USE_SAVE_EXPANSION
+  
   

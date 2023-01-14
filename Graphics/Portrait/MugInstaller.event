@@ -1,73 +1,116 @@
 #include "Tools/Tool Helpers.txt"
 //this file defines the macro:
 //setMugEntry(number, data, mouth_x, mouth_y, eye_x, eye_y)
+/*
+#incbin "dmp/_mug.dmp"
+#incbin "dmp/_frames.dmp"
+#incbin "dmp/_palette.dmp"
+#incbin "dmp/_minimug.dmp"
+*/
 
-ALIGN 4
+
+ALIGN 16
 Curtis_Mug:
-#incext PortraitFormatter "Eye.png"
+#incbin "dmp/Eye_mug.dmp"
+#incbin "dmp/Eye_frames.dmp"
+#incbin "dmp/Eye_palette.dmp"
+#incbin "dmp/Eye_minimug.dmp"
 setMugEntry(0x02, Curtis_Mug, 3,5,3,3)
 
-ALIGN 4
+ALIGN 16
 CurtisShirtless_Mug:
-#incext PortraitFormatter "EyeShirtless.png"
+#incbin "dmp/EyeShirtless_mug.dmp"
+#incbin "dmp/EyeShirtless_frames.dmp"
+#incbin "dmp/EyeShirtless_palette.dmp"
+#incbin "dmp/EyeShirtless_minimug.dmp"
 setMugEntry(0x03, CurtisShirtless_Mug, 3,5,3,3)
 
-ALIGN 4
+ALIGN 16
 Janissa_Mug:
-#incext PortraitFormatter "JanissaV3.png"
+#incbin "dmp/JanissaV3_mug.dmp"
+#incbin "dmp/JanissaV3_frames.dmp"
+#incbin "dmp/JanissaV3_palette.dmp"
+#incbin "dmp/JanissaV3_minimug.dmp"
 setMugEntry(0x04, Janissa_Mug, 3,5,3,3)
 
-ALIGN 4
+ALIGN 16
 Alysa_Mug:
-#incext PortraitFormatter "Recruit.png"
+#incbin "dmp/Recruit_mug.dmp"
+#incbin "dmp/Recruit_frames.dmp"
+#incbin "dmp/Recruit_palette.dmp"
+#incbin "dmp/Recruit_minimug.dmp"
 setMugEntry(0x05, Alysa_Mug, 3,6,3,4)
 
-ALIGN 4
+ALIGN 16
 Jacob_Mug:
-#incext PortraitFormatter "Jacob.png"
+#incbin "dmp/Jacob_mug.dmp"
+#incbin "dmp/Jacob_frames.dmp"
+#incbin "dmp/Jacob_palette.dmp"
+#incbin "dmp/Jacob_minimug.dmp"				
 setMugEntry(0x06, Jacob_Mug, 3,5,3,3)
 
-ALIGN 4
+ALIGN 16
 Lucian_Mug:
-#incext PortraitFormatter "Lucian.png"
+#incbin "dmp/Lucian_mug.dmp"
+#incbin "dmp/Lucian_frames.dmp"
+#incbin "dmp/Lucian_palette.dmp"
+#incbin "dmp/Lucian_minimug.dmp"
 setMugEntry(0x07, Lucian_Mug, 3,5,3,3)
 
-ALIGN 4
+ALIGN 16
 Marco_Mug:
-#incext PortraitFormatter "pops-hackbox-u.png"
+#incbin "dmp/pops-hackbox-u_mug.dmp"
+#incbin "dmp/pops-hackbox-u_frames.dmp"
+#incbin "dmp/pops-hackbox-u_palette.dmp"
+#incbin "dmp/pops-hackbox-u_minimug.dmp"
 setMugEntry(0x08, Marco_Mug, 3,5,3,3)
 
-ALIGN 4
+ALIGN 16
 Diane_Mug:
 #incext PortraitFormatter "Diane.png"
 setMugEntry(0x09, Diane_Mug, 3,6,3,4)
 
-ALIGN 4
+ALIGN 16
 Lauren_Mug:
-#incext PortraitFormatter "LaurenV2.png"
+#incbin "dmp/LaurenV2_mug.dmp"
+#incbin "dmp/LaurenV2_frames.dmp"
+#incbin "dmp/LaurenV2_palette.dmp"
+#incbin "dmp/LaurenV2_minimug.dmp"
 setMugEntry(0x0A, Lauren_Mug, 3,6,3,4)
 
-ALIGN 4
+ALIGN 16
 Mauritch_Mug:
-#incext PortraitFormatter "Mauritch.png"
+#incbin "dmp/Mauritch_mug.dmp"
+#incbin "dmp/Mauritch_frames.dmp"
+#incbin "dmp/Mauritch_palette.dmp"
+#incbin "dmp/Mauritch_minimug.dmp"
 setMugEntry(0x0B, Mauritch_Mug, 4,5,4,3)
 
-ALIGN 4
+ALIGN 16
 Katja_Mug:
-#incext PortraitFormatter "Katjav2.png"
+#incbin "dmp/Katjav2_mug.dmp"
+#incbin "dmp/Katjav2_frames.dmp"
+#incbin "dmp/Katjav2_palette.dmp"
+#incbin "dmp/Katjav2_minimug.dmp"
 setMugEntry(0x0C, Katja_Mug, 3,6,3,4)
 
-ALIGN 4
+ALIGN 16
 Libby_Mug:
 #incext PortraitFormatter "Cleric.png"
 setMugEntry(0x0D, Libby_Mug, 4,6,4,4)
 
-ALIGN 4
+ALIGN 16
 Ratface_Mug:
-#incext PortraitFormatter "RatFaceBandit.png"
+#incbin "dmp/RatFaceBandit_mug.dmp"
+#incbin "dmp/RatFaceBandit_frames.dmp"
+#incbin "dmp/RatFaceBandit_palette.dmp"
+#incbin "dmp/RatFaceBandit_minimug.dmp"
 setMugEntry(0x56, Ratface_Mug, 2,6,2,4)
 
-ALIGN 4
+ALIGN 16
 MysteryMage_Mug:
-#incext PortraitFormatter "FacelessMageAmBrosiac.png"
+#incbin "dmp/FacelessMageAmBrosiac_mug.dmp"
+#incbin "dmp/FacelessMageAmBrosiac_frames.dmp"
+#incbin "dmp/FacelessMageAmBrosiac_palette.dmp"
+#incbin "dmp/FacelessMageAmBrosiac_minimug.dmp"
 setMugEntry(0x57, MysteryMage_Mug, 2,5,3,3)

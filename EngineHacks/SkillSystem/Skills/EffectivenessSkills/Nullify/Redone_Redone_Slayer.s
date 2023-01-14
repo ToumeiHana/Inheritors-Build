@@ -15,6 +15,7 @@
 .equ SkybreakerID, SlayerClassType+4
 .equ SkybreakerClassType,SkybreakerID+4
 .equ ResourcefulID,SkybreakerClassType+4
+.equ ThunderEffectID, ResourcefulID+4
 
 push	{r4-r6,r14}
 mov		r4,r0
@@ -40,22 +41,22 @@ and		r0,r2
 cmp		r0,#0
 bne		NullifyCheck
 
-Skybreaker:					@modified to air superiority
+Skybreaker:					@modified to air superiority (effective when both flying)
 mov		r0,r4
 ldr		r1,SkybreakerID
 ldr		r3,SkillTester
 mov		r14,r3
 .short	0xF800
 cmp		r0,#0
-beq		RetFalse
+beq		ThunderEffect
 
 ldr		r2,[r4,#4]
 mov		r1,#0x50
-ldrh	r2,[r2,r1]			@weaknesses attacker unit has
+ldrh	r2,[r2,r1]			@weaknesses attacker unit has, might break with fili shield?
 ldrh 	r0,SkybreakerClassType
 and		r0,r2
 cmp		r0,#0
-beq		RetFalse
+beq		ThunderEffect
 
 ldr		r2,[r5,#4]
 mov		r1,#0x50
@@ -63,8 +64,43 @@ ldrh	r2,[r2,r1]			@weaknesses defender unit has
 ldrh 	r0,SkybreakerClassType
 and		r0,r2
 cmp		r0,#0
-bne		NullifyCheck
-b		RetFalse
+bne		NullifyCheck		
+@b		RetFalse
+
+ThunderEffect:
+mov		r0,r4
+ldr		r1,ThunderEffectID
+ldr		r3,SkillTester
+mov		r14,r3
+.short	0xF800
+cmp		r0,#0
+beq		RetFalse
+
+ldr	r3,=#0x202BCF0
+ldrb	r3, [r3,#0x15]
+cmp r3, #0x4			@rain check
+beq NullifyCheck
+
+ldr		r2,[r5,#4]
+mov		r1,#0x50
+ldrh	r2,[r2,r1]			@weaknesses defender unit has
+ldrh 	r0,SkybreakerClassType
+and		r0,r2
+cmp		r0,#0
+bne		RetFalse
+
+mov 	r3,#0x55
+ldrb	r2,[r5,r3]		@Tile enemy is on
+cmp 	r2,#0x10			@water related terrain tile IDs: river 0x10, sea 0x15, lake 0x16, deeps 0x36, water 0x3c
+beq		NullifyCheck		@theres probably nicer way to do this with a loop
+cmp		r2,#0x15
+beq		NullifyCheck
+cmp		r2,#0x16
+beq		NullifyCheck
+cmp		r2,#0x36
+beq 	NullifyCheck
+cmp		r2,#0x3c
+bne 	RetFalse
 
 NullifyCheck:
 mov		r0,r5

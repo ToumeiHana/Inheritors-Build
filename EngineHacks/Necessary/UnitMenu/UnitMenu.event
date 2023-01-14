@@ -190,5 +190,5 @@ UnitMenuTable:
   UM_Wait
 
   UM_Separator 
-
+  
 #endif // UNIT_MENU
