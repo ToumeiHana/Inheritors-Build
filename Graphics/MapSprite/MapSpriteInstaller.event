@@ -1,11 +1,11 @@
 ALIGN 4
 CerapterStand:
-#incbin "dmp/CerapterStand.dmp"
+#incbin "dmp/CerapterStand2.dmp"
 //#incext Png2Dmp "sms/CerapterStand.png" --lz77
 
 ALIGN 4
 CerapterWalk:
-#incbin "dmp/CerapterWalk.dmp"
+#incbin "dmp/CerapterWalk2.dmp"
 //#incext Png2Dmp "mms/CerapterWalk.png" --lz77
 
 ALIGN 4
@@ -87,3 +87,11 @@ RockStand:
 ALIGN 4
 RockWalk:
 #incbin "dmp/Rockwalk.dmp"
+
+ALIGN 4
+SoldierStand:
+#incbin "dmp/SoldierMstand.dmp"
+
+ALIGN 4
+SoldierWalk:
+#incbin "dmp/SoldierMwalk.dmp"

@@ -71,3 +71,9 @@ SongTable(ItHasToBeThisWayID,it_has_to_be_this_way,BattleMusicGroup)
 
 SongTable(SwordsBurstingID,SwordsBursting0,MapMusicGroup)
 #include "event/SwordsBursting0.event"
+
+SongTable(BW1NCastleID,NCastle1,MapMusicGroup)
+#include "event/BWNCastleThegis.event"
+
+SongTable(BW2NCastleID,NCastle2,MapMusicGroup)
+#include "event/BW2NCastle.event"

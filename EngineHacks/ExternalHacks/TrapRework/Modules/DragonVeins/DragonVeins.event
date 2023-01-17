@@ -24,7 +24,7 @@ ORG currentOffset+(256*4)
 
 //install map sprite
 PUSH
-	ORG (0x8AF880+0x8*VeinMapSpriteID)
+	ORG (NewStandingMapSpriteTable+0x8*VeinMapSpriteID)
       SHORT 0x0002
       SHORT 0x0000
       POIN VeinGraphics

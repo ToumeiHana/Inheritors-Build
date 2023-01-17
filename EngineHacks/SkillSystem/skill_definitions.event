@@ -19,6 +19,11 @@
 
 //Aura Skills
 
+//Honorable Duel
+//+1 atck +2 def when nothing adjacent to combatants
+#define HonorDuelID 39
+
+
 //Anathema: -10 Avoid/Dodge to all enemies within 3 tiles.
 //Author Unknown (Initial Commit)
 #define AnathemaID 149

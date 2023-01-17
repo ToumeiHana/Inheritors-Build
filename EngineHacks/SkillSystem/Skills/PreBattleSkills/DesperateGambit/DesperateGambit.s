@@ -3,12 +3,12 @@
 .equ gBattleData, 0x203A4D4
 
 push {r4-r7, lr}
-mov r4, r0 @atkr (defender defender when the skill runs)
+mov r4, r0 @atkr (defender when the skill runs)
 mov r5, r1 @dfdr 
 
 ldr r0,=#0x203A56C
 cmp r0, r4
-bne End @Defender's crit isn't calculated yet, so end
+bne End @Defender's crit isn't calculated yet, so end (Thanks Contro)
 
 @make sure we're in combat (or battle forecast)
 ldrb r3, =gBattleData
@@ -44,6 +44,7 @@ cmp r0, #0
 beq End
 
 @attacker crit calc
+@uses boosted defender crit if both have skill but its a personal skill so whatever
 mov r1, #0x66
 ldrh r2, [r4, r1] @defender crit 
 

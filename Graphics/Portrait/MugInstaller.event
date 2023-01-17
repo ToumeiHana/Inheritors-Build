@@ -1,6 +1,7 @@
 #include "Tools/Tool Helpers.txt"
 //this file defines the macro:
 //setMugEntry(number, data, mouth_x, mouth_y, eye_x, eye_y)
+
 /*
 #incbin "dmp/_mug.dmp"
 #incbin "dmp/_frames.dmp"
@@ -67,7 +68,10 @@ setMugEntry(0x08, Marco_Mug, 3,5,3,3)
 
 ALIGN 16
 Diane_Mug:
-#incext PortraitFormatter "Diane.png"
+#incbin "dmp/DianeV2_mug.dmp"
+#incbin "dmp/DianeV2_frames.dmp"
+#incbin "dmp/DianeV2_palette.dmp"
+#incbin "dmp/DianeV2_minimug.dmp"
 setMugEntry(0x09, Diane_Mug, 3,6,3,4)
 
 ALIGN 16

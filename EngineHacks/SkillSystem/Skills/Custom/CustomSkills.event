@@ -3,3 +3,10 @@ Rockhard:
 #incbin "Rockhard.dmp"
 POIN SkillTester
 WORD RockhardID
+
+ALIGN 4
+HonorDuel:
+#incbin "HonorDuel.dmp"
+POIN SkillTester
+POIN AuraSkillCheck
+WORD HonorDuelID

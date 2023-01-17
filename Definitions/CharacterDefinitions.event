@@ -13,10 +13,10 @@
 #define Libby 0x0C
 #define Nella 0x0D
 #define Emmanuel 0x0E
-/*#define Ephraim 0x0F
-#define Forde 0x10
-#define Kyle 0x11
-#define Amelia 0x12
+//#define Ephraim 0x0F
+#define Hollie 0x10
+#define Garry 0x11
+/*#define Amelia 0x12
 #define Artur 0x13
 #define Gerik 0x14
 #define Tethys 0x15

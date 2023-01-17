@@ -19,3 +19,10 @@ Boulder[X]
 
 ## BoulderDesc
 Big rock[X]
+
+## OutlawClass
+Outlaw[X]
+
+## OutlawDesc
+Slippery, speedy knaves with[N]
+sticky fingers. Equip: Bows[X]

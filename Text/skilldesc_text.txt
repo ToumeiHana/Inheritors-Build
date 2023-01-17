@@ -1,6 +1,11 @@
+## SD_HonorDuel
+Honorable Duel: When neither combatant[N]
+is adjanced to their allies, gain[N]
++1 attack & +2 defence.[X]
+
 ## SD_Rockhard
-Sturdy as Rock: +3 defense when[N]
-equipped with Elstone.[X]
+Sturdy as Stone: +3 defense when[N]
+equipped with Elstone tome.[X]
 
 ## SD_DesperateGambit
 Desperate Gambit: Add enemy[N]

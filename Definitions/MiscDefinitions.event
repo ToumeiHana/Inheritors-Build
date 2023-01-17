@@ -1,4 +1,4 @@
 #define StandingMapSpriteTable NewStandingMapSpriteTable
 #define SpellAssociationTable NewSpellAssociationTable
-#define HalfRangeAI [0x0c,0x03]
+#define HalfRangeAI [0x0c,0x03,0x03]
 #define ElstoneIndex 0x39

@@ -52,10 +52,12 @@ adding yourself!
 
 # MapSprites
 
-- Flasuban: Improved FalcoKnight (base for Cerapter Knight)
+- Flasuban: Improved FalcoKnight
 - SALVAGED: Cavaliers
 - Agro: Knights
-- Alusq: FFighter
+- Alusq: FFighter. Soldier
+- Rexacuse: Soldier
+- Peerles: Soldier
 
 # Mugs
 
@@ -71,6 +73,7 @@ adding yourself!
 - Tequila: New CHAI
 - SKILLSYS QoL+Other credits here
 - Pikmin1211: Green summons
+- Aera: Thracia trading
 
 # Music
 

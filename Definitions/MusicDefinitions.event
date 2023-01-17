@@ -17,8 +17,5 @@
 #define DefendGlobeID 0x3f
 #define FlapperGirlID 0x44
 #define QuestBattleID 0x46
-
-
-
-
-
+#define BW1NCastleID 0x58
+#define BW2NCastleID 0x59
