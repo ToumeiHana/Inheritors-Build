@@ -66,5 +66,5 @@ HOW TO ADD NEW POPUP COMPONENTS:
 	#define PopRBattlePopup(aprInit, apPopupDefinition)            "POIN (aprInit) (apPopupDefinition); WORD 0"
 	#define PopRBattlePopupEnd                                     "WORD 0 0 0"
 #endif // PopRDefinitions
-
+	
 #endif // HAX_POPR

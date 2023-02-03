@@ -103,6 +103,24 @@ Libby_Mug:
 #incext PortraitFormatter "Cleric.png"
 setMugEntry(0x0D, Libby_Mug, 4,6,4,4)
 
+//setMugEntry(0x0E,Emmanuel_Mug,
+
+ALIGN 16
+HollieHelmet_Mug:
+#incbin "dmp/HollieHelmet_mug.dmp"
+#incbin "dmp/HollieHelmet_frames.dmp"
+#incbin "dmp/HollieHelmet_palette.dmp"
+#incbin "dmp/HollieHelmet_minimug.dmp"
+setMugEntry(0x0F,HollieHelmet_Mug,3,5,3,3)
+
+ALIGN 16
+Hollie_Mug:
+#incbin "dmp/Hollie_mug.dmp"
+#incbin "dmp/Hollie_frames.dmp"
+#incbin "dmp/Hollie_palette.dmp"
+#incbin "dmp/Hollie_minimug.dmp"
+setMugEntry(0x10,Hollie_Mug,3,5,3,3)
+
 ALIGN 16
 Ratface_Mug:
 #incbin "dmp/RatFaceBandit_mug.dmp"

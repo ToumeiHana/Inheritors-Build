@@ -291,7 +291,17 @@
   New_Palettes:
     #include "DisplayGrowthsOptions/NewPalette.event"
 
+  ALIGN 4
+  PromoSkillDescGetter:
+    #include "asm/SkillDescGetter2.lyn.event"
+  //#incbin "asm/SkillDescGetter2.dmp"
 
+  ALIGN 4
+  //PromoClassDescGetter:
+    //#include "asm/PromoClassDescGetter.lyn.event"
+
+  
+  ALIGN 4
   #include "RText.event"
 
 #else // _FE8_

@@ -1,4 +1,12 @@
+// Repointed tables
 #define StandingMapSpriteTable NewStandingMapSpriteTable
 #define SpellAssociationTable NewSpellAssociationTable
+
+// Ai defs
 #define HalfRangeAI [0x0c,0x03,0x03]
+#define DelayedChargeAI [0x00, 0x12, 0x04]
+
+//Item effect table indexes
 #define ElstoneIndex 0x39
+
+#define Coords(xcoord,ycoord) "(ycoord<<16)|xcoord"

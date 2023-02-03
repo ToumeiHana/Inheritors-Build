@@ -327,6 +327,9 @@
 
 //Pre-Battle Skills
 
+//Stunning Smile: -15 avo to female enemies
+#define StunningSmileID 32
+
 //Desperate Gambit: Add enemy crit to your own
 #define DesperateGambitID 14
 

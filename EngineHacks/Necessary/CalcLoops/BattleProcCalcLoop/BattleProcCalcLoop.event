@@ -8,8 +8,10 @@ POIN Proc_Start	//start
 
 POIN Proc_Devil	//devil effect
 
-
-
+#ifdef EQUIPITEMS
+	POIN IncrementAttackCount
+#endif // EQUIPITEMS
+	
 #ifndef COMBAT_ARTS
 	POIN Proc_Sureshot Proc_Luna 
 #else //COMBAT_ARTS

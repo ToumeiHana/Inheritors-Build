@@ -5,6 +5,7 @@
     ORG FreeSpace
 
     #include "repointedTextTable.event"
+	#include "Tables/Repointed/repointedPortraitTable.event"
 	#include "Definitions/DefinitionsInstaller.event"
 
     //Text first for Text ID definitions

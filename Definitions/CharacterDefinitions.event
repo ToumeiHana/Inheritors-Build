@@ -16,8 +16,8 @@
 //#define Ephraim 0x0F
 #define Hollie 0x10
 #define Garry 0x11
-/*#define Amelia 0x12
-#define Artur 0x13
+#define Pieter 0x12
+/*#define Artur 0x13
 #define Gerik 0x14
 #define Tethys 0x15
 #define Marisa 0x16
@@ -84,6 +84,7 @@
 #define Orson_Boss 0x6D*/
 #define Farum 0x80
 #define Goon 0x81
+#define Engineer 0x82
 #define HeroKing 0x95
 #define SceneDrago 0x96
 #define Brigand_Enemy 0x97

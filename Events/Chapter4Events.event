@@ -1,0 +1,141 @@
+EventPointerTable(Chapter4Events, PointerList)
+
+PointerList:
+	POIN TurnBasedEvents
+	POIN CharacterBasedEvents
+	POIN LocationBasedEvents
+	POIN MiscBasedEvents
+	POIN Dunno1 Dunno2 Dunno3 Tutorial
+	POIN Traps1 Traps2
+	POIN Units1 Units1  //This unit group determines the number and position of deployment slots when there is a prep screen
+	POIN $0 $0 $0
+	POIN $0 $0 $0
+	POIN BeginningScene EndingScene
+
+TurnBasedEvents:
+
+	TurnEventEnemy(0,BridgeEvent,6)
+	END_MAIN
+
+ALIGN 32
+CharacterBasedEvents:
+
+	END_MAIN
+
+MiscBasedEvents:
+	CauseGameOverIfLordDies
+	VeinEffect(7,VeinEvent)
+	END_MAIN
+
+LocationBasedEvents:
+
+	END_MAIN
+
+Dunno1:
+
+	END_MAIN
+
+Dunno2:
+
+	END_MAIN
+
+Dunno3:
+
+	END_MAIN
+
+Tutorial:
+
+	END_MAIN
+
+Units1:
+	UNIT Curtis Eye Curtis Level(1,Ally,False) [2,13] 0x00 0x00 0x00 0x01 [0x0] NoAI
+	UNIT Janessa CerapterKnight Curtis Level(1,Ally,False) [0,11] 0x00 0x00 0x00 0x01 [0x0] NoAI
+	UNIT Janessa CerapterKnight Curtis Level(1,Ally,False) [1,11] 0x00 0x00 0x00 0x01 [0x0] NoAI
+	UNIT Janessa CerapterKnight Curtis Level(1,Ally,False) [0,12] 0x00 0x00 0x00 0x01 [0x0] NoAI
+	UNIT Janessa CerapterKnight Curtis Level(1,Ally,False) [1,12] 0x00 0x00 0x00 0x01 [0x0] NoAI
+	UNIT Janessa CerapterKnight Curtis Level(1,Ally,False) [0,13] 0x00 0x00 0x00 0x01 [0x0] NoAI
+	UNIT Janessa CerapterKnight Curtis Level(1,Ally,False) [1,13] 0x00 0x00 0x00 0x01 [0x0] NoAI
+	UNIT Janessa CerapterKnight Curtis Level(1,Ally,False) [0,14] 0x00 0x00 0x00 0x01 [0x0] NoAI
+	UNIT Janessa CerapterKnight Curtis Level(1,Ally,False) [1,14] 0x00 0x00 0x00 0x01 [0x0] NoAI
+	UNIT Janessa CerapterKnight Curtis Level(1,Ally,False) [0,15] 0x00 0x00 0x00 0x01 [0x0] NoAI
+	UNIT Janessa CerapterKnight Curtis Level(1,Ally,False) [1,15] 0x00 0x00 0x00 0x01 [0x0] NoAI
+	UNIT
+
+EnemyUnits:
+
+	UNIT Bazba Paladin 0x0 Level(1,Enemy,False) [25,6] 0x0 0x0 0x0 0x0 [SteelSword, HandAxe] NeverMoveAI
+	UNIT Farum Ballistician Bazba Level(1,Enemy,True) [24,6] 0x0 0x0 0x0 0x0 [Ballista] NeverMoveAI
+	UNIT Engineer EngiClass Bazba Level(3,Enemy,True) [25,3] 0x0 0x0 0x0 0x0  [Hammer] DoNothing
+	UNIT Engineer EngiClass Bazba Level(3,Enemy,True) [25,4] 0x0 0x0 0x0 0x0  [Hammer] DoNothing
+	UNIT
+	
+HollieGroup:
+	UNIT Hollie BowKnight Garry Level(4,NPC,False) [16,7] 0x0 0x0 0x0 [SteelBow] HalfRangeAI
+	UNIT
+	
+GreenGroup:
+	UNIT Garry AxeKnight 0x0 Level(5,NPC,False) [12,5] 0x0 0x0 0x1 REDA12R7 [SteelAxe] HalfRangeAI
+	UNIT Pieter Soldier Garry Level(3,NPC,False) [11,5] 0x0 0x0 0x1 REDA11R6 [IronLance] HalfRangeAI
+	UNIT
+
+Traps1:
+	Vein(10,9,7)
+	ENDTRAP
+	ALIGN 4
+
+Traps2:
+	ENDTRAP
+	ALIGN 4
+
+BeginningScene:
+	FADU 10
+
+	MUSC OffToWarID
+	LOAD1 0x1 HollieGroup
+	ENUN
+
+	LOAD1 0x1 EnemyUnits
+	ENUN
+	
+	EVBIT_T 9
+	MOVE 0 Hollie [13,6]
+	ENUN
+	TILECHANGE 2
+	LOAD1 0x1 GreenGroup
+	ENUN
+	
+	SOUN SwushSFX
+	STAL 60
+	SOUN CrashSFX
+	TILECHANGE 0
+	
+	//MOVE 0 Garry [12,7]
+	
+	LOAD1 0x0 Units1
+	ENUN
+	GotoPrepScreen
+	ENDA
+
+VeinEvent:
+	VeinActivation
+	TILECHANGE 3
+	NoFade
+	ENDA
+
+BridgeEvent:
+
+	CHECK_EXISTS Engineer
+	CAMERA Engineer
+	BEQ 1 s0 sC
+	TILECHANGE 1
+	REMOVEUNIT Engineer
+	REMOVEUNIT Engineer
+	
+	LABEL 1
+	NoFade
+	ENDA
+	
+EndingScene:
+	MNC2 Chapter5
+	NoFade
+	ENDA

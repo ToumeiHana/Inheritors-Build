@@ -64,6 +64,16 @@ adding yourself!
 - AmBrosiac: Faceless Mage
 - Eldritch Abomination: FE8 color rat face bandit
 
+# Class Cards
+
+- Aruka: Ballistician
+- Yggdra: Ballistician
+- SALVAGED: Cavaliers
+- Der: Knights
+- Epicer: Knights
+- Rasdel: Outlaw
+- Flasuban: Pegasus Knights
+
 # Patches
 
 - Scraiza: NarrowFont 
@@ -78,16 +88,18 @@ adding yourself!
 # Music
 
 - Lemon Tart: Super Robot Wars - Trombe!
-- Thegis: Etrian Odyssey 3 - The First Campaing
+- Thegis: Etrian Odyssey 3 - The First Campaing, Pokemon BW - N's Castle
 - Sme: TMS#FE - Quest Battle, MK Wii - Mushroom Gorge, Metal Gear Revengeance - It Has To Be This Way
 - Psyche: PMD EoS - Defend Globe
-- RSFlame: Berwick Saga - Departure
+- RSFlame: Berwick Saga - Departure, FE12 - Off to War
 - RandomWizard: FE7 - A Knight's Oath
 - Mycahel: Monster Hunter 3 - Jhen Mohran Battle, NieR Automata - Dark Colossus Destroys All 
 - MeatOfJustice: Marvel vs Capcom Clash of the Superheroes - Captain America's Theme
 - A Reliable Chair: Octopath Traveller - Battle 2
 - MonopolyRubix: Xenoblade - An Obstacle In Our Path
-- Miffe: Xenoblade - An Obstacle In Our Path 
+- Miffe: Xenoblade - An Obstacle In Our Path
+- Alusq: Off to War Remix
+- Azula: FE11 - Trouble!
 
 # Other
 

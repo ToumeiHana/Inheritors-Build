@@ -57,6 +57,9 @@
 #define MoutainousConfigID 0x6E
 #define PlainsConfigID 0x03
 
+//Tile Anims
+#define VillageAnimsID 0x8B
+
 //Map IDs
 #define Chapter1Map 0x04
 #define Chapter2Map 0x08

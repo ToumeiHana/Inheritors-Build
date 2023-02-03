@@ -51,6 +51,7 @@ POIN LethalitySkill NonGBALethalitySkill Bane
 POIN DesperateGambit
 POIN Rockhard
 POIN HonorDuel
+POIN StunningSmile
 
 #ifdef MODULAR_PRE_BATTLE_SKILLS
 	POIN ModularPreBattleSkill 

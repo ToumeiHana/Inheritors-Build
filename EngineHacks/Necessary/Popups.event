@@ -39,4 +39,8 @@ gPromotionPopupTable:
 
 	PopRBattlePopupEnd
 
+	#ifdef EQUIPITEMS
+	PopRBattlePopup(PopR_InitEquipmentBroke, 0x592420, 96)
+	#endif // EQUIPITEMS
+	
 #endif // POPUPS

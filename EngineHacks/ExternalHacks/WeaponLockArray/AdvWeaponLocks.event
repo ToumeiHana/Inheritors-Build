@@ -31,7 +31,7 @@ BYTE EndLockArray
 
 BallistaArray:
 BYTE HardClassLock
-BYTE Ballistican
+BYTE Ballistician
 BYTE Fleet
 BYTE Sandskipper
 BYTE EndLockArray

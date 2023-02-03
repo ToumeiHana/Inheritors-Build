@@ -1,6 +1,8 @@
 #define SwordsBurstingID 0x09
-#define OctopathBattle2ID 0x0a
+//#define OctopathBattle2ID 0x0a
+#define WarCloudsID 0x0a
 #define JhenMohranID 0x0b
+#define WindBlowsID 0x0c
 #define SteelCockpitID 0x0F
 #define MiitopiaBattleID 0x16
 #define DarkColossusID 0x17
@@ -9,7 +11,11 @@
 #define TrombeID 0x1b
 #define CapAmericaID 0x1c
 #define ItHasToBeThisWayID 0x1d
+#define OffToWarRemixID 0x1e
+#define CruelAngelStaffID 0x22
 #define LandOfConflictID 0x24
+#define TroubleID 0x26
+#define OffToWarID 0x27
 #define DepartureID 0x27
 #define KnightsOathID 0x28
 #define HeavyArmorCorpsID 0x34
@@ -17,5 +23,14 @@
 #define DefendGlobeID 0x3f
 #define FlapperGirlID 0x44
 #define QuestBattleID 0x46
+#define BirdsSFX 0x4C
 #define BW1NCastleID 0x58
 #define BW2NCastleID 0x59
+#define SlapSFX 0x84 //from silence staff?
+#define CrashSFX 0xAB
+#define KaChinkSFX 0xB9
+#define SwushSFX 0xCA
+#define ShortRoarSFX 0xDE
+#define RoarSFX 0xE6
+#define ThunderSFX 0xF5
+#define Thunder2SFX 0x11A

@@ -95,3 +95,19 @@ SoldierStand:
 ALIGN 4
 SoldierWalk:
 #incbin "dmp/SoldierMwalk.dmp"
+
+ALIGN 4
+BallisticianStand:
+#incbin "dmp/BallisticianMImprovedflasubanDerstand.dmp"
+
+ALIGN 4
+BallisticianWalk:
+#incbin "dmp/BallisticianMImprovedflasubanDerwalk.dmp"
+
+ALIGN 4
+BallisticianFStand:
+#incbin "dmp/BallisticianFImprovedflasubanDerstand.dmp"
+
+ALIGN 4
+BallisticianFWalk:
+#incbin "dmp/BallisticianImprovedflasubanDerwalk.dmp"

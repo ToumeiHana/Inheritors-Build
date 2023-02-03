@@ -1,11 +1,10 @@
 
 ALIGN 4
-
+#define EQUIPITEMS
 #include "Equip.lyn.event"
 
 ALIGN 4
 EquipmentList:
-BYTE IronSword
 BYTE 0x00 //terminator
 
 // Defense equipemnt loses durability on each hit taken
@@ -16,7 +15,6 @@ BYTE 0x00 // terminator
 // Offense equipment loses durability on each attack made
 ALIGN 4
 OffenseEquipmentList:
-BYTE IronSword
 BYTE 0x00 // terminator
 
 // Equipment in neither list doesn't decrement durability

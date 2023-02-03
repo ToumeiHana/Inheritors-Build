@@ -53,9 +53,14 @@ Mauritch[X]
 ## KatjaName
 Katja[X]
 
-
 ## LibbyName
 Libby[X]
 
 ## EmmanuelName
 Emmanuel[X]
+
+## HollieName
+Hollie[X]
+
+## GarryName
+Garry[X]

@@ -10,3 +10,9 @@ HonorDuel:
 POIN SkillTester
 POIN AuraSkillCheck
 WORD HonorDuelID
+
+ALIGN 4
+StunningSmile:
+#incbin "StunningSmile.dmp"
+POIN SkillTester
+WORD StunningSmileID

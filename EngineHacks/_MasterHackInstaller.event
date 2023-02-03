@@ -59,10 +59,14 @@ POP
 
 ////////////////////////////////FREE SPACE OUT OF BL RANGE
 
+  //#include "ExternalHacks/Equip/Installer.event"
+
   #include "Externalhacks/ItemUsePerChap.event"
 
   #include "AiPerformExtension/AiInstaller.event"
 
+  //#include "ExternalHacks/SkillDescGetter/SkillDescGetter.event"
+  
   #include "ExternalHacks/BowWTA/BowAdvantage.event"
 
   // Display damage numbers in battle animations.

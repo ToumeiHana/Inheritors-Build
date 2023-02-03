@@ -83,3 +83,9 @@ This character's current age.[X]
 ## HeightDesc
 This character's height.[X]
 
+## NoPromoText
+Cannot promote[X]
+
+## PromotionDataDesc
+Classes this unit can promote[N]
+to and their class skills.[X]

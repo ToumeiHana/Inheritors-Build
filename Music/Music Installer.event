@@ -60,8 +60,8 @@ SongTable(ObstacleInOurPathID,XBObstacle,BattleMusicGroup)
 SongTable(DarkColossusID,DarkColossus,MapMusicGroup)
 #include "event/DarkColossusDestroysAllMycahel.event"
 
-SongTable(OctopathBattle2ID,OTBattle2,MapMusicGroup)
-#include "event/OctopathTravelerBattle2AReliableChair.event"
+//SongTable(OctopathBattle2ID,OTBattle2,MapMusicGroup)
+//#include "event/OctopathTravelerBattle2AReliableChair.event"
 
 SongTable(CapAmericaID,CapAm,BattleMusicGroup)
 #include "event/CaptainAmericaThemeMeatOfJustice.event"
@@ -77,3 +77,21 @@ SongTable(BW1NCastleID,NCastle1,MapMusicGroup)
 
 SongTable(BW2NCastleID,NCastle2,MapMusicGroup)
 #include "event/BW2NCastle.event"
+
+SongTable(WarCloudsID,WarClouds00,MapMusicGroup)
+#include "event/WarClouds00.event"
+
+SongTable(CruelAngelStaffID,CruelAngelsThesisCut,BattleMusicGroup)
+#include "event/CruelAngelsThesisCut.event"
+
+SongTable(OffToWarID,OffToWar,MapMusicGroup)
+#include "event/OffToWarRSFlame.event"
+
+SongTable(TroubleID,Trouble,MapMusicGroup)
+#include "event/TroubleAzula.event"
+
+SongTable(OffToWarRemixID,fe3offtowarremix,BattleMusicGroup)
+#include "event/fe3offtowarremix.event"
+
+SongTable(WindBlowsID,WindBlowsFinal,MapMusicGroup)
+#include "event/WindBlowsFinal.event"

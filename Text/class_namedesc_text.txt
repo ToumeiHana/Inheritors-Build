@@ -8,11 +8,59 @@ superior defense. Equip: Lances, Axes[X]
 ## SwordCavClass
 ^{Sword Cavalier}[X]
 
+## SwordCavDesc
+Mounted knights with swift movement.[N]
+Equip: Swords [X]
+
 ## LanceCavClass
 ^{Lance Cavalier}[X]
 
+## LanceCavDesc
+Mounted knights with swift movement.[N]
+Equip: Lances [X]
+
 ## AxeCavClass
 ^{Axe Cavalier}[X]
+
+## AxeCavDesc
+Mounted knights with swift movement.[N]
+Equip: Axes [X]
+
+## PaladinDesc
+Mounted knights skilled with all[N]
+weapons. Equip: Swords, Lances, Axes[X]
+
+## LanceArmorClass
+^{Lance Knight}[X]
+
+## LanceArmorDesc
+Heavily armored knights with poor[N]
+resistance. Equip: Lances[X]
+
+## BowArmorClass
+^{Bow Knight}[X]
+
+## BowArmorDesc
+Heavily armored knights with poor[N]
+resistance. Equip: Bows[X]
+
+## AxeArmorClass
+^{Axe Knight}[X]
+
+## AxeArmorDesc
+Heavily armored knights with poor[N]
+resistance. Equip: Axes[X]
+
+## SwordArmorClass
+^{Sword Knight}[X]
+
+## SwordArmorDesc
+Heavily armored knights with poor[N]
+resistance. Equip: Swords[X]
+
+## GeneralDesc
+Experienced armored knights.[N]
+Equip: Swords, Lances, Axes, Bows[X]
 
 ## BoulderClass
 Boulder[X]
@@ -26,3 +74,129 @@ Outlaw[X]
 ## OutlawDesc
 Slippery, speedy knaves with[N]
 sticky fingers. Equip: Bows[X]
+
+## AdventurerClass
+Adventurer[X]
+
+## AdventurerDesc
+Master treasure seekers and[N]
+tricksters. Equip: Bows, Staves[X]
+
+## RangerDesc
+Horseback archers of considerable[N]
+skill. Equip: Bows[X]
+
+## GreatLancerClass
+Great Lancer[X]
+
+## GreatLancerDesc
+Spear-wielding horseriders of[N]
+great skill. Equip: Lances[X]
+
+## ForrestKnightClass
+^{Forrest Knight}[X]
+
+## ForrestKnightDesc
+Swift masters of horseback[N]
+swordfighting. Equip: Swords[X]
+
+## SageDesc
+Advanced scholars of magical codices.[N]
+Equip: Anima, Light[X]
+
+## BishopDesc
+Faithful users of light magic.[N]
+Equip: Light, Staves[X]
+
+## DruidDesc
+Wielders of deep and ancient magic.[N]
+Equip: Dark, Staves[X]
+
+## DarkKnightClass
+Dark Knight[X]
+
+## DarkKnightDesc
+Ominous knights armed with magic[N]
+and swords. Equip: Swords, Dark[X]
+
+## GreatKnightDesc
+Knights with great mobility and[N]
+defense. Equip: Axes[X]
+
+## LancePegasusClass
+^{Lance Pegasus}[X]
+
+## DancerDesc
+Dancers whose dances revitalize[N]
+their allies. Equip: Swords[X]
+
+## AxePegasusClass
+^{Axe Pegasus}[X]
+
+## AxePegasusDesc
+Airborne knights who resist magic but[N]
+are weak against bows. Equip: Axes[X]
+
+## EyeClass
+Eye[X]
+
+## SeerClass
+Seer[X]
+
+## ClawClass
+Claw[X]
+
+## SharpclawClass
+Sharpclaw[X]
+
+## HornClass
+Horn[X]
+
+## SkypiercerClass
+Skypiercer[X]
+
+## WingClass
+Wing[X]
+
+## FellwingClass
+Fellwing[X]
+
+## TailClass
+Tail[X]
+
+## FlamelashClass
+Flamelash[X]
+
+## GutClass
+Gut[X]
+
+## FangClass
+Fang[X]
+
+## BallistaClass
+Ballistician[X]
+
+## BallistaDesc
+Armored masters of siege weaponry.[N]
+Equip: Bows, Ballistae[X]
+
+## SandskipperClass
+Sandskipper[X]
+
+## SandskipperDesc
+Warships that patrol the hot sands.[N]
+They carry powerful ballistae.[X]
+
+## HalberdierClass
+Halberdier[X]
+
+## HalberdierDesc
+The most elite of elite spearmen.[N]
+Equip: Lances[X]
+
+## EngineerClass
+Engineer[X]
+
+## EngineerDesc
+Workers on the battlefield.[N]
+Bad at combat. Equip: Axes[X]

@@ -15,7 +15,7 @@ PointerList:
 TurnBasedEvents:
 
 	TurnEventPlayer(0,LooterSpawn,7)
-	TurnEventPlayer(0,BrigandCharge,6)
+	//TurnEventPlayer(0,BrigandCharge,6)
 	END_MAIN
 
 ALIGN 32
@@ -87,6 +87,7 @@ EnemyUnits:
 	UNIT Brigand_Enemy Brigand Bone Level(4,Enemy,True) [4,18] 0x0 0x0 0x0 0x0 [SteelAxe] AttackInRangeAI
 	UNIT Brigand_Enemy Brigand Bone Level(4,Enemy,True) [17,12] 0x0 0x0 0x0 0x0 [IronAxe] AttackInRangeAI
 	UNIT Brigand_Enemy Brigand Bone Level(4,Enemy,True) [6,12] 0x0 0x0 0x0 0x0 [IronAxe] AttackInRangeAI
+	UNIT Brigand_Enemy Mercenary Bone Level(4,Enemy,True) [2,19] 0x0 0x0 0x0 0x0 [IronSword] AttackInRangeAI
 	UNIT
 
 LibbyGroup:
@@ -99,7 +100,11 @@ BoulderOne:
 	UNIT
 	
 BoulderTwo:
-	UNIT EvanSummon Boulder 0x0 Level(17,Enemy,True) [7,9] 0x00 0x00 0x00 0x00 [0x0] NeverMoveAI
+	UNIT Goon Boulder 0x0 Level(17,Enemy,True) [7,9] 0x00 0x00 0x00 0x00 [0x0] NeverMoveAI
+	UNIT
+
+BoulderTwoReal:
+	UNIT BoulderSummon Boulder 0x0 Level(17,Enemy,True) [7,9] 0x00 0x00 0x00 0x00 [0x0] NeverMoveAI
 	UNIT
 	
 LooterGroup:
@@ -107,9 +112,9 @@ LooterGroup:
 	UNIT
 	
 ExtraLads:
-	UNIT Brigand_Enemy Brigand 0x0 Level(4,Enemy,True) [13,0] 0x0 0x0 0x1 REDA13R0 [IronAxe] DefaultAI
-	UNIT Brigand_Enemy Myrmidon 0x0 Level(5,Enemy,True) [14,0] 0x0 0x0 0x1 REDA14R1 [SteelSword] DefaultAI
-	UNIT Brigand_Enemy Brigand 0x0 Level(4,Enemy,True) [15,0] 0x0 0x0 0x1 REDA15R0 [IronAxe] DefaultAI
+	UNIT Brigand_Enemy Brigand 0x0 Level(4,Enemy,True) [13,0] 0x0 0x0 0x1 REDA13R0 [IronAxe] DelayedChargeAI
+	UNIT Brigand_Enemy Myrmidon 0x0 Level(5,Enemy,True) [14,0] 0x0 0x0 0x1 REDA14R1 [SteelSword] DelayedChargeAI
+	UNIT Brigand_Enemy Brigand 0x0 Level(4,Enemy,True) [15,0] 0x0 0x0 0x1 REDA15R0 [IronAxe] DelayedChargeAI
 	UNIT
 
 Traps1:
@@ -143,17 +148,25 @@ BeginningScene:
 	ENUN
 	CAMERA Emmanuel
 	STAL 50
+	
 	LOAD1 0 BoulderOne
-	SUMMONUNIT BoulderSummon
-	ENUN	
+	ENUN
+	SVAL sB Coords(8,11)
+	SUMMONUNIT (BoulderSummon)
+		
 	MOVE 0 Emmanuel [7,10]
 	ENUN	
 	LOAD1 0 BoulderTwo
-	SUMMONUNIT EvanSummon
 	ENUN
+	SCOORD sB [7,11]
+	SUMMONUNIT (Goon)
+	
 	MOVE 0 Emmanuel [1,12]
 	ENUN
 	
+	FADI 10
+	REMOVEUNIT Goon
+	LOAD1 0x1 BoulderTwoReal
 	LOAD1 0x0 Units1
 	GotoPrepScreen
 	ENDA
@@ -175,7 +188,7 @@ BrigandCharge:
 	
 DragonveinEvent:
 	VeinActivation
-	CAMERA [15,8]
+	CAMERA [11,8]
 	SOUN 0xAF
 	TILECHANGE 1
 	SOUN 0xAF
@@ -225,7 +238,7 @@ EmmanuelRecruitment:
 	//CUSA Libby
 	MURE 5
 	REMOVEUNIT BoulderSummon
-	REMOVEUNIT EvanSummon
+	REMOVEUNIT BoulderSummon
 	NoFade
 	ENDA
 

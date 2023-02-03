@@ -28,8 +28,9 @@ beq AttackerCheck
 @defender crit calc
 mov r1, #0x66
 ldrh r2, [r5, r1] @attacker crit
-@mov r3, r2
+
 ldrh r0, [r4, r1] @defender crit
+@mov r6, r0
 add r0, r2		  @add attackers crit to defenders
 strh r0, [r4, r1] @store new defender crit
 
@@ -49,7 +50,7 @@ mov r1, #0x66
 ldrh r2, [r4, r1] @defender crit 
 
 ldrh r0, [r5, r1] @attacker crit
-@add r0, r3		  @add defenders crit to attackers
+@add r0, r6		  @add defenders crit to attackers
 add r0, r2
 strh r0, [r5, r1] @store new attacker crit
 

@@ -1,0 +1,722 @@
+//Event file generated from Sappy .s format.
+	#include "MPlayDef.event"
+
+	#define	CruelAngelsThesisCut_grp  voicegroup000
+	#define	CruelAngelsThesisCut_pri  0
+	#define	CruelAngelsThesisCut_rev  0
+	#define	CruelAngelsThesisCut_mvl  127
+	#define	CruelAngelsThesisCut_key  0
+	#define	CruelAngelsThesisCut_tbs  1
+	#define	CruelAngelsThesisCut_exg  0
+	#define	CruelAngelsThesisCut_cmp  1
+
+	// .rodata
+	//	CruelAngelsThesisCut
+	ALIGN 4
+
+//**************** Track 1 (Midi-Chn.1) ****************//
+
+CruelAngelsThesisCut_1:
+	BYTE	KEYSH   CruelAngelsThesisCut_key+0
+// 000   ----------------------------------------
+	BYTE	TEMPO   250*CruelAngelsThesisCut_tbs/2
+	BYTE		VOICE   23
+	BYTE	W01
+	BYTE		VOL     45*CruelAngelsThesisCut_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE	W23
+// 001   ----------------------------------------
+	BYTE	TEMPO   78*CruelAngelsThesisCut_tbs/2
+	BYTE		N24     Cn3   v108
+	BYTE	W24
+// 002   ----------------------------------------
+	BYTE		N22     Ds3   v100
+	BYTE	W24
+// 003   ----------------------------------------
+	BYTE		BEND    c_v-3
+	BYTE		N16     Fn3   v108
+	BYTE	W01
+	BYTE		BEND    c_v-8
+	BYTE	W01
+	BYTE		        c_v-3
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W14
+	BYTE		N17     Ds3   v100
+	BYTE	W06
+// 004   ----------------------------------------
+	BYTE	W12
+	BYTE		N09     Fn3   v104
+	BYTE	W12
+// 005   ----------------------------------------
+	BYTE		N11     Fn3   v112
+	BYTE	W12
+	BYTE		N07     Fn3   v088
+	BYTE	W11
+	BYTE		N02     An3   v068
+	BYTE	W01
+// 006   ----------------------------------------
+	BYTE		N11     As3   v108
+	BYTE	W12
+	BYTE		N10     Gs3   v104
+	BYTE	W12
+// 007   ----------------------------------------
+	BYTE		N05     Gn3   v108
+	BYTE	W06
+	BYTE		N10     Fn3   v088
+	BYTE	W12
+	BYTE		N11     Gn3   v096
+	BYTE	W06
+// 008   ----------------------------------------
+	BYTE	W24
+// 009   ----------------------------------------
+	BYTE		N22     Gn3   v112
+	BYTE	W24
+// 010   ----------------------------------------
+	BYTE		N21     As3   v100
+	BYTE	W23
+	BYTE		N02     Bn3   v068
+	BYTE	W01
+// 011   ----------------------------------------
+	BYTE		N16     Cn4   v108
+	BYTE	W18
+	BYTE		N17     Fn3   v100
+	BYTE	W06
+// 012   ----------------------------------------
+	BYTE	W12
+	BYTE		N09     Ds3 
+	BYTE	W12
+// 013   ----------------------------------------
+	BYTE		N10     As3   v104
+	BYTE	W12
+	BYTE		N12     As3   v084
+	BYTE	W12
+// 014   ----------------------------------------
+	BYTE		        Gn3   v096
+	BYTE	W12
+	BYTE		N09     As3   v092
+	BYTE	W12
+// 015   ----------------------------------------
+	BYTE		N17     As3   v100
+	BYTE	W18
+	BYTE		TIE     Cn4   v108
+	BYTE	W06
+// 016   ----------------------------------------
+	BYTE	TEMPO   88*CruelAngelsThesisCut_tbs/2
+	BYTE	W24
+// 017   ----------------------------------------
+	BYTE	TEMPO   132*CruelAngelsThesisCut_tbs/2
+	BYTE	W24
+// 018   ----------------------------------------
+	BYTE	W24
+// 019   ----------------------------------------
+	BYTE	W24
+	BYTE		EOT   
+// 020   ----------------------------------------
+	BYTE	W04
+	BYTE	FINE
+
+//**************** Track 2 (Midi-Chn.8) ****************//
+
+CruelAngelsThesisCut_2:
+	BYTE	KEYSH   CruelAngelsThesisCut_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   52
+	BYTE	W01
+	BYTE		VOL     42*CruelAngelsThesisCut_mvl/mxv
+	BYTE		PAN     c_v-32
+	BYTE	W23
+// 001   ----------------------------------------
+CruelAngelsThesisCut_2_001:
+	BYTE		N44     Ds3   v076
+	BYTE		N44     Cn4   v084
+	BYTE	W24
+	BYTE	PEND
+// 002   ----------------------------------------
+	BYTE	W24
+// 003   ----------------------------------------
+	BYTE	PATT
+	 POIN2	CruelAngelsThesisCut_2_001
+// 004   ----------------------------------------
+	BYTE	W24
+// 005   ----------------------------------------
+	BYTE		N44     Fn3   v076
+	BYTE		N44     Dn4   v084
+	BYTE	W24
+// 006   ----------------------------------------
+	BYTE	W24
+// 007   ----------------------------------------
+	BYTE		N24     Gn3   v076
+	BYTE		N24     Ds4   v084
+	BYTE	W24
+// 008   ----------------------------------------
+	BYTE	W24
+// 009   ----------------------------------------
+	BYTE		N44     Gn3   v076
+	BYTE		N44     Ds4   v084
+	BYTE	W24
+// 010   ----------------------------------------
+	BYTE	W24
+// 011   ----------------------------------------
+	BYTE		        Gs3   v076
+	BYTE		N44     Fn4   v084
+	BYTE	W24
+// 012   ----------------------------------------
+	BYTE	W24
+// 013   ----------------------------------------
+	BYTE		N28     Fn3   v076
+	BYTE		N28     Dn4   v084
+	BYTE	W24
+// 014   ----------------------------------------
+	BYTE	W24
+// 015   ----------------------------------------
+	BYTE		VOL     10*CruelAngelsThesisCut_mvl/mxv
+	BYTE		TIE     Gs3   v104
+	BYTE		TIE     Ds4 
+	BYTE	W02
+	BYTE		VOL     12*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        12*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W02
+	BYTE		        13*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        13*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        14*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        14*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        15*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        15*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        16*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        16*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        16*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        17*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W02
+	BYTE		        17*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        18*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        18*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        20*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        20*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        21*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        21*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        21*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+// 016   ----------------------------------------
+	BYTE		        21*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        23*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W02
+	BYTE		        23*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        23*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        24*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        24*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        25*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        25*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        26*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        26*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        28*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        28*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W02
+	BYTE		        28*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        28*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        28*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        29*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        29*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        31*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        31*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        32*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        32*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        33*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+// 017   ----------------------------------------
+	BYTE	W01
+	BYTE		        33*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        34*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        34*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        34*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        35*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        35*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        36*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        36*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        37*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        37*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W02
+	BYTE		        39*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        39*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        40*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        40*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        40*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        41*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        41*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        42*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        42*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        43*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W02
+	BYTE		        43*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+// 018   ----------------------------------------
+	BYTE		        44*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        44*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        45*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        45*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        47*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        47*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        47*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        48*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        48*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W02
+	BYTE		        49*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        49*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        49*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        49*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        51*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        51*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        52*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        52*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        52*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        53*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W02
+	BYTE		        53*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        55*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        55*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+// 019   ----------------------------------------
+	BYTE		        56*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        56*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        56*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        56*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        57*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        57*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        57*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W02
+	BYTE		        59*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        59*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        60*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        60*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        61*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        61*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        63*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        63*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        63*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        63*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        63*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        61*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        59*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        57*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        56*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        55*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+// 020   ----------------------------------------
+	BYTE		        52*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        49*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        49*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        47*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		EOT     Gs3 
+	BYTE		        Ds4 
+	BYTE		VOL     45*CruelAngelsThesisCut_mvl/mxv
+	BYTE		BEND    c_v+0
+	BYTE	FINE
+
+//**************** Track 3 (Midi-Chn.9) ****************//
+
+CruelAngelsThesisCut_3:
+	BYTE	KEYSH   CruelAngelsThesisCut_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   52
+	BYTE	W01
+	BYTE		VOL     42*CruelAngelsThesisCut_mvl/mxv
+	BYTE		PAN     c_v+32
+	BYTE	W23
+// 001   ----------------------------------------
+	BYTE		N44     Cn3   v076
+	BYTE		N44     Gn3   v084
+	BYTE	W24
+// 002   ----------------------------------------
+	BYTE	W24
+// 003   ----------------------------------------
+	BYTE		        Cn3   v076
+	BYTE		N44     Gs3   v084
+	BYTE	W24
+// 004   ----------------------------------------
+	BYTE	W24
+// 005   ----------------------------------------
+	BYTE		        As2   v076
+	BYTE		N44     As3   v084
+	BYTE	W24
+// 006   ----------------------------------------
+	BYTE	W24
+// 007   ----------------------------------------
+	BYTE		N24     Ds3   v076
+	BYTE		N24     As3   v084
+	BYTE	W24
+// 008   ----------------------------------------
+	BYTE	W24
+// 009   ----------------------------------------
+	BYTE		N44     Cn3   v076
+	BYTE		N44     Cn4   v084
+	BYTE	W24
+// 010   ----------------------------------------
+	BYTE	W24
+// 011   ----------------------------------------
+	BYTE		        Ds3   v076
+	BYTE		N44     Cn4   v084
+	BYTE	W24
+// 012   ----------------------------------------
+	BYTE	W24
+// 013   ----------------------------------------
+	BYTE		N28     Dn3   v076
+	BYTE		N28     As3   v084
+	BYTE	W24
+// 014   ----------------------------------------
+	BYTE	W24
+// 015   ----------------------------------------
+	BYTE		VOL     10*CruelAngelsThesisCut_mvl/mxv
+	BYTE		TIE     Ds3   v096
+	BYTE		TIE     Cn4   v104
+	BYTE	W02
+	BYTE		VOL     12*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        12*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W02
+	BYTE		        13*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        13*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        14*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        14*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        15*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        15*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        16*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        16*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        16*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        17*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W02
+	BYTE		        17*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        18*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        18*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        20*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        20*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        21*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        21*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        21*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+// 016   ----------------------------------------
+	BYTE		        21*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        23*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W02
+	BYTE		        23*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        23*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        24*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        24*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        25*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        25*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        26*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        26*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        28*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        28*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W02
+	BYTE		        28*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        28*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        28*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        29*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        29*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        31*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        31*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        32*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        32*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        33*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+// 017   ----------------------------------------
+	BYTE	W01
+	BYTE		        33*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        34*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        34*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        34*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        35*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        35*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        36*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        36*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        37*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        37*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W02
+	BYTE		        39*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        39*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        40*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        40*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        40*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        41*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        41*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        42*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        42*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        43*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W02
+	BYTE		        43*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+// 018   ----------------------------------------
+	BYTE		        44*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        44*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        45*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        45*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        47*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        47*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        47*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        48*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        48*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W02
+	BYTE		        49*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        49*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        49*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        49*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        51*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        51*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        52*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        52*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        52*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        53*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W02
+	BYTE		        53*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        55*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        55*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+// 019   ----------------------------------------
+	BYTE		        56*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        56*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        56*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        56*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        57*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        57*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        57*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W02
+	BYTE		        59*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        59*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        60*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        60*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        61*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        61*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        63*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        63*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        63*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        63*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        63*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        61*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        59*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        57*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        56*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        55*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+// 020   ----------------------------------------
+	BYTE		        52*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        49*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        49*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		        47*CruelAngelsThesisCut_mvl/mxv
+	BYTE	W01
+	BYTE		EOT     Ds3 
+	BYTE		        Cn4 
+	BYTE		VOL     45*CruelAngelsThesisCut_mvl/mxv
+	BYTE	FINE
+
+//******************************************************//
+	ALIGN 4
+
+CruelAngelsThesisCut:
+	BYTE	3	// NumTrks
+	BYTE	0	// NumBlks
+	BYTE	CruelAngelsThesisCut_pri	// Priority
+	BYTE	CruelAngelsThesisCut_rev	// Reverb.
+
+	POIN2	CruelAngelsThesisCut_grp
+
+	POIN2	CruelAngelsThesisCut_1
+	POIN2	CruelAngelsThesisCut_2
+	POIN2	CruelAngelsThesisCut_3
+
+	

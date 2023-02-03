@@ -1,3 +1,5 @@
+#include "TileAnims/TileAnimInstaller.event"
+
 ALIGN 4
 VillageObjects:
 #incext Png2Dmp "VillageV2StandardTiles.png" --lz77

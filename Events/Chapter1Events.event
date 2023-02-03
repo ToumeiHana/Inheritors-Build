@@ -119,7 +119,7 @@ BeginningScene:
 	TEXTSTART
 	TEXTSHOW Ch1PreMap
 	TEXTEND
-	MUSC 0x48
+	MUSC BirdsSFX
 	BACKGROUND_CHANGE 0x31 1 10 
 	TEXTCONT
 	TEXTEND
@@ -129,7 +129,7 @@ BeginningScene:
 	TEXTEND
 	EndConvo
 
-	MUSC Tension
+	MUSC TroubleID
 	CAMERA [18,1]
 	EVBIT_F 9
 	//FADU 10

@@ -1,0 +1,94 @@
+#define setCardEntry(cardEntry,cardLocation,cardPaletteLocation) "PUSH; ORG PortraitTable+cardEntry*0x1C; POIN 0 0 cardPaletteLocation 0 cardLocation; POP"
+
+#define BallisticianCC 0xA5
+#define AxeCavCC 0xAD
+#define LanceCavCC 0xAF
+#define SwordCavCC 0xB0
+#define AxeKnightCC 0xB1
+#define BowKnightCC 0xB2
+#define SwordKnightCC 0xB3
+#define OutlawCC 0x78
+#define AxePegCC 0xB4
+#define LancePegCC 0x86
+
+
+ALIGN 4
+BallisticianCCData:
+#incbin "dmp/BallisticianArukaYggdra.dmp"
+ALIGN 4
+BallisticianCCPal:
+#incbin "dmp/BallisticianArukaYggdra.png_pal.dmp"
+setCardEntry(BallisticianCC,BallisticianCCData,BallisticianCCPal)
+
+ALIGN 4
+CavAxeCCData:
+#incbin "dmp/CavalierAxeSALVAGED.dmp"
+ALIGN 4
+CavAxeCCDPal:
+#incbin "dmp/CavalierAxeSALVAGED.png_pal.dmp"
+setCardEntry(AxeCavCC,CavAxeCCData,CavAxeCCDPal)
+
+ALIGN 4
+CavLanceCCData:
+#incbin "dmp/CavalierLanceSALVAGED.dmp"
+CavLanceCCPal:
+ALIGN 4
+#incbin "dmp/CavalierLanceSALVAGED.png_pal.dmp"
+setCardEntry(LanceCavCC,CavLanceCCData,CavLanceCCPal)
+
+ALIGN 4
+CavSwordCCData:
+#incbin "dmp/CavalierSwordSALVAGED.dmp"
+ALIGN 4
+CavSwordCCPal:
+#incbin "dmp/CavalierSwordSALVAGED.png_pal.dmp"
+setCardEntry(SwordCavCC,CavSwordCCData,CavSwordCCPal)
+
+ALIGN 4
+AxeKnightCCData:
+#incbin "dmp/KnightAxeDerEpicer.dmp"
+ALIGN 4
+AxeKnightCCPal:
+#incbin "dmp/KnightAxeDerEpicer.png_pal.dmp"
+setCardEntry(AxeKnightCC,AxeKnightCCData,AxeKnightCCPal)
+
+ALIGN 4
+BowKnightCCData:
+#incbin "dmp/KnightBowDerEpicer.dmp"
+ALIGN 4
+BowKnightCCPal:
+#incbin "dmp/KnightBowDerEpicer.png_pal.dmp"
+setCardEntry(BowKnightCC,BowKnightCCData,BowKnightCCPal)
+
+ALIGN 4
+SwordKnightCCData:
+#incbin "dmp/KnightSwordDerEpicer.dmp"
+ALIGN 4
+SwordKnightCCPal:
+#incbin "dmp/KnightSwordDerEpicer.png_pal.dmp"
+setCardEntry(SwordKnightCC,SwordKnightCCData,SwordKnightCCPal)
+
+ALIGN 4
+OutlawCCData:
+#incbin "dmp/OutlawRasdel.dmp"
+ALIGN 4
+OutlawCCPal:
+#incbin "dmp/OutlawRasdel.png_pal.dmp"
+setCardEntry(OutlawCC,OutlawCCData,OutlawCCPal)
+
+ALIGN 4
+AxePegCCData:
+#incbin "dmp/PegasusAxeFlasuban.dmp"
+ALIGN 4
+AxePegCCPal:
+#incbin "dmp/PegasusAxeFlasuban.png_pal.dmp"
+setCardEntry(AxePegCC,AxePegCCData,AxePegCCPal)
+
+ALIGN 4
+LancePegCCData:
+#incbin "dmp/PegasusLanceFlasuban.dmp"
+ALIGN 4
+LancePegCCPal:
+#incbin "dmp/PegasusLanceFlasuban.png_pal.dmp"
+setCardEntry(LanceCavCC,LancePegCCData,LancePegCCPal)
+
