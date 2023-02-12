@@ -297,9 +297,12 @@
   //#incbin "asm/SkillDescGetter2.dmp"
 
   ALIGN 4
-  //PromoClassDescGetter:
-    //#include "asm/PromoClassDescGetter.lyn.event"
+  PromoClassDescGetter:
+    #include "asm/PromoClassDescGetter.lyn.event"
 
+  ALIGN 4
+  PromoRTextLooper:
+  #include "asm/PromoInfoLooper.lyn.event"
   
   ALIGN 4
   #include "RText.event"

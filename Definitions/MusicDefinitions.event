@@ -1,8 +1,7 @@
 #define SwordsBurstingID 0x09
-//#define OctopathBattle2ID 0x0a
 #define WarCloudsID 0x0a
 #define JhenMohranID 0x0b
-#define WindBlowsID 0x0c
+#define WindOfLaGiasID 0x0c
 #define SteelCockpitID 0x0F
 #define MiitopiaBattleID 0x16
 #define DarkColossusID 0x17
@@ -18,11 +17,13 @@
 #define OffToWarID 0x27
 #define DepartureID 0x27
 #define KnightsOathID 0x28
+#define NearFarID 0x30
 #define HeavyArmorCorpsID 0x34
 #define MushroomGorgeID 0x35
 #define DefendGlobeID 0x3f
 #define FlapperGirlID 0x44
 #define QuestBattleID 0x46
+#define CricketsSFX 0x4A
 #define BirdsSFX 0x4C
 #define BW1NCastleID 0x58
 #define BW2NCastleID 0x59

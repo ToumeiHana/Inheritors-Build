@@ -25,7 +25,7 @@
   */
 
   //#include "EAstdlib.event"
-
+  
   #define RMenu(up,down,left,right,xcoord,ycoord,TID) "POIN up down left right;BYTE xcoord ycoord; SHORT TID; WORD 0 0;"
   #define RMenu(up,down,left,right,xcoord,ycoord,TID,Getter) "POIN up down left right; BYTE xcoord ycoord; SHORT TID; POIN 0 Getter|1"
   #define RMenu(up,down,left,right,xcoord,ycoord,SlotID,Looper,Getter) "POIN up down left right; BYTE xcoord ycoord; SHORT SlotID; POIN Looper|1 Getter|1"
@@ -320,14 +320,20 @@ ST_Skill6:
 	#ifdef GAIDEN_MAGIC
       RMenu(0,ST_Spell1,ST_Name4,0,0x86,0x48,DonateURL)
 	#else
-	  RMenu(0,ST_SkillP1,ST_Name4,ST_SkillP1,0x66,0x18,PromotionDataDesc)
+	  RMenu(0,ST_PromoClassDesc1,ST_Name4,0,0x66,0x18,PromotionDataDesc)
 	#endif
 	
+  ST_PromoClassDesc1:
+	RMenu(ST_Promo, ST_PromoClassDesc2, ST_Promo, ST_SkillP1,0x76,0x27,0,PromoRTextLooper,PromoClassDescGetter)
+	
+  ST_PromoClassDesc2:
+	RMenu(ST_PromoClassDesc1, 0, ST_Promo, ST_SkillP2,0x76,0x37,1,PromoRTextLooper,PromoClassDescGetter+4)
+	
   ST_SkillP1:
-    RMenu(ST_Promo,ST_SkillP2,ST_Promo,0,0xc8,0x27,0,RTextLoop,PromoSkillDescGetter)
+    RMenu(ST_Promo,ST_SkillP2,ST_PromoClassDesc1,0,0xc8,0x27,0,PromoRTextLooper,PromoSkillDescGetter)
 
   ST_SkillP2:
-    RMenu(ST_SkillP1,0,ST_Promo,0,0xc8,0x37,1,RTextLoop,PromoSkillDescGetter+4)
+    RMenu(ST_SkillP1,0,ST_PromoClassDesc2,0,0xc8,0x37,1,PromoRTextLooper,PromoSkillDescGetter+4)
 	
 	
 #endif // ENABLE_PERSONAL_INFO

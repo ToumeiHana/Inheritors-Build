@@ -51,8 +51,8 @@ SongTable(FlapperGirlID,FlapperGirl,MapMusicGroup)
 SongTable(LandOfConflictID,LandOfConflict,MapMusicGroup)
 #include "event/LandOfConflict.event"
 
-SongTable(SteelCockpitID,SteelCockpit0,MapMusicGroup)
-#include "event/SteelCockpit0.event"
+SongTable(SteelCockpitID,SteelCockpit00,MapMusicGroup)
+#include "event/SteelCockpit00.event"
 
 SongTable(ObstacleInOurPathID,XBObstacle,BattleMusicGroup)
 #include "event/AnObstacleInOurPathMonopolyRubixMiffe.event"
@@ -93,5 +93,8 @@ SongTable(TroubleID,Trouble,MapMusicGroup)
 SongTable(OffToWarRemixID,fe3offtowarremix,BattleMusicGroup)
 #include "event/fe3offtowarremix.event"
 
-SongTable(WindBlowsID,WindBlowsFinal,MapMusicGroup)
-#include "event/WindBlowsFinal.event"
+SongTable(WindOfLaGiasID,WindOfLaGias,MapMusicGroup)
+#include "event/WindOfLaGias.event"
+
+SongTable(NearFarID,exceedinglynear000,MapMusicGroup)
+#include "event/exceedinglynear000.event"

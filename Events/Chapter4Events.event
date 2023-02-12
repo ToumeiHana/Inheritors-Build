@@ -48,17 +48,17 @@ Tutorial:
 	END_MAIN
 
 Units1:
-	UNIT Curtis Eye Curtis Level(1,Ally,False) [2,13] 0x00 0x00 0x00 0x01 [0x0] NoAI
-	UNIT Janessa CerapterKnight Curtis Level(1,Ally,False) [0,11] 0x00 0x00 0x00 0x01 [0x0] NoAI
-	UNIT Janessa CerapterKnight Curtis Level(1,Ally,False) [1,11] 0x00 0x00 0x00 0x01 [0x0] NoAI
-	UNIT Janessa CerapterKnight Curtis Level(1,Ally,False) [0,12] 0x00 0x00 0x00 0x01 [0x0] NoAI
-	UNIT Janessa CerapterKnight Curtis Level(1,Ally,False) [1,12] 0x00 0x00 0x00 0x01 [0x0] NoAI
-	UNIT Janessa CerapterKnight Curtis Level(1,Ally,False) [0,13] 0x00 0x00 0x00 0x01 [0x0] NoAI
-	UNIT Janessa CerapterKnight Curtis Level(1,Ally,False) [1,13] 0x00 0x00 0x00 0x01 [0x0] NoAI
-	UNIT Janessa CerapterKnight Curtis Level(1,Ally,False) [0,14] 0x00 0x00 0x00 0x01 [0x0] NoAI
-	UNIT Janessa CerapterKnight Curtis Level(1,Ally,False) [1,14] 0x00 0x00 0x00 0x01 [0x0] NoAI
-	UNIT Janessa CerapterKnight Curtis Level(1,Ally,False) [0,15] 0x00 0x00 0x00 0x01 [0x0] NoAI
-	UNIT Janessa CerapterKnight Curtis Level(1,Ally,False) [1,15] 0x00 0x00 0x00 0x01 [0x0] NoAI
+	UNIT Curtis Eye Curtis Level(1,Ally,False) [9,14] 0x00 0x00 0x00 0x01 [0x0] NoAI
+	UNIT Janessa CerapterKnight Curtis Level(1,Ally,False) [7,14] 0x00 0x00 0x00 0x01 [0x0] NoAI
+	UNIT Janessa CerapterKnight Curtis Level(1,Ally,False) [8,14] 0x00 0x00 0x00 0x01 [0x0] NoAI
+	UNIT Janessa CerapterKnight Curtis Level(1,Ally,False) [10,14] 0x00 0x00 0x00 0x01 [0x0] NoAI
+	UNIT Janessa CerapterKnight Curtis Level(1,Ally,False) [7,15] 0x00 0x00 0x00 0x01 [0x0] NoAI
+	UNIT Janessa CerapterKnight Curtis Level(1,Ally,False) [8,15] 0x00 0x00 0x00 0x01 [0x0] NoAI
+	UNIT Janessa CerapterKnight Curtis Level(1,Ally,False) [9,15] 0x00 0x00 0x00 0x01 [0x0] NoAI
+	UNIT Janessa CerapterKnight Curtis Level(1,Ally,False) [10,15] 0x00 0x00 0x00 0x01 [0x0] NoAI
+	UNIT Janessa CerapterKnight Curtis Level(1,Ally,False) [11,14] 0x00 0x00 0x00 0x01 [0x0] NoAI
+	UNIT Janessa CerapterKnight Curtis Level(1,Ally,False) [11,15] 0x00 0x00 0x00 0x01 [0x0] NoAI
+	//UNIT Janessa CerapterKnight Curtis Level(1,Ally,False) [1,15] 0x00 0x00 0x00 0x01 [0x0] NoAI
 	UNIT
 
 EnemyUnits:
@@ -67,6 +67,13 @@ EnemyUnits:
 	UNIT Farum Ballistician Bazba Level(1,Enemy,True) [24,6] 0x0 0x0 0x0 0x0 [Ballista] NeverMoveAI
 	UNIT Engineer EngiClass Bazba Level(3,Enemy,True) [25,3] 0x0 0x0 0x0 0x0  [Hammer] DoNothing
 	UNIT Engineer EngiClass Bazba Level(3,Enemy,True) [25,4] 0x0 0x0 0x0 0x0  [Hammer] DoNothing
+	UNIT Farum PegasusKnight Bazba Level(5,Enemy,True) [20,15] 0x0 0x0 0x0 0x0 [IronLance] DefaultAI
+	UNIT Farum SwordCavalier Bazba Level(6,Enemy,True) [25,10] 0x0 0x0 0x0 0x0 [Armorslayer SteelSword] DefaultAI
+	UNIT Farum AxeCavalier Bazba Level(5,Enemy,True) [26,9] 0x0 0x0 0x0 0x0 [HandAxe] DefaultAI
+	UNIT Farum LanceCavalier Bazba Level(5,Enemy,True) [26,11] 0x0 0x0 0x0 0x0 [Javelin] DefaultAI
+	UNIT Farum LanceKnight Bazba Level(5,Enemy,True) [4,10] 0x0 0x0 0x0 0x0 [SteelLance] NeverMoveAI
+	UNIT Farum BowKnight Bazba Level(5,Enemy,True) [0,12] 0x0 0x0 0x0 0x0 [SteelBow] AttackInRangeAI
+	UNIT Farum AxeKnight Bazba Level(5,Enemy,True) [1,11] 0x0 0x0 0x0 0x0 [IronAxe] AttackInRangeAI
 	UNIT
 	
 HollieGroup:
