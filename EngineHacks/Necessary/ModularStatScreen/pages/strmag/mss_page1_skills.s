@@ -1,6 +1,6 @@
 .thumb
 @draws the stat screen
-.include "mss_defs.s"
+.include "mss_defs2.s"
 
 .global MSS_page1
 .type MSS_page1, %function
@@ -133,7 +133,6 @@ draw_def_bar_at 16, 13
 draw_res_bar_at 16, 15
 draw_textID_at 13, 17, 0x4f6 @move
 draw_move_bar_with_getter_at 16, 17
-
 b		NextColumn
 .ltorg
 

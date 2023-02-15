@@ -327,6 +327,9 @@
 
 //Pre-Battle Skills
 
+//Chaos Style: AS +3 during combat with a physical weapon against a foe armed with magic or vice versa.
+#define ChaosStyleID 35
+
 //Stunning Smile: -15 avo to female enemies
 #define StunningSmileID 32
 

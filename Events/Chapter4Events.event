@@ -14,12 +14,14 @@ PointerList:
 
 TurnBasedEvents:
 
-	TurnEventEnemy(0,BridgeEvent,6)
+	TurnEventPlayer(0,Turn3Reinforcements,3)
+	TurnEventPlayer(0,Turn5Reinforcements,5)
+	TurnEventEnemy(9,BridgeEvent,7)
 	END_MAIN
 
 ALIGN 32
 CharacterBasedEvents:
-
+	CharacterEvent(8,GarryRecruitment,Curtis,Garry)
 	END_MAIN
 
 MiscBasedEvents:
@@ -28,7 +30,8 @@ MiscBasedEvents:
 	END_MAIN
 
 LocationBasedEvents:
-
+	Armory(Ch4Armory,4,10)
+	Vendor(Ch4Shop,20,2)
 	END_MAIN
 
 Dunno1:
@@ -70,10 +73,33 @@ EnemyUnits:
 	UNIT Farum PegasusKnight Bazba Level(5,Enemy,True) [20,15] 0x0 0x0 0x0 0x0 [IronLance] DefaultAI
 	UNIT Farum SwordCavalier Bazba Level(6,Enemy,True) [25,10] 0x0 0x0 0x0 0x0 [Armorslayer SteelSword] DefaultAI
 	UNIT Farum AxeCavalier Bazba Level(5,Enemy,True) [26,9] 0x0 0x0 0x0 0x0 [HandAxe] DefaultAI
-	UNIT Farum LanceCavalier Bazba Level(5,Enemy,True) [26,11] 0x0 0x0 0x0 0x0 [Javelin] DefaultAI
-	UNIT Farum LanceKnight Bazba Level(5,Enemy,True) [4,10] 0x0 0x0 0x0 0x0 [SteelLance] NeverMoveAI
+	UNIT Farum LanceCavalier Bazba Level(5,Enemy,True) [26,11] 0x0 0x0 0x0 0x0 [Javelin] DefaultAI	
+	UNIT Farum AxeKnight Bazba Level(6,Enemy,True) [24,9] 0x0 0x0 0x0 0x0 [SteelAxe,HandAxe] AttackInRangeAI
+	UNIT Farum AxeKnight Bazba Level(6,Enemy,True) [24,11] 0x0 0x0 0x0 0x0 [SteelAxe,HandAxe] AttackInRangeAI
+	UNIT
+
+EnemyUnits2:
+	UNIT Farum LanceKnight Bazba Level(5,Enemy,True) [4,10] 0x0 0x0 0x0 0x0 [SteelLance, Javelin] NeverMoveAI
 	UNIT Farum BowKnight Bazba Level(5,Enemy,True) [0,12] 0x0 0x0 0x0 0x0 [SteelBow] AttackInRangeAI
 	UNIT Farum AxeKnight Bazba Level(5,Enemy,True) [1,11] 0x0 0x0 0x0 0x0 [IronAxe] AttackInRangeAI
+	UNIT Farum Soldier Bazba Level(5,Enemy,True) [17,7] 0x0 0x0 0x0 0x0 [SteelLance,Javelin] DefaultAI
+	UNIT
+	
+Turn3Cavs:
+	UNIT Farum AxeCavalier Bazba Level(5,Enemy,True) [26,9] 0x0 0x0 0x0 0x0 [IronAxe, HandAxe] DefaultAI
+	UNIT Farum PegasusKnight Bazba Level(5,Enemy,True) [26,10] 0x0 0x0 0x0 0x0 [IronLance] DefaultAI	//TODO: change to seize ai
+	UNIT Farum LanceCavalier Bazba Level(5,Enemy,True) [26,11] 0x0 0x0 0x0 0x0 [SteelLance] DefaultAI
+	UNIT
+
+KillerSquad:
+	UNIT Farum AxeCavalier Bazba Level(4,Enemy,True) [26,9] 0x0 0x0 0x0 0x0 [KillerAxe] DefaultAI
+	UNIT Farum Soldier Bazba Level(4,Enemy,True) [26,10] 0x0 0x0 0x1 REDA25R10 [KillerLance] DefaultAI
+	UNIT Farum SwordCavalier Bazba Level(4,Enemy,True) [26,11] 0x0 0x0 0x0 0x0 [KillingEdge] DefaultAI
+	UNIT
+	
+BridgeCavs:
+	UNIT Farum SwordCavalier Bazba Level(5,Enemy,True) [26,3] 0x0 0x0 0x0 0x0 [SteelSword] DefaultAI //TODO: change to seize ai
+	UNIT Farum LanceCavalier Bazba Level(5,Enemy,True) [26,3] 0x0 0x0 0x0 0x0 [SteelLance] DefaultAI //TODO: change to seize ai
 	UNIT
 	
 HollieGroup:
@@ -118,17 +144,48 @@ BeginningScene:
 	
 	//MOVE 0 Garry [12,7]
 	
+	FADI 10
+	
+	LOAD1 0x1 EnemyUnits2
+	ENUN
+	
 	LOAD1 0x0 Units1
 	ENUN
 	GotoPrepScreen
 	ENDA
 
+GarryRecruitment:
+	MUSS FlapperGirlID
+	CUSA Garry
+	CUSA Hollie
+	CUSA Pieter
+	ENUN
+	MURE 5
+	NoFade
+	ENDA
+	
 VeinEvent:
 	VeinActivation
 	TILECHANGE 3
 	NoFade
 	ENDA
 
+Turn3Reinforcements:
+	
+	EVBIT_T 9
+	LOAD1 0x1 Turn3Cavs
+	ENUN
+	NoFade
+	ENDA
+
+Turn5Reinforcements:
+	
+	EVBIT_T 9
+	LOAD1 0x1 KillerSquad
+	ENUN
+	NoFade
+	ENDA
+	
 BridgeEvent:
 
 	CHECK_EXISTS Engineer
@@ -136,11 +193,39 @@ BridgeEvent:
 	BEQ 1 s0 sC
 	TILECHANGE 1
 	REMOVEUNIT Engineer
+	ENUN
 	REMOVEUNIT Engineer
+	ENUN
+	
+	//LOAD1 0x1 BridgeCavs
+	//ENUN
 	
 	LABEL 1
 	NoFade
 	ENDA
+	
+ALIGN 4
+Ch4Armory:
+SHORT IronSword
+SHORT SteelSword
+SHORT IronLance
+SHORT SteelLance
+SHORT IronAxe
+SHORT SteelAxe
+SHORT Hammer
+SHORT IronBow
+SHORT SteelBow
+SHORT 0
+SHORT 0	
+
+ALIGN 4
+Ch4Shop:
+SHORT Fire
+SHORT Elfire
+SHORT Heal
+SHORT Vulnerary
+SHORT 0
+SHORT 0
 	
 EndingScene:
 	MNC2 Chapter5

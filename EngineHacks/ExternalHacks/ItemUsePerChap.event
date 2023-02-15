@@ -33,3 +33,14 @@ SHORT 0x2000
 ORG $10804
 SHORT 0x2000
 POP
+
+
+//Change movement cap
+//by Teq
+#define NewMovCap 0x10
+PUSH
+ORG $18286
+BYTE NewMovCap
+ORG $18290
+BYTE NewMovCap
+POP

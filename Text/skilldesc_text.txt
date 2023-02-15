@@ -1,3 +1,8 @@
+## SD_ChaosStyle
+Chaos Style: AS +3 during combat with[N]
+a physical weapon against a foe armed[N]
+with magic or vice versa.[X]
+
 ## SD_HonorDuel
 Honorable Duel: When neither combatant[N]
 is adjanced to their allies, gain[N]

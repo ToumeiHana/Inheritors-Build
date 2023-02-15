@@ -16,3 +16,9 @@ StunningSmile:
 #incbin "StunningSmile.dmp"
 POIN SkillTester
 WORD StunningSmileID
+
+ALIGN 4
+ChaosStyle:
+#incbin "ChaosStyle.dmp"
+POIN SkillTester
+WORD ChaosStyleID

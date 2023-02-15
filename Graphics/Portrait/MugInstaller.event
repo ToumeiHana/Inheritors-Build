@@ -122,6 +122,14 @@ Hollie_Mug:
 setMugEntry(0x10,Hollie_Mug,3,5,3,3)
 
 ALIGN 16
+Mirabelle_Mug:
+#incbin "dmp/claw_mug.dmp"
+#incbin "dmp/claw_frames.dmp"
+#incbin "dmp/claw_palette.dmp"
+#incbin "dmp/claw_minimug.dmp"
+setMugEntry(0x11,Mirabelle_Mug,3,6,3,3)
+
+ALIGN 16
 Ratface_Mug:
 #incbin "dmp/RatFaceBandit_mug.dmp"
 #incbin "dmp/RatFaceBandit_frames.dmp"

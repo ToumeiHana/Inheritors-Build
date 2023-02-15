@@ -31,7 +31,7 @@ TurnBasedEvents:
 ALIGN 32
 CharacterBasedEvents:
 
-	CharacterEvent(7, ClawRecriutment, Curtis, Innes)
+	CharacterEvent(7, ClawRecriutment, Curtis, Mirabelle)
 	CharacterEvent(8, KatjaRecruitment, 0, Katja)
 	CharacterEvent(9, LaurenRecruitment, 0, Lauren)
 	CharacterEvent(10, MauritchRecruitment, Lauren, Mauritch)
@@ -106,7 +106,7 @@ BrigandTwo:
 	
 InnGroup:
 
-	UNIT Innes Claw Curtis Level(2,NPC,False) [22,5] 0x00 0x00 0x00 0x01 [RustyNail, DragonClaw] HalfRangeAI
+	UNIT Mirabelle Claw Curtis Level(2,NPC,False) [22,5] 0x00 0x00 0x00 0x01 [RustyNail, DragonClaw] HalfRangeAI
 	UNIT Katja Fighter_F Curtis Level(2,NPC,False) [23,6] 0x00 0x00 0x00 0x01 [IronAxe] HalfRangeAI
 	UNIT Mauritch Myrmidon Curtis Level(2,NPC,False) [25,6] 0x00 0x00 0x00 0x01 [KillingEdge] AttackInRangeAI
 	UNIT Lauren Troubadour Curtis Level(2,NPC,False) [26,5] 0x00 0x00 0x00 0x01 [Heal, Vulnerary] HealUnits
@@ -136,7 +136,7 @@ BeginningScene:
 ClawRecriutment:
 	MUSS FlapperGirlID
 	Text(ClawRecruitText)
-	CUSA Innes
+	CUSA Mirabelle
 	MURE 5
 	NoFade
 	ENDA

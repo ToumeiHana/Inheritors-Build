@@ -28,7 +28,7 @@ tst r0, r1
 beq End @skip if male
 
 mov r0, r5
-add r0,#0x60	@defender avo
+add r0,#0x62	@defender avo
 ldrh r3,[r0]
 sub r3,#15		@sub -15 avo
 strh r3,[r0]
