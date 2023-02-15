@@ -48,8 +48,8 @@ INLINE ClassLevelUpSkillTable,Skill Pointer
 0x2E Shaman (F),ShamanSkillList|IsPointer
 0x2F Druid,DruidSkillList|IsPointer
 0x30 Druid (F),DruidSkillList|IsPointer
-0x31 Summoner,SummonerSkillList|IsPointer
-0x32 Summoner (F),SummonerSkillList|IsPointer
+0x31 DarkKnight,DarkKnightSkillList|IsPointer
+0x32 DarkNight(F),DarkKnightSkillList|IsPointer
 0x33 Rogue,RogueSkillList|IsPointer
 0x34 Gorgon Egg,0x0
 0x35 Great Knight,GreatKnightSkillList|IsPointer

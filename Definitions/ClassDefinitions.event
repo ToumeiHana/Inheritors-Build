@@ -36,10 +36,10 @@
 #define Shaman 0x2D
 #define Shaman_F 0x2E
 #define Druid 0x2F
-#define Druid_F 0x30
-#define Summoner 0x31
-#define Summoner_F 0x32
-#define Rogue 0x33
+#define Druid_F 0x30*/
+#define DarkKnight 0x31
+#define DarkKnight_F 0x32
+/*#define Rogue 0x33
 #define GorgonEgg 0x34
 #define GreatKnight 0x35
 #define GreatKnight_F 0x36

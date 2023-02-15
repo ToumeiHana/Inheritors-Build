@@ -1,18 +1,18 @@
 .equ ChaosStyleID, SkillTester+4
 .thumb
 
-.macro blh to, reg
-    ldr \reg, =\to
-    mov lr, \reg
-    .short 0xF800
-.endm
-
 push {r4-r7,lr}
 @goes in the battle loop.
 @r0 is the attacker
 @r1 is the defender
 mov r4, r0
 mov r5, r1
+
+@make sure we're in combat (or battle forecast)
+ldrb r3, =gBattleData
+ldrb r3, [r3]
+cmp r3, #4
+beq End
 
 @check for skill
 ldr r0, SkillTester
@@ -24,41 +24,48 @@ cmp r0, #0
 beq End
 
 @Check for own weapon
-mov r1, #0x4A
-ldrh r0, [ r4, r1 ] @ Equipped item halfword.
-cmp r0, #0x00
-beq NoSkill
-blh 0x080174EC, r1 @ GetItemIndex. This function is such a meme tbh. r0 = item ID.
-blh 0x080177B0, r1 @ GetItemData. r0 = pointer to ROM item data.
-ldrb r0, [ r0, #0x07 ] @ r0 = this item's weapon type.
+mov r0, r4
+add     r0,#0x50    @Move to the attacking unit's weapon type.
+ldrb    r0,[r0]        @Load in the attacking unit's weapon type. 
 cmp r0, #0x3 @Is it sword/lance/axe/bow?
-ble PhysWep
+bgt MagicalAttacker
 
-@Not a sword
-@Check for enemy weapon
-mov r1, #0x4A
+mov r0,r4
+add r0,#0x4C @weapon abilty word, for magic sword checks
+ldr r0,[r0]	 @Load weapon abilty word 
+mov r2,#0x40
+tst r0,r2
+bne MagicalAttacker
+
 mov r0,r5
-ldrh r0, [ r4, r1 ] @ Equipped item halfword.
-cmp r0, #0x00
-beq NoSkill
-blh 0x080174EC, r1 @ GetItemIndex. This function is such a meme tbh. r0 = item ID.
-blh 0x080177B0, r1 @ GetItemData. r0 = pointer to ROM item data.
-ldrb r0, [ r0, #0x07 ] @ r0 = this item's weapon type.
+add     r0,#0x50    @Move to the defending unit's weapon type.
+ldrb    r0,[r0]     @Load in the defending unit's weapon type. 
+cmp r0, #0x3 @Is it sword/lance/axe/bow?
+bgt Effect	@If magic apply effect
+
+@Enemy magic sword?
+mov r0,r5
+add r0,#0x4C @weapon abilty word, for magic sword checks
+ldr r0,[r0]	 @Load weapon abilty word 
+mov r2,#0x40
+tst r0,r2
+bne Effect @ Attacker phys, defender mag
+b End
+
+MagicalAttacker:
+mov r0,r5
+add     r0,#0x50    @Move to the defending unit's weapon type.
+ldrb    r0,[r0]     @Load in the defending unit's weapon type. 
 cmp r0, #0x3 @Is it sword/lance/axe/bow?
 bgt End	@If both have magic, end
-b Effect
 
-PhysWep:
-mov r1, #0x4A
+@Enemy magic sword, again
 mov r0,r5
-ldrh r0, [ r4, r1 ] @ Equipped item halfword.
-cmp r0, #0x00
-beq NoSkill
-blh 0x080174EC, r1 @ GetItemIndex. This function is such a meme tbh. r0 = item ID.
-blh 0x080177B0, r1 @ GetItemData. r0 = pointer to ROM item data.
-ldrb r0, [ r0, #0x07 ] @ r0 = this item's weapon type.
-cmp r0, #0x3 @Is it sword/lance/axe/bow?
-ble End	@If both have physical, end
+add r0,#0x4C @weapon abilty word, for magic sword checks
+ldr r0,[r0]	 @Load weapon abilty word 
+mov r2,#0x40
+tst r0,r2
+bne End	@If both magical, end
 
 Effect:
 mov r0, r4

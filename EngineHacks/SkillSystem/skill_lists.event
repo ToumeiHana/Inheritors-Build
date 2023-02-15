@@ -118,7 +118,8 @@ BYTE 1 SealResID
 BYTE 00 00
 ALIGN 4
 
-SummonerSkillList:
+DarkKnightSkillList:
+BYTE 1 ChaosStyleID
 BYTE 00 00
 ALIGN 4
 

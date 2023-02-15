@@ -7,6 +7,12 @@ push {r4-r7,lr}
 mov r4, r0
 mov r5, r1
 
+@make sure we're in combat (or battle forecast)
+ldrb r3, =gBattleData
+ldrb r3, [r3]
+cmp r3, #4
+beq End
+
 @check for skill
 ldr r0, SkillTester
 mov lr, r0
@@ -27,10 +33,10 @@ lsl r1, #8 @0x4000 IsFemale
 tst r0, r1
 beq End @skip if male
 
-mov r0, r5
-add r0,#0x62	@defender avo
+mov r0, r4
+add r0,#0x60	@attacker hit
 ldrh r3,[r0]
-sub r3,#15		@sub -15 avo
+add r3,#15		@add +15 hit
 strh r3,[r0]
 
 End:
