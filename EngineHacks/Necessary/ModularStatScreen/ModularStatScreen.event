@@ -208,7 +208,7 @@
   ALIGN 4
   NewPageNameGraphic:
     //#incext Png2Dmp "asm/pagenamegraphic.png" --lz77
-    #incbin "asm/pagenamegraphic.dmp"
+    #incbin "asm/pagenamegraphic_promotion.dmp"
 
   ALIGN 4
   NewPageNameLayout:
@@ -301,8 +301,21 @@
     #include "asm/PromoClassDescGetter.lyn.event"
 
   ALIGN 4
-  PromoRTextLooper:
-  #include "asm/PromoInfoLooper.lyn.event"
+  PromoSkill1TextLooper:
+  #include "asm/PromoSkillLooper.lyn.event"
+  
+  ALIGN 4
+  PromoSkill2TextLooper:
+  #include "asm/PromoSkill2Looper.lyn.event"
+  
+  ALIGN 4
+  PromoClassDesc1Looper:
+  #include "asm/PromoClassDescLooper.lyn.event"
+  
+  ALIGN 4
+  PromoClassDesc2Looper:
+  #include "asm/PromoClassDesc2Looper.lyn.event"
+  
   
   ALIGN 4
   #include "RText.event"

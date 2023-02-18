@@ -90,5 +90,5 @@ LancePegCCData:
 ALIGN 4
 LancePegCCPal:
 #incbin "dmp/PegasusLanceFlasuban.png_pal.dmp"
-setCardEntry(LanceCavCC,LancePegCCData,LancePegCCPal)
+setCardEntry(LancePegCC,LancePegCCData,LancePegCCPal)
 

@@ -26,46 +26,46 @@ beq End
 @Check for own weapon
 mov r0, r4
 add     r0,#0x50    @Move to the attacking unit's weapon type.
-ldrb    r0,[r0]        @Load in the attacking unit's weapon type. 
-cmp r0, #0x3 @Is it sword/lance/axe/bow?
+ldrb    r0,[r0]     @Load in the attacking unit's weapon type. 
+cmp r0, #0x3 		@Is it sword/lance/axe/bow?
 bgt MagicalAttacker
 
 mov r0,r4
 add r0,#0x4C @weapon abilty word, for magic sword checks
 ldr r0,[r0]	 @Load weapon abilty word 
-mov r2,#0x40
+mov r2,#0x40 @Targets Res -byte
 tst r0,r2
 bne MagicalAttacker
 
 mov r0,r5
 add     r0,#0x50    @Move to the defending unit's weapon type.
 ldrb    r0,[r0]     @Load in the defending unit's weapon type. 
-cmp r0, #0x3 @Is it sword/lance/axe/bow?
-bgt Effect	@If magic apply effect
+cmp r0, #0x3 		@Is it sword/lance/axe/bow?
+bgt Effect			@If magic apply effect
 
 @Enemy magic sword?
 mov r0,r5
 add r0,#0x4C @weapon abilty word, for magic sword checks
 ldr r0,[r0]	 @Load weapon abilty word 
-mov r2,#0x40
+mov r2,#0x40 @Targets Res -byte
 tst r0,r2
-bne Effect @ Attacker phys, defender mag
+bne Effect   @Attacker phys, defender mag
 b End
 
 MagicalAttacker:
 mov r0,r5
 add     r0,#0x50    @Move to the defending unit's weapon type.
 ldrb    r0,[r0]     @Load in the defending unit's weapon type. 
-cmp r0, #0x3 @Is it sword/lance/axe/bow?
-bgt End	@If both have magic, end
+cmp r0, #0x3        @Is it sword/lance/axe/bow?
+bgt End	            @If both have magic, end
 
 @Enemy magic sword, again
 mov r0,r5
 add r0,#0x4C @weapon abilty word, for magic sword checks
 ldr r0,[r0]	 @Load weapon abilty word 
-mov r2,#0x40
+mov r2,#0x40 @Targets Res -byte
 tst r0,r2
-bne End	@If both magical, end
+bne End		 @If both magical, end
 
 Effect:
 mov r0, r4

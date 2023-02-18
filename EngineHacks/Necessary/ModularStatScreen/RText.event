@@ -324,16 +324,16 @@ ST_Skill6:
 	#endif
 	
   ST_PromoClassDesc1:
-	RMenu(ST_Promo, ST_PromoClassDesc2, ST_Promo, ST_SkillP1,0x76,0x27,0,PromoRTextLooper,PromoClassDescGetter)
+	RMenu(ST_Promo, ST_PromoClassDesc2, ST_Promo, ST_SkillP1,0x76,0x27,0,PromoClassDesc1Looper,PromoClassDescGetter)
 	
   ST_PromoClassDesc2:
-	RMenu(ST_PromoClassDesc1, 0, ST_Promo, ST_SkillP2,0x76,0x37,1,PromoRTextLooper,PromoClassDescGetter+4)
+	RMenu(ST_PromoClassDesc1, 0, ST_Promo, ST_SkillP2,0x76,0x37,1,PromoClassDesc2Looper,PromoClassDescGetter+4)
 	
   ST_SkillP1:
-    RMenu(ST_Promo,ST_SkillP2,ST_PromoClassDesc1,0,0xc8,0x27,0,PromoRTextLooper,PromoSkillDescGetter)
+    RMenu(ST_Promo,ST_SkillP2,ST_PromoClassDesc1,0,0xc8,0x27,0,PromoSkill1TextLooper,PromoSkillDescGetter)
 
   ST_SkillP2:
-    RMenu(ST_SkillP1,0,ST_PromoClassDesc2,0,0xc8,0x37,1,PromoRTextLooper,PromoSkillDescGetter+4)
+    RMenu(ST_SkillP1,0,ST_PromoClassDesc2,0,0xc8,0x37,1,PromoSkill2TextLooper,PromoSkillDescGetter+4)
 	
 	
 #endif // ENABLE_PERSONAL_INFO

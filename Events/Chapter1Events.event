@@ -80,7 +80,7 @@ Units1:
 	UNIT Jacob SwordCavalier Curtis Level(1,Ally,False) [8,24] 0x00 0x00 0x00 0x01 [IronSword] NoAI
 	UNIT Lucian LanceCavalier Curtis Level(1,Ally,False) [7,24] 0x00 0x00 0x00 0x01 [IronLance] NoAI
 	//UNIT Sana Sage 0x0 Level(1,Ally,False) [1,0] 0x0 0x0 0x0 0x0 [Elstone,Thunder] NoAI
-	UNIT Inga DarkKnight 0x0 Level(1,Ally,False) [1,0] 0x0 0x0 0x0 0x0 [Flux,IronSword,Runesword,WindSword] NoAI
+	//UNIT Inga DarkKnight 0x0 Level(1,Ally,False) [1,0] 0x0 0x0 0x0 0x0 [Flux,IronSword,Runesword,WindSword] NoAI
 	UNIT
 
 EnemyUnits:
@@ -97,8 +97,8 @@ EnemyUnits:
 	UNIT Farum Soldier ONeill Level(2,Enemy,True) [4,13] 0x00 0x00 0x00 [IronLance] TwoActionAI
 	UNIT Farum Soldier ONeill Level(3,Enemy,True) [17,0] 0x00 0x00 0x00 [IronLance] MoveWithLeaderAI
 	UNIT Goon Soldier ONeill Level(1,Enemy,True) [18,2] 0x00 0x00 0x00 [IronLance] DoNothing
-	UNIT Farum Bishop ONeill Level(1,Enemy,True) [5,0] 0x0 0x0 0x0 0x0 [Lightning] DoNothing
-	UNIT Farum Mercenary ONeill Level(1,Enemy,True) [1,1] 0x0 0x0 0x0 0x0 [LightBrand] DoNothing
+	//UNIT Farum Bishop ONeill Level(1,Enemy,True) [5,0] 0x0 0x0 0x0 0x0 [Lightning] DoNothing
+	//UNIT Farum Mercenary ONeill Level(1,Enemy,True) [1,1] 0x0 0x0 0x0 0x0 [LightBrand] DoNothing
 	UNIT
 	
 ReinforcementGroup:
