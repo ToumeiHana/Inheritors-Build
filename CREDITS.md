@@ -54,7 +54,7 @@ adding yourself!
 
 - Flasuban: Improved FalcoKnight
 - SALVAGED: Cavaliers
-- Agro: Knights
+- Agro: Knights, FMercenary
 - Alusq: FFighter. Soldier
 - Rexacuse: Soldier
 - Peerles: Soldier
@@ -72,7 +72,8 @@ adding yourself!
 - Der: Knights
 - Epicer: Knights
 - Rasdel: Outlaw
-- Flasuban: Pegasus Knights
+- Flasuban: Pegasus Knights, FHero
+- L95: FMercenary
 
 # Patches
 
@@ -95,7 +96,6 @@ adding yourself!
 - RandomWizard: FE7 - A Knight's Oath
 - Mycahel: Monster Hunter 3 - Jhen Mohran Battle, NieR Automata - Dark Colossus Destroys All 
 - MeatOfJustice: Marvel vs Capcom Clash of the Superheroes - Captain America's Theme
-- A Reliable Chair: Octopath Traveller - Battle 2
 - MonopolyRubix: Xenoblade - An Obstacle In Our Path
 - Miffe: Xenoblade - An Obstacle In Our Path
 - Alusq: Off to War Remix

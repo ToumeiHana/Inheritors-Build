@@ -1,0 +1,9 @@
+ALIGN 4
+AirSkillCheck:
+#incbin "AirSkillCheck.dmp"
+POIN SkillTester
+POIN AirSkillIDList
+
+ALIGN 4
+AirSkillIDList:
+BYTE AirRaidAtkID AirRaidSpdID AirRaidDefID AirRaidCritID AirRaidHitID AirRaidAvoID AirRaidResID

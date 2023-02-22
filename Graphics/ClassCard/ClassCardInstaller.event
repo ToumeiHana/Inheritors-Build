@@ -10,6 +10,8 @@
 #define OutlawCC 0x78
 #define AxePegCC 0xB4
 #define LancePegCC 0x86
+#define MercFCC 0xB5
+#define HeroFCC 0xB6
 
 
 ALIGN 4
@@ -92,3 +94,18 @@ LancePegCCPal:
 #incbin "dmp/PegasusLanceFlasuban.png_pal.dmp"
 setCardEntry(LancePegCC,LancePegCCData,LancePegCCPal)
 
+ALIGN 4
+MercFCCData:
+#incbin "dmp/MercenaryFL95.dmp"
+ALIGN 4
+MercFCCPal:
+#incbin "dmp/MercenaryFL95.png_pal.dmp"
+setCardEntry(MercFCC,MercFCCData,MercFCCPal)
+
+ALIGN 4
+HeroFCCData:
+#incbin "dmp/HeroFflasuban.dmp"
+ALIGN 4
+HeroFCCPal:
+#incbin "dmp/HeroFflasuban.png_pal.dmp"
+setCardEntry(HeroFCC,HeroFCCData,HeroFCCPal)

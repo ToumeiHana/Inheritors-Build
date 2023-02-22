@@ -53,6 +53,7 @@ POIN Rockhard
 POIN HonorDuel
 POIN StunningSmile
 POIN ChaosStyle
+POIN AirSkillCheck
 
 #ifdef MODULAR_PRE_BATTLE_SKILLS
 	POIN ModularPreBattleSkill 

@@ -71,7 +71,7 @@ Monk,0x2d4,0x2d2,TomebreakerID,TomefaireID,BishopDesc,SageDesc
 Priest,0x2d4,0x2e2,TomebreakerID,SealResID,BishopDesc,DruidDesc
 Bard,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000
 Recruit (1),LancePegasusClass,0x0000,CantoID,0x0000,0x333,0x0000
-Pegasus Knight,0x2e8,CerapterClass,MageSlayerID,ArmoredBlowID,0x0000,CerapterDesc
+Pegasus Knight,0x2e8,CerapterClass,MageSlayerID,AirRaidDefID,0x334,CerapterDesc
 Falcon Knight,NoPromoText,0x0000,0x0000,0x0000,NoPromoDesc,0x0000
 Cleric,0x2d4,0x2e2,TomebreakerID,SealResID,BishopDesc,DruidDesc
 Troubadour,0x2eb,0x2d3,0x0000,0x0000,0x337,0x31f

@@ -327,6 +327,15 @@
 
 //Pre-Battle Skills
 
+//Air Raid: +5 or 15 to stat when on a tile enemy cannot enter
+#define AirRaidAtkID 255
+#define AirRaidSpdID 255
+#define AirRaidDefID 42
+#define AirRaidCritID 255
+#define AirRaidHitID 255
+#define AirRaidAvoID 255
+#define AirRaidResID 255
+
 //Chaos Style: AS +3 during combat with a physical weapon against a foe armed with magic or vice versa.
 #define ChaosStyleID 35
 

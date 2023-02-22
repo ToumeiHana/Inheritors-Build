@@ -45,3 +45,8 @@
 #include "FlasubanPegRepal/Lance Installer.event"
 #include "FlasubanPegRepal/Unarmed Installer.event"
 }
+
+{
+#include "FMercTBA/Sword Installer.event"
+#include "FMercTBA/Unarmed Installer.event"
+}

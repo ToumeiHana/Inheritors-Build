@@ -111,3 +111,11 @@ BallisticianFStand:
 ALIGN 4
 BallisticianFWalk:
 #incbin "dmp/BallisticianImprovedflasubanDerwalk.dmp"
+
+ALIGN 4
+MercFStand:
+#incbin "dmp/MercenaryFAgrostand.dmp"
+
+ALIGN 4
+MercFWalk:
+#incbin "dmp/MercenaryFAgrowalk.dmp"

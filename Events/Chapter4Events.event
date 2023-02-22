@@ -14,9 +14,14 @@ PointerList:
 
 TurnBasedEvents:
 
+	TurnEventPlayer(0,CounterCheck,0,13)
 	TurnEventPlayer(0,Turn3Reinforcements,3)
 	TurnEventPlayer(0,Turn5Reinforcements,5)
 	TurnEventEnemy(9,BridgeEvent,7)
+	TurnEventPlayer(10,BridgeCavsSpawn,8)
+	TurnEventPlayer(11,AIChanges,10)
+	//TurnEventPlayer(0,EndingScene,13)
+	Survive(EndingScene,13)
 	END_MAIN
 
 ALIGN 32
@@ -82,7 +87,9 @@ EnemyUnits2:
 	UNIT Farum LanceKnight Bazba Level(5,Enemy,True) [4,10] 0x0 0x0 0x0 0x0 [SteelLance, Javelin] NeverMoveAI
 	UNIT Farum BowKnight Bazba Level(5,Enemy,True) [0,12] 0x0 0x0 0x0 0x0 [SteelBow] AttackInRangeAI
 	UNIT Farum AxeKnight Bazba Level(5,Enemy,True) [1,11] 0x0 0x0 0x0 0x0 [IronAxe] AttackInRangeAI
+	UNIT Farum SwordKnight Bazba Level(5,Enemy,True) [1,13] 0x0 0x0 0x0 0x0 [IronBlade] AttackInRangeAI
 	UNIT Farum Soldier Bazba Level(5,Enemy,True) [17,7] 0x0 0x0 0x0 0x0 [SteelLance,Javelin] DefaultAI
+	UNIT Farum Fighter Bazba Level(5,Enemy,True) [6,8] 0x0 0x0 0x0 0x0 [IronAxe] DefaultAI
 	UNIT
 	
 Turn3Cavs:
@@ -99,16 +106,16 @@ KillerSquad:
 	
 BridgeCavs:
 	UNIT Farum SwordCavalier Bazba Level(5,Enemy,True) [26,3] 0x0 0x0 0x0 0x0 [SteelSword] DefaultAI //TODO: change to seize ai
-	UNIT Farum LanceCavalier Bazba Level(5,Enemy,True) [26,3] 0x0 0x0 0x0 0x0 [SteelLance] DefaultAI //TODO: change to seize ai
+	UNIT Farum LanceCavalier Bazba Level(5,Enemy,True) [26,4] 0x0 0x0 0x0 0x0 [SteelLance] DefaultAI //TODO: change to seize ai
 	UNIT
 	
 HollieGroup:
-	UNIT Hollie BowKnight Garry Level(4,NPC,False) [16,7] 0x0 0x0 0x0 [SteelBow] HalfRangeAI
+	UNIT Hollie BowKnight Garry Level(4,NPC,False) [16,7] 0x0 0x0 0x0 [SteelBow] NeverMoveAI
 	UNIT
 	
 GreenGroup:
-	UNIT Garry AxeKnight 0x0 Level(5,NPC,False) [12,5] 0x0 0x0 0x1 REDA12R7 [SteelAxe] HalfRangeAI
-	UNIT Pieter Soldier Garry Level(3,NPC,False) [11,5] 0x0 0x0 0x1 REDA11R6 [IronLance] HalfRangeAI
+	UNIT Garry AxeKnight 0x0 Level(5,NPC,False) [12,5] 0x0 0x0 0x1 REDA12R7 [SteelAxe] NeverMoveAI
+	UNIT Pieter Soldier Garry Level(3,NPC,False) [11,5] 0x0 0x0 0x1 REDA11R6 [IronLance] NeverMoveAI
 	UNIT
 
 Traps1:
@@ -121,6 +128,8 @@ Traps2:
 	ALIGN 4
 
 BeginningScene:
+
+	ENUT 10 //Flag for bridge cavs
 	FADU 10
 
 	MUSC OffToWarID
@@ -196,11 +205,41 @@ BridgeEvent:
 	ENUN
 	REMOVEUNIT Engineer
 	ENUN
-	
+	ENUF 10
 	//LOAD1 0x1 BridgeCavs
 	//ENUN
 	
 	LABEL 1
+	NoFade
+	ENDA
+
+BridgeCavsSpawn:
+	EVBIT_T 9
+	LOAD1 0x1 BridgeCavs
+	ENUN
+	NoFade
+	ENDA
+
+CounterCheck:
+	CHECK_EVENTID 7
+	BNE 1 s0 sC	
+	
+	COUNTER_CHECK 0
+	SVAL 1 3
+	BNE 1 s1 sC
+	
+	TILEREVERT 3
+	
+	LABEL 1
+	COUNTER_INC 0
+	NoFade
+	ENDA
+
+AIChanges:
+	
+	//Text()
+	SETVAL 1 0x00400000
+	CHAI	Farum
 	NoFade
 	ENDA
 	
@@ -215,6 +254,7 @@ SHORT SteelAxe
 SHORT Hammer
 SHORT IronBow
 SHORT SteelBow
+SHORT LongBow
 SHORT 0
 SHORT 0	
 

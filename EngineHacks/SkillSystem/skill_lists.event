@@ -87,7 +87,7 @@ BYTE 00 00
 ALIGN 4
 
 CerapterKnightSkillList:
-BYTE 1 ArmoredBlowID
+BYTE 1 AirRaidDefID
 BYTE 00 00
 ALIGN 4
 

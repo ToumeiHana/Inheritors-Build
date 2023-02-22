@@ -63,6 +63,9 @@
 #define PegaHandaxe 0x64
 #define PegaUnarmed 0x67
 
+#define FMercSword 0x40
+#define FMercUnarmed 0x41
+
 //////////
  
 ALIGN 4
@@ -118,4 +121,10 @@ AxeAnim(PegaAxe)
 HandAxeAnim(PegaHandaxe)
 SpearAnim(PegaLance)
 UnarmedAnim(PegaUnarmed)
+WORD 0x0
+
+ALIGN 4
+FMercAnims:
+SwordAnim(FMercSword)
+UnarmedAnim(FMercUnarmed)
 WORD 0x0

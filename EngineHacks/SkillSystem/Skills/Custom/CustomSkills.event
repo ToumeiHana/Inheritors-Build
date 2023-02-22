@@ -22,3 +22,5 @@ ChaosStyle:
 #incbin "ChaosStyle.dmp"
 POIN SkillTester
 WORD ChaosStyleID
+
+#include AirSkills.event

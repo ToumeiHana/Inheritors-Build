@@ -63,8 +63,8 @@
 0x3D Paladin (F) w/ Sword
 0x3E Paladin (F) w/ Spear
 0x3F Paladin (F) Disarmed
-0x40 Armour Knight
-0x41 Armour Knight Disarmed
+0x40 Armour Knight			//Replaced
+0x41 Armour Knight Disarmed		//Replaced
 0x42 Armour Knight (F)
 0x43 Armour Knight (F) Disarmed
 0x44 General w/ Sword
