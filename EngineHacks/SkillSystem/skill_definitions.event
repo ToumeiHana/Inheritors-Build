@@ -156,7 +156,7 @@
 
 //Effectiveness Skills
 
-// Effective on rain of non-fliers on water
+// Effective in rain or non-fliers on water
 #define ThunderEffectID 15
 
 //Nullify: Unit is protected from all effective attacks.
@@ -258,12 +258,12 @@
 
 //Quantum Visage: Face changes every time it's looked at.
 //By Leonarth
-#define RandomMugID 130
+#define RandomMugID 255
 
 
 //Identity Problems: This unit can't decide on a name or face.
 //By Leonarth
-#define IdentityProblemsID 129
+#define IdentityProblemsID 255
 
 
 //Post-Battle Skills
@@ -327,11 +327,17 @@
 
 //Pre-Battle Skills
 
+//Lumberjack: Negates effect of forest tiles, halves effects of other tiles
+#define LumberjackID 20
+
+//Dragonskin: halves damage taken
+#define DragonSkinID 33
+
 //Air Raid: +5 or 15 to stat when on a tile enemy cannot enter
 #define AirRaidAtkID 255
 #define AirRaidSpdID 255
 #define AirRaidDefID 42
-#define AirRaidCritID 255
+#define AirRaidCriID 255
 #define AirRaidHitID 255
 #define AirRaidAvoID 255
 #define AirRaidResID 255

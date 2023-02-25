@@ -19,8 +19,20 @@ WORD StunningSmileID
 
 ALIGN 4
 ChaosStyle:
-#incbin "ChaosStyle.dmp"
+#incbin "ChaosStyleRewrite.dmp"
 POIN SkillTester
 WORD ChaosStyleID
 
 #include AirSkills.event
+
+ALIGN 4
+DragonSkin:
+#incbin "DragonSkin.dmp"
+POIN SkillTester
+WORD DragonSkinID
+
+ALIGN 4
+Lumberjack:
+#incbin "Lumberjack.dmp"
+POIN SkillTester
+WORD LumberjackID

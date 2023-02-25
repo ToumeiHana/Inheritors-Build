@@ -55,6 +55,7 @@ POIN StunningSmile
 POIN ChaosStyle
 POIN AirSkillCheck
 
+
 #ifdef MODULAR_PRE_BATTLE_SKILLS
 	POIN ModularPreBattleSkill 
 #endif // MODULAR_PRE_BATTLE_SKILLS
@@ -62,6 +63,9 @@ POIN AirSkillCheck
 
 //quick riposte goes after everything that might touch AS
 POIN QuickRiposte
+
+//dragonskin goes after anything effecting atk or def
+POIN DragonSkin
 
 //tower shield plus needs to go after every other skill that may affect defender's attack
 POIN TowerShieldPlus

@@ -1,6 +1,11 @@
+## SD_Lumberjack
+Lumberjack: Negates terrain bonuses[N]
+for enemies on forest tiles, halves[N]
+terrain bonuses for other tiles.[X]
+
 ## SD_AirRaidDef
-Air Raid: +5 Def when on a tile[N]
-enemy cannot enter.[X]
+Air Raid: Grats +5 Def when on[N]
+a tile enemy cannot enter.[X]
 
 ## SD_ChaosStyle
 Chaos Style: AS +3 during combat with[N]

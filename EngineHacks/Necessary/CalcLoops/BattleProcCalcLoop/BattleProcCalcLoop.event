@@ -106,6 +106,8 @@ BarricadeIDLink:
 BYTE BarricadeID
 BarricadePlusIDLink:
 BYTE BarricadePlusID
+DragonSkinIDLink:
+BYTE DragonSkinID
 
 ALIGN 4
 Proc_Finish:

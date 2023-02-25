@@ -30,7 +30,7 @@ mov r1, #0x66
 ldrh r2, [r5, r1] @attacker crit
 
 ldrh r0, [r4, r1] @defender crit
-@mov r6, r0
+mov r6, r0
 add r0, r2		  @add attackers crit to defenders
 strh r0, [r4, r1] @store new defender crit
 
@@ -45,13 +45,12 @@ cmp r0, #0
 beq End
 
 @attacker crit calc
-@uses boosted defender crit if both have skill but its a personal skill so whatever
 mov r1, #0x66
 ldrh r2, [r4, r1] @defender crit 
 
 ldrh r0, [r5, r1] @attacker crit
-@add r0, r6		  @add defenders crit to attackers
-add r0, r2
+add r0, r6		  @add defenders crit to attackers
+@add r0, r2
 strh r0, [r5, r1] @store new attacker crit
 
 End:

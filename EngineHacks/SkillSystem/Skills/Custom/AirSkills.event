@@ -6,4 +6,4 @@ POIN AirSkillIDList
 
 ALIGN 4
 AirSkillIDList:
-BYTE AirRaidAtkID AirRaidSpdID AirRaidDefID AirRaidCritID AirRaidHitID AirRaidAvoID AirRaidResID
+BYTE AirRaidAtkID AirRaidSpdID AirRaidDefID AirRaidCriID AirRaidHitID AirRaidAvoID AirRaidResID

@@ -119,3 +119,7 @@ MercFStand:
 ALIGN 4
 MercFWalk:
 #incbin "dmp/MercenaryFAgrowalk.dmp"
+
+ALIGN 4
+ClawStand:
+#incbin "dmp/ClawStand.dmp"

@@ -98,7 +98,7 @@ EnemyUnits:
 	UNIT Farum Soldier ONeill Level(3,Enemy,True) [17,0] 0x00 0x00 0x00 [IronLance] MoveWithLeaderAI
 	UNIT Goon Soldier ONeill Level(1,Enemy,True) [18,2] 0x00 0x00 0x00 [IronLance] DoNothing
 	//UNIT Farum Bishop ONeill Level(1,Enemy,True) [5,0] 0x0 0x0 0x0 0x0 [Lightning] DoNothing
-	//UNIT Farum Mercenary ONeill Level(1,Enemy,True) [1,1] 0x0 0x0 0x0 0x0 [LightBrand] DoNothing
+	//UNIT HaydenCC Mercenary ONeill Level(1,Enemy,True) [2,1] 0x0 0x0 0x0 0x0 [LightBrand SteelSword] NeverMoveAI
 	UNIT
 	
 ReinforcementGroup:

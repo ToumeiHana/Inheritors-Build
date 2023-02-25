@@ -172,6 +172,15 @@ lsl r2, r1, #1
 cmp r0,#0
 bne StoreDamage
 add r2, r1 @damagex3
+
+@mov r0,r5
+@ldr r1, =DragonSkinIDLink
+@ldrb r1, [ r1 ]
+@blh SkillTester, r3
+@cmp r0,#0
+@beq StoreDamage
+@lsr r2,#0x1		@divide by 2
+
 StoreDamage:
 strh r2, [r7, #4] @final damage
 
