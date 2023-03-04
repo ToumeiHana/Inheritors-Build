@@ -11,7 +11,8 @@
 #define VeinEffect(id, event) "PUSH; ORG DragonVeinEffectTableOffset + (4 * id); POIN event; POP"
 #define Vein(XX,YY,EffectID) "BYTE DragonVeinTrapID XX YY EffectID 0x0 0x0"
 #define Vein(XX,YY,EffectID, TextID) "BYTE DragonVeinTrapID XX YY EffectID; SHORT TextID"
-#define VeinActivation "EARTHQUAKE_START 0x0; MUSS DragonVeinSFXID; STAL 0x20; FlashWhite; STAL 0xC0; EARTHQUAKE_END; MURE 0x06; STAL 0x40"
+//#define VeinActivation "EARTHQUAKE_START 0x0; MUSS DragonVeinSFXID; STAL 0x20; FlashWhite; STAL 0xC0; EARTHQUAKE_END; MURE 0x06; STAL 0x40"
+#define VeinActivation "EARTHQUAKE_START 0x0; MUSI; SOUND RoarSFX; STAL 0x90; EARTHQUAKE_END; MUNO;"
 
 SetTrapEventInit(DragonVeinTrapID,VeinInitialization)
 SetTrapMapSprite(DragonVeinTrapID,VeinMapSpriteID)

@@ -2,8 +2,8 @@
 .thumb
 push {r4-r7,lr}
 @goes in the battle loop.
-@r0 is the attacker
-@r1 is the defender
+@r0 is the defender
+@r1 is the attacker
 mov r4, r0
 mov r5, r1
 

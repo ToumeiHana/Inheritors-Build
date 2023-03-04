@@ -123,3 +123,7 @@ MercFWalk:
 ALIGN 4
 ClawStand:
 #incbin "dmp/ClawStand.dmp"
+
+ALIGN 4
+ClawWalk:
+#incbin "dmp/Clawwalk.dmp"

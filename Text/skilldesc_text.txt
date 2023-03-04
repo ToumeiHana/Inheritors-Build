@@ -1,11 +1,16 @@
+## SD_Alacrity
+^{Alacrity: If unit initiates combat with an AS}[N]
+^{advantage of 8 or more, unit's follow-up}[N]
+^{(if possible) occurs before counterattack.}[X]
+
 ## SD_Lumberjack
 Lumberjack: Negates terrain bonuses[N]
 for enemies on forest tiles, halves[N]
 terrain bonuses for other tiles.[X]
 
 ## SD_AirRaidDef
-Air Raid: Grats +5 Def when on[N]
-a tile enemy cannot enter.[X]
+Air Raid: Grants +5 Def when[N]
+on a tile enemy cannot enter.[X]
 
 ## SD_ChaosStyle
 Chaos Style: AS +3 during combat with[N]
@@ -14,8 +19,8 @@ with magic or vice versa.[X]
 
 ## SD_HonorDuel
 Honorable Duel: When neither combatant[N]
-is adjanced to their allies, gain[N]
-+1 attack & +2 defence.[X]
+is adjanced to other units, gain[N]
++2 damage dealt & -2 damage taken.[X]
 
 ## SD_Rockhard
 Sturdy as Stone: +3 defense when[N]
@@ -511,11 +516,11 @@ Skl * 1.5.[X]
 
 ## SD_Chivalry
 Opener: When foe is at full HP,[N]
-attack +2.[X]
+attack +2 and Avo +15.[X]
 
 ## SD_Pragmatic
 Closer: When foe is not at full HP,[N]
-attack +2.[X]
+attack +2 and Hit +5.[X]
 
 ## SD_Armsthrift
 Armsthrift: Luck % chance to not[N]
@@ -630,7 +635,7 @@ Identity Problems: This unit can't[N]
 decide on a name or face.[X]
 
 ## SD_Charisma
-Charisma: Grants +10 Hit/Avoid[N]
+Charisma: Grants +10 Hit/Crit Avoid[N]
 to all allies within three tiles.[X]
 
 ## SD_HeroesDeathBlow

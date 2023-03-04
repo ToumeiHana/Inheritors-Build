@@ -66,11 +66,10 @@ add     r0,#0x5A    @Move to the defender's attack.
 ldrh    r3,[r0]     @Load the defender's attack into r3.
 add     r3,#0x02    @Add 2 to the defender's attack.
 strh    r3,[r0]     @Store defender attack.
-@ldr     r0,=0x203A4EC     @Move attacker data into r0.
-@add     r0,#0x5A    @Move to the attacker's attack.
-@ldrh    r3,[r0]     @Load the defender's attack into r3.
-@sub     r3,#0x02    @Subtract 2 to the defender's attack.
-@strh    r3,[r0]     @Store defender attack.
+add     r0,#8    @Move to the defender's avo.
+ldrh    r3,[r0]     @Load the defender's avo into r3.
+add     r3,#15    @Add 15 to the defender's avo.
+strh    r3,[r0]     @Store defender avo.
 b       SkillReturn
 PragmaticSkill:
 ldr     r0,=0x203A4EC     @Move attacker data into r0.
@@ -83,11 +82,10 @@ add     r0,#0x5A    @Move to the defender's attack.
 ldrh    r3,[r0]     @Load the defender's attack into r3.
 add     r3,#0x02    @Add 2 to the defender's attack.
 strh    r3,[r0]     @Store defender attack.
-@ldr     r0,=0x203A4EC     @Move attacker data into r0.
-@add     r0,#0x5A    @Move to the defender's attack.
-@ldrh    r3,[r0]     @Load the defender's attack into r3.
-@sub     r3,#0x01    @Sub 1 to the defender's attack.
-@strh    r3,[r0]     @Store defender attack.
+add     r0,#6    @Move to the defender's hit.
+ldrh    r3,[r0]     @Load the defender's hit into r3.
+add     r3,#5    @Add 5 to the defender's hit.
+strh    r3,[r0]     @Store defender hit.
 EndProgram:
 pop {r4-r7}
 pop {r0}

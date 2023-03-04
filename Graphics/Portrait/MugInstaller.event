@@ -12,18 +12,18 @@
 
 ALIGN 16
 Curtis_Mug:
-#incbin "dmp/Eye_mug.dmp"
-#incbin "dmp/Eye_frames.dmp"
-#incbin "dmp/Eye_palette.dmp"
-#incbin "dmp/Eye_minimug.dmp"
+#incbin "dmp/Curtis_mug.dmp"
+#incbin "dmp/Curtis_frames.dmp"
+#incbin "dmp/Curtis_palette.dmp"
+#incbin "dmp/Curtis_minimug.dmp"
 setMugEntry(0x02, Curtis_Mug, 3,5,3,3)
 
 ALIGN 16
 CurtisShirtless_Mug:
-#incbin "dmp/EyeShirtless_mug.dmp"
-#incbin "dmp/EyeShirtless_frames.dmp"
-#incbin "dmp/EyeShirtless_palette.dmp"
-#incbin "dmp/EyeShirtless_minimug.dmp"
+#incbin "dmp/CurtisShirtless_mug.dmp"
+#incbin "dmp/CurtisShirtless_frames.dmp"
+#incbin "dmp/CurtisShirtless_palette.dmp"
+#incbin "dmp/CurtisShirtless_minimug.dmp"
 setMugEntry(0x03, CurtisShirtless_Mug, 3,5,3,3)
 
 ALIGN 16

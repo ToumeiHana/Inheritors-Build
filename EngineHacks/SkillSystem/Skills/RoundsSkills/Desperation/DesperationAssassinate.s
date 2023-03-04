@@ -10,6 +10,7 @@
 .endm
 .equ DesperationID, SkillTester+4
 .equ AssassinateID, DesperationID+4
+.equ AlacrityID, AssassinateID+4
 
 @check range
 ldr r0,=#0x203A4D4 @battle stats
@@ -39,13 +40,39 @@ ldrb r0, [r3,#0x12] @max
 ldrb r1, [r3, #0x13] @curr
 lsr r0, #1
 cmp r1, r0
-bgt NoSkill
+bgt CheckAlacrity
 
 @now check if attacker has desperation
 ldr r0, SkillTester
 mov lr, r0
 mov r0, r5 @defender data
 ldr r1, DesperationID
+.short 0xf800
+cmp r0, #0
+bne HasSkill
+
+CheckAlacrity:
+@ldr r0,=#0x203A56C
+@cmp r0, r4
+@bne End @Defender's AS isn't calculated yet, so end
+
+mov r0,r5
+add r0,#0x5E	@attacker AS
+ldrh r1,[r0]
+
+ldr r0, [sp, #4] @defender data
+add r0,#0x5E	@defender AS
+ldrh r2,[r0]
+
+add r2,#8
+cmp r1,r2
+blt NoSkill
+
+@now check if attacker has alacrity
+ldr r0, SkillTester
+mov lr, r0
+mov r0, r5 @defender data
+ldr r1, AlacrityID
 .short 0xf800
 cmp r0, #0
 beq NoSkill
@@ -150,3 +177,4 @@ SkillTester:
 @poin SkillTester
 @word DesperationID
 @word AssassinateID
+@word AlacrityID

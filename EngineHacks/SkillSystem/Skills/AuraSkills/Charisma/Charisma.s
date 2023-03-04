@@ -26,9 +26,9 @@ ldrh    r3,[r0]     @Load the attacker's hit into r3.
 add     r3,#10    @add 10 hit.
 strh    r3,[r0]     @Store.
 
-add 	r0,#2 @attacker's avoid
+add 	r0,#8 @attacker's crit avoid
 ldrh    r3,[r0]     @Load the attacker's avoid into r3.
-add     r3,#10    @add 10 avoid.
+add     r3,#10    @add 10 crit avoid.
 strh    r3,[r0]     @Store.
 
 Done:

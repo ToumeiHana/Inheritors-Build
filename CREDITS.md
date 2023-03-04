@@ -85,6 +85,7 @@ adding yourself!
 - SKILLSYS QoL+Other credits here
 - Pikmin1211: Green summons
 - Aera: Thracia trading
+- Zane: MMB
 
 # Music
 

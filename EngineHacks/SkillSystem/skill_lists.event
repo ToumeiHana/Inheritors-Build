@@ -22,6 +22,7 @@ CavalierSkillList:
 BYTE 00 00
 
 PaladinSkillList:
+BYTE 1 TriAdeptID
 BYTE 00 00
 ALIGN 4
 
@@ -130,6 +131,7 @@ BYTE 00 00
 ALIGN 4
 
 GreatKnightSkillList:
+BYTE 1 ArmoredBlowID
 BYTE 00 00
 ALIGN 4
 
@@ -172,7 +174,7 @@ BYTE 00 00
 ALIGN 4
 
 FalcoknightSkillList:
-BYTE 1 LancefaireID
+BYTE 1 AlacrityID
 BYTE 00 00
 ALIGN 4
 
@@ -235,6 +237,7 @@ BYTE 00 00
 ALIGN 4
 
 ForrestKnightSkillList:
+BYTE 1 DartingBlowID
 BYTE 00 00
 ALIGN 4
 

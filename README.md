@@ -6,4 +6,4 @@ Based on SkillSystem buildfile
 
 Look at CREDITS.md for full credits
 
-Custom ASM stuff is F2E
+Most custom ASM/Music stuff is F2E with permission
