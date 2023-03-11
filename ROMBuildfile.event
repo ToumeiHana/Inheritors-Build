@@ -22,7 +22,8 @@
 	MESSAGE Used graphics space ends at currentOffset
 	
 	//Music
-	#include "Music/Music Installer.event"
+	//#include "Music/Music Installer.event"
+	#include "Music/advanced music installer.event"
 	MESSAGE Used music space ends at currentOffset
 	
     //Engine Hacks

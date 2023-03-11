@@ -54,6 +54,7 @@ POIN HonorDuel
 POIN StunningSmile
 POIN ChaosStyle
 POIN AirSkillCheck
+POIN Stalwart
 
 
 #ifdef MODULAR_PRE_BATTLE_SKILLS

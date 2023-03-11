@@ -17,6 +17,8 @@ TurnBasedEvents:
 	TurnEventPlayer(0,CounterCheck,0,13)
 	TurnEventPlayer(0,Turn3Reinforcements,3)
 	TurnEventPlayer(0,Turn5Reinforcements,5)
+	TurnEventEnemy(0,AveryLeave,7)
+	TurnEventPlayer(0,PegaSquadsSpawn,7)
 	TurnEventEnemy(9,BridgeEvent,7)
 	TurnEventPlayer(10,BridgeCavsSpawn,8)
 	TurnEventPlayer(11,AIChanges,10)
@@ -32,6 +34,7 @@ CharacterBasedEvents:
 MiscBasedEvents:
 	CauseGameOverIfLordDies
 	VeinEffect(7,VeinEvent)
+	AREA 0 AltGameOver [10,0] [13,0]
 	END_MAIN
 
 LocationBasedEvents:
@@ -71,35 +74,50 @@ Units1:
 
 EnemyUnits:
 
-	UNIT Bazba Paladin 0x0 Level(1,Enemy,False) [25,6] 0x0 0x0 0x0 0x0 [SteelSword, HandAxe] NeverMoveAI
+	UNIT Bazba Paladin 0x0 Level(1,Enemy,False) [25,6] DropItem 0x0 0x0 0x0 [SteelSword, HandAxe, SecretBook] NeverMoveAI
 	UNIT Farum Ballistician Bazba Level(1,Enemy,True) [24,6] 0x0 0x0 0x0 0x0 [Ballista] NeverMoveAI
 	UNIT Engineer EngiClass Bazba Level(3,Enemy,True) [25,3] 0x0 0x0 0x0 0x0  [Hammer] DoNothing
 	UNIT Engineer EngiClass Bazba Level(3,Enemy,True) [25,2] 0x0 0x0 0x0 0x0  [Hammer] DoNothing
 	UNIT Farum PegasusKnight Bazba Level(5,Enemy,True) [20,15] 0x0 0x0 0x0 0x0 [IronLance] DefaultAI
-	UNIT Farum SwordCavalier Bazba Level(6,Enemy,True) [25,10] 0x0 0x0 0x0 0x0 [SteelSword Armorslayer] DefaultAI
+	UNIT Farum SwordCavalier Bazba Level(6,Enemy,True) [25,10] 0x0 0x0 0x0 0x0 [Armorslayer] DefaultAI
 	UNIT Farum AxeCavalier Bazba Level(5,Enemy,True) [26,9] 0x0 0x0 0x0 0x0 [HandAxe] DefaultAI
 	UNIT Farum LanceCavalier Bazba Level(5,Enemy,True) [26,11] 0x0 0x0 0x0 0x0 [Javelin] DefaultAI	
-	UNIT Farum AxeKnight Bazba Level(6,Enemy,True) [24,9] 0x0 0x0 0x0 0x0 [SteelAxe,HandAxe] AttackInRangeAI
-	UNIT Farum AxeKnight Bazba Level(6,Enemy,True) [24,11] 0x0 0x0 0x0 0x0 [SteelAxe,HandAxe] AttackInRangeAI
+	UNIT Farum AxeKnight Bazba Level(6,Enemy,True) [24,9] 0x0 0x0 0x0 0x0 [SteelAxe,HandAxe] NeverMoveAI
+	UNIT Farum AxeKnight Bazba Level(6,Enemy,True) [24,11] 0x0 0x0 0x0 0x0 [SteelAxe,HandAxe] NeverMoveAI
+	UNIT Farum LanceKnight Bazba Level(5,Enemy,True) [23,9] 0x0 0x0 0x0 0x0 [SteelLance] DelayedChargeAI
+	UNIT Farum BowKnight Bazba Level(5,Enemy,True) [23,10] 0x0 0x0 0x0 0x0 [SteelBow] DelayedChargeAI
+	UNIT Farum LanceKnight Bazba Level(5,Enemy,True) [23,11] 0x0 0x0 0x0 0x0 [SteelLance] DelayedChargeAI
+	UNIT Avery General 0x0 Level(4,Enemy,False) [24,10] 0x0 0x0 0x0 0x0 [SteelBlade] NeverMoveAI
 	UNIT
 
 EnemyUnits2:
 	UNIT Farum LanceKnight Bazba Level(5,Enemy,True) [4,10] 0x0 0x0 0x0 0x0 [SteelLance, Javelin] NeverMoveAI
-	UNIT Farum BowKnight Bazba Level(5,Enemy,True) [0,12] 0x0 0x0 0x0 0x0 [SteelBow] AttackInRangeAI
-	UNIT Farum AxeKnight Bazba Level(5,Enemy,True) [1,11] 0x0 0x0 0x0 0x0 [IronAxe] AttackInRangeAI
-	UNIT Farum SwordKnight Bazba Level(5,Enemy,True) [1,13] 0x0 0x0 0x0 0x0 [IronBlade] AttackInRangeAI
+	UNIT Goon BowKnight Bazba Level(5,Enemy,True) [1,12] 0x0 0x0 0x0 0x0 [SteelBow] AttackInRangeAI
+	UNIT Farum AxeKnight Goon Level(5,Enemy,True) [0,11] 0x0 0x0 0x0 0x0 [IronAxe] MoveWithLeaderAI
+	UNIT Farum SwordKnight Goon Level(5,Enemy,True) [0,13] 0x0 0x0 0x0 0x0 [IronBlade] MoveWithLeaderAI
+	UNIT Farum Priest Goon Level(5,Enemy,True) [0,12] DropItem 0x0 0x0 0x0 [Heal, MineStaff] MoveWithLeaderAI
 	UNIT Farum Soldier Bazba Level(5,Enemy,True) [17,7] 0x0 0x0 0x0 0x0 [SteelLance,Javelin] DefaultAI
 	UNIT Farum Mercenary Bazba Level(5,Enemy,True) [6,7] 0x0 0x0 0x0 0x0 [SteelSword] DefaultAI
 	UNIT Farum Myrmidon_F Bazba Level(5,Enemy,True) [18,13] 0x0 0x0 0x0 0x0 [SteelSword] AttackInRangeAI
 	UNIT Farum Fighter Bazba Level(5,Enemy,True) [19,12] 0x0 0x0 0x0 0x0 [IronAxe] AttackInRangeAI
+	//UNIT Farum Fighter Bazba Level(5,Enemy,True) [9,0] 0x0 0x0 0x0 0x0 [IronAxe] SeizerAI
 	UNIT
 	
 Turn3Cavs:
 	UNIT Farum AxeCavalier Bazba Level(5,Enemy,True) [26,9] 0x0 0x0 0x0 0x0 [IronAxe, HandAxe] DefaultAI
-	UNIT Farum PegasusKnight Bazba Level(5,Enemy,True) [26,10] 0x0 0x0 0x0 0x0 [IronLance] DefaultAI	//TODO: change to seize ai
+	UNIT Farum PegasusKnight Bazba Level(5,Enemy,True) [26,10] 0x0 0x0 0x0 0x0 [IronLance] DefaultAI
 	UNIT Farum LanceCavalier Bazba Level(5,Enemy,True) [26,11] 0x0 0x0 0x0 0x0 [SteelLance] DefaultAI
 	UNIT
 
+PegaSquads:
+	UNIT Farum PegasusKnight Bazba Level(6,Enemy,True) [2,15] 0x0 0x0 0x1 REDA2R14 [IronLance] AttackingSeizerAI
+	UNIT Farum AxePegasus Bazba Level(5,Enemy,True) [1,15] 0x0 0x0 0x0 0x0 [IronAxe] SeizerAI
+	UNIT Farum AxePegasus Bazba Level(5,Enemy,True) [3,15] 0x0 0x0 0x0 0x0 [IronAxe] SeizerAI
+	UNIT Farum AxePegasus Bazba Level(6,Enemy,True) [25,15] 0x0 0x0 0x1 REDA25R14 [IronAxe] AttackingSeizerAI
+	UNIT Farum PegasusKnight Bazba Level(5,Enemy,True) [24,15] 0x0 0x0 0x0 0x0 [IronLance] SeizerAI
+	UNIT Farum PegasusKnight Bazba Level(5,Enemy,True) [26,15] 0x0 0x0 0x0 0x0 [IronLance] SeizerAI
+	UNIT
+	
 KillerSquad:
 	UNIT Farum AxeCavalier Bazba Level(4,Enemy,True) [26,9] 0x0 0x0 0x0 0x0 [KillerAxe] DefaultAI
 	UNIT Farum Soldier Bazba Level(4,Enemy,True) [26,10] 0x0 0x0 0x1 REDA25R10 [KillerLance] DefaultAI
@@ -107,8 +125,13 @@ KillerSquad:
 	UNIT
 	
 BridgeCavs:
-	UNIT Farum SwordCavalier Bazba Level(5,Enemy,True) [26,3] 0x0 0x0 0x0 0x0 [SteelSword] DefaultAI //TODO: change to seize ai
-	UNIT Farum LanceCavalier Bazba Level(5,Enemy,True) [26,2] 0x0 0x0 0x0 0x0 [SteelLance] DefaultAI //TODO: change to seize ai
+	UNIT Farum SwordCavalier Bazba Level(5,Enemy,True) [26,3] 0x0 0x0 0x0 0x0 [SteelSword] AttackingSeizerAI
+	UNIT Farum LanceCavalier Bazba Level(5,Enemy,True) [26,2] 0x0 0x0 0x0 0x0 [SteelLance] AttackingSeizerAI
+	UNIT
+	
+AIChangeCavs:
+	UNIT Farum AxeCavalier Bazba Level(6,Enemy,True) [26,9] 0x0 0x0 0x0 0x0 [IronAxe] MoveWithLeaderAI
+	UNIT Farum LanceCavalier Bazba Level(6,Enemy,True) [26,11] 0x0 0x0 0x0 0x0 [IronLance] MoveWithLeaderAI
 	UNIT
 	
 HollieGroup:
@@ -122,6 +145,10 @@ GreenGroup:
 
 Traps1:
 	Vein(10,9,7)
+	MapSpriteTrap(IndicatorTrapID,10,0)
+	MapSpriteTrap(IndicatorTrapID,11,0)
+	MapSpriteTrap(IndicatorTrapID,12,0)
+	MapSpriteTrap(IndicatorTrapID,13,0)
 	ENDTRAP
 	ALIGN 4
 
@@ -196,14 +223,28 @@ Turn5Reinforcements:
 	ENUN
 	NoFade
 	ENDA
+
+AveryLeave:
+
+	CAMERA Avery
+	MOVE 0 Avery [27,10]
+	ENUN
+	REMOVEUNIT Avery
+	NoFade
+	ENDA
 	
 BridgeEvent:
 
 	CHECK_EXISTS Engineer
 	CAMERA Engineer
-	BEQ 1 s0 sC
+	BEQ 8 s0 sC
 	TILECHANGE 1
+	
+	MOVE 0 Engineer [27,3]
+	ENUN
 	REMOVEUNIT Engineer
+	ENUN
+	MOVE 0 Engineer [27,3]
 	ENUN
 	REMOVEUNIT Engineer
 	ENUN
@@ -211,7 +252,7 @@ BridgeEvent:
 	//LOAD1 0x1 BridgeCavs
 	//ENUN
 	
-	LABEL 1
+	LABEL 8
 	NoFade
 	ENDA
 
@@ -222,6 +263,13 @@ BridgeCavsSpawn:
 	NoFade
 	ENDA
 
+PegaSquadsSpawn:
+	EVBIT_T 9
+	LOAD1 0x1 PegaSquads
+	ENUN
+	NoFade
+	ENDA
+	
 CounterCheck:
 	CHECK_EVENTID 7
 	BNE 1 s0 sC	
@@ -235,14 +283,61 @@ CounterCheck:
 	LABEL 1
 	COUNTER_INC 0
 	NoFade
-	ENDA
-
+	ENDA	
+	
 AIChanges:
 	
-	//Text()
-	SETVAL 1 0x00400000
+	CAMERA Bazba
+	Text(Ch4ChargeText)
+	SETVAL 1 0x0040C000
 	CHAI	Farum
+	CHAI	Bazba
+	
+	LOAD1 0x1 AIChangeCavs
+	ENUN
+	
 	NoFade
+	ENDA
+
+AltGameOver:
+
+	ContinueIfFactionMatch(0x2)
+	/*SETVAL 1 0x2
+	CHECK_AT [10,0]
+	BEQ 2 sC s0
+	SADD s2 sC s0
+	CHECK_ALLEGIANCE -3
+	BEQ 6 sC s1
+	
+	LABEL 2
+	CHECK_AT [11,0]
+	BEQ 3 sC s0
+	SADD s2 sC s0
+	CHECK_ALLEGIANCE -3
+	BEQ 6 s2 s1
+	
+	LABEL 3
+	CHECK_AT [12,0]
+	BEQ 4 sC s0
+	SADD s2 sC s0
+	CHECK_ALLEGIANCE -3
+	BEQ 6 sC s1
+	
+	LABEL 4
+	CHECK_AT [13,0]
+	BEQ 5 sC s0
+	SADD s2 sC s0
+	CHECK_ALLEGIANCE -3
+	BEQ 6 sC s1
+	
+	LABEL 5
+	NoFade
+	ENDA*/
+	
+	LABEL 6
+	ENUT 0x65
+	ENUN
+	//STAL 60
 	ENDA
 	
 ALIGN 4

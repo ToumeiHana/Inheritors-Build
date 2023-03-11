@@ -1,0 +1,16 @@
+#include "AiScrDefinitions.event"
+#define SeizeAIID 0xC
+
+/*ALIGN 4
+seizerAI:{
+AiMoveTowardsTerrain(0x27)
+InjectAi2(SeizeAIID,seizerAI)
+}*/
+//#define AttackingSeizerAI [0x00, SeizeAIID, 0x04]
+//#define SeizerAI [0x06, SeizeAIID, 0x04]
+
+#define AttackingSeizerAI [0x00, 0x0C, 0x04]
+#define SeizerAI [0x06, 0x0C, 0x04]
+
+#define HalfRangeAI [0x0C,0x03,0x03]
+#define DelayedChargeAI [0x00, 0x12, 0x04]

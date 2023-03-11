@@ -3,4 +3,12 @@ Chapter3Escapepoint:
 EscapePoint(0,18,MoveLeft)
 EscapePointEnd
 
+Chapter4Escapepoint:
+EscapePoint(10,0,MoveUp)
+EscapePoint(11,0,MoveUp)
+EscapePoint(12,0,MoveUp)
+EscapePoint(13,0,MoveUp)
+EscapePointEnd
+
 EscapePointPointerTable(Chapter3,Chapter3Escapepoint)
+EscapePointPointerTable(Chapter4,Chapter4Escapepoint)

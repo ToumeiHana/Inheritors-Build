@@ -75,6 +75,11 @@ adding yourself!
 - Flasuban: Pegasus Knights, FHero
 - L95: FMercenary
 
+# Item Icons
+- Erekshigal: Skygazer
+- LordGlenn: Mine Staff
+- Zane: Elstone
+
 # Patches
 
 - Scraiza: NarrowFont 
@@ -86,6 +91,7 @@ adding yourself!
 - Pikmin1211: Green summons
 - Aera: Thracia trading
 - Zane: MMB
+- Teraspark: IER, fancy staves
 
 # Music
 

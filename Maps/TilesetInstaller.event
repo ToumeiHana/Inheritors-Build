@@ -9,9 +9,14 @@ VillageConfig:
 #incext compress "VillageV2Config.mapchip_config"
 
 ALIGN 4
+VillageDefendConfig:
+#incext compress "VillageV2ConfigVerDefend.mapchip_config"
+
+ALIGN 4
 VillagePallette:
 #incbin "VillageV2Palette.dmp"
 
 EventPointerTable(VillageObjectsID, VillageObjects)
 EventPointerTable(VillageConfigID, VillageConfig)
+EventPointerTable(VillageDefendConfigID, VillageDefendConfig)
 EventPointerTable(VillagePaletteID, VillagePallette)

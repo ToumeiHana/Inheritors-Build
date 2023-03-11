@@ -7,6 +7,18 @@
   #incbin "FE8_NI_MAP_2.bin"
 #endif
 
+/*
+#define VoiceDirect(VoiceTable,VoiceIndex,BaseNote,Address,FixedFreq,IsForcedPan,Pan,EnvAtk,EnvDec,EnvSus,EnvRel) "ORG VoiceTable+VoiceIndex*0x0c; BYTE $00+FixedFreq*0x8 BaseNote $00 IsForcedPan*Pan; POIN Address; BYTE EnvAtk EnvDec EnvSus EnvRel"
+#define SampleHeader(IsSampleLooped,SamplePitchAdjustment,SampleLoopPoint,SampleLength) "BYTE $00 $00 $00 IsSampleLooped*0x40; WORD SamplePitchAdjustment; WORD SampleLoopPoint; WORD SampleLength"
+
+VoiceDirect(voicegroup000,0x37,0xc3,OrchestraHitSample,0x0,0x0,0x0,0xff,0x0,0x0,0xe0)
+
+ALIGN 4
+OrchestraHitSample:
+SampleHeader(0x0,0x00d10c00,0x0,0x000023d0)
+#incbin "sgmorchhit13k.dmp"
+*/
+ALIGN 4
 #define SongTable(index,SongPointer,Group) "PUSH; ORG SongTableOffset+(8*index); POIN SongPointer; SHORT Group Group; POP"
 #define BattleMusicGroup 0
 #define MapMusicGroup 1

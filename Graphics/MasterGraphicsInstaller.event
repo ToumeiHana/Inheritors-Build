@@ -5,3 +5,4 @@
 #include "CSA_Creator/Master Spell Animation Installer.event"
 #include "BG/BGInstaller.event"
 #include "ClassCard/ClassCardInstaller.event"
+#include "ItemIcon/ItemIconInstaller.event"

@@ -36,3 +36,9 @@ Lumberjack:
 #incbin "Lumberjack.dmp"
 POIN SkillTester
 WORD LumberjackID
+
+ALIGN 4
+Stalwart:
+#incbin "Stalwart.dmp"
+POIN SkillTester
+WORD StalwartID

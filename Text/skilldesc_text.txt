@@ -1,3 +1,7 @@
+## SD_Stalwart
+Stalwart: If unit attacks without moving,[N]
+unit makes an additional attack.[X]
+
 ## SD_Alacrity
 ^{Alacrity: If unit initiates combat with an AS}[N]
 ^{advantage of 8 or more, unit's follow-up}[N]

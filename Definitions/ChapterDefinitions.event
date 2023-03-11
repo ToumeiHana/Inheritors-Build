@@ -56,6 +56,7 @@
 #define VillageConfigID 0x8A
 #define MoutainousConfigID 0x6E
 #define PlainsConfigID 0x03
+#define VillageDefendConfigID 0xEB
 
 //Tile Anims
 #define VillageAnimsID 0x8B

@@ -41,6 +41,9 @@
 	
 	#define ExampleMapSpriteTrapID 0x10
 	#define ExampleMapSpriteID 0x66
+
+	#define IndicatorTrapID 0x9
+	#define IndicatorMapSpriteID 0x68
 	
 	
 	#include "TrapRework_Internal.event"
@@ -151,6 +154,10 @@
 	TelliusTorchOffMapSpriteIDLink:
 	TelliusTorchOnMapSpriteIDLink:
 	WORD 0
+	
+	SetTrapEventInit(IndicatorTrapID,TrapRework_GenericInitializer)
+	SetTrapMapSprite(IndicatorTrapID,IndicatorMapSpriteID)
+	SetTrapMapSpritePalette(IndicatorTrapID,NPCTrapPaletteWord)
 	
 #endif // TRAP_REWORK_INSTALLED
 

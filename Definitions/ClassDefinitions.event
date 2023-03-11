@@ -89,6 +89,8 @@
 //#define GorgonEgg_2 0x62
 #define Sandskipper 0x63
 #define AxePeg 0x64
+#define AxePegasus AxePeg
+#define LancePegasus PegasusKnight
 /*#define DracoZombie 0x65
 #define DemonKing 0x66
 #define ArcheronBallista 0x67

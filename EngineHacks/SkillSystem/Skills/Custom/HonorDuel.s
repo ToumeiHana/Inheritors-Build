@@ -84,11 +84,11 @@ cmp r0,#1
 bgt End
 
 Effect:
-@adding +1 to atk
+@adding +2 to atk
 mov r0, r4
 add r0, #0x5A
 ldrh r3,[r0]
-add r3,#1
+add r3,#2
 strh r3,[r0]
 
 @adding +2 to def

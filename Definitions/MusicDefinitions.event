@@ -3,6 +3,7 @@
 #define JhenMohranID 0x0b
 #define WindOfLaGiasID 0x0c
 #define SteelCockpitID 0x0F
+#define VanishingTrooperID 0x15
 #define MiitopiaBattleID 0x16
 #define DarkColossusID 0x17
 #define FirstCampaingID 0x19

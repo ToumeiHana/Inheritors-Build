@@ -79,7 +79,7 @@ Units1:
 	UNIT Alysa Recruit_1 Curtis Level(1,Ally,False) [7,23] 0x00 0x00 0x01 [Skygazer, IronLance, Vulnerary] NoAI
 	UNIT Jacob SwordCavalier Curtis Level(1,Ally,False) [8,24] 0x00 0x00 0x00 0x01 [IronSword] NoAI
 	UNIT Lucian LanceCavalier Curtis Level(1,Ally,False) [7,24] 0x00 0x00 0x00 0x01 [IronLance] NoAI
-	//UNIT Sana Sage 0x0 Level(1,Ally,False) [1,0] 0x0 0x0 0x0 0x0 [Elstone,Thunder] NoAI
+	//UNIT Mirabelle Bishop 0x0 Level(1,Ally,False) [1,0] 0x0 0x0 0x0 0x0 [Lightning,MineStaff] NoAI
 	//UNIT Mauritch DarkKnight 0x0 Level(1,Ally,False) [1,0] 0x0 0x0 0x0 0x0 [Flux,IronSword,Runesword,WindSword] NoAI
 	UNIT
 

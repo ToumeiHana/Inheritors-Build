@@ -327,6 +327,9 @@
 
 //Pre-Battle Skills
 
+//Stalwart
+#define StalwartID 36
+
 //Lumberjack: Negates effect of forest tiles, halves effects of other tiles
 #define LumberjackID 20
 

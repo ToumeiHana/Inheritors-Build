@@ -41,7 +41,7 @@ InjectAi2(EMMANUEL_AI2, EmmanuelAi) // Use whatever macro you use to inject AIs
 
 ALIGN 4
 LibbyAi:{
-AiTryTalkToCharacter(EmmanuelAi)
+AiTryTalkToCharacter(Emmanuel)
 
 InjectAi2(LIBBY_AI2, LibbyAi)
 }

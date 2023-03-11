@@ -59,6 +59,7 @@ POP
 
 ////////////////////////////////FREE SPACE OUT OF BL RANGE
 
+
   //#include "ExternalHacks/Equip/Installer.event"
   
   #include "ModularMinimugBox/Installers/MMBInstallerDefault.event"
@@ -260,4 +261,4 @@ POP
 
   #endif // USE_SAVE_EXPANSION
   
-  
+  #include "CustomItems/_CustomItemSetup.event"

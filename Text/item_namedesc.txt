@@ -12,3 +12,10 @@ Skygazer[X]
 
 ## SkygazerDesc
 Alysa only. Effective against other fliers.[X]
+
+## MineName
+Mine[X]
+
+## MineDesc
+Places mines.[X]
+

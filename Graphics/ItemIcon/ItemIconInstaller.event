@@ -1,0 +1,30 @@
+
+ALIGN 4
+NewItemIcons:
+// Sheet with all icons goes here 
+#incbin "dmp/vanilla_icons.dmp" // Expanded to 255 icons. 
+
+#define ItemIconEntry(ItemIconID) "ORG NewItemIcons + (ItemIconID*128)"
+
+PUSH
+ORG $36B4
+POIN NewItemIcons
+ORG $3788
+POIN NewItemIcons
+POP
+
+#define SkygazerIconID 222 //0xDE
+#define MineStaffIconID 223
+#define ElstoneItemIconID 224
+
+PUSH 
+ItemIconEntry(SkygazerIconID)
+#incbin "dmp/EreshkigalLance24.dmp"
+
+ItemIconEntry(MineStaffIconID)
+#incbin "dmp/LordGlennStaff14.dmp"
+
+ItemIconEntry(ElstoneItemIconID)
+#incbin "dmp/ZaneTome023.dmp"
+ 
+POP 
