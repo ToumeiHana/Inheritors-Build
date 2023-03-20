@@ -42,3 +42,10 @@ Stalwart:
 #incbin "Stalwart.dmp"
 POIN SkillTester
 WORD StalwartID
+
+ALIGN 4
+GuardianPromise:
+#incbin "GuardianPromise.dmp"
+POIN SkillTester
+POIN GetUnitsInRange
+WORD GuardianPromiseID

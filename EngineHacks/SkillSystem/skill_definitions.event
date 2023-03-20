@@ -327,6 +327,10 @@
 
 //Pre-Battle Skills
 
+//Guardian's Promise
+#define GuardianPromiseID 16
+#define GuardiansPromiseID GuardianPromiseID
+
 //Stalwart
 #define StalwartID 36
 

@@ -1,0 +1,25 @@
+#ifdef _FE8_
+#define SetBossMusic(UnitID) "WORD UnitID 0x1B"
+#define SetCustomBossMusic(UnitID,MusicID) "WORD UnitID MusicID"
+#define BossMusicListTerminator "WORD 0xFFFFFFFF 0xFFFFFFFF"
+
+//Boss music table 
+PUSH
+    ORG 0x72908
+    POIN BossMusicTable
+POP
+
+ALIGN 4
+MESSAGE Boss Music Table begins at CURRENTOFFSET
+BossMusicTable:
+SetBossMusic(ONeill)
+SetBossMusic(Breguet)
+SetBossMusic(Bone)
+SetCustomBossMusic(Bazba,OffToWarRemixID)
+
+BossMusicListTerminator
+
+
+#else
+ERROR You are not assembling FE8 events!
+#endif

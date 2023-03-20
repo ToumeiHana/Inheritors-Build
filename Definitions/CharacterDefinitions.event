@@ -38,8 +38,8 @@
 #define Rochelle 0x26
 #define Hudson 0x27
 #define Vidar 0x28
-/*#define CaellachCC 0x29
-#define FadoCC 0x2A
+#define Caitlinne 0x29
+/*#define FadoCC 0x2A
 #define IsmaireCC 0x2B
 #define HaydenCC 0x2C
 #define LyonSummon 0x3B*/

@@ -1,3 +1,8 @@
+## SD_GuardianPromise
+Guardian's Promise: Unit takes -2 damage[N]
+for each ally under half of their max HP[N]
+within 3 tiles, up to -6 damage.[X]
+
 ## SD_Stalwart
 Stalwart: If unit attacks without moving,[N]
 unit makes an additional attack.[X]

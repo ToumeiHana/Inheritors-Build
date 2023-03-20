@@ -10,7 +10,7 @@
 #define ObstacleInOurPathID 0x1a
 #define TrombeID 0x1b
 #define CapAmericaID 0x1c
-#define ItHasToBeThisWayID 0x1d
+#define EndlessFightingID 0x1d
 #define OffToWarRemixID 0x1e
 #define CruelAngelStaffID 0x22
 #define LandOfConflictID 0x24

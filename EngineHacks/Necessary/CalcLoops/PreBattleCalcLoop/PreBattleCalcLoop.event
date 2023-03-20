@@ -55,6 +55,7 @@ POIN StunningSmile
 POIN ChaosStyle
 POIN AirSkillCheck
 POIN Stalwart
+POIN GuardianPromise
 
 
 #ifdef MODULAR_PRE_BATTLE_SKILLS

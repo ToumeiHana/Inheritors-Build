@@ -39,7 +39,7 @@ MiscBasedEvents:
 
 LocationBasedEvents:
 	Armory(Ch4Armory,4,9)
-	Vendor(Ch4Shop,20,2)
+	Vendor(Ch4Shop,20,1)
 	END_MAIN
 
 Dunno1:
