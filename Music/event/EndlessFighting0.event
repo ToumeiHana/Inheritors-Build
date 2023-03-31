@@ -2931,7 +2931,7 @@ EndlessFighting0_9_B2:
 EndlessFighting0_10:
 	BYTE	KEYSH   EndlessFighting0_key+0
 // 000   ----------------------------------------
-	BYTE		VOICE   124
+	BYTE		VOICE   122
 	BYTE		VOL     52*EndlessFighting0_mvl/mxv
 	BYTE		PAN     c_v+0
 	BYTE		MOD     0
@@ -3225,7 +3225,7 @@ EndlessFighting0_10_B2:
 EndlessFighting0_11:
 	BYTE	KEYSH   EndlessFighting0_key+0
 // 000   ----------------------------------------
-	BYTE		VOICE   124
+	BYTE		VOICE   122
 	BYTE		VOL     39*EndlessFighting0_mvl/mxv
 	BYTE		PAN     c_v+0
 	BYTE		MOD     0
@@ -3437,7 +3437,7 @@ EndlessFighting0_11_B2:
 EndlessFighting0_12:
 	BYTE	KEYSH   EndlessFighting0_key+0
 // 000   ----------------------------------------
-	BYTE		VOICE   124
+	BYTE		VOICE   122
 	BYTE		MOD     0
 	BYTE		VOL     52*EndlessFighting0_mvl/mxv
 	BYTE		PAN     c_v+0
@@ -3977,7 +3977,7 @@ EndlessFighting0_12_B2:
 EndlessFighting0_13:
 	BYTE	KEYSH   EndlessFighting0_key+0
 // 000   ----------------------------------------
-	BYTE		VOICE   124
+	BYTE		VOICE   122
 	BYTE		VOL     44*EndlessFighting0_mvl/mxv
 	BYTE		MOD     0
 	BYTE	W96
@@ -4121,7 +4121,7 @@ EndlessFighting0_13_B2:
 EndlessFighting0_14:
 	BYTE	KEYSH   EndlessFighting0_key+0
 // 000   ----------------------------------------
-	BYTE		VOICE   124
+	BYTE		VOICE   122
 	BYTE		VOL     38*EndlessFighting0_mvl/mxv
 	BYTE		PAN     c_v+0
 	BYTE		MOD     0

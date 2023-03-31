@@ -1,2 +1,3 @@
 #include "advanced music installer.event"
+#include "SongInstaller.event"
 #include "BossMusicInstaller.event"

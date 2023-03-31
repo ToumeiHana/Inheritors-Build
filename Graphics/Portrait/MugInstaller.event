@@ -10,7 +10,7 @@
 */
 
 
-ALIGN 16
+ALIGN 4
 Curtis_Mug:
 #incbin "dmp/Curtis_mug.dmp"
 #incbin "dmp/Curtis_frames.dmp"
@@ -18,7 +18,7 @@ Curtis_Mug:
 #incbin "dmp/Curtis_minimug.dmp"
 setMugEntry(0x02, Curtis_Mug, 3,5,3,3)
 
-ALIGN 16
+ALIGN 4
 CurtisShirtless_Mug:
 #incbin "dmp/CurtisShirtless_mug.dmp"
 #incbin "dmp/CurtisShirtless_frames.dmp"
@@ -26,7 +26,7 @@ CurtisShirtless_Mug:
 #incbin "dmp/CurtisShirtless_minimug.dmp"
 setMugEntry(0x03, CurtisShirtless_Mug, 3,5,3,3)
 
-ALIGN 16
+ALIGN 4
 Janissa_Mug:
 #incbin "dmp/JanissaV3_mug.dmp"
 #incbin "dmp/JanissaV3_frames.dmp"
@@ -34,7 +34,7 @@ Janissa_Mug:
 #incbin "dmp/JanissaV3_minimug.dmp"
 setMugEntry(0x04, Janissa_Mug, 3,5,3,3)
 
-ALIGN 16
+ALIGN 4
 Alysa_Mug:
 #incbin "dmp/Recruit_mug.dmp"
 #incbin "dmp/Recruit_frames.dmp"
@@ -42,7 +42,7 @@ Alysa_Mug:
 #incbin "dmp/Recruit_minimug.dmp"
 setMugEntry(0x05, Alysa_Mug, 3,6,3,4)
 
-ALIGN 16
+ALIGN 4
 Jacob_Mug:
 #incbin "dmp/Jacob_mug.dmp"
 #incbin "dmp/Jacob_frames.dmp"
@@ -50,7 +50,7 @@ Jacob_Mug:
 #incbin "dmp/Jacob_minimug.dmp"				
 setMugEntry(0x06, Jacob_Mug, 3,5,3,3)
 
-ALIGN 16
+ALIGN 4
 Lucian_Mug:
 #incbin "dmp/Lucian_mug.dmp"
 #incbin "dmp/Lucian_frames.dmp"
@@ -58,7 +58,7 @@ Lucian_Mug:
 #incbin "dmp/Lucian_minimug.dmp"
 setMugEntry(0x07, Lucian_Mug, 3,5,3,3)
 
-ALIGN 16
+ALIGN 4
 Marco_Mug:
 #incbin "dmp/pops-hackbox-u_mug.dmp"
 #incbin "dmp/pops-hackbox-u_frames.dmp"
@@ -66,7 +66,7 @@ Marco_Mug:
 #incbin "dmp/pops-hackbox-u_minimug.dmp"
 setMugEntry(0x08, Marco_Mug, 3,5,3,3)
 
-ALIGN 16
+ALIGN 4
 Diane_Mug:
 #incbin "dmp/DianeV2_mug.dmp"
 #incbin "dmp/DianeV2_frames.dmp"
@@ -74,7 +74,7 @@ Diane_Mug:
 #incbin "dmp/DianeV2_minimug.dmp"
 setMugEntry(0x09, Diane_Mug, 3,6,3,4)
 
-ALIGN 16
+ALIGN 4
 Lauren_Mug:
 #incbin "dmp/LaurenV2_mug.dmp"
 #incbin "dmp/LaurenV2_frames.dmp"
@@ -82,7 +82,7 @@ Lauren_Mug:
 #incbin "dmp/LaurenV2_minimug.dmp"
 setMugEntry(0x0A, Lauren_Mug, 3,6,3,4)
 
-ALIGN 16
+ALIGN 4
 Mauritch_Mug:
 #incbin "dmp/Mauritch_mug.dmp"
 #incbin "dmp/Mauritch_frames.dmp"
@@ -90,7 +90,7 @@ Mauritch_Mug:
 #incbin "dmp/Mauritch_minimug.dmp"
 setMugEntry(0x0B, Mauritch_Mug, 4,5,4,3)
 
-ALIGN 16
+ALIGN 4
 Katja_Mug:
 #incbin "dmp/Katjav2_mug.dmp"
 #incbin "dmp/Katjav2_frames.dmp"
@@ -98,14 +98,20 @@ Katja_Mug:
 #incbin "dmp/Katjav2_minimug.dmp"
 setMugEntry(0x0C, Katja_Mug, 3,6,3,4)
 
-ALIGN 16
+ALIGN 4
 Libby_Mug:
 #incext PortraitFormatter "Cleric.png"
 setMugEntry(0x0D, Libby_Mug, 4,6,4,4)
 
-//setMugEntry(0x0E,Emmanuel_Mug,
+ALIGN 4
+Emmanuel_Mug:
+#incbin "dmp/Emmanuel_mug.dmp"
+#incbin "dmp/Emmanuel_frames.dmp"
+#incbin "dmp/Emmanuel_palette.dmp"
+#incbin "dmp/Emmanuel_minimug.dmp"
+setMugEntry(0x0E,Emmanuel_Mug,3,5,3,3)
 
-ALIGN 16
+ALIGN 4
 HollieHelmet_Mug:
 #incbin "dmp/HollieHelmet_mug.dmp"
 #incbin "dmp/HollieHelmet_frames.dmp"
@@ -113,7 +119,7 @@ HollieHelmet_Mug:
 #incbin "dmp/HollieHelmet_minimug.dmp"
 setMugEntry(0x0F,HollieHelmet_Mug,3,5,3,3)
 
-ALIGN 16
+ALIGN 4
 Hollie_Mug:
 #incbin "dmp/Hollie_mug.dmp"
 #incbin "dmp/Hollie_frames.dmp"
@@ -121,15 +127,31 @@ Hollie_Mug:
 #incbin "dmp/Hollie_minimug.dmp"
 setMugEntry(0x10,Hollie_Mug,3,5,3,3)
 
-ALIGN 16
+ALIGN 4
 Mirabelle_Mug:
 #incbin "dmp/claw_mug.dmp"
 #incbin "dmp/claw_frames.dmp"
 #incbin "dmp/claw_palette.dmp"
 #incbin "dmp/claw_minimug.dmp"
-setMugEntry(0x11,Mirabelle_Mug,3,6,3,3)
+setMugEntry(0x11,Mirabelle_Mug,3,6,3,4)
 
-ALIGN 16
+ALIGN 4
+MirabelleNoClaw_Mug:
+#incbin "dmp/clawless_mug.dmp"
+#incbin "dmp/clawless_frames.dmp"
+#incbin "dmp/clawless_palette.dmp"
+#incbin "dmp/clawless_minimug.dmp"
+setMugEntry(0x12,MirabelleNoClaw_Mug,3,6,3,4)
+
+ALIGN 4
+GarryHelmet_Mug:
+#incbin "dmp/GarryHelmet_mug.dmp"
+#incbin "dmp/GarryHelmet_frames.dmp"
+#incbin "dmp/GarryHelmet_palette.dmp"
+#incbin "dmp/GarryHelmet_minimug.dmp"
+setMugEntry(0x13,GarryHelmet_Mug,3,5,3,3)
+
+ALIGN 4
 Ratface_Mug:
 #incbin "dmp/RatFaceBandit_mug.dmp"
 #incbin "dmp/RatFaceBandit_frames.dmp"
@@ -137,7 +159,7 @@ Ratface_Mug:
 #incbin "dmp/RatFaceBandit_minimug.dmp"
 setMugEntry(0x56, Ratface_Mug, 2,6,2,4)
 
-ALIGN 16
+ALIGN 4
 MysteryMage_Mug:
 #incbin "dmp/FacelessMageAmBrosiac_mug.dmp"
 #incbin "dmp/FacelessMageAmBrosiac_frames.dmp"

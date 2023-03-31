@@ -20,7 +20,7 @@ SteelCockpit000_1:
 	BYTE	KEYSH   SteelCockpit000_key+0
 // 000   ----------------------------------------
 	BYTE	TEMPO   138*SteelCockpit000_tbs/2
-	BYTE		VOICE   124
+	BYTE		VOICE   122
 	BYTE		VOL     36*SteelCockpit000_mvl/mxv
 	BYTE	W01
 	BYTE		PAN     c_v+0
@@ -1225,7 +1225,7 @@ SteelCockpit000_2:
 	BYTE	KEYSH   SteelCockpit000_key+0
 // 000   ----------------------------------------
 	BYTE		VOICE   100
-	BYTE		VOL     17*SteelCockpit000_mvl/mxv
+	BYTE		VOL     14*SteelCockpit000_mvl/mxv
 	BYTE		PAN     c_v+2
 	BYTE	W01
 	BYTE	W01
@@ -1602,7 +1602,7 @@ SteelCockpit000_2_B2:
 SteelCockpit000_3:
 	BYTE	KEYSH   SteelCockpit000_key+0
 // 000   ----------------------------------------
-	BYTE		VOICE   63
+	BYTE		VOICE   61
 	BYTE		VOL     25*SteelCockpit000_mvl/mxv
 	BYTE	W01
 	BYTE		PAN     c_v+4
@@ -3352,7 +3352,7 @@ SteelCockpit000_5_B2:
 SteelCockpit000_6:
 	BYTE	KEYSH   SteelCockpit000_key+0
 // 000   ----------------------------------------
-	BYTE		VOICE   60
+	BYTE		VOICE   44
 	BYTE		PAN     c_v-19
 	BYTE		VOL     39*SteelCockpit000_mvl/mxv
 	BYTE	W01
@@ -5644,7 +5644,7 @@ SteelCockpit000_6_B2:
 SteelCockpit000_7:
 	BYTE	KEYSH   SteelCockpit000_key+0
 // 000   ----------------------------------------
-	BYTE		VOICE   61
+	BYTE		VOICE   43
 	BYTE		PAN     c_v+18
 	BYTE		VOL     38*SteelCockpit000_mvl/mxv
 	BYTE	W01

@@ -26,7 +26,7 @@ CharacterBasedEvents:
 	END_MAIN
 
 MiscBasedEvents:
-	VeinEffect(7,DragonveinEvent)
+	VeinEffect(1,Ch3VeinEvent)
 	CauseGameOverIfLordDies
 	DefeatAll(EndingScene)
 	DefeatBoss(BossDefeatedEvent)
@@ -118,7 +118,8 @@ ExtraLads:
 	UNIT
 
 Traps1:
-	Vein(22,17,7)
+	//Vein(22,17,7)
+	Vein(14,2,1)
 	ENDTRAP
 	ALIGN 4
 
@@ -186,7 +187,7 @@ BrigandCharge:
 	NoFade
 	ENDA
 	
-DragonveinEvent:
+Ch3VeinEvent:
 	VeinActivation
 	CAMERA [11,8]
 	SOUN 0xAF
@@ -217,7 +218,7 @@ BossDefeatedEvent:
 	//CUSA Libby
 	SVAL s1 0x00040B06
 	CHAI Emmanuel
-	SETVAL 1 0x00400000
+	SVAL s1 0x00400000
 	CHAI Brigand_Enemy
 	LOAD1 0x0 ExtraLads
 	ENUF 2

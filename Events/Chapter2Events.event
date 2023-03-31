@@ -134,7 +134,7 @@ BeginningScene:
 	ENDA
 
 ClawRecriutment:
-	MUSS FlapperGirlID
+	MUSS NearFarID
 	Text(ClawRecruitText)
 	CUSA Mirabelle
 	MURE 5
@@ -142,7 +142,7 @@ ClawRecriutment:
 	ENDA
 	
 KatjaRecruitment:
-	MUSS FlapperGirlID
+	MUSS NearFarID
 	Text(KatjaRecruitText)
 	CUSA Katja
 	MURE 5
@@ -150,7 +150,7 @@ KatjaRecruitment:
 	ENDA
 
 LaurenRecruitment:
-	MUSS FlapperGirlID
+	MUSS NearFarID
 	Text(LaurenRecruitText)
 	CUSA Lauren
 	MURE 5
@@ -158,7 +158,7 @@ LaurenRecruitment:
 	ENDA
 
 MauritchRecruitment:
-	MUSS FlapperGirlID
+	MUSS NearFarID
 	Text(MauritchRecruitText)
 	CUSA Mauritch
 	MURE 5

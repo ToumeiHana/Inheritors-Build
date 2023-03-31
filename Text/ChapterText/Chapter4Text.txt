@@ -1,3 +1,8 @@
 ## Ch4ChargeText
 [MidLeft][LoadFace][0x33][0x1]
 ai change text[A][X]
+
+## Ch4DVText
+The dragon vein will spawn forests[N]
+and thickets on the dark grass.[A][N]
+[Red]The effect will last for 3 turns.[Red][A][X]

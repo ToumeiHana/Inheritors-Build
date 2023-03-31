@@ -14,10 +14,11 @@ PointerList:
 
 TurnBasedEvents:
 
+	OpeningTurnEvent(DVBox)
 	TurnEventPlayer(0,CounterCheck,0,13)
 	TurnEventPlayer(0,Turn3Reinforcements,3)
 	TurnEventPlayer(0,Turn5Reinforcements,5)
-	TurnEventEnemy(0,AveryLeave,7)
+	//TurnEventEnemy(0,AveryLeave,7)
 	TurnEventPlayer(0,PegaSquadsSpawn,7)
 	TurnEventEnemy(9,BridgeEvent,7)
 	TurnEventPlayer(10,BridgeCavsSpawn,8)
@@ -33,7 +34,7 @@ CharacterBasedEvents:
 
 MiscBasedEvents:
 	CauseGameOverIfLordDies
-	VeinEffect(7,VeinEvent)
+	VeinEffect(2,Ch4VeinEvent)
 	AREA 0 AltGameOver [10,0] [13,0]
 	END_MAIN
 
@@ -76,8 +77,8 @@ EnemyUnits:
 
 	UNIT Bazba Paladin 0x0 Level(1,Enemy,False) [25,6] DropItem 0x0 0x0 0x0 [SteelSword, HandAxe, SecretBook] NeverMoveAI
 	UNIT Farum Ballistician Bazba Level(1,Enemy,True) [24,6] 0x0 0x0 0x0 0x0 [Ballista] NeverMoveAI
-	UNIT Engineer EngiClass Bazba Level(3,Enemy,True) [25,3] 0x0 0x0 0x0 0x0  [Hammer] DoNothing
-	UNIT Engineer EngiClass Bazba Level(3,Enemy,True) [25,2] 0x0 0x0 0x0 0x0  [Hammer] DoNothing
+	UNIT Engineer EngiClass Bazba Level(3,Enemy,True) [25,3] 0x0 0x0 0x0 0x0  [Hammer] TrueDoNothing
+	UNIT Engineer EngiClass Bazba Level(3,Enemy,True) [25,2] 0x0 0x0 0x0 0x0  [Hammer] TrueDoNothing
 	UNIT Farum PegasusKnight Bazba Level(5,Enemy,True) [20,15] 0x0 0x0 0x0 0x0 [IronLance] DefaultAI
 	UNIT Farum SwordCavalier Bazba Level(6,Enemy,True) [25,10] 0x0 0x0 0x0 0x0 [Armorslayer] DefaultAI
 	UNIT Farum AxeCavalier Bazba Level(5,Enemy,True) [26,9] 0x0 0x0 0x0 0x0 [HandAxe] DefaultAI
@@ -87,7 +88,8 @@ EnemyUnits:
 	UNIT Farum LanceKnight Bazba Level(5,Enemy,True) [23,9] 0x0 0x0 0x0 0x0 [SteelLance] DelayedChargeAI
 	UNIT Farum BowKnight Bazba Level(5,Enemy,True) [23,10] 0x0 0x0 0x0 0x0 [SteelBow] DelayedChargeAI
 	UNIT Farum LanceKnight Bazba Level(5,Enemy,True) [23,11] 0x0 0x0 0x0 0x0 [SteelLance] DelayedChargeAI
-	UNIT Avery General 0x0 Level(4,Enemy,False) [24,10] 0x0 0x0 0x0 0x0 [SteelBlade] NeverMoveAI
+	//UNIT Avery General 0x0 Level(4,Enemy,False) [24,10] 0x0 0x0 0x0 0x0 [SteelBlade] NeverMoveAI
+	UNIT Farum General 0x0 Level(1,Enemy,True) [24,10] 0x0 0x0 0x0 0x0 [SteelBlade,SteelBow] NeverMoveAI
 	UNIT
 
 EnemyUnits2:
@@ -144,7 +146,7 @@ GreenGroup:
 	UNIT
 
 Traps1:
-	Vein(10,9,7)
+	Vein(10,9,2)
 	MapSpriteTrap(IndicatorTrapID,10,0)
 	MapSpriteTrap(IndicatorTrapID,11,0)
 	MapSpriteTrap(IndicatorTrapID,12,0)
@@ -192,8 +194,19 @@ BeginningScene:
 	GotoPrepScreen
 	ENDA
 
+DVBox:	
+	CAMERA Curtis
+	SET_CURSOR [9,14]
+	CenterTutorialTextBox
+	TUTORIALTEXTBOXSTART
+	TEXTSHOW Ch4DVText
+	TEXTEND
+	REMA
+	NoFade
+	ENDA
+	
 GarryRecruitment:
-	MUSS FlapperGirlID
+	MUSS NearFarID
 	CUSA Garry
 	CUSA Hollie
 	CUSA Pieter
@@ -202,7 +215,7 @@ GarryRecruitment:
 	NoFade
 	ENDA
 	
-VeinEvent:
+Ch4VeinEvent:
 	VeinActivation
 	TILECHANGE 3
 	NoFade

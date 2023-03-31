@@ -20,7 +20,7 @@ SwordsBursting0_1:
 	BYTE	KEYSH   SwordsBursting0_key+0
 // 000   ----------------------------------------
 	BYTE	TEMPO   175*SwordsBursting0_tbs/2
-	BYTE		VOICE   127
+	BYTE		VOICE   122
 	BYTE		VOL     33*SwordsBursting0_mvl/mxv
 	BYTE		PAN     c_v+0
 	BYTE		N05     Cn1   v127
@@ -2385,7 +2385,7 @@ SwordsBursting0_4_B2:
 SwordsBursting0_5:
 	BYTE	KEYSH   SwordsBursting0_key+0
 // 000   ----------------------------------------
-	BYTE		VOICE   0
+	BYTE		VOICE   3
 	BYTE		VOL     48*SwordsBursting0_mvl/mxv
 	BYTE		PAN     c_v-61
 	BYTE	W96

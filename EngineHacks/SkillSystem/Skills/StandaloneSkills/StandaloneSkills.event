@@ -66,7 +66,7 @@ ALIGN 4
 Discipline:
 #incbin "Discipline/Discipline.dmp"
 POIN SkillTester
-WORD DisciplineID
+WORD TriAdeptID //Cobined skills
 WORD DisciplinePlusID
 
 ALIGN 4

@@ -1,0 +1,90 @@
+//songs
+SongTable(VanishingTrooperID,Vanishing_Trooper000,MapMusicGroup)
+#include "event/Vanishing_Trooper000.event"
+
+SongTable(TrombeID,Trombe0,BattleMusicGroup)
+#include "event/Trombe0.event"
+
+SongTable(FirstCampaingID,FirstCampaingCut,BattleMusicGroup)
+#include "event/FirstCampaingCut.event"
+
+SongTable(HeavyArmorCorpsID,HeavyArmorCorps0,MapMusicGroup)
+#include "event/HeavyArmorCorps0.event"
+
+SongTable(QuestBattleID,questbattle,MapMusicGroup)
+#include "event/TokyoMirageSessionFEQuestBattleSme.event"
+
+SongTable(DefendGlobeID,song2E,MapMusicGroup)
+#include "event/DefendGlobePsyche.event"
+
+SongTable(DepartureID,Departure,MapMusicGroup)
+#include "event/DepartureRSFlame.event"
+
+SongTable(KnightsOathID,song28,MapMusicGroup)
+#include "event/FE7AKnight_sOathRandomWizard.event"
+
+SongTable(MushroomGorgeID,Gorge,MapMusicGroup)
+#include "event/MarioKartWiiMushroomGorgeSme.event"
+
+SongTable(MiitopiaBattleID,EventBattle,MapMusicGroup)
+#include "event/MiitopiaEventBattleSme.event"
+
+SongTable(JhenMohranID,songMohran,MapMusicGroup)
+#include "event/MonsterHunter3JhenMohranMycahel.event"
+
+SongTable(FlapperGirlID,FlapperGirl,MapMusicGroup)
+#include "event/FlapperGirl.event"
+
+SongTable(LandOfConflictID,LandOfConflict,MapMusicGroup)
+#include "event/LandOfConflict.event"
+
+SongTable(SteelCockpitID,SteelCockpit000,MapMusicGroup)
+#include "event/SteelCockpit000.event"
+
+SongTable(ObstacleInOurPathID,XBObstacle,BattleMusicGroup)
+#include "event/AnObstacleInOurPathMonopolyRubixMiffe.event"
+
+SongTable(DarkColossusID,DarkColossus,MapMusicGroup)
+#include "event/DarkColossusDestroysAllMycahel.event"
+
+SongTable(CapAmericaID,CapAm,BattleMusicGroup)
+#include "event/CaptainAmericaThemeMeatOfJustice.event"
+
+SongTable(EndlessFightingID,EndlessFighting0,BattleMusicGroup)
+#include "event/EndlessFighting0.event"
+
+//SongTable(SwordsBurstingID,SwordsBursting0,MapMusicGroup)
+//#include "event/SwordsBursting0.event"
+
+SongTable(BW1NCastleID,NCastle1,MapMusicGroup)
+#include "event/BWNCastleThegis.event"
+
+SongTable(BW2NCastleID,NCastle2,MapMusicGroup)
+#include "event/BW2NCastle.event"
+
+SongTable(WarCloudsID,WarClouds00,MapMusicGroup)
+#include "event/WarClouds00.event"
+
+SongTable(CruelAngelStaffID,CruelAngelsThesisCut,BattleMusicGroup)
+#include "event/CruelAngelsThesisCut.event"
+
+SongTable(OffToWarID,OffToWar,MapMusicGroup)
+#include "event/OffToWarRSFlame.event"
+
+SongTable(TroubleID,Trouble,MapMusicGroup)
+#include "event/TroubleAzula.event"
+
+SongTable(OffToWarRemixID,fe3offtowarremix,BattleMusicGroup)
+#include "event/fe3offtowarremix.event"
+
+SongTable(WindOfLaGiasID,WindOfLaGias,MapMusicGroup)
+#include "event/WindOfLaGias.event"
+
+SongTable(NearFarID,NearFarFrontier00,MapMusicGroup)
+#include "event/NearFarFrontier00.event"
+
+SongTable(LakesNMarshesID,SEQ_021_00000,MapMusicGroup)
+#include "event/SEQ_021_00000.event"
+
+SongTable(RuinsNightID,BGM_REMAIN_NIGHT00,MapMusicGroup)
+#include "event/BGM_REMAIN_NIGHT00.event"

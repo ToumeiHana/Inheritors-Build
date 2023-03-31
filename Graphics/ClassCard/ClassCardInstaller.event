@@ -12,6 +12,7 @@
 #define LancePegCC 0x86
 #define MercFCC 0xB5
 #define HeroFCC 0xB6
+#define MyrmFCC 0xB7
 
 
 ALIGN 4
@@ -109,3 +110,11 @@ ALIGN 4
 HeroFCCPal:
 #incbin "dmp/HeroFflasuban.png_pal.dmp"
 setCardEntry(HeroFCC,HeroFCCData,HeroFCCPal)
+
+ALIGN 4
+MyrmFCCData:
+#incbin "dmp/MyrmidonFL95.dmp"
+ALIGN 4
+MyrmFCCPal:
+#incbin "dmp/MyrmidonFL95.png_pal.dmp"
+setCardEntry(MyrmFCC,MyrmFCCData,MyrmFCCPal)

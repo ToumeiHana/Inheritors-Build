@@ -73,14 +73,14 @@ adding yourself!
 - Epicer: Knights
 - Rasdel: Outlaw
 - Flasuban: Pegasus Knights, FHero
-- L95: FMercenary
+- L95: FMercenary, FMyrm
 
 # Item Icons
 - Erekshigal: Skygazer
 - LordGlenn: Mine Staff
 - Zane: Elstone
 
-# Patches
+# External hacks
 
 - Scraiza: NarrowFont 
 - Huichelaar: Minimug Palette Fix
@@ -105,7 +105,7 @@ adding yourself!
 - MeatOfJustice: Marvel vs Capcom Clash of the Superheroes - Captain America's Theme
 - MonopolyRubix: Xenoblade - An Obstacle In Our Path
 - Miffe: Xenoblade - An Obstacle In Our Path
-- Alusq: Off to War Remix
+- Alusq: Custom instrument samples, advanced music suite, FE3 - Off to War Remix
 - Azula: FE11 - Trouble!
 
 # Other

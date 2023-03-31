@@ -25,9 +25,6 @@ PointerList:
 TurnBasedEvents:
 
 	TurnEventPlayer(0, ReinforcementGroupSpawn, 3)
-	#ifdef __DEBUG__
-	TurnEventPlayer(0, DebugEvent, 1)
-	#endif
 	END_MAIN
 
 ALIGN 32
@@ -202,14 +199,14 @@ ReinforcementGroupSpawn:
 	ENDA
 	
 Ch1JanessaDianeTalk:
-	MUSS FlapperGirlID
+	MUSS NearFarID
 	Text(Ch1JanessaDianeTalkText)
 	MURE 5
 	NoFade
 	ENDA
 	
 Ch1JanessaMarcoTalk:
-	MUSS FlapperGirlID
+	MUSS NearFarID
 	Text(Ch1JanessaMarcoTalkText)
 	MURE 5
 	NoFade
@@ -253,16 +250,3 @@ EndingScene:
 	//NoFade
 	ENDA
 	
-#ifdef __DEBUG__
-DebugGroup:
-	UNIT Pieter Soldier Curtis Level(1,Ally,False) [10,23] 0x00 0x00 0x00 0x01 [IronLance] NoAI  
-	UNIT
-
-DebugEvent:
-
-LOAD1 0x1 DebugGroup
-ENUN
-NoFade
-ENDA
-	
-#endif
