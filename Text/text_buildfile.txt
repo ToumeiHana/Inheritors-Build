@@ -127,3 +127,5 @@ a skill when used.[X]
 #include "chaptertextinstaller.txt"
 
 #include "item_namedesc.txt"
+
+#include "shoptext.txt"

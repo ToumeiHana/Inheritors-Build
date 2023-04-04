@@ -50,3 +50,40 @@
 #include "FMercTBA/Sword Installer.event"
 #include "FMercTBA/Unarmed Installer.event"
 }
+
+{
+#include "eCutFZerker/Axe Installer.event"
+#include "eCutFZerker/Handaxe Installer.event"
+#include "eCutFZerker/Unarmed Installer.event"
+}
+
+{
+#include "EldritchFMonk/Magic Installer.event"
+}
+
+{
+#include "SALVAGEDFPally/Sword Installer.event"
+#include "SALVAGEDFPally/Lance Installer.event"
+#include "SALVAGEDFPally/Axe Installer.event"
+#include "SALVAGEDFPally/Handaxe Installer.event"
+}
+
+{
+#include "SALVAGEDPally/Sword Installer.event"
+#include "SALVAGEDPally/Lance Installer.event"
+#include "SALVAGEDPally/Axe Installer.event"
+#include "SALVAGEDPally/Handaxe Installer.event"
+}
+
+{
+#include "TempFWarrior/Axe Installer.event"
+#include "TempFWarrior/Handaxe Installer.event"
+#include "TempFWarrior/Bow Installer.event"
+#include "TempFWarrior/Unarmed Installer.event"
+}
+
+{
+#include "TwintailsCavSALVAGED/Axe Installer.event"
+#include "TwintailsCavSALVAGED/Handaxe Installer.event"
+#include "TwintailsCavSALVAGED/Unarmed Installer.event"
+}

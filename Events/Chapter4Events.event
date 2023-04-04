@@ -17,6 +17,7 @@ TurnBasedEvents:
 	OpeningTurnEvent(DVBox)
 	TurnEventPlayer(0,CounterCheck,0,13)
 	TurnEventPlayer(0,Turn3Reinforcements,3)
+	TurnEventEnemy(0,BridgeTalk,3)
 	TurnEventPlayer(0,Turn5Reinforcements,5)
 	//TurnEventEnemy(0,AveryLeave,7)
 	TurnEventPlayer(0,PegaSquadsSpawn,7)
@@ -39,7 +40,7 @@ MiscBasedEvents:
 	END_MAIN
 
 LocationBasedEvents:
-	Armory(Ch4Armory,4,9)
+	Armory(Ch4Armory,4,10)
 	Vendor(Ch4Shop,20,1)
 	END_MAIN
 
@@ -80,7 +81,7 @@ EnemyUnits:
 	UNIT Engineer EngiClass Bazba Level(3,Enemy,True) [25,3] 0x0 0x0 0x0 0x0  [Hammer] TrueDoNothing
 	UNIT Engineer EngiClass Bazba Level(3,Enemy,True) [25,2] 0x0 0x0 0x0 0x0  [Hammer] TrueDoNothing
 	UNIT Farum PegasusKnight Bazba Level(5,Enemy,True) [20,15] 0x0 0x0 0x0 0x0 [IronLance] DefaultAI
-	UNIT Farum SwordCavalier Bazba Level(6,Enemy,True) [25,10] 0x0 0x0 0x0 0x0 [Armorslayer] DefaultAI
+	UNIT Farum SwordCavalier Bazba Level(6,Enemy,True) [25,10] 0x0 0x0 0x0 0x0 [SteelSword] DefaultAI
 	UNIT Farum AxeCavalier Bazba Level(5,Enemy,True) [26,9] 0x0 0x0 0x0 0x0 [HandAxe] DefaultAI
 	UNIT Farum LanceCavalier Bazba Level(5,Enemy,True) [26,11] 0x0 0x0 0x0 0x0 [Javelin] DefaultAI	
 	UNIT Farum AxeKnight Bazba Level(6,Enemy,True) [24,9] 0x0 0x0 0x0 0x0 [SteelAxe,HandAxe] NeverMoveAI
@@ -106,7 +107,7 @@ EnemyUnits2:
 	UNIT
 	
 Turn3Cavs:
-	UNIT Farum AxeCavalier Bazba Level(5,Enemy,True) [26,9] 0x0 0x0 0x0 0x0 [IronAxe, HandAxe] DefaultAI
+	UNIT Farum AxeCavalier Bazba Level(5,Enemy,True) [26,9] 0x0 0x0 0x0 0x0 [Hammer IronAxe] DefaultAI
 	UNIT Farum PegasusKnight Bazba Level(5,Enemy,True) [26,10] 0x0 0x0 0x0 0x0 [IronLance] DefaultAI
 	UNIT Farum LanceCavalier Bazba Level(5,Enemy,True) [26,11] 0x0 0x0 0x0 0x0 [SteelLance] DefaultAI
 	UNIT
@@ -218,9 +219,23 @@ GarryRecruitment:
 Ch4VeinEvent:
 	VeinActivation
 	TILECHANGE 3
+	ENUT 7
 	NoFade
 	ENDA
 
+BridgeTalk:
+
+	CAMERA Bazba
+	CURSOR_FLASHING Bazba
+	STAL 50
+	REMOVE_CURSORS
+	CURSOR_FLASHING Engineer
+	STAL 50
+	REMOVE_CURSORS
+	Text(Ch4BridgeText)
+	NoFade
+	ENDA
+	
 Turn3Reinforcements:
 	
 	EVBIT_T 9
@@ -285,7 +300,9 @@ PegaSquadsSpawn:
 	
 CounterCheck:
 	CHECK_EVENTID 7
-	BNE 1 s0 sC	
+	BEQ 1 s0 sC	
+	
+	COUNTER_INC 0
 	
 	COUNTER_CHECK 0
 	SVAL 1 3
@@ -293,8 +310,7 @@ CounterCheck:
 	
 	TILEREVERT 3
 	
-	LABEL 1
-	COUNTER_INC 0
+	LABEL 1	
 	NoFade
 	ENDA	
 	

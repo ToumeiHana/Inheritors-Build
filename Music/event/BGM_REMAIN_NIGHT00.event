@@ -696,7 +696,7 @@ BGM_REMAIN_NIGHT00_4_B1:
 	BYTE	W16
 	BYTE		N24   
 	BYTE	W07
-	BYTE		MOD     4
+	BYTE		MOD     3
 	BYTE	W02
 // 021   ----------------------------------------
 	BYTE		        80

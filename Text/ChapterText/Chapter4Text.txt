@@ -6,3 +6,11 @@ ai change text[A][X]
 The dragon vein will spawn forests[N]
 and thickets on the dark grass.[A][N]
 [Red]The effect will last for 3 turns.[Red][A][X]
+
+## Ch4BridgeText
+[MidLeft][LoadSoldierBlue]
+[MidRight][LoadFace][0x33][0x1]
+How much longer until the bridge[N]
+is ready to be deployed?[A][N]
+[MidLeft]
+Uh... about [Red]4 more turns,[Red] sire![A][X]

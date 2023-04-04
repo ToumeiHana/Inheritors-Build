@@ -38,13 +38,23 @@ adding yourself!
 
 # Animations
 
-- Flasuban: Improved FalcoKnight, FHero, PegasusKnight
-- SALVAGED: Cavaliers
+- Flasuban: Improved FalcoKnight, FHero, PegasusKnight. FPaladin
+- SALVAGED: Cavaliers, Paladins
 - TheBlindArcher: Knight Extra Weapons
 - Vilkalizer: Knight Lance
 - Nuramon: FHero, Hero
 - BlackMage: FFighter
 - Norikins: Elstone
+- eCut: FBerzerker
+- Natsumi: FBerzerker
+- Skitty: FBerzerker
+- Eldritch Abomination: FMonk
+- Leo_link: Paladins
+- The_Big_Dededester: Paladins
+- Pikmin1211: MPaladin, FCav
+- Temp: FWarrior
+- helmfried: FWarrior
+- Maiser6; FCav
 
 # Tilesets
 
@@ -80,7 +90,7 @@ adding yourself!
 - LordGlenn: Mine Staff
 - Zane: Elstone
 
-# External hacks
+# External & Inline hacks
 
 - Scraiza: NarrowFont 
 - Huichelaar: Minimug Palette Fix

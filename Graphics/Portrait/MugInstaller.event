@@ -166,3 +166,11 @@ MysteryMage_Mug:
 #incbin "dmp/FacelessMageAmBrosiac_palette.dmp"
 #incbin "dmp/FacelessMageAmBrosiac_minimug.dmp"
 setMugEntry(0x57, MysteryMage_Mug, 2,5,3,3)
+
+ALIGN 4
+Abigail_Mug:
+#incbin "dmp/Abigail_mug.dmp"
+#incbin "dmp/Abigail_frames.dmp"
+#incbin "dmp/Abigail_palette.dmp"
+#incbin "dmp/Abigail_minimug.dmp"
+setMugEntry(0x65, Abigail_Mug, 5,3,2,0)

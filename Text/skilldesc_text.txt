@@ -358,8 +358,8 @@ Bow Range +1: Maximum range[N]
 of equipped bows is increased.[X]
 
 ## SD_StaffSavant
-Staff Savant: Maximum range[N]
-of staves is increased by 1.[X]
+Blind Faith: Grants +1 to maximum[N]
+staff range but -20 to avoid.[X]
 
 ## SD_LiveToServe
 Live to Serve: When healing[N]

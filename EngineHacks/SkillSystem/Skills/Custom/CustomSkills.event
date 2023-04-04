@@ -49,3 +49,10 @@ GuardianPromise:
 POIN SkillTester
 POIN GetUnitsInRange
 WORD GuardianPromiseID
+
+ALIGN 4
+BlindFaithCombat:
+#incbin "BlindFaithCombat.dmp"
+POIN SkillTester
+WORD StaffSavantID
+

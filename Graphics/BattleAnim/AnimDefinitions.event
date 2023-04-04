@@ -58,6 +58,18 @@
 #define FFighterHandaxe 0x34
 #define FFighterUnarmed 0x35
 
+#define FPallySword 0x3A
+#define FPallyLance 0x3B
+#define FPallyAxe 0x3c
+#define FPallyHandaxe 0x3d
+#define FPallyUnarmed 0x3e
+
+#define PallySword 0x3f
+#define PallyLance 0x42
+#define PallyAxe 0x43
+#define PallyHandaxe 0x4E
+#define PallyUnarmed 0x4F
+
 #define PegaLance 0x66
 #define PegaAxe 0x65
 #define PegaHandaxe 0x64
@@ -65,6 +77,21 @@
 
 #define FMercSword 0x40
 #define FMercUnarmed 0x41
+
+#define FZerkerAxe 0xCA
+#define FZerkerHandaxe 0xCB
+#define FZerkerUnarmed 0xCC
+
+#define FMonkMagic 0xCD
+
+#define FWarriorAxe 0xce
+#define FWarriorHandaxe 0xcf
+#define FWarriorBow 0xD0
+#define FWarriorUnarmed 0xd1
+
+#define FCavAxe 0xd2
+#define FCavHandaxe 0xd3
+#define FCavUnarmed 0xd4
 
 //////////
  
@@ -127,4 +154,49 @@ ALIGN 4
 FMercAnims:
 SwordAnim(FMercSword)
 UnarmedAnim(FMercUnarmed)
+WORD 0x0
+
+ALIGN 4
+FZerkerAnims:
+AxeAnim(FZerkerAxe)
+HandAxeAnim(FZerkerHandaxe)
+UnarmedAnim(FZerkerUnarmed)
+WORD 0x0
+
+ALIGN 4
+FMonkAnims:
+LightAnim(FMonkMagic)
+WORD 0x0
+
+ALIGN 4
+FPallyAnims:
+SwordAnim(FPallySword)
+SpearAnim(FPallyLance)
+AxeAnim(FPallyAxe)
+HandAxeAnim(FPallyHandaxe)
+UnarmedAnim(FPallyUnarmed)
+WORD 0x0
+
+ALIGN 4
+PallyAnims:
+SwordAnim(PallySword)
+SpearAnim(PallyLance)
+AxeAnim(PallyAxe)
+HandAxeAnim(PallyHandaxe)
+UnarmedAnim(PallyUnarmed)
+WORD 0x0
+
+ALIGN 4
+FWarriorAnims:
+AxeAnim(FWarriorAxe)
+HandAxeAnim(FWarriorHandaxe)
+BowAnim(FWarriorBow)
+UnarmedAnim(FWarriorUnarmed)
+WORD 0x0
+
+ALIGN 4
+FCavAnims:
+AxeAnim(FCavAxe)
+HandAxeAnim(FCavHandaxe)
+UnarmedAnim(FCavUnarmed)
 WORD 0x0

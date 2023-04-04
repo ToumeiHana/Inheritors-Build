@@ -1,0 +1,18 @@
+
+# 0x0898
+Come back soon![A][X]
+
+# 0x089A
+Welcome to the armory.[A][0x02][NL]
+We deal in all sorts of goods.[.][NL]
+[Buy/Sell][X]
+
+# 0x08AF
+I'll take good care of it![.][NL]
+Selling anything else?[X]
+
+# 0x08B8
+Come back again![A][X]
+
+# 0x08BB
+I... I can't buy that![.][A][X]

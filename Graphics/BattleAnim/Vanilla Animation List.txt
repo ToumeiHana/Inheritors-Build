@@ -57,28 +57,28 @@
 0x37 Socialknight (F)			//Replaced
 0x38 Socialknight (F)			//Replaced
 0x39 Socialknight (F) Disarmed		//Replaced
-0x3A Paladin w/ Sword
-0x3B Paladin w/ Spear
-0x3C Paladin Disarmed
-0x3D Paladin (F) w/ Sword
-0x3E Paladin (F) w/ Spear
-0x3F Paladin (F) Disarmed
+0x3A Paladin w/ Sword			//Replaced
+0x3B Paladin w/ Spear			//Replaced
+0x3C Paladin Disarmed			//Replaced
+0x3D Paladin (F) w/ Sword		//Replaced
+0x3E Paladin (F) w/ Spear		//Replaced
+0x3F Paladin (F) Disarmed		//R
 0x40 Armour Knight			//Replaced
 0x41 Armour Knight Disarmed		//Replaced
-0x42 Armour Knight (F)
-0x43 Armour Knight (F) Disarmed
+0x42 Armour Knight (F)			//R
+0x43 Armour Knight (F) Disarmed		//R
 0x44 General w/ Sword
 0x45 General w/ Spear
 0x46 General w/ Axe
 0x47 General w/ Hand Axe
 0x48 General Disarmed
-0x49 General (F) w/ Sword
+0x49 General (F) w/ Sword		
 0x4A General (F) w/ Spear
 0x4B General (F) w/ Axe
 0x4C General (F) w/ Hand Axe
 0x4D General (F) Disarmed
-0x4E Great Knight w/ Sword
-0x4F Great Knight w/ Spear
+0x4E Great Knight w/ Sword		//R
+0x4F Great Knight w/ Spear		//R
 0x50 Great Knight w/ Axe
 0x51 Great Knight w/ Hand AXe
 0x52 Great Knight Disarmed
@@ -201,17 +201,17 @@
 0xC7 Myrra Disarmed
 0xC8 Sister Disarmed
 0xC9 Mamkute
-0xCA 
-0xCB 
-0xCC 
-0xCD 
-0xCE 
+0xCA Fzerker axe
+0xCB Fzerker handaxe
+0xCC Fzerker unarmed
+0xCD FMonk
+0xCE Fwarrior start
 0xCF 
 0xD0 
-0xD1 
-0xD2 
+0xD1 FWarrior end
+0xD2 FCav S
 0xD3 
-0xD4 
+0xD4 FCav E
 0xD5 
 0xD6 
 0xD7 
