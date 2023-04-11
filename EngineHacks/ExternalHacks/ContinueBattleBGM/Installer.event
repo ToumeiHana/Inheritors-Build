@@ -1,0 +1,9 @@
+
+PUSH
+ORG 0x71A68	//{U}
+jumpToHack(ContinueBattleBGM);
+POP
+
+ALIGN 4
+ContinueBattleBGM:
+#incbin "ContinueBattleBGM.dmp"

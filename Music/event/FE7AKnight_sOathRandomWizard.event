@@ -1285,7 +1285,7 @@ song28_009:
 // 000   ----------------------------------------
  BYTE   KEYSH   song28_key+0
 Label_8_0155A7E6:
- BYTE   VOICE   122
+ BYTE   VOICE   123
  BYTE   VOL   35*song28_mvl/mxv
  BYTE   N12  Bn0  v127
  BYTE   N12  Dn1

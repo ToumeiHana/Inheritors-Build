@@ -61,6 +61,10 @@ POP
 
 
   //#include "ExternalHacks/Equip/Installer.event"
+
+  #include "ExternalHacks/ChangeChapterSong/Installer.event"
+  
+  #include "ExternalHacks/ContinueBattleBGM/Installer.event"
   
   #include "ModularMinimugBox/Installers/MMBInstallerDefault.event"
 

@@ -43,6 +43,7 @@ LocationBasedEvents:
 
 	Village(9,TopVillage,9,3)
 	Village(10,BottomVillage,10,9)
+	Village(12,TopVillage2,7,3)
 	House(11,HouseEvent,4,16)
 	END_MAIN
 
@@ -133,7 +134,7 @@ BeginningScene:
 	TEXTCONT
 	TEXTEND
 	TEXTCLOSE
-	GiveMoney(4000)
+	//GiveMoney(4000)
 	EndConvo
 	
 	
@@ -224,8 +225,20 @@ TopVillage:
 	VillageEventItem(Ch1TopVillageA,0x00,Elixir)
 	ENDA
 	
+TopVillage2:
+	VillageEventMoney(Ch1MoneyVillageText,0x00,2000)
+	ENDA
+	
 BottomVillage:
-	VillageEventItem(Ch1BottomVillageText,0x00,Javelin)
+	//VillageEventItem(Ch1BottomVillageText,0x00,Javelin)
+	MUSI
+	SetBackground(0x0)
+	Text(Ch1BottomVillageText)
+	EndConvo
+	GiveMoney(2000)
+	SMOV 0x3 Javelin
+	GIVEITEMTO 0xFFFF
+	MUNO
 	ENDA
 	
 HouseEvent:

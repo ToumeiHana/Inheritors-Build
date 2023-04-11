@@ -14,7 +14,7 @@ SongTable(HeavyArmorCorpsID,HeavyArmorCorps0,MapMusicGroup)
 SongTable(QuestBattleID,questbattle,MapMusicGroup)
 #include "event/TokyoMirageSessionFEQuestBattleSme.event"
 
-SongTable(DefendGlobeID,song2E,MapMusicGroup)
+SongTable(DefendGlobeID,song2E,BattleMusicGroup)
 #include "event/DefendGlobePsyche.event"
 
 SongTable(DepartureID,Departure,MapMusicGroup)
@@ -88,3 +88,5 @@ SongTable(LakesNMarshesID,SEQ_021_00000,MapMusicGroup)
 
 SongTable(RuinsNightID,BGM_REMAIN_NIGHT00,MapMusicGroup)
 #include "event/BGM_REMAIN_NIGHT00.event"
+
+SongTable(EndlessFightingMapID,EndlessFighting0,MapMusicGroup)

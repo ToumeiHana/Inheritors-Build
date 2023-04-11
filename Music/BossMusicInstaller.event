@@ -12,7 +12,7 @@ POP
 ALIGN 4
 MESSAGE Boss Music Table begins at CURRENTOFFSET
 BossMusicTable:
-SetBossMusic(ONeill)
+SetCustomBossMusic(ONeill,EndlessFightingMapID)
 SetBossMusic(Breguet)
 SetBossMusic(Bone)
 SetCustomBossMusic(Bazba,OffToWarRemixID)

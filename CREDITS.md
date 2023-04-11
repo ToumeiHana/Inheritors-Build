@@ -102,12 +102,13 @@ adding yourself!
 - Aera: Thracia trading
 - Zane: MMB
 - Teraspark: IER, fancy staves
+- 7743: Flag-based map bgm change, continue map bgm to battle
 
 # Music
 
 - Lemon Tart: Super Robot Wars - Trombe!
 - Thegis: Etrian Odyssey 3 - The First Campaing, Pokemon BW - N's Castle
-- Sme: TMS#FE - Quest Battle, MK Wii - Mushroom Gorge, Metal Gear Revengeance - It Has To Be This Way
+- Sme: TMS#FE - Quest Battle, MK Wii - Mushroom Gorge
 - Psyche: PMD EoS - Defend Globe
 - RSFlame: Berwick Saga - Departure, FE12 - Off to War
 - RandomWizard: FE7 - A Knight's Oath

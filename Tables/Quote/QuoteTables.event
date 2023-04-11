@@ -1,0 +1,20 @@
+//#include "EAstdlib.event"
+
+
+PUSH
+/*ORG $8472C
+POIN DeathQuoteTable
+*/
+ORG $846AC
+POIN BattleQuoteTable
+POP
+
+#define BattleQuoteGeneric(Character1,Chapter,TextPointer,EventPointer,ID) "SHORT Character1; SHORT 0x0; SHORT Chapter; SHORT ID; SHORT TextPointer; ALIGN 4; POIN EventPointer; SHORT 0x0; SHORT Character1; SHORT Chapter; SHORT ID; SHORT TextPointer; ALIGN 4; POIN EventPointer;"
+#define BattleQuoteSpecific(Character1, Character2,Chapter,TextPointer,EventPointer,ID) "SHORT Character1; SHORT Character2; SHORT Chapter; SHORT ID; SHORT TextPointer; ALIGN 4; POIN EventPointer; SHORT Character2; SHORT Character1; SHORT Chapter; SHORT ID; SHORT TextPointer; ALIGN 4; POIN EventPointer;"
+
+#include "BattleQuoteEvents.event"
+
+ALIGN 4
+BattleQuoteTable:
+BattleQuoteGeneric(ONeill,0,0,Ch1BossEvent,1)
+BYTE 0xFF 0xFF 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 // Terminator

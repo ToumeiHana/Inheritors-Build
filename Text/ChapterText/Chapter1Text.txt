@@ -139,6 +139,11 @@ This looks useful.[A][X]
 You're with the militia?[N]
 Good! Take this![A][X]
 
+## Ch1MoneyVillageText
+[MidLeft][LoadFace][CurrentPortrait]
+[MidRight][LoadVillagerWoman]
+a[A][X]
+
 ## Ch1HouseText
 [MidLeft][LoadFace][CurrentPortrait]
 [MidRight][LoadFace][0x5E][0x01]

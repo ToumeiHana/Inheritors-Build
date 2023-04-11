@@ -77,6 +77,7 @@
 #define Deathgoyle_boss 0x5E
 #define Bandit 0x66
 #define ONeill 0x68
+#define Oneill ONeill
 #define Glen 0x69
 #define Zonta 0x6A
 #define Vigarde 0x6B

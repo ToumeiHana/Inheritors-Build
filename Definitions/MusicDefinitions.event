@@ -38,3 +38,4 @@
 #define RoarSFX 0xE6
 #define ThunderSFX 0xF5
 #define Thunder2SFX 0x11A
+#define EndlessFightingMapID 0x26d
