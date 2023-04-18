@@ -152,6 +152,14 @@ GarryHelmet_Mug:
 setMugEntry(0x13,GarryHelmet_Mug,3,5,3,3)
 
 ALIGN 4
+Pieter_Mug:
+#incbin "dmp/Pieter_mug.dmp"
+#incbin "dmp/Pieter_frames.dmp"
+#incbin "dmp/Pieter_palette.dmp"
+#incbin "dmp/Pieter_minimug.dmp"
+setMugEntry(0x14,Pieter_Mug,2,5,2,3)
+
+ALIGN 4
 Ratface_Mug:
 #incbin "dmp/RatFaceBandit_mug.dmp"
 #incbin "dmp/RatFaceBandit_frames.dmp"

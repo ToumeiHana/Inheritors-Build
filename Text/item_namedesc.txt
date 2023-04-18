@@ -7,6 +7,9 @@ Dragon Claw[X]
 ## ElstoneName
 Elstone[X]
 
+## ElstoneDesc
+Can summon boulders.[X]
+
 ## SkygazerName
 Skygazer[X]
 

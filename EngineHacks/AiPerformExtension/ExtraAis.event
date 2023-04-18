@@ -1,13 +1,6 @@
 #include "AiScrDefinitions.event"
-#define SeizeAIID 0xC
-
-/*ALIGN 4
-seizerAI:{
-AiMoveTowardsTerrain(0x27)
-InjectAi2(SeizeAIID,seizerAI)
-}*/
-//#define AttackingSeizerAI [0x00, SeizeAIID, 0x04]
-//#define SeizerAI [0x06, SeizeAIID, 0x04]
+#define LIBBY_AI2 0xA
+#define EMMANUEL_AI2 0x0D
 
 #define AttackingSeizerAI [0x00, 0x0C, 0x04]
 #define SeizerAI [0x06, 0x0C, 0x04]
@@ -15,3 +8,13 @@ InjectAi2(SeizeAIID,seizerAI)
 #define HalfRangeAI [0x0C,0x03,0x03]
 #define DelayedChargeAI [0x00, 0x12, 0x04]
 #define TrueDoNothing [0x06, 0x03, 0x04, 0x20]
+
+setAI2(EMMANUEL_AI2, EmmanuelAi) // Use whatever macro you use to inject AIs
+
+ALIGN 4
+EmmanuelAi:
+  {
+  AiMoveTowardsCharacter(Libby)
+  AiRestart
+  }
+ALIGN 4

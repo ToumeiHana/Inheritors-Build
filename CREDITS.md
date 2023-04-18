@@ -68,6 +68,7 @@ adding yourself!
 - Alusq: FFighter. Soldier
 - Rexacuse: Soldier
 - Peerles: Soldier
+- Teraspark: FMonk
 
 # Mugs
 
@@ -98,7 +99,7 @@ adding yourself!
 - Alusq: NIMAP 2
 - Tequila: New CHAI
 - SKILLSYS QoL+Other credits here
-- Pikmin1211: Green summons
+- HyperGammaSpaces: Summon rework
 - Aera: Thracia trading
 - Zane: MMB
 - Teraspark: IER, fancy staves

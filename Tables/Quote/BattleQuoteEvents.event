@@ -1,5 +1,17 @@
 ALIGN 4
 Ch1BossEvent:
 ENUT 0x4
+MUSC EndlessFightingMapID
+ENDA
 
+ALIGN 4
+Ch2BossEvent:
+ENUT 0x4
+MUSC EndlessFightingMapID
+ENDA
+
+ALIGN 4
+Ch3BossEvent:
+ENUT 0x4
+MUSC EndlessFightingMapID
 ENDA

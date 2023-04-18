@@ -135,8 +135,8 @@ Axebreaker: +25 Hit/Avo when[N]
 enemy has an axe equipped.[X]
 
 ## SD_Bowbreaker
-Bowbreaker: +25 Hit/Avo when[N]
-enemy has a bow equipped.[X]
+Arrowsbane: +25 Hit/Avo & negates[N]
+WTA when enemy has a bow equipped.[X]
 
 ## SD_Tomebreaker
 Tomebreaker: +25 Hit/Avo when[N]

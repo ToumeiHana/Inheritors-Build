@@ -8,8 +8,8 @@ SongTable(TrombeID,Trombe0,BattleMusicGroup)
 SongTable(FirstCampaingID,FirstCampaingCut,BattleMusicGroup)
 #include "event/FirstCampaingCut.event"
 
-SongTable(HeavyArmorCorpsID,HeavyArmorCorps0,MapMusicGroup)
-#include "event/HeavyArmorCorps0.event"
+//SongTable(HeavyArmorCorpsID,HeavyArmorCorps0,MapMusicGroup)
+//#include "event/HeavyArmorCorps0.event"
 
 SongTable(QuestBattleID,questbattle,MapMusicGroup)
 #include "event/TokyoMirageSessionFEQuestBattleSme.event"
@@ -23,8 +23,8 @@ SongTable(DepartureID,Departure,MapMusicGroup)
 SongTable(KnightsOathID,song28,MapMusicGroup)
 #include "event/FE7AKnight_sOathRandomWizard.event"
 
-SongTable(MushroomGorgeID,Gorge,MapMusicGroup)
-#include "event/MarioKartWiiMushroomGorgeSme.event"
+//SongTable(MushroomGorgeID,Gorge,MapMusicGroup)
+//#include "event/MarioKartWiiMushroomGorgeSme.event"
 
 SongTable(MiitopiaBattleID,EventBattle,MapMusicGroup)
 #include "event/MiitopiaEventBattleSme.event"
@@ -90,3 +90,9 @@ SongTable(RuinsNightID,BGM_REMAIN_NIGHT00,MapMusicGroup)
 #include "event/BGM_REMAIN_NIGHT00.event"
 
 SongTable(EndlessFightingMapID,EndlessFighting0,MapMusicGroup)
+
+SongTable(WaterStarID,ToTheStarOfWaterWithLove0,MapMusicGroup)
+#include "event/ToTheStarOfWaterWithLove0.event"
+
+SongTable(GumshoeID,Gumshoe,MapMusicGroup)
+#include "event/Gumshoe.event"

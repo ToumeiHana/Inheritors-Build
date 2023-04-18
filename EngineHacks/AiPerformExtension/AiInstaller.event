@@ -1,4 +1,5 @@
 #include "AiScrDefinitions.event"
 #include "AiPerformExt.event"
 #include "TalkAi/TalkAi.event"
+#include "AI2TableExpand.event"
 #include "ExtraAis.event"

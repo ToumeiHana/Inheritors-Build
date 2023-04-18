@@ -1,13 +1,13 @@
 INLINE MagCharTable,Base Magic,Magic Growth
 None,0,0
-Eirika,3,35
+Eirika,3,34
 Janessa,2,10
 Alysa,2,20
 Jacob,2,25
 Lucian,0,10
 Marco,0,5
 Diane,3,35
-Lauren,4,40
+Lauren,4,45
 Mauritch,2,20
 Katja,0,15
 Innes,1,10
@@ -16,8 +16,8 @@ Nella,1,15
 Emmanuel,5,45
 Ephraim,0,15
 Forde,1,10
-Kyle,0,10
-Amelia,2,25
+Kyle,0,5
+Amelia,2,20
 Artur,5,50
 Gerik,0,10
 Tethys,0,5

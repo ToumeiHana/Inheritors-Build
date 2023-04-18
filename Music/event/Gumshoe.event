@@ -1,0 +1,2437 @@
+//Event file generated from Sappy .s format.
+	#include "MPlayDef.event"
+
+	#define	Gumshoe_grp  voicegroup000
+	#define	Gumshoe_pri  0
+	#define	Gumshoe_rev  0
+	#define	Gumshoe_mvl  127
+	#define	Gumshoe_key  0
+	#define	Gumshoe_tbs  1
+	#define	Gumshoe_exg  0
+	#define	Gumshoe_cmp  1
+
+	// .rodata
+	//	Gumshoe
+	ALIGN 4
+
+//**************** Track 1 (Midi-Chn.1) ****************//
+
+Gumshoe_1:
+	BYTE	KEYSH   Gumshoe_key+0
+Gumshoe_1_B1:
+// 000   ----------------------------------------
+	BYTE	TEMPO   109*Gumshoe_tbs/2
+	BYTE		VOICE   33
+	BYTE		VOL     33*Gumshoe_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE	W12
+	BYTE		N05     Cn3   v112
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W78
+// 001   ----------------------------------------
+	BYTE		N06   
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W18
+	BYTE		N11   
+	BYTE	W18
+	BYTE		N11   
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W30
+// 002   ----------------------------------------
+	BYTE	W48
+	BYTE		N11   
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W18
+	BYTE		N11   
+	BYTE	W18
+// 003   ----------------------------------------
+	BYTE		N11   
+	BYTE	W48
+	BYTE		N11   
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W30
+// 004   ----------------------------------------
+	BYTE	W24
+	BYTE		N06     As2 
+	BYTE	W18
+	BYTE		N17     Cn3 
+	BYTE	W18
+	BYTE		N11   
+	BYTE	W18
+	BYTE		        Gn2 
+	BYTE	W18
+// 005   ----------------------------------------
+	BYTE		        Dn3 
+	BYTE	W12
+	BYTE		N05     Cn3 
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W78
+// 006   ----------------------------------------
+	BYTE		N11   
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W24
+	BYTE		N22   
+	BYTE	W24
+	BYTE		N05   
+	BYTE	W06
+	BYTE		        Dn3 
+	BYTE	W06
+	BYTE		        Ds3 
+	BYTE	W06
+	BYTE		N11     Gn2 
+	BYTE	W12
+	BYTE		        As2 
+	BYTE	W06
+// 007   ----------------------------------------
+	BYTE	W06
+	BYTE		N05     Bn2 
+	BYTE	W06
+	BYTE		        Cn3 
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W72
+	BYTE		N05   
+	BYTE	W06
+// 008   ----------------------------------------
+	BYTE		        Ds3 
+	BYTE	W06
+	BYTE		        Dn3 
+	BYTE	W06
+	BYTE		N11     Cn3 
+	BYTE	W18
+	BYTE		        As2 
+	BYTE	W18
+	BYTE		        Gn2 
+	BYTE	W12
+	BYTE		N05     Gs2 
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W30
+// 009   ----------------------------------------
+	BYTE		        Fn2 
+	BYTE	W06
+	BYTE		        Gn2 
+	BYTE	W06
+	BYTE		N11     Gs2 
+	BYTE	W18
+	BYTE		N11   
+	BYTE	W18
+	BYTE		N11   
+	BYTE	W12
+	BYTE		N05     As2 
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W30
+// 010   ----------------------------------------
+	BYTE		        Gs2 
+	BYTE	W06
+	BYTE		N11     As2 
+	BYTE	W18
+	BYTE		N11   
+	BYTE	W12
+	BYTE		        Ds3 
+	BYTE	W12
+	BYTE		        Dn3 
+	BYTE	W12
+	BYTE		N05     Cn3 
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W30
+// 011   ----------------------------------------
+	BYTE	W24
+	BYTE		N11   
+	BYTE	W12
+	BYTE		        Gn3 
+	BYTE	W12
+	BYTE		        Cn3 
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W18
+	BYTE		        Gn2 
+	BYTE	W18
+// 012   ----------------------------------------
+	BYTE		        As2 
+	BYTE	W12
+	BYTE		N05     Gs2 
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W78
+// 013   ----------------------------------------
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		        As2 
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W18
+	BYTE		N17   
+	BYTE	W60
+// 014   ----------------------------------------
+Gumshoe_1_014:
+	BYTE		N11     As2   v112
+	BYTE	W12
+	BYTE		        Cn3 
+	BYTE	W18
+	BYTE		        Dn3 
+	BYTE	W18
+	BYTE		        Ds3 
+	BYTE	W12
+	BYTE		        Fn3 
+	BYTE	W18
+	BYTE		        Gn2 
+	BYTE	W18
+	BYTE	PEND
+// 015   ----------------------------------------
+	BYTE		        Gs2 
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W18
+	BYTE		N11   
+	BYTE	W18
+	BYTE		N11   
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W12
+	BYTE		N22     As2 
+	BYTE	W12
+// 016   ----------------------------------------
+Gumshoe_1_016:
+	BYTE	W12
+	BYTE		N11     Cn3   v112
+	BYTE	W18
+	BYTE		        Dn3 
+	BYTE	W18
+	BYTE		        Ds3 
+	BYTE	W12
+	BYTE		        Fn3 
+	BYTE	W18
+	BYTE		        Gn2 
+	BYTE	W18
+	BYTE	PEND
+// 017   ----------------------------------------
+	BYTE		        Gs2 
+	BYTE	W12
+	BYTE		        Cn3 
+	BYTE	W18
+	BYTE		N11   
+	BYTE	W18
+	BYTE		N11   
+	BYTE	W18
+	BYTE		        As2 
+	BYTE	W18
+	BYTE		N11   
+	BYTE	W12
+// 018   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Gumshoe_1_014
+// 019   ----------------------------------------
+	BYTE		N11     Gs2   v112
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W18
+	BYTE		N11   
+	BYTE	W18
+	BYTE		N05   
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W24
+	BYTE		N22     As2 
+	BYTE	W12
+// 020   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Gumshoe_1_016
+// 021   ----------------------------------------
+	BYTE		N11     Gs2   v112
+	BYTE	W12
+	BYTE		        Cn3 
+	BYTE	W18
+	BYTE		N11   
+	BYTE	W18
+	BYTE		N11   
+	BYTE	W18
+	BYTE		        As2 
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W12
+// 022   ----------------------------------------
+	BYTE		N06   
+	BYTE	W12
+	BYTE		N11     Gs2 
+	BYTE	W18
+	BYTE		N11   
+	BYTE	W18
+	BYTE		N11   
+	BYTE	W12
+	BYTE		N22   
+	BYTE	W36
+// 023   ----------------------------------------
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		        As2 
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W30
+	BYTE		N11   
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W18
+	BYTE		N11   
+	BYTE	W18
+// 024   ----------------------------------------
+	BYTE		N11   
+	BYTE	W96
+	BYTE	GoTo
+	 POIN2	Gumshoe_1_B1
+Gumshoe_1_B2:
+// 025   ----------------------------------------
+	BYTE		N05     Gn2   v112
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE	FINE
+
+//**************** Track 2 (Midi-Chn.2) ****************//
+
+Gumshoe_2:
+	BYTE	KEYSH   Gumshoe_key+0
+Gumshoe_2_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   1
+	BYTE		PAN     c_v+0
+	BYTE		VOL     31*Gumshoe_mvl/mxv
+	BYTE		N09     Dn3   v100
+	BYTE	W09
+	BYTE		N02     Dn3   v032
+	BYTE	W03
+	BYTE		N92     Ds3   v100
+	BYTE	W84
+// 001   ----------------------------------------
+Gumshoe_2_001:
+	BYTE	W12
+	BYTE		N17     Dn3   v100
+	BYTE	W18
+	BYTE		        As2 
+	BYTE	W18
+	BYTE		N11     Gn2 
+	BYTE	W12
+	BYTE		N92     Cn3 
+	BYTE	W36
+	BYTE	PEND
+// 002   ----------------------------------------
+	BYTE	W96
+// 003   ----------------------------------------
+	BYTE	W48
+	BYTE		N11     Dn3 
+	BYTE	W12
+	BYTE		N92     Ds3 
+	BYTE	W36
+// 004   ----------------------------------------
+Gumshoe_2_004:
+	BYTE	W60
+	BYTE		N17     Dn3   v100
+	BYTE	W18
+	BYTE		        As2 
+	BYTE	W18
+	BYTE	PEND
+// 005   ----------------------------------------
+	BYTE		N11     Gn2 
+	BYTE	W12
+	BYTE		N32     Fn3 
+	BYTE	W36
+	BYTE		TIE     Ds3 
+	BYTE	W48
+// 006   ----------------------------------------
+	BYTE	W60
+	BYTE		EOT   
+	BYTE	W36
+// 007   ----------------------------------------
+	BYTE		N11     Dn3 
+	BYTE	W12
+	BYTE		N92     Ds3 
+	BYTE	W84
+// 008   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Gumshoe_2_001
+// 009   ----------------------------------------
+	BYTE	W96
+// 010   ----------------------------------------
+	BYTE	W48
+	BYTE		N11     Dn3   v100
+	BYTE	W12
+	BYTE		N96     Ds3 
+	BYTE	W36
+// 011   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Gumshoe_2_004
+// 012   ----------------------------------------
+	BYTE		N11     Gn2   v100
+	BYTE	W12
+	BYTE		N32     Fn3 
+	BYTE	W36
+	BYTE		N56     Ds3 
+	BYTE	W48
+// 013   ----------------------------------------
+	BYTE	W12
+	BYTE		N32     Gn3 
+	BYTE	W36
+	BYTE		N56     Fn3 
+	BYTE	W48
+// 014   ----------------------------------------
+Gumshoe_2_014:
+	BYTE	W12
+	BYTE		N11     Ds3   v100
+	BYTE	W12
+	BYTE		N05     Ds3   v072
+	BYTE	W06
+	BYTE		N11     Fn3   v100
+	BYTE	W12
+	BYTE		N05     Fn3   v072
+	BYTE	W06
+	BYTE		N11     Ds3   v100
+	BYTE	W12
+	BYTE		        As3 
+	BYTE	W12
+	BYTE		N05     As3   v072
+	BYTE	W06
+	BYTE		N11     Fn3   v100
+	BYTE	W12
+	BYTE		N05     Fn3   v072
+	BYTE	W06
+	BYTE	PEND
+// 015   ----------------------------------------
+	BYTE		N84     Ds3   v100
+	BYTE	W96
+// 016   ----------------------------------------
+Gumshoe_2_016:
+	BYTE	W12
+	BYTE		N11     Ds3   v100
+	BYTE	W12
+	BYTE		N05     Ds3   v072
+	BYTE	W06
+	BYTE		N11     Fn3   v100
+	BYTE	W12
+	BYTE		N05     Fn3   v072
+	BYTE	W06
+	BYTE		N11     Ds3   v100
+	BYTE	W12
+	BYTE		        Gs3 
+	BYTE	W12
+	BYTE		N05     Gs3   v072
+	BYTE	W06
+	BYTE		N11     Gn3   v100
+	BYTE	W12
+	BYTE		N05     Gn3   v072
+	BYTE	W06
+	BYTE	PEND
+// 017   ----------------------------------------
+	BYTE		N11     Ds3   v100
+	BYTE	W12
+	BYTE		N32     Gn3 
+	BYTE	W36
+	BYTE		N05     Gs3 
+	BYTE	W06
+	BYTE		        Gn3 
+	BYTE	W06
+	BYTE		N44     Fn3 
+	BYTE	W36
+// 018   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Gumshoe_2_014
+// 019   ----------------------------------------
+	BYTE		N84     Ds3   v100
+	BYTE	W96
+// 020   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Gumshoe_2_016
+// 021   ----------------------------------------
+	BYTE		N11     Ds3   v100
+	BYTE	W12
+	BYTE		N32     Gn3 
+	BYTE	W36
+	BYTE		N05     Gs3 
+	BYTE	W06
+	BYTE		        Gn3 
+	BYTE	W06
+	BYTE		N22     Fn3 
+	BYTE	W24
+	BYTE		N11     Ds3 
+	BYTE	W12
+// 022   ----------------------------------------
+	BYTE		        Dn3 
+	BYTE	W12
+	BYTE		N32   
+	BYTE	W36
+	BYTE		N56     Cn3 
+	BYTE	W48
+// 023   ----------------------------------------
+	BYTE	W12
+	BYTE		N32     Ds3 
+	BYTE	W36
+	BYTE		N56     Dn3 
+	BYTE	W48
+// 024   ----------------------------------------
+	BYTE	W96
+	BYTE	GoTo
+	 POIN2	Gumshoe_2_B1
+Gumshoe_2_B2:
+// 025   ----------------------------------------
+	BYTE		N11     Dn3   v100
+	BYTE	W12
+	BYTE	FINE
+
+//**************** Track 3 (Midi-Chn.3) ****************//
+
+Gumshoe_3:
+	BYTE	KEYSH   Gumshoe_key+0
+Gumshoe_3_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   3
+	BYTE		VOL     29*Gumshoe_mvl/mxv
+	BYTE		PAN     c_v+10
+	BYTE		N09     As2   v100
+	BYTE	W09
+	BYTE		N02     As2   v032
+	BYTE	W03
+	BYTE		N92     Cn3   v100
+	BYTE	W84
+// 001   ----------------------------------------
+Gumshoe_3_001:
+	BYTE	W12
+	BYTE		N17     As2   v100
+	BYTE	W18
+	BYTE		        Gn2 
+	BYTE	W18
+	BYTE		N11     Fn2 
+	BYTE	W12
+	BYTE		N92     Gn2 
+	BYTE	W36
+	BYTE	PEND
+// 002   ----------------------------------------
+	BYTE	W96
+// 003   ----------------------------------------
+Gumshoe_3_003:
+	BYTE	W48
+	BYTE		N11     As2   v100
+	BYTE	W12
+	BYTE		N92     Cn3 
+	BYTE	W36
+	BYTE	PEND
+// 004   ----------------------------------------
+Gumshoe_3_004:
+	BYTE	W60
+	BYTE		N17     As2   v100
+	BYTE	W18
+	BYTE		        Gn2 
+	BYTE	W18
+	BYTE	PEND
+// 005   ----------------------------------------
+	BYTE		N11     Fn2 
+	BYTE	W12
+	BYTE		N32     Cn3 
+	BYTE	W36
+	BYTE		TIE   
+	BYTE	W48
+// 006   ----------------------------------------
+	BYTE	W60
+	BYTE		EOT   
+	BYTE	W36
+// 007   ----------------------------------------
+	BYTE		N11     As2 
+	BYTE	W12
+	BYTE		N92     Cn3 
+	BYTE	W84
+// 008   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Gumshoe_3_001
+// 009   ----------------------------------------
+	BYTE	W96
+// 010   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Gumshoe_3_003
+// 011   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Gumshoe_3_004
+// 012   ----------------------------------------
+	BYTE		N11     Fn2   v100
+	BYTE	W12
+	BYTE		N32     Cn3 
+	BYTE	W36
+	BYTE		N56   
+	BYTE	W48
+// 013   ----------------------------------------
+Gumshoe_3_013:
+	BYTE	W12
+	BYTE		N32     Gs2   v100
+	BYTE	W36
+	BYTE		N56   
+	BYTE	W48
+	BYTE	PEND
+// 014   ----------------------------------------
+Gumshoe_3_014:
+	BYTE	W12
+	BYTE		N11     As2   v100
+	BYTE	W12
+	BYTE		N05     As2   v072
+	BYTE	W06
+	BYTE		N11     As2   v100
+	BYTE	W12
+	BYTE		N05     As2   v072
+	BYTE	W06
+	BYTE		N11     As2   v100
+	BYTE	W12
+	BYTE		        Ds3 
+	BYTE	W12
+	BYTE		N05     Ds3   v072
+	BYTE	W06
+	BYTE		N11     As2   v100
+	BYTE	W12
+	BYTE		N05     As2   v072
+	BYTE	W06
+	BYTE	PEND
+// 015   ----------------------------------------
+Gumshoe_3_015:
+	BYTE		N56     As2   v100
+	BYTE	W60
+	BYTE		N22     Cn3 
+	BYTE	W24
+	BYTE		        Dn3 
+	BYTE	W12
+	BYTE	PEND
+// 016   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Gumshoe_3_014
+// 017   ----------------------------------------
+Gumshoe_3_017:
+	BYTE		N11     Cn3   v100
+	BYTE	W12
+	BYTE		N32     Ds3 
+	BYTE	W36
+	BYTE		N05     Fn3 
+	BYTE	W06
+	BYTE		        Ds3 
+	BYTE	W06
+	BYTE		N44     Dn3 
+	BYTE	W36
+	BYTE	PEND
+// 018   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Gumshoe_3_014
+// 019   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Gumshoe_3_015
+// 020   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Gumshoe_3_014
+// 021   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Gumshoe_3_017
+// 022   ----------------------------------------
+	BYTE	W12
+	BYTE		N32     Gn2   v100
+	BYTE	W36
+	BYTE		N56   
+	BYTE	W48
+// 023   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Gumshoe_3_013
+// 024   ----------------------------------------
+	BYTE	W96
+	BYTE	GoTo
+	 POIN2	Gumshoe_3_B1
+Gumshoe_3_B2:
+// 025   ----------------------------------------
+	BYTE		N11     As2   v100
+	BYTE	W12
+	BYTE	FINE
+
+//**************** Track 4 (Midi-Chn.4) ****************//
+
+Gumshoe_4:
+	BYTE	KEYSH   Gumshoe_key+0
+Gumshoe_4_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   1
+	BYTE		VOL     35*Gumshoe_mvl/mxv
+	BYTE		PAN     c_v+36
+	BYTE	W12
+	BYTE		N05     Cn4   v080
+	BYTE	W06
+	BYTE		        Cn4   v060
+	BYTE	W06
+	BYTE		        Gn4   v080
+	BYTE	W06
+	BYTE		        Gn4   v060
+	BYTE	W06
+	BYTE		        Cn5   v080
+	BYTE	W06
+	BYTE		        Cn5   v060
+	BYTE	W06
+	BYTE		        Cn4   v080
+	BYTE	W06
+	BYTE		        Cn4   v060
+	BYTE	W06
+	BYTE		        Gn4   v080
+	BYTE	W06
+	BYTE		        Gn4   v060
+	BYTE	W06
+	BYTE		        Cn5   v080
+	BYTE	W06
+	BYTE		        Cn5   v060
+	BYTE	W06
+	BYTE		        Cn4   v080
+	BYTE	W06
+	BYTE		        Cn4   v060
+	BYTE	W06
+// 001   ----------------------------------------
+Gumshoe_4_001:
+	BYTE		N05     Gn4   v080
+	BYTE	W06
+	BYTE		        Gn4   v060
+	BYTE	W06
+	BYTE		        Cn5   v080
+	BYTE	W06
+	BYTE		        Cn5   v060
+	BYTE	W06
+	BYTE		        Cn4   v080
+	BYTE	W06
+	BYTE		        Cn4   v060
+	BYTE	W06
+	BYTE		        Gn4   v080
+	BYTE	W06
+	BYTE		        Gn4   v060
+	BYTE	W06
+	BYTE		        Cn5   v080
+	BYTE	W06
+	BYTE		        Cn5   v060
+	BYTE	W06
+	BYTE		        Cn4   v080
+	BYTE	W06
+	BYTE		        Cn4   v060
+	BYTE	W06
+	BYTE		        Gn4   v080
+	BYTE	W06
+	BYTE		        Gn4   v060
+	BYTE	W06
+	BYTE		        Cn5   v080
+	BYTE	W06
+	BYTE		        Cn5   v060
+	BYTE	W06
+	BYTE	PEND
+// 002   ----------------------------------------
+Gumshoe_4_002:
+	BYTE		N05     Cn4   v080
+	BYTE	W06
+	BYTE		        Cn4   v060
+	BYTE	W06
+	BYTE		        Gn4   v080
+	BYTE	W06
+	BYTE		        Gn4   v060
+	BYTE	W06
+	BYTE		        Cn5   v080
+	BYTE	W06
+	BYTE		        Cn5   v060
+	BYTE	W06
+	BYTE		        Cn4   v080
+	BYTE	W06
+	BYTE		        Cn4   v060
+	BYTE	W06
+	BYTE		        Gn4   v080
+	BYTE	W06
+	BYTE		        Gn4   v060
+	BYTE	W06
+	BYTE		        Cn5   v080
+	BYTE	W06
+	BYTE		        Cn5   v060
+	BYTE	W06
+	BYTE		        Cn4   v080
+	BYTE	W06
+	BYTE		        Cn4   v060
+	BYTE	W06
+	BYTE		        Gn4   v080
+	BYTE	W06
+	BYTE		        Gn4   v060
+	BYTE	W06
+	BYTE	PEND
+// 003   ----------------------------------------
+Gumshoe_4_003:
+	BYTE		N05     Cn5   v080
+	BYTE	W06
+	BYTE		        Cn5   v060
+	BYTE	W06
+	BYTE		        Cn4   v080
+	BYTE	W06
+	BYTE		        Cn4   v060
+	BYTE	W06
+	BYTE		        Gn4   v080
+	BYTE	W06
+	BYTE		        Gn4   v060
+	BYTE	W06
+	BYTE		        Cn5   v080
+	BYTE	W06
+	BYTE		        Cn5   v060
+	BYTE	W06
+	BYTE		        Cn4   v080
+	BYTE	W06
+	BYTE		        Cn4   v060
+	BYTE	W06
+	BYTE		        Gn4   v080
+	BYTE	W06
+	BYTE		        Gn4   v060
+	BYTE	W06
+	BYTE		        Cn5   v080
+	BYTE	W06
+	BYTE		        Cn5   v060
+	BYTE	W06
+	BYTE		        Cn4   v080
+	BYTE	W06
+	BYTE		        Cn4   v060
+	BYTE	W06
+	BYTE	PEND
+// 004   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Gumshoe_4_001
+// 005   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Gumshoe_4_002
+// 006   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Gumshoe_4_003
+// 007   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Gumshoe_4_001
+// 008   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Gumshoe_4_002
+// 009   ----------------------------------------
+	BYTE		N05     Cn5   v080
+	BYTE	W06
+	BYTE		        Cn5   v060
+	BYTE	W06
+	BYTE		        Cn4   v080
+	BYTE	W06
+	BYTE		        Cn4   v060
+	BYTE	W06
+	BYTE		        Gn4   v080
+	BYTE	W06
+	BYTE		        Gn4   v060
+	BYTE	W06
+	BYTE		        Cn5   v080
+	BYTE	W06
+	BYTE		        Cn5   v060
+	BYTE	W06
+	BYTE		        Cn4   v080
+	BYTE	W06
+	BYTE		        Cn4   v060
+	BYTE	W06
+	BYTE		        Gn4   v080
+	BYTE	W06
+	BYTE		        Gn4   v060
+	BYTE	W06
+	BYTE		        As4   v080
+	BYTE	W06
+	BYTE		        As4   v060
+	BYTE	W06
+	BYTE		        Dn4   v080
+	BYTE	W06
+	BYTE		        Dn4   v060
+	BYTE	W06
+// 010   ----------------------------------------
+	BYTE		        Gn4   v080
+	BYTE	W06
+	BYTE		        Gn4   v060
+	BYTE	W06
+	BYTE		        As4   v080
+	BYTE	W06
+	BYTE		        As4   v060
+	BYTE	W06
+	BYTE		        Dn4   v080
+	BYTE	W06
+	BYTE		        Dn4   v060
+	BYTE	W06
+	BYTE		        Gn4   v080
+	BYTE	W06
+	BYTE		        Gn4   v060
+	BYTE	W06
+	BYTE		        As4   v080
+	BYTE	W06
+	BYTE		        As4   v060
+	BYTE	W06
+	BYTE		        Cn4   v080
+	BYTE	W06
+	BYTE		        Cn4   v060
+	BYTE	W06
+	BYTE		        Gn4   v080
+	BYTE	W06
+	BYTE		        Gn4   v060
+	BYTE	W06
+	BYTE		        Cn5   v080
+	BYTE	W06
+	BYTE		        Cn5   v060
+	BYTE	W06
+// 011   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Gumshoe_4_002
+// 012   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Gumshoe_4_003
+// 013   ----------------------------------------
+	BYTE		N05     Gn4   v080
+	BYTE	W06
+	BYTE		        Gn4   v060
+	BYTE	W06
+	BYTE		        Cn5   v080
+	BYTE	W06
+	BYTE		        Cn5   v060
+	BYTE	W06
+	BYTE		        Dn4   v080
+	BYTE	W06
+	BYTE		        Dn4   v060
+	BYTE	W06
+	BYTE		        Fn4   v080
+	BYTE	W06
+	BYTE		        Fn4   v060
+	BYTE	W06
+	BYTE		        As4   v080
+	BYTE	W06
+	BYTE		        As4   v060
+	BYTE	W06
+	BYTE		        Dn4   v080
+	BYTE	W06
+	BYTE		        Dn4   v060
+	BYTE	W06
+	BYTE		        Fn4   v080
+	BYTE	W06
+	BYTE		        Fn4   v060
+	BYTE	W06
+	BYTE		N07     As4   v080
+	BYTE	W08
+	BYTE		        As4   v060
+	BYTE	W04
+// 014   ----------------------------------------
+	BYTE	W04
+	BYTE		        As4   v040
+	BYTE	W92
+// 015   ----------------------------------------
+	BYTE		N11     Gn4   v092
+	BYTE	W12
+	BYTE		N02     Bn4 
+	BYTE	W02
+	BYTE		N10     Cn5 
+	BYTE	W10
+	BYTE		N05     As4 
+	BYTE	W06
+	BYTE		N11     Gn4 
+	BYTE	W12
+	BYTE		N17     Fn4 
+	BYTE	W18
+	BYTE		N02     Fn4   v072
+	BYTE	W02
+	BYTE		N22     Gn4   v092
+	BYTE	W22
+	BYTE		N11     Cn4 
+	BYTE	W12
+// 016   ----------------------------------------
+	BYTE		        Ds4 
+	BYTE	W12
+	BYTE		N32     Fn4 
+	BYTE	W36
+	BYTE		N05     Fs4 
+	BYTE	W06
+	BYTE		        Fn4 
+	BYTE	W06
+	BYTE		N44     Ds4 
+	BYTE	W36
+// 017   ----------------------------------------
+Gumshoe_4_017:
+	BYTE	W24
+	BYTE		N11     Cn4   v092
+	BYTE	W12
+	BYTE		        Ds4 
+	BYTE	W12
+	BYTE		N05     Cn4 
+	BYTE	W06
+	BYTE		N11     Ds4 
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W12
+	BYTE		N05     Cn4 
+	BYTE	W06
+	BYTE		N11     Ds4 
+	BYTE	W12
+	BYTE	PEND
+// 018   ----------------------------------------
+	BYTE		        Fn4 
+	BYTE	W96
+// 019   ----------------------------------------
+	BYTE		N05     Cn4 
+	BYTE	W06
+	BYTE		        Gn4 
+	BYTE	W06
+	BYTE		N02     Bn4 
+	BYTE	W02
+	BYTE		N10     Cn5 
+	BYTE	W10
+	BYTE		N05     As4 
+	BYTE	W06
+	BYTE		N11     Gn4 
+	BYTE	W12
+	BYTE		N17     Fn4 
+	BYTE	W18
+	BYTE		N02     Fn4   v072
+	BYTE	W02
+	BYTE		N22     Gn4   v092
+	BYTE	W22
+	BYTE		        As4 
+	BYTE	W12
+// 020   ----------------------------------------
+	BYTE	W12
+	BYTE		N32     Fn4 
+	BYTE	W36
+	BYTE		N02     Fs4   v072
+	BYTE	W02
+	BYTE		N10     Gn4   v092
+	BYTE	W10
+	BYTE		N17     Fn4 
+	BYTE	W18
+	BYTE		N28     Ds4 
+	BYTE	W18
+// 021   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Gumshoe_4_017
+// 022   ----------------------------------------
+	BYTE		N11     Fn4   v092
+	BYTE	W12
+	BYTE		N17   
+	BYTE	W18
+	BYTE		        Gn4 
+	BYTE	W18
+	BYTE		N11     As4 
+	BYTE	W12
+	BYTE		N44     Ds4 
+	BYTE	W36
+// 023   ----------------------------------------
+	BYTE	W12
+	BYTE		N05     Cn4   v040
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		        Gn4 
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		        Cn5   v060
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		        Cn4 
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		        Gn4   v080
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		        Cn5 
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		        Cn4   v092
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+// 024   ----------------------------------------
+	BYTE		        Gn4   v100
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		        Cn5   v080
+	BYTE	W06
+	BYTE		        Cn5   v060
+	BYTE	W06
+	BYTE		        Cn4   v080
+	BYTE	W06
+	BYTE		        Cn4   v060
+	BYTE	W06
+	BYTE		        Gn4   v080
+	BYTE	W06
+	BYTE		        Gn4   v060
+	BYTE	W06
+	BYTE		        Cn5   v080
+	BYTE	W06
+	BYTE		        Cn5   v060
+	BYTE	W06
+	BYTE		        Cn4   v080
+	BYTE	W06
+	BYTE		        Cn4   v060
+	BYTE	W06
+	BYTE		        Gn4   v080
+	BYTE	W06
+	BYTE		        Gn4   v060
+	BYTE	W06
+	BYTE		        Cn4   v080
+	BYTE	W06
+	BYTE		        Dn4   v060
+	BYTE	W06
+	BYTE	GoTo
+	 POIN2	Gumshoe_4_B1
+Gumshoe_4_B2:
+// 025   ----------------------------------------
+	BYTE		N05     Gn4   v080
+	BYTE	W06
+	BYTE		        Cn5   v060
+	BYTE	W06
+	BYTE	FINE
+
+//**************** Track 5 (Midi-Chn.6) ****************//
+
+Gumshoe_5:
+	BYTE	KEYSH   Gumshoe_key+0
+Gumshoe_5_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   36
+	BYTE		VOL     36*Gumshoe_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE		MOD     0
+	BYTE	W12
+	BYTE		N05     Cn3   v112
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W78
+// 001   ----------------------------------------
+	BYTE		N06   
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W18
+	BYTE		N11   
+	BYTE	W18
+	BYTE		N11   
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W30
+// 002   ----------------------------------------
+	BYTE	W48
+	BYTE		N11   
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W18
+	BYTE		N11   
+	BYTE	W18
+// 003   ----------------------------------------
+	BYTE		N11   
+	BYTE	W48
+	BYTE		N11   
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W30
+// 004   ----------------------------------------
+	BYTE	W24
+	BYTE		N06     As2 
+	BYTE	W18
+	BYTE		N17     Cn3 
+	BYTE	W18
+	BYTE		N11   
+	BYTE	W18
+	BYTE		        Gn2 
+	BYTE	W18
+// 005   ----------------------------------------
+	BYTE		        Dn3 
+	BYTE	W12
+	BYTE		N05     Cn3 
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W78
+// 006   ----------------------------------------
+	BYTE		N11   
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W24
+	BYTE		N22   
+	BYTE	W24
+	BYTE		N05   
+	BYTE	W06
+	BYTE		        Dn3 
+	BYTE	W06
+	BYTE		        Ds3 
+	BYTE	W06
+	BYTE		N11     Gn2 
+	BYTE	W12
+	BYTE		        As2 
+	BYTE	W06
+// 007   ----------------------------------------
+	BYTE	W06
+	BYTE		N05     Bn2 
+	BYTE	W06
+	BYTE		        Cn3 
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W72
+	BYTE		N05   
+	BYTE	W06
+// 008   ----------------------------------------
+	BYTE		        Ds3 
+	BYTE	W06
+	BYTE		        Dn3 
+	BYTE	W06
+	BYTE		N11     Cn3 
+	BYTE	W18
+	BYTE		        As2 
+	BYTE	W18
+	BYTE		        Gn2 
+	BYTE	W12
+	BYTE		N05     Gs2 
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W30
+// 009   ----------------------------------------
+	BYTE		        Fn2 
+	BYTE	W06
+	BYTE		        Gn2 
+	BYTE	W06
+	BYTE		N11     Gs2 
+	BYTE	W18
+	BYTE		N11   
+	BYTE	W18
+	BYTE		N11   
+	BYTE	W12
+	BYTE		N05     As2 
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W30
+// 010   ----------------------------------------
+	BYTE		        Gs2 
+	BYTE	W06
+	BYTE		N11     As2 
+	BYTE	W18
+	BYTE		N11   
+	BYTE	W12
+	BYTE		        Ds3 
+	BYTE	W12
+	BYTE		        Dn3 
+	BYTE	W12
+	BYTE		N05     Cn3 
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W30
+// 011   ----------------------------------------
+	BYTE	W24
+	BYTE		N11   
+	BYTE	W12
+	BYTE		        Gn3 
+	BYTE	W12
+	BYTE		        Cn3 
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W18
+	BYTE		        Gn2 
+	BYTE	W18
+// 012   ----------------------------------------
+	BYTE		        As2 
+	BYTE	W12
+	BYTE		N05     Gs2 
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W78
+// 013   ----------------------------------------
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		        As2 
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W18
+	BYTE		N17   
+	BYTE	W60
+// 014   ----------------------------------------
+Gumshoe_5_014:
+	BYTE		N11     As2   v112
+	BYTE	W12
+	BYTE		        Cn3 
+	BYTE	W18
+	BYTE		        Dn3 
+	BYTE	W18
+	BYTE		        Ds3 
+	BYTE	W12
+	BYTE		        Fn3 
+	BYTE	W18
+	BYTE		        Gn2 
+	BYTE	W18
+	BYTE	PEND
+// 015   ----------------------------------------
+	BYTE		        Gs2 
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W18
+	BYTE		N11   
+	BYTE	W18
+	BYTE		N11   
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W12
+	BYTE		N22     As2 
+	BYTE	W12
+// 016   ----------------------------------------
+Gumshoe_5_016:
+	BYTE	W12
+	BYTE		N11     Cn3   v112
+	BYTE	W18
+	BYTE		        Dn3 
+	BYTE	W18
+	BYTE		        Ds3 
+	BYTE	W12
+	BYTE		        Fn3 
+	BYTE	W18
+	BYTE		        Gn2 
+	BYTE	W18
+	BYTE	PEND
+// 017   ----------------------------------------
+	BYTE		        Gs2 
+	BYTE	W12
+	BYTE		        Cn3 
+	BYTE	W18
+	BYTE		N11   
+	BYTE	W18
+	BYTE		N11   
+	BYTE	W18
+	BYTE		        As2 
+	BYTE	W18
+	BYTE		N11   
+	BYTE	W12
+// 018   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Gumshoe_5_014
+// 019   ----------------------------------------
+	BYTE		N11     Gs2   v112
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W18
+	BYTE		N11   
+	BYTE	W18
+	BYTE		N05   
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W24
+	BYTE		N22     As2 
+	BYTE	W12
+// 020   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Gumshoe_5_016
+// 021   ----------------------------------------
+	BYTE		N11     Gs2   v112
+	BYTE	W12
+	BYTE		        Cn3 
+	BYTE	W18
+	BYTE		N11   
+	BYTE	W18
+	BYTE		N11   
+	BYTE	W18
+	BYTE		        As2 
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W12
+// 022   ----------------------------------------
+	BYTE		N06   
+	BYTE	W12
+	BYTE		N11     Gs2 
+	BYTE	W18
+	BYTE		N11   
+	BYTE	W18
+	BYTE		N11   
+	BYTE	W12
+	BYTE		N22   
+	BYTE	W36
+// 023   ----------------------------------------
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		        As2 
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W30
+	BYTE		N11   
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W18
+	BYTE		N11   
+	BYTE	W18
+// 024   ----------------------------------------
+	BYTE		N11   
+	BYTE	W96
+	BYTE	GoTo
+	 POIN2	Gumshoe_5_B1
+Gumshoe_5_B2:
+// 025   ----------------------------------------
+	BYTE		N05     Gn2   v112
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE	FINE
+
+//**************** Track 6 (Midi-Chn.7) ****************//
+
+Gumshoe_6:
+	BYTE	KEYSH   Gumshoe_key+0
+Gumshoe_6_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   3
+	BYTE		VOL     40*Gumshoe_mvl/mxv
+	BYTE		PAN     c_v-30
+	BYTE		MOD     0
+	BYTE	W96
+// 001   ----------------------------------------
+	BYTE	W96
+// 002   ----------------------------------------
+	BYTE	W96
+// 003   ----------------------------------------
+	BYTE	W96
+// 004   ----------------------------------------
+	BYTE	W96
+// 005   ----------------------------------------
+	BYTE	W96
+// 006   ----------------------------------------
+	BYTE	W96
+// 007   ----------------------------------------
+	BYTE	W96
+// 008   ----------------------------------------
+	BYTE	W96
+// 009   ----------------------------------------
+	BYTE	W96
+// 010   ----------------------------------------
+	BYTE	W96
+// 011   ----------------------------------------
+	BYTE	W96
+// 012   ----------------------------------------
+	BYTE	W96
+// 013   ----------------------------------------
+	BYTE	W96
+// 014   ----------------------------------------
+	BYTE	W96
+// 015   ----------------------------------------
+	BYTE		N11     Gn4   v092
+	BYTE	W12
+	BYTE		N02     Bn4 
+	BYTE	W02
+	BYTE		N10     Cn5 
+	BYTE	W10
+	BYTE		N05     As4 
+	BYTE	W06
+	BYTE		N11     Gn4 
+	BYTE	W12
+	BYTE		N17     Fn4 
+	BYTE	W18
+	BYTE		N02     Fn4   v072
+	BYTE	W02
+	BYTE		N22     Gn4   v092
+	BYTE	W22
+	BYTE		N11     Cn4 
+	BYTE	W12
+// 016   ----------------------------------------
+	BYTE		        Ds4 
+	BYTE	W12
+	BYTE		N32     Fn4 
+	BYTE	W36
+	BYTE		N05     Fs4 
+	BYTE	W06
+	BYTE		        Fn4 
+	BYTE	W06
+	BYTE		N44     Ds4 
+	BYTE	W36
+// 017   ----------------------------------------
+Gumshoe_6_017:
+	BYTE	W24
+	BYTE		N11     Cn4   v092
+	BYTE	W12
+	BYTE		        Ds4 
+	BYTE	W12
+	BYTE		N05     Cn4 
+	BYTE	W06
+	BYTE		N11     Ds4 
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W12
+	BYTE		N05     Cn4 
+	BYTE	W06
+	BYTE		N11     Ds4 
+	BYTE	W12
+	BYTE	PEND
+// 018   ----------------------------------------
+	BYTE		        Fn4 
+	BYTE	W96
+// 019   ----------------------------------------
+	BYTE		N05     Cn4 
+	BYTE	W06
+	BYTE		        Gn4 
+	BYTE	W06
+	BYTE		N02     Bn4 
+	BYTE	W02
+	BYTE		N10     Cn5 
+	BYTE	W10
+	BYTE		N05     As4 
+	BYTE	W06
+	BYTE		N11     Gn4 
+	BYTE	W12
+	BYTE		N17     Fn4 
+	BYTE	W18
+	BYTE		N02     Fn4   v072
+	BYTE	W02
+	BYTE		N22     Gn4   v092
+	BYTE	W22
+	BYTE		        As4 
+	BYTE	W12
+// 020   ----------------------------------------
+	BYTE	W12
+	BYTE		N32     Fn4 
+	BYTE	W36
+	BYTE		N02     Fs4   v072
+	BYTE	W02
+	BYTE		N10     Gn4   v092
+	BYTE	W10
+	BYTE		N17     Fn4 
+	BYTE	W18
+	BYTE		N28     Ds4 
+	BYTE	W18
+// 021   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Gumshoe_6_017
+// 022   ----------------------------------------
+	BYTE		N11     Fn4   v092
+	BYTE	W12
+	BYTE		N17   
+	BYTE	W18
+	BYTE		        Gn4 
+	BYTE	W18
+	BYTE		N11     As4 
+	BYTE	W12
+	BYTE		N44     Ds4 
+	BYTE	W36
+// 023   ----------------------------------------
+	BYTE	W96
+// 024   ----------------------------------------
+	BYTE	W96
+	BYTE	GoTo
+	 POIN2	Gumshoe_6_B1
+Gumshoe_6_B2:
+// 025   ----------------------------------------
+	BYTE	W12
+	BYTE	FINE
+
+//**************** Track 7 (Midi-Chn.8) ****************//
+
+Gumshoe_7:
+	BYTE	KEYSH   Gumshoe_key+0
+Gumshoe_7_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   99
+	BYTE		VOL     25*Gumshoe_mvl/mxv
+	BYTE		PAN     c_v-14
+	BYTE		MOD     3
+	BYTE	W12
+	BYTE		N11     Cn2   v120
+	BYTE	W12
+	BYTE		N80     Cn2   v112
+	BYTE	W06
+	BYTE		N11     Gn2   v092
+	BYTE	W12
+	BYTE		N64     Gn2   v080
+	BYTE	W06
+	BYTE		N56     Dn3   v076
+	BYTE	W48
+// 001   ----------------------------------------
+	BYTE	W96
+// 002   ----------------------------------------
+	BYTE	W96
+// 003   ----------------------------------------
+Gumshoe_7_003:
+	BYTE	W60
+	BYTE		N11     Cn2   v120
+	BYTE	W12
+	BYTE		N80     Cn2   v112
+	BYTE	W06
+	BYTE		N11     Gn2   v092
+	BYTE	W12
+	BYTE		N64     Gn2   v080
+	BYTE	W06
+	BYTE	PEND
+// 004   ----------------------------------------
+	BYTE		N56     Dn3   v076
+	BYTE	W96
+// 005   ----------------------------------------
+	BYTE	W96
+// 006   ----------------------------------------
+	BYTE	W96
+// 007   ----------------------------------------
+	BYTE	W12
+	BYTE		N11     Cn2   v120
+	BYTE	W12
+	BYTE		N80     Cn2   v112
+	BYTE	W06
+	BYTE		N11     Gn2   v092
+	BYTE	W12
+	BYTE		N64     Gn2   v080
+	BYTE	W06
+	BYTE		N56     Dn3   v076
+	BYTE	W48
+// 008   ----------------------------------------
+	BYTE	W60
+	BYTE		N11     Gs1   v120
+	BYTE	W12
+	BYTE		N80     Gs1   v112
+	BYTE	W06
+	BYTE		N11     Ds2   v092
+	BYTE	W12
+	BYTE		N64     Ds2   v080
+	BYTE	W06
+// 009   ----------------------------------------
+	BYTE		N56     As2   v092
+	BYTE	W96
+// 010   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Gumshoe_7_003
+// 011   ----------------------------------------
+	BYTE		N56     Dn3   v076
+	BYTE	W96
+// 012   ----------------------------------------
+	BYTE	W12
+	BYTE		N11     Gs1   v120
+	BYTE	W12
+	BYTE		N80     Gs1   v112
+	BYTE	W06
+	BYTE		N11     Ds2   v092
+	BYTE	W12
+	BYTE		N64     Ds2   v080
+	BYTE	W06
+	BYTE		N56     As2   v092
+	BYTE	W48
+// 013   ----------------------------------------
+	BYTE	W96
+// 014   ----------------------------------------
+Gumshoe_7_014:
+	BYTE	W12
+	BYTE		N11     Cn2   v120
+	BYTE	W12
+	BYTE		N80     Cn2   v112
+	BYTE	W06
+	BYTE		N11     As2   v092
+	BYTE	W12
+	BYTE		N64     As2   v080
+	BYTE	W06
+	BYTE		N56     Fn3   v076
+	BYTE	W48
+	BYTE	PEND
+// 015   ----------------------------------------
+	BYTE	W96
+// 016   ----------------------------------------
+	BYTE	W12
+	BYTE		N11     Cn2   v120
+	BYTE	W12
+	BYTE		N80     Cn2   v112
+	BYTE	W06
+	BYTE		N11     As2   v092
+	BYTE	W12
+	BYTE		N64     As2   v080
+	BYTE	W06
+	BYTE		N56     Ds3   v076
+	BYTE	W48
+// 017   ----------------------------------------
+	BYTE	W96
+// 018   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Gumshoe_7_014
+// 019   ----------------------------------------
+	BYTE	W96
+// 020   ----------------------------------------
+	BYTE	W12
+	BYTE		N11     Cn2   v120
+	BYTE	W12
+	BYTE		N80     Cn2   v112
+	BYTE	W06
+	BYTE		N11     As2   v100
+	BYTE	W12
+	BYTE		N64     As2   v092
+	BYTE	W06
+	BYTE		N56     Ds3   v088
+	BYTE	W48
+// 021   ----------------------------------------
+	BYTE	W96
+// 022   ----------------------------------------
+	BYTE	W12
+	BYTE		N11     Gs1   v120
+	BYTE	W12
+	BYTE		N80     Gs1   v112
+	BYTE	W06
+	BYTE		N11     Ds2   v100
+	BYTE	W12
+	BYTE		N64     Ds2   v092
+	BYTE	W06
+	BYTE		N56     As2   v100
+	BYTE	W48
+// 023   ----------------------------------------
+	BYTE	W96
+// 024   ----------------------------------------
+	BYTE	W96
+	BYTE	GoTo
+	 POIN2	Gumshoe_7_B1
+Gumshoe_7_B2:
+// 025   ----------------------------------------
+	BYTE	W12
+	BYTE	FINE
+
+//**************** Track 8 (Midi-Chn.9) ****************//
+
+Gumshoe_8:
+	BYTE	KEYSH   Gumshoe_key+0
+Gumshoe_8_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   43
+	BYTE		VOL     49*Gumshoe_mvl/mxv
+	BYTE		PAN     c_v-10
+	BYTE		MOD     0
+	BYTE		N09     Dn3   v100
+	BYTE	W12
+	BYTE		N92     Ds3 
+	BYTE	W84
+// 001   ----------------------------------------
+Gumshoe_8_001:
+	BYTE	W12
+	BYTE		N17     Dn3   v100
+	BYTE	W18
+	BYTE		        As2 
+	BYTE	W18
+	BYTE		N11     Gn2 
+	BYTE	W12
+	BYTE		N92     Cn3 
+	BYTE	W36
+	BYTE	PEND
+// 002   ----------------------------------------
+	BYTE	W96
+// 003   ----------------------------------------
+	BYTE	W48
+	BYTE		N11     Dn3 
+	BYTE	W12
+	BYTE		N92     Ds3 
+	BYTE	W36
+// 004   ----------------------------------------
+Gumshoe_8_004:
+	BYTE	W60
+	BYTE		N17     Dn3   v100
+	BYTE	W18
+	BYTE		        As2 
+	BYTE	W18
+	BYTE	PEND
+// 005   ----------------------------------------
+	BYTE		N11     Gn2 
+	BYTE	W12
+	BYTE		N32     Fn3 
+	BYTE	W36
+	BYTE		TIE     Ds3 
+	BYTE	W48
+// 006   ----------------------------------------
+	BYTE	W60
+	BYTE		EOT   
+	BYTE	W36
+// 007   ----------------------------------------
+	BYTE		N11     Dn3 
+	BYTE	W12
+	BYTE		N92     Ds3 
+	BYTE	W84
+// 008   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Gumshoe_8_001
+// 009   ----------------------------------------
+	BYTE	W96
+// 010   ----------------------------------------
+	BYTE	W48
+	BYTE		N11     Dn3   v100
+	BYTE	W12
+	BYTE		N96     Ds3 
+	BYTE	W36
+// 011   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Gumshoe_8_004
+// 012   ----------------------------------------
+	BYTE		N11     Gn2   v100
+	BYTE	W12
+	BYTE		N32     Fn3 
+	BYTE	W36
+	BYTE		N56     Ds3 
+	BYTE	W48
+// 013   ----------------------------------------
+	BYTE	W12
+	BYTE		N32     Gn3 
+	BYTE	W36
+	BYTE		N56     Fn3 
+	BYTE	W48
+// 014   ----------------------------------------
+Gumshoe_8_014:
+	BYTE	W12
+	BYTE		N11     Ds3   v100
+	BYTE	W18
+	BYTE		        Fn3 
+	BYTE	W18
+	BYTE		        Ds3 
+	BYTE	W12
+	BYTE		        As3 
+	BYTE	W18
+	BYTE		        Fn3 
+	BYTE	W18
+	BYTE	PEND
+// 015   ----------------------------------------
+	BYTE		N84     Ds3 
+	BYTE	W96
+// 016   ----------------------------------------
+Gumshoe_8_016:
+	BYTE	W12
+	BYTE		N11     Ds3   v100
+	BYTE	W18
+	BYTE		        Fn3 
+	BYTE	W18
+	BYTE		        Ds3 
+	BYTE	W12
+	BYTE		        Gs3 
+	BYTE	W18
+	BYTE		        Gn3 
+	BYTE	W18
+	BYTE	PEND
+// 017   ----------------------------------------
+	BYTE		        Ds3 
+	BYTE	W12
+	BYTE		N32     Gn3 
+	BYTE	W36
+	BYTE		N05     Gs3 
+	BYTE	W06
+	BYTE		        Gn3 
+	BYTE	W06
+	BYTE		N44     Fn3 
+	BYTE	W36
+// 018   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Gumshoe_8_014
+// 019   ----------------------------------------
+	BYTE		N84     Ds3   v100
+	BYTE	W96
+// 020   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Gumshoe_8_016
+// 021   ----------------------------------------
+	BYTE		N11     Ds3   v100
+	BYTE	W12
+	BYTE		N32     Gn3 
+	BYTE	W36
+	BYTE		N05     Gs3 
+	BYTE	W06
+	BYTE		        Gn3 
+	BYTE	W06
+	BYTE		N22     Fn3 
+	BYTE	W24
+	BYTE		N11     Ds3 
+	BYTE	W12
+// 022   ----------------------------------------
+	BYTE		        Dn3 
+	BYTE	W12
+	BYTE		N32   
+	BYTE	W36
+	BYTE		N56     Cn3 
+	BYTE	W48
+// 023   ----------------------------------------
+	BYTE	W12
+	BYTE		N32     Ds3 
+	BYTE	W36
+	BYTE		N56     Dn3 
+	BYTE	W48
+// 024   ----------------------------------------
+	BYTE	W96
+	BYTE	GoTo
+	 POIN2	Gumshoe_8_B1
+Gumshoe_8_B2:
+// 025   ----------------------------------------
+	BYTE		N11     Dn3   v100
+	BYTE	W12
+	BYTE	FINE
+
+//**************** Track 9 (Midi-Chn.11) ****************//
+
+Gumshoe_9:
+	BYTE	KEYSH   Gumshoe_key+0
+Gumshoe_9_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   122
+	BYTE		VOL     48*Gumshoe_mvl/mxv
+	BYTE		MOD     0
+	BYTE		PAN     c_v+0
+	BYTE	W12
+	BYTE		N05     Cn1   v120
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W18
+	BYTE		N05     Cs1   v108
+	BYTE	W36
+	BYTE		N06     Cn1   v120
+	BYTE	W12
+	BYTE		        Cs1   v108
+	BYTE	W12
+// 001   ----------------------------------------
+	BYTE	W12
+	BYTE		        Cn1   v120
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W18
+	BYTE		N05     Cs1   v108
+	BYTE	W06
+	BYTE		        Cs1   v076
+	BYTE	W06
+	BYTE		        Cn1   v120
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W12
+	BYTE		N06     Cs1   v108
+	BYTE	W12
+// 002   ----------------------------------------
+	BYTE	W06
+	BYTE		        Cs1   v076
+	BYTE	W18
+	BYTE		        Cn1   v120
+	BYTE	W12
+	BYTE		        Cs1   v108
+	BYTE	W24
+	BYTE		N05     Cn1   v120
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W12
+	BYTE		N06     Cs1   v108
+	BYTE	W12
+// 003   ----------------------------------------
+Gumshoe_9_003:
+	BYTE	W24
+	BYTE		N06     Cn1   v120
+	BYTE	W12
+	BYTE		        Cs1   v108
+	BYTE	W24
+	BYTE		N05     Cn1   v120
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W18
+	BYTE		        Cs1   v108
+	BYTE	W12
+	BYTE	PEND
+// 004   ----------------------------------------
+Gumshoe_9_004:
+	BYTE	W24
+	BYTE		N06     Cn1   v120
+	BYTE	W12
+	BYTE		        Cs1   v108
+	BYTE	W24
+	BYTE		        Cn1   v120
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W18
+	BYTE	PEND
+// 005   ----------------------------------------
+Gumshoe_9_005:
+	BYTE		N05     Cs1   v108
+	BYTE	W06
+	BYTE		        Cs1   v076
+	BYTE	W06
+	BYTE		        Cn1   v120
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W18
+	BYTE		        Cs1   v108
+	BYTE	W36
+	BYTE		        Cn1   v120
+	BYTE	W12
+	BYTE		        Cs1   v108
+	BYTE	W12
+	BYTE	PEND
+// 006   ----------------------------------------
+	BYTE	W06
+	BYTE		N05     Cs1   v076
+	BYTE	W06
+	BYTE		N06     Cn1   v120
+	BYTE	W24
+	BYTE		N06   
+	BYTE		N06     Cs1   v108
+	BYTE	W18
+	BYTE		N05     Cs1   v076
+	BYTE	W06
+	BYTE		N06     Cn1   v120
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W12
+	BYTE		N06   
+	BYTE		N06     Cs1   v108
+	BYTE	W12
+// 007   ----------------------------------------
+	BYTE	W12
+	BYTE		N05     Cn1   v120
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W18
+	BYTE		        Cs1   v108
+	BYTE	W36
+	BYTE		        Cn1   v120
+	BYTE	W12
+	BYTE		        Cs1   v108
+	BYTE	W12
+// 008   ----------------------------------------
+	BYTE	W12
+	BYTE		        Cn1   v120
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W18
+	BYTE		N05     Cs1   v108
+	BYTE	W06
+	BYTE		        Cs1   v076
+	BYTE	W06
+	BYTE		N06     Cn1   v120
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W12
+	BYTE		        Cs1   v108
+	BYTE	W12
+// 009   ----------------------------------------
+	BYTE	W06
+	BYTE		        Cs1   v076
+	BYTE	W18
+	BYTE		        Cn1   v120
+	BYTE	W12
+	BYTE		        Cs1   v108
+	BYTE	W24
+	BYTE		        Cn1   v120
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W12
+	BYTE		        Cs1   v108
+	BYTE	W12
+// 010   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Gumshoe_9_003
+// 011   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Gumshoe_9_004
+// 012   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Gumshoe_9_005
+// 013   ----------------------------------------
+	BYTE	W06
+	BYTE		N05     Cs1   v076
+	BYTE	W06
+	BYTE		N06     Cn1   v120
+	BYTE	W18
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N06     Cs1   v108
+	BYTE	W12
+	BYTE		        Cn1   v120
+	BYTE	W18
+	BYTE		N05     Cs1   v108
+	BYTE	W06
+	BYTE		N06     Cn1   v120
+	BYTE	W12
+	BYTE		N06   
+	BYTE		N06     Cs1   v108
+	BYTE	W12
+// 014   ----------------------------------------
+	BYTE		N05   
+	BYTE	W06
+	BYTE		        Cs1   v076
+	BYTE	W06
+	BYTE		N06     Cn1   v120
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W18
+	BYTE		N06   
+	BYTE		N06     Cs1   v108
+	BYTE	W12
+	BYTE		        Cn1   v120
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W18
+// 015   ----------------------------------------
+Gumshoe_9_015:
+	BYTE		N06     Cn1   v120
+	BYTE		N06     Cs1   v108
+	BYTE	W12
+	BYTE		        Cn1   v120
+	BYTE	W24
+	BYTE		N06   
+	BYTE		N06     Cs1   v108
+	BYTE	W24
+	BYTE		        Cn1   v120
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W12
+	BYTE		N06   
+	BYTE		N06     Cs1   v108
+	BYTE	W12
+	BYTE	PEND
+// 016   ----------------------------------------
+	BYTE	W12
+	BYTE		        Cn1   v120
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W18
+	BYTE		N06   
+	BYTE		N06     Cs1   v108
+	BYTE	W12
+	BYTE		        Cn1   v120
+	BYTE	W18
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N06     Cs1   v076
+	BYTE	W12
+// 017   ----------------------------------------
+Gumshoe_9_017:
+	BYTE		N06     Cn1   v120
+	BYTE		N06     Cs1   v108
+	BYTE	W12
+	BYTE		        Cn1   v120
+	BYTE	W24
+	BYTE		N06   
+	BYTE		N06     Cs1   v108
+	BYTE	W24
+	BYTE		        Cn1   v120
+	BYTE	W24
+	BYTE		N06   
+	BYTE		N06     Cs1   v108
+	BYTE	W12
+	BYTE	PEND
+// 018   ----------------------------------------
+	BYTE		        Cn1   v120
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W18
+	BYTE		N06   
+	BYTE		N06     Cs1   v108
+	BYTE	W12
+	BYTE		        Cn1   v120
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W18
+// 019   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Gumshoe_9_015
+// 020   ----------------------------------------
+	BYTE	W06
+	BYTE		N05     Cs1   v076
+	BYTE	W06
+	BYTE		N06     Cn1   v120
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W18
+	BYTE		N06   
+	BYTE		N06     Cs1   v108
+	BYTE	W12
+	BYTE		        Cn1   v120
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W18
+// 021   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Gumshoe_9_017
+// 022   ----------------------------------------
+	BYTE		N06     Cn1   v120
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W18
+	BYTE		N05     Cn1   v080
+	BYTE	W06
+	BYTE		N06     Cs1   v108
+	BYTE	W36
+	BYTE		        Cn1   v120
+	BYTE	W12
+	BYTE		        Cs1   v108
+	BYTE	W12
+// 023   ----------------------------------------
+	BYTE	W12
+	BYTE		        Cn1   v120
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W12
+	BYTE		        Cs1   v108
+	BYTE	W18
+	BYTE		        Cn1   v120
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W12
+	BYTE		        Cs1   v108
+	BYTE	W12
+// 024   ----------------------------------------
+	BYTE		N05   
+	BYTE	W06
+	BYTE		        Cs1   v076
+	BYTE	W06
+	BYTE		N06     Cn1   v120
+	BYTE	W84
+	BYTE	GoTo
+	 POIN2	Gumshoe_9_B1
+Gumshoe_9_B2:
+// 025   ----------------------------------------
+	BYTE		N06     Cn1   v120
+	BYTE	W12
+	BYTE	FINE
+
+//**************** Track 10 (Midi-Chn.12) ****************//
+
+Gumshoe_10:
+	BYTE	KEYSH   Gumshoe_key+0
+Gumshoe_10_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   10
+	BYTE		VOL     22*Gumshoe_mvl/mxv
+	BYTE		PAN     c_v-50
+	BYTE		MOD     0
+	BYTE	W12
+	BYTE		N12     Cn4   v080
+	BYTE	W12
+	BYTE		        Gn4 
+	BYTE	W12
+	BYTE		        Cn5 
+	BYTE	W12
+	BYTE		        Cn4 
+	BYTE	W12
+	BYTE		        Gn4 
+	BYTE	W12
+	BYTE		        Cn5 
+	BYTE	W12
+	BYTE		        Cn4 
+	BYTE	W12
+// 001   ----------------------------------------
+Gumshoe_10_001:
+	BYTE		N12     Gn4   v080
+	BYTE	W12
+	BYTE		        Cn5 
+	BYTE	W12
+	BYTE		        Cn4 
+	BYTE	W12
+	BYTE		        Gn4 
+	BYTE	W12
+	BYTE		        Cn5 
+	BYTE	W12
+	BYTE		        Cn4 
+	BYTE	W12
+	BYTE		        Gn4 
+	BYTE	W12
+	BYTE		        Cn5 
+	BYTE	W12
+	BYTE	PEND
+// 002   ----------------------------------------
+Gumshoe_10_002:
+	BYTE		N12     Cn4   v080
+	BYTE	W12
+	BYTE		        Gn4 
+	BYTE	W12
+	BYTE		        Cn5 
+	BYTE	W12
+	BYTE		        Cn4 
+	BYTE	W12
+	BYTE		        Gn4 
+	BYTE	W12
+	BYTE		        Cn5 
+	BYTE	W12
+	BYTE		        Cn4 
+	BYTE	W12
+	BYTE		        Gn4 
+	BYTE	W12
+	BYTE	PEND
+// 003   ----------------------------------------
+Gumshoe_10_003:
+	BYTE		N12     Cn5   v080
+	BYTE	W12
+	BYTE		        Cn4 
+	BYTE	W12
+	BYTE		        Gn4 
+	BYTE	W12
+	BYTE		        Cn5 
+	BYTE	W12
+	BYTE		        Cn4 
+	BYTE	W12
+	BYTE		        Gn4 
+	BYTE	W12
+	BYTE		        Cn5 
+	BYTE	W12
+	BYTE		        Cn4 
+	BYTE	W12
+	BYTE	PEND
+// 004   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Gumshoe_10_001
+// 005   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Gumshoe_10_002
+// 006   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Gumshoe_10_003
+// 007   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Gumshoe_10_001
+// 008   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Gumshoe_10_002
+// 009   ----------------------------------------
+	BYTE		N12     Cn5   v080
+	BYTE	W12
+	BYTE		        Cn4 
+	BYTE	W12
+	BYTE		        Gn4 
+	BYTE	W12
+	BYTE		        Cn5 
+	BYTE	W12
+	BYTE		        Cn4 
+	BYTE	W12
+	BYTE		        Gn4 
+	BYTE	W12
+	BYTE		        As4 
+	BYTE	W12
+	BYTE		        Dn4 
+	BYTE	W12
+// 010   ----------------------------------------
+	BYTE		        Gn4 
+	BYTE	W12
+	BYTE		        As4 
+	BYTE	W12
+	BYTE		        Dn4 
+	BYTE	W12
+	BYTE		        Gn4 
+	BYTE	W12
+	BYTE		        As4 
+	BYTE	W12
+	BYTE		        Cn4 
+	BYTE	W12
+	BYTE		        Gn4 
+	BYTE	W12
+	BYTE		        Cn5 
+	BYTE	W12
+// 011   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Gumshoe_10_002
+// 012   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Gumshoe_10_003
+// 013   ----------------------------------------
+	BYTE		N12     Gn4   v080
+	BYTE	W12
+	BYTE		        Cn5 
+	BYTE	W12
+	BYTE		        Dn4 
+	BYTE	W12
+	BYTE		        Fn4 
+	BYTE	W12
+	BYTE		        As4 
+	BYTE	W12
+	BYTE		        Dn4 
+	BYTE	W12
+	BYTE		        Fn4 
+	BYTE	W12
+	BYTE		N14     As4 
+	BYTE	W12
+// 014   ----------------------------------------
+	BYTE	W96
+// 015   ----------------------------------------
+	BYTE	W96
+// 016   ----------------------------------------
+	BYTE	W96
+// 017   ----------------------------------------
+	BYTE	W96
+// 018   ----------------------------------------
+	BYTE	W96
+// 019   ----------------------------------------
+	BYTE	W96
+// 020   ----------------------------------------
+	BYTE	W96
+// 021   ----------------------------------------
+	BYTE	W96
+// 022   ----------------------------------------
+	BYTE	W96
+// 023   ----------------------------------------
+	BYTE	W12
+	BYTE		N12     Cn4   v040
+	BYTE	W12
+	BYTE		        Gn4 
+	BYTE	W12
+	BYTE		        Cn5   v060
+	BYTE	W12
+	BYTE		        Cn4 
+	BYTE	W12
+	BYTE		        Gn4   v080
+	BYTE	W12
+	BYTE		        Cn5 
+	BYTE	W12
+	BYTE		        Cn4   v092
+	BYTE	W12
+// 024   ----------------------------------------
+	BYTE		        Gn4 
+	BYTE	W12
+	BYTE		        Cn5   v080
+	BYTE	W12
+	BYTE		        Cn4 
+	BYTE	W12
+	BYTE		        Gn4 
+	BYTE	W12
+	BYTE		        Cn5 
+	BYTE	W12
+	BYTE		        Cn4 
+	BYTE	W12
+	BYTE		        Gn4 
+	BYTE	W12
+	BYTE		N06     Cn4 
+	BYTE	W06
+	BYTE		        Dn4   v060
+	BYTE	W06
+	BYTE	GoTo
+	 POIN2	Gumshoe_10_B1
+Gumshoe_10_B2:
+// 025   ----------------------------------------
+	BYTE		N06     Gn4   v080
+	BYTE	W06
+	BYTE		        Cn5   v060
+	BYTE	W06
+	BYTE	FINE
+
+//******************************************************//
+	ALIGN 4
+
+Gumshoe:
+	BYTE	10	// NumTrks
+	BYTE	0	// NumBlks
+	BYTE	Gumshoe_pri	// Priority
+	BYTE	Gumshoe_rev	// Reverb.
+
+	POIN2	Gumshoe_grp
+
+	POIN2	Gumshoe_1
+	POIN2	Gumshoe_2
+	POIN2	Gumshoe_3
+	POIN2	Gumshoe_4
+	POIN2	Gumshoe_5
+	POIN2	Gumshoe_6
+	POIN2	Gumshoe_7
+	POIN2	Gumshoe_8
+	POIN2	Gumshoe_9
+	POIN2	Gumshoe_10
+
+	

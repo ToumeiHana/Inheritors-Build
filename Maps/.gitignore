@@ -2,6 +2,8 @@
 # tmx2ea-generated files
 *.event
 !TilesetInstaller.event
+!TileAnims/TileAnimsInstaller.event
+!MasterMapInstaller.event
 
 # tmx2ea-generated data file
 *.dmp

@@ -80,6 +80,7 @@ Units1:
 	UNIT Alysa Recruit_1 Curtis Level(1,Ally,False) [7,23] 0x00 0x00 0x01 [Skygazer, IronLance, Vulnerary] NoAI
 	UNIT Jacob SwordCavalier Curtis Level(1,Ally,False) [8,24] 0x00 0x00 0x00 0x01 [IronSword] NoAI
 	UNIT Lucian LanceCavalier Curtis Level(1,Ally,False) [7,24] 0x00 0x00 0x00 0x01 [IronLance] NoAI
+	//UNIT Nella Mage Curtis Level(2,Ally,True) [0,0] 0x0 0x0 0x0 0x1 [Fire Elstone] NoAI
 	UNIT
 
 EnemyUnits:
@@ -96,6 +97,7 @@ EnemyUnits:
 	UNIT Farum Soldier ONeill Level(2,Enemy,True) [4,13] 0x00 0x00 0x00 [IronLance] TwoActionAI
 	UNIT Farum Soldier ONeill Level(3,Enemy,True) [17,0] 0x00 0x00 0x00 [IronLance] MoveWithLeaderAI
 	UNIT Goon Soldier ONeill Level(1,Enemy,True) [18,2] 0x00 0x00 0x00 [IronLance] DoNothing
+	//UNIT Farum Outlaw ONeill Level(1,Enemy,False) [2,0] 0x0 0x0 0x0 [IronBow] DoNothing
 	UNIT
 	
 ReinforcementGroup:

@@ -1,3 +1,10 @@
+## BorderDefendDesc
+Defend the border[NL]
+for 12 turns.[X]
+
+## BorderDefendShortDesc
+Defend[X]
+
 ## Ch4ChargeText
 [MidLeft][LoadFace][0x33][0x1]
 ai change text[A][X]

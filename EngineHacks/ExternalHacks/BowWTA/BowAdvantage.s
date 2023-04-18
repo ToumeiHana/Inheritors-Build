@@ -25,6 +25,16 @@ ble End @No effect when range <= 1
 cmp r0,#4
 bge End @No effect when range >= 4
 
+@Nella's arrowsbane is coded into charID
+ldr r0, [r5,#0]
+ldrb r0,[r0,#0x4] @defender charID
+cmp r0, #0xD
+beq End
+ldr r1, [r4,#0]
+ldrb r1,[r1,#0x4] @attacker charID
+cmp r1, #0xD
+beq End
+
 @get weapon type of the attacker
 mov r1, #0x4A
 ldrh r0, [ r4, r1 ] @ Equipped item halfword.
@@ -50,11 +60,11 @@ cmp r0,#0x3
 bne End @ If neither have bows, end
 ldr r0, =0x203A53F @ Location for hit change for attacker
 ldr r1, =0x203A5BF @ Location for hit change for defender
-mov r2, #0x15      @ 10 for hit advantage
-mov r3, #0xF6      @ -10 for hit disadvantage
+mov r2, #0x0F      @ 15 for hit advantage
+mov r3, #0xF1      @ -15 for hit disadvantage
 strb r3, [ r0 ]
 strb r2, [ r1 ]
-mov r2, #0x01      @ 1 for damage advantage
+mov r2, #0x02      @ 2 for damage advantage
 mov r3, #0xFF      @ -1 for damage disadvantage
 strb r3, [ r0, #1 ]
 strb r2, [ r1, #1 ] @ Damage location is only one up from hit location
@@ -65,11 +75,11 @@ cmp r0,r2
 beq End @ If both have bows, end
 ldr r0, =0x203A53F @ Location for hit change for attacker
 ldr r1, =0x203A5BF @ Location for hit change for defender
-mov r2, #0x0A      @ 10 for hit advantage
-mov r3, #0xF6      @ -10 for hit disadvantage
+mov r2, #0x0F      @ 15 for hit advantage
+mov r3, #0xF1      @ -15 for hit disadvantage
 strb r2, [ r0 ]
 strb r3, [ r1 ]
-mov r2, #0x01      @ 1 for damage advantage
+mov r2, #0x02      @ 2 for damage advantage
 mov r3, #0xFF      @ -1 for damage disadvantage
 strb r2, [ r0, #1 ]
 strb r3, [ r1, #1 ] @ Damage location is only one up from hit location

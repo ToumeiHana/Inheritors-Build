@@ -32,6 +32,7 @@ If you need more complex ai behavior from your unit, you can instead of using th
 
 
 //AiTryTalkToCharacter(Libby)
+/*
 ALIGN 4
 EmmanuelAi:{
 AiMoveTowardsCharacter(Libby)
@@ -45,5 +46,5 @@ AiTryTalkToCharacter(Emmanuel)
 
 InjectAi2(LIBBY_AI2, LibbyAi)
 }
-
+*/
 #endif // TALKAI_INCLUDED

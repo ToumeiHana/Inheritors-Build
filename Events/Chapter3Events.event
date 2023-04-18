@@ -14,8 +14,9 @@ PointerList:
 
 TurnBasedEvents:
 
-	TurnEventPlayer(0,LooterSpawn,7)
+	TurnEventPlayer(0,LooterSpawn,8)
 	//TurnEventPlayer(0,BrigandCharge,6)
+	TurnEventPlayer(10,BossDefeatedEvent,1)
 	END_MAIN
 
 ALIGN 32
@@ -67,6 +68,7 @@ Units1:
 	UNIT Janessa CerapterKnight Curtis Level(1,Ally,False) [15,0] 0x00 0x00 0x00 0x01 [0x0] NoAI
 	UNIT Janessa CerapterKnight Curtis Level(1,Ally,False) [14,0] 0x00 0x00 0x00 0x01 [0x0] NoAI
 	UNIT Janessa CerapterKnight Curtis Level(1,Ally,False) [13,0] 0x00 0x00 0x00 0x01 [0x0] NoAI
+	//UNIT Janessa CerapterKnight Curtis Level(1,Ally,False) [6,6] 0x00 0x00 0x00 0x01 [0x0] NoAI
 	UNIT
 
 EnemyUnits:
@@ -96,15 +98,15 @@ LibbyGroup:
 	UNIT
 
 BoulderOne:
-	UNIT BoulderSummon Boulder 0x0 Level(17,Enemy,True) [8,9] 0x00 0x00 0x00 0x00 [0x0] NeverMoveAI
+	UNIT BoulderSummon Boulder 0x0 Level(10,Enemy,True) [8,9] 0x00 0x00 0x00 0x00 [0x0] NeverMoveAI
 	UNIT
 	
 BoulderTwo:
-	UNIT Goon Boulder 0x0 Level(17,Enemy,True) [7,9] 0x00 0x00 0x00 0x00 [0x0] NeverMoveAI
+	UNIT Goon Boulder 0x0 Level(10,Enemy,True) [7,9] 0x00 0x00 0x00 0x00 [0x0] NeverMoveAI
 	UNIT
 
 BoulderTwoReal:
-	UNIT BoulderSummon Boulder 0x0 Level(17,Enemy,True) [7,9] 0x00 0x00 0x00 0x00 [0x0] NeverMoveAI
+	UNIT BoulderSummon Boulder 0x0 Level(10,Enemy,True) [7,9] 0x00 0x00 0x00 0x00 [0x0] NeverMoveAI
 	UNIT
 	
 LooterGroup:
@@ -118,8 +120,8 @@ ExtraLads:
 	UNIT
 
 Traps1:
-	//Vein(22,17,7)
-	Vein(14,2,1)
+	Vein(22,17,1)
+	//Vein(14,2,1)
 	ENDTRAP
 	ALIGN 4
 
@@ -206,6 +208,7 @@ Ch3VeinEvent:
 
 BossDefeatedEvent:
 
+	ENUF 4
 	CAMERA Libby
 	SOUN 0xB1
 	TILEREVERT 0	
@@ -213,14 +216,14 @@ BossDefeatedEvent:
 	//CAMERA Libby
 	CUSA Libby
 	Text(LibbyJoinText)
-	//SVAL s1 0x00040A06
+	//SVAL s1 0x00040C06
 	//CHAI Libby
 	//CUSA Libby
-	SVAL s1 0x00040B06
+	SVAL s1 0x00040D06
 	CHAI Emmanuel
 	SVAL s1 0x00400000
-	CHAI Brigand_Enemy
-	LOAD1 0x0 ExtraLads
+	//CHAI Brigand_Enemy
+	//LOAD1 0x0 ExtraLads
 	ENUF 2
 	NoFade
 	ENDA
@@ -233,7 +236,7 @@ CurtisLibbyTalk:
 
 EmmanuelRecruitment:
 
-	MUSS FlapperGirlID
+	MUSS NearFarID
 	Text(EmmanuelRecruitText)
 	CUSA Emmanuel
 	//CUSA Libby

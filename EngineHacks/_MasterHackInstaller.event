@@ -53,7 +53,9 @@ ORG FreeSpaceBLRange //defined in custom definitions
 	#include "ExternalHacks/StrMagSplit/BLRange.event"
   
   #endif // USE_STRMAG_SPLIT
-	
+
+
+  
 #undef inBLRange
 POP
 
@@ -62,6 +64,8 @@ POP
 
   //#include "ExternalHacks/Equip/Installer.event"
 
+  #include "ExternalHacks/Summon Rework/SummonReworkInstaller.event"
+  
   #include "ExternalHacks/ChangeChapterSong/Installer.event"
   
   #include "ExternalHacks/ContinueBattleBGM/Installer.event"

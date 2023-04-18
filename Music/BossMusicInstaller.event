@@ -2,6 +2,7 @@
 #define SetBossMusic(UnitID) "WORD UnitID 0x1B"
 #define SetCustomBossMusic(UnitID,MusicID) "WORD UnitID MusicID"
 #define BossMusicListTerminator "WORD 0xFFFFFFFF 0xFFFFFFFF"
+#define MapOverrideBossMusic(UnitID) "WORD UnitID 0xFFFFF"  //Setting music handled in Tables/Quote/BattleQuoteEvents
 
 //Boss music table 
 PUSH
@@ -12,9 +13,9 @@ POP
 ALIGN 4
 MESSAGE Boss Music Table begins at CURRENTOFFSET
 BossMusicTable:
-SetCustomBossMusic(ONeill,EndlessFightingMapID)
-SetBossMusic(Breguet)
-SetBossMusic(Bone)
+SetCustomBossMusic(ONeill,0xFFFFF)
+MapOverrideBossMusic(Breguet)
+MapOverrideBossMusic(Bone)
 SetCustomBossMusic(Bazba,OffToWarRemixID)
 
 BossMusicListTerminator

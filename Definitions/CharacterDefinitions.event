@@ -39,8 +39,8 @@
 #define Hudson 0x27
 #define Vidar 0x28
 #define Caitlinne 0x29
-/*#define FadoCC 0x2A
-#define IsmaireCC 0x2B
+#define Ellie 0x2A
+/*#define IsmaireCC 0x2B
 #define HaydenCC 0x2C
 #define LyonSummon 0x3B*/
 #define BoulderSummon 0x3E/*
@@ -76,9 +76,9 @@
 #define Wight_boss 0x5D
 #define Deathgoyle_boss 0x5E
 #define Bandit 0x66
-#define ONeill 0x68
+#define ONeill 0x68*/
 #define Oneill ONeill
-#define Glen 0x69
+/*#define Glen 0x69
 #define Zonta 0x6A
 #define Vigarde 0x6B
 #define Lyon_Final 0x6C
@@ -86,6 +86,7 @@
 #define Farum 0x80
 #define Goon 0x81
 #define Engineer 0x82
+#define FarumWeak 0x83
 #define HeroKing 0x95
 #define SceneDrago 0x96
 #define Brigand_Enemy 0x97
@@ -108,8 +109,3 @@
 #define OldCivilian 0xFC
 #define Wall 0xFE
 #define Snag 0xFF*/
-
-//TalkAi
-
-#define LIBBY_AI2 0xA
-#define EMMANUEL_AI2 0xB

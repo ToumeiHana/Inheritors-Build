@@ -21,8 +21,10 @@
 #define KnightsOathID 0x28
 #define RuinsNightID 0x2A
 #define NearFarID 0x30
-#define HeavyArmorCorpsID 0x34
-#define MushroomGorgeID 0x35
+#define GumshoeID 0x34
+//#define HeavyArmorCorpsID 0x34
+//#define MushroomGorgeID 0x35
+#define WaterStarID 0x35
 #define DefendGlobeID 0x3f
 #define FlapperGirlID 0x44
 #define QuestBattleID 0x46

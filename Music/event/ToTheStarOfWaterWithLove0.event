@@ -1,0 +1,5476 @@
+//Event file generated from Sappy .s format.
+	#include "MPlayDef.event"
+
+	#define	ToTheStarOfWaterWithLove0_grp  voicegroup000
+	#define	ToTheStarOfWaterWithLove0_pri  0
+	#define	ToTheStarOfWaterWithLove0_rev  0
+	#define	ToTheStarOfWaterWithLove0_mvl  127
+	#define	ToTheStarOfWaterWithLove0_key  0
+	#define	ToTheStarOfWaterWithLove0_tbs  1
+	#define	ToTheStarOfWaterWithLove0_exg  0
+	#define	ToTheStarOfWaterWithLove0_cmp  1
+
+	// .rodata
+	//	ToTheStarOfWaterWithLove0
+	ALIGN 4
+
+//**************** Track 1 (Midi-Chn.1) ****************//
+
+ToTheStarOfWaterWithLove0_1:
+	BYTE	KEYSH   ToTheStarOfWaterWithLove0_key+0
+// 000   ----------------------------------------
+	BYTE	TEMPO   250*ToTheStarOfWaterWithLove0_tbs/2
+	BYTE		VOICE   97
+	BYTE	W01
+	BYTE		PAN     c_v+0
+	BYTE	W23
+	BYTE	TEMPO   135*ToTheStarOfWaterWithLove0_tbs/2
+	BYTE	W72
+// 001   ----------------------------------------
+	BYTE	W96
+// 002   ----------------------------------------
+	BYTE	W96
+// 003   ----------------------------------------
+	BYTE	W96
+// 004   ----------------------------------------
+	BYTE	W96
+// 005   ----------------------------------------
+	BYTE	W96
+ToTheStarOfWaterWithLove0_1_B1:
+// 006   ----------------------------------------
+	BYTE	W96
+// 007   ----------------------------------------
+	BYTE	W96
+// 008   ----------------------------------------
+	BYTE	W96
+// 009   ----------------------------------------
+	BYTE	W96
+// 010   ----------------------------------------
+	BYTE	W96
+// 011   ----------------------------------------
+	BYTE	W24
+	BYTE		VOL     43*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W72
+// 012   ----------------------------------------
+	BYTE	W24
+	BYTE		N08     En4   v092
+	BYTE	W12
+	BYTE		N11     En4   v088
+	BYTE	W12
+	BYTE		        Gn4   v096
+	BYTE	W12
+	BYTE		N30     Fs4   v088
+	BYTE	W36
+// 013   ----------------------------------------
+	BYTE		N11     Dn4 
+	BYTE	W12
+	BYTE		N36     En4   v084
+	BYTE	W44
+	BYTE	W02
+	BYTE		BEND    c_v+0
+	BYTE	W02
+	BYTE		        c_v-2
+	BYTE		N11     Gn4   v096
+	BYTE	W03
+	BYTE		BEND    c_v+0
+	BYTE	W09
+	BYTE		N11     Fs4   v084
+	BYTE	W12
+	BYTE		        En4   v088
+	BYTE	W12
+// 014   ----------------------------------------
+	BYTE		N08     Dn4   v080
+	BYTE	W12
+	BYTE		N23     Dn4   v088
+	BYTE	W24
+	BYTE		N60     Cn4   v084
+	BYTE	W60
+// 015   ----------------------------------------
+	BYTE	W12
+	BYTE		N11     Dn4 
+	BYTE	W12
+	BYTE		N07     Cn4   v088
+	BYTE	W12
+	BYTE		N66     Bn3   v084
+	BYTE	W60
+// 016   ----------------------------------------
+	BYTE	W24
+	BYTE		N20     En4   v092
+	BYTE	W24
+	BYTE		N10     Gn4   v096
+	BYTE	W12
+	BYTE		N23     Fs4   v092
+	BYTE	W24
+	BYTE		N08     Gn4   v088
+	BYTE	W12
+// 017   ----------------------------------------
+	BYTE		N10     Fs4 
+	BYTE	W12
+	BYTE		N36     En4   v080
+	BYTE	W48
+	BYTE		N10     Gn4   v096
+	BYTE	W12
+	BYTE		        Fs4   v084
+	BYTE	W12
+	BYTE		        En4   v088
+	BYTE	W12
+// 018   ----------------------------------------
+	BYTE		N08     Dn4   v080
+	BYTE	W12
+	BYTE		N23     Dn4   v088
+	BYTE	W24
+	BYTE		N66     Cn4   v084
+	BYTE	W60
+// 019   ----------------------------------------
+	BYTE	W12
+	BYTE		N08     En4   v096
+	BYTE	W12
+	BYTE		N11     En4   v100
+	BYTE	W12
+	BYTE		N24     Ds4   v092
+	BYTE	W36
+	BYTE		N20     Bn3 
+	BYTE	W24
+// 020   ----------------------------------------
+	BYTE		N18     Ds4   v100
+	BYTE	W24
+	BYTE		N72     En4   v104
+	BYTE	W72
+// 021   ----------------------------------------
+	BYTE	W12
+	BYTE		N10     Cn4   v096
+	BYTE	W10
+	BYTE		BEND    c_v+0
+	BYTE	W02
+	BYTE		        c_v-2
+	BYTE		N08     Gn4   v104
+	BYTE	W03
+	BYTE		BEND    c_v+0
+	BYTE	W09
+	BYTE		N10     Gn4   v096
+	BYTE	W12
+	BYTE		        Fs4   v100
+	BYTE	W12
+	BYTE		N17     En4   v092
+	BYTE	W24
+	BYTE		N11     Cn4 
+	BYTE	W12
+// 022   ----------------------------------------
+	BYTE		        Dn4   v100
+	BYTE	W12
+	BYTE		N23     En4   v104
+	BYTE	W24
+	BYTE		N11     Ds4   v084
+	BYTE	W12
+	BYTE		N48     En4   v092
+	BYTE	W48
+// 023   ----------------------------------------
+	BYTE	W12
+	BYTE		N10     Cs4   v096
+	BYTE	W10
+	BYTE		BEND    c_v+0
+	BYTE	W02
+	BYTE		        c_v-3
+	BYTE		N08     Gn4   v104
+	BYTE	W03
+	BYTE		BEND    c_v+0
+	BYTE	W09
+	BYTE		N10     Gn4   v096
+	BYTE	W12
+	BYTE		        Fs4   v100
+	BYTE	W12
+	BYTE		N17     En4   v092
+	BYTE	W24
+	BYTE		N10     Dn4   v104
+	BYTE	W12
+// 024   ----------------------------------------
+	BYTE		N08     Bn3   v092
+	BYTE	W12
+	BYTE		N22     Bn3   v100
+	BYTE	W24
+	BYTE		N08     An3 
+	BYTE	W12
+	BYTE		N42     An3   v096
+	BYTE	W48
+// 025   ----------------------------------------
+	BYTE		N08     An3   v100
+	BYTE	W12
+	BYTE		N10     An3   v096
+	BYTE	W12
+	BYTE		N11     Bn3   v100
+	BYTE	W10
+	BYTE		BEND    c_v+0
+	BYTE	W02
+	BYTE		        c_v-2
+	BYTE		N23     En4   v104
+	BYTE	W03
+	BYTE		BEND    c_v+0
+	BYTE	W21
+	BYTE		N30     Dn4   v100
+	BYTE	W36
+// 026   ----------------------------------------
+	BYTE		N10     Bn3   v096
+	BYTE	W12
+	BYTE		N22     Cn4   v100
+	BYTE	W24
+	BYTE		        En4   v104
+	BYTE	W24
+	BYTE		        Gn4   v100
+	BYTE	W22
+	BYTE		BEND    c_v+0
+	BYTE	W02
+	BYTE		        c_v-2
+	BYTE		N10     An4   v108
+	BYTE	W03
+	BYTE		BEND    c_v+0
+	BYTE	W09
+// 027   ----------------------------------------
+	BYTE		N08     Gn4   v104
+	BYTE	W12
+	BYTE		N22     Gn4   v100
+	BYTE	W24
+	BYTE		TIE     Fs4   v104
+	BYTE	W60
+// 028   ----------------------------------------
+	BYTE	W54
+	BYTE		EOT   
+	BYTE	W18
+	BYTE		N20     Gn4 
+	BYTE	W24
+// 029   ----------------------------------------
+	BYTE		        An4   v108
+	BYTE	W24
+	BYTE		N11     Fs4   v104
+	BYTE	W12
+	BYTE		N21     En4   v092
+	BYTE	W24
+	BYTE		N11     Dn4   v104
+	BYTE	W12
+	BYTE		        En4   v096
+	BYTE	W12
+	BYTE		        Gn4 
+	BYTE	W12
+// 030   ----------------------------------------
+	BYTE		        An4   v100
+	BYTE	W12
+	BYTE		N84     Bn4   v108
+	BYTE	W84
+// 031   ----------------------------------------
+	BYTE	W12
+	BYTE		N10     Bn4   v100
+	BYTE	W12
+	BYTE		N11     Cn5   v108
+	BYTE	W12
+	BYTE		        Bn4   v100
+	BYTE	W12
+	BYTE		        An4   v104
+	BYTE	W12
+	BYTE		        Gn4   v096
+	BYTE	W12
+	BYTE		N10     En4   v100
+	BYTE	W12
+	BYTE		        Gn4   v104
+	BYTE	W12
+// 032   ----------------------------------------
+	BYTE		        Fs4   v096
+	BYTE	W10
+	BYTE		BEND    c_v+0
+	BYTE	W02
+	BYTE		        c_v-2
+	BYTE		N22     Gn4   v100
+	BYTE	W04
+	BYTE		BEND    c_v+0
+	BYTE	W20
+	BYTE		N24     Fs4 
+	BYTE	W32
+	BYTE	W02
+	BYTE		BEND    c_v+0
+	BYTE	W02
+	BYTE		        c_v-2
+	BYTE		N20     Bn4 
+	BYTE	W03
+	BYTE		BEND    c_v+0
+	BYTE	W21
+// 033   ----------------------------------------
+	BYTE		N20     Bn4   v104
+	BYTE	W24
+	BYTE		N05     Bn4   v100
+	BYTE	W06
+	BYTE		        An4   v096
+	BYTE	W06
+	BYTE		N28     Gn4   v100
+	BYTE	W36
+	BYTE		N11     Gn4   v096
+	BYTE	W12
+	BYTE		        En4   v088
+	BYTE	W10
+	BYTE		BEND    c_v+0
+	BYTE	W02
+// 034   ----------------------------------------
+	BYTE		        c_v-4
+	BYTE		N10     Dn5   v104
+	BYTE	W03
+	BYTE		BEND    c_v+0
+	BYTE	W09
+	BYTE		N84     Bn4   v096
+	BYTE	W84
+// 035   ----------------------------------------
+	BYTE	W12
+	BYTE		N11     En4   v088
+	BYTE	W10
+	BYTE		BEND    c_v+0
+	BYTE	W02
+	BYTE		        c_v-2
+	BYTE		N11     Cn5   v104
+	BYTE	W03
+	BYTE		BEND    c_v+0
+	BYTE	W09
+	BYTE		N11     Bn4   v096
+	BYTE	W12
+	BYTE		        An4   v100
+	BYTE	W12
+	BYTE		        Gn4   v092
+	BYTE	W12
+	BYTE		N10     En4   v104
+	BYTE	W12
+	BYTE		N17     Gn4   v092
+	BYTE	W12
+// 036   ----------------------------------------
+	BYTE	W12
+	BYTE		N11     Gn4   v100
+	BYTE	W12
+	BYTE		N32     Fs4   v096
+	BYTE	W36
+	BYTE		N11     Fs4   v092
+	BYTE	W12
+	BYTE		N22     Gn4   v096
+	BYTE	W24
+// 037   ----------------------------------------
+	BYTE		N20     An4   v104
+	BYTE	W24
+	BYTE		N11     Gn4   v100
+	BYTE	W12
+	BYTE		        Fs4   v080
+	BYTE	W12
+	BYTE		N76     En4   v088
+	BYTE	W48
+// 038   ----------------------------------------
+	BYTE	W96
+// 039   ----------------------------------------
+	BYTE		N23     Dn4   v104
+	BYTE	W24
+	BYTE		N54     Gn4 
+	BYTE	W60
+	BYTE		N11     Gn4   v100
+	BYTE	W12
+// 040   ----------------------------------------
+	BYTE		        An4   v104
+	BYTE	W12
+	BYTE		N23     Bn4   v108
+	BYTE	W24
+	BYTE		N11     An4   v096
+	BYTE	W12
+	BYTE		N36     Gn4   v104
+	BYTE	W48
+// 041   ----------------------------------------
+	BYTE		N10     Dn4   v100
+	BYTE	W12
+	BYTE		N84     Gn4   v108
+	BYTE	W84
+// 042   ----------------------------------------
+	BYTE	W12
+	BYTE		N20     Bn4 
+	BYTE	W24
+	BYTE		N10     Bn4   v096
+	BYTE	W12
+	BYTE		N09     An4   v104
+	BYTE	W12
+	BYTE		        An4   v100
+	BYTE	W12
+	BYTE		N11     An4   v104
+	BYTE	W12
+	BYTE		        Gn4   v092
+	BYTE	W12
+// 043   ----------------------------------------
+	BYTE		        En4   v096
+	BYTE	W12
+	BYTE		N23     An4   v104
+	BYTE	W24
+	BYTE		N36     Gn4   v100
+	BYTE	W48
+	BYTE		N11   
+	BYTE	W12
+// 044   ----------------------------------------
+	BYTE		        An4 
+	BYTE	W12
+	BYTE		N23     Bn4   v108
+	BYTE	W24
+	BYTE		N11     An4   v096
+	BYTE	W12
+	BYTE		N36     Gn4   v104
+	BYTE	W48
+// 045   ----------------------------------------
+	BYTE		N11     Dn4   v096
+	BYTE	W12
+	BYTE		N84     Gn4   v108
+	BYTE	W84
+// 046   ----------------------------------------
+	BYTE	W12
+	BYTE		N20     Bn4 
+	BYTE	W24
+	BYTE		N11     Bn4   v092
+	BYTE	W12
+	BYTE		N09     An4   v104
+	BYTE	W12
+	BYTE		N08     An4   v092
+	BYTE	W12
+	BYTE		N11     Bn4   v108
+	BYTE	W12
+	BYTE		        An4   v092
+	BYTE	W12
+// 047   ----------------------------------------
+	BYTE		        Bn4   v100
+	BYTE	W12
+	BYTE		N23     An4   v096
+	BYTE	W24
+	BYTE		N11     Gn4   v092
+	BYTE	W12
+	BYTE		TIE     En4   v100
+	BYTE	W48
+// 048   ----------------------------------------
+	BYTE		VOL     43*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W03
+	BYTE		        42*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W02
+	BYTE		        42*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W02
+	BYTE		        42*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W02
+	BYTE		        41*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        41*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W02
+	BYTE		        40*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W02
+	BYTE		        40*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W02
+	BYTE		        39*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W02
+	BYTE		        39*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        39*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W02
+	BYTE		        38*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W02
+	BYTE		        38*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W02
+	BYTE		        37*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W02
+	BYTE		        37*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        37*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W02
+	BYTE		        36*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W02
+	BYTE		        36*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W02
+	BYTE		        35*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W02
+	BYTE		        35*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        35*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W02
+	BYTE		        34*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W02
+	BYTE		        34*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W02
+	BYTE		        33*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W02
+	BYTE		        33*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        32*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W02
+	BYTE		        32*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W02
+	BYTE		        32*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W02
+	BYTE		        31*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W02
+	BYTE		        31*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        30*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W02
+	BYTE		        30*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W02
+	BYTE		        30*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W02
+	BYTE		        29*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W02
+	BYTE		        29*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        28*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W02
+	BYTE		        28*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W02
+	BYTE		        28*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W02
+	BYTE		        27*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W02
+	BYTE		        27*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        26*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W02
+	BYTE		        26*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W02
+	BYTE		        25*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        25*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W12
+	BYTE		EOT   
+	BYTE	W06
+	BYTE	GoTo
+	 POIN2	ToTheStarOfWaterWithLove0_1_B1
+ToTheStarOfWaterWithLove0_1_B2:
+// 049   ----------------------------------------
+	BYTE	W22
+	BYTE	FINE
+
+//**************** Track 2 (Midi-Chn.2) ****************//
+
+ToTheStarOfWaterWithLove0_2:
+	BYTE	KEYSH   ToTheStarOfWaterWithLove0_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   33
+	BYTE		VOL     46*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		PAN     c_v+0
+	BYTE	W23
+	BYTE		N07     Dn2   v104
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W60
+// 001   ----------------------------------------
+	BYTE	W96
+// 002   ----------------------------------------
+	BYTE	W24
+	BYTE		N07   
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W60
+// 003   ----------------------------------------
+	BYTE	W96
+// 004   ----------------------------------------
+ToTheStarOfWaterWithLove0_2_004:
+	BYTE	W24
+	BYTE		N07     En1   v104
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W36
+	BYTE		N07   
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W12
+	BYTE	PEND
+// 005   ----------------------------------------
+ToTheStarOfWaterWithLove0_2_005:
+	BYTE	W24
+	BYTE		N07     An1   v104
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W36
+	BYTE		N07   
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W12
+	BYTE	PEND
+ToTheStarOfWaterWithLove0_2_B1:
+// 006   ----------------------------------------
+ToTheStarOfWaterWithLove0_2_006:
+	BYTE	W24
+	BYTE		N07     Bn1   v104
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W36
+	BYTE		N07   
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W12
+	BYTE	PEND
+// 007   ----------------------------------------
+ToTheStarOfWaterWithLove0_2_007:
+	BYTE	W24
+	BYTE		N07     En2   v104
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W36
+	BYTE		N07   
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W12
+	BYTE	PEND
+// 008   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ToTheStarOfWaterWithLove0_2_004
+// 009   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ToTheStarOfWaterWithLove0_2_005
+// 010   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ToTheStarOfWaterWithLove0_2_006
+// 011   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ToTheStarOfWaterWithLove0_2_007
+// 012   ----------------------------------------
+	BYTE	W24
+	BYTE		N07     En1   v092
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W36
+	BYTE		N07   
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W12
+// 013   ----------------------------------------
+ToTheStarOfWaterWithLove0_2_013:
+	BYTE	W24
+	BYTE		N07     Gn1   v092
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W36
+	BYTE		N07   
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W12
+	BYTE	PEND
+// 014   ----------------------------------------
+ToTheStarOfWaterWithLove0_2_014:
+	BYTE	W24
+	BYTE		N07     An1   v092
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W36
+	BYTE		N07   
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W12
+	BYTE	PEND
+// 015   ----------------------------------------
+	BYTE	W24
+	BYTE		N07     Bn1 
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W36
+	BYTE		N07   
+	BYTE	W12
+	BYTE		N11     Bn1   v084
+	BYTE	W12
+// 016   ----------------------------------------
+	BYTE		N10     Fs1   v092
+	BYTE	W12
+	BYTE		N07     Bn1   v088
+	BYTE	W12
+	BYTE		        En1   v092
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W36
+	BYTE		N07   
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W12
+// 017   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ToTheStarOfWaterWithLove0_2_013
+// 018   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ToTheStarOfWaterWithLove0_2_014
+// 019   ----------------------------------------
+	BYTE	W24
+	BYTE		N07     Bn1   v092
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W36
+	BYTE		N16     Bn1   v100
+	BYTE	W24
+// 020   ----------------------------------------
+	BYTE		N12   
+	BYTE	W24
+	BYTE		TIE     Cn2 
+	BYTE	W72
+// 021   ----------------------------------------
+	BYTE	W72
+	BYTE		EOT   
+	BYTE	W12
+	BYTE		N10   
+	BYTE	W12
+// 022   ----------------------------------------
+	BYTE		        Bn1   v088
+	BYTE	W12
+	BYTE		TIE     An1   v100
+	BYTE	W84
+// 023   ----------------------------------------
+	BYTE	W96
+// 024   ----------------------------------------
+	BYTE	W12
+	BYTE		EOT   
+	BYTE	W12
+	BYTE		N09   
+	BYTE	W36
+	BYTE		N10     Gs2   v088
+	BYTE	W12
+	BYTE		N09     An2   v100
+	BYTE	W24
+// 025   ----------------------------------------
+	BYTE	W12
+	BYTE		N10     An1   v092
+	BYTE	W12
+	BYTE		N09     Bn1   v100
+	BYTE	W36
+	BYTE		N10     As2   v088
+	BYTE	W12
+	BYTE		N09     Bn2   v100
+	BYTE	W12
+	BYTE		N08     Fs2   v088
+	BYTE	W12
+// 026   ----------------------------------------
+	BYTE		N16     Bn1   v100
+	BYTE	W24
+	BYTE		N09     Cn2 
+	BYTE	W36
+	BYTE		N10     Bn2   v088
+	BYTE	W12
+	BYTE		N09     Cn3   v100
+	BYTE	W24
+// 027   ----------------------------------------
+	BYTE	W12
+	BYTE		N10     Cn2   v092
+	BYTE	W12
+	BYTE		        Bn1   v100
+	BYTE	W12
+	BYTE		        Bn1   v088
+	BYTE	W12
+	BYTE		        Bn1   v100
+	BYTE	W12
+	BYTE		        Bn1   v092
+	BYTE	W12
+	BYTE		        Bn1   v100
+	BYTE	W12
+	BYTE		        Bn1   v088
+	BYTE	W12
+// 028   ----------------------------------------
+	BYTE		N06     Bn1   v092
+	BYTE	W12
+	BYTE		N48     Bn1   v100
+	BYTE	W60
+	BYTE		N12   
+	BYTE	W24
+// 029   ----------------------------------------
+	BYTE		N12   
+	BYTE	W24
+	BYTE		N07     En1 
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W36
+	BYTE		N07   
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W12
+// 030   ----------------------------------------
+ToTheStarOfWaterWithLove0_2_030:
+	BYTE	W24
+	BYTE		N07     Gn1   v100
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W36
+	BYTE		N07   
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W12
+	BYTE	PEND
+// 031   ----------------------------------------
+ToTheStarOfWaterWithLove0_2_031:
+	BYTE	W24
+	BYTE		N07     An1   v100
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W36
+	BYTE		N07   
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W12
+	BYTE	PEND
+// 032   ----------------------------------------
+	BYTE	W24
+	BYTE		N07     Bn1 
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W36
+	BYTE		N07   
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W12
+// 033   ----------------------------------------
+	BYTE	W24
+	BYTE		N07     En1 
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W36
+	BYTE		N07   
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W12
+// 034   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ToTheStarOfWaterWithLove0_2_030
+// 035   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ToTheStarOfWaterWithLove0_2_031
+// 036   ----------------------------------------
+	BYTE	W24
+	BYTE		N07     Bn1   v100
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W36
+	BYTE		N07   
+	BYTE	W12
+	BYTE		N11     Fs1 
+	BYTE	W12
+// 037   ----------------------------------------
+	BYTE	W12
+	BYTE		N10     Bn1   v092
+	BYTE	W12
+	BYTE		N07     En1   v100
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W36
+	BYTE		N07   
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W12
+// 038   ----------------------------------------
+	BYTE	W12
+	BYTE		        Bn1   v104
+	BYTE	W24
+	BYTE		N11   
+	BYTE	W24
+	BYTE		N32     Dn2 
+	BYTE	W28
+	BYTE		BEND    c_v+5
+	BYTE	W02
+	BYTE		        c_v+10
+	BYTE	W02
+	BYTE		        c_v+16
+	BYTE	W01
+	BYTE		        c_v+21
+	BYTE	W01
+	BYTE		        c_v+26
+	BYTE	W02
+// 039   ----------------------------------------
+	BYTE		        c_v+0
+	BYTE		N20     Dn3   v112
+	BYTE	W24
+	BYTE		N07     Gn1   v104
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W36
+	BYTE		N07   
+	BYTE	W12
+	BYTE		N19     An1   v100
+	BYTE	W12
+// 040   ----------------------------------------
+	BYTE		BEND    c_v+5
+	BYTE	W01
+	BYTE		        c_v+10
+	BYTE	W11
+	BYTE		        c_v+0
+	BYTE		N07     En2   v104
+	BYTE	W24
+	BYTE		N11     En2   v100
+	BYTE	W24
+	BYTE		N07     Dn2   v092
+	BYTE	W12
+	BYTE		N24     En2   v104
+	BYTE	W16
+	BYTE		BEND    c_v-6
+	BYTE	W03
+	BYTE		        c_v-11
+	BYTE	W02
+	BYTE		        c_v-16
+	BYTE	W01
+	BYTE		        c_v-22
+	BYTE	W02
+// 041   ----------------------------------------
+	BYTE	W12
+	BYTE		        c_v+0
+	BYTE		N10     Gn1   v100
+	BYTE	W12
+	BYTE		N07     An1   v104
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W24
+	BYTE		N07     Gn1   v092
+	BYTE	W12
+	BYTE		N09     An1   v104
+	BYTE	W24
+// 042   ----------------------------------------
+	BYTE	W12
+	BYTE		N10     An1   v100
+	BYTE	W12
+	BYTE		N07     Dn2   v104
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W24
+	BYTE		N10     Cn2   v092
+	BYTE	W12
+	BYTE		        Dn2   v104
+	BYTE	W12
+	BYTE		N11     Cn2   v092
+	BYTE	W12
+// 043   ----------------------------------------
+	BYTE		N10     An1   v104
+	BYTE	W12
+	BYTE		        Dn2   v100
+	BYTE	W12
+	BYTE		N07     Gn1   v104
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W36
+	BYTE		N07   
+	BYTE	W12
+	BYTE		N11     Gn1   v092
+	BYTE	W12
+// 044   ----------------------------------------
+	BYTE		N07     Bn1   v104
+	BYTE	W12
+	BYTE		        En2 
+	BYTE	W24
+	BYTE		N11     En2   v100
+	BYTE	W24
+	BYTE		N07     Dn2   v092
+	BYTE	W12
+	BYTE		N10     En2   v104
+	BYTE	W24
+// 045   ----------------------------------------
+	BYTE	W12
+	BYTE		        Gn1   v100
+	BYTE	W12
+	BYTE		N07     An1   v104
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W24
+	BYTE		N07     Gn1   v092
+	BYTE	W12
+	BYTE		N09     An1   v104
+	BYTE	W24
+// 046   ----------------------------------------
+	BYTE	W12
+	BYTE		N10     An1   v100
+	BYTE	W12
+	BYTE		N07     Bn1   v104
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W24
+	BYTE		N10     An1   v092
+	BYTE	W12
+	BYTE		        Bn1   v104
+	BYTE	W24
+// 047   ----------------------------------------
+	BYTE		N10   
+	BYTE	W24
+	BYTE		N07     En1 
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W36
+	BYTE		N07   
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W12
+// 048   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ToTheStarOfWaterWithLove0_2_005
+	BYTE	GoTo
+	 POIN2	ToTheStarOfWaterWithLove0_2_B1
+ToTheStarOfWaterWithLove0_2_B2:
+// 049   ----------------------------------------
+	BYTE	W22
+	BYTE	FINE
+
+//**************** Track 3 (Midi-Chn.3) ****************//
+
+ToTheStarOfWaterWithLove0_3:
+	BYTE	KEYSH   ToTheStarOfWaterWithLove0_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   4
+	BYTE	W01
+	BYTE		VOL     26*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE	W23
+	BYTE		N07     Dn0   v100
+	BYTE		N07     Dn2   v092
+	BYTE		N07     En2   v080
+	BYTE		N07     Gn2 
+	BYTE		N07     Bn2   v084
+	BYTE	W12
+	BYTE		        Dn0   v100
+	BYTE		N07     Cn2   v092
+	BYTE		N07     En2   v080
+	BYTE		N07     Gn2 
+	BYTE		N07     An2   v084
+	BYTE	W60
+// 001   ----------------------------------------
+	BYTE	W96
+// 002   ----------------------------------------
+	BYTE	W24
+	BYTE		        Dn0   v100
+	BYTE		N07     Dn2   v092
+	BYTE		N07     En2   v080
+	BYTE		N07     Gn2 
+	BYTE		N07     Bn2   v084
+	BYTE	W12
+	BYTE		        Dn0   v100
+	BYTE		N07     Cn2   v092
+	BYTE		N07     En2   v080
+	BYTE		N07     Gn2 
+	BYTE		N07     An2   v084
+	BYTE	W60
+// 003   ----------------------------------------
+	BYTE	W96
+// 004   ----------------------------------------
+ToTheStarOfWaterWithLove0_3_004:
+	BYTE	W24
+	BYTE		N92     En0   v092
+	BYTE		N92     Bn1   v068
+	BYTE		N92     En2   v076
+	BYTE		N92     Gn2   v080
+	BYTE	W72
+	BYTE	PEND
+// 005   ----------------------------------------
+ToTheStarOfWaterWithLove0_3_005:
+	BYTE	W24
+	BYTE		N92     An0   v092
+	BYTE		N92     En2   v072
+	BYTE		N92     Gn2 
+	BYTE	W72
+	BYTE	PEND
+ToTheStarOfWaterWithLove0_3_B1:
+// 006   ----------------------------------------
+ToTheStarOfWaterWithLove0_3_006:
+	BYTE	W24
+	BYTE		N92     Bn0   v096
+	BYTE		N92     Ds2   v072
+	BYTE		N92     Fs2   v080
+	BYTE	W72
+	BYTE	PEND
+// 007   ----------------------------------------
+ToTheStarOfWaterWithLove0_3_007:
+	BYTE	W24
+	BYTE		N92     En0   v092
+	BYTE		N92     En2   v072
+	BYTE		N92     Gn2   v076
+	BYTE	W72
+	BYTE	PEND
+// 008   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ToTheStarOfWaterWithLove0_3_004
+// 009   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ToTheStarOfWaterWithLove0_3_005
+// 010   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ToTheStarOfWaterWithLove0_3_006
+// 011   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ToTheStarOfWaterWithLove0_3_007
+// 012   ----------------------------------------
+ToTheStarOfWaterWithLove0_3_012:
+	BYTE	W24
+	BYTE		N92     En0   v080
+	BYTE		N92     Bn1   v060
+	BYTE		N92     En2   v064
+	BYTE		N92     Gn2   v068
+	BYTE	W72
+	BYTE	PEND
+// 013   ----------------------------------------
+ToTheStarOfWaterWithLove0_3_013:
+	BYTE	W24
+	BYTE		N92     Gn0   v084
+	BYTE		N92     Dn2   v056
+	BYTE		N92     Gn2   v064
+	BYTE		N92     Bn2   v068
+	BYTE	W72
+	BYTE	PEND
+// 014   ----------------------------------------
+ToTheStarOfWaterWithLove0_3_014:
+	BYTE	W24
+	BYTE		N92     An0   v080
+	BYTE		N92     En2   v060
+	BYTE		N92     Gn2 
+	BYTE		N92     Cn3   v064
+	BYTE	W72
+	BYTE	PEND
+// 015   ----------------------------------------
+	BYTE	W24
+	BYTE		        Bn0   v084
+	BYTE		N44     En2   v060
+	BYTE		N92     Fs2   v064
+	BYTE		N92     Bn2   v068
+	BYTE	W48
+	BYTE		N44     Ds2 
+	BYTE	W24
+// 016   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ToTheStarOfWaterWithLove0_3_012
+// 017   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ToTheStarOfWaterWithLove0_3_013
+// 018   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ToTheStarOfWaterWithLove0_3_014
+// 019   ----------------------------------------
+	BYTE	W24
+	BYTE		N44     Bn0   v080
+	BYTE		N44     Ds2   v060
+	BYTE		N44     Fs2   v064
+	BYTE		N44     Bn2   v072
+	BYTE	W48
+	BYTE		N10     Bn0   v080
+	BYTE		N10     Fs2   v056
+	BYTE		N10     An2   v060
+	BYTE		N10     Ds3   v068
+	BYTE	W24
+// 020   ----------------------------------------
+	BYTE		N18     Bn0   v084
+	BYTE		N18     Ds2   v060
+	BYTE		N18     Fs2   v064
+	BYTE		N18     Bn2   v068
+	BYTE	W24
+	BYTE		TIE     Cn1   v092
+	BYTE		TIE     En2   v064
+	BYTE		TIE     Gn2   v068
+	BYTE		TIE     Cn3   v076
+	BYTE	W72
+// 021   ----------------------------------------
+	BYTE	W72
+	BYTE		EOT     Cn1 
+	BYTE		        En2 
+	BYTE		        Gn2 
+	BYTE		        Cn3 
+	BYTE	W12
+	BYTE		N10     Gn2   v084
+	BYTE		N10     Cn3   v064
+	BYTE		N10     En3   v068
+	BYTE	W12
+// 022   ----------------------------------------
+	BYTE		N05     En1   v084
+	BYTE	W12
+	BYTE		TIE     An0   v088
+	BYTE		TIE     En2   v068
+	BYTE		TIE     Gn2   v072
+	BYTE		TIE     Cs3 
+	BYTE	W84
+// 023   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE		EOT     An0 
+	BYTE		        En2 
+	BYTE		        Gn2 
+	BYTE		        Cs3 
+	BYTE	W01
+// 024   ----------------------------------------
+	BYTE	W24
+	BYTE		N80     An0   v088
+	BYTE		N80     En2   v068
+	BYTE		N80     Gn2 
+	BYTE	W72
+// 025   ----------------------------------------
+	BYTE	W24
+	BYTE		        Bn0   v088
+	BYTE		N80     An1   v060
+	BYTE		N80     Dn2   v064
+	BYTE		N80     Fs2   v076
+	BYTE	W72
+// 026   ----------------------------------------
+	BYTE	W24
+	BYTE		        Cn1   v084
+	BYTE		N80     Cn2   v064
+	BYTE		N80     En2   v068
+	BYTE		N80     Gn2   v076
+	BYTE	W72
+// 027   ----------------------------------------
+	BYTE	W24
+	BYTE		N56     Bn0   v088
+	BYTE		N68     Ds2   v064
+	BYTE		N68     Fs2   v068
+	BYTE		N68     An2   v072
+	BYTE	W72
+// 028   ----------------------------------------
+	BYTE		TIE     Bn0   v092
+	BYTE	W12
+	BYTE		N96     Ds2   v072
+	BYTE		N96     An2   v076
+	BYTE		N96     Dn3   v080
+	BYTE	W84
+// 029   ----------------------------------------
+	BYTE	W12
+	BYTE		EOT     Bn0 
+	BYTE	W12
+	BYTE		N92     En0   v088
+	BYTE		N92     Bn1   v064
+	BYTE		N92     En2   v068
+	BYTE		N92     Gn2   v072
+	BYTE	W72
+// 030   ----------------------------------------
+ToTheStarOfWaterWithLove0_3_030:
+	BYTE	W24
+	BYTE		N92     Gn0   v088
+	BYTE		N92     Bn1   v060
+	BYTE		N92     Dn2   v064
+	BYTE		N92     Gn2   v068
+	BYTE	W72
+	BYTE	PEND
+// 031   ----------------------------------------
+ToTheStarOfWaterWithLove0_3_031:
+	BYTE	W24
+	BYTE		N92     An0   v084
+	BYTE		N92     Gn2   v076
+	BYTE	W72
+	BYTE	PEND
+// 032   ----------------------------------------
+	BYTE	W24
+	BYTE		N44     Bn0   v088
+	BYTE		N44     En2   v072
+	BYTE		N44     Fs2   v076
+	BYTE	W48
+	BYTE		        Bn0   v088
+	BYTE		N44     An1   v068
+	BYTE		N44     Ds2   v072
+	BYTE		N44     Fs2   v076
+	BYTE	W24
+// 033   ----------------------------------------
+	BYTE	W24
+	BYTE		N92     En0   v088
+	BYTE		N92     En2   v068
+	BYTE		N92     Gn2   v072
+	BYTE	W72
+// 034   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ToTheStarOfWaterWithLove0_3_030
+// 035   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ToTheStarOfWaterWithLove0_3_031
+// 036   ----------------------------------------
+	BYTE	W24
+	BYTE		N90     Bn0   v088
+	BYTE		N90     Fs2   v068
+	BYTE		N90     Bn2   v072
+	BYTE	W72
+// 037   ----------------------------------------
+	BYTE	W24
+	BYTE		N68     En0   v088
+	BYTE		N68     En2   v072
+	BYTE		N68     Gn2 
+	BYTE	W72
+// 038   ----------------------------------------
+	BYTE	W12
+	BYTE		N10     Bn0   v096
+	BYTE		N10     En2   v080
+	BYTE	W24
+	BYTE		        Bn0   v096
+	BYTE		N10     Bn1   v072
+	BYTE		N10     En2   v076
+	BYTE	W24
+	BYTE		N56     Dn1   v092
+	BYTE		N56     En2   v076
+	BYTE		N56     Gn2   v080
+	BYTE	W36
+// 039   ----------------------------------------
+	BYTE	W24
+	BYTE		N76     Gn0   v100
+	BYTE		N76     Dn2   v080
+	BYTE		N76     Gn2   v084
+	BYTE	W72
+// 040   ----------------------------------------
+ToTheStarOfWaterWithLove0_3_040:
+	BYTE	W12
+	BYTE		TIE     En0   v096
+	BYTE		TIE     Bn1   v076
+	BYTE		TIE     En2   v080
+	BYTE		TIE     Gn2   v084
+	BYTE	W84
+	BYTE	PEND
+// 041   ----------------------------------------
+	BYTE	W20
+	BYTE		EOT     En0 
+	BYTE		        Bn1 
+	BYTE		        En2 
+	BYTE		        Gn2 
+	BYTE	W04
+	BYTE		N76     An0   v096
+	BYTE		N76     Cn2   v076
+	BYTE		N76     En2 
+	BYTE		N76     Gn2   v080
+	BYTE	W72
+// 042   ----------------------------------------
+	BYTE	W12
+	BYTE		TIE     Dn0   v096
+	BYTE		TIE     En2   v076
+	BYTE		TIE     Gn2   v080
+	BYTE		TIE     Dn3   v084
+	BYTE	W84
+// 043   ----------------------------------------
+	BYTE	W20
+	BYTE		EOT     Dn0 
+	BYTE		        En2 
+	BYTE		        Gn2 
+	BYTE		        Dn3 
+	BYTE	W04
+	BYTE		N76     Gn0   v100
+	BYTE		N76     Dn2   v080
+	BYTE		N76     Gn2   v084
+	BYTE	W72
+// 044   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ToTheStarOfWaterWithLove0_3_040
+// 045   ----------------------------------------
+	BYTE	W20
+	BYTE		EOT     En0 
+	BYTE		        Bn1 
+	BYTE		        En2 
+	BYTE		        Gn2 
+	BYTE	W04
+	BYTE		N76     An0   v096
+	BYTE		N76     Cn2   v076
+	BYTE		N76     En2 
+	BYTE		N76     Gn2   v080
+	BYTE	W72
+// 046   ----------------------------------------
+	BYTE	W12
+	BYTE		TIE     Bn0   v100
+	BYTE		TIE     Ds2   v076
+	BYTE		TIE     Fs2   v080
+	BYTE		TIE     Bn2   v084
+	BYTE	W84
+// 047   ----------------------------------------
+	BYTE	W20
+	BYTE		EOT     Bn0 
+	BYTE		        Ds2 
+	BYTE		        Fs2 
+	BYTE		        Bn2 
+	BYTE	W04
+	BYTE		N92     En0   v096
+	BYTE		N92     En2   v080
+	BYTE		N92     Gn2   v084
+	BYTE	W72
+// 048   ----------------------------------------
+	BYTE	W24
+	BYTE		        An0   v096
+	BYTE		N92     Cn2   v072
+	BYTE		N92     En2   v076
+	BYTE		N92     Gn2   v080
+	BYTE	W72
+	BYTE	GoTo
+	 POIN2	ToTheStarOfWaterWithLove0_3_B1
+ToTheStarOfWaterWithLove0_3_B2:
+// 049   ----------------------------------------
+	BYTE	W22
+	BYTE	FINE
+
+//**************** Track 4 (Midi-Chn.4) ****************//
+
+ToTheStarOfWaterWithLove0_4:
+	BYTE	KEYSH   ToTheStarOfWaterWithLove0_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   30
+	BYTE		VOL     23*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		PAN     c_v-10
+	BYTE	W23
+	BYTE		N22     Bn2   v088
+	BYTE	W12
+	BYTE		BEND    c_v+5
+	BYTE	W11
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		N32     En3   v096
+	BYTE	W12
+	BYTE		N40     Gn3   v092
+	BYTE	W24
+	BYTE		N17     En3   v096
+	BYTE	W12
+// 001   ----------------------------------------
+ToTheStarOfWaterWithLove0_4_001:
+	BYTE	W12
+	BYTE		N96     Bn2   v032
+	BYTE	W01
+	BYTE		        Dn3   v052
+	BYTE	W01
+	BYTE		N92     En3   v080
+	BYTE	W01
+	BYTE		        An3   v092
+	BYTE	W80
+	BYTE	W01
+	BYTE	PEND
+// 002   ----------------------------------------
+	BYTE	W24
+	BYTE		N22     Bn2   v088
+	BYTE	W12
+	BYTE		BEND    c_v+5
+	BYTE	W11
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		N32     En3   v096
+	BYTE	W12
+	BYTE		N42     Gn3   v092
+	BYTE	W24
+	BYTE		N17     En3   v096
+	BYTE	W12
+// 003   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ToTheStarOfWaterWithLove0_4_001
+// 004   ----------------------------------------
+	BYTE	W24
+	BYTE		N08     Gn2   v080
+	BYTE		N06     En3   v088
+	BYTE	W02
+	BYTE		N07     Bn2   v084
+	BYTE	W10
+	BYTE		N08     Gn2 
+	BYTE		N07     Bn2   v088
+	BYTE		N06     En3   v092
+	BYTE	W12
+	BYTE		N01     Gn2   v076
+	BYTE		N01     Bn2   v084
+	BYTE	W12
+	BYTE		N08     Gn2 
+	BYTE		N07     Bn2   v088
+	BYTE		N06     En3   v092
+	BYTE	W12
+	BYTE		N07     Gn2   v080
+	BYTE		N07     Bn2   v084
+	BYTE		N06     En3   v088
+	BYTE	W12
+	BYTE		N07     Gn2   v084
+	BYTE		N07     Bn2   v088
+	BYTE		N06     En3   v092
+	BYTE	W12
+// 005   ----------------------------------------
+ToTheStarOfWaterWithLove0_4_005:
+	BYTE		N01     Gn2   v076
+	BYTE		N01     Bn2   v084
+	BYTE	W12
+	BYTE		        Gn2   v076
+	BYTE	W12
+	BYTE		N07     Cn3   v084
+	BYTE		N06     En3   v088
+	BYTE	W12
+	BYTE		N07     Cn3 
+	BYTE		N06     En3   v092
+	BYTE	W12
+	BYTE		N01     Gn2   v076
+	BYTE	W12
+	BYTE		N07     Cn3   v088
+	BYTE		N06     En3   v092
+	BYTE	W12
+	BYTE		N07     Cn3   v084
+	BYTE		N06     En3   v088
+	BYTE	W12
+	BYTE		N07     Cn3 
+	BYTE		N06     En3   v092
+	BYTE	W12
+	BYTE	PEND
+ToTheStarOfWaterWithLove0_4_B1:
+// 006   ----------------------------------------
+ToTheStarOfWaterWithLove0_4_006:
+	BYTE		N01     Gn2   v076
+	BYTE	W12
+	BYTE		N01   
+	BYTE	W12
+	BYTE		N07     An2   v080
+	BYTE		N07     Ds3   v084
+	BYTE		N06     Fs3   v088
+	BYTE	W12
+	BYTE		N07     An2   v084
+	BYTE		N07     Ds3   v088
+	BYTE		N06     Fs3   v092
+	BYTE	W12
+	BYTE		N01     An2   v076
+	BYTE		N01     Ds3   v084
+	BYTE	W12
+	BYTE		N07     An2 
+	BYTE		N07     Ds3   v088
+	BYTE		N06     Fs3   v092
+	BYTE	W12
+	BYTE		N07     An2   v080
+	BYTE		N07     Ds3   v084
+	BYTE		N06     Fs3   v088
+	BYTE	W12
+	BYTE		N07     An2   v084
+	BYTE		N07     Ds3   v088
+	BYTE		N06     Fs3   v092
+	BYTE	W12
+	BYTE	PEND
+// 007   ----------------------------------------
+	BYTE		N01     An2   v076
+	BYTE		N01     Ds3   v084
+	BYTE	W12
+	BYTE		        An2   v076
+	BYTE		N01     Ds3   v088
+	BYTE	W12
+	BYTE		N07     Gn2   v080
+	BYTE		N07     Bn2   v084
+	BYTE		N06     En3   v088
+	BYTE	W12
+	BYTE		N07     Gn2   v084
+	BYTE		N07     Bn2   v088
+	BYTE		N06     En3   v092
+	BYTE	W12
+	BYTE		N01     Gn2   v076
+	BYTE		N01     Bn2   v084
+	BYTE	W12
+	BYTE		N07     Gn2 
+	BYTE		N07     Bn2   v088
+	BYTE		N06     En3   v092
+	BYTE	W12
+	BYTE		N07     Gn2   v080
+	BYTE		N07     Bn2   v084
+	BYTE		N06     En3   v088
+	BYTE	W12
+	BYTE		N07     Gn2   v084
+	BYTE		N07     Bn2   v088
+	BYTE		N06     En3   v092
+	BYTE	W12
+// 008   ----------------------------------------
+	BYTE		N01     Gn2   v076
+	BYTE		N01     Bn2   v084
+	BYTE	W12
+	BYTE		        Gn2   v076
+	BYTE		N01     Bn2   v088
+	BYTE	W12
+	BYTE		N07     Gn2   v080
+	BYTE		N07     Bn2   v084
+	BYTE		N06     En3   v088
+	BYTE	W12
+	BYTE		N07     Gn2   v084
+	BYTE		N07     Bn2   v088
+	BYTE		N06     En3   v092
+	BYTE	W12
+	BYTE		N01     Gn2   v076
+	BYTE		N01     Bn2   v084
+	BYTE	W12
+	BYTE		N07     Gn2 
+	BYTE		N07     Bn2   v088
+	BYTE		N06     En3   v092
+	BYTE	W12
+	BYTE		N07     Gn2   v080
+	BYTE		N07     Bn2   v084
+	BYTE		N06     En3   v088
+	BYTE	W12
+	BYTE		N07     Gn2   v084
+	BYTE		N07     Bn2   v088
+	BYTE		N06     En3   v092
+	BYTE	W12
+// 009   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ToTheStarOfWaterWithLove0_4_005
+// 010   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ToTheStarOfWaterWithLove0_4_006
+// 011   ----------------------------------------
+	BYTE		N01     An2   v076
+	BYTE		N01     Ds3   v084
+	BYTE	W12
+	BYTE		        An2   v076
+	BYTE		N01     Ds3   v088
+	BYTE	W12
+	BYTE		N07     Gn2   v080
+	BYTE		N07     Bn2   v084
+	BYTE		N06     En3   v088
+	BYTE	W12
+	BYTE		N07     Gn2   v084
+	BYTE		N07     Bn2   v088
+	BYTE		N06     En3   v092
+	BYTE	W12
+	BYTE		N01     Gn2   v076
+	BYTE		N01     Bn2   v084
+	BYTE	W12
+	BYTE		N07     Gn2 
+	BYTE		N07     Bn2   v088
+	BYTE		N06     En3   v092
+	BYTE	W12
+	BYTE		N07     Bn2   v084
+	BYTE		N06     En3   v088
+	BYTE	W12
+	BYTE		N07     Gn2   v084
+	BYTE		N07     Bn2   v088
+	BYTE		N06     En3   v092
+	BYTE	W12
+// 012   ----------------------------------------
+	BYTE		N01     Gn2   v076
+	BYTE		N01     Bn2   v084
+	BYTE	W12
+	BYTE		        Gn2   v076
+	BYTE		N01     Bn2   v088
+	BYTE	W12
+	BYTE		        Gn2   v068
+	BYTE		N01     Bn2   v072
+	BYTE	W12
+	BYTE		        Gn2   v068
+	BYTE		N01     Bn2   v076
+	BYTE	W12
+	BYTE		N07   
+	BYTE		N07     En3   v080
+	BYTE		N06     Gn3 
+	BYTE	W12
+	BYTE		N01     Gn2   v068
+	BYTE		N01     Bn2   v076
+	BYTE	W12
+	BYTE		N07     Bn2   v068
+	BYTE		N07     Dn3   v072
+	BYTE		N06     Fs3   v080
+	BYTE	W24
+// 013   ----------------------------------------
+ToTheStarOfWaterWithLove0_4_013:
+	BYTE		N01     Gn2   v068
+	BYTE		N01     Bn2   v072
+	BYTE	W12
+	BYTE		        Gn2   v068
+	BYTE		N01     Bn2   v076
+	BYTE	W12
+	BYTE		N07     Bn2   v068
+	BYTE		N07     En3   v072
+	BYTE		N06     Gn3   v080
+	BYTE	W12
+	BYTE		N01     Bn2   v068
+	BYTE		N01     En3   v076
+	BYTE	W12
+	BYTE		        Bn2   v068
+	BYTE		N01     En3   v072
+	BYTE	W12
+	BYTE		N07     Bn2   v076
+	BYTE		N07     En3   v080
+	BYTE		N06     Gn3 
+	BYTE	W12
+	BYTE		N01     Bn2   v068
+	BYTE		N01     En3   v072
+	BYTE	W12
+	BYTE		        Bn2   v068
+	BYTE		N01     En3   v076
+	BYTE	W12
+	BYTE	PEND
+// 014   ----------------------------------------
+ToTheStarOfWaterWithLove0_4_014:
+	BYTE		N07     Bn2   v068
+	BYTE		N07     En3   v072
+	BYTE		N06     Gn3   v080
+	BYTE	W12
+	BYTE		N01     Bn2   v068
+	BYTE		N01     En3   v076
+	BYTE	W12
+	BYTE		        Gn2   v068
+	BYTE		N01     Cn3   v072
+	BYTE	W12
+	BYTE		        Gn2   v068
+	BYTE		N01     Cn3   v076
+	BYTE	W12
+	BYTE		N07     Gn2 
+	BYTE		N07     Cn3   v080
+	BYTE		N06     En3   v088
+	BYTE	W12
+	BYTE		N01     Gn2   v068
+	BYTE		N01     Cn3   v076
+	BYTE	W12
+	BYTE		N07     Gn2   v068
+	BYTE		N07     Dn3   v084
+	BYTE	W24
+	BYTE	PEND
+// 015   ----------------------------------------
+	BYTE		N01     Gn2   v068
+	BYTE		N01     Cn3   v072
+	BYTE	W12
+	BYTE		        Gn2   v068
+	BYTE		N01     Cn3   v076
+	BYTE	W12
+	BYTE		N44     Bn2   v060
+	BYTE		N44     En3   v064
+	BYTE		N88     Fs3   v068
+	BYTE	W01
+	BYTE		        Bn3   v080
+	BYTE	W44
+	BYTE	W03
+	BYTE		N42     Bn2   v068
+	BYTE		N40     Ds3   v076
+	BYTE	W24
+// 016   ----------------------------------------
+	BYTE	W24
+	BYTE		N01     Gn2   v068
+	BYTE		N01     Bn2   v072
+	BYTE	W12
+	BYTE		        Gn2   v068
+	BYTE		N01     Bn2   v076
+	BYTE	W12
+	BYTE		N07   
+	BYTE		N07     En3   v080
+	BYTE		N06     Gn3 
+	BYTE	W12
+	BYTE		N01     Gn2   v068
+	BYTE		N01     Bn2   v076
+	BYTE	W12
+	BYTE		N07     Bn2   v068
+	BYTE		N07     Dn3   v072
+	BYTE		N06     Fs3   v080
+	BYTE	W24
+// 017   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ToTheStarOfWaterWithLove0_4_013
+// 018   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ToTheStarOfWaterWithLove0_4_014
+// 019   ----------------------------------------
+	BYTE		N01     Gn2   v068
+	BYTE		N01     Cn3   v072
+	BYTE	W12
+	BYTE		        Gn2   v068
+	BYTE		N01     Cn3   v076
+	BYTE	W12
+	BYTE		N68     Bn2   v060
+	BYTE		N68     En3   v064
+	BYTE		N68     Fs3   v068
+	BYTE	W01
+	BYTE		        Bn3   v080
+	BYTE	W68
+	BYTE	W03
+// 020   ----------------------------------------
+	BYTE	W24
+	BYTE		TIE     Cn2   v072
+	BYTE		TIE     En2   v076
+	BYTE	W12
+	BYTE		        Gn2   v064
+	BYTE	W12
+	BYTE		        Dn3   v072
+	BYTE	W12
+	BYTE		        Gn3   v088
+	BYTE	W36
+// 021   ----------------------------------------
+	BYTE	W92
+	BYTE	W02
+	BYTE		EOT     En2 
+	BYTE	W01
+	BYTE		        Cn2 
+	BYTE		        Gn2 
+	BYTE		        Dn3 
+	BYTE		        Gn3 
+	BYTE	W01
+// 022   ----------------------------------------
+	BYTE	W12
+	BYTE		TIE     An1   v072
+	BYTE		N44     En2   v076
+	BYTE	W48
+	BYTE		TIE   
+	BYTE	W24
+	BYTE		        Gn2   v064
+	BYTE	W12
+// 023   ----------------------------------------
+	BYTE		N92     Cs3   v072
+	BYTE	W12
+	BYTE		N80     En3   v088
+	BYTE	W80
+	BYTE	W03
+	BYTE		EOT     An1 
+	BYTE		        En2 
+	BYTE		        Gn2 
+	BYTE	W01
+// 024   ----------------------------------------
+	BYTE	W24
+	BYTE		N84     Cn3   v080
+	BYTE	W01
+	BYTE		N80     En3   v084
+	BYTE		N80     An3   v088
+	BYTE	W68
+	BYTE	W03
+// 025   ----------------------------------------
+	BYTE	W24
+	BYTE		N84     An2   v076
+	BYTE		N84     Dn3   v080
+	BYTE	W01
+	BYTE		N80     Fs3   v084
+	BYTE		N80     Bn3   v088
+	BYTE	W68
+	BYTE	W03
+// 026   ----------------------------------------
+	BYTE	W24
+	BYTE		N84     Cn3   v076
+	BYTE		N84     En3   v080
+	BYTE	W01
+	BYTE		N80     Gn3   v084
+	BYTE		N80     Cn4   v088
+	BYTE	W68
+	BYTE	W03
+// 027   ----------------------------------------
+	BYTE	W24
+	BYTE		N68     An2   v076
+	BYTE		N68     Ds3   v080
+	BYTE	W01
+	BYTE		        Fs3   v084
+	BYTE		N68     Bn3   v088
+	BYTE	W68
+	BYTE	W03
+// 028   ----------------------------------------
+	BYTE	W12
+	BYTE		TIE     An2   v076
+	BYTE		TIE     Ds3   v080
+	BYTE	W01
+	BYTE		        Fs3   v084
+	BYTE		TIE     Dn4   v088
+	BYTE	W80
+	BYTE	W03
+// 029   ----------------------------------------
+	BYTE	W17
+	BYTE		EOT     An2 
+	BYTE		        Ds3 
+	BYTE		        Fs3 
+	BYTE		        Dn4 
+	BYTE	W07
+	BYTE		N01     Gn2   v072
+	BYTE		N01     Bn2   v076
+	BYTE	W12
+	BYTE		        Gn2   v072
+	BYTE		N01     Bn2   v084
+	BYTE	W12
+	BYTE		N07     Gn2   v080
+	BYTE		N07     Bn2   v084
+	BYTE		N06     En3   v088
+	BYTE	W12
+	BYTE		N01     Gn2   v072
+	BYTE		N01     Bn2   v084
+	BYTE	W12
+	BYTE		N07     Gn2   v072
+	BYTE		N07     Bn2   v080
+	BYTE		N06     Dn3   v084
+	BYTE	W24
+// 030   ----------------------------------------
+ToTheStarOfWaterWithLove0_4_030:
+	BYTE		N01     Gn2   v072
+	BYTE		N01     Bn2   v076
+	BYTE	W12
+	BYTE		        Gn2   v072
+	BYTE		N01     Bn2   v084
+	BYTE	W12
+	BYTE		N07     Gn2   v072
+	BYTE		N07     Bn2   v080
+	BYTE		N06     Dn3   v084
+	BYTE	W12
+	BYTE		N01     Gn2   v072
+	BYTE		N01     Bn2   v084
+	BYTE	W12
+	BYTE		        Gn2   v072
+	BYTE		N01     Bn2   v076
+	BYTE	W12
+	BYTE		N07     Gn2   v080
+	BYTE		N07     Bn2   v084
+	BYTE		N06     Dn3   v088
+	BYTE	W12
+	BYTE		N01     Gn2   v072
+	BYTE		N01     Bn2   v076
+	BYTE	W12
+	BYTE		        Gn2   v072
+	BYTE		N01     Bn2   v084
+	BYTE	W12
+	BYTE	PEND
+// 031   ----------------------------------------
+ToTheStarOfWaterWithLove0_4_031:
+	BYTE		N07     Gn2   v072
+	BYTE		N07     Bn2   v080
+	BYTE		N06     Dn3   v084
+	BYTE	W12
+	BYTE		N01     Gn2   v072
+	BYTE		N01     Bn2   v084
+	BYTE	W12
+	BYTE		        Cn3   v076
+	BYTE	W12
+	BYTE		        Gn2   v072
+	BYTE		N01     Cn3   v084
+	BYTE	W12
+	BYTE		N07     Gn2   v080
+	BYTE		N07     Cn3   v084
+	BYTE		N06     En3   v092
+	BYTE	W12
+	BYTE		N01     Gn2   v072
+	BYTE		N01     Cn3   v084
+	BYTE	W12
+	BYTE		N07     Gn2   v072
+	BYTE		N07     Cn3   v084
+	BYTE		N07     Dn3   v088
+	BYTE	W24
+	BYTE	PEND
+// 032   ----------------------------------------
+	BYTE		N01     Gn2   v072
+	BYTE		N01     Cn3   v076
+	BYTE	W12
+	BYTE		        Gn2   v072
+	BYTE		N01     Cn3   v084
+	BYTE	W12
+	BYTE		N07     Fs2   v072
+	BYTE		N07     Bn2   v080
+	BYTE		N06     En3   v084
+	BYTE	W12
+	BYTE		N01     Fs2   v072
+	BYTE		N01     Bn2   v084
+	BYTE	W12
+	BYTE		        Fs2   v072
+	BYTE		N01     Bn2   v076
+	BYTE	W12
+	BYTE		N07     Fs2   v080
+	BYTE		N07     Bn2   v084
+	BYTE		N06     En3   v088
+	BYTE	W12
+	BYTE		N01     Fs2   v072
+	BYTE		N01     Bn2   v076
+	BYTE	W12
+	BYTE		        Fs2   v072
+	BYTE		N01     Bn2   v084
+	BYTE	W12
+// 033   ----------------------------------------
+	BYTE		N07     Fs2   v072
+	BYTE		N07     Bn2   v080
+	BYTE		N06     Ds3   v084
+	BYTE	W12
+	BYTE		N01     Fs2   v072
+	BYTE		N01     Bn2   v084
+	BYTE	W12
+	BYTE		        Gn2   v072
+	BYTE		N01     Bn2   v076
+	BYTE	W12
+	BYTE		        Gn2   v072
+	BYTE		N01     Bn2   v084
+	BYTE	W12
+	BYTE		N07     Gn2   v080
+	BYTE		N07     Bn2   v084
+	BYTE		N06     En3   v088
+	BYTE	W12
+	BYTE		N01     Gn2   v072
+	BYTE		N01     Bn2   v084
+	BYTE	W12
+	BYTE		N07     Gn2   v072
+	BYTE		N07     Bn2   v080
+	BYTE		N06     Dn3   v084
+	BYTE	W24
+// 034   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ToTheStarOfWaterWithLove0_4_030
+// 035   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ToTheStarOfWaterWithLove0_4_031
+// 036   ----------------------------------------
+	BYTE		N01     Gn2   v072
+	BYTE		N01     Cn3   v076
+	BYTE	W12
+	BYTE		        Gn2   v072
+	BYTE		N01     Cn3   v084
+	BYTE	W12
+	BYTE		N07     Bn2   v080
+	BYTE		N06     Ds3   v084
+	BYTE	W12
+	BYTE		N01     Fs2   v072
+	BYTE		N01     Bn2   v084
+	BYTE	W12
+	BYTE		        Fs2   v072
+	BYTE		N01     Bn2   v076
+	BYTE	W12
+	BYTE		N07     Fs2   v080
+	BYTE		N07     Bn2   v084
+	BYTE		N06     Ds3   v088
+	BYTE	W12
+	BYTE		N01     Fs2   v072
+	BYTE		N01     Bn2   v076
+	BYTE	W12
+	BYTE		        Fs2   v072
+	BYTE		N01     Bn2   v084
+	BYTE	W12
+// 037   ----------------------------------------
+	BYTE		N07     Fs2   v072
+	BYTE		N07     Bn2   v080
+	BYTE		N06     Ds3   v084
+	BYTE	W12
+	BYTE		N01     Fs2   v072
+	BYTE		N01     Bn2   v084
+	BYTE	W12
+	BYTE		        Gn2   v072
+	BYTE		N01     Bn2   v076
+	BYTE	W12
+	BYTE		        Gn2   v072
+	BYTE		N01     Bn2   v084
+	BYTE	W12
+	BYTE		N07     En3   v096
+	BYTE		N06     Gn3   v100
+	BYTE	W12
+	BYTE		N07     Dn3   v092
+	BYTE		N06     Fs3   v096
+	BYTE	W12
+	BYTE		N01     Gn2   v076
+	BYTE		N01     Bn2   v084
+	BYTE	W12
+	BYTE		        Gn2   v076
+	BYTE		N01     Bn2   v088
+	BYTE	W12
+// 038   ----------------------------------------
+	BYTE		N07     Dn3   v096
+	BYTE		N06     Fs3   v100
+	BYTE	W12
+	BYTE		N10     Dn3   v092
+	BYTE		N09     En3   v096
+	BYTE	W24
+	BYTE		N10     Dn3   v084
+	BYTE		N09     En3   v088
+	BYTE	W24
+	BYTE		N44     En3   v092
+	BYTE		N44     An3   v096
+	BYTE	W36
+// 039   ----------------------------------------
+	BYTE	W24
+	BYTE		N01     Bn2   v084
+	BYTE	W12
+	BYTE		        Gn2   v076
+	BYTE		N01     Bn2   v088
+	BYTE	W12
+	BYTE		N07     Gn2   v084
+	BYTE		N07     Bn2   v088
+	BYTE		N06     Dn3   v092
+	BYTE	W12
+	BYTE		N01     Gn2   v076
+	BYTE		N01     Bn2   v088
+	BYTE	W12
+	BYTE		N07     Gn2   v080
+	BYTE		N07     Bn2   v084
+	BYTE		N06     Dn3   v088
+	BYTE	W12
+	BYTE		N01     Gn2   v076
+	BYTE		N01     Bn2   v088
+	BYTE	W12
+// 040   ----------------------------------------
+	BYTE		        Gn2   v076
+	BYTE		N01     Bn2   v084
+	BYTE	W12
+	BYTE		N07     Gn2   v080
+	BYTE		N07     Bn2   v084
+	BYTE		N06     En3   v088
+	BYTE	W24
+	BYTE		N01     Gn2   v076
+	BYTE		N01     Bn2   v088
+	BYTE	W12
+	BYTE		        Gn2   v076
+	BYTE		N01     Bn2   v084
+	BYTE	W12
+	BYTE		N11     Gn3   v096
+	BYTE	W12
+	BYTE		        Fs3   v104
+	BYTE	W12
+	BYTE		N07     Dn3   v088
+	BYTE	W12
+// 041   ----------------------------------------
+	BYTE		        Gn2   v084
+	BYTE		N06     Bn2   v088
+	BYTE	W12
+	BYTE		N01     Gn2   v076
+	BYTE		N01     Bn2   v088
+	BYTE	W12
+	BYTE		        Gn2   v076
+	BYTE		N01     Cn3   v084
+	BYTE	W12
+	BYTE		        Gn2   v076
+	BYTE		N01     Cn3   v088
+	BYTE	W12
+	BYTE		N07     Gn2   v084
+	BYTE		N07     Cn3   v088
+	BYTE		N06     En3   v096
+	BYTE	W12
+	BYTE		N01     Gn2   v076
+	BYTE		N01     Cn3   v088
+	BYTE	W12
+	BYTE		N30     Gn2   v096
+	BYTE	W12
+	BYTE		N19     Cn3   v088
+	BYTE	W12
+// 042   ----------------------------------------
+	BYTE		N07     En3   v104
+	BYTE	W12
+	BYTE		N48     An3 
+	BYTE	W60
+	BYTE		N32     Gn3   v092
+	BYTE	W12
+	BYTE		N23     En3   v096
+	BYTE	W12
+// 043   ----------------------------------------
+	BYTE		N11     Cn3   v088
+	BYTE	W12
+	BYTE		N07     Dn2   v076
+	BYTE	W12
+	BYTE		N01     Gn2 
+	BYTE		N01     Bn2   v084
+	BYTE	W12
+	BYTE		        Gn2   v076
+	BYTE		N01     Bn2   v088
+	BYTE	W12
+	BYTE		N07     Gn2   v084
+	BYTE		N07     Bn2   v088
+	BYTE		N06     Dn3   v092
+	BYTE	W12
+	BYTE		N01     Gn2   v076
+	BYTE		N01     Bn2   v088
+	BYTE	W12
+	BYTE		N07     Bn2   v080
+	BYTE		N07     Dn3   v084
+	BYTE		N06     Gn3   v092
+	BYTE	W12
+	BYTE		N05     Dn3 
+	BYTE	W12
+// 044   ----------------------------------------
+	BYTE		N06     Gn2   v088
+	BYTE	W12
+	BYTE		N07     Gn2   v080
+	BYTE		N07     Bn2   v084
+	BYTE		N06     En3   v088
+	BYTE	W24
+	BYTE		N01     Gn2   v076
+	BYTE		N01     Bn2   v088
+	BYTE	W12
+	BYTE		        Gn2   v076
+	BYTE		N01     Bn2   v084
+	BYTE	W12
+	BYTE		N11     Gn3   v096
+	BYTE	W12
+	BYTE		        Fs3   v104
+	BYTE	W12
+	BYTE		N01     Gn2   v076
+	BYTE		N01     Bn2   v088
+	BYTE	W12
+// 045   ----------------------------------------
+	BYTE		N07     Bn2   v084
+	BYTE		N06     Dn3   v088
+	BYTE	W12
+	BYTE		N01     Gn2   v076
+	BYTE		N01     Bn2   v088
+	BYTE	W12
+	BYTE		        Gn2   v076
+	BYTE		N01     Cn3   v084
+	BYTE	W12
+	BYTE		        Gn2   v076
+	BYTE		N01     Cn3   v088
+	BYTE	W12
+	BYTE		N07     Gn2   v084
+	BYTE		N07     Cn3   v088
+	BYTE		N06     En3   v096
+	BYTE	W12
+	BYTE		N01     Gn2   v076
+	BYTE		N01     Cn3   v088
+	BYTE	W12
+	BYTE		N30     Gn2   v096
+	BYTE	W12
+	BYTE		N19     Cn3   v088
+	BYTE	W12
+// 046   ----------------------------------------
+	BYTE		N07     En3   v104
+	BYTE	W12
+	BYTE		N96     Fs2   v088
+	BYTE		N80     An2   v092
+	BYTE	W01
+	BYTE		N56     Ds3 
+	BYTE	W56
+	BYTE	W03
+	BYTE		N36     Ds3   v084
+	BYTE		N36     Fs3   v092
+	BYTE	W24
+// 047   ----------------------------------------
+	BYTE		N12     An2 
+	BYTE	W24
+	BYTE		N07     Bn2   v084
+	BYTE	W12
+	BYTE		        Gn2 
+	BYTE		N07     Bn2   v088
+	BYTE		N06     En3   v092
+	BYTE	W12
+	BYTE		N01     Gn2   v076
+	BYTE		N01     Bn2   v084
+	BYTE	W12
+	BYTE		N07     Gn2 
+	BYTE		N07     Bn2   v088
+	BYTE		N06     En3   v092
+	BYTE	W12
+	BYTE		N07     Gn2   v080
+	BYTE		N07     Bn2   v084
+	BYTE		N06     En3   v088
+	BYTE	W12
+	BYTE		N07     Gn2   v084
+	BYTE		N07     Bn2   v088
+	BYTE		N06     En3   v092
+	BYTE	W12
+// 048   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ToTheStarOfWaterWithLove0_4_005
+	BYTE	GoTo
+	 POIN2	ToTheStarOfWaterWithLove0_4_B1
+ToTheStarOfWaterWithLove0_4_B2:
+// 049   ----------------------------------------
+	BYTE		N01     Gn2   v076
+	BYTE	W12
+	BYTE		N01   
+	BYTE	W10
+	BYTE	FINE
+
+//**************** Track 5 (Midi-Chn.5) ****************//
+
+ToTheStarOfWaterWithLove0_5:
+	BYTE	KEYSH   ToTheStarOfWaterWithLove0_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   33
+	BYTE	W01
+	BYTE		VOL     35*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE		PAN     c_v-30
+	BYTE	W92
+	BYTE	W03
+// 001   ----------------------------------------
+	BYTE	W96
+// 002   ----------------------------------------
+	BYTE	W96
+// 003   ----------------------------------------
+	BYTE	W96
+// 004   ----------------------------------------
+ToTheStarOfWaterWithLove0_5_004:
+	BYTE	W24
+	BYTE		N08     En1   v072
+	BYTE	W12
+	BYTE		        En1   v084
+	BYTE	W12
+	BYTE		        En2 
+	BYTE	W12
+	BYTE		        En2   v092
+	BYTE	W12
+	BYTE		        En1   v072
+	BYTE	W12
+	BYTE		        En1   v084
+	BYTE	W12
+	BYTE	PEND
+// 005   ----------------------------------------
+ToTheStarOfWaterWithLove0_5_005:
+	BYTE		N08     En2   v084
+	BYTE	W12
+	BYTE		        En2   v092
+	BYTE	W12
+	BYTE		        An1   v072
+	BYTE	W12
+	BYTE		        An1   v084
+	BYTE	W12
+	BYTE		        An2 
+	BYTE	W12
+	BYTE		        An2   v092
+	BYTE	W12
+	BYTE		        An1   v072
+	BYTE	W12
+	BYTE		        An1   v084
+	BYTE	W12
+	BYTE	PEND
+ToTheStarOfWaterWithLove0_5_B1:
+// 006   ----------------------------------------
+ToTheStarOfWaterWithLove0_5_006:
+	BYTE		N08     An2   v084
+	BYTE	W12
+	BYTE		        An2   v092
+	BYTE	W12
+	BYTE		        Bn1   v072
+	BYTE	W12
+	BYTE		        Bn1   v084
+	BYTE	W12
+	BYTE		        Bn2 
+	BYTE	W12
+	BYTE		        Bn2   v092
+	BYTE	W12
+	BYTE		        Bn1   v072
+	BYTE	W12
+	BYTE		        Bn1   v084
+	BYTE	W12
+	BYTE	PEND
+// 007   ----------------------------------------
+ToTheStarOfWaterWithLove0_5_007:
+	BYTE		N08     Bn2   v084
+	BYTE	W12
+	BYTE		        Bn2   v092
+	BYTE	W12
+	BYTE		        En1   v072
+	BYTE	W12
+	BYTE		        En1   v084
+	BYTE	W12
+	BYTE		        En2 
+	BYTE	W12
+	BYTE		        En2   v092
+	BYTE	W12
+	BYTE		        En1   v072
+	BYTE	W12
+	BYTE		        En1   v084
+	BYTE	W12
+	BYTE	PEND
+// 008   ----------------------------------------
+	BYTE		        En2 
+	BYTE	W12
+	BYTE		        En2   v092
+	BYTE	W12
+	BYTE		        En1   v072
+	BYTE	W12
+	BYTE		        En1   v084
+	BYTE	W12
+	BYTE		        En2 
+	BYTE	W12
+	BYTE		        En2   v092
+	BYTE	W12
+	BYTE		        En1   v072
+	BYTE	W12
+	BYTE		        En1   v084
+	BYTE	W12
+// 009   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ToTheStarOfWaterWithLove0_5_005
+// 010   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ToTheStarOfWaterWithLove0_5_006
+// 011   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ToTheStarOfWaterWithLove0_5_007
+// 012   ----------------------------------------
+	BYTE		N08     En2   v084
+	BYTE	W12
+	BYTE		        En2   v092
+	BYTE	W12
+	BYTE		        En1   v064
+	BYTE	W12
+	BYTE		        En1   v072
+	BYTE	W12
+	BYTE		        En2 
+	BYTE	W12
+	BYTE		        En2   v084
+	BYTE	W12
+	BYTE		        En1   v064
+	BYTE	W12
+	BYTE		        En1   v072
+	BYTE	W12
+// 013   ----------------------------------------
+ToTheStarOfWaterWithLove0_5_013:
+	BYTE		N08     En2   v072
+	BYTE	W12
+	BYTE		        En2   v084
+	BYTE	W12
+	BYTE		        Gn1   v064
+	BYTE	W12
+	BYTE		        Gn1   v072
+	BYTE	W12
+	BYTE		        Gn2 
+	BYTE	W12
+	BYTE		        Gn2   v084
+	BYTE	W12
+	BYTE		        Gn1   v064
+	BYTE	W12
+	BYTE		        Gn1   v072
+	BYTE	W12
+	BYTE	PEND
+// 014   ----------------------------------------
+ToTheStarOfWaterWithLove0_5_014:
+	BYTE		N08     Gn2   v072
+	BYTE	W12
+	BYTE		        Gn2   v084
+	BYTE	W12
+	BYTE		        An1   v064
+	BYTE	W12
+	BYTE		        An1   v072
+	BYTE	W12
+	BYTE		        An2 
+	BYTE	W12
+	BYTE		        An2   v084
+	BYTE	W12
+	BYTE		        An1   v064
+	BYTE	W12
+	BYTE		        An1   v072
+	BYTE	W12
+	BYTE	PEND
+// 015   ----------------------------------------
+	BYTE		        An2 
+	BYTE	W12
+	BYTE		        An2   v084
+	BYTE	W12
+	BYTE		        Bn1   v064
+	BYTE	W12
+	BYTE		        Bn1   v072
+	BYTE	W12
+	BYTE		        Bn2 
+	BYTE	W12
+	BYTE		        Bn2   v084
+	BYTE	W12
+	BYTE		        Bn1   v064
+	BYTE	W12
+	BYTE		        Bn1   v072
+	BYTE	W12
+// 016   ----------------------------------------
+	BYTE		        Bn2 
+	BYTE	W12
+	BYTE		        Bn2   v084
+	BYTE	W12
+	BYTE		        En1   v064
+	BYTE	W12
+	BYTE		        En1   v072
+	BYTE	W12
+	BYTE		        En2 
+	BYTE	W12
+	BYTE		        En2   v084
+	BYTE	W12
+	BYTE		        En1   v064
+	BYTE	W12
+	BYTE		        En1   v072
+	BYTE	W12
+// 017   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ToTheStarOfWaterWithLove0_5_013
+// 018   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ToTheStarOfWaterWithLove0_5_014
+// 019   ----------------------------------------
+	BYTE		N08     An2   v072
+	BYTE	W12
+	BYTE		        An2   v084
+	BYTE	W12
+	BYTE		        Bn1   v064
+	BYTE	W12
+	BYTE		        Bn1   v072
+	BYTE	W12
+	BYTE		        Bn2 
+	BYTE	W12
+	BYTE		        Bn2   v084
+	BYTE	W12
+	BYTE		        Bn1   v064
+	BYTE	W24
+// 020   ----------------------------------------
+	BYTE		N08   
+	BYTE	W96
+// 021   ----------------------------------------
+	BYTE	W96
+// 022   ----------------------------------------
+	BYTE	W96
+// 023   ----------------------------------------
+	BYTE	W96
+// 024   ----------------------------------------
+	BYTE	W96
+// 025   ----------------------------------------
+	BYTE	W96
+// 026   ----------------------------------------
+	BYTE	W96
+// 027   ----------------------------------------
+	BYTE	W96
+// 028   ----------------------------------------
+	BYTE	W96
+// 029   ----------------------------------------
+	BYTE	W24
+	BYTE		        En1   v068
+	BYTE	W12
+	BYTE		        En1   v076
+	BYTE	W12
+	BYTE		        En2 
+	BYTE	W12
+	BYTE		        En2   v088
+	BYTE	W12
+	BYTE		        En1   v068
+	BYTE	W12
+	BYTE		        En1   v076
+	BYTE	W12
+// 030   ----------------------------------------
+ToTheStarOfWaterWithLove0_5_030:
+	BYTE		N08     En2   v076
+	BYTE	W12
+	BYTE		        En2   v088
+	BYTE	W12
+	BYTE		        Gn1   v068
+	BYTE	W12
+	BYTE		        Gn1   v076
+	BYTE	W12
+	BYTE		        Gn2 
+	BYTE	W12
+	BYTE		        Gn2   v088
+	BYTE	W12
+	BYTE		        Gn1   v068
+	BYTE	W12
+	BYTE		        Gn1   v076
+	BYTE	W12
+	BYTE	PEND
+// 031   ----------------------------------------
+ToTheStarOfWaterWithLove0_5_031:
+	BYTE		N08     Gn2   v076
+	BYTE	W12
+	BYTE		        Gn2   v088
+	BYTE	W12
+	BYTE		        An1   v068
+	BYTE	W12
+	BYTE		        An1   v076
+	BYTE	W12
+	BYTE		        An2 
+	BYTE	W12
+	BYTE		        An2   v088
+	BYTE	W12
+	BYTE		        An1   v068
+	BYTE	W12
+	BYTE		        An1   v076
+	BYTE	W12
+	BYTE	PEND
+// 032   ----------------------------------------
+ToTheStarOfWaterWithLove0_5_032:
+	BYTE		N08     An2   v076
+	BYTE	W12
+	BYTE		        An2   v088
+	BYTE	W12
+	BYTE		        Bn1   v068
+	BYTE	W12
+	BYTE		        Bn1   v076
+	BYTE	W12
+	BYTE		        Bn2 
+	BYTE	W12
+	BYTE		        Bn2   v088
+	BYTE	W12
+	BYTE		        Bn1   v068
+	BYTE	W12
+	BYTE		        Bn1   v076
+	BYTE	W12
+	BYTE	PEND
+// 033   ----------------------------------------
+ToTheStarOfWaterWithLove0_5_033:
+	BYTE		N08     Bn2   v076
+	BYTE	W12
+	BYTE		        Bn2   v088
+	BYTE	W12
+	BYTE		        En1   v068
+	BYTE	W12
+	BYTE		        En1   v076
+	BYTE	W12
+	BYTE		        En2 
+	BYTE	W12
+	BYTE		        En2   v088
+	BYTE	W12
+	BYTE		        En1   v068
+	BYTE	W12
+	BYTE		        En1   v076
+	BYTE	W12
+	BYTE	PEND
+// 034   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ToTheStarOfWaterWithLove0_5_030
+// 035   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ToTheStarOfWaterWithLove0_5_031
+// 036   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ToTheStarOfWaterWithLove0_5_032
+// 037   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ToTheStarOfWaterWithLove0_5_033
+// 038   ----------------------------------------
+	BYTE		N08     En2   v076
+	BYTE	W96
+// 039   ----------------------------------------
+	BYTE	W96
+// 040   ----------------------------------------
+	BYTE	W96
+// 041   ----------------------------------------
+	BYTE	W96
+// 042   ----------------------------------------
+	BYTE	W96
+// 043   ----------------------------------------
+	BYTE	W96
+// 044   ----------------------------------------
+	BYTE	W96
+// 045   ----------------------------------------
+	BYTE	W96
+// 046   ----------------------------------------
+	BYTE	W96
+// 047   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ToTheStarOfWaterWithLove0_5_004
+// 048   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ToTheStarOfWaterWithLove0_5_005
+	BYTE	GoTo
+	 POIN2	ToTheStarOfWaterWithLove0_5_B1
+ToTheStarOfWaterWithLove0_5_B2:
+// 049   ----------------------------------------
+	BYTE		N08     An2   v084
+	BYTE	W12
+	BYTE		        An2   v092
+	BYTE	W10
+	BYTE	FINE
+
+//**************** Track 6 (Midi-Chn.6) ****************//
+
+ToTheStarOfWaterWithLove0_6:
+	BYTE	KEYSH   ToTheStarOfWaterWithLove0_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   100
+	BYTE	W01
+	BYTE		VOL     45*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE	W23
+	BYTE		N10     Bn1   v080
+	BYTE		N10     Bn2   v104
+	BYTE	W12
+	BYTE		        Cn2   v068
+	BYTE		N10     Cn3   v092
+	BYTE	W12
+	BYTE		        En2   v084
+	BYTE		N10     En3   v108
+	BYTE	W12
+	BYTE		N22     Gn2   v088
+	BYTE		N22     Gn3   v116
+	BYTE	W24
+	BYTE		        En2   v088
+	BYTE		N22     En3   v112
+	BYTE	W12
+// 001   ----------------------------------------
+ToTheStarOfWaterWithLove0_6_001:
+	BYTE	W09
+	BYTE		N03     Bn0   v036
+	BYTE	W01
+	BYTE		        Cn1   v040
+	BYTE	W02
+	BYTE		TIE     Dn1   v048
+	BYTE		TIE     An2   v092
+	BYTE		TIE     An3   v112
+	BYTE	W84
+	BYTE	PEND
+// 002   ----------------------------------------
+	BYTE	W18
+	BYTE		EOT     Dn1 
+	BYTE		        An2 
+	BYTE		        An3 
+	BYTE	W06
+	BYTE		N10     Bn1   v080
+	BYTE		N10     Bn2   v104
+	BYTE	W12
+	BYTE		        Cn2   v068
+	BYTE		N10     Cn3   v092
+	BYTE	W12
+	BYTE		        En2   v084
+	BYTE		N10     En3   v108
+	BYTE	W12
+	BYTE		N22     Gn2   v088
+	BYTE		N22     Gn3   v116
+	BYTE	W24
+	BYTE		        En2   v088
+	BYTE		N22     En3   v112
+	BYTE	W12
+// 003   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ToTheStarOfWaterWithLove0_6_001
+// 004   ----------------------------------------
+	BYTE	W18
+	BYTE		EOT     Dn1 
+	BYTE		        An2 
+	BYTE		        An3 
+	BYTE	W06
+	BYTE		N21     Fs4   v080
+	BYTE	W24
+	BYTE		N09     En4   v072
+	BYTE	W12
+	BYTE		N21     Bn3   v084
+	BYTE	W24
+	BYTE		        Gn3   v076
+	BYTE	W12
+// 005   ----------------------------------------
+ToTheStarOfWaterWithLove0_6_005:
+	BYTE	W12
+	BYTE		N21     Dn4   v084
+	BYTE	W24
+	BYTE		        Cn4   v076
+	BYTE	W24
+	BYTE		N09     An3 
+	BYTE	W12
+	BYTE		N36     En3   v080
+	BYTE	W24
+	BYTE	PEND
+ToTheStarOfWaterWithLove0_6_B1:
+// 006   ----------------------------------------
+ToTheStarOfWaterWithLove0_6_006:
+	BYTE	W24
+	BYTE		N21     Cn4   v084
+	BYTE	W24
+	BYTE		N09     Bn3   v076
+	BYTE	W12
+	BYTE		N21     Fs3   v084
+	BYTE	W24
+	BYTE		        Gn3   v076
+	BYTE	W12
+	BYTE	PEND
+// 007   ----------------------------------------
+	BYTE	W12
+	BYTE		        Fs3   v080
+	BYTE	W24
+	BYTE		N09     Gn3   v084
+	BYTE	W12
+	BYTE		        Fs3   v080
+	BYTE	W12
+	BYTE		N48     En3 
+	BYTE	W36
+// 008   ----------------------------------------
+ToTheStarOfWaterWithLove0_6_008:
+	BYTE	W24
+	BYTE		N21     Fs4   v080
+	BYTE	W24
+	BYTE		N09     En4   v072
+	BYTE	W12
+	BYTE		N21     Bn3   v084
+	BYTE	W24
+	BYTE		        Gn3   v076
+	BYTE	W12
+	BYTE	PEND
+// 009   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ToTheStarOfWaterWithLove0_6_005
+// 010   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ToTheStarOfWaterWithLove0_6_006
+// 011   ----------------------------------------
+	BYTE	W12
+	BYTE		N21     Fs3   v080
+	BYTE	W24
+	BYTE		        En3   v076
+	BYTE	W24
+	BYTE		N09     Ds3   v072
+	BYTE	W12
+	BYTE		N44     En3   v076
+	BYTE	W24
+// 012   ----------------------------------------
+	BYTE	W96
+// 013   ----------------------------------------
+	BYTE	W96
+// 014   ----------------------------------------
+	BYTE	W96
+// 015   ----------------------------------------
+	BYTE	W96
+// 016   ----------------------------------------
+	BYTE	W96
+// 017   ----------------------------------------
+	BYTE	W96
+// 018   ----------------------------------------
+	BYTE	W96
+// 019   ----------------------------------------
+	BYTE	W96
+// 020   ----------------------------------------
+	BYTE	W60
+	BYTE		TIE     Gn2   v080
+	BYTE	W24
+	BYTE		        Cn3   v084
+	BYTE	W12
+// 021   ----------------------------------------
+	BYTE		N92     Dn3   v076
+	BYTE	W12
+	BYTE		N80     Gn3   v096
+	BYTE	W80
+	BYTE	W03
+	BYTE		EOT     Gn2 
+	BYTE		        Cn3 
+	BYTE	W01
+// 022   ----------------------------------------
+	BYTE	W60
+	BYTE		TIE     An2   v080
+	BYTE	W24
+	BYTE		        Cs3   v084
+	BYTE	W12
+// 023   ----------------------------------------
+	BYTE		N92     En3   v076
+	BYTE	W12
+	BYTE		N80     An3   v096
+	BYTE	W80
+	BYTE	W03
+	BYTE		EOT     An2 
+	BYTE		        Cs3 
+	BYTE	W01
+// 024   ----------------------------------------
+	BYTE	W24
+	BYTE		N76     Gn4   v088
+	BYTE	W72
+// 025   ----------------------------------------
+	BYTE	W24
+	BYTE		        Gn4   v092
+	BYTE	W72
+// 026   ----------------------------------------
+	BYTE	W24
+	BYTE		N76   
+	BYTE	W72
+// 027   ----------------------------------------
+	BYTE	W96
+// 028   ----------------------------------------
+	BYTE	W12
+	BYTE		        Dn4 
+	BYTE	W84
+// 029   ----------------------------------------
+	BYTE	W96
+// 030   ----------------------------------------
+	BYTE	W96
+// 031   ----------------------------------------
+	BYTE	W96
+// 032   ----------------------------------------
+	BYTE	W96
+// 033   ----------------------------------------
+	BYTE	W96
+// 034   ----------------------------------------
+	BYTE	W96
+// 035   ----------------------------------------
+	BYTE	W96
+// 036   ----------------------------------------
+	BYTE	W96
+// 037   ----------------------------------------
+	BYTE	W48
+	BYTE		N10     Gn1 
+	BYTE		N10     Bn1   v076
+	BYTE		N10     Gn2   v112
+	BYTE		N10     Gn3   v096
+	BYTE	W12
+	BYTE		N06     Fs1   v080
+	BYTE		N06     An1   v064
+	BYTE		N06     Fs2   v100
+	BYTE		N06     Fs3   v084
+	BYTE	W36
+// 038   ----------------------------------------
+	BYTE		N10     Fs1   v092
+	BYTE		N10     An1   v076
+	BYTE		N10     Fs2   v108
+	BYTE		N10     Fs3   v092
+	BYTE	W12
+	BYTE		N06     En1   v080
+	BYTE		N06     An1   v064
+	BYTE		N06     En2   v100
+	BYTE		N06     En3   v084
+	BYTE	W24
+	BYTE		        En1   v088
+	BYTE		N06     An1   v072
+	BYTE		N06     En2   v104
+	BYTE		N06     En3   v088
+	BYTE	W24
+	BYTE		N10     Gn1   v092
+	BYTE		N10     Cn2   v076
+	BYTE		N10     Gn2   v112
+	BYTE		N10     Gn3   v096
+	BYTE	W36
+// 039   ----------------------------------------
+	BYTE	W96
+// 040   ----------------------------------------
+	BYTE	W96
+// 041   ----------------------------------------
+	BYTE	W96
+// 042   ----------------------------------------
+	BYTE	W96
+// 043   ----------------------------------------
+	BYTE	W96
+// 044   ----------------------------------------
+	BYTE	W96
+// 045   ----------------------------------------
+	BYTE	W96
+// 046   ----------------------------------------
+	BYTE	W96
+// 047   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ToTheStarOfWaterWithLove0_6_008
+// 048   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ToTheStarOfWaterWithLove0_6_005
+	BYTE	GoTo
+	 POIN2	ToTheStarOfWaterWithLove0_6_B1
+ToTheStarOfWaterWithLove0_6_B2:
+// 049   ----------------------------------------
+	BYTE	W22
+	BYTE	FINE
+
+//**************** Track 7 (Midi-Chn.7) ****************//
+
+ToTheStarOfWaterWithLove0_7:
+	BYTE	KEYSH   ToTheStarOfWaterWithLove0_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   6
+	BYTE	W01
+	BYTE		VOL     45*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE	W92
+	BYTE	W03
+// 001   ----------------------------------------
+	BYTE	W96
+// 002   ----------------------------------------
+	BYTE	W96
+// 003   ----------------------------------------
+	BYTE	W96
+// 004   ----------------------------------------
+ToTheStarOfWaterWithLove0_7_004:
+	BYTE	W24
+	BYTE		N21     Fs4   v056
+	BYTE	W24
+	BYTE		N09     En4   v048
+	BYTE	W12
+	BYTE		N21     Bn3   v060
+	BYTE	W24
+	BYTE		        Gn3   v052
+	BYTE	W12
+	BYTE	PEND
+// 005   ----------------------------------------
+ToTheStarOfWaterWithLove0_7_005:
+	BYTE	W12
+	BYTE		N21     Gn3   v044
+	BYTE	W24
+	BYTE		        Gn3   v036
+	BYTE	W24
+	BYTE		N09     En3 
+	BYTE	W12
+	BYTE		N36     Cn3   v040
+	BYTE	W24
+	BYTE	PEND
+ToTheStarOfWaterWithLove0_7_B1:
+// 006   ----------------------------------------
+ToTheStarOfWaterWithLove0_7_006:
+	BYTE	W24
+	BYTE		N21     En3   v044
+	BYTE		N21     Cn4   v060
+	BYTE	W24
+	BYTE		N09     Ds3   v036
+	BYTE		N09     Bn3   v052
+	BYTE	W12
+	BYTE		N21     An2   v044
+	BYTE		N21     Fs3   v060
+	BYTE	W24
+	BYTE		        Bn2   v036
+	BYTE		N21     Gn3   v052
+	BYTE	W12
+	BYTE	PEND
+// 007   ----------------------------------------
+	BYTE	W12
+	BYTE		        An2   v040
+	BYTE		N21     Fs3   v056
+	BYTE	W24
+	BYTE		N09     Bn2   v044
+	BYTE		N09     Gn3   v060
+	BYTE	W12
+	BYTE		        An2   v040
+	BYTE		N09     Fs3   v056
+	BYTE	W12
+	BYTE		N48     Gn2   v040
+	BYTE		N48     En3   v056
+	BYTE	W36
+// 008   ----------------------------------------
+	BYTE	W24
+	BYTE		N21     An3   v040
+	BYTE		N21     Fs4   v056
+	BYTE	W24
+	BYTE		N09     Gn3   v032
+	BYTE		N09     En4   v048
+	BYTE	W12
+	BYTE		N21     Fs3   v044
+	BYTE		N21     Bn3   v060
+	BYTE	W24
+	BYTE		        En3   v036
+	BYTE		N21     Gn3   v052
+	BYTE	W12
+// 009   ----------------------------------------
+	BYTE	W12
+	BYTE		        Gn3   v044
+	BYTE		N21     Dn4   v060
+	BYTE	W24
+	BYTE		        Gn3   v036
+	BYTE		N21     Cn4   v052
+	BYTE	W24
+	BYTE		N09     En3   v036
+	BYTE		N09     An3   v052
+	BYTE	W12
+	BYTE		N36     Cn3   v040
+	BYTE		N36     En3   v056
+	BYTE	W24
+// 010   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ToTheStarOfWaterWithLove0_7_006
+// 011   ----------------------------------------
+	BYTE	W12
+	BYTE		N21     An2   v040
+	BYTE		N21     Fs3   v056
+	BYTE	W24
+	BYTE		        Gn2   v036
+	BYTE		N21     En3   v052
+	BYTE	W24
+	BYTE		N09     Fs2   v032
+	BYTE		N09     Ds3   v048
+	BYTE	W12
+	BYTE		N44     Gn2   v036
+	BYTE		N44     En3   v052
+	BYTE	W24
+// 012   ----------------------------------------
+	BYTE	W96
+// 013   ----------------------------------------
+	BYTE	W96
+// 014   ----------------------------------------
+	BYTE	W96
+// 015   ----------------------------------------
+	BYTE	W96
+// 016   ----------------------------------------
+	BYTE	W96
+// 017   ----------------------------------------
+	BYTE	W96
+// 018   ----------------------------------------
+	BYTE	W96
+// 019   ----------------------------------------
+	BYTE	W96
+// 020   ----------------------------------------
+	BYTE	W96
+// 021   ----------------------------------------
+	BYTE	W96
+// 022   ----------------------------------------
+	BYTE	W96
+// 023   ----------------------------------------
+	BYTE	W96
+// 024   ----------------------------------------
+	BYTE	W96
+// 025   ----------------------------------------
+	BYTE	W96
+// 026   ----------------------------------------
+	BYTE	W96
+// 027   ----------------------------------------
+	BYTE	W96
+// 028   ----------------------------------------
+	BYTE	W96
+// 029   ----------------------------------------
+	BYTE	W96
+// 030   ----------------------------------------
+	BYTE	W96
+// 031   ----------------------------------------
+	BYTE	W96
+// 032   ----------------------------------------
+	BYTE	W96
+// 033   ----------------------------------------
+	BYTE	W96
+// 034   ----------------------------------------
+	BYTE	W96
+// 035   ----------------------------------------
+	BYTE	W96
+// 036   ----------------------------------------
+	BYTE	W96
+// 037   ----------------------------------------
+	BYTE	W96
+// 038   ----------------------------------------
+	BYTE	W96
+// 039   ----------------------------------------
+	BYTE	W96
+// 040   ----------------------------------------
+	BYTE	W96
+// 041   ----------------------------------------
+	BYTE	W96
+// 042   ----------------------------------------
+	BYTE	W96
+// 043   ----------------------------------------
+	BYTE	W96
+// 044   ----------------------------------------
+	BYTE	W96
+// 045   ----------------------------------------
+	BYTE	W96
+// 046   ----------------------------------------
+	BYTE	W96
+// 047   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ToTheStarOfWaterWithLove0_7_004
+// 048   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ToTheStarOfWaterWithLove0_7_005
+	BYTE	GoTo
+	 POIN2	ToTheStarOfWaterWithLove0_7_B1
+ToTheStarOfWaterWithLove0_7_B2:
+// 049   ----------------------------------------
+	BYTE	W22
+	BYTE	FINE
+
+//**************** Track 8 (Midi-Chn.8) ****************//
+
+ToTheStarOfWaterWithLove0_8:
+	BYTE	KEYSH   ToTheStarOfWaterWithLove0_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   3
+	BYTE	W01
+	BYTE		VOL     26*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE		PAN     c_v+30
+	BYTE	W23
+	BYTE		N09     Dn2   v072
+	BYTE	W12
+	BYTE		        Cn2 
+	BYTE	W60
+// 001   ----------------------------------------
+ToTheStarOfWaterWithLove0_8_001:
+	BYTE	W09
+	BYTE		N03     Bn1   v036
+	BYTE	W01
+	BYTE		        Cn2   v040
+	BYTE	W02
+	BYTE		N90     Dn2   v048
+	BYTE	W84
+	BYTE	PEND
+// 002   ----------------------------------------
+	BYTE	W24
+	BYTE		N09     Dn2   v072
+	BYTE	W12
+	BYTE		        Cn2 
+	BYTE	W60
+// 003   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ToTheStarOfWaterWithLove0_8_001
+// 004   ----------------------------------------
+	BYTE	W96
+// 005   ----------------------------------------
+	BYTE	W96
+ToTheStarOfWaterWithLove0_8_B1:
+// 006   ----------------------------------------
+	BYTE	W96
+// 007   ----------------------------------------
+	BYTE	W24
+	BYTE		VOICE   62
+	BYTE	W01
+	BYTE		VOL     37*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE	W68
+	BYTE	W03
+// 008   ----------------------------------------
+	BYTE	W96
+// 009   ----------------------------------------
+	BYTE	W96
+// 010   ----------------------------------------
+	BYTE	W96
+// 011   ----------------------------------------
+	BYTE	W96
+// 012   ----------------------------------------
+	BYTE	W96
+// 013   ----------------------------------------
+	BYTE	W96
+// 014   ----------------------------------------
+	BYTE	W96
+// 015   ----------------------------------------
+	BYTE	W96
+// 016   ----------------------------------------
+	BYTE	W96
+// 017   ----------------------------------------
+	BYTE	W96
+// 018   ----------------------------------------
+	BYTE	W96
+// 019   ----------------------------------------
+	BYTE	W96
+// 020   ----------------------------------------
+	BYTE	W96
+// 021   ----------------------------------------
+	BYTE	W96
+// 022   ----------------------------------------
+	BYTE	W96
+// 023   ----------------------------------------
+	BYTE	W96
+// 024   ----------------------------------------
+	BYTE	W24
+	BYTE		N10     En4   v080
+	BYTE		N10     Gn4   v088
+	BYTE	W24
+	BYTE		        Cn4   v068
+	BYTE		N10     En4   v080
+	BYTE		N10     Gn4   v088
+	BYTE	W24
+	BYTE		        Cn4   v068
+	BYTE		N10     En4   v080
+	BYTE		N10     Gn4   v088
+	BYTE	W24
+// 025   ----------------------------------------
+	BYTE		        Cn4   v068
+	BYTE		N10     En4   v080
+	BYTE		N10     Gn4   v088
+	BYTE	W24
+	BYTE		        An3   v068
+	BYTE		N10     Dn4   v080
+	BYTE		N10     Gn4   v088
+	BYTE	W24
+	BYTE		        An3   v068
+	BYTE		N10     Dn4   v080
+	BYTE		N10     Gn4   v088
+	BYTE	W24
+	BYTE		        An3   v068
+	BYTE		N10     Dn4   v080
+	BYTE		N10     Gn4   v088
+	BYTE	W24
+// 026   ----------------------------------------
+	BYTE		        An3   v068
+	BYTE		N10     Dn4   v080
+	BYTE		N10     Gn4   v088
+	BYTE	W24
+	BYTE		        Bn3   v052
+	BYTE		N10     Cn4   v080
+	BYTE		N10     En4 
+	BYTE		N10     Gn4   v088
+	BYTE	W24
+	BYTE		        Bn3   v052
+	BYTE		N10     Cn4   v080
+	BYTE		N10     En4 
+	BYTE		N10     Gn4   v088
+	BYTE	W24
+	BYTE		        Bn3   v052
+	BYTE		N10     Cn4   v080
+	BYTE		N10     En4 
+	BYTE		N10     Gn4   v088
+	BYTE	W24
+// 027   ----------------------------------------
+	BYTE		        Bn3   v052
+	BYTE		N10     Cn4   v080
+	BYTE		N10     En4 
+	BYTE		N10     Gn4   v088
+	BYTE	W32
+	BYTE	W03
+	BYTE		BEND    c_v-11
+	BYTE	W01
+	BYTE		N11     Bn2   v076
+	BYTE		N11     Bn3   v084
+	BYTE	W01
+	BYTE		BEND    c_v-9
+	BYTE	W01
+	BYTE		        c_v-7
+	BYTE	W01
+	BYTE		        c_v-5
+	BYTE	W01
+	BYTE		        c_v-3
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W06
+	BYTE		N11     Dn3   v080
+	BYTE		N11     Dn4   v092
+	BYTE	W12
+	BYTE		N06     En3   v080
+	BYTE		N06     En4   v088
+	BYTE	W12
+	BYTE		N11     Fs3 
+	BYTE		N11     Fs4   v100
+	BYTE	W12
+	BYTE		        An3   v084
+	BYTE		N11     An4   v096
+	BYTE	W12
+// 028   ----------------------------------------
+	BYTE		N06     Bn3 
+	BYTE		N06     Bn4   v104
+	BYTE	W12
+	BYTE		TIE     Dn4   v084
+	BYTE		TIE     An4   v092
+	BYTE		TIE     Dn5   v096
+	BYTE	W84
+// 029   ----------------------------------------
+	BYTE	W24
+	BYTE		EOT     Dn4 
+	BYTE		        An4 
+	BYTE		        Dn5 
+	BYTE	W72
+// 030   ----------------------------------------
+	BYTE	W96
+// 031   ----------------------------------------
+	BYTE	W96
+// 032   ----------------------------------------
+	BYTE	W96
+// 033   ----------------------------------------
+	BYTE	W96
+// 034   ----------------------------------------
+	BYTE	W96
+// 035   ----------------------------------------
+	BYTE	W96
+// 036   ----------------------------------------
+	BYTE	W96
+// 037   ----------------------------------------
+	BYTE	W96
+// 038   ----------------------------------------
+	BYTE	W96
+// 039   ----------------------------------------
+	BYTE	W96
+// 040   ----------------------------------------
+	BYTE	W96
+// 041   ----------------------------------------
+	BYTE	W96
+// 042   ----------------------------------------
+	BYTE	W96
+// 043   ----------------------------------------
+	BYTE	W96
+// 044   ----------------------------------------
+	BYTE	W96
+// 045   ----------------------------------------
+	BYTE	W96
+// 046   ----------------------------------------
+	BYTE	W96
+// 047   ----------------------------------------
+	BYTE	W96
+// 048   ----------------------------------------
+	BYTE	W96
+	BYTE	GoTo
+	 POIN2	ToTheStarOfWaterWithLove0_8_B1
+ToTheStarOfWaterWithLove0_8_B2:
+// 049   ----------------------------------------
+	BYTE	W22
+	BYTE	FINE
+
+//**************** Track 9 (Midi-Chn.9) ****************//
+
+ToTheStarOfWaterWithLove0_9:
+	BYTE	KEYSH   ToTheStarOfWaterWithLove0_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   96
+	BYTE	W01
+	BYTE		VOL     37*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE	W21
+	BYTE		VOL     37*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        24*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        23*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE		N80     Bn2   v060
+	BYTE		N80     Bn3 
+	BYTE	W01
+	BYTE		VOL     24*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        25*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        26*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        27*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        27*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        28*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        29*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        30*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        30*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        31*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        32*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        32*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        33*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        34*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        35*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        35*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        36*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        37*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W54
+// 001   ----------------------------------------
+	BYTE	W12
+	BYTE		TIE     Bn2   v036
+	BYTE		TIE     Bn3 
+	BYTE	W60
+	BYTE		VOL     37*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W02
+	BYTE		        36*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        36*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        35*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        35*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        35*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        34*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        34*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        33*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        33*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        32*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        32*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        32*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        31*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        31*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        30*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        30*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        30*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        29*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W02
+	BYTE		        29*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        28*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        28*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+// 002   ----------------------------------------
+	BYTE		        28*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        27*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        27*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        26*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        26*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        25*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        25*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        25*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        24*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        24*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        23*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        23*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        23*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W06
+	BYTE		EOT     Bn2 
+	BYTE		        Bn3 
+	BYTE	W06
+	BYTE		VOL     23*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE		N80     Bn2   v060
+	BYTE		N80     Bn3 
+	BYTE	W01
+	BYTE		VOL     25*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        25*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        27*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        28*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        29*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        30*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        32*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        32*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        34*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        35*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        36*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        37*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W60
+// 003   ----------------------------------------
+	BYTE	W12
+	BYTE		TIE     Bn2   v036
+	BYTE		TIE     Bn3 
+	BYTE	W60
+	BYTE		VOL     37*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W02
+	BYTE		        36*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        36*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        35*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        35*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        35*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        34*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        34*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        33*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        33*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        32*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        32*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        32*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W02
+	BYTE		        31*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        31*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        30*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        30*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        30*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        29*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        29*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        28*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        28*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+// 004   ----------------------------------------
+	BYTE		        28*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        27*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        27*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        26*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W02
+	BYTE		        26*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        25*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        25*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        25*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        24*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        24*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        23*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        23*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        23*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W05
+	BYTE		EOT     Bn2 
+	BYTE		        Bn3 
+	BYTE	W04
+	BYTE		VOL     37*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W72
+	BYTE	W02
+// 005   ----------------------------------------
+	BYTE	W96
+ToTheStarOfWaterWithLove0_9_B1:
+// 006   ----------------------------------------
+	BYTE	W96
+// 007   ----------------------------------------
+	BYTE	W96
+// 008   ----------------------------------------
+	BYTE	W96
+// 009   ----------------------------------------
+	BYTE	W96
+// 010   ----------------------------------------
+	BYTE	W96
+// 011   ----------------------------------------
+	BYTE	W96
+// 012   ----------------------------------------
+	BYTE	W96
+// 013   ----------------------------------------
+	BYTE	W96
+// 014   ----------------------------------------
+	BYTE	W96
+// 015   ----------------------------------------
+	BYTE	W96
+// 016   ----------------------------------------
+	BYTE	W96
+// 017   ----------------------------------------
+	BYTE	W96
+// 018   ----------------------------------------
+	BYTE	W96
+// 019   ----------------------------------------
+	BYTE	W68
+	BYTE	W02
+	BYTE		VOL     37*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        25*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        25*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE		N44     Bn1   v080
+	BYTE		N44     Bn2   v088
+	BYTE	W01
+	BYTE		VOL     26*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        26*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        27*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        27*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        28*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        28*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        28*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        29*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        30*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        30*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        30*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        31*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        31*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        32*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        32*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        32*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W02
+	BYTE		        33*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        33*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        34*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W02
+	BYTE		        34*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W02
+// 020   ----------------------------------------
+	BYTE		        35*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W02
+	BYTE		        35*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        35*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        36*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W02
+	BYTE		        36*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W02
+	BYTE		        36*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        36*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        35*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        35*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        34*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        34*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        33*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        32*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        32*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        32*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        31*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        30*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        30*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        29*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        29*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        28*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		TIE     Cn2   v080
+	BYTE		TIE     Cn3   v088
+	BYTE	W72
+// 021   ----------------------------------------
+	BYTE	W12
+	BYTE		VOL     28*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W04
+	BYTE		        29*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        29*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        30*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        30*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        30*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W02
+	BYTE		        31*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        31*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        32*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W02
+	BYTE		        32*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        32*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        33*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W02
+	BYTE		        33*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        34*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        34*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W02
+	BYTE		        35*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        35*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        35*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W02
+	BYTE		        36*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        36*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        37*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W44
+	BYTE	W01
+	BYTE		EOT     Cn2 
+	BYTE		        Cn3 
+	BYTE	W11
+// 022   ----------------------------------------
+	BYTE	W10
+	BYTE		VOL     37*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        28*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		TIE     An1   v084
+	BYTE		TIE     Cs3   v092
+	BYTE	W84
+// 023   ----------------------------------------
+	BYTE	W11
+	BYTE		VOL     28*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W05
+	BYTE		        29*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        29*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        30*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        30*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        30*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W02
+	BYTE		        31*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        31*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        32*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W02
+	BYTE		        32*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        32*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        33*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W02
+	BYTE		        33*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        34*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        34*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W02
+	BYTE		        35*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        35*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        35*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W02
+	BYTE		        36*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        36*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        37*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W32
+	BYTE	W01
+	BYTE		EOT     An1 
+	BYTE		        Cs3 
+	BYTE	W23
+// 024   ----------------------------------------
+	BYTE		N03     An3   v048
+	BYTE		N03     An4   v056
+	BYTE	W04
+	BYTE		        Bn3   v040
+	BYTE		N03     Bn4   v048
+	BYTE	W04
+	BYTE		        Cs4   v052
+	BYTE		N03     Cs5   v060
+	BYTE	W04
+	BYTE		        Dn4   v048
+	BYTE		N03     Dn5   v052
+	BYTE	W04
+	BYTE		        En4   v056
+	BYTE		N03     En5   v064
+	BYTE	W04
+	BYTE		N02     Fs4   v048
+	BYTE		N03     Fs5   v056
+	BYTE	W04
+	BYTE		TIE     Gn4   v052
+	BYTE		TIE     Gn5   v060
+	BYTE	W72
+// 025   ----------------------------------------
+	BYTE	W96
+// 026   ----------------------------------------
+	BYTE	W96
+	BYTE		EOT     Gn4 
+	BYTE		        Gn5 
+// 027   ----------------------------------------
+	BYTE	W96
+// 028   ----------------------------------------
+	BYTE	W12
+	BYTE		TIE     Dn5   v056
+	BYTE	W84
+// 029   ----------------------------------------
+	BYTE	W24
+	BYTE		EOT   
+	BYTE	W72
+// 030   ----------------------------------------
+	BYTE	W44
+	BYTE	W02
+	BYTE		VOL     37*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        25*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        26*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE		N23     En2   v060
+	BYTE		N23     Gn2   v068
+	BYTE		N23     En3   v084
+	BYTE	W01
+	BYTE		VOL     26*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        27*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        28*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        29*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        30*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        30*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        31*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        32*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        32*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        33*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        34*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        34*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        35*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        35*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        36*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        37*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W08
+	BYTE		N23     Gn2   v068
+	BYTE		N23     Bn2   v076
+	BYTE		N23     Gn3   v092
+	BYTE	W24
+// 031   ----------------------------------------
+ToTheStarOfWaterWithLove0_9_031:
+	BYTE		N23     Gn2   v072
+	BYTE		N23     En3   v080
+	BYTE		N23     Dn4   v096
+	BYTE	W24
+	BYTE		N92     An2   v068
+	BYTE		N92     En3   v080
+	BYTE		N92     Cn4   v096
+	BYTE	W48
+	BYTE		VOL     36*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W02
+	BYTE		        36*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W02
+	BYTE		        35*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W04
+	BYTE		        35*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W04
+	BYTE		        35*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W02
+	BYTE		        34*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W02
+	BYTE		        34*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W04
+	BYTE		        33*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W02
+	BYTE		        33*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W02
+	BYTE	PEND
+// 032   ----------------------------------------
+	BYTE		        32*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W04
+	BYTE		        32*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W02
+	BYTE		        32*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W02
+	BYTE		        31*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W04
+	BYTE		        31*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W04
+	BYTE		        30*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W02
+	BYTE		        30*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W02
+	BYTE		        29*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        29*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        28*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        28*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		TIE     Bn2   v068
+	BYTE		N44     En3   v076
+	BYTE		TIE     Bn3   v092
+	BYTE	W01
+	BYTE		VOL     28*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        28*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W02
+	BYTE		        29*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W02
+	BYTE		        29*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W02
+	BYTE		        30*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W02
+	BYTE		        30*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        30*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        31*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W02
+	BYTE		        31*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        32*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        32*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W02
+	BYTE		        32*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        33*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        33*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W02
+	BYTE		        34*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        34*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        35*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W02
+	BYTE		        35*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W02
+	BYTE		        35*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W02
+	BYTE		        36*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        36*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        37*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W16
+	BYTE		N44     Ds3   v084
+	BYTE	W24
+// 033   ----------------------------------------
+	BYTE	W24
+	BYTE		        En3   v080
+	BYTE	W08
+	BYTE		VOL     36*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W02
+	BYTE		        36*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W02
+	BYTE		        35*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W02
+	BYTE		        35*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W02
+	BYTE		        35*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W02
+	BYTE		        34*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W02
+	BYTE		        34*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W02
+	BYTE		        33*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W02
+	BYTE		        33*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        32*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        32*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        32*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        31*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        30*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        30*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        29*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        29*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        28*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        28*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        28*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        27*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        26*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        26*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        25*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        24*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        24*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        23*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        23*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        23*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        22*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        21*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		EOT     Bn2 
+	BYTE		        Bn3 
+	BYTE		VOL     21*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        20*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W24
+// 034   ----------------------------------------
+	BYTE	W44
+	BYTE	W02
+	BYTE		        20*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        25*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        26*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE		N23     En2   v060
+	BYTE		N23     Gn2   v068
+	BYTE		N23     En3   v084
+	BYTE	W01
+	BYTE		VOL     26*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        27*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        28*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        29*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        30*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        30*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        31*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        32*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        32*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        33*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        34*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        34*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        35*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        35*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        36*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        37*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W08
+	BYTE		N23     Gn2   v068
+	BYTE		N23     Bn2   v076
+	BYTE		N23     Gn3   v092
+	BYTE	W24
+// 035   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ToTheStarOfWaterWithLove0_9_031
+// 036   ----------------------------------------
+	BYTE		VOL     32*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W04
+	BYTE		        32*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W02
+	BYTE		        32*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W02
+	BYTE		        31*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W04
+	BYTE		        31*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W04
+	BYTE		        30*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W02
+	BYTE		        30*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W02
+	BYTE		        29*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        27*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        26*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        25*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        25*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE		N92     Bn2   v068
+	BYTE		N92     Ds3   v076
+	BYTE		N92     Bn3   v092
+	BYTE	W01
+	BYTE		VOL     25*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        26*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        26*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        27*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        28*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        28*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        28*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        29*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        30*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        30*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        30*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        31*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W02
+	BYTE		        31*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        32*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        32*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W02
+	BYTE		        32*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        33*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        33*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W02
+	BYTE		        34*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        34*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        35*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W02
+	BYTE		        35*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W02
+	BYTE		        35*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W02
+	BYTE		        36*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        36*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        37*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W21
+	BYTE		        36*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W10
+	BYTE		        36*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        35*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W02
+	BYTE		        35*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W02
+	BYTE		        35*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W02
+	BYTE		        34*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        34*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+// 037   ----------------------------------------
+	BYTE		        33*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W02
+	BYTE		        33*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W02
+	BYTE		        32*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W02
+	BYTE		        32*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W02
+	BYTE		        32*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W02
+	BYTE		        31*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        31*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        30*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        30*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        30*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        29*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        28*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        28*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        28*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        27*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        26*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        26*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        25*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        25*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        25*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W72
+// 038   ----------------------------------------
+	BYTE	W60
+	BYTE	W03
+	BYTE		        38*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        42*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W08
+	BYTE		N05     An2   v064
+	BYTE		N05     An3   v080
+	BYTE	W06
+	BYTE		        Cn3   v056
+	BYTE		N05     Cn4   v072
+	BYTE	W06
+	BYTE		        En3   v068
+	BYTE		N05     En4   v084
+	BYTE	W06
+	BYTE		        Gn3   v064
+	BYTE		N05     Gn4   v080
+	BYTE	W06
+// 039   ----------------------------------------
+	BYTE		        An2   v072
+	BYTE		N05     Cn4   v088
+	BYTE	W06
+	BYTE		        Cn3   v060
+	BYTE		N05     En4   v076
+	BYTE	W06
+	BYTE		        En3 
+	BYTE		N05     Gn4   v092
+	BYTE	W06
+	BYTE		        Gn3   v064
+	BYTE		N05     Bn4   v080
+	BYTE	W04
+	BYTE		VOL     42*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		        37*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE	W01
+	BYTE		TIE     Dn4   v072
+	BYTE		TIE     Dn5   v088
+	BYTE	W72
+// 040   ----------------------------------------
+	BYTE	W48
+	BYTE		EOT     Dn4 
+	BYTE		        Dn5 
+	BYTE	W12
+	BYTE		N11     Gn4   v064
+	BYTE		N11     Gn5   v080
+	BYTE	W12
+	BYTE		        Fs4   v060
+	BYTE		N11     Fs5   v076
+	BYTE	W24
+// 041   ----------------------------------------
+ToTheStarOfWaterWithLove0_9_041:
+	BYTE		N11     Bn3   v060
+	BYTE		N11     Bn4   v076
+	BYTE	W12
+	BYTE		N68     Cn4   v064
+	BYTE		N68     Cn5   v080
+	BYTE	W72
+	BYTE		N11     Dn4   v060
+	BYTE		N11     Dn5   v076
+	BYTE	W12
+	BYTE	PEND
+// 042   ----------------------------------------
+	BYTE		        En4   v064
+	BYTE		N11     En5   v080
+	BYTE	W12
+	BYTE		N80     Dn4   v060
+	BYTE		N80     Dn5   v076
+	BYTE	W84
+// 043   ----------------------------------------
+	BYTE		N05     Dn3   v064
+	BYTE		N05     Dn4   v080
+	BYTE	W06
+	BYTE		        Gn3   v052
+	BYTE		N05     Gn4   v068
+	BYTE	W06
+	BYTE		        An3   v056
+	BYTE		N05     An4   v072
+	BYTE	W06
+	BYTE		        Bn3   v060
+	BYTE		N05     Bn4   v076
+	BYTE	W06
+	BYTE		TIE     Dn4   v064
+	BYTE		TIE     Dn5   v080
+	BYTE	W72
+// 044   ----------------------------------------
+	BYTE	W48
+	BYTE		EOT     Dn4 
+	BYTE		        Dn5 
+	BYTE	W12
+	BYTE		N11     Gn4   v064
+	BYTE		N11     Gn5   v080
+	BYTE	W12
+	BYTE		        Fs4   v060
+	BYTE		N11     Fs5   v076
+	BYTE	W24
+// 045   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ToTheStarOfWaterWithLove0_9_041
+// 046   ----------------------------------------
+	BYTE		N11     En4   v064
+	BYTE		N11     En5   v080
+	BYTE	W12
+	BYTE		TIE     Ds4   v056
+	BYTE		TIE     Ds5   v072
+	BYTE	W84
+// 047   ----------------------------------------
+	BYTE	W18
+	BYTE		EOT     Ds4 
+	BYTE		        Ds5 
+	BYTE	W78
+// 048   ----------------------------------------
+	BYTE	W96
+	BYTE	GoTo
+	 POIN2	ToTheStarOfWaterWithLove0_9_B1
+ToTheStarOfWaterWithLove0_9_B2:
+// 049   ----------------------------------------
+	BYTE	W22
+	BYTE	FINE
+
+//**************** Track 10 (Midi-Chn.11) ****************//
+
+ToTheStarOfWaterWithLove0_10:
+	BYTE	KEYSH   ToTheStarOfWaterWithLove0_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   47
+	BYTE	W01
+	BYTE		VOL     37*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE	W23
+	BYTE		N10     Bn3   v044
+	BYTE	W12
+	BYTE		        Cn4   v032
+	BYTE	W12
+	BYTE		        En4   v048
+	BYTE	W12
+	BYTE		N22     Gn4   v056
+	BYTE	W24
+	BYTE		        En4   v052
+	BYTE	W12
+// 001   ----------------------------------------
+ToTheStarOfWaterWithLove0_10_001:
+	BYTE	W12
+	BYTE		TIE     An4   v052
+	BYTE	W84
+	BYTE	PEND
+// 002   ----------------------------------------
+	BYTE	W18
+	BYTE		EOT   
+	BYTE	W06
+	BYTE		N10     Bn3   v044
+	BYTE	W12
+	BYTE		        Cn4   v032
+	BYTE	W12
+	BYTE		        En4   v048
+	BYTE	W12
+	BYTE		N22     Gn4   v056
+	BYTE	W24
+	BYTE		        En4   v052
+	BYTE	W12
+// 003   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ToTheStarOfWaterWithLove0_10_001
+// 004   ----------------------------------------
+	BYTE	W18
+	BYTE		EOT     An4 
+	BYTE	W78
+// 005   ----------------------------------------
+	BYTE	W96
+ToTheStarOfWaterWithLove0_10_B1:
+// 006   ----------------------------------------
+	BYTE	W96
+// 007   ----------------------------------------
+	BYTE	W96
+// 008   ----------------------------------------
+	BYTE	W96
+// 009   ----------------------------------------
+	BYTE	W96
+// 010   ----------------------------------------
+	BYTE	W96
+// 011   ----------------------------------------
+	BYTE	W96
+// 012   ----------------------------------------
+	BYTE	W96
+// 013   ----------------------------------------
+	BYTE	W96
+// 014   ----------------------------------------
+	BYTE	W96
+// 015   ----------------------------------------
+	BYTE	W96
+// 016   ----------------------------------------
+	BYTE	W96
+// 017   ----------------------------------------
+	BYTE	W96
+// 018   ----------------------------------------
+	BYTE	W96
+// 019   ----------------------------------------
+	BYTE	W96
+// 020   ----------------------------------------
+	BYTE	W96
+// 021   ----------------------------------------
+	BYTE	W96
+// 022   ----------------------------------------
+	BYTE	W96
+// 023   ----------------------------------------
+	BYTE	W96
+// 024   ----------------------------------------
+	BYTE	W96
+// 025   ----------------------------------------
+	BYTE	W96
+// 026   ----------------------------------------
+	BYTE	W96
+// 027   ----------------------------------------
+	BYTE	W96
+// 028   ----------------------------------------
+	BYTE	W96
+// 029   ----------------------------------------
+	BYTE	W96
+// 030   ----------------------------------------
+	BYTE	W96
+// 031   ----------------------------------------
+	BYTE	W96
+// 032   ----------------------------------------
+	BYTE	W96
+// 033   ----------------------------------------
+	BYTE	W96
+// 034   ----------------------------------------
+	BYTE	W96
+// 035   ----------------------------------------
+	BYTE	W96
+// 036   ----------------------------------------
+	BYTE	W96
+// 037   ----------------------------------------
+	BYTE	W96
+// 038   ----------------------------------------
+	BYTE	W96
+// 039   ----------------------------------------
+	BYTE	W96
+// 040   ----------------------------------------
+	BYTE	W96
+// 041   ----------------------------------------
+	BYTE	W96
+// 042   ----------------------------------------
+	BYTE	W96
+// 043   ----------------------------------------
+	BYTE	W96
+// 044   ----------------------------------------
+	BYTE	W96
+// 045   ----------------------------------------
+	BYTE	W96
+// 046   ----------------------------------------
+	BYTE	W96
+// 047   ----------------------------------------
+	BYTE	W96
+// 048   ----------------------------------------
+	BYTE	W96
+	BYTE	GoTo
+	 POIN2	ToTheStarOfWaterWithLove0_10_B1
+ToTheStarOfWaterWithLove0_10_B2:
+// 049   ----------------------------------------
+	BYTE	W22
+	BYTE	FINE
+
+//**************** Track 11 (Midi-Chn.12) ****************//
+
+ToTheStarOfWaterWithLove0_11:
+	BYTE	KEYSH   ToTheStarOfWaterWithLove0_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   52
+	BYTE	W01
+	BYTE		VOL     30*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE	W92
+	BYTE	W03
+// 001   ----------------------------------------
+	BYTE	W96
+// 002   ----------------------------------------
+	BYTE	W96
+// 003   ----------------------------------------
+	BYTE	W96
+// 004   ----------------------------------------
+ToTheStarOfWaterWithLove0_11_004:
+	BYTE	W24
+	BYTE		N21     An3   v072
+	BYTE	W24
+	BYTE		N09     Gn3   v064
+	BYTE	W12
+	BYTE		N21     Fs3   v072
+	BYTE	W24
+	BYTE		        En3   v064
+	BYTE	W12
+	BYTE	PEND
+// 005   ----------------------------------------
+ToTheStarOfWaterWithLove0_11_005:
+	BYTE	W12
+	BYTE		N21     Bn3   v072
+	BYTE	W24
+	BYTE		        An3   v064
+	BYTE	W24
+	BYTE		N09     Cn3   v052
+	BYTE	W12
+	BYTE		N36     Cn3   v068
+	BYTE	W24
+	BYTE	PEND
+ToTheStarOfWaterWithLove0_11_B1:
+// 006   ----------------------------------------
+ToTheStarOfWaterWithLove0_11_006:
+	BYTE	W24
+	BYTE		N21     En3   v072
+	BYTE	W24
+	BYTE		N09     Ds3   v064
+	BYTE	W12
+	BYTE		N21     Bn2   v072
+	BYTE	W24
+	BYTE		        Bn2   v064
+	BYTE	W12
+	BYTE	PEND
+// 007   ----------------------------------------
+	BYTE	W12
+	BYTE		        An2   v072
+	BYTE	W24
+	BYTE		N09     Bn2   v076
+	BYTE	W12
+	BYTE		        An2   v068
+	BYTE	W12
+	BYTE		N48     Gn2 
+	BYTE	W36
+// 008   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ToTheStarOfWaterWithLove0_11_004
+// 009   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ToTheStarOfWaterWithLove0_11_005
+// 010   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ToTheStarOfWaterWithLove0_11_006
+// 011   ----------------------------------------
+	BYTE	W12
+	BYTE		N21     An2   v072
+	BYTE	W24
+	BYTE		        Gn2 
+	BYTE	W24
+	BYTE		N09     Fs2   v064
+	BYTE	W12
+	BYTE		N44     Gn2   v068
+	BYTE	W24
+// 012   ----------------------------------------
+	BYTE	W96
+// 013   ----------------------------------------
+	BYTE	W96
+// 014   ----------------------------------------
+	BYTE	W96
+// 015   ----------------------------------------
+	BYTE	W96
+// 016   ----------------------------------------
+	BYTE	W96
+// 017   ----------------------------------------
+	BYTE	W96
+// 018   ----------------------------------------
+	BYTE	W96
+// 019   ----------------------------------------
+	BYTE	W96
+// 020   ----------------------------------------
+	BYTE	W96
+// 021   ----------------------------------------
+	BYTE	W96
+// 022   ----------------------------------------
+	BYTE	W96
+// 023   ----------------------------------------
+	BYTE	W96
+// 024   ----------------------------------------
+	BYTE	W96
+// 025   ----------------------------------------
+	BYTE	W96
+// 026   ----------------------------------------
+	BYTE	W96
+// 027   ----------------------------------------
+	BYTE	W96
+// 028   ----------------------------------------
+	BYTE	W96
+// 029   ----------------------------------------
+	BYTE	W96
+// 030   ----------------------------------------
+	BYTE	W96
+// 031   ----------------------------------------
+	BYTE	W96
+// 032   ----------------------------------------
+	BYTE	W96
+// 033   ----------------------------------------
+	BYTE	W96
+// 034   ----------------------------------------
+	BYTE	W96
+// 035   ----------------------------------------
+	BYTE	W96
+// 036   ----------------------------------------
+	BYTE	W96
+// 037   ----------------------------------------
+	BYTE	W96
+// 038   ----------------------------------------
+	BYTE	W96
+// 039   ----------------------------------------
+ToTheStarOfWaterWithLove0_11_039:
+	BYTE	W24
+	BYTE		N52     Dn3   v104
+	BYTE		N52     Bn3   v112
+	BYTE	W60
+	BYTE		N11     Dn3 
+	BYTE		N11     Bn3   v120
+	BYTE	W12
+	BYTE	PEND
+// 040   ----------------------------------------
+ToTheStarOfWaterWithLove0_11_040:
+	BYTE		N07     Fs3   v108
+	BYTE		N07     An3   v116
+	BYTE	W12
+	BYTE		N23     Gn3   v112
+	BYTE		N23     Bn3   v120
+	BYTE	W24
+	BYTE		N08     Fs3   v104
+	BYTE		N08     An3   v112
+	BYTE	W12
+	BYTE		N48     Dn3   v108
+	BYTE		N48     Bn3   v116
+	BYTE	W48
+	BYTE	PEND
+// 041   ----------------------------------------
+	BYTE	W48
+	BYTE		N08     En3 
+	BYTE		N08     Cn4   v124
+	BYTE	W12
+	BYTE		TIE     En3   v108
+	BYTE		TIE     Cn4   v116
+	BYTE	W36
+// 042   ----------------------------------------
+	BYTE	W66
+	BYTE		EOT     En3 
+	BYTE		        Cn4 
+	BYTE	W30
+// 043   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ToTheStarOfWaterWithLove0_11_039
+// 044   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ToTheStarOfWaterWithLove0_11_040
+// 045   ----------------------------------------
+	BYTE	W48
+	BYTE		N08     En3   v116
+	BYTE		N08     Cn4   v124
+	BYTE	W12
+	BYTE		N36     En3   v108
+	BYTE		N36     Cn4   v116
+	BYTE	W30
+	BYTE		BEND    c_v-1
+	BYTE	W01
+	BYTE		        c_v-3
+	BYTE	W01
+	BYTE		        c_v-5
+	BYTE	W01
+	BYTE		        c_v-7
+	BYTE	W01
+	BYTE		        c_v-9
+	BYTE	W01
+	BYTE		        c_v-11
+	BYTE	W01
+// 046   ----------------------------------------
+	BYTE	W11
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		TIE     Ds3   v108
+	BYTE		TIE     Bn3   v116
+	BYTE	W84
+// 047   ----------------------------------------
+	BYTE	W18
+	BYTE		EOT     Ds3 
+	BYTE		        Bn3 
+	BYTE	W06
+	BYTE		N21     An3   v072
+	BYTE	W24
+	BYTE		N09     Gn3   v064
+	BYTE	W12
+	BYTE		N21     Fs3   v072
+	BYTE	W24
+	BYTE		        En3   v064
+	BYTE	W12
+// 048   ----------------------------------------
+	BYTE	W15
+	BYTE		        Bn3   v072
+	BYTE	W24
+	BYTE		        An3   v064
+	BYTE	W21
+	BYTE		N09     Cn3   v052
+	BYTE	W12
+	BYTE		N36     Cn3   v068
+	BYTE	W24
+	BYTE	GoTo
+	 POIN2	ToTheStarOfWaterWithLove0_11_B1
+ToTheStarOfWaterWithLove0_11_B2:
+// 049   ----------------------------------------
+	BYTE	W22
+	BYTE	FINE
+
+//**************** Track 12 (Midi-Chn.16) ****************//
+
+ToTheStarOfWaterWithLove0_12:
+	BYTE	KEYSH   ToTheStarOfWaterWithLove0_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   122
+	BYTE	W01
+	BYTE		VOL     49*ToTheStarOfWaterWithLove0_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE	W23
+	BYTE		N12     Cn1   v100
+	BYTE	W12
+	BYTE		        Cn1   v088
+	BYTE	W12
+	BYTE		N18     Dn1   v100
+	BYTE	W48
+// 001   ----------------------------------------
+	BYTE		N18   
+	BYTE	W48
+	BYTE		N18   
+	BYTE	W48
+// 002   ----------------------------------------
+	BYTE		N18   
+	BYTE	W24
+	BYTE		N12     Cn1 
+	BYTE	W12
+	BYTE		        Cn1   v088
+	BYTE	W12
+	BYTE		N18     Dn1   v100
+	BYTE	W48
+// 003   ----------------------------------------
+	BYTE		N18   
+	BYTE	W36
+	BYTE		        Dn1   v108
+	BYTE		N18     An1   v100
+	BYTE	W36
+	BYTE		        Dn1   v108
+	BYTE		N12     Cn2   v100
+	BYTE	W12
+	BYTE		N18     Cn2   v088
+	BYTE	W06
+	BYTE		        An1   v100
+	BYTE	W06
+// 004   ----------------------------------------
+	BYTE	W06
+	BYTE		N06     Fn1   v088
+	BYTE	W06
+	BYTE		N18     Fn1   v100
+	BYTE	W12
+	BYTE		N12     Cn1 
+	BYTE		N06     Fs1   v064
+	BYTE		N09     Ds3   v100
+	BYTE	W12
+	BYTE		N12     Cn1   v088
+	BYTE		N06     Fs1   v044
+	BYTE		N09     Ds3   v080
+	BYTE	W12
+	BYTE		N18     Dn1   v100
+	BYTE		N06     Fs1   v084
+	BYTE		N09     Dn3   v127
+	BYTE	W12
+	BYTE		N06     Fs1   v044
+	BYTE		N09     En3   v100
+	BYTE	W12
+	BYTE		N12     Cn1   v088
+	BYTE		N06     Fs1   v064
+	BYTE		N09     Ds3   v108
+	BYTE	W12
+	BYTE		N12     Cn1   v100
+	BYTE		N06     Fs1   v044
+	BYTE		N09     Ds3   v080
+	BYTE	W12
+// 005   ----------------------------------------
+ToTheStarOfWaterWithLove0_12_005:
+	BYTE		N18     Dn1   v100
+	BYTE		N06     Fs1   v084
+	BYTE		N09     Dn3   v127
+	BYTE	W12
+	BYTE		N06     Fs1   v044
+	BYTE		N09     En3   v100
+	BYTE	W12
+	BYTE		N12     Cn1 
+	BYTE		N06     Fs1   v064
+	BYTE		N09     Ds3   v100
+	BYTE	W12
+	BYTE		N12     Cn1   v088
+	BYTE		N06     Fs1   v044
+	BYTE		N09     Ds3   v080
+	BYTE	W12
+	BYTE		N18     Dn1   v100
+	BYTE		N06     Fs1   v084
+	BYTE		N09     Dn3   v127
+	BYTE	W12
+	BYTE		N06     Fs1   v044
+	BYTE		N09     En3   v100
+	BYTE	W12
+	BYTE		N12     Cn1   v088
+	BYTE		N06     Fs1   v064
+	BYTE		N09     Ds3   v108
+	BYTE	W12
+	BYTE		N12     Cn1   v100
+	BYTE		N06     Fs1   v044
+	BYTE		N09     Ds3   v080
+	BYTE	W12
+	BYTE	PEND
+ToTheStarOfWaterWithLove0_12_B1:
+// 006   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ToTheStarOfWaterWithLove0_12_005
+// 007   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ToTheStarOfWaterWithLove0_12_005
+// 008   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ToTheStarOfWaterWithLove0_12_005
+// 009   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ToTheStarOfWaterWithLove0_12_005
+// 010   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ToTheStarOfWaterWithLove0_12_005
+// 011   ----------------------------------------
+	BYTE		N18     Dn1   v100
+	BYTE		N06     Fs1   v084
+	BYTE		N09     Dn3   v127
+	BYTE	W12
+	BYTE		N06     Fs1   v044
+	BYTE		N09     En3   v100
+	BYTE	W12
+	BYTE		N12     Cn1 
+	BYTE		N06     Fs1   v064
+	BYTE		N09     Ds3   v100
+	BYTE	W12
+	BYTE		N12     Cn1   v088
+	BYTE		N06     Fs1   v044
+	BYTE		N09     Ds3   v080
+	BYTE	W12
+	BYTE		N18     Dn1   v100
+	BYTE		N06     Fs1   v084
+	BYTE		N09     Dn3   v127
+	BYTE	W12
+	BYTE		N06     Fs1   v044
+	BYTE		N09     En3   v100
+	BYTE	W12
+	BYTE		N12     Cn1   v088
+	BYTE		N06     Fs1   v064
+	BYTE		N09     Ds3   v108
+	BYTE	W12
+	BYTE		N12     Cn1   v100
+	BYTE		N06     Fs1   v044
+	BYTE		N03     Cn2   v100
+	BYTE		N09     Ds3   v080
+	BYTE	W04
+	BYTE		N03     Cn2   v068
+	BYTE	W04
+	BYTE		        Cn2   v080
+	BYTE	W04
+// 012   ----------------------------------------
+	BYTE		N11     Dn1   v104
+	BYTE		N06     Fs1   v084
+	BYTE		N18     An1   v100
+	BYTE		N09     Dn3   v127
+	BYTE	W12
+	BYTE		N18     Dn1   v108
+	BYTE		N12     As1   v084
+	BYTE		N09     En3   v100
+	BYTE	W12
+	BYTE		N12     Cn1   v088
+	BYTE		N06     Fs1   v052
+	BYTE		N09     Ds3   v088
+	BYTE	W12
+	BYTE		N12     Cn1   v080
+	BYTE		N06     Fs1   v032
+	BYTE		N09     Ds3   v068
+	BYTE	W12
+	BYTE		N18     Dn1   v092
+	BYTE		N06     Fs1   v072
+	BYTE		N09     Dn3   v116
+	BYTE	W12
+	BYTE		N06     Fs1   v032
+	BYTE		N09     En3   v088
+	BYTE	W12
+	BYTE		N12     Cn1   v080
+	BYTE		N06     Fs1   v052
+	BYTE		N09     Ds3   v100
+	BYTE	W12
+	BYTE		N12     Cn1   v088
+	BYTE		N06     Fs1   v032
+	BYTE		N09     Ds3   v068
+	BYTE	W12
+// 013   ----------------------------------------
+ToTheStarOfWaterWithLove0_12_013:
+	BYTE		N18     Dn1   v092
+	BYTE		N06     Fs1   v072
+	BYTE		N09     Dn3   v116
+	BYTE	W12
+	BYTE		N06     Fs1   v032
+	BYTE		N09     En3   v088
+	BYTE	W12
+	BYTE		N12     Cn1 
+	BYTE		N06     Fs1   v052
+	BYTE		N09     Ds3   v088
+	BYTE	W12
+	BYTE		N12     Cn1   v080
+	BYTE		N06     Fs1   v032
+	BYTE		N09     Ds3   v068
+	BYTE	W12
+	BYTE		N18     Dn1   v092
+	BYTE		N06     Fs1   v072
+	BYTE		N09     Dn3   v116
+	BYTE	W12
+	BYTE		N06     Fs1   v032
+	BYTE		N09     En3   v088
+	BYTE	W12
+	BYTE		N12     Cn1   v080
+	BYTE		N06     Fs1   v052
+	BYTE		N09     Ds3   v100
+	BYTE	W12
+	BYTE		N12     Cn1   v088
+	BYTE		N06     Fs1   v032
+	BYTE		N09     Ds3   v068
+	BYTE	W12
+	BYTE	PEND
+// 014   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ToTheStarOfWaterWithLove0_12_013
+// 015   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ToTheStarOfWaterWithLove0_12_013
+// 016   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ToTheStarOfWaterWithLove0_12_013
+// 017   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ToTheStarOfWaterWithLove0_12_013
+// 018   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ToTheStarOfWaterWithLove0_12_013
+// 019   ----------------------------------------
+	BYTE		N18     Dn1   v092
+	BYTE		N06     Fs1   v072
+	BYTE		N09     Dn3   v116
+	BYTE	W12
+	BYTE		N06     Fs1   v032
+	BYTE		N09     En3   v088
+	BYTE	W12
+	BYTE		N12     Cn1 
+	BYTE		N06     Fs1   v052
+	BYTE		N09     Ds3   v088
+	BYTE	W12
+	BYTE		N12     Cn1   v080
+	BYTE		N06     Fs1   v032
+	BYTE		N09     Ds3   v068
+	BYTE	W12
+	BYTE		N18     Dn1   v092
+	BYTE		N06     Fs1   v072
+	BYTE		N09     Dn3   v116
+	BYTE	W12
+	BYTE		N06     Fs1   v032
+	BYTE		N09     En3   v088
+	BYTE	W12
+	BYTE		N12     Cn1 
+	BYTE		N12     As1   v080
+	BYTE		N09     Ds3   v096
+	BYTE	W12
+	BYTE		N06     Fs1   v040
+	BYTE	W12
+// 020   ----------------------------------------
+	BYTE		N18     Dn1   v100
+	BYTE		N06     Fs1   v080
+	BYTE		N09     Dn3   v120
+	BYTE	W12
+	BYTE		N06     Fs1   v040
+	BYTE	W12
+	BYTE		N12     Cn1   v092
+	BYTE		N06     Fs1   v060
+	BYTE		N30     Cs2   v104
+	BYTE	W24
+	BYTE		N18     Dn1   v096
+	BYTE		N06     Fs1   v080
+	BYTE	W24
+	BYTE		        Fs1   v060
+	BYTE	W24
+// 021   ----------------------------------------
+	BYTE		N18     Dn1   v096
+	BYTE		N06     Fs1   v080
+	BYTE	W24
+	BYTE		        Fs1   v060
+	BYTE	W24
+	BYTE		N18     Dn1   v096
+	BYTE		N06     Fs1   v080
+	BYTE	W24
+	BYTE		        Fs1   v060
+	BYTE	W12
+	BYTE		N12     Cn1   v072
+	BYTE	W12
+// 022   ----------------------------------------
+	BYTE		N18     Dn1   v096
+	BYTE		N06     Fs1   v080
+	BYTE	W12
+	BYTE		N12     Cn1   v092
+	BYTE		N30     An2   v104
+	BYTE	W36
+	BYTE		N18     Dn1   v096
+	BYTE		N06     Fs1   v080
+	BYTE	W24
+	BYTE		        Fs1   v060
+	BYTE	W24
+// 023   ----------------------------------------
+	BYTE		N18     Dn1   v096
+	BYTE		N06     Fs1   v080
+	BYTE	W24
+	BYTE		        Fs1   v060
+	BYTE	W24
+	BYTE		N18     Dn1   v096
+	BYTE		N06     Fs1   v080
+	BYTE	W24
+	BYTE		        Fs1   v060
+	BYTE	W12
+	BYTE		N12     Cn1   v092
+	BYTE	W12
+// 024   ----------------------------------------
+	BYTE		N18     Dn1   v104
+	BYTE		N06     Fs1   v080
+	BYTE	W12
+	BYTE		        Cn1   v072
+	BYTE	W12
+	BYTE		N12     Cn1   v092
+	BYTE		N18     Dn1   v096
+	BYTE		N30     Cs2   v104
+	BYTE	W12
+	BYTE		N06     Fs1   v040
+	BYTE	W12
+	BYTE		N18     Dn1   v096
+	BYTE		N06     Fs1   v080
+	BYTE	W12
+	BYTE		N12     Cn1   v084
+	BYTE		N06     Fs1   v040
+	BYTE	W12
+	BYTE		N12     Cn1   v092
+	BYTE		N18     Dn1   v096
+	BYTE		N06     Fs1   v060
+	BYTE	W12
+	BYTE		        Fs1   v040
+	BYTE	W12
+// 025   ----------------------------------------
+ToTheStarOfWaterWithLove0_12_025:
+	BYTE		N18     Dn1   v096
+	BYTE		N06     Fs1   v080
+	BYTE	W12
+	BYTE		N12     Cn1   v084
+	BYTE		N06     Fs1   v040
+	BYTE	W12
+	BYTE		N12     Cn1   v092
+	BYTE		N18     Dn1   v096
+	BYTE		N06     Fs1   v060
+	BYTE	W12
+	BYTE		        Fs1   v040
+	BYTE	W12
+	BYTE		N18     Dn1   v096
+	BYTE		N06     Fs1   v080
+	BYTE	W12
+	BYTE		N12     Cn1   v084
+	BYTE		N06     Fs1   v040
+	BYTE	W12
+	BYTE		N12     Cn1   v092
+	BYTE		N18     Dn1   v096
+	BYTE		N06     Fs1   v060
+	BYTE	W12
+	BYTE		        Fs1   v040
+	BYTE	W12
+	BYTE	PEND
+// 026   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ToTheStarOfWaterWithLove0_12_025
+// 027   ----------------------------------------
+	BYTE		N18     Dn1   v096
+	BYTE		N06     Fs1   v080
+	BYTE	W12
+	BYTE		N12     Cn1   v084
+	BYTE		N06     Fs1   v040
+	BYTE	W12
+	BYTE		N12     Cn1   v092
+	BYTE		N06     Fs1   v060
+	BYTE	W12
+	BYTE		N11     Dn1   v076
+	BYTE		N06     Fs1   v040
+	BYTE	W12
+	BYTE		N11     Dn1   v076
+	BYTE		N06     Fs1   v060
+	BYTE	W12
+	BYTE		N11     Dn1   v080
+	BYTE		N06     Fs1   v040
+	BYTE	W12
+	BYTE		N11     Dn1   v080
+	BYTE		N06     Fs1   v060
+	BYTE	W12
+	BYTE		N11     Dn1   v080
+	BYTE		N06     Fs1   v040
+	BYTE	W12
+// 028   ----------------------------------------
+	BYTE		N11     Dn1   v100
+	BYTE		N06     Fs1   v080
+	BYTE	W12
+	BYTE		N12     Cn1   v092
+	BYTE		N18     Dn1   v104
+	BYTE		N12     As1   v100
+	BYTE	W48
+	BYTE		        Cn1   v084
+	BYTE	W12
+	BYTE		        Cn1   v092
+	BYTE		N18     Dn1   v104
+	BYTE		N30     Cs2 
+	BYTE	W24
+// 029   ----------------------------------------
+	BYTE		N12     Cn1   v092
+	BYTE		N18     Dn1   v104
+	BYTE		N30     An2 
+	BYTE	W24
+	BYTE		N12     Cn1   v092
+	BYTE		N18     Dn1   v096
+	BYTE		N30     Cs2   v104
+	BYTE		N09     Ds3   v096
+	BYTE	W12
+	BYTE		N12     Cn1   v084
+	BYTE		N06     Fs1   v040
+	BYTE		N09     Ds3   v076
+	BYTE	W12
+	BYTE		N18     Dn1   v096
+	BYTE		N06     Fs1   v080
+	BYTE		N09     Dn3   v124
+	BYTE	W12
+	BYTE		N06     Fs1   v040
+	BYTE		N09     En3   v096
+	BYTE	W12
+	BYTE		N12     Cn1   v084
+	BYTE		N06     Fs1   v060
+	BYTE		N09     Ds3   v108
+	BYTE	W12
+	BYTE		N12     Cn1   v092
+	BYTE		N06     Fs1   v040
+	BYTE		N09     Ds3   v076
+	BYTE	W12
+// 030   ----------------------------------------
+ToTheStarOfWaterWithLove0_12_030:
+	BYTE		N18     Dn1   v096
+	BYTE		N06     Fs1   v080
+	BYTE		N09     Dn3   v124
+	BYTE	W12
+	BYTE		N06     Fs1   v040
+	BYTE		N09     En3   v096
+	BYTE	W12
+	BYTE		N12     Cn1   v092
+	BYTE		N06     Fs1   v060
+	BYTE		N09     Ds3   v096
+	BYTE	W12
+	BYTE		N12     Cn1   v084
+	BYTE		N06     Fs1   v040
+	BYTE		N09     Ds3   v076
+	BYTE	W12
+	BYTE		N18     Dn1   v096
+	BYTE		N06     Fs1   v080
+	BYTE		N09     Dn3   v124
+	BYTE	W12
+	BYTE		N06     Fs1   v040
+	BYTE		N09     En3   v096
+	BYTE	W12
+	BYTE		N12     Cn1   v084
+	BYTE		N06     Fs1   v060
+	BYTE		N09     Ds3   v108
+	BYTE	W12
+	BYTE		N12     Cn1   v092
+	BYTE		N06     Fs1   v040
+	BYTE		N09     Ds3   v076
+	BYTE	W12
+	BYTE	PEND
+// 031   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ToTheStarOfWaterWithLove0_12_030
+// 032   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ToTheStarOfWaterWithLove0_12_030
+// 033   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ToTheStarOfWaterWithLove0_12_030
+// 034   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ToTheStarOfWaterWithLove0_12_030
+// 035   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ToTheStarOfWaterWithLove0_12_030
+// 036   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ToTheStarOfWaterWithLove0_12_030
+// 037   ----------------------------------------
+	BYTE		N18     Dn1   v096
+	BYTE		N06     Fs1   v080
+	BYTE		N09     Dn3   v124
+	BYTE	W12
+	BYTE		N12     Cn1   v072
+	BYTE		N06     Fs1   v040
+	BYTE		N09     En3   v096
+	BYTE	W12
+	BYTE		N12     Cn1   v092
+	BYTE		N30     An2   v104
+	BYTE		N09     Ds3   v096
+	BYTE	W12
+	BYTE		N12     Cn1   v084
+	BYTE		N06     Fs1   v040
+	BYTE		N09     Ds3   v076
+	BYTE	W12
+	BYTE		N18     Dn1   v096
+	BYTE		N06     Fs1   v080
+	BYTE		N09     Dn3   v124
+	BYTE	W12
+	BYTE		N06     Fs1   v040
+	BYTE		N09     En3   v096
+	BYTE	W12
+	BYTE		N12     Cn1   v084
+	BYTE		N06     Fs1   v060
+	BYTE		N09     Ds3   v108
+	BYTE	W12
+	BYTE		N12     Cn1   v092
+	BYTE		N06     Fs1   v040
+	BYTE		N09     Ds3   v076
+	BYTE	W12
+// 038   ----------------------------------------
+	BYTE		N18     Dn1   v104
+	BYTE		N06     Fs1   v080
+	BYTE		N09     Dn3   v124
+	BYTE	W12
+	BYTE		N12     Cn1   v092
+	BYTE		N12     As1   v084
+	BYTE		N09     En3   v124
+	BYTE	W12
+	BYTE		N06     Fs1   v044
+	BYTE	W12
+	BYTE		N12     Cn1   v092
+	BYTE		N12     As1   v084
+	BYTE		N09     En3   v112
+	BYTE	W12
+	BYTE		N06     Fs1   v084
+	BYTE	W12
+	BYTE		N12     Cn1   v092
+	BYTE		N18     Dn1   v104
+	BYTE		N30     Cs2   v127
+	BYTE		N09     Ds3   v104
+	BYTE	W24
+	BYTE		N12     Cn1   v088
+	BYTE	W12
+// 039   ----------------------------------------
+	BYTE		N23     Fn1   v108
+	BYTE		N24     Bn1   v100
+	BYTE	W24
+	BYTE		N12     Cn1 
+	BYTE		N06     Fs1   v064
+	BYTE	W12
+	BYTE		        Fs1   v044
+	BYTE	W12
+	BYTE		N18     Dn1   v100
+	BYTE		N06     Fs1   v084
+	BYTE		N18     Fs2   v100
+	BYTE	W12
+	BYTE		N06     Fs1   v044
+	BYTE	W12
+	BYTE		N12     Cn1   v100
+	BYTE		N06     Fs1   v064
+	BYTE	W12
+	BYTE		        Fs1   v044
+	BYTE	W12
+// 040   ----------------------------------------
+ToTheStarOfWaterWithLove0_12_040:
+	BYTE		N18     Dn1   v100
+	BYTE		N06     Fs1   v084
+	BYTE		N18     Cn2   v100
+	BYTE	W12
+	BYTE		N06     Fs1   v044
+	BYTE		N18     An1   v100
+	BYTE	W12
+	BYTE		N12     Cn1 
+	BYTE		N06     Fs1   v064
+	BYTE	W12
+	BYTE		        Fs1   v044
+	BYTE	W12
+	BYTE		N18     Dn1   v100
+	BYTE		N06     Fs1   v084
+	BYTE		N18     Fs2   v100
+	BYTE	W12
+	BYTE		N06     Fs1   v044
+	BYTE	W12
+	BYTE		N12     Cn1   v100
+	BYTE		N06     Fs1   v064
+	BYTE	W12
+	BYTE		        Fs1   v044
+	BYTE	W12
+	BYTE	PEND
+// 041   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ToTheStarOfWaterWithLove0_12_040
+// 042   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ToTheStarOfWaterWithLove0_12_040
+// 043   ----------------------------------------
+	BYTE		N18     Dn1   v100
+	BYTE		N06     Fs1   v084
+	BYTE		N18     Cn2   v100
+	BYTE	W12
+	BYTE		N06     Fs1   v044
+	BYTE	W12
+	BYTE		N12     Cn1   v100
+	BYTE		N06     Fs1   v064
+	BYTE	W12
+	BYTE		        Fs1   v044
+	BYTE	W12
+	BYTE		N18     Dn1   v100
+	BYTE		N06     Fs1   v084
+	BYTE		N18     Fs2   v100
+	BYTE	W12
+	BYTE		N06     Fs1   v044
+	BYTE	W12
+	BYTE		N12     Cn1   v100
+	BYTE		N06     Fs1   v064
+	BYTE	W12
+	BYTE		        Fs1   v044
+	BYTE	W12
+// 044   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ToTheStarOfWaterWithLove0_12_040
+// 045   ----------------------------------------
+	BYTE		N18     Dn1   v100
+	BYTE		N06     Fs1   v084
+	BYTE		N18     Cn2   v100
+	BYTE	W12
+	BYTE		N12     As1   v064
+	BYTE	W12
+	BYTE		        Cn1   v100
+	BYTE		N06     Fs1   v064
+	BYTE	W12
+	BYTE		        Fs1   v044
+	BYTE	W12
+	BYTE		N18     Dn1   v100
+	BYTE		N06     Fs1   v084
+	BYTE		N18     Fs2   v100
+	BYTE	W12
+	BYTE		N06     Fs1   v044
+	BYTE	W12
+	BYTE		N12     Cn1   v100
+	BYTE		N06     Fs1   v064
+	BYTE	W12
+	BYTE		        Fs1   v044
+	BYTE	W12
+// 046   ----------------------------------------
+	BYTE		N18     Dn1   v100
+	BYTE		N06     Fs1   v084
+	BYTE		N18     Cn2   v100
+	BYTE	W12
+	BYTE		        An1 
+	BYTE		N12     As1   v064
+	BYTE	W12
+	BYTE		        Cn1   v100
+	BYTE		N06     Fs1   v064
+	BYTE	W12
+	BYTE		        Fs1   v044
+	BYTE	W12
+	BYTE		N18     Dn1   v100
+	BYTE		N06     Fs1   v084
+	BYTE		N18     Fs2   v100
+	BYTE	W12
+	BYTE		N06     Fs1   v044
+	BYTE	W12
+	BYTE		N12     Cn1   v100
+	BYTE		N06     Fs1   v064
+	BYTE	W12
+	BYTE		N01     Dn1   v084
+	BYTE	W01
+	BYTE		N10     Dn1   v104
+	BYTE	W11
+// 047   ----------------------------------------
+	BYTE		N01     Dn1   v084
+	BYTE	W01
+	BYTE		N10     Dn1   v104
+	BYTE	W11
+	BYTE		N01     Dn1   v084
+	BYTE	W01
+	BYTE		N18     Dn1   v108
+	BYTE	W11
+	BYTE		N12     Cn1   v100
+	BYTE		N06     Fs1   v064
+	BYTE		N09     Ds3   v100
+	BYTE	W12
+	BYTE		N12     Cn1   v088
+	BYTE		N06     Fs1   v044
+	BYTE		N09     Ds3   v080
+	BYTE	W12
+	BYTE		N18     Dn1   v100
+	BYTE		N06     Fs1   v084
+	BYTE		N09     Dn3   v127
+	BYTE	W12
+	BYTE		N06     Fs1   v044
+	BYTE		N09     En3   v100
+	BYTE	W12
+	BYTE		N12     Cn1   v088
+	BYTE		N06     Fs1   v064
+	BYTE		N09     Ds3   v108
+	BYTE	W12
+	BYTE		N12     Cn1   v100
+	BYTE		N06     Fs1   v044
+	BYTE		N09     Ds3   v080
+	BYTE	W12
+// 048   ----------------------------------------
+	BYTE	PATT
+	 POIN2	ToTheStarOfWaterWithLove0_12_005
+	BYTE	GoTo
+	 POIN2	ToTheStarOfWaterWithLove0_12_B1
+ToTheStarOfWaterWithLove0_12_B2:
+// 049   ----------------------------------------
+	BYTE		N18     Dn1   v100
+	BYTE		N06     Fs1   v084
+	BYTE		N09     Dn3   v127
+	BYTE	W12
+	BYTE		N06     Fs1   v044
+	BYTE		N09     En3   v100
+	BYTE	W10
+	BYTE	FINE
+
+//******************************************************//
+	ALIGN 4
+
+ToTheStarOfWaterWithLove0:
+	BYTE	12	// NumTrks
+	BYTE	0	// NumBlks
+	BYTE	ToTheStarOfWaterWithLove0_pri	// Priority
+	BYTE	ToTheStarOfWaterWithLove0_rev	// Reverb.
+
+	POIN2	ToTheStarOfWaterWithLove0_grp
+
+	POIN2	ToTheStarOfWaterWithLove0_1
+	POIN2	ToTheStarOfWaterWithLove0_2
+	POIN2	ToTheStarOfWaterWithLove0_3
+	POIN2	ToTheStarOfWaterWithLove0_4
+	POIN2	ToTheStarOfWaterWithLove0_5
+	POIN2	ToTheStarOfWaterWithLove0_6
+	POIN2	ToTheStarOfWaterWithLove0_7
+	POIN2	ToTheStarOfWaterWithLove0_8
+	POIN2	ToTheStarOfWaterWithLove0_9
+	POIN2	ToTheStarOfWaterWithLove0_10
+	POIN2	ToTheStarOfWaterWithLove0_11
+	POIN2	ToTheStarOfWaterWithLove0_12
+
+	
