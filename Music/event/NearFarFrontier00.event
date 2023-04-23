@@ -1152,7 +1152,7 @@ NearFarFrontier00_003:
  BYTE   KEYSH   NearFarFrontier00_key+0
  BYTE   VOICE   62
  BYTE   PAN   c_v+12
- BYTE   VOL   48*NearFarFrontier00_mvl/mxv
+ BYTE   VOL   58*NearFarFrontier00_mvl/mxv
  BYTE   N07  Fn3  v080
  BYTE   W04
  BYTE   Gn3
@@ -1528,7 +1528,7 @@ NearFarFrontier00_004:
  BYTE   VOICE   26
  BYTE   PAN   c_v+17
  BYTE   BENDR  4
- BYTE   VOL   30*NearFarFrontier00_mvl/mxv
+ BYTE   VOL   45*NearFarFrontier00_mvl/mxv
  BYTE   W96
 //  #04 //001   ----------------------------------------
  BYTE   W96
@@ -5919,7 +5919,7 @@ NearFarFrontier00_010:
  BYTE   KEYSH   NearFarFrontier00_key+0
  BYTE   VOICE   19
  BYTE   PAN   c_v-11
- BYTE   VOL   29*NearFarFrontier00_mvl/mxv
+ BYTE   VOL   23*NearFarFrontier00_mvl/mxv
  BYTE   W24
  BYTE   N44  Gn3  v075  gtp3
  BYTE   Ds1

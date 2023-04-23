@@ -63,7 +63,7 @@
 0x3D Paladin (F) w/ Sword		//Replaced
 0x3E Paladin (F) w/ Spear		//Replaced
 0x3F Paladin (F) Disarmed		//R
-0x40 Armour Knight			//Replaced
+0x40 Armour Knight			//Keep
 0x41 Armour Knight Disarmed		//Replaced
 0x42 Armour Knight (F)			//R
 0x43 Armour Knight (F) Disarmed		//R
@@ -82,7 +82,7 @@
 0x50 Great Knight w/ Axe
 0x51 Great Knight w/ Hand AXe
 0x52 Great Knight Disarmed
-0x53 Great Knight (F) w/ Sword
+0x53 Great Knight (F) w/ Sword		//R
 0x54 Great Knight (F) w/ Spear
 0x55 Great Knight (F) w/ Axe
 0x56 Great Knight (F) w/ Hand Axe

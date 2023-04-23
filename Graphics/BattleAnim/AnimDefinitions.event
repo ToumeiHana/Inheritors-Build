@@ -41,7 +41,7 @@
 #define SALVCavUnarmed 0x08
 
 #define ArmorSword 0x0D
-#define ArmorLance 0x0A
+#define ArmorLance 0x0A //delete
 #define ArmorAxe 0x0E
 #define ArmorHandaxe 0x0F
 #define ArmorUnarmed 0x36
@@ -75,7 +75,7 @@
 #define PegaHandaxe 0x64
 #define PegaUnarmed 0x67
 
-#define FMercSword 0x40
+#define FMercSword 0x53
 #define FMercUnarmed 0x41
 
 #define FZerkerAxe 0xCA
@@ -115,7 +115,7 @@ WORD 0x0
 ALIGN 4
 KnightAnims:
 SwordAnim(ArmorSword)
-SpearAnim(ArmorLance)
+SpearAnim(0x40)
 AxeAnim(ArmorAxe)
 HandAxeAnim(ArmorHandaxe)
 UnarmedAnim(ArmorUnarmed)

@@ -9,6 +9,7 @@
 .equ LoadUnits, . + 0x08017A34 - origin
 .equ GetUnitByCharID, . + 0x0801829C - origin
 .equ memcpy, . + 0x080D1C0C - origin
+.equ GetItemAfterUse, . + 0x08016AEC - origin
 
 @replaces 7AD1C
 
@@ -95,7 +96,7 @@ cmp r4, #0x0
 bne EnemyCase
 
 PlayerCase:
-b SummonGreen
+@b SummonGreen
 sub r0, #0xC7
 and r3, r0
 b StoreLevelAndAllegiance
@@ -287,6 +288,13 @@ mov r0, #0xFF
 strb r0, [r5, #0x9]		@no exp for summoned unit
 
 @weapon rank setting happened here originally
+
+@reduce durability of active wep
+ldr r1, =0x03004E50
+ldr r5, [r1]
+ldrh r0, [r4, #0x1E]
+bl GetItemAfterUse
+strh r0, [r4, #0x1E]
 
 EndFunc:
 add sp, #0x80

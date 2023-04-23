@@ -3378,7 +3378,7 @@ FirstCampaingCut_6:
 	BYTE	KEYSH   FirstCampaingCut_key+0
 FirstCampaingCut_6_B1:
 // 000   ----------------------------------------
-	BYTE		VOICE   44
+	BYTE		VOICE   61
 	BYTE		VOL     57*FirstCampaingCut_mvl/mxv
 	BYTE		PAN     c_v+0
 	BYTE		VOL     57*FirstCampaingCut_mvl/mxv

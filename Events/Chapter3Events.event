@@ -16,7 +16,7 @@ TurnBasedEvents:
 
 	TurnEventPlayer(0,LooterSpawn,8)
 	//TurnEventPlayer(0,BrigandCharge,6)
-	TurnEventPlayer(10,BossDefeatedEvent,1)
+	//TurnEventPlayer(10,BossDefeatedEvent,1)
 	END_MAIN
 
 ALIGN 32
@@ -85,7 +85,7 @@ EnemyUnits:
 	UNIT Brigand_Enemy Mercenary Bone Level(3,Enemy,True) [16,13] 0x0 0x0 0x0 0x0 [SteelSword] DefaultAI
 	UNIT Brigand_Enemy Brigand Bone Level(4,Enemy,True) [18,18] 0x0 0x0 0x0 0x0 [IronAxe] TwoActionAI
 	UNIT Brigand_Enemy Brigand Bone Level(4,Enemy,True) [13,13] 0x0 0x0 0x0 0x0 [IronAxe] TwoActionAI
-	UNIT Brigand_Enemy Outlaw Bone Level(4,Enemy,True) [12,14] 0x0 0x0 0x0 0x0 [IronBow] TwoActionAI
+	UNIT Brigand_Enemy Outlaw Bone Level(4,Enemy,True) [12,12] 0x0 0x0 0x0 0x0 [IronBow] TwoActionAI
 	UNIT Brigand_Enemy Brigand Bone Level(4,Enemy,True) [4,18] 0x0 0x0 0x0 0x0 [SteelAxe] AttackInRangeAI
 	UNIT Brigand_Enemy Brigand Bone Level(4,Enemy,True) [17,12] 0x0 0x0 0x0 0x0 [IronAxe] AttackInRangeAI
 	UNIT Brigand_Enemy Brigand Bone Level(4,Enemy,True) [6,12] 0x0 0x0 0x0 0x0 [IronAxe] AttackInRangeAI
@@ -222,8 +222,9 @@ BossDefeatedEvent:
 	SVAL s1 0x00040D06
 	CHAI Emmanuel
 	SVAL s1 0x00400000
-	//CHAI Brigand_Enemy
-	//LOAD1 0x0 ExtraLads
+	CHAI Brigand_Enemy
+	LOAD1 0x0 ExtraLads
+	MUSC LakesNMarshesID
 	ENUF 2
 	NoFade
 	ENDA

@@ -80,7 +80,7 @@ Units1:
 	UNIT Alysa Recruit_1 Curtis Level(1,Ally,False) [7,23] 0x00 0x00 0x01 [Skygazer, IronLance, Vulnerary] NoAI
 	UNIT Jacob SwordCavalier Curtis Level(1,Ally,False) [8,24] 0x00 0x00 0x00 0x01 [IronSword] NoAI
 	UNIT Lucian LanceCavalier Curtis Level(1,Ally,False) [7,24] 0x00 0x00 0x00 0x01 [IronLance] NoAI
-	//UNIT Nella Mage Curtis Level(2,Ally,True) [0,0] 0x0 0x0 0x0 0x1 [Fire Elstone] NoAI
+	//UNIT Emmanuel Mage Curtis Level(2,Ally,True) [0,0] 0x0 0x0 0x0 0x1 [Fire Elstone] NoAI
 	UNIT
 
 EnemyUnits:

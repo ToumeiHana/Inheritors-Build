@@ -19,7 +19,6 @@ TurnBasedEvents:
 	TurnEventPlayer(0,Turn3Reinforcements,3)
 	TurnEventEnemy(0,BridgeTalk,3)
 	TurnEventPlayer(0,Turn5Reinforcements,5)
-	//TurnEventEnemy(0,AveryLeave,7)
 	TurnEventPlayer(0,PegaUnitsSpawn,6)
 	TurnEventPlayer(0,PegaSquadsSpawn,7)
 	TurnEventEnemy(9,BridgeEvent,7)
@@ -90,7 +89,6 @@ EnemyUnits:
 	UNIT Farum LanceKnight Bazba Level(5,Enemy,True) [23,9] 0x0 0x0 0x0 0x0 [SteelLance] DelayedChargeAI
 	UNIT Farum BowKnight Bazba Level(5,Enemy,True) [23,10] 0x0 0x0 0x0 0x0 [SteelBow] DelayedChargeAI
 	UNIT Farum LanceKnight Bazba Level(5,Enemy,True) [23,11] 0x0 0x0 0x0 0x0 [SteelLance] DelayedChargeAI
-	//UNIT Avery General 0x0 Level(4,Enemy,False) [24,10] 0x0 0x0 0x0 0x0 [SteelBlade] NeverMoveAI
 	UNIT FarumWeak General 0x0 Level(1,Enemy,True) [24,10] 0x0 0x0 0x0 0x0 [SteelBlade,SteelBow] NeverMoveAI
 	UNIT
 
@@ -114,17 +112,17 @@ Turn3Cavs:
 	UNIT
 
 SoloPegs:
-	UNIT Farum PegasusKnight Bazba Level(6,Enemy,True) [2,15] 0x0 0x0 0x1 REDA2R14 [IronLance] AttackingSeizerAI
-	UNIT Farum AxePegasus Bazba Level(6,Enemy,True) [25,15] 0x0 0x0 0x1 REDA25R14 [IronAxe] AttackingSeizerAI
+	UNIT Farum AxePegasus Bazba Level(6,Enemy,True) [2,15] 0x0 0x0 0x1 REDA2R14 [IronAxe] AttackingSeizerAI
+	UNIT Farum LancePegasus Bazba Level(6,Enemy,True) [25,15] 0x0 0x0 0x1 REDA25R14 [IronLance] AttackingSeizerAI
 	UNIT
 	
 PegaSquads:
-	UNIT Farum PegasusKnight Bazba Level(6,Enemy,True) [2,15] 0x0 0x0 0x1 REDA2R14 [IronLance] AttackingSeizerAI
-	UNIT Farum AxePegasus Bazba Level(5,Enemy,True) [1,15] 0x0 0x0 0x0 0x0 [IronAxe] SeizerAI
-	UNIT Farum AxePegasus Bazba Level(5,Enemy,True) [3,15] 0x0 0x0 0x0 0x0 [IronAxe] SeizerAI
-	UNIT Farum AxePegasus Bazba Level(6,Enemy,True) [25,15] 0x0 0x0 0x1 REDA25R14 [IronAxe] AttackingSeizerAI
-	UNIT Farum PegasusKnight Bazba Level(5,Enemy,True) [24,15] 0x0 0x0 0x0 0x0 [IronLance] AttackingSeizerAI
-	UNIT Farum PegasusKnight Bazba Level(5,Enemy,True) [26,15] 0x0 0x0 0x0 0x0 [IronLance] AttackingSeizerAI
+	UNIT Farum AxePegasus Bazba Level(6,Enemy,True) [2,15] 0x0 0x0 0x1 REDA2R14 [IronAxe] AttackingSeizerAI
+	UNIT Farum LancePegasus Bazba Level(5,Enemy,True) [1,15] 0x0 0x0 0x1 REDA1R15 [IronLance] AttackingSeizerAI
+	UNIT Farum LancePegasus Bazba Level(5,Enemy,True) [3,15] 0x0 0x0 0x1 REDA3R15 [IronLance] SeizerAI
+	UNIT Farum LancePegasus Bazba Level(6,Enemy,True) [25,15] 0x0 0x0 0x1 REDA25R14 [IronLance] AttackingSeizerAI
+	UNIT Farum AxePegasus Bazba Level(5,Enemy,True) [24,15] 0x0 0x0 0x1 REDA24R15 [IronAxe] SeizerAI
+	UNIT Farum AxePegasus Bazba Level(5,Enemy,True) [26,15] 0x0 0x0 0x1 REDA26R15 [IronAxe] AttackingSeizerAI
 	UNIT
 	
 KillerSquad:
@@ -134,8 +132,8 @@ KillerSquad:
 	UNIT
 	
 BridgeCavs:
-	UNIT Farum SwordCavalier Bazba Level(5,Enemy,True) [26,3] 0x0 0x0 0x0 0x0 [SteelSword] AttackingSeizerAI
-	UNIT Farum LanceCavalier Bazba Level(5,Enemy,True) [26,2] 0x0 0x0 0x0 0x0 [SteelLance] AttackingSeizerAI
+	UNIT Farum SwordCavalier Bazba Level(5,Enemy,True) [26,3] 0x0 0x0 0x1 REDA26R3 [SteelSword] AttackingSeizerAI
+	UNIT Farum LanceCavalier Bazba Level(5,Enemy,True) [26,2] 0x0 0x0 0x1 REDA26R2 [SteelLance] AttackingSeizerAI
 	UNIT
 	
 AIChangeCavs:
@@ -148,8 +146,8 @@ HollieGroup:
 	UNIT
 	
 GreenGroup:
-	UNIT Garry AxeKnight 0x0 Level(5,NPC,False) [12,5] 0x0 0x0 0x1 REDA12R7 [SteelAxe] NeverMoveAI
-	UNIT Pieter Soldier Garry Level(3,NPC,False) [11,5] 0x0 0x0 0x1 REDA11R6 [IronLance] NeverMoveAI
+	UNIT Garry AxeKnight 0x0 Level(5,NPC,False) [12,5] 0x0 0x0 0x1 REDA12R7 [SteelAxe HandAxe] NeverMoveAI
+	UNIT Pieter Soldier Garry Level(4,NPC,False) [11,5] 0x0 0x0 0x1 REDA11R6 [IronLance Javelin] NeverMoveAI
 	UNIT
 
 Traps1:
@@ -258,15 +256,6 @@ Turn5Reinforcements:
 	ENUN
 	NoFade
 	ENDA
-
-AveryLeave:
-
-	CAMERA Avery
-	MOVE 0 Avery [27,10]
-	ENUN
-	REMOVEUNIT Avery
-	NoFade
-	ENDA
 	
 BridgeEvent:
 
@@ -332,7 +321,7 @@ AIChanges:
 	
 	CAMERA Bazba
 	Text(Ch4ChargeText)
-	SETVAL 1 0x0040C000
+	SETVAL 1 0x00040C00
 	CHAI	Farum
 	CHAI	Bazba
 	CHAI 	FarumWeak
