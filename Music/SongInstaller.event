@@ -96,3 +96,6 @@ SongTable(WaterStarID,ToTheStarOfWaterWithLove0,MapMusicGroup)
 
 SongTable(GumshoeID,Gumshoe,MapMusicGroup)
 #include "event/Gumshoe.event"
+
+SongTable(EienNoIczerID,EienNoIczer,BattleMusicGroup)
+#include "event/EienNoIczer.event"

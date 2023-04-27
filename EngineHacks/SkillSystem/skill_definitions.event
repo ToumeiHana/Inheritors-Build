@@ -327,6 +327,9 @@
 
 //Pre-Battle Skills
 
+//Advantage Chaser:
+#define AdvChaserID 12
+
 //Guardian's Promise
 #define GuardianPromiseID 16
 #define GuardiansPromiseID GuardianPromiseID

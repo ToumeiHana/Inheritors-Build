@@ -48,7 +48,7 @@ POIN LethalitySkill Bane
 POIN LethalitySkill NonGBALethalitySkill Bane
 #endif
 
-POIN DesperateGambit
+//POIN DesperateGambit
 POIN Rockhard
 POIN HonorDuel
 POIN StunningSmile
@@ -66,6 +66,7 @@ POIN BlindFaithCombat
 
 //quick riposte goes after everything that might touch AS
 POIN QuickRiposte
+POIN AdvChaser	//Advantage chaser overrides QuickRiposte
 
 //dragonskin goes after anything effecting atk or def
 POIN DragonSkin
@@ -115,6 +116,12 @@ AuraSkillEntry(BloodTideID)
 AuraSkillEntry(WhitePoolID)
 AuraSkillEntry(NightTideID)
 
+// Occurs once both attacker and defender are confirmed. If weapons negate def, will occur after def is negated. 
+ALIGN 4 
+DamageModifierCalcLoop:
+POIN DesperateGambit
+POIN 0 
+
 PUSH
 ORG 0x2a3f8
 //rewrite range map
@@ -124,5 +131,10 @@ POP
 ALIGN 4
 rewriteRangeMap:
 #incbin "rewriteRangeMap.dmp"
+
+PUSH
+ORG $2ADd0 
+jumpToHackr3(DamageModifierCalcLoopHook)
+POP
 
 PROTECT 0x2A95C 0x2A968

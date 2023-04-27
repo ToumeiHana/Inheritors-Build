@@ -13,6 +13,7 @@
 #define CapAmericaID 0x1c
 #define EndlessFightingID 0x1b
 #define OffToWarRemixID 0x1e
+#define EienNoIczerID 0x1f
 #define CruelAngelStaffID 0x22
 #define LandOfConflictID 0x24
 #define TroubleID 0x26

@@ -45,6 +45,7 @@ BYTE 00 00
 ALIGN 4
 
 HeroSkillList:
+BYTE 1 AdvChaserID
 BYTE 00 00
 ALIGN 4
 
@@ -208,6 +209,7 @@ ALIGN 4
 
 PhantomSkillList:
 BYTE 1 VoidCurseID
+BYTE 255 ShadeID
 BYTE 00 00
 ALIGN 4
 

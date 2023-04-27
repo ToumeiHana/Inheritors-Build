@@ -1,9 +1,9 @@
-ALIGN 4
+/*ALIGN 4
 DesperateGambit:
 #incbin "DesperateGambit/DesperateGambit.dmp"
 POIN SkillTester
 WORD DesperateGambitID
-
+*/
 ALIGN 4
 AxefaithHit:
 #incbin "AxeFaith/AxeFaith.dmp"

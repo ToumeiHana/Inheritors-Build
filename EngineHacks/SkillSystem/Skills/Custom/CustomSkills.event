@@ -56,3 +56,15 @@ BlindFaithCombat:
 POIN SkillTester
 WORD StaffSavantID
 
+ALIGN 4
+AdvChaser:
+#incbin "AdvChaser.dmp"
+POIN SkillTester
+WORD AdvChaserID
+
+ALIGN 4
+DesperateGambit:
+#incbin "NewDesperateGambit.dmp"
+POIN SkillTester
+WORD DesperateGambitID
+

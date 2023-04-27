@@ -1,3 +1,8 @@
+## SD_AdvChaser
+Advantage Chaser: When attacking with[N]
+weapon triangle advantage, unit makes[N]
+guaranteed follow-up and the foe cannot.[X]
+
 ## SD_GuardianPromise
 Guardian's Promise: Unit takes -2 damage[N]
 for each ally under 75% of their max HP[N]
@@ -620,7 +625,8 @@ counterattack this unit.[X]
 
 ## SD_TriAdept
 Triangle Adept: Doubles weapon[N]
-triangle effects for this unit.[X]
+triangle effects & WEXP gain[N]
+for this unit.[X]
 
 ## SD_Supply
 Supply: This unit has[N]

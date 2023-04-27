@@ -96,7 +96,7 @@ adding yourself!
 - Scraiza: NarrowFont 
 - Huichelaar: Minimug Palette Fix
 - circles: drumfix
-- Alusq: NIMAP 2
+- Alusq: NIMAP 2 (with keysplits)
 - Tequila: New CHAI
 - SKILLSYS QoL+Other credits here
 - HyperGammaSpaces: Summon rework
@@ -104,6 +104,7 @@ adding yourself!
 - Zane: MMB
 - Teraspark: IER, fancy staves
 - 7743: Flag-based map bgm change, continue map bgm to battle
+- Vesly: Additional prebattle calcloop
 
 # Music
 

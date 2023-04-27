@@ -2,6 +2,7 @@
 #define SetBossMusic(UnitID) "WORD UnitID 0x1B"
 #define SetCustomBossMusic(UnitID,MusicID) "WORD UnitID MusicID"
 #define BossMusicListTerminator "WORD 0xFFFFFFFF 0xFFFFFFFF"
+#define SetVSPlayableMusic(UnitID) "WORD UnitID EienNoIczerID"
 #define MapOverrideBossMusic(UnitID) "WORD UnitID 0xFFFFF"  //Setting music handled in Tables/Quote/BattleQuoteEvents
 
 //Boss music table 
@@ -15,8 +16,10 @@ MESSAGE Boss Music Table begins at CURRENTOFFSET
 BossMusicTable:
 SetCustomBossMusic(ONeill,0xFFFFF)
 MapOverrideBossMusic(Breguet)
+SetVSPlayableMusic(Emmanuel)
 MapOverrideBossMusic(Bone)
 SetCustomBossMusic(Bazba,OffToWarRemixID)
+SetVSPlayableMusic(Caitlinne)
 
 BossMusicListTerminator
 

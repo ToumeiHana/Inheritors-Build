@@ -16,9 +16,11 @@ ldrb r3, [r3]
 cmp r3, #4
 beq End
 
-mov r1, #0x66
+mov r1, #0x6A
 ldrh r0, [r4, r1] @defender crit
 mov r6, r0
+ldrh r0, [r5, r1] @attacker crit
+mov r7, r0
 
 @has the skill 
 ldr r0, SkillTester
@@ -31,10 +33,8 @@ beq AttackerCheck
 
 @defender crit calc
 mov r1, #0x66
-ldrh r2, [r5, r1] @attacker crit
-
-mov r0, r6
-add r0, r2		  @add attackers crit to defenders
+ldrh r0, [r4, r1] @attacker crit
+add r0, r7		  @add attackers crit to defenders
 strh r0, [r4, r1] @store new defender crit
 
 AttackerCheck:
@@ -49,11 +49,8 @@ beq End
 
 @attacker crit calc
 mov r1, #0x66
-@ldrh r2, [r4, r1] @defender crit 
-
 ldrh r0, [r5, r1] @attacker crit
 add r0, r6		  @add defenders crit to attackers
-@add r0, r2
 strh r0, [r5, r1] @store new attacker crit
 
 End:
