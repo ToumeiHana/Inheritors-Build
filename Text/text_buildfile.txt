@@ -129,3 +129,5 @@ a skill when used.[X]
 #include "item_namedesc.txt"
 
 #include "shoptext.txt"
+
+#include "splitmenutext.txt"

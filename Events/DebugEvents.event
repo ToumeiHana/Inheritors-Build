@@ -1,0 +1,123 @@
+EventPointerTable(DebugEvents, PointerList)
+
+PointerList:
+	POIN TurnBasedEvents
+	POIN CharacterBasedEvents
+	POIN LocationBasedEvents
+	POIN MiscBasedEvents
+	POIN Dunno1 Dunno2 Dunno3 Tutorial
+	POIN Traps1 Traps2
+	POIN Units1 Units1  //This unit group determines the number and position of deployment slots when there is a prep screen
+	POIN $0 $0 $0
+	POIN $0 $0 $0
+	POIN BeginningScene EndingScene
+
+TurnBasedEvents:
+
+	END_MAIN
+
+ALIGN 32
+CharacterBasedEvents:
+
+	END_MAIN
+
+MiscBasedEvents:
+	CauseGameOverIfLordDies
+	END_MAIN
+
+LocationBasedEvents:
+
+	END_MAIN
+
+Dunno1:
+
+	END_MAIN
+
+Dunno2:
+
+	END_MAIN
+
+Dunno3:
+
+	END_MAIN
+
+Tutorial:
+
+	END_MAIN
+
+Units1:
+	UNIT Vidar Gut 0x0 Level(7,Enemy,False) [1,1] 0x00 0x00 0x00 0x00 [0x0] NoAI
+	UNIT
+
+EnemyUnits:
+	UNIT ONeill Hero 0x0 Level(7,Enemy,False) [1,1] 0x00 0x00 0x00 0x00 [SteelSword] AttackInRangeAI
+	UNIT
+
+Traps1:
+	ENDTRAP
+	ALIGN 4
+
+Traps2:
+	ENDTRAP
+	ALIGN 4
+
+BeginningScene:
+
+	//LOAD1 0x1 Units1
+	//ENUN
+	
+	//LOAD1 0x1 EnemyUnits
+	//ENUN
+	
+ASMC Debug2Menu_ASMC|1
+	SVAL s7 0 
+	BEQ 1 sC s7 
+	SVAL s7 1 
+	BEQ 2 sC s7
+	SVAL s7 2 
+	BEQ 3 sC s7 
+	SVAL s7 3 
+	BEQ 4 sC s7 	
+	
+	LABEL 1
+	CALL GoCh1
+	
+	LABEL 2
+	CALL GoCh2
+	
+	LABEL 3
+	CALL GoCh3
+
+	LABEL 4
+	CALL GoCh4
+	
+	ENDA
+	
+GoCh1:
+	MNC2 Chapter1
+	NoFade
+	ENDB
+	
+GoCh2:
+	MNC2 Chapter2
+	//LOAD1 0x1
+	NoFade
+	ENDB
+	
+GoCh3:
+	MNC2 Chapter3
+	//LOAD1 0x1 
+	NoFade
+	ENDB
+
+GoCh4:
+	MNC2 Chapter4
+	//LOAD1 0x1
+	NoFade
+	ENDB
+
+
+EndingScene:
+	MNC2 Chapter1
+	NoFade
+	ENDA

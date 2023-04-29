@@ -7,7 +7,7 @@ mov r5, r1 @dfdr
 
 ldr r0,=#0x203A56C
 cmp r0, r4
-bne End @Defender's crit isn't calculated yet, so end
+bne End @Defender's AS isn't calculated yet, so end
 
 ldr r1,=0x203a4ec @attacker
 cmp r5,r1

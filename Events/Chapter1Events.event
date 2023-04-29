@@ -44,7 +44,7 @@ LocationBasedEvents:
 	Village(9,TopVillage,9,3)
 	Village(10,BottomVillage,10,9)
 	Village(12,TopVillage2,7,3)
-	House(11,HouseEvent,4,16)
+	House(11,HouseEvent,4,14)
 	END_MAIN
 
 Dunno1:
@@ -75,11 +75,11 @@ DianeGroup:
 	
 Units1:
 
-	UNIT Curtis Eye Curtis Level(1,Ally,False) [8,23] 0x00 0x00 0x00 0x01 [Rapier, Vulnerary, EvilEye] NoAI 
-	UNIT Janessa CerapterKnight Curtis Level(1,Ally,False) [6,23] 0x00 0x00 0x00 0x01 [SilverAxe, SlimLance] NoAI //[6,23]
-	UNIT Alysa Recruit_1 Curtis Level(1,Ally,False) [7,23] 0x00 0x00 0x01 [Skygazer, IronLance, Vulnerary] NoAI
-	UNIT Jacob SwordCavalier Curtis Level(1,Ally,False) [8,24] 0x00 0x00 0x00 0x01 [IronSword] NoAI
-	UNIT Lucian LanceCavalier Curtis Level(1,Ally,False) [7,24] 0x00 0x00 0x00 0x01 [IronLance] NoAI
+	UNIT Curtis Eye Curtis Level(1,Ally,False) [8,21] 0x00 0x00 0x00 0x01 [Rapier, Vulnerary, EvilEye] NoAI 
+	UNIT Janessa CerapterKnight Curtis Level(1,Ally,False) [6,21] 0x00 0x00 0x00 0x01 [SilverAxe, SlimLance] NoAI //[6,23]
+	UNIT Alysa Recruit_1 Curtis Level(1,Ally,False) [7,21] 0x00 0x00 0x01 [Skygazer, IronLance, Vulnerary] NoAI
+	UNIT Jacob SwordCavalier Curtis Level(1,Ally,False) [8,22] 0x00 0x00 0x00 0x01 [IronSword] NoAI
+	UNIT Lucian LanceCavalier Curtis Level(1,Ally,False) [7,22] 0x00 0x00 0x00 0x01 [IronLance] NoAI
 	//UNIT Emmanuel Mage Curtis Level(2,Ally,True) [0,0] 0x0 0x0 0x0 0x1 [Fire Elstone] NoAI
 	UNIT
 
@@ -88,13 +88,14 @@ EnemyUnits:
 	UNIT ONeill SwordKnight 0x0 Level(7,Enemy,False) [18,1] 0x00 0x00 0x00 0x00 [SteelSword] AttackInRangeAI
 	UNIT Farum Mercenary ONeill Level(2,Enemy,True) [0,4] 0x00 0x00 0x00 0x00 [IronSword] AttackWallAI
 	UNIT Farum Mercenary_F ONeill Level(2,Enemy,True) [2,3] 0x00 0x00 0x00 0x00 [IronSword] AttackWallAI
-	UNIT Farum Fighter ONeill Level(2,Enemy,True) [10,19] 0x00 0x00 0x00 0x00 [IronAxe] AttackInRangeAI
-	UNIT Farum Fighter ONeill Level(2,Enemy,True) [11,19] 0x00 0x00 0x00 0x00 [IronAxe] AttackInRangeAI
-	UNIT Farum SwordCavalier ONeill Level(2,Enemy,True) [14,11] 0x00 0x00 0x00 [SteelSword] AttackInRangeAI
-	UNIT Farum PegasusKnight ONeill Level(2,Enemy,True) [19,12] 0x00 0x00 0x00 [IronLance] TwoActionAI
+	UNIT Farum Fighter ONeill Level(2,Enemy,True) [10,17] 0x00 0x00 0x00 0x00 [IronAxe] AttackInRangeAI
+	UNIT Farum Fighter ONeill Level(2,Enemy,True) [11,17] 0x00 0x00 0x00 0x00 [IronAxe] AttackInRangeAI
+	UNIT Farum SwordCavalier ONeill Level(2,Enemy,True) [15,10] 0x00 0x00 0x00 [SteelSword] AttackInRangeAI
+	UNIT Farum PegasusKnight ONeill Level(2,Enemy,True) [18,14] 0x00 0x00 0x00 [IronLance] DelayedChargeAI
+	UNIT Farum PegasusKnight ONeill Level(2,Enemy,True) [18,6] 0x00 0x00 0x00 [IronLance] DefaultAI
 	UNIT Farum Soldier ONeill Level(2,Enemy,True) [19,2] 0x00 0x00 0x00 [IronLance] DefaultAI
-	UNIT Farum Soldier ONeill Level(2,Enemy,True) [3,18] 0x00 0x00 0x00 [IronLance] DefaultAI
-	UNIT Farum Soldier ONeill Level(2,Enemy,True) [4,13] 0x00 0x00 0x00 [IronLance] TwoActionAI
+	UNIT Farum Soldier ONeill Level(2,Enemy,True) [3,15] 0x00 0x00 0x00 [IronLance] DefaultAI
+	UNIT Farum Soldier ONeill Level(2,Enemy,True) [4,12] 0x00 0x00 0x00 [IronLance] TwoActionAI
 	UNIT Farum Soldier ONeill Level(3,Enemy,True) [17,0] 0x00 0x00 0x00 [IronLance] MoveWithLeaderAI
 	UNIT Goon Soldier ONeill Level(1,Enemy,True) [18,2] 0x00 0x00 0x00 [IronLance] DoNothing
 	//UNIT Farum Outlaw ONeill Level(1,Enemy,False) [2,0] 0x0 0x0 0x0 [IronBow] DoNothing
@@ -104,7 +105,7 @@ ReinforcementGroup:
 
 	UNIT Farum LanceCavalier ONeill Level(1,Enemy,True) [19,3] 0x00 0x00 0x00 [IronLance] DefaultAI
 	UNIT Farum SwordCavalier ONeill Level(1,Enemy,True) [19,4] 0x00 0x00 0x00 [IronSword] DefaultAI
-	UNIT Farum SwordCavalier ONeill Level(1,Enemy,True) [19,21] 0x00 0x00 0x00 [IronSword] DefaultAI
+	UNIT Farum SwordCavalier ONeill Level(1,Enemy,True) [19,19] 0x00 0x00 0x00 [IronSword] DefaultAI
 	UNIT
 
 	
@@ -117,6 +118,23 @@ Traps2:
 	ALIGN 4
 
 BeginningScene:
+	
+#ifdef __DEBUG__
+
+	FADU 10
+
+	ASMC Debug1Menu_ASMC|1
+	SVAL s7 0 
+	BEQ 404 sC s7 
+	SVAL s7 1 
+	BEQ 776 sC s7 
+
+	LABEL 404
+	MNC2 DebugStartChapter
+	ENDA
+	
+	LABEL 776
+#endif // __DEBUG__
 	
 	LOAD1 0x1 EnemyUnits
 	ENUN
@@ -241,6 +259,7 @@ BottomVillage:
 	SMOV 0x3 Javelin
 	GIVEITEMTO 0xFFFF
 	MUNO
+	NoFade
 	ENDA
 	
 HouseEvent:

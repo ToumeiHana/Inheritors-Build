@@ -43,6 +43,7 @@
 #define Chapter18Events 0x4F
 #define Chapter19Events 0x56
 #define Chapter20Events 0x5A
+#define DebugEvents 0xCD
 
 //Tilesets
 #define VillageObjectsID 0x88
@@ -82,6 +83,7 @@
 #define Chapter18Map 0x4D
 #define Chapter19Map 0x53
 #define Chapter20Map 0x58
+#define DebugMap 0xCC
 
 //Tilechanges
 #define Chapter1MapChanges 0x06

@@ -64,6 +64,8 @@ POP
 
   //#include "ExternalHacks/Equip/Installer.event"
 
+  #include "ExternalHacks/LordSplitMenu/Installer.event"
+  
   #include "ExternalHacks/Summon Rework/SummonReworkInstaller.event"
   
   #include "ExternalHacks/ChangeChapterSong/Installer.event"

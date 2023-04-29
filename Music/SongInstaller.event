@@ -99,3 +99,6 @@ SongTable(GumshoeID,Gumshoe,MapMusicGroup)
 
 SongTable(EienNoIczerID,EienNoIczer,BattleMusicGroup)
 #include "event/EienNoIczer.event"
+
+SongTable(SupremancyBreakerID,SupremancyBreak00,BattleMusicGroup)
+#include "event/SupremancyBreak00.event"

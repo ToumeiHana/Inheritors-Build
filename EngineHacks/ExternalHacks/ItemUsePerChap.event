@@ -60,3 +60,10 @@ BYTE 0x02
 ORG $59BABF
 BYTE 0x02
 POP
+
+//Remove Link Arena
+//by Aera
+PUSH
+ORG $AB90E
+	BYTE 0x00 0x00 0x00 0x20
+POP

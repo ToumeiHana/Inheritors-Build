@@ -338,43 +338,9 @@ AIChanges:
 AltGameOver:
 
 	ContinueIfFactionMatch(0x2)
-	/*SETVAL 1 0x2
-	CHECK_AT [10,0]
-	BEQ 2 sC s0
-	SADD s2 sC s0
-	CHECK_ALLEGIANCE -3
-	BEQ 6 sC s1
-	
-	LABEL 2
-	CHECK_AT [11,0]
-	BEQ 3 sC s0
-	SADD s2 sC s0
-	CHECK_ALLEGIANCE -3
-	BEQ 6 s2 s1
-	
-	LABEL 3
-	CHECK_AT [12,0]
-	BEQ 4 sC s0
-	SADD s2 sC s0
-	CHECK_ALLEGIANCE -3
-	BEQ 6 sC s1
-	
-	LABEL 4
-	CHECK_AT [13,0]
-	BEQ 5 sC s0
-	SADD s2 sC s0
-	CHECK_ALLEGIANCE -3
-	BEQ 6 sC s1
-	
-	LABEL 5
+	ASMC 0x800D391
 	NoFade
-	ENDA*/
-	
-	LABEL 6
-	ENUT 0x65
-	ENUN
-	//STAL 60
-	ENDA
+	ENDB
 	
 ALIGN 4
 Ch4Armory:

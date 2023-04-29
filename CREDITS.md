@@ -93,18 +93,19 @@ adding yourself!
 
 # External & Inline hacks
 
+- SKILLSYS QoL+Other credits here
 - Scraiza: NarrowFont 
 - Huichelaar: Minimug Palette Fix
 - circles: drumfix
 - Alusq: NIMAP 2 (with keysplits)
 - Tequila: New CHAI
-- SKILLSYS QoL+Other credits here
 - HyperGammaSpaces: Summon rework
-- Aera: Thracia trading
+- Aera: Thracia trading, remove link arena
 - Zane: MMB
 - Teraspark: IER, fancy staves
 - 7743: Flag-based map bgm change, continue map bgm to battle
 - Vesly: Additional prebattle calcloop
+- stan: lordsplitmenu
 
 # Music
 
