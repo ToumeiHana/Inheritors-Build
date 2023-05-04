@@ -1,0 +1,5 @@
+ALIGN 4
+#include "IsBerserkStatusActive.lyn.event"
+
+ALIGN 4
+#include "IsSilenceStatusActive.lyn.event"

@@ -1,3 +1,8 @@
+## SD_EscortPlus
+Rescue Pro: This unit can move[N]
+again (Canto) after rescuing an ally.[N]
+Afterwards, they can Give/Take/Drop.[X]
+
 ## SD_AdvChaser
 Advantage Chaser: When attacking with[N]
 weapon triangle advantage, unit makes[N]

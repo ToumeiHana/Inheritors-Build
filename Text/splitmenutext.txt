@@ -3,3 +3,6 @@ Go to Chapter Select[X]
 
 ## NormalPlayText
 Play normally[X]
+
+## DebugText
+Debug[X]

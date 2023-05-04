@@ -21,3 +21,4 @@
 #define AxeReaver Axereaver
 #define LanceReaver Lancereaver
 #define SwordReaver Swordreaver
+#define RescueStaff Rescue

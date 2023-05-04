@@ -1,3 +1,6 @@
+ALIGN 4
+#include "Escort/Escort.event"
+
 
 PUSH
 ORG $1D2B8 //this used to set state to "cantoing", it's just there to make sure galeforce has priority

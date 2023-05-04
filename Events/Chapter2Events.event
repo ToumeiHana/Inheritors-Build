@@ -64,13 +64,13 @@ Tutorial:
 
 Units1:
 
-	UNIT Curtis Eye Curtis Level(1,Ally,False) [27,17] 0x00 0x00 0x00 0x01 [Rapier, Vulnerary, EvilEye] NoAI //[27,16]
-	UNIT Janessa CerapterKnight Curtis Level(1,Ally,False) [25,18] 0x00 0x00 0x00 0x01 [SilverAxe, SlimLance] NoAI
-	UNIT Alysa Recruit_1 Curtis Level(1,Ally,False) [26,17] 0x00 0x00 0x01 [IronLance, Vulnerary] NoAI
-	UNIT Jacob SwordCavalier Curtis Level(1,Ally,False) [26,19] 0x00 0x00 0x00 0x01 [IronSword] NoAI
-	UNIT Lucian LanceCavalier Curtis Level(1,Ally,False) [27,19] 0x00 0x00 0x00 0x01 [IronLance] NoAI
-	UNIT Marco Fighter Curtis Level(8,Ally,False) [26,18] 0x00 0x00 0x00 0x01 [SteelAxe] NoAI	
-	UNIT Diane Outlaw_F Curtis Level(1,Ally,False) [27,18] 0x00 0x00 0x00 0x01 [IronBow] NoAI
+	UNIT Curtis Eye Curtis Level(1,Ally,False) [24,17] 0x00 0x00 0x00 0x01 [Rapier, Vulnerary, EvilEye] NoAI //[27,16]
+	UNIT Janessa CerapterKnight Curtis Level(1,Ally,False) [22,18] 0x00 0x00 0x00 0x01 [SilverAxe, SlimLance] NoAI
+	UNIT Alysa Recruit_1 Curtis Level(1,Ally,False) [23,17] 0x00 0x00 0x01 [IronLance, Vulnerary] NoAI
+	UNIT Jacob SwordCavalier Curtis Level(1,Ally,False) [23,19] 0x00 0x00 0x00 0x01 [IronSword] NoAI
+	UNIT Lucian LanceCavalier Curtis Level(1,Ally,False) [24,19] 0x00 0x00 0x00 0x01 [IronLance] NoAI
+	UNIT Marco Fighter Curtis Level(8,Ally,False) [23,18] 0x00 0x00 0x00 0x01 [SteelAxe] NoAI	
+	UNIT Diane Outlaw_F Curtis Level(1,Ally,False) [24,18] 0x00 0x00 0x00 0x01 [IronBow] NoAI
 	UNIT
 
 EnemyUnits:
@@ -83,33 +83,35 @@ EnemyUnits:
 	UNIT Farum Fighter Breguet Level(4,Enemy,True) [15,7] 0x00 0x00 0x00 0x00 [HandAxe] NeverMoveAI
 	UNIT Farum LanceCavalier Breguet Level(3,Enemy,True) [14,5] 0x00 0x00 0x00 0x00 [IronLance] DefaultAI
 	UNIT Farum AxeCavalier Breguet Level(3,Enemy,True) [14,7] 0x00 0x00 0x00 0x00 [IronAxe] DefaultAI
+	UNIT Farum SwordCavalier Breguet Level(4,Enemy,True) [13,5] 0x0 0x0 0x0 0x0 [IronSword] DelayedChargeAI
+	UNIT Farum LanceCavalier Breguet Level(4,Enemy,True) [13,7] 0x0 0x0 0x0 0x0 [IronLance] DelayedChargeAI
 	UNIT Farum Mercenary Breguet Level(3,Enemy,True) [11,6] DropItem 0x00 0x00 0x00 [IronBlade] AttackInRangeAI
-	UNIT Farum PegasusKnight Breguet Level(3,Enemy,True) [17,13] 0x00 0x00 0x00 0x00 [IronLance] TwoActionAI
+	UNIT Farum PegasusKnight Breguet Level(3,Enemy,True) [15,13] 0x00 0x00 0x00 0x00 [IronLance] TwoActionAI
 	UNIT Farum Soldier Breguet Level(4,Enemy,True) [9,9] 0x00 0x00 0x00 0x00 [IronLance] TwoActionAI
 	UNIT Farum Mercenary Breguet Level(4,Enemy,True) [10,10] 0x00 0x00 0x00 0x00 [IronSword] TwoActionAI
 	UNIT Farum Soldier Breguet Level(3,Enemy,True) [4,14] 0x00 0x00 0x00 0x00 [IronLance] TwoActionAI
 	UNIT Farum PegasusKnight Breguet Level(4,Enemy,True) [5,1] 0x00 0x00 0x00 [IronLance] TwoActionAI
-	UNIT Brigand_Enemy Outlaw 0x0 Level(4,Enemy,True) [9,14] 0x00 0x00 0x00 0x00 [SteelBow] AttackInRangeAI
+	UNIT Brigand_Enemy Outlaw 0x0 Level(4,Enemy,True) [7,14] 0x00 0x00 0x00 0x00 [IronBow] AttackInRangeAI
 	UNIT Farum AxePeg Breguet Level(3,Enemy,True) [1,11] 0x00 0x00 0x0 0x0 [IronAxe] AttackInRangeAI
 	UNIT
 	
 BrigandOne:
-	UNIT Brigand_Enemy Brigand 0x0 Level(3,Enemy,True) [15,15] 0x00 0x00 0x01 REDA15R15 [IronAxe] BrigandAI
+	UNIT Brigand_Enemy Brigand 0x0 Level(3,Enemy,True) [13,15] 0x00 0x00 0x01 REDA13R15 [IronAxe] BrigandAI
 	UNIT
 	
 BrigandTwo:
 
 	UNIT Farum Fighter Breguet Level(4,Enemy,True) [1,3] 0x00 0x00 0x01 REDA1R4 [IronAxe] DefaultAI
 	UNIT Farum Myrmidon Breguet Level(3,Enemy,True) [5,3] 0x00 0x00 0x01 REDA5R4 [IronSword] DefaultAI
-	UNIT Brigand_Enemy Brigand 0x0 Level(3,Enemy,True) [15,15] 0x00 0x00 0x01 REDA15R15 [IronAxe] BrigandAI
+	UNIT Brigand_Enemy Brigand 0x0 Level(3,Enemy,True) [13,15] 0x00 0x00 0x01 REDA13R15 [IronAxe] BrigandAI
 	UNIT
 	
 InnGroup:
 
-	UNIT Mirabelle Claw Curtis Level(2,NPC,False) [22,5] 0x00 0x00 0x00 0x01 [RustyNail, DragonClaw] HalfRangeAI
-	UNIT Katja Fighter_F Curtis Level(2,NPC,False) [23,6] 0x00 0x00 0x00 0x01 [IronAxe] HalfRangeAI
-	UNIT Mauritch Myrmidon Curtis Level(2,NPC,False) [25,6] 0x00 0x00 0x00 0x01 [KillingEdge] AttackInRangeAI
-	UNIT Lauren Troubadour Curtis Level(2,NPC,False) [26,5] 0x00 0x00 0x00 0x01 [Heal, Vulnerary] HealUnits
+	UNIT Mirabelle Claw Curtis Level(2,NPC,False) [20,5] 0x00 0x00 0x00 0x01 [RustyNail, DragonClaw] HalfRangeAI
+	UNIT Katja Fighter_F Curtis Level(2,NPC,False) [21,6] 0x00 0x00 0x00 0x01 [IronAxe] HalfRangeAI
+	UNIT Mauritch Myrmidon Curtis Level(2,NPC,False) [23,6] 0x00 0x00 0x00 0x01 [KillingEdge] HalfRangeAI
+	UNIT Lauren Troubadour Curtis Level(2,NPC,False) [24,5] 0x00 0x00 0x00 0x01 [Heal, Vulnerary] HealUnits
 	UNIT
 
 Traps1:

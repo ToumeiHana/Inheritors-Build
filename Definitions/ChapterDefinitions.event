@@ -21,6 +21,7 @@
 #define Chapter20 0x13
 //#define Chapter1 0x14
 //#define Chapter2 0x15
+#define DebugChapter 0x3C
 
 //Event IDs
 #define Chapter1Events 0x07

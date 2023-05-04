@@ -226,3 +226,5 @@
 #define Skygazer 0xBE
 #define DoublePilum 0xBF //Spell slot 18?
 #define MineStaff 0xC0
+#define Youtou 0xC1
+#define Mooncleaver 0xC2

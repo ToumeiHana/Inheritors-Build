@@ -16,6 +16,8 @@ POP
 #define SkygazerIconID 222 //0xDE
 #define MineStaffIconID 223
 #define ElstoneItemIconID 224
+#define YoutouItemIconID 225
+#define MooncleaverItemIconID 226
 
 PUSH 
 ItemIconEntry(SkygazerIconID)
@@ -26,5 +28,11 @@ ItemIconEntry(MineStaffIconID)
 
 ItemIconEntry(ElstoneItemIconID)
 #incbin "dmp/ZaneTome023.dmp"
+
+ItemIconEntry(MooncleaverItemIconID)
+#incbin "dmp/CeliceAxe21.dmp"
+
+ItemIconEntry(YoutouItemIconID)
+#incbin "dmp/EreshkigalKatana10.dmp"
  
 POP 

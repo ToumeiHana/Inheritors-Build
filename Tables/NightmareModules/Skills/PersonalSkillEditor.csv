@@ -1,7 +1,7 @@
 INLINE PersonalSkillTable,Skill
 None,0x0
 Eirika,CharismaID
-Janessa,CantoPlusID
+Janessa,EscortPlusID
 Alysa,BattleVeteranID
 Jacob,ChivalryID
 Moulder,PragmaticID

@@ -45,7 +45,7 @@
 	//Set bit 0x1 of byte 0xC if dropping a dead enemy
 	ORG $183B0
 	jumpToHack(Drop_Dead_Enemy)
-	
+	/*
 	//Modify the trade check to be able to trade captured enemies
 	ORG $25224
 	callHack_r3(Trade_Captured_Enemy1)
@@ -53,7 +53,7 @@
 	ORG $25298
 	callHack_r3(Trade_Captured_Enemy2)
 	SHORT 0xD00E
-	
+	*/
 	//Fix the portraits when trading
 	ORG $2D7D4
 	callHack_r3(Trade_Portrait_Fix1)

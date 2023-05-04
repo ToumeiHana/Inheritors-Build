@@ -7,6 +7,12 @@ push {r4-r7,lr}
 mov r4, r0
 mov r5, r1
 
+@make sure we're in combat (or battle forecast)
+ldrb r3, =gBattleData
+ldrb r3, [r3]
+cmp r3, #4
+beq End
+
 ldr r0, SkillTester
 mov lr, r0
 mov r0, r4 @attacker data
@@ -15,15 +21,18 @@ ldr r1, LumberjackID
 cmp r0, #0
 beq End
 
-@ldr r0, [r5,#0x04] @defender class data pointer
-@mov r1, #0x38
-@ldr r0, [r0,r1] @Move costs pointer
+ldr r1,[r5,#0x0]
+ldrb   r1,[r1,#0x4]
+cmp r1,#0xFF
+bne NotASnag
 
-@mov r1,#19		@Fence1 tileID
-@ldrb r3,[r0,r1]
-@cmp r3,#0xFF
-@bne End @defender can pass fence -> is flying -> no terrain bonuses -> end
+mov r3,#0x12
+ldrb r1,[r5,r3]
+mov r3,#0x5A
+strh r1,[r4,r3]
 
+
+NotASnag:
 mov 	r3,#0x55
 ldrb	r1,[r5,r3] @defenders tileID
 cmp r1,#0xC @forest tileID

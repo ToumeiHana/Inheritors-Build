@@ -63,7 +63,11 @@ POP
 
 
   //#include "ExternalHacks/Equip/Installer.event"
+  
+  //#include "ExternalHacks/StatusDebuffs/StatusDebuffs.event"
 
+  #include "ExternalHacks/ModularUnitMenuCommandUsability/ModularUnitMenuCommandUsability.event"
+  
   #include "ExternalHacks/LordSplitMenu/Installer.event"
   
   #include "ExternalHacks/Summon Rework/SummonReworkInstaller.event"

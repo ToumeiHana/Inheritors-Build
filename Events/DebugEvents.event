@@ -1,5 +1,12 @@
 EventPointerTable(DebugEvents, PointerList)
 
+setText(0x181, NewChName)
+ALIGN 4
+NewChName:
+String("Debug")
+BYTE 0
+
+ALIGN 4
 PointerList:
 	POIN TurnBasedEvents
 	POIN CharacterBasedEvents
@@ -46,7 +53,7 @@ Tutorial:
 	END_MAIN
 
 Units1:
-	UNIT Vidar Gut 0x0 Level(7,Enemy,False) [1,1] 0x00 0x00 0x00 0x00 [0x0] NoAI
+	UNIT Vidar Gut 0x0 Level(7,Ally,False) [1,1] 0x00 0x00 0x00 0x00 [0x0] NoAI
 	UNIT
 
 EnemyUnits:
@@ -99,25 +106,68 @@ GoCh1:
 	ENDB
 	
 GoCh2:
+	LOAD1 0x1 Ch2DebugUnits
+	ENUN
 	MNC2 Chapter2
-	//LOAD1 0x1
 	NoFade
 	ENDB
 	
 GoCh3:
+	LOAD1 0x1 Ch3DebugUnits
+	ENUN
 	MNC2 Chapter3
-	//LOAD1 0x1 
 	NoFade
 	ENDB
 
-GoCh4:
+GoCh4:	
+	LOAD1 0x1 Ch4DebugUnits
+	GiveMoney(4000)
+	ENUN
 	MNC2 Chapter4
-	//LOAD1 0x1
 	NoFade
 	ENDB
-
 
 EndingScene:
 	MNC2 Chapter1
 	NoFade
 	ENDA
+	
+Ch2DebugUnits:
+	UNIT Curtis Eye Curtis Level(2,Ally,True) [0,0] 0x00 0x00 0x00 0x01 [Rapier, Vulnerary, EvilEye] NoAI //[27,16]
+	UNIT Janessa CerapterKnight Curtis Level(1,Ally,False) [1,0] 0x00 0x00 0x00 0x01 [SilverAxe, SlimLance] NoAI
+	UNIT Alysa Recruit_1 Curtis Level(3,Ally,True) [2,0] 0x00 0x00 0x01 [Skygazer,IronLance, Vulnerary] NoAI
+	UNIT Jacob SwordCavalier Curtis Level(2,Ally,True) [3,0] 0x00 0x00 0x00 0x01 [IronSword] NoAI
+	UNIT Lucian LanceCavalier Curtis Level(2,Ally,True) [4,0] 0x00 0x00 0x00 0x01 [IronLance,Javelin] NoAI
+	UNIT Marco Fighter Curtis Level(8,Ally,False) [5,0] 0x00 0x00 0x00 0x01 [SteelAxe, Elixir] NoAI	
+	UNIT Diane Outlaw_F Curtis Level(2,Ally,False) [6,0] 0x00 0x00 0x00 0x01 [IronBow] NoAI
+	UNIT
+	
+Ch3DebugUnits:
+	UNIT Curtis Eye Curtis Level(3,Ally,True) [0,0] 0x00 0x00 0x00 0x01 [Rapier, Vulnerary, EvilEye] NoAI //[27,16]
+	UNIT Janessa CerapterKnight Curtis Level(1,Ally,False) [1,0] 0x00 0x00 0x00 0x01 [SilverAxe, SlimLance] NoAI
+	UNIT Alysa Recruit_1 Curtis Level(4,Ally,True) [2,0] 0x00 0x00 0x01 [IronLance, Vulnerary] NoAI
+	UNIT Jacob SwordCavalier Curtis Level(3,Ally,True) [3,0] 0x00 0x00 0x00 0x01 [IronSword] NoAI
+	UNIT Lucian LanceCavalier Curtis Level(3,Ally,True) [4,0] 0x00 0x00 0x00 0x01 [IronLance,Javelin] NoAI
+	UNIT Marco Fighter Curtis Level(8,Ally,False) [5,0] 0x00 0x00 0x00 0x01 [SteelAxe, Elixir] NoAI	
+	UNIT Diane Outlaw_F Curtis Level(3,Ally,True) [6,0] 0x00 0x00 0x00 0x01 [IronBow] NoAI
+	UNIT Mirabelle Claw Curtis Level(3,Ally,True) [7,0] 0x00 0x00 0x00 0x01 [RustyNail, DragonClaw] HalfRangeAI
+	UNIT Katja Fighter_F Curtis Level(3,Ally,True) [8,0] 0x00 0x00 0x00 0x01 [IronAxe] HalfRangeAI
+	UNIT Mauritch Myrmidon Curtis Level(3,Ally,True) [9,0] 0x00 0x00 0x00 0x01 [KillingEdge] AttackInRangeAI
+	UNIT Lauren Troubadour Curtis Level(3,Ally,True) [10,0] 0x00 0x00 0x00 0x01 [Heal, Mend, Vulnerary] HealUnits
+	UNIT
+	
+Ch4DebugUnits:
+	UNIT Curtis Eye Curtis Level(4,Ally,True) [0,0] 0x00 0x00 0x00 0x01 [Rapier, Vulnerary, EvilEye] NoAI //[27,16]
+	UNIT Janessa CerapterKnight Curtis Level(1,Ally,False) [1,0] 0x00 0x00 0x00 0x01 [SilverAxe, SlimLance] NoAI
+	UNIT Alysa Recruit_1 Curtis Level(5,Ally,True) [2,0] 0x00 0x00 0x01 [Skygazer, IronLance, Vulnerary] NoAI
+	UNIT Jacob SwordCavalier Curtis Level(4,Ally,True) [3,0] 0x00 0x00 0x00 0x01 [IronSword, IronBlade] NoAI
+	UNIT Lucian LanceCavalier Curtis Level(4,Ally,True) [4,0] 0x00 0x00 0x00 0x01 [IronLance,Javelin] NoAI
+	UNIT Marco Fighter Curtis Level(8,Ally,False) [5,0] 0x00 0x00 0x00 0x01 [SteelAxe, Elixir] NoAI	
+	UNIT Diane Outlaw_F Curtis Level(4,Ally,True) [6,0] 0x00 0x00 0x00 0x01 [IronBow, PureWater] NoAI
+	UNIT Mirabelle Claw Curtis Level(4,Ally,True) [7,0] 0x00 0x00 0x00 0x01 [RustyNail, DragonClaw] HalfRangeAI
+	UNIT Katja Fighter_F Curtis Level(4,Ally,True) [8,0] 0x00 0x00 0x00 0x01 [IronAxe] HalfRangeAI
+	UNIT Mauritch Myrmidon Curtis Level(4,Ally,True) [9,0] 0x00 0x00 0x00 0x01 [KillingEdge] AttackInRangeAI
+	UNIT Lauren Troubadour Curtis Level(3,Ally,True) [10,0] 0x00 0x00 0x00 0x01 [Heal, Mend, Vulnerary] HealUnits
+	UNIT Libby Cleric 0x0 Level(3,Ally,True) [11,0] 0x00 0x00 0x00 0x01 [Heal, RescueStaff] NeverMoveAI
+	UNIT Emmanuel Mage 0x0 Level(4,Ally,True) [12,0] 0x00 0x00 0x00 0x00 [Fire, Elstone] AttackInRangeAI
+	UNIT

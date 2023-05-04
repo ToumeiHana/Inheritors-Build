@@ -22,3 +22,15 @@ Mine[X]
 ## MineDesc
 Places mines.[X]
 
+## YoutouName
+Youtou[X]
+
+## YoutouDesc
+A cursed, bloodthirsty katana.[X]
+
+## MooncleaverName
+Mooncleaver[X]
+
+## MooncleaverDesc
+Magical. Ingnores res.[X]
+
