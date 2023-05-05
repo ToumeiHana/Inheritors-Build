@@ -108,10 +108,11 @@
 #define Halberdier 0x73
 #define Halberdier_F 0x74
 #define Ballistician 0x75
-/*#define Queen_2 0x76
-#define FallenPrince 0x78
-#define Tent 0x79
-#define Pontifex 0x7A
+#define FMonk 0x76
+#define Phantom 0x77
+//#define FallenPrince 0x78
+//#define Tent 0x79
+/*#define Pontifex 0x7A
 #define FallenPeer 0x7B
 #define Cyclops_2 0x7C
 #define ElderBael_2 0x7D

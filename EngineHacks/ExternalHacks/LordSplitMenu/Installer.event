@@ -43,6 +43,7 @@ Debug2MenuDefs:
 	
 ALIGN 4
 Debug2MenuCommands:
+	EventMenuCommand(DebugText)
 	EventMenuCommand(0x160)
 	EventMenuCommand(0x161)
 	EventMenuCommand(0x162)

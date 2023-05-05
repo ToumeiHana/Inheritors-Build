@@ -228,3 +228,5 @@
 #define MineStaff 0xC0
 #define Youtou 0xC1
 #define Mooncleaver 0xC2
+#define DawnEdge 0xC3
+#define Gheist 0xC4

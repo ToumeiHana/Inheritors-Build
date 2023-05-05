@@ -24,6 +24,7 @@
 	MagicSwordEntry(WindSword,WeaponTypeAnima,False,HitRes,HitRes)
 	MagicSwordEntry(LightBrand,WeaponTypeLight,False,HitRes,HitRes)
 	MagicSwordEntry(Runesword,WeaponTypeDark,True,HitRes,HitRes)
+	MagicSwordEntry(Mooncleaver,2,True,HitDef,HitDef)
 	BYTE 0 0 0 //terminator
 
 

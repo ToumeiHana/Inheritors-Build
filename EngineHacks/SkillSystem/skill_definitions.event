@@ -663,6 +663,9 @@
 
 //Proc Skills
 
+//DawnEffect
+#define DawnID 22
+
 //Adept: Gain a consecutive attack. (Speed % activation)
 //Author Unknown (Initial Commit)
 

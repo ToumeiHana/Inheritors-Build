@@ -24,8 +24,10 @@ ldr r6, =0x0000FFFF
 mov r4, #0x0
 ldr r0, =0x03004E50		@active unit
 ldr r0, [r0]
-ldr r0, [r0]
-ldrb r0, [r0, #0x4]		@unit ID
+@ldr r0, [r0]
+@ldrb r0, [r0, #0x4]		@unit ID
+
+ldrb r0, [r0, #0x1E]	@eqipped wep id
 ldr r5, SummonTable
 mov r3, r5
 

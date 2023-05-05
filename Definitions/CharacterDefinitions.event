@@ -43,9 +43,9 @@
 /*#define IsmaireCC 0x2B
 #define HaydenCC 0x2C
 #define LyonSummon 0x3B*/
-#define BoulderSummon 0x3E/*
-#define EvanSummon 0x3F
-#define Lyon_Ch17 0x40
+#define BoulderSummon 0x3E
+#define PhantomSummon 0x3F
+/*#define Lyon_Ch17 0x40
 #define Morva_Ch20 0x41
 #define Orson_Ch5x 0x42
 #define Valter_Ch15_ 0x43

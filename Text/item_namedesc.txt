@@ -32,5 +32,12 @@ A cursed, bloodthirsty katana.[X]
 Mooncleaver[X]
 
 ## MooncleaverDesc
-Magical. Ingnores res.[X]
+Magical. Ignores res.[X]
+
+## DawnEdgeName
+Dawn Edge[X]
+
+## DawnEdgeDesc
+Attacking: heals 25 % damage dealt.[N]
+Defending: ignores 25 % of enemy def.[X]
 

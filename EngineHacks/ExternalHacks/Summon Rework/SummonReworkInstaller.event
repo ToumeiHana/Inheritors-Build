@@ -38,15 +38,23 @@ POP
 
 //4 bytes per entry
 //Summoner ID, Summoned Unit ID, Summoned Class, 0
-#define SummonTableEntry(UnitID) "BYTE UnitID BoulderSummon Boulder 0"
+#define OldSummonTableEntry(UnitID) "BYTE UnitID BoulderSummon Boulder 0"
+#define SummonTableEntry(WepID,UnitID,ClassID) "BYTE WepID UnitID ClassID 0"
+
+/*
+ALIGN 4
+SummonTable:
+OldSummonTableEntry(Emmanuel)
+OldSummonTableEntry(Anis)
+OldSummonTableEntry(Lauren)
+OldSummonTableEntry(Glaw)
+OldSummonTableEntry(Hefina)
+OldSummonTableEntry(Sibyl)
+BYTE 0 0 0 0 //terminator
+*/
 
 ALIGN 4
 SummonTable:
-SummonTableEntry(Emmanuel)
-SummonTableEntry(Anis)
-SummonTableEntry(Lauren)
-SummonTableEntry(Glaw)
-SummonTableEntry(Hefina)
-SummonTableEntry(Sibyl)
-BYTE 0 0 0 0 //terminator
-
+SummonTableEntry(Elstone,BoulderSummon,Boulder)
+SummonTableEntry(Gheist,PhantomSummon,Phantom)
+BYTE 0 0 0 0

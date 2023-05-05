@@ -22,6 +22,10 @@ tst r0, r1
 bne End
 @if another skill already activated, don't do anything
 
+ldr r1,=0x203a4ec @attacker
+cmp r5,r1
+bne End @skip if unit is the attacker
+
 @check for luna proc
 ldr r0, SkillTester
 mov lr, r0
@@ -32,11 +36,11 @@ cmp r0, #0
 beq End
 @if user has sure shot, check for proc rate
 
-ldrb r0, [r4, #0x15] @skill stat as activation rate
-mov r1, r4 @skill user
-blh d100Result
-cmp r0, #1
-bne End
+@ldrb r0, [r4, #0x15] @skill stat as activation rate
+@mov r1, r4 @skill user
+@blh d100Result
+@cmp r0, #1
+@bne End
 
 @if we proc, set the offensive skill flag
 ldr     r2,[r6]    
@@ -55,6 +59,11 @@ strb  r0, [r6,#4]
 
 @and recalculate damage with def=0
 ldrh r0, [r7, #6] @final mt
+
+ldrh r1, [r7,#0x8]
+lsr r1,#0x02
+sub r0,r1
+
 ldr r2, [r6]
 mov r1, #1
 tst r1, r2

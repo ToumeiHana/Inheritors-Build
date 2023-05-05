@@ -53,11 +53,14 @@ Tutorial:
 	END_MAIN
 
 Units1:
-	UNIT Vidar Gut 0x0 Level(7,Ally,False) [1,1] 0x00 0x00 0x00 0x00 [0x0] NoAI
+	UNIT Vidar Gut 0x0 Level(7,Ally,False) [1,0] 0x00 0x00 0x00 0x00 [0x0] NoAI
+	UNIT Hefina Tail 0x0 Level(1,Ally,False) [0,0] 0x0 0x0 0x0 0x0 [Gheist,Elstone] NoAI
+	UNIT Ellie Druid 0x0 Level(1,Ally,False) [0,1] 0x0 0x0 0x0 0x0 [Gheist] NoAI
+	UNIT Sibyl Dancer 0x0 Level(1,Ally,False) [1,1] 0x0 0x0 0x0 0x0 [0x0] NoAI
 	UNIT
 
 EnemyUnits:
-	UNIT ONeill Hero 0x0 Level(7,Enemy,False) [1,1] 0x00 0x00 0x00 0x00 [SteelSword] AttackInRangeAI
+	UNIT ONeill Hero 0x0 Level(7,Enemy,False) [12,1] 0x00 0x00 0x00 0x00 [SteelSword] AttackInRangeAI
 	UNIT
 
 Traps1:
@@ -69,21 +72,17 @@ Traps2:
 	ALIGN 4
 
 BeginningScene:
-
-	//LOAD1 0x1 Units1
-	//ENUN
-	
-	//LOAD1 0x1 EnemyUnits
-	//ENUN
 	
 ASMC Debug2Menu_ASMC|1
-	SVAL s7 0 
-	BEQ 1 sC s7 
+	SVAL s7 0
+	BEQ 0 sC s7
 	SVAL s7 1 
-	BEQ 2 sC s7
+	BEQ 1 sC s7 
 	SVAL s7 2 
-	BEQ 3 sC s7 
+	BEQ 2 sC s7
 	SVAL s7 3 
+	BEQ 3 sC s7 
+	SVAL s7 4 
 	BEQ 4 sC s7 	
 	
 	LABEL 1
@@ -97,6 +96,15 @@ ASMC Debug2Menu_ASMC|1
 
 	LABEL 4
 	CALL GoCh4
+	
+	
+	LABEL 0
+	
+	LOAD1 0x1 Units1
+	ENUN
+	
+	LOAD1 0x1 EnemyUnits
+	ENUN
 	
 	ENDA
 	

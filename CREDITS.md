@@ -41,7 +41,6 @@ adding yourself!
 - Flasuban: Improved FalcoKnight, FHero, PegasusKnight. FPaladin
 - SALVAGED: Cavaliers, Paladins
 - TheBlindArcher: Knight Extra Weapons
-- Vilkalizer: Knight Lance
 - Nuramon: FHero, Hero
 - BlackMage: FFighter
 - Norikins: Elstone
@@ -105,8 +104,9 @@ adding yourself!
 - Zane: MMB
 - Teraspark: IER, fancy staves
 - 7743: Flag-based map bgm change, continue map bgm to battle
-- Vesly: Additional prebattle calcloop
+- Vesly: Additional prebattle calcloop, extended weapon desc box
 - stan: lordsplitmenu
+- AuraWolf: Modular Unit Menu, status debuffs (unused for now)
 
 # Music
 
