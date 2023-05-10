@@ -86,10 +86,11 @@ adding yourself!
 - L95: FMercenary, FMyrm
 
 # Item Icons
-- Erekshigal: Skygazer, Youtou
+- Erekshigal: Skygazer, Youtou, Dawn Edge
 - LordGlenn: Mine Staff
 - Zane: Elstone
 - Celice: Mooncleaver
+- Seal: Gheist
 
 # External & Inline hacks
 

@@ -68,3 +68,13 @@ DesperateGambit:
 POIN SkillTester
 WORD DesperateGambitID
 
+ALIGN 4
+BaitUsability:
+#incbin "BaitUsability.dmp"
+POIN SkillTester
+WORD BaitID
+
+ALIGN 4
+BaitEffect:
+#incbin "BaitEffect.dmp"
+

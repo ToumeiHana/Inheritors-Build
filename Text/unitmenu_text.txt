@@ -1,3 +1,9 @@
+## UM_Bait
+ Bait[X]
+
+## UM_BaitDesc
+Bait enemies to attack you.[X]
+
 ## EquipEquipmentDescription
 Ready this equipment.[X]
 

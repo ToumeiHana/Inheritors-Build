@@ -600,9 +600,11 @@
 //By Datagne
 #define VanityID 183
 
+//!!! TODO
 //Vigilance: Avoid +20.
 //By Sme
 #define VigilanceID 17
+#define BaitID VigilanceID
 
 //Wind Disciple: +10 Hit and Avoid when HP is not at max.
 //Author Unknown (Initial Commit)

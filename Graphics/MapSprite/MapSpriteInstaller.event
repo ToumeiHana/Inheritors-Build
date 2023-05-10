@@ -127,3 +127,28 @@ ClawStand:
 ALIGN 4
 ClawWalk:
 #incbin "dmp/Clawwalk.dmp"
+
+ALIGN 4
+ShamanFStand:
+#incbin "dmp/ShamanFstand.dmp"
+
+ALIGN 4
+ShamanFWalk:
+#incbin "dmp/ShamanFwalk.dmp"
+
+ALIGN 4
+DruidFStand:
+#incbin "dmp/DruidFstand.dmp"
+
+ALIGN 4
+DruidFWalk:
+#incbin "dmp/DruidFwalk.dmp"
+
+ALIGN 4
+FalcoKnightStand:
+#incbin "dmp/FalcoKnightRevisionflasubanstand.dmp"
+
+ALIGN 4
+FalcoKnightWalk:
+#incbin "dmp/FalcoKnightRevisionflasubanwalk.dmp"
+

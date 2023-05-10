@@ -123,6 +123,8 @@ UnitMenuTable:
   UM_Summon_DK
   UM_Pick
 
+  MenuCommand(UM_Bait, UM_BaitDesc, NormalText, BaitUsability, BaitEffect)
+  
 #ifndef COMBAT_ARTS
 
 #ifdef HAX_RALLIES

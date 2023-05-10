@@ -18,6 +18,8 @@ POP
 #define ElstoneItemIconID 224
 #define YoutouItemIconID 225
 #define MooncleaverItemIconID 226
+#define DawnEdgeItemIconID 227
+#define GheistItemIconID 228
 
 PUSH 
 ItemIconEntry(SkygazerIconID)
@@ -34,5 +36,11 @@ ItemIconEntry(MooncleaverItemIconID)
 
 ItemIconEntry(YoutouItemIconID)
 #incbin "dmp/EreshkigalKatana10.dmp"
+
+ItemIconEntry(DawnEdgeItemIconID)
+#incbin "dmp/EreshkigalExtra15.dmp"
+
+ItemIconEntry(GheistItemIconID)
+#incbin "dmp/SealDark6.dmp"
  
 POP 

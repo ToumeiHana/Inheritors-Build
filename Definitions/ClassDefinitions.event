@@ -69,7 +69,7 @@
 #define Soldier 0x4E
 #define Necromancer 0x4F
 #define Fleet 0x50*/
-#define Boulder 0x51
+#define Phantom 0x51
 #define Claw 0x52
 #define Sharpclaw 0x53
 #define Horn 0x54
@@ -109,7 +109,7 @@
 #define Halberdier_F 0x74
 #define Ballistician 0x75
 #define FMonk 0x76
-#define Phantom 0x77
+#define Boulder 0x77
 //#define FallenPrince 0x78
 //#define Tent 0x79
 /*#define Pontifex 0x7A
