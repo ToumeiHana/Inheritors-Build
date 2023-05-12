@@ -414,7 +414,7 @@
 @base in r3, final in sp, cap in sp+4, call getter
   mov     r1, r8
   ldr     r0, [r1, #0x4] @class
-  mov     r3, #0x12  @move
+  mov     r3, #0x12     @move
   ldsb    r3, [r0, r3]  
   @ mov     r0, #0x1D     @bonus
   @ ldsb    r0, [r1, r0]   
@@ -428,14 +428,8 @@
   bne MoveNotNegated
     mvn     r0, r0
     mov     r3, r0
-  b FinalMov 
-  
   MoveNotNegated:
-  lsr r3,r3,#0x1
-  lsr r0,r0,#0x1
-  
-  FinalMov:
-  str     r0, [sp] @final 
+  str     r0, [sp] @final
   mov     r6, #0xF
   str     r6, [sp, #4]
   mov     r0, #0x8    
@@ -684,12 +678,13 @@
   mov     r1, #0x16        @16 if status, otherwise 18???
   mov     r2, #\colour   
   blh     Text_InsertString, r4
-  mov     r0, r8
-  blh     GetUnitStatusDura
-  mov     r2, r0
+  mov     r1, r8
+  add     r1, #0x30
+  ldrb    r2, [r1]
   cmp     r2, #0
   beq     NoStatusCount
   ldr     r0, =(0x2003ca2+(0x20*2*\tile_y)+(2*\tile_x))
+  lsr     r2, #5
   mov     r1, #0
   blh     DrawUiSmallNumber
   NoStatusCount:
@@ -1314,18 +1309,16 @@
   mov     r0, #0
   sub     r0, #1
   DrawHP:
-  mov     r4, #0x89
-  lsl     r4, #3
-  add     r4, r8
+  mov     r2, r0
+  ldr     r0, =(0x20*2*\tile_y)+(2*\tile_x)
+  add     r0, r8
   @ldr     r0, [r7, #0xC]    @unit pointer
   @blh     CurHPGetter
-  mov     r2, r0
-  mov     r0, r4
   mov     r1, #2
   blh     DrawDecNumber
 .endm
 
-.macro draw_max_hp
+.macro draw_max_hp, tile_x, tile_y
   ldr     r0, [r7, #0xC]    @unit pointer
   blh     MaxHPGetter
   cmp     r0, #100
@@ -1333,9 +1326,9 @@
   mov     r0, #0
   sub     r0, #1
   DrawMaxHP:
-  ldr     r4, =#0x20230F6 @somewhere in bg0 buffer
   mov     r2, r0
-  mov     r0, r4
+  ldr     r0, =(0x20*2*\tile_y)+(2*\tile_x)
+  add     r0, r8
   mov     r1, #2
   blh     DrawDecNumber
   DrawMaxHP_End:

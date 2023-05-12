@@ -11,15 +11,8 @@
 
 push {r4-r7,lr}
 
-@blh GetUnit
-
 ldr r0, =gCurrentUnit
 ldr r0, [r0]		@unit ram struct
-
-mov r1, #0x0C
-mov r2, #0x2
-str r2, [r0,r1]
-
 
 mov r1,#0x1 @status nibble
 mov r2,#0x1	@duration nibble

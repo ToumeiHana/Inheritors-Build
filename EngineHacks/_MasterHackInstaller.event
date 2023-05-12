@@ -68,6 +68,8 @@ POP
   
   //#include "ExternalHacks/NegateDef/Installer.event"
   
+  #include "ExternalHacks/FE8U-UnitStatus-Rework/UnitStatus.event"
+  
   #include "ExternalHacks/ExtendWeaponDescBox/Installer.event"
 
   #include "ExternalHacks/ModularUnitMenuCommandUsability/ModularUnitMenuCommandUsability.event"
@@ -280,3 +282,5 @@ POP
   #endif // USE_SAVE_EXPANSION
   
   #include "CustomItems/_CustomItemSetup.event"
+  
+  #include "ExternalHacks/DynamicEquip/DynamicWeaponEquipInstaller.event"

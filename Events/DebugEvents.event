@@ -60,7 +60,8 @@ Units1:
 	UNIT
 
 EnemyUnits:
-	UNIT ONeill Hero 0x0 Level(7,Enemy,False) [12,1] 0x00 0x00 0x00 0x00 [SteelSword] AttackInRangeAI
+	UNIT ONeill Hero 0x0 Level(1,Enemy,True) [12,1] 0x00 0x00 0x00 0x00 [SilverAxe, HandAxe] NeverMoveAI
+	UNIT Farum Hero ONeill Level(1,Enemy,True) [12,2] 0x0 0x0 0x0 0x0 [SilverAxe, HandAxe] NeverMoveAI
 	UNIT
 
 Traps1:
@@ -159,7 +160,7 @@ Ch3DebugUnits:
 	UNIT Marco Fighter Curtis Level(8,Ally,False) [5,0] 0x00 0x00 0x00 0x01 [SteelAxe, Elixir] NoAI	
 	UNIT Diane Outlaw_F Curtis Level(3,Ally,True) [6,0] 0x00 0x00 0x00 0x01 [IronBow] NoAI
 	UNIT Mirabelle Claw Curtis Level(3,Ally,True) [7,0] 0x00 0x00 0x00 0x01 [RustyNail, DragonClaw] HalfRangeAI
-	UNIT Katja Fighter_F Curtis Level(3,Ally,True) [8,0] 0x00 0x00 0x00 0x01 [IronAxe] HalfRangeAI
+	UNIT Katja Fighter_F Curtis Level(3,Ally,True) [8,0] 0x00 0x00 0x00 0x01 [IronAxe, HandAxe] HalfRangeAI
 	UNIT Mauritch Myrmidon Curtis Level(3,Ally,True) [9,0] 0x00 0x00 0x00 0x01 [KillingEdge] AttackInRangeAI
 	UNIT Lauren Troubadour Curtis Level(3,Ally,True) [10,0] 0x00 0x00 0x00 0x01 [Heal, Mend, Vulnerary] HealUnits
 	UNIT
@@ -173,7 +174,7 @@ Ch4DebugUnits:
 	UNIT Marco Fighter Curtis Level(8,Ally,False) [5,0] 0x00 0x00 0x00 0x01 [SteelAxe, Elixir] NoAI	
 	UNIT Diane Outlaw_F Curtis Level(4,Ally,True) [6,0] 0x00 0x00 0x00 0x01 [IronBow, PureWater] NoAI
 	UNIT Mirabelle Claw Curtis Level(4,Ally,True) [7,0] 0x00 0x00 0x00 0x01 [RustyNail, DragonClaw] HalfRangeAI
-	UNIT Katja Fighter_F Curtis Level(4,Ally,True) [8,0] 0x00 0x00 0x00 0x01 [IronAxe] HalfRangeAI
+	UNIT Katja Fighter_F Curtis Level(4,Ally,True) [8,0] 0x00 0x00 0x00 0x01 [IronAxe, HandAxe] HalfRangeAI
 	UNIT Mauritch Myrmidon Curtis Level(4,Ally,True) [9,0] 0x00 0x00 0x00 0x01 [KillingEdge] AttackInRangeAI
 	UNIT Lauren Troubadour Curtis Level(3,Ally,True) [10,0] 0x00 0x00 0x00 0x01 [Heal, Mend, Vulnerary] HealUnits
 	UNIT Libby Cleric 0x0 Level(3,Ally,True) [11,0] 0x00 0x00 0x00 0x01 [Heal, RescueStaff] NeverMoveAI

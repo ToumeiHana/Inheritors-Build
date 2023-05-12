@@ -107,7 +107,8 @@ adding yourself!
 - 7743: Flag-based map bgm change, continue map bgm to battle
 - Vesly: Additional prebattle calcloop, extended weapon desc box
 - stan: lordsplitmenu
-- AuraWolf: Modular Unit Menu, status debuffs (unused for now)
+- AuraWolf: Modular Unit Menu, status debuffs (unused (for now?))
+- Mokha: Status rework
 
 # Music
 
