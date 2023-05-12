@@ -68,7 +68,7 @@ POP
   
   //#include "ExternalHacks/NegateDef/Installer.event"
   
-  #include "ExternalHacks/FE8U-UnitStatus-Rework/UnitStatus.event"
+  #include "ExternalHacks/FE8UUnitStatusRework/UnitStatus.event"
   
   #include "ExternalHacks/ExtendWeaponDescBox/Installer.event"
 
