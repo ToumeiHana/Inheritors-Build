@@ -1,0 +1,5 @@
+## SS_BaitStatus
+ Bait[X]
+
+## SS_BaitDesc
++15 avo and provoke[X]

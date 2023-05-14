@@ -40,7 +40,7 @@ beq	End
 
 @check if attacked this turn
 ldrb  r0, [r6,#0x11]  @action taken this turn
-cmp r0, #0x04 @check if staff or attack was used
+cmp r0, #0x03 @check if attack was used
 blo End
 cmp r0, #0x1E @check if found enemy in the fog
 beq End

@@ -12,5 +12,4 @@ ALIGN 4
 ALIGN 4
 #include "Templates/UnitStatusInstaller.event"
 
-
 #endif // UNIT_STATUS_REWORK

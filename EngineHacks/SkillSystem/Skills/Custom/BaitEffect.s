@@ -14,7 +14,7 @@ push {r4-r7,lr}
 ldr r0, =gCurrentUnit
 ldr r0, [r0]		@unit ram struct
 
-mov r1,#0x1 @status nibble
+mov r1,#0x0F @status nibble
 mov r2,#0x1	@duration nibble
 
 blh SetUnitStatus

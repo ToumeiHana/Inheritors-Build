@@ -24,8 +24,8 @@
 	ldrb r1,[r0,#0xB]
 	mov r2, #0xc0
 	and r1,r2
-	cmp r1,r2
-	beq StatusChecks @no dyn. equip for blue guys
+	cmp r1,#0
+	beq NoDynEquip @no dyn. equip for blue guys
 
 	@Boss check
 	ldr r0,[r0]	@char data

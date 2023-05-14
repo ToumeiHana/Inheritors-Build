@@ -14,7 +14,7 @@
 	
 		ORG $2A8BC
 		jumpToHack(Dynamic_Weapon_Equip_RangeFix)
-		//PROTECT $2A8BC CURRENTOFFSET-1
+		PROTECT $2A8BC CURRENTOFFSET-1
 	POP
 	Dynamic_Weapon_Equip_RangeFix:
 	#incbin "DynamicWeaponEquip_RangeFix.dmp"

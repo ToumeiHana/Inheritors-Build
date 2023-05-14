@@ -157,7 +157,7 @@
 
 //If uncommented, Status-Inflicting Weapons will be implemented.
 //Setting weapon effect 0xD will apply the effect ID at item data +0x22.
-#define STATUS_WEAPONS
+//#define STATUS_WEAPONS
 
 //If uncommented, Narrow Font will be implemented.
 //This allows for setting narrower text in addition to standard text.
