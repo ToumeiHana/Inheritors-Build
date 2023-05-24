@@ -3,6 +3,7 @@
 #define WarCloudsID 0x0a
 #define JhenMohranID 0x0b
 #define WindOfLaGiasID 0x0c
+#define WindDestinationID 0x0d
 #define SteelCockpitID 0x0F
 #define VanishingTrooperID 0x15
 #define MiitopiaBattleID 0x16

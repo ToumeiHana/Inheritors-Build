@@ -142,7 +142,7 @@ Good! Take this![A][X]
 ## Ch1MoneyVillageText
 [MidLeft][LoadFace][CurrentPortrait]
 [MidRight][LoadVillagerWoman]
-a[A][X]
+very epic[A][X]
 
 ## Ch1HouseText
 [MidLeft][LoadFace][CurrentPortrait]

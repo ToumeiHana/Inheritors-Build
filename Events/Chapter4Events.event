@@ -97,7 +97,7 @@ EnemyUnits2:
 	UNIT Goon BowKnight Bazba Level(5,Enemy,True) [1,12] 0x0 0x0 0x0 0x0 [SteelBow] AttackInRangeAI
 	UNIT Farum AxeKnight Goon Level(5,Enemy,True) [0,11] 0x0 0x0 0x0 0x0 [IronAxe] MoveWithLeaderAI
 	UNIT Farum SwordKnight Goon Level(5,Enemy,True) [0,13] 0x0 0x0 0x0 0x0 [IronBlade] MoveWithLeaderAI
-	UNIT Farum Priest Goon Level(4,Enemy,True) [0,12] DropItem 0x0 0x0 0x0 [Heal, MineStaff] HealUnits
+	UNIT Farum Priest Goon Level(4,Enemy,True) [0,12] DropItem 0x0 0x0 0x0 [Heal, MineStaff] MoveWithLeaderAI
 	UNIT Farum Soldier Bazba Level(5,Enemy,True) [17,7] 0x0 0x0 0x0 0x0 [SteelLance,Javelin] DefaultAI
 	UNIT Farum Mercenary Bazba Level(5,Enemy,True) [6,7] 0x0 0x0 0x0 0x0 [SteelSword] DefaultAI
 	UNIT Farum Myrmidon_F Bazba Level(5,Enemy,True) [18,13] 0x0 0x0 0x0 0x0 [SteelSword] AttackInRangeAI
@@ -323,8 +323,11 @@ AIChanges:
 	Text(Ch4ChargeText)
 	SETVAL 1 0x00040C00
 	CHAI	Farum
+	SETVAL 1 0x00400000
 	CHAI	Bazba
 	CHAI 	FarumWeak
+	CHAI	[23,9]
+	CHAI	[23,11]
 	
 	SETVAL 1 0x20040303
 	CHAI 	[24,6]

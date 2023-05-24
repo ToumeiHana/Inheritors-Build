@@ -4,9 +4,9 @@ again (Canto) after rescuing an ally.[N]
 Afterwards, they can Give/Take/Drop.[X]
 
 ## SD_AdvChaser
-Advantage Chaser: When attacking with[N]
-weapon triangle advantage, unit makes[N]
-guaranteed follow-up and the foe cannot.[X]
+Advantage Chaser: When attacking[N]
+with weapon triangle advantage,[N]
+unit makes a guaranteed follow-up.[X]
 
 ## SD_GuardianPromise
 Guardian's Promise: Unit takes -2 damage[N]
@@ -42,7 +42,7 @@ is adjanced to other units, gain[N]
 +2 damage dealt & -2 damage taken.[X]
 
 ## SD_Rockhard
-Sturdy as Stone: +3 defense when[N]
+Sturdy as Stone: +4 defense when[N]
 equipped with Elstone tome.[X]
 
 ## SD_DesperateGambit
@@ -962,7 +962,9 @@ gain 1.5x Str, Skl, & Spd.[X]
 Insight: Hit +20.[X]
 
 ## SD_Vigilance
-Vigilance: Avoid +20.[X]
+Baitstep: Avoid +10. Bait command[N]
+grants unit provoke & 15 additonal[N]
+avoid until next player phase.[X]
 
 ## SD_Daunt
 Daunt: -5 Hit and Crit to all[N]

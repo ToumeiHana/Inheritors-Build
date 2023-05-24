@@ -54,7 +54,7 @@ Tutorial:
 
 Units1:
 	UNIT Vidar Gut 0x0 Level(7,Ally,False) [1,0] 0x00 0x00 0x00 0x00 [0x0] NoAI
-	UNIT Hefina Tail 0x0 Level(1,Ally,False) [0,0] 0x0 0x0 0x0 0x0 [Gheist,Elstone] NoAI
+	UNIT Hefina Tail 0x0 Level(1,Ally,False) [0,0] 0x0 0x0 0x0 0x0 [Gheist,Elstone,Flux] NoAI
 	UNIT Ellie Druid 0x0 Level(1,Ally,False) [0,1] 0x0 0x0 0x0 0x0 [Gheist] NoAI
 	UNIT Sibyl Dancer 0x0 Level(1,Ally,False) [1,1] 0x0 0x0 0x0 0x0 [0x0] NoAI
 	UNIT
@@ -62,6 +62,7 @@ Units1:
 EnemyUnits:
 	UNIT ONeill Hero 0x0 Level(1,Enemy,True) [12,1] 0x00 0x00 0x00 0x00 [SilverAxe, HandAxe] NeverMoveAI
 	UNIT Farum Hero ONeill Level(1,Enemy,True) [12,2] 0x0 0x0 0x0 0x0 [SilverAxe, HandAxe] NeverMoveAI
+	UNIT Farum Sage ONeill Level(1,Enemy,True) [12,3] 0x0 0x0 0x0 0x0 [Lightning] NeverMoveAI
 	UNIT
 
 Traps1:

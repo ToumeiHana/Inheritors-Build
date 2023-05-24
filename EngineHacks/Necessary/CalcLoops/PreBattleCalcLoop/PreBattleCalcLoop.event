@@ -67,7 +67,7 @@ POIN Lumberjack
 
 //quick riposte goes after everything that might touch AS
 POIN QuickRiposte
-POIN AdvChaser	//Advantage chaser overrides QuickRiposte
+//POIN AdvChaser	//Advantage chaser overrides QuickRiposte
 
 //dragonskin goes after anything effecting atk or def
 POIN DragonSkin

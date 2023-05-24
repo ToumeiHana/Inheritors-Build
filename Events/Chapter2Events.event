@@ -91,7 +91,7 @@ EnemyUnits:
 	UNIT Farum Mercenary Breguet Level(4,Enemy,True) [10,10] 0x00 0x00 0x00 0x00 [IronSword] TwoActionAI
 	UNIT Farum Soldier Breguet Level(3,Enemy,True) [4,14] 0x00 0x00 0x00 0x00 [IronLance] TwoActionAI
 	UNIT Farum PegasusKnight Breguet Level(4,Enemy,True) [5,1] 0x00 0x00 0x00 [IronLance] TwoActionAI
-	UNIT Brigand_Enemy Outlaw 0x0 Level(4,Enemy,True) [7,14] 0x00 0x00 0x00 0x00 [IronBow] AttackInRangeAI
+	UNIT Brigand_Enemy Outlaw 0x0 Level(3,Enemy,True) [7,14] 0x00 0x00 0x00 0x00 [IronBow] AttackInRangeAI
 	UNIT Farum AxePeg Breguet Level(3,Enemy,True) [1,11] 0x00 0x00 0x0 0x0 [IronAxe] AttackInRangeAI
 	UNIT
 	

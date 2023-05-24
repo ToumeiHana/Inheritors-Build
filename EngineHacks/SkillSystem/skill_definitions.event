@@ -600,7 +600,6 @@
 //By Datagne
 #define VanityID 183
 
-//!!! TODO
 //Vigilance: Avoid +20.
 //By Sme
 #define VigilanceID 17
@@ -873,6 +872,22 @@
 
 //Alacrity
 #define AlacrityID 27
+
+#define RecklessFighterID 255
+
+#define PridefulWarriorID 255
+
+#define LastWordID 255
+
+#define BoldFighterID 255
+
+#define VengefulFighterID 255
+
+#define QuickLearnerID 255
+
+#define PassionsFlowID 255
+
+#define BidingBlowID 255
 
 //Stat Modifier Skills
 

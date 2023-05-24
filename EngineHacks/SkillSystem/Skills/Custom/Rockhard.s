@@ -28,7 +28,7 @@ bne End
 mov r0, r4
 add r0,#0x5C
 ldrh r3,[r0]
-add r3,#3
+add r3,#4
 strh r3,[r0]
 
 End:
