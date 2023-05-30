@@ -73,6 +73,7 @@ adding yourself!
 
 - AmBrosiac: Faceless Mage
 - Eldritch Abomination: FE8 color rat face bandit
+- Kyrads: Generic FSoldier
 
 # Class Cards
 
@@ -99,7 +100,7 @@ adding yourself!
 - Huichelaar: Minimug Palette Fix
 - circles: drumfix
 - Alusq: NIMAP 2 (with keysplits)
-- Tequila: New CHAI
+- Tequila: New CHAI, walking sounds fix
 - HyperGammaSpaces: Summon rework
 - Aera: Thracia trading, remove link arena
 - Zane: MMB

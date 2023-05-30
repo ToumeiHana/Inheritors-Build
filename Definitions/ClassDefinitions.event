@@ -77,7 +77,7 @@
 #define Skypiercer 0x56
 //#define Wight_Bow 0x57
 #define Tail 0x58
-#define TailPromo 0x59
+#define Flamelash 0x59
 #define Gut 0x5A
 #define AxeKnight 0x5B
 #define SwordKnight 0x5C
@@ -108,7 +108,7 @@
 #define Halberdier 0x73
 #define Halberdier_F 0x74
 #define Ballistician 0x75
-#define FMonk 0x76
+#define Monk_F 0x76
 #define Boulder 0x77
 //#define FallenPrince 0x78
 //#define Tent 0x79

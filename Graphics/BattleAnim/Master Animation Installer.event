@@ -34,6 +34,13 @@
 }
 
 {
+#include "NuramonHero/Sword Installer.event"
+#include "NuramonHero/Axe Installer.event"
+#include "NuramonHero/Handaxe Installer.event"
+#include "NuramonHero/Unarmed Installer.event"
+}
+
+{
 #include "BlackMageFFighter/Axe Installer.event"
 #include "BlackMageFFighter/Handaxe Installer.event"
 #include "BlackMageFFighter/Unarmed Installer.event"

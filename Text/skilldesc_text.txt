@@ -15,7 +15,7 @@ within 2 tiles, up to -6 damage.[X]
 
 ## SD_Stalwart
 Stalwart: If unit attacks without moving,[N]
-unit makes an additional attack.[X]
+unit will double.[X]
 
 ## SD_Alacrity
 ^{Alacrity: If unit initiates combat with an AS}[N]

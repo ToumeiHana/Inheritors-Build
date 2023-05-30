@@ -33,6 +33,7 @@ extern int PassionsFlowID_Link;
 extern int QuickRiposteID_Link; 
 extern int BidingBlowID_Link;
 extern int AdvChaserID_Link;
+extern int StalwartID_Link;
 
 struct UnitDoubleCalcLoop_Struct { 
 	int(*function)(struct BattleUnit* attacker, struct BattleUnit* defender);
@@ -105,6 +106,18 @@ int AdvChaser(struct BattleUnit* bunitA, struct BattleUnit* bunitB) {
 	if (SkillTester(&bunitA->unit, AdvChaserID_Link)) {
 		if (bunitA == &gBattleActor) {
 			if (gBattleActor.wTriangleHitBonus > 0) {
+				return ForceDouble;
+			}
+			
+		}
+	}
+	return NoChange;
+}
+
+int Stalwart(struct BattleUnit* bunitA, struct BattleUnit* bunitB) {
+	if (SkillTester(&bunitA->unit, StalwartID_Link)) {
+		if (bunitA == &gBattleActor) {
+			if (gActionData.moveCount == 0) {
 				return ForceDouble;
 			}
 			

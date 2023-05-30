@@ -93,6 +93,11 @@
 #define FCavHandaxe 0xd3
 #define FCavUnarmed 0xd4
 
+#define HeroSword 0xd5
+#define HeroAxe 0xd6
+#define HeroHandaxe 0xd7
+#define HeroUnarmed 0xd8
+
 //////////
  
 ALIGN 4
@@ -199,4 +204,12 @@ FCavAnims:
 AxeAnim(FCavAxe)
 HandAxeAnim(FCavHandaxe)
 UnarmedAnim(FCavUnarmed)
+WORD 0x0
+
+ALIGN 4
+HeroAnims:
+SwordAnim(HeroSword)
+AxeAnim(HeroAxe)
+HandAxeAnim(HeroHandaxe)
+UnarmedAnim(HeroUnarmed)
 WORD 0x0

@@ -68,6 +68,10 @@ POP
   
   //#include "ExternalHacks/NegateDef/Installer.event"
   
+  #include "ExternalHacks/WalkingSoundsFix/WalkSounds.event"
+  
+  #include "ExternalHacks/ASMC/ASMCInstaller.event"
+  
   #include "ExternalHacks/FE8UUnitStatusRework/UnitStatus.event"
   
   #include "ExternalHacks/ExtendWeaponDescBox/Installer.event"

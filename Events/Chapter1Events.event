@@ -43,7 +43,7 @@ LocationBasedEvents:
 
 	Village(9,TopVillage,9,3)
 	Village(10,BottomVillage,10,9)
-	Village(12,TopVillage2,7,3)
+	//Village(12,TopVillage2,7,3)
 	House(11,HouseEvent,4,14)
 	END_MAIN
 
@@ -137,6 +137,7 @@ BeginningScene:
 	FADI 10
 #endif // __DEBUG__
 	
+	ASMC StartingGold|1
 	LOAD1 0x1 EnemyUnits
 	ENUN
 	LOAD1 0x01 Units1
@@ -251,7 +252,8 @@ TopVillage2:
 	ENDA
 	
 BottomVillage:
-	//VillageEventItem(Ch1BottomVillageText,0x00,Javelin)
+	VillageEventItem(Ch1BottomVillageText,0x00,Javelin)
+	/*
 	MUSI
 	SetBackground(0x0)
 	Text(Ch1BottomVillageText)
@@ -260,6 +262,7 @@ BottomVillage:
 	SMOV 0x3 Javelin
 	GIVEITEMTO 0xFFFF
 	MUNO
+	*/
 	NoFade
 	ENDA
 	

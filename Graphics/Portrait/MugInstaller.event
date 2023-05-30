@@ -160,6 +160,14 @@ Pieter_Mug:
 setMugEntry(0x14,Pieter_Mug,2,5,2,3)
 
 ALIGN 4
+FSoldier_Mug:
+#incbin "dmp/SoldierKyrads_mug.dmp"
+#incbin "dmp/SoldierKyrads_frames.dmp"
+#incbin "dmp/SoldierKyrads_palette.dmp"
+#incbin "dmp/SoldierKyrads_minimug.dmp"
+setMugEntry(0x55, FSoldier_Mug, 2,6,2,4)
+
+ALIGN 4
 Ratface_Mug:
 #incbin "dmp/RatFaceBandit_mug.dmp"
 #incbin "dmp/RatFaceBandit_frames.dmp"
