@@ -160,12 +160,60 @@ Pieter_Mug:
 setMugEntry(0x14,Pieter_Mug,2,5,2,3)
 
 ALIGN 4
+Dave_Mug:
+#incbin "dmp/Dave_mug.dmp"
+#incbin "dmp/Dave_frames.dmp"
+#incbin "dmp/Dave_palette.dmp"
+#incbin "dmp/Dave_minimug.dmp"
+setMugEntry(0x15,Dave_Mug,3,5,3,3)
+
+ALIGN 4
+Anis_Mug:
+#incbin "dmp/Anis_mug.dmp"
+#incbin "dmp/Anis_frames.dmp"
+#incbin "dmp/Anis_palette.dmp"
+#incbin "dmp/Anis_minimug.dmp"
+setMugEntry(0x16,Anis_Mug,3,6,3,4)
+
+ALIGN 4
+Inga_Mug:
+#incbin "dmp/Inga_mug.dmp"
+#incbin "dmp/Inga_frames.dmp"
+#incbin "dmp/Inga_palette.dmp"
+#incbin "dmp/Inga_minimug.dmp"
+setMugEntry(0x1F,Inga_Mug,3,4,3,2)
+
+ALIGN 4
+Sana_Mug:
+#incbin "dmp/Sana_mug.dmp"
+#incbin "dmp/Sana_frames.dmp"
+#incbin "dmp/Sana_palette.dmp"
+#incbin "dmp/Sana_minimug.dmp"
+setMugEntry(0x20,Sana_Mug,3,5,3,3)
+
+ALIGN 4
+Llewella_Mug:
+#incbin "dmp/Lewella_mug.dmp"
+#incbin "dmp/Lewella_frames.dmp"
+#incbin "dmp/Lewella_palette.dmp"
+#incbin "dmp/Lewella_minimug.dmp"
+setMugEntry(0x23,Llewella_Mug,3,6,3,4)
+
+ALIGN 4
+Caitlind_Mug:
+#incbin "dmp/Caitlind_mug.dmp"
+#incbin "dmp/Caitlind_frames.dmp"
+#incbin "dmp/Caitlind_palette.dmp"
+#incbin "dmp/Caitlind_minimug.dmp"
+setMugEntry(0x2A,Caitlind_Mug,4,5,4,3)
+
+ALIGN 4
 FSoldier_Mug:
 #incbin "dmp/SoldierKyrads_mug.dmp"
 #incbin "dmp/SoldierKyrads_frames.dmp"
 #incbin "dmp/SoldierKyrads_palette.dmp"
 #incbin "dmp/SoldierKyrads_minimug.dmp"
-setMugEntry(0x55, FSoldier_Mug, 2,6,2,4)
+setMugEntry(0x55, FSoldier_Mug, 3,6,3,4)
 
 ALIGN 4
 Ratface_Mug:

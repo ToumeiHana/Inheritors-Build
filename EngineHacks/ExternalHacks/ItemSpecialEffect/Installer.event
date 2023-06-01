@@ -1,0 +1,112 @@
+#define Take_Over_Item_Menu
+
+
+#include "EAstdlib.event"
+#include "Extensions/Hack Installation.txt"
+#define  SystemText(textid) "CenterTutorialTextBox; TUTORIALTEXTBOXSTART; TEXTSHOW textid; TEXTEND; REMA"
+
+
+
+PUSH 
+ORG $16854
+callHack_r3(ItemMenuTextColorHack|1) // White or gray text for the item after selecting "item" 
+SHORT 0x46C0 0x46C0 0x46C0 0x46C0 0x46C0 0x46C0 
+POP 
+
+ALIGN 4
+ItemMenuTextColorHack:
+#incbin "ItemMenuTextColor.dmp"
+POIN ItemSpecialEffectUsability
+
+
+ALIGN 4 
+ItemSpecialEffectTable:
+// 12 bytes per entry 
+// ItemID, unit, class, hp%; ReqFlag, TextID; POIN EventAddress 
+BYTE 0xC5   0        0    0; SHORT 0     0x596     ; POIN SaveEvent 
+
+//BYTE OrionBolt Eirika EirikaLord 80 ; SHORT 0 0x508; POIN ExampleEvent // only usable at 80% or less hp 
+// Entries
+WORD 0 0 0 // Terminator 
+
+ALIGN 4
+SaveEvent:
+EVBIT_T 4
+EVBIT_T 5
+EVBIT_T 6
+EVBIT_T 7
+
+ENUT 0x27
+SET_HASMOVED -1
+ASMC 0x080B5D5C|1	//Suspend save
+SystemText(SaveCompleteText)
+
+EVBIT_F 4
+EVBIT_F 5
+EVBIT_F 6
+EVBIT_T 7
+ENDA
+
+ALIGN 4
+ItemSpecialEffect:
+#incbin "ItemSpecialEffect.dmp"
+POIN ItemSpecialEffectTable
+POIN ItemSpecialEffectUsability
+
+
+ALIGN 4
+ItemSpecialEffectUsability:
+#incbin "ItemSpecialEffectUsability.dmp"
+POIN ItemSpecialEffectTable
+
+ALIGN 4
+ItemSpecialDraw:
+#incbin "ItemSpecialDraw.dmp"
+POIN ItemSpecialEffectCallUsability
+
+ALIGN 4
+ItemSpecialEffectCallUsability:
+#incbin "ItemSpecialEffectCallUsability.dmp"
+POIN ItemSpecialEffectUsability
+
+
+#ifdef Take_Over_Item_Menu 
+
+#ifndef IM_USE 
+/*
+#define NormalText 0x0
+#define GrayText 0x1
+#define BlueText 0x2
+#define OrangeText 0x3
+#define GreenText 0x4
+#define BlackText 0x5
+*/
+#define MenuCommand(name,description,colour,usability,drawingroutine, effect) "WORD $80d7d94; SHORT name description; BYTE colour $4e; SHORT 0; POIN usability|1; POIN drawingroutine|1; POIN effect|1; WORD 0 0 0"
+#define MenuCommand(name,description,colour,usability,effect) "WORD $80d7d94; SHORT name description; BYTE colour $4e; SHORT 0; POIN usability|1; WORD 0; POIN effect|1; WORD 0 0 0"
+#define IM_Use "BYTE $8C $7D $0D $08 $96 $06 $DB $06 $00 $34 $00 $00 $7D $36 $02 $08 $00 $00 $00 $00 $71 $37 $02 $08 $00 $00 $00 $00 $00 $00 $00 $00 $00 $00 $00 $00"
+#define IM_Equip "BYTE $84 $7D $0D $08 $97 $06 $DA $06 $04 $35 $00 $00 $F5 $36 $02 $08 $00 $00 $00 $00 $F9 $37 $02 $08 $00 $00 $00 $00 $00 $00 $00 $00 $00 $00 $00 $00"
+#define IM_Trade "BYTE $7C $7D $0D $08 $98 $06 $D4 $06 $04 $36 $00 $00 $35 $2F $02 $08 $00 $00 $00 $00 $39 $38 $02 $08 $00 $00 $00 $00 $00 $00 $00 $00 $00 $00 $00 $00"
+#define IM_Discard "BYTE $74 $7D $0D $08 $99 $06 $DC $06 $04 $37 $00 $00 $3D $37 $02 $08 $00 $00 $00 $00 $6D $38 $02 $08 $00 $00 $00 $00 $00 $00 $00 $00 $00 $00 $00 $00"
+#define IM_Separator "WORD 0 0 0 0 0 0 0 0 0"
+#endif 
+
+
+PUSH
+ORG $59D120
+POIN ItemMenuTable
+POP
+
+
+ALIGN 4
+ItemMenuTable:
+
+MenuCommand(0x505, 0, NormalText, ItemSpecialEffectCallUsability|1, ItemSpecialDraw|1, ItemSpecialEffect|1)
+IM_Use
+IM_Equip
+IM_Trade
+IM_Discard
+IM_Separator
+
+#endif 
+
+

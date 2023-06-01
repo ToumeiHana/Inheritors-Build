@@ -35,7 +35,7 @@ MiscBasedEvents:
 
 LocationBasedEvents:
 
-	Chest(PureWater,12,16)
+	Chest(Longbow,12,16)
 	Chest(Rescue,15,16)
 	Door(21,15)
 	Door(22,15)

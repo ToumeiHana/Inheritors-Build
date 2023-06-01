@@ -1,3 +1,4 @@
 ALIGN 4
 StartingGold:
 #incbin "StartingGold.dmp"
+

@@ -71,5 +71,80 @@ Garry[X]
 ## PieterName
 Pieter[X]
 
+## NellaName
+Nella[X]
+
+## LeoffName
+Leoff[X]
+
+## DaveName
+Dave[X]
+
+## AnisName
+Anis[X]
+
+## SibylName
+Sibyl[X]
+
+## SuhairaName
+Suhaira[X]
+
+## FabianName
+Fabian[X]
+
+## KimikoName
+Kimiko[X]
+
+## ConlethName
+Conleth[X]
+
+## WintonName
+Winton[X]
+
+## NishayName
+Nishay[X]
+
+## AveryName
+Avery[X]
+
+## IngaName
+Inga[X]
+
+## SanaName
+Sana[X]
+
+## BobbeName
+Bobbe[X]
+
+## HenrikName
+Henrik[X]
+
+## LlewellaName
+Llewella[X]
+
+## HefinaName
+Hefina[X]
+
+## GlawName
+Glaw[X]
+
+## RadcliffName
+Radcliff[X]
+
+## RochelleName
+Rochelle[X]
+
+## HudsonName
+Hudson[X]
+
+## VidarName
+Vidar[X]
+
+## CaitlindName
+Caitlind[X]
+
+## EllieName
+Ellie[X]
+
 ## SledgeName
 Sledge[X]

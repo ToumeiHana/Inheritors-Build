@@ -16,3 +16,10 @@ Come back again![A][X]
 
 # 0x08BB
 I... I can't buy that![.][A][X]
+
+
+## SavepointAskTextID
+Save?[NL][YN][X]
+
+## SaveCompleteText
+Game saved![A][X]

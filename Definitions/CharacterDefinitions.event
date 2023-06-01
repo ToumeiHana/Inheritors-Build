@@ -38,7 +38,7 @@
 #define Rochelle 0x26
 #define Hudson 0x27
 #define Vidar 0x28
-#define Caitlinne 0x29
+#define Caitlind 0x29
 #define Ellie 0x2A
 /*#define IsmaireCC 0x2B
 #define HaydenCC 0x2C
@@ -54,9 +54,9 @@
 #define Valter_Prologue 0x45
 #define Breguet 0x46
 #define Bone 0x47
-#define Bazba 0x48
-#define Entombed_boss 0x49
-#define Saar 0x4A
+#define Bazba 0x48*/
+#define Caitlind_boss 0x49
+/*#define Saar 0x4A
 #define Novala 0x4B
 #define Murray 0x4C
 #define Tirado 0x4D

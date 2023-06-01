@@ -332,6 +332,9 @@
 
 //Pre-Battle Skills
 
+// KillingIntent
+#define KillingIntentID 8
+
 //Advantage Chaser:
 #define AdvChaserID 12
 

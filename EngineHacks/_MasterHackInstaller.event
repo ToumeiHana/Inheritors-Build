@@ -68,6 +68,10 @@ POP
   
   //#include "ExternalHacks/NegateDef/Installer.event"
   
+  #include "ExternalHacks/ItemSpecialEffect/Installer.event"
+  
+  //#include "ExternalHacks/AutosaveKiller/AutosaveKiller.event"
+  
   #include "ExternalHacks/WalkingSoundsFix/WalkSounds.event"
   
   #include "ExternalHacks/ASMC/ASMCInstaller.event"

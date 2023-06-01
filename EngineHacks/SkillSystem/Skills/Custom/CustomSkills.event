@@ -78,3 +78,9 @@ ALIGN 4
 BaitEffect:
 #incbin "BaitEffect.dmp"
 
+ALIGN 4
+KillingIntent:
+#incbin "KillingIntent.dmp"
+POIN SkillTester
+WORD KillingIntentID
+

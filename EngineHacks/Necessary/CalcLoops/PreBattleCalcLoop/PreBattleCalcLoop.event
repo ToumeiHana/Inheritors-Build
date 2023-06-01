@@ -121,6 +121,7 @@ AuraSkillEntry(NightTideID)
 ALIGN 4 
 DamageModifierCalcLoop:
 POIN DesperateGambit
+POIN KillingIntent
 POIN 0 
 
 PUSH

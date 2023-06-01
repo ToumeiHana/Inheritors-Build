@@ -1,7 +1,12 @@
+## SD_KillingIntent
+Killing Intent: Caitlind gains +15[N]
+hit pre-battle if a hit from her[N]
+would defeat the enemy.[X]
+
 ## SD_EscortPlus
-Rescue Pro: This unit can move[N]
+Rescue Pro: Janessa can move[N]
 again (Canto) after rescuing an ally.[N]
-Afterwards, they can Give/Take/Drop.[X]
+Afterwards, she can Give/Take/Drop.[X]
 
 ## SD_AdvChaser
 Advantage Chaser: When attacking[N]
@@ -9,13 +14,13 @@ with weapon triangle advantage,[N]
 unit makes a guaranteed follow-up.[X]
 
 ## SD_GuardianPromise
-Guardian's Promise: Unit takes -2 damage[N]
-for each ally under 75% of their max HP[N]
-within 2 tiles, up to -6 damage.[X]
+Guardian's Promise: Pieter takes -2[N]
+damage for each ally under 75% of their[N]
+max HP within 2 tiles, up to -6 damage.[X]
 
 ## SD_Stalwart
-Stalwart: If unit attacks without moving,[N]
-unit will double.[X]
+Stalwart: If Garry attacks without[N]
+moving, he will double.[X]
 
 ## SD_Alacrity
 ^{Alacrity: If unit initiates combat with an AS}[N]
@@ -46,8 +51,8 @@ Sturdy as Stone: +4 defense when[N]
 equipped with Elstone tome.[X]
 
 ## SD_DesperateGambit
-Desperate Gambit: Add enemy[N]
-crit to your own.[X]
+Knife's Edge: Mirabelle adds[N]
+enemy crit to her own.[X]
 
 ## SD_Savior
 Savior: Can rescue[N]

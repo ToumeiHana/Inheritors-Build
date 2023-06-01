@@ -30,6 +30,7 @@ CharacterBasedEvents:
 
 MiscBasedEvents:
 	CauseGameOverIfLordDies
+	//AFEV 0x26 SaveEvent 0x27
 	END_MAIN
 
 LocationBasedEvents:
@@ -53,10 +54,11 @@ Tutorial:
 	END_MAIN
 
 Units1:
-	UNIT Vidar Gut 0x0 Level(7,Ally,False) [1,0] 0x00 0x00 0x00 0x00 [0x0] NoAI
+	UNIT Vidar Gut 0x0 Level(7,Ally,False) [1,0] 0x00 0x00 0x00 0x00 [0xc5] NoAI
 	UNIT Hefina Tail 0x0 Level(1,Ally,False) [0,0] 0x0 0x0 0x0 0x0 [Gheist,Elstone,Flux] NoAI
 	UNIT Ellie Druid 0x0 Level(1,Ally,False) [0,1] 0x0 0x0 0x0 0x0 [Gheist] NoAI
 	UNIT Sibyl Dancer 0x0 Level(1,Ally,False) [1,1] 0x0 0x0 0x0 0x0 [0x0] NoAI
+	UNIT Caitlind CerapterKnight 0x0 Level(1,Ally,False) [0,2] 0x0 0x0 0x0 0x0 [SilverAxe] NoAI
 	UNIT
 
 EnemyUnits:
