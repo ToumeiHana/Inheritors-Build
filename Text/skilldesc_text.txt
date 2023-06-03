@@ -1,6 +1,6 @@
 ## SD_KillingIntent
-Killing Intent: Caitlind gains +15[N]
-hit pre-battle if a hit from her[N]
+Killing Intent: Caitlind gains[N]
++15 hit if a hit from her[N]
 would defeat the enemy.[X]
 
 ## SD_EscortPlus

@@ -58,12 +58,12 @@ Units1:
 	UNIT Hefina Tail 0x0 Level(1,Ally,False) [0,0] 0x0 0x0 0x0 0x0 [Gheist,Elstone,Flux] NoAI
 	UNIT Ellie Druid 0x0 Level(1,Ally,False) [0,1] 0x0 0x0 0x0 0x0 [Gheist] NoAI
 	UNIT Sibyl Dancer 0x0 Level(1,Ally,False) [1,1] 0x0 0x0 0x0 0x0 [0x0] NoAI
-	UNIT Caitlind CerapterKnight 0x0 Level(1,Ally,False) [0,2] 0x0 0x0 0x0 0x0 [SilverAxe] NoAI
+	UNIT Caitlind CerapterKnight 0x0 Level(1,Ally,False) [0,2] 0x0 0x0 0x0 0x0 [KillerAxe,IronAxe,0xc6] NoAI
 	UNIT
 
 EnemyUnits:
 	UNIT ONeill Hero 0x0 Level(1,Enemy,True) [12,1] 0x00 0x00 0x00 0x00 [SilverAxe, HandAxe] NeverMoveAI
-	UNIT Farum Hero ONeill Level(1,Enemy,True) [12,2] 0x0 0x0 0x0 0x0 [SilverAxe, HandAxe] NeverMoveAI
+	UNIT Farum Hero ONeill Level(1,Enemy,True) [11,2] 0x0 0x0 0x0 0x0 [HandAxe] NeverMoveAI
 	UNIT Farum Sage ONeill Level(1,Enemy,True) [12,3] 0x0 0x0 0x0 0x0 [Lightning] NeverMoveAI
 	UNIT
 

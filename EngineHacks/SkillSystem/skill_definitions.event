@@ -701,7 +701,8 @@
 
 //Barricade+: In combat, damage recieved equals half of the damage when struck last.
 //By Snakey1
-#define BarricadePlusID 24
+//#define BarricadePlusID 24
+#define BarricadePlusID 255
 
 //Black Magic: Skill% chance to inflict a random status.
 //By Tequila
@@ -711,7 +712,7 @@
 //Colossus: Triples Strength. (Skill % activation)
 //Author Unknown (Initial Commit)
 //#define ColossusID 32
-#define ColossusID 255
+#define ColossusID 28
 
 //Corona: Negate enemy resistance. (Skill% activation)
 //By Sme
@@ -733,15 +734,18 @@
 
 //Devil's Luck: Immune to Devil Reversal. Gives unit's Devil Reversal to the enemy. (31-Luck % chance of Devil Reversal).
 //By Leonarth
-#define DevilsLuckID 29
+//#define DevilsLuckID 29
+#define DevilsLuckID 255
 
 //Devil's Pact: Immune to Devil Reversal. Curses the enemy with Devil Reversal. (31-Luck % chance of Devil Reversal).
 //By Leonarth
-#define DevilsPactID 30
+//#define DevilsPactID 30
+#define DevilsPactID 255
 
 //Devil's Whim: This unit is cursed, but the curse spreads to the enemy as well. (31-Luck % chance of Devil Reversal).
 //By Leonarth
-#define DevilsWhimID 31
+//#define DevilsWhimID 31
+#define DevilsWhimID 255
 
 //Down With Arch: If the hit lands, instantly kill the enemy unit. (Only if name starts with "Arch")
 #define DownWithArchID 255
@@ -761,7 +765,8 @@
 
 //Flare: Halve enemy resistance. (Skill% activation)
 //By Sme
-#define FlareID 34
+//#define FlareID 34
+#define FlareID 255
 
 //Foresight: Avoid the damage from enemy Critical Hits and Skill Activations.
 //By Leonarth
@@ -783,7 +788,8 @@
 
 //Luna: Negates enemy defenses. (Skill % activation)
 //Author Unknown (Initial Commit)
-#define LunaID 11
+//#define LunaID 11
+#define LunaID 255
 
 //Miracle: Survive a lethal attack if HP > 50%.
 //Author Unknown (Initial Commit)
@@ -791,7 +797,8 @@
 
 //Moonbow: Enemy Def/Res is reduced by 25%. Charge: 2
 //Author Unknown (Initial Commit)
-#define MoonbowID 37
+//#define MoonbowID 37
+#define MoonbowID 255
 
 //Pavise: Nullify a physical attack. (Skill % activation)
 //Author Unknown (Initial Commit)

@@ -13,7 +13,7 @@ POIN Proc_Devil	//devil effect
 #endif // EQUIPITEMS
 	
 #ifndef COMBAT_ARTS
-	POIN Proc_Sureshot Proc_Luna 
+	POIN Proc_Sureshot Proc_Luna KillingIntent
 #else //COMBAT_ARTS
 	POIN CombatArt_SureShot CombatArt_Luna
 #endif // COMBAT_ARTS
