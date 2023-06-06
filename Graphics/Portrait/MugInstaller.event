@@ -7,6 +7,7 @@
 #incbin "dmp/_frames.dmp"
 #incbin "dmp/_palette.dmp"
 #incbin "dmp/_minimug.dmp"
+setMugEntry(,,3,5,3,3)
 */
 
 
@@ -174,6 +175,14 @@ Anis_Mug:
 #incbin "dmp/Anis_palette.dmp"
 #incbin "dmp/Anis_minimug.dmp"
 setMugEntry(0x16,Anis_Mug,3,6,3,4)
+
+ALIGN 4
+Kimiko_Mug:
+#incbin "dmp/Kimiko_mug.dmp"
+#incbin "dmp/Kimiko_frames.dmp"
+#incbin "dmp/Kimiko_palette.dmp"
+#incbin "dmp/Kimiko_minimug.dmp"
+setMugEntry(0x1A,Kimiko_Mug,3,5,3,3)
 
 ALIGN 4
 Inga_Mug:

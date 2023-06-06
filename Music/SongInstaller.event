@@ -1,6 +1,6 @@
 //songs
-SongTable(VanishingTrooperID,Vanishing_Trooper000,MapMusicGroup)
-#include "event/Vanishing_Trooper000.event"
+SongTable(VanishingTrooperID,Vanishing_Trooper0000,MapMusicGroup)
+#include "event/Vanishing_Trooper0000.event"
 
 SongTable(TrombeID,Trombe0,BattleMusicGroup)
 #include "event/Trombe0.event"

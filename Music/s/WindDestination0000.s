@@ -1,30 +1,30 @@
 	.include "MPlayDef.s"
 
-	.equ	song09_grp, voicegroup000
-	.equ	song09_pri, 0
-	.equ	song09_rev, 0
-	.equ	song09_mvl, 127
-	.equ	song09_key, 0
-	.equ	song09_tbs, 1
-	.equ	song09_exg, 0
-	.equ	song09_cmp, 1
+	.equ	WindDestination_grp, voicegroup000
+	.equ	WindDestination_pri, 0
+	.equ	WindDestination_rev, 0
+	.equ	WindDestination_mvl, 127
+	.equ	WindDestination_key, 0
+	.equ	WindDestination_tbs, 1
+	.equ	WindDestination_exg, 0
+	.equ	WindDestination_cmp, 1
 
 	.section .rodata
-	.global	song09
+	.global	WindDestination
 	.align	2
 
 
 @**************** Track 1 (Midi-Chn.0) ****************@
 
-song09_001:
+WindDestination_001:
 @  #01 @000   ----------------------------------------
- .byte   KEYSH , song09_key+0
- .byte   TEMPO , 240*song09_tbs/2
+ .byte   KEYSH , WindDestination_key+0
+ .byte   TEMPO , 240*WindDestination_tbs/2
  .byte   VOICE , 34
  .byte   PAN , c_v-14
- .byte   VOL , 33*song09_mvl/mxv
+ .byte   VOL , 33*WindDestination_mvl/mxv
  .byte   W24
- .byte   TEMPO , 86*song09_tbs/2
+ .byte   TEMPO , 86*WindDestination_tbs/2
  .byte   W72
 @  #01 @001   ----------------------------------------
  .byte   W96
@@ -34,7 +34,7 @@ song09_001:
  .byte   W06
  .byte   N84 ,Gn1 ,v116
  .byte   W06
- .byte   TEMPO , 88*song09_tbs/2
+ .byte   TEMPO , 88*WindDestination_tbs/2
  .byte   W72
 @  #01 @003   ----------------------------------------
  .byte   W12
@@ -42,7 +42,7 @@ song09_001:
  .byte   W06
  .byte   N09 ,Bn1
  .byte   W06
- .byte   TEMPO , 94*song09_tbs/2
+ .byte   TEMPO , 94*WindDestination_tbs/2
  .byte   W72
 @  #01 @004   ----------------------------------------
  .byte   W96
@@ -57,7 +57,7 @@ Label_012BF053:
  .byte   W06
  .byte   PEND 
 Label_012BF05E:
- .byte   TEMPO , 98*song09_tbs/2
+ .byte   TEMPO , 98*WindDestination_tbs/2
  .byte   N05 ,Bn1 ,v120
  .byte   W06
  .byte   Bn1 ,v116
@@ -269,7 +269,7 @@ Label_012BF07D:
  .byte   W24
 @  #01 @013   ----------------------------------------
  .byte   W23
- .byte   TEMPO , 98*song09_tbs/2
+ .byte   TEMPO , 98*WindDestination_tbs/2
  .byte   W01
  .byte   N17 ,En1 ,v120
  .byte   W18
@@ -699,7 +699,7 @@ Label_012BF07D:
  .byte   W06
  .byte   Gn2
  .byte   W06
- .byte   TEMPO , 96*song09_tbs/2
+ .byte   TEMPO , 96*WindDestination_tbs/2
  .byte   N11 ,An1 ,v127
  .byte   W12
  .byte   N02 ,An1 ,v120
@@ -707,7 +707,7 @@ Label_012BF07D:
  .byte   N05 ,An1 ,v127
  .byte   W06
 @  #01 @028   ----------------------------------------
- .byte   TEMPO , 98*song09_tbs/2
+ .byte   TEMPO , 98*WindDestination_tbs/2
  .byte   N02 ,An1 ,v108
  .byte   W06
  .byte   N05 ,Fs1 ,v124
@@ -716,7 +716,7 @@ Label_012BF07D:
  .byte   W06
  .byte   N12 ,Bn1 ,v127
  .byte   W06
- .byte   TEMPO , 94*song09_tbs/2
+ .byte   TEMPO , 94*WindDestination_tbs/2
  .byte   W72
 @  #01 @029   ----------------------------------------
  .byte   W96
@@ -730,11 +730,11 @@ Label_012BF07D:
 
 @**************** Track 2 (Midi-Chn.1) ****************@
 
-song09_002:
+WindDestination_002:
 @  #02 @000   ----------------------------------------
- .byte   KEYSH , song09_key+0
+ .byte   KEYSH , WindDestination_key+0
  .byte   VOICE , 0
- .byte   VOL , 18*song09_mvl/mxv
+ .byte   VOL , 18*WindDestination_mvl/mxv
  .byte   W01
  .byte   PAN , c_v+0
  .byte   MOD 0
@@ -918,11 +918,11 @@ Label_0126162B:
 
 @**************** Track 3 (Midi-Chn.2) ****************@
 
-song09_003:
+WindDestination_003:
 @  #03 @000   ----------------------------------------
- .byte   KEYSH , song09_key+0
+ .byte   KEYSH , WindDestination_key+0
  .byte   VOICE , 26
- .byte   VOL , 32*song09_mvl/mxv
+ .byte   VOL , 32*WindDestination_mvl/mxv
  .byte   PAN , c_v+4
  .byte   W96
 @  #03 @001   ----------------------------------------
@@ -1392,11 +1392,11 @@ Label_01260D1F:
 
 @**************** Track 4 (Midi-Chn.3) ****************@
 
-song09_004:
+WindDestination_004:
 @  #04 @000   ----------------------------------------
- .byte   KEYSH , song09_key+0
+ .byte   KEYSH , WindDestination_key+0
  .byte   VOICE , 100
- .byte   VOL , 28*song09_mvl/mxv
+ .byte   VOL , 28*WindDestination_mvl/mxv
  .byte   W02
  .byte   PAN , c_v+0
  .byte   W01
@@ -1670,11 +1670,11 @@ Label_0126143B:
 
 @**************** Track 5 (Midi-Chn.4) ****************@
 
-song09_005:
+WindDestination_005:
 @  #05 @000   ----------------------------------------
- .byte   KEYSH , song09_key+0
+ .byte   KEYSH , WindDestination_key+0
  .byte   VOICE , 30
- .byte   VOL , 37*song09_mvl/mxv
+ .byte   VOL , 37*WindDestination_mvl/mxv
  .byte   W96
 @  #05 @001   ----------------------------------------
  .byte   W96
@@ -1920,11 +1920,11 @@ Label_01261B19:
 
 @**************** Track 6 (Midi-Chn.5) ****************@
 
-song09_006:
+WindDestination_006:
 @  #06 @000   ----------------------------------------
- .byte   KEYSH , song09_key+0
+ .byte   KEYSH , WindDestination_key+0
  .byte   VOICE , 27
- .byte   VOL , 19*song09_mvl/mxv
+ .byte   VOL , 19*WindDestination_mvl/mxv
  .byte   PAN , c_v-4
  .byte   W96
 @  #06 @001   ----------------------------------------
@@ -2411,11 +2411,11 @@ Label_012BF3C0:
 
 @**************** Track 7 (Midi-Chn.6) ****************@
 
-song09_007:
+WindDestination_007:
 @  #07 @000   ----------------------------------------
- .byte   KEYSH , song09_key+0
+ .byte   KEYSH , WindDestination_key+0
  .byte   VOICE , 84
- .byte   VOL , 19*song09_mvl/mxv
+ .byte   VOL , 19*WindDestination_mvl/mxv
  .byte   W24
  .byte   TIE ,Fs2 ,v064
  .byte   N48 ,Bn2
@@ -2620,11 +2620,11 @@ Label_012608C1:
 
 @**************** Track 8 (Midi-Chn.7) ****************@
 
-song09_008:
+WindDestination_008:
 @  #08 @000   ----------------------------------------
- .byte   KEYSH , song09_key+0
+ .byte   KEYSH , WindDestination_key+0
  .byte   VOICE , 122
- .byte   VOL , 30*song09_mvl/mxv
+ .byte   VOL , 30*WindDestination_mvl/mxv
  .byte   PAN , c_v+0
  .byte   MOD 0
  .byte   BEND , c_v+0
@@ -4036,21 +4036,21 @@ Label_012BF883:
 @******************************************************@
 	.align	2
 
-song09:
+WindDestination:
 	.byte	8	@ NumTrks
 	.byte	0	@ NumBlks
-	.byte	song09_pri	@ Priority
-	.byte	song09_rev	@ Reverb.
+	.byte	WindDestination_pri	@ Priority
+	.byte	WindDestination_rev	@ Reverb.
     
-	.word	song09_grp
+	.word	WindDestination_grp
     
-	.word	song09_001
-	.word	song09_002
-	.word	song09_003
-	.word	song09_004
-	.word	song09_005
-	.word	song09_006
-	.word	song09_007
-	.word	song09_008
+	.word	WindDestination_001
+	.word	WindDestination_002
+	.word	WindDestination_003
+	.word	WindDestination_004
+	.word	WindDestination_005
+	.word	WindDestination_006
+	.word	WindDestination_007
+	.word	WindDestination_008
 
 	.end

@@ -50,7 +50,6 @@ BlindFaithCombat:
 POIN SkillTester
 WORD StaffSavantID
 
-
 ALIGN 4
 DesperateGambit:
 #incbin "NewDesperateGambit.dmp"
