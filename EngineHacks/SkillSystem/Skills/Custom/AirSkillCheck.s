@@ -1,5 +1,7 @@
 .thumb
 .equ AirSkillIDList, SkillTester+4
+.equ gBattleData, 0x203A4D4
+
 push {r4-r7,lr}
 @goes in the battle loop.
 @r0 is the attacker
@@ -145,4 +147,4 @@ bx r0
 .ltorg
 SkillTester:
 @POIN SkillTester
-@POIN FaireIDList
+@POIN AirSkillIDList

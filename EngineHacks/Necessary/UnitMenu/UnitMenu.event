@@ -180,7 +180,9 @@ UnitMenuTable:
   UM_Drop
 
   #ifdef __DEBUG__
-    MenuCommand(UM_EditSkill, UM_EditSkillDesc, OrangeText, $04F449, SkillDebugCommand_OnSelect)
+	#ifndef Playtest
+        MenuCommand(UM_EditSkill, UM_EditSkillDesc, OrangeText, $04F449, SkillDebugCommand_OnSelect)
+	#endif
   #endif
 
   UM_Item

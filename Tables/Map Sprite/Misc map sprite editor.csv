@@ -25,8 +25,8 @@ Assassin,0x81cf040,0x81cf7e8
 Assassin (F),0x81cf940,0x81d0160
 Archer,0x81d02b8,0x81d0a7c
 Archer (F),0x81d0bd4,0x81d13c8
-Sniper,0x81d1520,0x81d1d48
-Sniper (F),0x81d1ea0,0x81d2714
+Sniper,AdventurerWalk|IsPointer,0x81d1d48
+Sniper (F),AdventurerFWalk|IsPointer,0x81d2714
 Forrest Knight,0x81d286c,0x81d3194
 Forrest Knight (F),0x81d286c,0x81d3194
 Dragon Knight,0x81d32ec,0x81d403c

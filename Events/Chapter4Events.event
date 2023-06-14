@@ -1,5 +1,13 @@
 EventPointerTable(Chapter4Events, PointerList)
 
+setText(0x163, NewChName)
+
+ALIGN 4
+NewChName:
+String("Ch4: Border Clash")
+BYTE 0
+
+ALIGN 4
 PointerList:
 	POIN TurnBasedEvents
 	POIN CharacterBasedEvents
@@ -23,6 +31,7 @@ TurnBasedEvents:
 	TurnEventPlayer(0,PegaSquadsSpawn,7)
 	TurnEventEnemy(9,BridgeEvent,7)
 	TurnEventPlayer(10,BridgeCavsSpawn,8)
+	TurnEventPlayer(0,Turn8Reinforcements,8)
 	TurnEventPlayer(11,AIChanges,10)
 	//TurnEventPlayer(0,EndingScene,13)
 	Survive(EndingScene,13)
@@ -37,6 +46,7 @@ MiscBasedEvents:
 	CauseGameOverIfLordDies
 	VeinEffect(2,Ch4VeinEvent)
 	AREA 0 AltGameOver [10,0] [13,0]
+	DefeatAll(EndingScene)
 	END_MAIN
 
 LocationBasedEvents:
@@ -117,12 +127,12 @@ SoloPegs:
 	UNIT
 	
 PegaSquads:
-	UNIT Farum AxePegasus Bazba Level(6,Enemy,True) [2,15] 0x0 0x0 0x1 REDA2R14 [IronAxe] AttackingSeizerAI
+	UNIT Farum AxePegasus Bazba Level(6,Enemy,True) [2,15] 0x0 0x0 0x1 REDA2R14 [Halberd] AttackingSeizerAI
 	UNIT Farum LancePegasus Bazba Level(5,Enemy,True) [1,15] 0x0 0x0 0x1 REDA1R15 [IronLance] AttackingSeizerAI
-	UNIT Farum LancePegasus Bazba Level(5,Enemy,True) [3,15] 0x0 0x0 0x1 REDA3R15 [IronLance] SeizerAI
-	UNIT Farum LancePegasus Bazba Level(6,Enemy,True) [25,15] 0x0 0x0 0x1 REDA25R14 [IronLance] AttackingSeizerAI
-	UNIT Farum AxePegasus Bazba Level(5,Enemy,True) [24,15] 0x0 0x0 0x1 REDA24R15 [IronAxe] SeizerAI
-	UNIT Farum AxePegasus Bazba Level(5,Enemy,True) [26,15] 0x0 0x0 0x1 REDA26R15 [IronAxe] AttackingSeizerAI
+	UNIT Farum LancePegasus Bazba Level(4,Enemy,True) [3,15] 0x0 0x0 0x1 REDA3R15 [IronLance] SeizerAI
+	UNIT Farum LancePegasus Bazba Level(6,Enemy,True) [25,15] 0x0 0x0 0x1 REDA25R14 [HeavySpear] DefaultAI
+	UNIT Farum AxePegasus Bazba Level(4,Enemy,True) [24,15] 0x0 0x0 0x1 REDA24R15 [IronAxe] SeizerAI
+	UNIT Farum AxePegasus Bazba Level(5,Enemy,True) [26,15] 0x0 0x0 0x1 REDA26R15 [IronAxe] DefaultAI
 	UNIT
 	
 KillerSquad:
@@ -134,6 +144,14 @@ KillerSquad:
 BridgeCavs:
 	UNIT Farum SwordCavalier Bazba Level(5,Enemy,True) [26,3] 0x0 0x0 0x1 REDA26R3 [SteelSword] AttackingSeizerAI
 	UNIT Farum LanceCavalier Bazba Level(5,Enemy,True) [26,2] 0x0 0x0 0x1 REDA26R2 [SteelLance] AttackingSeizerAI
+	UNIT
+	
+Turn8Lads:
+	UNIT Farum Mage Bazba Level(6,Enemy,True) [10,15] 0x0 0x0 0x1 REDA10R15 [Fire] AttackingSeizerAI
+	UNIT Farum Mercenary_F Bazba Level(5,Enemy,True) [12,15] 0x0 0x0 0x1 REDA12R15 [SteelSword] AttackingSeizerAI
+	UNIT Farum Fighter Bazba Level(5,Enemy,True) [8,15] 0x0 0x0 0x1 REDA8R15 [Hammer] AttackingSeizerAI
+	UNIT Farum AxePegasus Bazba Level(4,Enemy,True) [2,15] 0x0 0x0 0x1 REDA2R15 [IronAxe] SeizerAI
+	UNIT Farum LancePegasus Bazba Level(4,Enemy,True) [25,15] 0x0 0x0 0x1 REDA25R15 [IronLance] SeizerAI
 	UNIT
 	
 AIChangeCavs:
@@ -291,12 +309,30 @@ PegaUnitsSpawn:
 	EVBIT_T 9
 	LOAD1 0x1 SoloPegs
 	ENUN
+	
+	CAMERA Bazba
+	CURSOR_FLASHING Bazba
+	STAL 50
+	REMOVE_CURSORS
+	CAMERA [25,14]
+	CURSOR_FLASHING [25,14]
+	STAL 50
+	REMOVE_CURSORS
+	Text(Ch4Pegs)
+	
 	NoFade
 	ENDA
 	
 PegaSquadsSpawn:
 	EVBIT_T 9
 	LOAD1 0x1 PegaSquads
+	ENUN
+	NoFade
+	ENDA
+
+Turn8Reinforcements:
+	EVBIT_T 9
+	LOAD1 0x1 Turn8Lads
 	ENUN
 	NoFade
 	ENDA
@@ -326,8 +362,8 @@ AIChanges:
 	SETVAL 1 0x00400000
 	CHAI	Bazba
 	CHAI 	FarumWeak
-	CHAI	[23,9]
-	CHAI	[23,11]
+	CHAI	[24,9]
+	CHAI	[24,11]
 	
 	SETVAL 1 0x20040303
 	CHAI 	[24,6]

@@ -4,7 +4,7 @@ setText(0x161, NewChName)
 
 ALIGN 4
 NewChName:
-String("The Hunt")
+String("Ch2: The Hunt")
 BYTE 0
 
 ALIGN 4

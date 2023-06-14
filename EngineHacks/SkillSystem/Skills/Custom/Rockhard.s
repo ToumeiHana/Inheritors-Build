@@ -24,7 +24,7 @@ ldrb r0, [r4, r1] @first item in inventory
 cmp r0, #0xBD	  @0xBD = elstone
 bne End
 
-@apply def +3
+@apply def +4
 mov r0, r4
 add r0,#0x5C
 ldrh r3,[r0]

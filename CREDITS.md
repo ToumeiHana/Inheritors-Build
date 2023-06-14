@@ -68,6 +68,7 @@ adding yourself!
 - Rexacuse: Soldier
 - Peerles: Soldier
 - Teraspark: FMonk
+- ArcherBias: Adventurers
 
 # Mugs
 

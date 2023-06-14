@@ -61,6 +61,8 @@ SetMovSound(Halberdier, Walk)
 SetMovSound(Halberdier_F, Walk)
 SetMovSound(Monk_F, Walk)
 SetMovSound(Sandskipper, FleetSail)
+SetMovSound(AxeCavalier, HorseWalk)
+SetMovSound(AxeCavalier_F, HorseWalk)
 
 #else
 	ERROR "You're not assembling FE8 events!"

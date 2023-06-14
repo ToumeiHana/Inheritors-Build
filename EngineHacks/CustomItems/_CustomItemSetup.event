@@ -22,6 +22,8 @@
 
 //#include "UnlockStaffv2/_BurglarStaff_Setup.event"	//unlock staff but it opens both doors and chests
 
+#include "RepostionStaff/RepostionStaffSetup.event"
+
 //custom items
 //#include "SelfHealItems/MigVul_Setup.event"
 

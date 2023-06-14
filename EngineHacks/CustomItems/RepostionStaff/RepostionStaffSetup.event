@@ -1,0 +1,16 @@
+ALIGN 4
+RepostionStaffRangeSetup:
+rfItemRangeSetup(RewarpStaff_TCondition,Item_TTRange)
+
+//unused, uses barrier routine
+/*ALIGN 4
+RepostionStaffUsability: 
+rfStaffUsability(Staff_FSUsability, rfTrueCheck, rfTrueCheck)*/
+
+ALIGN 4
+RepostionStaffTargeting:
+rfStaffTargeting(Staff_FSTargeting, RepostionStaffRangeSetup, RewarpStaff_FreeSelect)
+
+ALIGN 4
+RepostionStaffEffect:
+rfStaffEffect(Staff_UETemplate, _prRepositionSelection_OnSelection)

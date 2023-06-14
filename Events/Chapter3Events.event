@@ -1,5 +1,13 @@
 EventPointerTable(Chapter3Events, PointerList)
 
+setText(0x162, NewChName)
+
+ALIGN 4
+NewChName:
+String("Ch3: Sledge & Hammer")
+BYTE 0
+
+ALIGN 4
 PointerList:
 	POIN TurnBasedEvents
 	POIN CharacterBasedEvents
@@ -120,7 +128,7 @@ ExtraLads:
 	UNIT
 
 Traps1:
-	Vein(22,17,1)
+	Vein(22,17,1,Ch3DVText)
 	//Vein(14,2,1)
 	ENDTRAP
 	ALIGN 4

@@ -152,3 +152,31 @@ ALIGN 4
 FalcoKnightWalk:
 #incbin "dmp/FalcoKnightRevisionflasubanwalk.dmp"
 
+ALIGN 4
+AdventurerStand:
+#incbin "dmp/AdventurerArcherBiasStand.dmp"
+
+ALIGN 4
+AdventurerWalk:
+#incbin "dmp/AdventurerArcherBiasWalk.dmp"
+
+ALIGN 4
+AdventurerFStand:
+#incbin "dmp/AdventurerFArcherBiasStand.dmp"
+
+ALIGN 4
+AdventurerFWalk:
+#incbin "dmp/AdventurerFArcherBiasWalk.dmp"
+
+ALIGN 4
+OutlawFStand:
+#incbin "dmp/OutlawFStand.dmp"
+
+ALIGN 4
+MonkFStand:
+#incbin "dmp/MonkFTerasparkstand.dmp"
+
+ALIGN 4
+MonkFWalk:
+#incbin "dmp/MonkFTerasparkwalk.dmp"
+

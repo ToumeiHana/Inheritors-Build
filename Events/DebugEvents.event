@@ -1,6 +1,6 @@
 EventPointerTable(DebugEvents, PointerList)
 
-setText(0x181, NewChName)
+setText(0x180, NewChName)
 ALIGN 4
 NewChName:
 String("Debug")
@@ -56,7 +56,7 @@ Tutorial:
 Units1:
 	UNIT Vidar Gut 0x0 Level(7,Ally,False) [1,0] 0x00 0x00 0x00 0x00 [0xc5] NoAI
 	UNIT Hefina Tail 0x0 Level(1,Ally,False) [0,0] 0x0 0x0 0x0 0x0 [Gheist,Elstone,Flux] NoAI
-	UNIT Ellie Druid 0x0 Level(1,Ally,False) [0,1] 0x0 0x0 0x0 0x0 [Gheist] NoAI
+	UNIT Ellie Druid_F 0x0 Level(1,Ally,False) [0,1] 0x0 0x0 0x0 0x0 [Gheist,0xc7] NoAI
 	UNIT Sibyl Dancer 0x0 Level(1,Ally,False) [1,1] 0x0 0x0 0x0 0x0 [0x0] NoAI
 	UNIT Caitlind CerapterKnight 0x0 Level(1,Ally,False) [0,2] 0x0 0x0 0x0 0x0 [KillerAxe,IronAxe,0xc6] NoAI
 	UNIT
@@ -175,7 +175,7 @@ Ch4DebugUnits:
 	UNIT Jacob SwordCavalier Curtis Level(4,Ally,True) [3,0] 0x00 0x00 0x00 0x01 [IronSword, IronBlade] NoAI
 	UNIT Lucian LanceCavalier Curtis Level(4,Ally,True) [4,0] 0x00 0x00 0x00 0x01 [IronLance,Javelin] NoAI
 	UNIT Marco Fighter Curtis Level(8,Ally,False) [5,0] 0x00 0x00 0x00 0x01 [SteelAxe, Elixir] NoAI	
-	UNIT Diane Outlaw_F Curtis Level(4,Ally,True) [6,0] 0x00 0x00 0x00 0x01 [IronBow, PureWater] NoAI
+	UNIT Diane Outlaw_F Curtis Level(4,Ally,True) [6,0] 0x00 0x00 0x00 0x01 [IronBow, Longbow] NoAI
 	UNIT Mirabelle Claw Curtis Level(4,Ally,True) [7,0] 0x00 0x00 0x00 0x01 [RustyNail, DragonClaw] HalfRangeAI
 	UNIT Katja Fighter_F Curtis Level(4,Ally,True) [8,0] 0x00 0x00 0x00 0x01 [IronAxe, HandAxe] HalfRangeAI
 	UNIT Mauritch Myrmidon Curtis Level(4,Ally,True) [9,0] 0x00 0x00 0x00 0x01 [KillingEdge] AttackInRangeAI

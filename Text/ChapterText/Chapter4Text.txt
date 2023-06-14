@@ -1,13 +1,14 @@
 ## BorderDefendDesc
 Defend the border[NL]
-for 12 turns.[X]
+for 12 turns or[NL]
+rout the enemy.[X]
 
 ## BorderDefendShortDesc
 Defend[X]
 
 ## Ch4ChargeText
 [MidLeft][LoadFace][0x33][0x1]
-ai change text[A][X]
+This is the final push! Charge![A][X]
 
 ## Ch4DVText
 The dragon vein will spawn forests[N]
@@ -21,3 +22,14 @@ How much longer until the bridge[N]
 is ready to be deployed?[A][N]
 [MidLeft]
 Uh... about [Red]4 more turns,[Red] sire![A][X]
+
+## Ch4Pegs
+[MidRight][LoadFace][0x33][0x1]
+[MidLeft][LoadFSoldier]
+Pegasus squads reporting in, sire![A][N]
+[MidRight]
+Good. Have [Red]some[Red] of your number flank[N]
+them [Red]and go for the objective.[A][N]
+Stop at nothing.[Red][A]
+[MidLeft]
+Understood![A][X]
