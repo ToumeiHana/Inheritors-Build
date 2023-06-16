@@ -6,3 +6,4 @@
 #include "BG/BGInstaller.event"
 #include "ClassCard/ClassCardInstaller.event"
 #include "ItemIcon/ItemIconInstaller.event"
+#include "Palette/Palette Setup.event"
