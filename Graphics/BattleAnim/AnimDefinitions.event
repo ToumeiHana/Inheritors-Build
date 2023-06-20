@@ -98,6 +98,9 @@
 #define HeroHandaxe 0xd7
 #define HeroUnarmed 0xd8
 
+#define TroubStaff 0x85
+#define TroubUnarmed 0x86
+
 //////////
  
 ALIGN 4
@@ -212,4 +215,10 @@ SwordAnim(HeroSword)
 AxeAnim(HeroAxe)
 HandAxeAnim(HeroHandaxe)
 UnarmedAnim(HeroUnarmed)
+WORD 0x0
+
+ALIGN 4
+TroubAnims:
+StaffAnim(TroubStaff)
+UnarmedAnim(TroubUnarmed)
 WORD 0x0

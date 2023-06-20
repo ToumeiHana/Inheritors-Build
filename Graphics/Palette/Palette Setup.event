@@ -35,3 +35,11 @@
 // LibbyCleric
 	setPalette(0x8,LibbyCleric)
 	setCBSP(0x8,Libby,0x1,Cleric)
+
+// LaurenTroub
+	setPalette(0x9,LaurenTroub)
+	setCBSP(0x9,Lauren,0x1,Troubadour)
+
+// PieterSoldier
+	setPalette(0xF,PieterSoldier)
+	setCBSP(0xF,Pieter,0x1,Soldier)

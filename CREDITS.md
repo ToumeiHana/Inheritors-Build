@@ -44,9 +44,9 @@ adding yourself!
 - Nuramon: FHero, Hero
 - BlackMage: FFighter
 - Norikins: Elstone
-- eCut: FBerzerker
-- Natsumi: FBerzerker
-- Skitty: FBerzerker
+- eCut: FBerserker
+- Natsumi: FBerserker
+- Skitty: FBerserker
 - Eldritch Abomination: FMonk
 - Leo_link: Paladins
 - The_Big_Dededester: Paladins
@@ -54,6 +54,7 @@ adding yourself!
 - Temp: FWarrior
 - helmfried: FWarrior
 - Maiser6; FCav
+- BatimaTheBat: Troubadour
 
 # Tilesets
 

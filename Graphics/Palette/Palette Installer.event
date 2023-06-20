@@ -27,3 +27,9 @@ MauritchMyrm:
 LibbyCleric:
 	#incbin "./_palettes/LibbyCleric.lzpal" 
 
+LaurenTroub:
+	#incbin "./_palettes/LaurenTroub.lzpal" 
+
+PieterSoldier:
+	#incbin "./_palettes/PieterSoldier.lzpal" 
+

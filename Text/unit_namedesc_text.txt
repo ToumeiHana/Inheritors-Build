@@ -23,13 +23,15 @@ under Janessa's wing.[X]
 Jacob[X]
 
 ## JacobDesc
-placeholder[X]
+Youth from Laftian militia unit.[N]
+Somewhat reckless.[X]
 
 ## LucianName
 Lucian[X]
 
 ##LucianDesc
-placeholder[X]
+Youth from Laftian militia unit.[N]
+Bit of a worrywart.[X]
 
 ## MarcoName
 Marco[X]
@@ -42,109 +44,226 @@ current father. Stoic.[X]
 Diane[X]
 
 ## DianeDesc
-placeholder[X]
+Young hunter from Laftian countryside.[X]
 
 ## MirabelleName
 Mirabelle[X]
 
+## MirabelleDesc
+Orphan from Farum.[N]
+Inheritor of the dragon's claw.[X]
+
 ## LaurenName
 Lauren[X]
+
+## LaurenDesc
+placeholder[X]
 
 ## MauritchName
 Mauritch[X]
 
+## MauritchDesc
+placeholder[X]
+
 ## KatjaName
 Katja[X]
+
+## KatjaDesc
+Laftian barmaid.[N]
+Loves brawling.[X]
 
 ## LibbyName
 Libby[X]
 
+## LibbyDesc
+placeholder[X]
+
 ## EmmanuelName
 Emmanuel[X]
+
+## EmmanuelDesc
+placeholder[X]
 
 ## HollieName
 Hollie[X]
 
+## HollieDesc
+placeholder[X]
+
 ## GarryName
 Garry[X]
+
+## GarryDesc
+placeholder[X]
 
 ## PieterName
 Pieter[X]
 
+## PieterDesc
+placeholder[X]
+
 ## NellaName
 Nella[X]
+
+## NellaDesc
+The rising star of Farumese[N]
+cavalier division.[X]
 
 ## LeoffName
 Leoff[X]
 
+## LeoffDesc
+The price of Farum.[X]
+
 ## DaveName
 Dave[X]
+
+## DaveDesc
+placeholder[X]
 
 ## AnisName
 Anis[X]
 
+## AnisDesc
+Audinan monk who[N]
+loves baking.[X]
+
 ## SibylName
 Sibyl[X]
+
+## SibylDesc
+Carefree pricess of Audina.[X]
 
 ## SuhairaName
 Suhaira[X]
 
+## SuhairaDesc
+Sibyl's first retainer.[N]
+Inheritor of the dragon's horn.[X]
+
 ## FabianName
 Fabian[X]
+
+## FabianDesc
+Sibyl's second retainer.[N]
+Inheritor of the dragon's wing.[X]
 
 ## KimikoName
 Kimiko[X]
 
+## KimikoDesc
+placeholder[X]
+
 ## ConlethName
 Conleth[X]
+
+## ConlethDesc
+Wise bishop who runs an[N]
+orphanage in Farum.[X]
 
 ## WintonName
 Winton[X]
 
+## WintonDesc
+placeholder[X]
+
 ## NishayName
 Nishay[X]
+
+## NishayDesc
+Airheaded fortune-teller[N]
+hailing from Audina.[X]
 
 ## AveryName
 Avery[X]
 
+## AveryDesc
+General of Farum.[X]
+
 ## IngaName
 Inga[X]
+
+## IngaDesc
+Part of a two-woman merc duo.[N]
+Known as the "Glacial Gladiator".[X]
 
 ## SanaName
 Sana[X]
 
+## SanaDesc
+Part of a two-woman merc duo.[N]
+Known as the "Wings of Tundra".[X]
+
 ## BobbeName
 Bobbe[X]
+
+## BobbeDesc
+Bandit who had a change of heart.[X]
 
 ## HenrikName
 Henrik[X]
 
+## HenrikDesc
+Self-proclaimed former[N]
+master thief.[X]
+
 ## LlewellaName
 Llewella[X]
+
+## LlewellaDesc
+placeholder[X]
 
 ## HefinaName
 Hefina[X]
 
+## HefinaDesc
+Inheritor of the dragon's tail.[X]
+
 ## GlawName
 Glaw[X]
+
+## GlawDesc
+placeholder[X]
 
 ## RadcliffName
 Radcliff[X]
 
+## RadcliffDesc
+placeholder[X]
+
 ## RochelleName
 Rochelle[X]
+
+## RochelleDesc
+placeholder[X]
 
 ## HudsonName
 Hudson[X]
 
+## HudsonDesc
+placeholder[X]
+
 ## VidarName
 Vidar[X]
+
+## VidarDesc
+Inheritor of the dragon's gut.[X]
 
 ## CaitlindName
 Caitlind[X]
 
+## CaitlindDesc
+Pegasus Knight who took[N]
+up banditry.[X]
+
 ## EllieName
 Ellie[X]
 
+## EllieDesc
+placeholder[X]
+
 ## SledgeName
 Sledge[X]
+
+## SledgeDesc
+placeholder[X]

@@ -132,8 +132,8 @@
 0x82 Bishop
 0x83 Bishop (F)
 0x84 Bishop (F) w/ Staff
-0x85 Troubadour Disarmed
-0x86 Troubadour
+0x85 Troubadour Disarmed	//replaced
+0x86 Troubadour			//replaced
 0x87 Valkyrie
 0x88 Valkyrie w/ Staff
 0x89 Thief

@@ -94,3 +94,9 @@
 #include "TwintailsCavSALVAGED/Handaxe Installer.event"
 #include "TwintailsCavSALVAGED/Unarmed Installer.event"
 }
+
+{
+#include "TroubadourShortHairRepalBatimaTheBat/Staff Installer.event"
+#include "TroubadourShortHairRepalBatimaTheBat/Unarmed Installer.event"
+}
+

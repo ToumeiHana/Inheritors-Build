@@ -1,22 +1,45 @@
 ## ClawRecruitText
-[MidLeft][LoadCurtis]
 [MidRight][LoadMirabelle]
-text[a][X]
+[MidLeft][LoadCurtis]
+Are you alright?[a][N]
+[MidRight]
+[Beat]...[Beat][A][N]
+You're same as me, right?[N]
+I can sense it...[A][N]
+The curse of draconic power.[A][N]
+[MidLeft]
+Yes... I have an eye on my chest.[N]
+It gives me weird visions sometimes.[A][N]
+Uh, anyway we should discuss this[N]
+further after the battle.[A][N]
+[MidRight]
+Right.[A][X]
 
 ## KatjaRecruitText
 [MidLeft][LoadFace][CurrentPortrait]
 [MidRight][LoadKatja]
-text[A][X]
+Reinforcements? Alright![N]
+Let's go and give 'em hell![A][X]
 
 ## LaurenRecruitText
 [MidLeft][LoadFace][CurrentPortrait]
 [MidRight][LoadLauren]
-text[A][X]
+Finally, some help to clean this mess![n]
+I'll go smack some sense to my brother.[A][X]
 
 ## MauritchRecruitText
 [MidRight][LoadMauritch]
 [MidLeft][LoadLauren]
-text[a][X]
+Mauritch.[a][n]
+[MidRight]
+Lauren.[A][N]
+[MidLeft]
+A local militia group is[N]
+here to bail us out.[A][N]
+Let's fight alongside them.[N]
+Try to keep out of trouble.[A][N]
+[MidRight]
+Understood.[A][X]
 
 ## Ch2BrigandText
 [MidRight][LoadFace][0x56][0x1]
@@ -24,7 +47,6 @@ Hee hee hoo! That village[n]
 looks ripe for picking![a][X]
 
 ## Ch2BossChargeText
-
 [MidLeft][LoadFace][0x31][0x1]
 Bah! This is going nowhere.[n]
 Men! Charge in![A][X]
