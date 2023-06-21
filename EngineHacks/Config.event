@@ -178,7 +178,7 @@
 // Set spell lists in ExternalHacks/GaidenMagic/GaidenSpellLists.event.
 // Set spell HP costs in "Item editors/Gaiden Spell Cost Tables.csv"
 // An example for stat screen display is in MSS page 4.
-// #define GAIDEN_MAGIC
+#define GAIDEN_MAGIC
 
 // If uncommented, Area of Effect (AoE) attacks will be enabled. 
 // See ExternalHacks/AoE/Installer.event for details. 
@@ -250,7 +250,7 @@
 // #define DISABLE_CHARGE
 
 //If commented, Triangle Attack will use a skill check instead of a bitflag.
-//#define VANILLA_TRIANGLE_ATTACK
+#define VANILLA_TRIANGLE_ATTACK
 
 //If HEROES_MOVEMENT_SKILL_REQUIRED is not defined, this setting will control whether or not skills can still be used.
 #define ALSO_USE_MOVEMENT_SKILL_CHECK True

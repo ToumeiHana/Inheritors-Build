@@ -207,8 +207,8 @@
 #define Shadowshot 0xAC*/
 #define RustyNail 0xAD
 #define DragonClaw 0xAE
-/*#define PoisonClaw 0xAF
-#define LongPoisonClaw 0xB0
+#define DesperationSlash 0xAF
+#define BraveTalon 0xB0/*
 #define LethalTalon 0xB0
 #define FireFang 0xB1
 #define HellFang 0xB2

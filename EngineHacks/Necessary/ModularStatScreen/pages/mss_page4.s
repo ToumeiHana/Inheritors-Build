@@ -4,7 +4,6 @@
 .global MSS_page4
 .type MSS_page4, %function
 
-@0x95dfa6 promotable
 
 MSS_page4:
 
@@ -45,7 +44,6 @@ b LiteralJump1
 .align
 LiteralJump1:
 
-
 @ second class
 mov    r0,r8
 ldr    r1, [r0, #4]    @load class pointer
@@ -71,6 +69,12 @@ mov    r0, r7
 ldr    r1, =(tile_origin+(0x20*2*7)+(2*15))
 mov    r3, #0
 blh    DrawTextInline, r4
+add    r7, #8
+
+b LiteralJump2
+.ltorg
+.align
+LiteralJump2:
 
 @first skill load
 mov    r0,r8
@@ -82,11 +86,17 @@ mov    r2,#12
 mul    r1,r2
 add    r1,#4
 ldrh   r0,[r0,r1]
+add    r7, #8
 
 cmp r0, #0x0
 beq Skip
 .set NoAltIconDraw, 1
 draw_skill_icon_at 25, 5
+
+b LiteralJump3
+.ltorg
+.align
+LiteralJump3:
 
 Skip:
 @ second skill
@@ -105,6 +115,14 @@ beq End
 .set NoAltIconDraw, 1
 draw_skill_icon_at 25, 7
 
+b LiteralJump4
+.ltorg
+.align
+LiteralJump4:
+
 End:
 draw_gaiden_spells_at 13, 13, GaidenStatScreen @ GaidenStatScreen is a pointer to the routine, GaidenStatScreen.
 page_end
+
+.align
+.ltorg

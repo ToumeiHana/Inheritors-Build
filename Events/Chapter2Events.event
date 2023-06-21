@@ -108,7 +108,7 @@ BrigandTwo:
 	
 InnGroup:
 
-	UNIT Mirabelle Claw Curtis Level(2,NPC,False) [20,5] 0x00 0x00 0x00 0x01 [RustyNail, DragonClaw] HalfRangeAI
+	UNIT Mirabelle Claw Curtis Level(2,NPC,False) [20,5] 0x00 0x00 0x00 0x01 [DragonClaw] HalfRangeAI
 	UNIT Katja Fighter_F Curtis Level(2,NPC,False) [21,6] 0x00 0x00 0x00 0x01 [IronAxe] HalfRangeAI
 	UNIT Mauritch Myrmidon Curtis Level(2,NPC,False) [23,6] 0x00 0x00 0x00 0x01 [KillingEdge] HalfRangeAI
 	UNIT Lauren Troubadour Curtis Level(2,NPC,False) [24,5] 0x00 0x00 0x00 0x01 [Heal, Vulnerary] HealUnits

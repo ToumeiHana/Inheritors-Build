@@ -47,7 +47,7 @@ beq   Down
 ldr   r4,=MoveCursorUp+1
 b     L2
 Down:
-ldr   r4,=MoveCursorUp+1
+ldr   r4,=MoveCursorDown+1
 L2:
 mov   r0, r5
 bl    GOTO_R4

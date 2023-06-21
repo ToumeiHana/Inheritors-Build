@@ -29,6 +29,8 @@
 	
 	#include "GaidenSpellLists.event" // Go here to define per-character spell lists.
 	
+	#include "gnuthumbthing.lyn.event"
+	
 	ALIGN 4
 	gGaidenMagicUMErrorText:
 	SHORT GaidenMagicUMErrorText

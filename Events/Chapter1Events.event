@@ -75,7 +75,7 @@ DianeGroup:
 	
 Units1:
 
-	UNIT Curtis Eye Curtis Level(1,Ally,False) [8,21] 0x00 0x00 0x00 0x01 [Rapier, Vulnerary, EvilEye] NoAI 
+	UNIT Curtis Eye Curtis Level(1,Ally,False) [8,21] 0x00 0x00 0x00 0x01 [Rapier, Vulnerary] NoAI 
 	UNIT Janessa CerapterKnight Curtis Level(1,Ally,False) [6,21] 0x00 0x00 0x00 0x01 [SilverAxe, SlimLance] NoAI //[6,23]
 	UNIT Alysa Recruit_1 Curtis Level(1,Ally,False) [7,21] 0x00 0x00 0x01 [Skygazer, IronLance, Vulnerary] NoAI
 	UNIT Jacob SwordCavalier Curtis Level(1,Ally,False) [8,22] 0x00 0x00 0x00 0x01 [IronSword] NoAI

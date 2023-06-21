@@ -89,7 +89,7 @@ This unit must escape last.[X]
 Mov[X]
 
 ## UM_GaidenBlackMagic
- B. Magic[X]
+ Dragon[X]
 
 ## UM_GaidenWhiteMagic
  W. Magic[X]

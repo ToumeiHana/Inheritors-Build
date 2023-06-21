@@ -143,11 +143,19 @@ Eye[X]
 ## SeerClass
 Seer[X]
 
+## SeerDesc
+True embodiment of the dragon's eye.[N]
+Equip: Swords, Light[X]
+
 ## ClawClass
 Claw[X]
 
 ## SharpclawClass
 Sharpclaw[X]
+
+## SharpclawDesc
+True embodiment of the dragon's claw.[N]
+Equip: Claws[X]
 
 ## HornClass
 Horn[X]

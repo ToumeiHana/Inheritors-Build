@@ -10,15 +10,16 @@ endif
 # Including devkitARM tool definitions
 include $(DEVKITARM)/base_tools
 # defining path of lyn
-LYN := "$(abspath .)/FE-CLib-master/utility/lyn.exe"
+LYN := "C:/devkitPro/lyn.exe"
 
 # setting up compilation flags
 ARCH   := -mcpu=arm7tdmi -mthumb -mthumb-interwork
-CFLAGS := $(ARCH) -Wall -Os -mtune=arm7tdmi -mlong-calls
+CFLAGS := $(ARCH) -Wall -mtune=arm7tdmi -O2 -mlong-calls
 
 # C to ASM rule
 %.s: %.c *.c
-	$(CC) $(CFLAGS) -S $< -o $@ -fverbose-asm
+	$(CC) $(CFLAGS) -S $< -I C:/devkitPro/FE-CLib/include -o $@ -fverbose-asm -mlong-calls
+
 
 # OBJ to EVENT rule
 %.lyn.event: %.o *.c
