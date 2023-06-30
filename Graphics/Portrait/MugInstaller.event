@@ -217,6 +217,22 @@ Caitlind_Mug:
 setMugEntry(0x2A,Caitlind_Mug,4,5,4,3)
 
 ALIGN 4
+Boss1_Mug:
+#incbin "dmp/Bossman1_mug.dmp"
+#incbin "dmp/Bossman1_frames.dmp"
+#incbin "dmp/Bossman1_palette.dmp"
+#incbin "dmp/Bossman1_minimug.dmp"
+setMugEntry(0x30, Boss1_Mug, 2,4,2,2)
+
+ALIGN 4
+Boss2_Mug:
+#incbin "dmp/Bossman2_mug.dmp"
+#incbin "dmp/Bossman2_frames.dmp"
+#incbin "dmp/Bossman2_palette.dmp"
+#incbin "dmp/Bossman2_minimug.dmp"
+setMugEntry(0x31, Boss2_Mug, 3,5,3,3)
+
+ALIGN 4
 FSoldier_Mug:
 #incbin "dmp/SoldierKyrads_mug.dmp"
 #incbin "dmp/SoldierKyrads_frames.dmp"

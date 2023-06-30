@@ -696,7 +696,7 @@ ORG SkillIcon(InsightID)
 #incbin "SkillIcons/Insight.dmp"
 
 ORG SkillIcon(VigilanceID)
-#incbin "SkillIcons/Vigilance.dmp"
+#incbin "SkillIcons/Baitstep.dmp"
 
 ORG SkillIcon(DauntID)
 #incbin "SkillIcons/Daunt.dmp"

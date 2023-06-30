@@ -7,6 +7,7 @@
 
 //Macros
 #define Coords(xcoord,ycoord) "(ycoord<<16)|xcoord"
+#define MoveByCoords(speed, srcX, srcY, destX, destY) "SVAL sB srcX|(srcY<<16); MOVE speed UnitAtCoordsSlotB [destX, destY]"
 #define ContinueIfFactionMatch(AllegianceID) "SVAL 0x2 AllegianceID; CALL 0x9EE1B8"
 #define jumpToHackr0(offset) "BYTE 0x00 0x48 0x00 0x47; POIN (offset|0x1)"
 #define jumpToHackr1(offset) "BYTE 0x00 0x49 0x08 0x47; POIN (offset|0x1)"

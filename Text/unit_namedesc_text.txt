@@ -262,8 +262,39 @@ Ellie[X]
 ## EllieDesc
 placeholder[X]
 
+## ThomName
+Thom[X]
+
+## ThomDesc
+placeholder[X]
+
+## WernerName
+Werner[X]
+
+## WernerDesc
+placeholder[X]
+
 ## SledgeName
 Sledge[X]
 
 ## SledgeDesc
 placeholder[X]
+
+## WolframName
+Wolfram[X]
+
+## WolframDesc
+placeholder[X]
+
+## FarumName
+Farumese[X]
+
+## FarumDesc
+Soldiers of Farum.[X]
+
+## BrigandName
+Brigand[X]
+
+## BrigandDesc
+Lawless good-for-nothing[N]
+cut-throats.[X]

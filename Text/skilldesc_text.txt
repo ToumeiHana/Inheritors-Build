@@ -540,11 +540,11 @@ Skl * 1.5.[X]
 
 ## SD_Chivalry
 Opener: When foe is at full HP,[N]
-attack +2 and Avo +15.[X]
+Jacob gains attack +2 and Avo +15.[X]
 
 ## SD_Pragmatic
 Closer: When foe is not at full HP,[N]
-attack +2 and Hit +5.[X]
+Lucian gains attack +2 and Hit +5.[X]
 
 ## SD_Armsthrift
 Armsthrift: Luck % chance to not[N]
@@ -968,7 +968,7 @@ Insight: Hit +20.[X]
 
 ## SD_Vigilance
 Baitstep: Avoid +10. Bait command[N]
-grants unit provoke & 15 additonal[N]
+grants Diane provoke & 15 additonal[N]
 avoid until next player phase.[X]
 
 ## SD_Daunt

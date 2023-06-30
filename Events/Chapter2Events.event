@@ -90,7 +90,7 @@ EnemyUnits:
 	UNIT Farum Soldier Breguet Level(4,Enemy,True) [9,9] 0x00 0x00 0x00 0x00 [IronLance] TwoActionAI
 	UNIT Farum Mercenary Breguet Level(4,Enemy,True) [10,10] 0x00 0x00 0x00 0x00 [IronSword] TwoActionAI
 	UNIT Farum Soldier Breguet Level(3,Enemy,True) [4,14] 0x00 0x00 0x00 0x00 [IronLance] TwoActionAI
-	UNIT Farum PegasusKnight Breguet Level(4,Enemy,True) [5,1] 0x00 0x00 0x00 [IronLance] TwoActionAI
+	UNIT Farum PegasusKnight Breguet Level(4,Enemy,True) [10,1] 0x00 0x00 0x00 [IronLance] TwoActionAI
 	UNIT Brigand_Enemy Outlaw 0x0 Level(3,Enemy,True) [7,14] 0x00 0x00 0x00 0x00 [IronBow] AttackInRangeAI
 	UNIT Farum AxePeg Breguet Level(3,Enemy,True) [1,11] 0x00 0x00 0x0 0x0 [IronAxe] AttackInRangeAI
 	UNIT
@@ -108,10 +108,10 @@ BrigandTwo:
 	
 InnGroup:
 
-	UNIT Mirabelle Claw Curtis Level(2,NPC,False) [20,5] 0x00 0x00 0x00 0x01 [DragonClaw] HalfRangeAI
-	UNIT Katja Fighter_F Curtis Level(2,NPC,False) [21,6] 0x00 0x00 0x00 0x01 [IronAxe] HalfRangeAI
-	UNIT Mauritch Myrmidon Curtis Level(2,NPC,False) [23,6] 0x00 0x00 0x00 0x01 [KillingEdge] HalfRangeAI
-	UNIT Lauren Troubadour Curtis Level(2,NPC,False) [24,5] 0x00 0x00 0x00 0x01 [Heal, Vulnerary] HealUnits
+	UNIT Mirabelle Claw Curtis Level(2,NPC,False) [22,4] 0x00 0x00 0x01 REDA20R5 [DragonClaw] HalfRangeAI
+	UNIT Katja Fighter_F Curtis Level(2,NPC,False) [22,4] 0x00 0x00 0x01 REDA21R6 [IronAxe] HalfRangeAI
+	UNIT Mauritch Myrmidon Curtis Level(2,NPC,False) [22,4] 0x00 0x00 0x01 REDA23R6 [KillingEdge] HalfRangeAI
+	UNIT Lauren Troubadour Curtis Level(2,NPC,False) [22,4] 0x00 0x00 0x01 REDA24R5 [Heal, Vulnerary] HealUnits
 	UNIT
 
 Traps1:
@@ -123,11 +123,30 @@ Traps2:
 	ALIGN 4
 
 BeginningScene:
+
+	MUSC TroubleID
+
 	LOAD1 0x1 EnemyUnits
+	ENUN
+	
+	STAL 30
+	MoveByCoords(0,10,1,5,1)
 	ENUN
 	
 	LOAD1 0x0 Units1
 	ENUN
+	
+	Text(Ch2OpeningText)
+	//EndConvo
+	
+	CAMERA [22,4]
+	CURSOR_FLASHING [22,4]
+	STAL 50
+	REMOVE_CURSORS
+	FADI 10
+	SetBackground(0x09)
+	Text(Ch2InnText)
+	EndConvo
 	
 	LOAD1 0x1 InnGroup
 	ENUN
