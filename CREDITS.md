@@ -76,6 +76,7 @@ adding yourself!
 - AmBrosiac: Faceless Mage
 - Eldritch Abomination: FE8 color rat face bandit
 - Kyrads: Generic FSoldier
+- CanDy: Lagrange
 
 # Class Cards
 

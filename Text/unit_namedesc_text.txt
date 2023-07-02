@@ -286,6 +286,12 @@ Wolfram[X]
 ## WolframDesc
 placeholder[X]
 
+## LagrangeName
+Lagrange[X]
+
+## LagrangeDesc
+placeholder[X]
+
 ## FarumName
 Farumese[X]
 

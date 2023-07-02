@@ -316,6 +316,13 @@
   PromoClassDesc2Looper:
   #include "asm/PromoClassDesc2Looper.lyn.event"
   
+  ALIGN 4
+  DPGetter:
+  #include "asm/DragonPowerRGetter.lyn.event"
+  
+  ALIGN 4
+  DPLooper:
+  #include "asm/DragonPowerRLooper.lyn.event"
   
   ALIGN 4
   #include "RText.event"

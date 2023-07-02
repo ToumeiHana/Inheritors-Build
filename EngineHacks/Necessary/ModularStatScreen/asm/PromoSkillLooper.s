@@ -15,7 +15,7 @@ ldr r0, [r0]
 ldr    r1, [r0, #4]    @load class pointer
 ldrb   r1,[r1,#0x4]	         @load class number
 @ldr    r0,=PersonalDataTable  @load first like
-mov    r2,#12
+mov    r2,#14
 mul    r1,r2
 add    r1,#4
 ldr    r0,=PersonalDataTable  @load first like

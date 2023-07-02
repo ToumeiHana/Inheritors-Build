@@ -105,3 +105,6 @@ SongTable(SupremancyBreakerID,SupremancyBreak00,BattleMusicGroup)
 
 SongTable(WindDestinationID,WindDestination,MapMusicGroup)
 #include "event/WindDestination0000.event"
+
+SongTable(TruthID,Truth0,MapMusicGroup)
+#include "event/Truth0.event"

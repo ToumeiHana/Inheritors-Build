@@ -2,12 +2,21 @@ ALIGN 4
 Ch1BossEvent:
 ENUT 0x4
 MUSC EndlessFightingMapID
+Text(ThomGenBattleQuote)
 ENDA
 
 ALIGN 4
 Ch2BossEvent:
 ENUT 0x4
 MUSC EndlessFightingMapID
+Text(WernerGenBattleQuote)
+ENDA
+
+ALIGN 4
+Ch2BossEventMirabelle:
+ENUT 0x4
+MUSC EndlessFightingMapID
+Text(WernerMirabelleBattleQuote)
 ENDA
 
 ALIGN 4

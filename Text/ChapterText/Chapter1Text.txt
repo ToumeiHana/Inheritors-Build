@@ -19,7 +19,7 @@ Were marching out soon![AN]
 [OpenEyes]
 Okay, I'll be right there![N]
 #[CloseEyes]
-Was that a dream, or [Beat]...?[A]
+Was that a dream, or [Beat]?[A]
 [ClearFace]
 [Event]
 [NearRight][LoadAlysa]
@@ -149,6 +149,16 @@ very epic[A][X]
 [MidRight][LoadFace][0x5E][0x01]
 I heard bows get advantage over[N]
 other weapons at range.[A][X]
+
+## ThomGenBattleQuote
+[MidLeft][LoadBossOne]
+What!? There wasn't supposed[N]
+to be any resistance![A][X]
+
+## ThomDeathQuote
+[MidLeft][LoadBossOne][CloseEyes]
+This was[Beat] supposed[N]
+to be[Beat] an easy job[Beat][A][X]
 
 ## MarcoDianeAliveText
 [FarLeft][LoadDiane]

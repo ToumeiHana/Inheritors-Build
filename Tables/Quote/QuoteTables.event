@@ -2,9 +2,9 @@
 
 
 PUSH
-/*ORG $8472C
+ORG $8472C
 POIN DeathQuoteTable
-*/
+
 ORG $846AC
 POIN BattleQuoteTable
 POP
@@ -12,11 +12,24 @@ POP
 #define BattleQuoteGeneric(Character1,Chapter,TextPointer,EventPointer,ID) "SHORT Character1; SHORT 0x0; SHORT Chapter; SHORT ID; SHORT TextPointer; ALIGN 4; POIN EventPointer; SHORT 0x0; SHORT Character1; SHORT Chapter; SHORT ID; SHORT TextPointer; ALIGN 4; POIN EventPointer;"
 #define BattleQuoteSpecific(Character1, Character2,Chapter,TextPointer,EventPointer,ID) "SHORT Character1; SHORT Character2; SHORT Chapter; SHORT ID; SHORT TextPointer; ALIGN 4; POIN EventPointer; SHORT Character2; SHORT Character1; SHORT Chapter; SHORT ID; SHORT TextPointer; ALIGN 4; POIN EventPointer;"
 
+#define DeathQuote(Character,Chapter,EventID,TextID) "SHORT Character; BYTE 0xFF Chapter; SHORT EventID TextID 0 0"
+#define DeathQuote(Character,Chapter,EventID,TextID,Pointer) "SHORT Character; BYTE 0xFF Chapter; SHORT EventID TextID ; POIN Pointer"
+
 #include "BattleQuoteEvents.event"
 
+//Specifics always go before generics! 
 ALIGN 4
 BattleQuoteTable:
 BattleQuoteGeneric(ONeill,0,0,Ch1BossEvent,1)
+BattleQuoteSpecific(Breguet,Mirabelle,1,0,Ch2BossEventMirabelle,1)
 BattleQuoteGeneric(Breguet,1,0,Ch2BossEvent,1)
 BattleQuoteGeneric(Bone,2,0,Ch3BossEvent,1)
 BYTE 0xFF 0xFF 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 // Terminator
+
+//EventID 2 for bosses, 0x65 for lords
+ALIGN 4
+DeathQuoteTable:
+DeathQuote(Oneill,Chapter1,2,ThomDeathQuote)
+DeathQuote(Breguet,Chapter2,2,WernerDeathQuote)
+DeathQuote(0xFFFF,0,0,0) // Terminator
+

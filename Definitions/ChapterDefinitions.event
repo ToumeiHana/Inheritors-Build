@@ -1,4 +1,5 @@
 //Chapter IDs
+#define AllChapters 0xFF
 #define Chapter1 0x00
 #define Chapter2 0x01
 #define Chapter3 0x02

@@ -17,7 +17,7 @@ ldr    r1, [r0, #4]    @load class pointer
 ldrb   r1,[r1,#0x4]	         @load character number
 ldr    r0,=PersonalDataTable  @load first like
 @ldr    r0,[r0]
-mov    r2,#12
+mov    r2,#14
 mul    r1,r2
 @add    r1,#2
 add	   r0,r1
@@ -50,7 +50,7 @@ ldr    r1, [r0, #4]    @load class pointer
 ldrb   r1,[r1,#0x4]	         @load character number
 ldr    r0,=PersonalDataTable  @load first like
 @ldr    r0,[r0]
-mov    r2,#12
+mov    r2,#14
 mul    r1,r2
 add    r1,#2
 ldrh   r0,[r0,r1]		@load textid
@@ -82,7 +82,7 @@ ldr    r1, [r0, #4]    @load class pointer
 ldrb   r1,[r1,#0x4]	         @load character number
 ldr    r0,=PersonalDataTable  @load first like
 @ldr    r0,[r0]
-mov    r2,#12
+mov    r2,#14
 mul    r1,r2
 add    r1,#4
 ldrh   r0,[r0,r1]
@@ -105,23 +105,41 @@ ldr    r1, [r0, #4]    @load class pointer
 ldrb   r1,[r1,#0x4]	         @load character number
 ldr    r0,=PersonalDataTable  @load first like
 @ldr    r0,[r0]
-mov    r2,#12
+mov    r2,#14
 mul    r1,r2
 add    r1,#6
 ldrh   r0,[r0,r1]		@load textid
+add    r7, #56
 
 cmp r0, #0x0
-beq End
+beq SkillsEnd
 .set NoAltIconDraw, 1
 draw_skill_icon_at 25, 7
 
+SkillsEnd:
 b LiteralJump4
 .ltorg
 .align
 LiteralJump4:
 
-End:
+mov    r0,r8
+ldr    r1, [r0, #4]    @load class pointer
+ldrb   r1,[r1,#0x4]	         @load character number
+ldr    r0,=PersonalDataTable  @load first like
+@ldr    r0,[r0]
+mov    r2,#14
+mul    r1,r2
+add    r1,#12
+ldrh   r0,[r0,r1]		@load textid
+add    r7, #8
+
+cmp r0, #0x0
+beq NoDP
+draw_textID_at 13, 11, textID=0x059, width=16, colour=Blue
+add r7,#8
 draw_gaiden_spells_at 13, 13, GaidenStatScreen @ GaidenStatScreen is a pointer to the routine, GaidenStatScreen.
+
+NoDP:
 page_end
 
 .align

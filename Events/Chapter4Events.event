@@ -86,7 +86,7 @@ Units1:
 
 EnemyUnits:
 
-	UNIT Bazba Paladin 0x0 Level(1,Enemy,False) [25,6] DropItem 0x0 0x0 0x0 [SteelSword, HandAxe, SecretBook] NeverMoveAI
+	UNIT Bazba Paladin_F 0x0 Level(1,Enemy,False) [25,6] DropItem 0x0 0x0 0x0 [SteelSword, HandAxe, SecretBook] NeverMoveAI
 	UNIT Farum Ballistician Bazba Level(1,Enemy,True) [24,6] 0x0 0x0 0x0 0x0 [Ballista] NeverMoveAI
 	UNIT Engineer EngiClass Bazba Level(3,Enemy,True) [25,3] 0x0 0x0 0x0 0x0  [Hammer] TrueDoNothing
 	UNIT Engineer EngiClass Bazba Level(3,Enemy,True) [25,2] 0x0 0x0 0x0 0x0  [Hammer] TrueDoNothing

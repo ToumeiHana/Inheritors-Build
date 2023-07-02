@@ -328,7 +328,7 @@ ST_Skill6:
 	
   ST_PromoClassDesc2:
   #ifdef GAIDEN_MAGIC
-	RMenu(ST_PromoClassDesc1, ST_Spell1, ST_Promo, ST_SkillP2,0x76,0x37,1,PromoClassDesc2Looper,PromoClassDescGetter+4)
+	RMenu(ST_PromoClassDesc1, ST_DragonPower, ST_Promo, ST_SkillP2,0x76,0x37,1,PromoClassDesc2Looper,PromoClassDescGetter+4)
   #else 
     RMenu(ST_PromoClassDesc1, 0, ST_Promo, ST_SkillP2,0x76,0x37,1,PromoClassDesc2Looper,PromoClassDescGetter+4)
   #endif
@@ -337,10 +337,14 @@ ST_Skill6:
 
   ST_SkillP2:
   #ifdef GAIDEN_MAGIC
-    RMenu(ST_SkillP1,ST_Spell2,ST_PromoClassDesc2,0,0xc8,0x37,1,PromoSkill2TextLooper,PromoSkillDescGetter+4)
+    RMenu(ST_SkillP1,ST_DragonPower,ST_PromoClassDesc2,0,0xc8,0x37,1,PromoSkill2TextLooper,PromoSkillDescGetter+4)
   #else
     RMenu(ST_SkillP1,0,ST_PromoClassDesc2,0,0xc8,0x37,1,PromoSkill2TextLooper,PromoSkillDescGetter+4)
   #endif
+  
+  ST_DragonPower:
+	RMenu(ST_PromoClassDesc2, ST_Spell1, ST_Name4, 0, 0x60, 0x56, 0, DPLooper, DPGetter)
+	
 	
 	
 #endif // ENABLE_PERSONAL_INFO
@@ -353,9 +357,9 @@ ST_Skill6:
       RMenu(ST_Height,ST_Spell4,ST_Spell1,0,0xA6,0x68,1,GaidenRTextLooper,GaidenRTextGetter)
   #else
     ST_Spell1:
-      RMenu(ST_PromoClassDesc2,ST_Spell3,ST_Class4,ST_Spell2,0x66,0x68,0,GaidenRTextLooper,GaidenRTextGetter)
+      RMenu(ST_DragonPower,ST_Spell3,ST_Class4,ST_Spell2,0x66,0x68,0,GaidenRTextLooper,GaidenRTextGetter)
     ST_Spell2:
-      RMenu(ST_SkillP2,ST_Spell4,ST_Spell1,0,0xA6,0x68,1,GaidenRTextLooper,GaidenRTextGetter)
+      RMenu(ST_DragonPower,ST_Spell4,ST_Spell1,0,0xA6,0x68,1,GaidenRTextLooper,GaidenRTextGetter)
   #endif // ENABLE_PERSONAL_INFO
   ST_Spell3:
     RMenu(ST_Spell1,ST_Spell5,ST_Exp4,ST_Spell4,0x66,0x78,2,GaidenRTextLooper,GaidenRTextGetter)

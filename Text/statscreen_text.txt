@@ -47,6 +47,7 @@ for enemy units.[X]
 ## DonateURL
 donorbox.org/donate-to-circles[X]
 
+
 ## SS_BiorhythmText
 Bio[X]
 
@@ -100,3 +101,8 @@ to a new class.[X]
 Classes this unit can promote[N]
 to and their class skills.[X]
 
+## DragonPowerText
+Dragon Powers:[X]
+
+## DragonPowerDesc
+Dragonic powers unit can use.[X]

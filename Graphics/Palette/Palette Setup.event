@@ -36,10 +36,26 @@
 	setPalette(0x8,LibbyCleric)
 	setCBSP(0x8,Libby,0x1,Cleric)
 
+// SledgeBrig
+	setPalette(0x9,SledgeBrig)
+	setCBSP(0x9,Bone,0x1,Brigand)
+
 // LaurenTroub
-	setPalette(0x9,LaurenTroub)
-	setCBSP(0x9,Lauren,0x1,Troubadour)
+	setPalette(0xA,LaurenTroub)
+	setCBSP(0xA,Lauren,0x1,Troubadour)
 
 // PieterSoldier
-	setPalette(0xF,PieterSoldier)
-	setCBSP(0xF,Pieter,0x1,Soldier)
+	setPalette(0xB,PieterSoldier)
+	setCBSP(0xB,Pieter,0x1,Soldier)
+
+// ThomKnight
+	setPalette(0xC,ThomKnight)
+	setCBSP(0xC,Oneill,0x1,SwordKnight)
+
+// WernerCav
+	setPalette(0xD,WernerCav)
+	setCBSP(0xD,Breguet,0x1,LanceCavalier)
+
+// LagrangePal
+	setPalette(0xE,LagrangePal)
+	setCBSP(0xE,Bazba,0x2,Paladin_F)

@@ -17,9 +17,9 @@ ldrb   r1,[r1,#0x4]	         @load class number
 @ldr    r0,=PersonalDataTable  @load first like
 mov    r2,#14
 mul    r1,r2
-add    r1,#10
+add    r1,#12
 ldr    r0,=PersonalDataTable  @load first like
-ldrb   r0,[r0,r1]	@skill ID
+ldrh   r0,[r0,r1]	@skill ID
 cmp r0, #0x0
 bne   End                       @ Skill exists, display RText
 

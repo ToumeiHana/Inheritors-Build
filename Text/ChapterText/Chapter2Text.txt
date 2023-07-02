@@ -96,3 +96,25 @@ There's a Farumese raiding party[n]
 AND bandits outside? [a][n]
 Thank you for warning us,[n]
 please take this with you.[a][X]
+
+## WernerGenBattleQuote
+[MidLeft][LoadBossTwo]
+This isn't any of your business.[N]
+Get out of our way.[A][X]
+
+## WernerMirabelleBattleQuote
+[MidLeft][LoadBossTwo]
+Hrmph! You could have come quietly,[N]
+but you just had to put on a fight,[AN]
+didn't you?[A][CloseSpeechSlow][ClearFace]
+
+[MidRight][LoadMirabelle]
+Savor this fight. It will be your last.[A][CloseSpeechSlow][ClearFace]
+
+[MidLeft][LoadBossTwo]
+No dragon-blooded scum is[N]
+going to beat me! Perish![A][X]
+
+## WernerDeathQuote
+[MidLeft][LoadBossTwo]
+To think I[Beat] lost to[Beat][A][X]

@@ -233,6 +233,22 @@ Boss2_Mug:
 setMugEntry(0x31, Boss2_Mug, 3,5,3,3)
 
 ALIGN 4
+Boss3_Mug:
+#incbin "dmp/Bossman3_mug.dmp"
+#incbin "dmp/Bossman3_frames.dmp"
+#incbin "dmp/Bossman3_palette.dmp"
+#incbin "dmp/Bossman3_minimug.dmp"
+setMugEntry(0x32, Boss3_Mug, 3,5,3,3)
+
+ALIGN 4
+Boss4_Mug:
+#incbin "dmp/PlateheadCanDy_mug.dmp"
+#incbin "dmp/PlateheadCanDy_frames.dmp"
+#incbin "dmp/PlateheadCanDy_palette.dmp"
+#incbin "dmp/PlateheadCanDy_minimug.dmp"
+setMugEntry(0x33, Boss4_Mug, 3,5,3,3)
+
+ALIGN 4
 FSoldier_Mug:
 #incbin "dmp/SoldierKyrads_mug.dmp"
 #incbin "dmp/SoldierKyrads_frames.dmp"

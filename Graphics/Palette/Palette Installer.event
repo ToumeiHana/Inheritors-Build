@@ -27,9 +27,21 @@ MauritchMyrm:
 LibbyCleric:
 	#incbin "./_palettes/LibbyCleric.lzpal" 
 
+SledgeBrig:
+	#incbin "./_palettes/SledgeBrig.lzpal" 
+
 LaurenTroub:
 	#incbin "./_palettes/LaurenTroub.lzpal" 
 
 PieterSoldier:
 	#incbin "./_palettes/PieterSoldier.lzpal" 
+
+ThomKnight:
+	#incbin "./_palettes/ThomKnight.lzpal" 
+
+WernerCav:
+	#incbin "./_palettes/WernerCav.lzpal" 
+
+LagrangePal:
+	#incbin "./_palettes/LagrangePal.lzpal" 
 

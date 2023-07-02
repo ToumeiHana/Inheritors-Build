@@ -5,7 +5,7 @@
 FE8 Personal Data Editor by Runa
 0xE47180
 256
-12
+14
 CharacterList.txt
 NULL
 
@@ -41,6 +41,12 @@ NULL
 
 Height
 10
+2
+NEHU
+NULL
+
+DragonThing
+12
 2
 NEHU
 NULL
