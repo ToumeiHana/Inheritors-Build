@@ -38,8 +38,8 @@ Magical. Ignores res.[X]
 Dawn Edge[X]
 
 ## DawnEdgeDesc
-Attacking: heals 25 % damage dealt.[N]
-Defending: ignores 25 % of enemy def.[X]
+Attacking: heals 50 % of damage dealt.[N]
+Defending: ignores 50 % of enemy def.[X]
 
 ## GheistName
 Gheist[X]

@@ -24,3 +24,6 @@
 #define SwordReaver Swordreaver
 #define RescueStaff Rescue
 #define Handaxe HandAxe
+
+//Global Flags
+#define MauritchDeathFlag 0xC8

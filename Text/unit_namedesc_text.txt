@@ -5,12 +5,20 @@ Curtis[X]
 Young man from Laftia.[N]
 Inheritor of the dragon's eye.[X]
 
+## CurtisDeathQuote
+[MidRight][LoadCurtis]
+[A][X]
+
 ## JanessaName
 Janessa[X]
 
 ## JanessaDesc
 Commander of a Laftian militia unit.[N]
 adjective1 & adjective2[X]
+
+## JanessaDeathQuote
+[MidRight][LoadJanessa]
+[A][X]
 
 ## AlysaName
 Alysa[X]
@@ -19,6 +27,10 @@ Alysa[X]
 Pegasus knight in-training[N]
 under Janessa's wing.[X]
 
+## AlysaDeathQuote
+[MidRight][LoadAlysa]
+[A][X]
+
 ## JacobName
 Jacob[X]
 
@@ -26,12 +38,20 @@ Jacob[X]
 Youth from Laftian militia unit.[N]
 Somewhat reckless.[X]
 
+## JacobDeathQuote
+[MidRight][LoadJacob]
+[A][X]
+
 ## LucianName
 Lucian[X]
 
-##LucianDesc
+## LucianDesc
 Youth from Laftian militia unit.[N]
 Bit of a worrywart.[X]
+
+## LucianDeathQuote
+[MidRight][LoadLucian]
+[A][X]
 
 ## MarcoName
 Marco[X]
@@ -40,11 +60,19 @@ Marco[X]
 Laftian woodcutter. Former soldier,[N]
 current father. Stoic.[X]
 
+## MarcoDeathQuote
+[MidRight][LoadMarco]
+[A][X]
+
 ## DianeName
 Diane[X]
 
 ## DianeDesc
 Young hunter from Laftian countryside.[X]
+
+## DianeDeathQuote
+[MidRight][LoadDiane]
+[A][X]
 
 ## MirabelleName
 Mirabelle[X]
@@ -53,17 +81,29 @@ Mirabelle[X]
 Orphan from Farum.[N]
 Inheritor of the dragon's claw.[X]
 
+## MirabelleDeathQuote
+[MidRight][LoadMirabelle]
+[A][X]
+
 ## LaurenName
 Lauren[X]
 
 ## LaurenDesc
 placeholder[X]
 
+## LaurenDeathQuote
+[MidRight][LoadLauren]
+[A][X]
+
 ## MauritchName
 Mauritch[X]
 
 ## MauritchDesc
 placeholder[X]
+
+## MauritchDeathQuote
+[MidRight][LoadMauritch]
+[A][X]
 
 ## KatjaName
 Katja[X]
@@ -72,11 +112,19 @@ Katja[X]
 Laftian barmaid.[N]
 Loves brawling.[X]
 
+## KatjaDeathQuote
+[MidRight][LoadKatja]
+[A][X]
+
 ## LibbyName
 Libby[X]
 
 ## LibbyDesc
 placeholder[X]
+
+## LibbyDeathQuote
+[MidRight][LoadLibby]
+[A][X]
 
 ## EmmanuelName
 Emmanuel[X]
@@ -84,11 +132,19 @@ Emmanuel[X]
 ## EmmanuelDesc
 placeholder[X]
 
+## EmmanuelDeathQuote
+[MidRight][LoadEmmanuel]
+[A][X]
+
 ## HollieName
 Hollie[X]
 
 ## HollieDesc
 placeholder[X]
+
+## HollieDeathQuote
+[MidRight][LoadHollie]
+[A][X]
 
 ## GarryName
 Garry[X]
@@ -96,11 +152,20 @@ Garry[X]
 ## GarryDesc
 placeholder[X]
 
+## GarryDeathQuote
+[MidRight][LoadGarry]
+[A][X]
+
 ## PieterName
 Pieter[X]
 
 ## PieterDesc
-placeholder[X]
+Fresh recruit of the border[N]
+guard. Ever the optimist.[X]
+
+## PieterDeathQuote
+[MidRight][LoadPieter]
+[A][X]
 
 ## NellaName
 Nella[X]
@@ -109,17 +174,29 @@ Nella[X]
 The rising star of Farumese[N]
 cavalier division.[X]
 
+## NellaDeathQuote
+[MidRight][LoadNella]
+[A][X]
+
 ## LeoffName
 Leoff[X]
 
 ## LeoffDesc
 The price of Farum.[X]
 
+## LeoffDeathQuote
+[MidRight][LoadLeoff]
+[A][X]
+
 ## DaveName
 Dave[X]
 
 ## DaveDesc
 placeholder[X]
+
+## DaveDeathQuote
+[MidRight][LoadDave]
+[A][X]
 
 ## AnisName
 Anis[X]
@@ -128,11 +205,19 @@ Anis[X]
 Audinan monk who[N]
 loves baking.[X]
 
+## AnisDeathQuote
+[MidRight][LoadAnis]
+[A][X]
+
 ## SibylName
 Sibyl[X]
 
 ## SibylDesc
 Carefree pricess of Audina.[X]
+
+## SibylDeathQuote
+[MidRight][LoadSibyl]
+[A][X]
 
 ## SuhairaName
 Suhaira[X]
@@ -141,6 +226,10 @@ Suhaira[X]
 Sibyl's first retainer.[N]
 Inheritor of the dragon's horn.[X]
 
+## SuhairaDeathQuote
+[MidRight][LoadSuhaira]
+[A][X]
+
 ## FabianName
 Fabian[X]
 
@@ -148,11 +237,19 @@ Fabian[X]
 Sibyl's second retainer.[N]
 Inheritor of the dragon's wing.[X]
 
+## FabianDeathQuote
+[MidRight][LoadFabian]
+[A][X]
+
 ## KimikoName
 Kimiko[X]
 
 ## KimikoDesc
 placeholder[X]
+
+## KimikoDeathQuote
+[MidRight][LoadKimiko]
+[A][X]
 
 ## ConlethName
 Conleth[X]
@@ -161,11 +258,19 @@ Conleth[X]
 Wise bishop who runs an[N]
 orphanage in Farum.[X]
 
+## ConlethDeathQuote
+[MidRight][LoadConleth]
+[A][X]
+
 ## WintonName
 Winton[X]
 
 ## WintonDesc
 placeholder[X]
+
+## WintonDeathQuote
+[MidRight][LoadWinton]
+[A][X]
 
 ## NishayName
 Nishay[X]
@@ -174,11 +279,19 @@ Nishay[X]
 Airheaded fortune-teller[N]
 hailing from Audina.[X]
 
+## NishayDeathQuote
+[MidRight][LoadNishay]
+[A][X]
+
 ## AveryName
 Avery[X]
 
 ## AveryDesc
 General of Farum.[X]
+
+## AveryDeathQuote
+[MidRight][LoadAvery]
+[A][X]
 
 ## IngaName
 Inga[X]
@@ -187,18 +300,30 @@ Inga[X]
 Part of a two-woman merc duo.[N]
 Known as the "Glacial Gladiator".[X]
 
+## IngaDeathQuote
+[MidRight][LoadInga]
+[A][X]
+
 ## SanaName
 Sana[X]
 
 ## SanaDesc
 Part of a two-woman merc duo.[N]
-Known as the "Wings of Tundra".[X]
+Known as the "Tundra Wings".[X]
+
+## SanaDeathQuote
+[MidRight][LoadSana]
+[A][X]
 
 ## BobbeName
 Bobbe[X]
 
 ## BobbeDesc
 Bandit who had a change of heart.[X]
+
+## BobbeDeathQuote
+[MidRight][LoadBobbe]
+[A][X]
 
 ## HenrikName
 Henrik[X]
@@ -207,11 +332,20 @@ Henrik[X]
 Self-proclaimed former[N]
 master thief.[X]
 
+## HenrikDeathQuote
+[MidRight][LoadHenrik]
+[A][X]
+
 ## LlewellaName
 Llewella[X]
 
 ## LlewellaDesc
 placeholder[X]
+
+
+## LlewellaDeathQuote
+[MidRight][LoadLlewella]
+[A][X]
 
 ## HefinaName
 Hefina[X]
@@ -219,11 +353,19 @@ Hefina[X]
 ## HefinaDesc
 Inheritor of the dragon's tail.[X]
 
+## HefinaDeathQuote
+[MidRight][LoadHefina]
+[A][X]
+
 ## GlawName
 Glaw[X]
 
 ## GlawDesc
 placeholder[X]
+
+## GlawDeathQuote
+[MidRight][LoadGlaw]
+[A][X]
 
 ## RadcliffName
 Radcliff[X]
@@ -231,11 +373,19 @@ Radcliff[X]
 ## RadcliffDesc
 placeholder[X]
 
+## RadcliffDeathQuote
+[MidRight][LoadRadcliff]
+[A][X]
+
 ## RochelleName
 Rochelle[X]
 
 ## RochelleDesc
 placeholder[X]
+
+## RochelleDeathQuote
+[MidRight][LoadRochelle]
+[A][X]
 
 ## HudsonName
 Hudson[X]
@@ -243,11 +393,19 @@ Hudson[X]
 ## HudsonDesc
 placeholder[X]
 
+## HudsonDeathQuote
+[MidRight][LoadHudson]
+[A][X]
+
 ## VidarName
 Vidar[X]
 
 ## VidarDesc
 Inheritor of the dragon's gut.[X]
+
+## VidarDeathQuote
+[MidRight][LoadVidar]
+[A][X]
 
 ## CaitlindName
 Caitlind[X]
@@ -256,11 +414,21 @@ Caitlind[X]
 Pegasus Knight who took[N]
 up banditry.[X]
 
+## CaitlindDeathQuote
+[MidRight][LoadCaitlind]
+This is[Beat] what[Beat][N]
+[CloseEyes]I deserved[Beat][A][X]
+
 ## EllieName
 Ellie[X]
 
 ## EllieDesc
 placeholder[X]
+
+## EllieDeathQuote
+[MidRight][LoadEllie]
+Plato[Beat] Are you there?[N]
+I can't[Beat] feel[Beat][A][X]
 
 ## ThomName
 Thom[X]

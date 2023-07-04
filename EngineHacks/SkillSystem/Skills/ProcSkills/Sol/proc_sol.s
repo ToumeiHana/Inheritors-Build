@@ -47,8 +47,8 @@ bne End @skip if unit isn't the attacker
 ldr     r2,[r6]    
 lsl     r1,r2,#0xD                @ 0802B42C 0351     
 lsr     r1,r1,#0xD                @ 0802B42E 0B49     
-mov     r0, #0x41
-lsl     r0, #8           @0x4100, attacker skill activated and hp draining
+mov     r0, #0x1
+lsl     r0, #8           @0x(4)100, (attacker skill activated and) hp draining
 orr     r1, r0
 ldr     r0,=0xFFF80000                @ 0802B434 4804     
 and     r0,r2                @ 0802B436 4010     
@@ -77,7 +77,7 @@ beq	noOoze
 noOoze:
 mov   r2, #0x5
 ldsb	r2,[r6,r2]	@hp change
-lsr 	r1,#0x2		@division by 4
+lsr 	r1,#0x1		@division by 2
 add   r2, r1
 strb	r2,[r6,#5]	@hp change
 

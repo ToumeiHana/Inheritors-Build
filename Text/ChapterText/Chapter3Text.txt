@@ -14,7 +14,7 @@ Who are these people?! [a][X]
 
 ## LibbyJoinText
 [MidLeft][LoadLibby]
-I... I'm free? I must find Emmanuel![A][X]
+I[Beat] I'm free? I must find Emmanuel![A][X]
 
 ## Ch3CurtisLibbyTalk
 [MidRight][LoadCurtis]
@@ -28,3 +28,11 @@ a[a][X]
 
 ## Ch3DVText
 Break walls[X]
+
+## SledgeBattleQuote
+[MidLeft][LoadBossThree]
+I- I'll crush you![A][X]
+
+## SledgeDeathQuote
+[MidLeft][LoadBossThree][CloseEyes]
+Rats[Beat][A][X]

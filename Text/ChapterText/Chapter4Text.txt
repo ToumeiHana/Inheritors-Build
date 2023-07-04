@@ -1,7 +1,6 @@
 ## BorderDefendDesc
-Defend the border[NL]
-for 12 turns or[NL]
-rout the enemy.[X]
+Defend the border for[NL]
+12 turns or rout.[X]
 
 ## BorderDefendShortDesc
 Defend[X]
@@ -21,15 +20,30 @@ and thickets on the dark grass.[A][N]
 How much longer until the bridge[N]
 is ready to be deployed?[A][N]
 [MidLeft]
-Uh... about [Red]4 more turns,[Red] sire![A][X]
+Uh... about [Red]4 more turns,[Red] madam![A][X]
 
 ## Ch4Pegs
 [MidRight][LoadFace][0x33][0x1]
 [MidLeft][LoadFSoldier]
-Pegasus squads reporting in, sire![A][N]
+Pegasus squads reporting in, madam![A][N]
 [MidRight]
 Good. Have [Red]some[Red] of your number flank[N]
 them [Red]and go for the objective.[A][N]
 Stop at nothing.[Red][A]
 [MidLeft]
 Understood![A][X]
+
+## Ch4VillageText
+[MidLeft][LoadFace][CurrentPortrait]
+[MidRight][LoadVillagerWoman]
+This place has always been safe to[N]
+live in thanks to the border guard.[A][N]
+Please take this and help them.[A][X]
+
+## LagrangeBattleQuote
+[MidLeft][LoadBossFour]
+We will break through![A][X]
+
+## LagrangeDeathQuote
+[MidLeft][LoadBossFour]
+Damn[Beat] it[Beat][A][X]

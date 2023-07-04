@@ -25,12 +25,12 @@ TurnBasedEvents:
 	OpeningTurnEvent(DVBox)
 	TurnEventPlayer(0,CounterCheck,0,13)
 	TurnEventPlayer(0,Turn3Reinforcements,3)
-	TurnEventEnemy(0,BridgeTalk,3)
+	TurnEventEnemy(0,BridgeTalk,1)
 	TurnEventPlayer(0,Turn5Reinforcements,5)
 	TurnEventPlayer(0,PegaUnitsSpawn,6)
 	TurnEventPlayer(0,PegaSquadsSpawn,7)
-	TurnEventEnemy(9,BridgeEvent,7)
-	TurnEventPlayer(10,BridgeCavsSpawn,8)
+	TurnEventEnemy(9,BridgeEvent,5)
+	TurnEventPlayer(10,BridgeCavsSpawn,6)
 	TurnEventPlayer(0,Turn8Reinforcements,8)
 	TurnEventPlayer(11,AIChanges,10)
 	//TurnEventPlayer(0,EndingScene,13)
@@ -51,7 +51,8 @@ MiscBasedEvents:
 
 LocationBasedEvents:
 	Armory(Ch4Armory,4,10)
-	Vendor(Ch4Shop,20,1)
+	//Vendor(Ch4Shop,20,1)
+	Village(18,Ch4VillageEvent,20,1)
 	END_MAIN
 
 Dunno1:
@@ -153,6 +154,11 @@ Turn8Lads:
 	UNIT Farum AxePegasus Bazba Level(4,Enemy,True) [2,15] 0x0 0x0 0x1 REDA2R15 [IronAxe] SeizerAI
 	UNIT Farum LancePegasus Bazba Level(4,Enemy,True) [25,15] 0x0 0x0 0x1 REDA25R15 [IronLance] SeizerAI
 	UNIT
+
+ExtraBridgeBoys:
+	UNIT Farum LanceCavalier Bazba Level(5,Enemy,True) [26,3] 0x0 0x0 0x1 REDA26R3 [IronLance] AttackingSeizerAI
+	UNIT Farum AxeCavalier Bazba Level(5,Enemy,True) [26,2] 0x0 0x0 0x1 REDA26R2 [IronAxe] AttackingSeizerAI
+	UNIT
 	
 AIChangeCavs:
 	UNIT Farum AxeCavalier Bazba Level(6,Enemy,True) [26,9] 0x0 0x0 0x0 0x0 [IronAxe] MoveWithLeaderAI
@@ -196,14 +202,14 @@ BeginningScene:
 	EVBIT_T 9
 	MOVE 0 Hollie [13,6]
 	ENUN
-	TILECHANGE 2
+	TILECHANGE 4
 	LOAD1 0x1 GreenGroup
 	ENUN
 	
 	SOUN SwushSFX
 	STAL 60
 	SOUN CrashSFX
-	TILECHANGE 0
+	TILECHANGE 3
 	
 	//MOVE 0 Garry [12,7]
 	
@@ -240,7 +246,7 @@ GarryRecruitment:
 	
 Ch4VeinEvent:
 	VeinActivation
-	TILECHANGE 3
+	TILECHANGE 5
 	ENUT 7
 	NoFade
 	ENDA
@@ -277,10 +283,11 @@ Turn5Reinforcements:
 	
 BridgeEvent:
 
-	CHECK_EXISTS Engineer
-	CAMERA Engineer
+	CHECK_EXISTS Engineer	
 	BEQ 8 s0 sC
-	TILECHANGE 1
+	
+	CAMERA Engineer
+	TILECHANGE 2
 	
 	MOVE 0 Engineer [27,3]
 	ENUN
@@ -310,6 +317,8 @@ PegaUnitsSpawn:
 	LOAD1 0x1 SoloPegs
 	ENUN
 	
+	CHECK_EXISTS Bazba
+	BEQ 21 s0 sC
 	CAMERA Bazba
 	CURSOR_FLASHING Bazba
 	STAL 50
@@ -320,6 +329,7 @@ PegaUnitsSpawn:
 	REMOVE_CURSORS
 	Text(Ch4Pegs)
 	
+	LABEL 21
 	NoFade
 	ENDA
 	
@@ -334,6 +344,13 @@ Turn8Reinforcements:
 	EVBIT_T 9
 	LOAD1 0x1 Turn8Lads
 	ENUN
+	
+	CHECK_EVENTID 10
+	BEQ 20 s0 sC
+	LOAD1 0x1 ExtraBridgeBoys
+	ENUN
+	
+	LABEL 20
 	NoFade
 	ENDA
 	
@@ -347,13 +364,16 @@ CounterCheck:
 	SVAL 1 3
 	BNE 1 s1 sC
 	
-	TILEREVERT 3
+	TILEREVERT 5
 	
 	LABEL 1	
 	NoFade
 	ENDA	
 	
 AIChanges:
+	
+	CHECK_EXISTS Bazba
+	BEQ 22 s0 sC
 	
 	CAMERA Bazba
 	Text(Ch4ChargeText)
@@ -371,6 +391,7 @@ AIChanges:
 	LOAD1 0x1 AIChangeCavs
 	ENUN
 	
+	LABEL 22
 	NoFade
 	ENDA
 
@@ -380,6 +401,10 @@ AltGameOver:
 	ASMC 0x800D391
 	NoFade
 	ENDB
+
+Ch4VillageEvent:
+	VillageEventItem(Ch4VillageText,0x00,DawnEdge)
+	ENDA
 	
 ALIGN 4
 Ch4Armory:
