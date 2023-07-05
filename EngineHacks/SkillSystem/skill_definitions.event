@@ -1167,3 +1167,4 @@
 //Broken Skills
 #define Roll12ID 255
 #define TraceID 255
+#define EternalVanityID 255

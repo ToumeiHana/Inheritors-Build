@@ -18,7 +18,7 @@ ArmorMarchSkill: //set a bit in the debuff table's entry for the refreshed unit
 #include "armormarchskill.lyn.event"
 POIN AuraSkillCheck
 WORD ArmorMarchID
-POIN GetDebuffs // WORD DebuffTable
+//POIN GetDebuffs // WORD DebuffTable
 WORD ArmorMarchBit
 // WORD 8 //size of a debuff table entry
 POIN SkillTester
