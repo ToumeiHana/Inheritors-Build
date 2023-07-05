@@ -22,12 +22,12 @@ p6C_FreeSelect:
 	_6C_YIELD
 	
 	
-	_6C_UNIL_EXISTS(0x59A548) // GENS 6C, camera movement
+	_6C_UNTIL_EXISTS(0x59A548) // GENS 6C, camera movement
 	_6C_LOOP_ROUTINE(_prFreeSelect6C_Loop+1)
 	
 	_6C_YIELD
 	
-	_6C_UNIL_EXISTS(0x59A548) // GENS 6C, camera movement
+	_6C_UNTIL_EXISTS(0x59A548) // GENS 6C, camera movement
 	//_6C_CALL_ROUTINE(0x15371) // Unblock Game Logic
 	_6C_END
 

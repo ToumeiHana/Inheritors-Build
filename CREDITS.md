@@ -103,7 +103,7 @@ adding yourself!
 - Huichelaar: Minimug Palette Fix
 - circles: drumfix
 - Alusq: NIMAP 2 (with keysplits)
-- Tequila: New CHAI, walking sounds fix
+- Tequila: New CHAI, walking sounds fix. text engine rework
 - HyperGammaSpaces: Summon rework
 - Aera: Thracia trading, remove link arena
 - Zane: MMB
@@ -111,7 +111,7 @@ adding yourself!
 - 7743: Flag-based map bgm change, continue map bgm to battle
 - Vesly: Additional prebattle calcloop, extended weapon desc box
 - stan: lordsplitmenu
-- AuraWolf: Modular Unit Menu, status debuffs (unused (for now?))
+- AuraWolf: Modular Unit Menu
 - Mokha: Status rework
 
 # Music
