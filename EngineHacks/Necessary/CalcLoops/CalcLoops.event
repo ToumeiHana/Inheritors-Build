@@ -22,3 +22,5 @@
 #include "HPRestorationCalcLoop/HPRestorationCalcLoop.event"
 
 #include "VeslyDamageModifierCalcLoopInternals/MinimumDamage.lyn.event"
+
+//#include "TurnLoop/Installer.event"

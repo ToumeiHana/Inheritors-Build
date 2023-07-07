@@ -110,7 +110,7 @@ EnemyUnits2:
 	UNIT Farum SwordKnight Goon Level(5,Enemy,True) [0,13] 0x0 0x0 0x0 0x0 [IronBlade] MoveWithLeaderAI
 	UNIT Farum Priest Goon Level(4,Enemy,True) [0,12] DropItem 0x0 0x0 0x0 [Heal, MineStaff] HealUnits
 	UNIT Farum Soldier Bazba Level(5,Enemy,True) [17,7] 0x0 0x0 0x0 0x0 [SteelLance,Javelin] DefaultAI
-	UNIT Farum Mercenary Bazba Level(5,Enemy,True) [6,7] 0x0 0x0 0x0 0x0 [SteelSword] DefaultAI
+	UNIT Farum Mercenary Bazba Level(5,Enemy,True) [7,7] 0x0 0x0 0x0 0x0 [SteelSword] DefaultAI
 	UNIT Farum Myrmidon_F Bazba Level(5,Enemy,True) [18,13] 0x0 0x0 0x0 0x0 [SteelSword] AttackInRangeAI
 	UNIT Farum Fighter Bazba Level(5,Enemy,True) [19,12] 0x0 0x0 0x0 0x0 [IronAxe] AttackInRangeAI
 	//UNIT Farum Fighter Bazba Level(5,Enemy,True) [9,0] 0x0 0x0 0x0 0x0 [IronAxe] SeizerAI
@@ -200,9 +200,23 @@ BeginningScene:
 	ENUN
 	
 	EVBIT_T 9
+	
+	CAMERA Bazba
+	CURSOR_FLASHING [24,6]
+	STAL 40
+	REMOVE_CURSORS
+	Text(Ch4EnemyOpeningText)
+	
+	CAMERA [12,6]
+	TEXTSTART
+	TEXTSHOW(HollieOpeningText)
+	TEXTEND
 	MOVE 0 Hollie [13,6]
 	ENUN
 	TILECHANGE 4
+	TEXTCONT
+	TEXTEND
+
 	LOAD1 0x1 GreenGroup
 	ENUN
 	
@@ -210,10 +224,18 @@ BeginningScene:
 	STAL 60
 	SOUN CrashSFX
 	TILECHANGE 3
+	TEXTCONT
+	TEXTEND
+	TEXTCLOSE
+	REMA
 	
 	//MOVE 0 Garry [12,7]
 	
 	FADI 10
+	
+	MOVE_1STEP 0 Pieter 3
+	MOVE_1STEP 0 Garry 3
+	MOVE_1STEP 0 Hollie 3
 	
 	LOAD1 0x1 EnemyUnits2
 	ENUN

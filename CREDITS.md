@@ -77,6 +77,7 @@ adding yourself!
 - Eldritch Abomination: FE8 color rat face bandit
 - Kyrads: Generic FSoldier
 - CanDy: Lagrange
+- HyperGammaSpaces: Another generic soldier
 
 # Class Cards
 

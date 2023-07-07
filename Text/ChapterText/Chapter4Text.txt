@@ -5,6 +5,45 @@ Defend the border for[NL]
 ## BorderDefendShortDesc
 Defend[X]
 
+## Ch4OpenNarration
+But the Laftian group isn't the only one up at crack of dawn...[X]
+
+## Ch4EnemyOpeningText
+[MidRight][LoadBossFour]
+[MidLeft][LoadSoldierGamma]
+Madam! The ballista is calibrated[N]
+and the explosive payload is loaded![AN]
+We are ready to fire![A]
+[MidRight]
+Fire at will.
+[A][X]
+
+## HollieOpeningText
+[MidLeft][LoadHollieHelmet][OneLineBox]
+Isn't that[Beat] Oh no![A]
+[ClearFace]
+[Event]
+[MidRight][LoadHollieHelmet][OneLineBox]
+Everyone outside![.][MoveMidRight] Now![A][ClearFace]
+[Event]
+[MidRight][LoadHollieHelmet]
+[NearLeft][LoadGarryHelmet]
+[FarLeft][LoadPieter][TwoLineBox]
+Sheesh![.] That was pretty close![A]
+[NearLeft]
+Blasting the fort unprovoked[N]
+like that[Beat] Unforgiveable![AN]
+[FarLeft]
+At least we can still use[N]
+the rubble as cover.[A]
+[MidRight]
+It's not the best but[N]
+we'll have to make do.[A]
+[NearLeft]
+Hold your ground! Don't let[N]
+single one of them through![A][X]
+
+
 ## Ch4ChargeText
 [MidLeft][LoadFace][0x33][0x1]
 This is the final push! Charge![A][X]
@@ -27,7 +66,7 @@ Uh... about [Red]4 more turns,[Red] madam![A][X]
 [MidLeft][LoadFSoldier]
 Pegasus squads reporting in, madam![A][N]
 [MidRight]
-Good. Have [Red]some[Red] of your number flank[N]
+Good.[.] Have [Red]some[Red] of your number flank[N]
 them [Red]and go for the objective.[A][N]
 Stop at nothing.[Red][A]
 [MidLeft]
@@ -42,8 +81,8 @@ Please take this and help them.[A][X]
 
 ## LagrangeBattleQuote
 [MidLeft][LoadBossFour]
-We will break through![A][X]
+We[.] will[.] break[.] through![A][X]
 
 ## LagrangeDeathQuote
 [MidLeft][LoadBossFour]
-Damn[Beat] it[Beat][A][X]
+Damn[Beat][.] it[Beat][A][X]
