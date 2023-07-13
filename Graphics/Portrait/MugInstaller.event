@@ -249,6 +249,14 @@ Boss4_Mug:
 setMugEntry(0x33, Boss4_Mug, 3,5,3,3)
 
 ALIGN 4
+Sideburns_Mug:
+#incbin "dmp/BanditSideburns_mug.dmp"
+#incbin "dmp/BanditSideburns_frames.dmp"
+#incbin "dmp/BanditSideburns_palette.dmp"
+#incbin "dmp/BanditSideburns_minimug.dmp"
+setMugEntry(0x54, Sideburns_Mug, 2,5,2,3)
+
+ALIGN 4
 FSoldier_Mug:
 #incbin "dmp/SoldierKyrads_mug.dmp"
 #incbin "dmp/SoldierKyrads_frames.dmp"

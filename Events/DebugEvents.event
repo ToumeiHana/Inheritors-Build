@@ -158,8 +158,8 @@ Ch2DebugUnits:
 Ch3DebugUnits:
 	UNIT Curtis Eye Curtis Level(3,Ally,True) [0,0] 0x00 0x00 0x00 0x01 [Rapier, Vulnerary] NoAI //[27,16]
 	UNIT Janessa CerapterKnight Curtis Level(1,Ally,False) [1,0] 0x00 0x00 0x00 0x01 [SilverAxe, SlimLance] NoAI
-	UNIT Alysa Recruit_1 Curtis Level(4,Ally,True) [2,0] 0x00 0x00 0x01 [IronLance, Vulnerary] NoAI
-	UNIT Jacob SwordCavalier Curtis Level(3,Ally,True) [3,0] 0x00 0x00 0x00 0x01 [IronSword] NoAI
+	UNIT Alysa Recruit_1 Curtis Level(4,Ally,True) [2,0] 0x00 0x00 0x01 [Skygazer, IronLance, Vulnerary] NoAI
+	UNIT Jacob SwordCavalier Curtis Level(3,Ally,True) [3,0] 0x00 0x00 0x00 0x01 [IronSword, IronBlade] NoAI
 	UNIT Lucian LanceCavalier Curtis Level(3,Ally,True) [4,0] 0x00 0x00 0x00 0x01 [IronLance,Javelin] NoAI
 	UNIT Marco Fighter Curtis Level(8,Ally,False) [5,0] 0x00 0x00 0x00 0x01 [SteelAxe, Elixir] NoAI	
 	UNIT Diane Outlaw_F Curtis Level(3,Ally,True) [6,0] 0x00 0x00 0x00 0x01 [IronBow] NoAI

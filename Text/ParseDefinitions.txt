@@ -126,6 +126,7 @@
 [LoadBossTwo] = [LoadFace][0x31][0x1]
 [LoadBossThree] = [LoadFace][0x32][0x1]
 [LoadBossFour] = [LoadFace][0x33][0x1]
+[LoadSideburns] = [LoadFace][0x54][0x1]
 [LoadFSoldier] = [LoadFace][0x55][0x1]
 [LoadRatFaceBandit] = [LoadFace][0x56][0x1]
 [LoadVillagerShortStache] = [LoadFace][0x58][0x1]

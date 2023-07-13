@@ -22,6 +22,7 @@ PointerList:
 
 TurnBasedEvents:
 
+	TurnEventPlayer(0,FloorTextBranches,1)
 	TurnEventPlayer(0,LooterSpawn,8)
 	//TurnEventPlayer(0,BrigandCharge,6)
 	//TurnEventPlayer(10,BossDefeatedEvent,1)
@@ -181,6 +182,34 @@ BeginningScene:
 	LOAD1 0x0 Units1
 	GotoPrepScreen
 	ENDA
+
+FloorTextBranches:
+	MUSC LakesNMarshesID
+	CAMERA Curtis
+	SET_CURSOR [14,2]
+	CHECK_DEPLOYED Jacob
+	BEQ 2 s0 sC
+	CHECK_DEPLOYED Lucian
+	BEQ 2 s0 sC
+	Text(JacobLucianFloorText)
+	GOTO 4
+	
+	LABEL 2
+	CHECK_DEPLOYED Lauren
+	BEQ 3 s0 sC
+	CHECK_DEPLOYED Mauritch
+	BEQ 3 s0 sC
+	Text(LaurenMauritchFloorText)
+	GOTO 4
+	
+	LABEL 3
+	CHECK_DEPLOYED Janessa
+	BEQ 4 s0 sC
+	Text(JanessaFloorText)
+	
+	LABEL 4
+	NoFade
+	ENDA
 	
 LooterSpawn:
 	
@@ -234,6 +263,8 @@ BossDefeatedEvent:
 	LOAD1 0x0 ExtraLads
 	MUSC LakesNMarshesID
 	ENUF 2
+	CAMERA [14,1]
+	Text(Ch3GruntChargeText)
 	NoFade
 	ENDA
 
@@ -252,6 +283,7 @@ EmmanuelRecruitment:
 	MURE 5
 	REMOVEUNIT BoulderSummon
 	REMOVEUNIT BoulderSummon
+	ENUT 9
 	NoFade
 	ENDA
 

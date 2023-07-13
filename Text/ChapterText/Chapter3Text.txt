@@ -7,6 +7,41 @@ a[X]
 [Left][LoadFace][0x32][0x1]
 a[a][X]
 
+## JacobLucianFloorText
+[MidLeft][LoadLucian]
+[MidRight][LoadJacob]
+Ugh[Beat] Floors[Beat][a]
+[MidLeft][ThreeLineBox]
+I know that[Red] moving with a mount indoors[n]
+is tough[Red],[.4] but that's something we as[n]
+cavaliers just have to deal with.[A]
+[MidRight][TwoLineBox]
+I know, I know[Beat] I just[Beat][ToggleSmile][N]
+wish we didn't have to?[A][ToggleSmile][X]
+
+## LaurenMauritchFloorText
+[MidLeft][LoadMauritch]
+[MidRight][LoadLauren]
+Bah[Beat] How annoying[Beat][a]
+[MidLeft]
+[Beat]something bothering you?[a]
+[MidRight]
+Of course something is bothering me![.][n]
+It's those floors! They slow my horse down![a][n]
+[Red]Moving mounted indoors is so cumbersome![Red][A][X]
+
+## JanessaFloorText
+[MidLeft][LoadCurtis]
+[MidRight][LoadJanessa]
+Curtis.[.] A moment, please.[a]
+[MidLeft]
+Commander Janessa?[a]
+[MidRight]
+See those indoor areas?[.4][n]
+[Red]Mounted units can't move well there.[Red][A]
+[MidLeft]
+I see[Beat] I'll keep it in mind.[A][X]
+
 ## Ch3DragonVeinText
 [MidLeft][LoadFace][0x32][0x1]
 What in the blazes was that?[n]
@@ -14,25 +49,46 @@ Who are these people?! [a][X]
 
 ## LibbyJoinText
 [MidLeft][LoadLibby]
-I[Beat] I'm free? I must find Emmanuel![A][X]
+I[Beat] I'm free?[.] I must find Emmanuel![A][X]
 
 ## Ch3CurtisLibbyTalk
 [MidRight][LoadCurtis]
 [MidLeft][LoadLibby]
-a[a][X]
+Please![.] You must help me find Emmanuel![a][n]
+He's forced to fight alongside[n]
+bandits because of me![A]
+[MidRight]
+Calm down! We'll find him, don't worry.[A]
+[MidLeft]
+Th-[.] Thank you! I can't fight or see,[n]
+but I'm quite skilled with staves.[a][n]
+I won't let you down![A][X]
 
 ## EmmanuelRecruitText
-[MidLeft][LoadEmmanuel]
 [MidRight][LoadLibby]
-a[a][X]
+[MidLeft][LoadEmmanuel][OneLineBox]
+Libby![.] You're safe![a]
+[MidRight][TwoLineBox]
+Emmanuel! I got rescued by[n]
+band of kind people.[a]
+[MidLeft]
+That's good to hear. But[n]
+let's catch up later.[A][n]
+There's still danger afoot.[A]
+[X]
 
 ## Ch3DVText
 Break walls[X]
 
 ## SledgeBattleQuote
 [MidLeft][LoadBossThree]
-I- I'll crush you![A][X]
+I-[.4] I'll crush you![A][X]
 
 ## SledgeDeathQuote
 [MidLeft][LoadBossThree][CloseEyes]
 Rats[Beat][A][X]
+
+## Ch3GruntChargeText
+[MidRight][LoadSideburns]
+They killed boss?[n]
+Let's get them![A][X]

@@ -129,6 +129,8 @@ BeginningScene:
 	LOAD1 0x1 EnemyUnits
 	ENUN
 	
+	FADU 10
+	
 	STAL 30
 	MoveByCoords(0,10,1,5,1)
 	ENUN

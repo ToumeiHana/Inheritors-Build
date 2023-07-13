@@ -2,12 +2,12 @@
 Curtis[X]
 
 ## CurtisDesc
-Young man from Laftia.[N]
+Minor noble from Laftia.[N]
 Inheritor of the dragon's eye.[X]
 
 ## CurtisDeathQuote
 [MidRight][LoadCurtis]
-[A][X]
+[CloseEyes]This can't be[Beat] it for me[Beat][A][X]
 
 ## JanessaName
 Janessa[X]
@@ -18,7 +18,7 @@ adjective1 & adjective2[X]
 
 ## JanessaDeathQuote
 [MidRight][LoadJanessa]
-[A][X]
+Sorry[Beat] I wish[Beat][CloseEyes] I could have[Beat][A][X]
 
 ## AlysaName
 Alysa[X]
@@ -29,7 +29,7 @@ under Janessa's wing.[X]
 
 ## AlysaDeathQuote
 [MidRight][LoadAlysa]
-[A][X]
+Is this[Beat] as far as I go?[A][X]
 
 ## JacobName
 Jacob[X]
@@ -40,7 +40,7 @@ Somewhat reckless.[X]
 
 ## JacobDeathQuote
 [MidRight][LoadJacob]
-[A][X]
+[ToggleSmile]Can't win[Beat] them all,[.4] huh?[A][X]
 
 ## LucianName
 Lucian[X]
@@ -51,7 +51,8 @@ Bit of a worrywart.[X]
 
 ## LucianDeathQuote
 [MidRight][LoadLucian]
-[A][X]
+Should have[Beat][CloseEyes][n]
+been more careful[Beat][A][X]
 
 ## MarcoName
 Marco[X]
@@ -62,7 +63,8 @@ current father. Stoic.[X]
 
 ## MarcoDeathQuote
 [MidRight][LoadMarco]
-[A][X]
+I'm sorry Diane[Beat][CloseEyes] I'll be[N]
+your mother again soon[Beat][A][X]
 
 ## DianeName
 Diane[X]
@@ -72,7 +74,7 @@ Young hunter from Laftian countryside.[X]
 
 ## DianeDeathQuote
 [MidRight][LoadDiane]
-[A][X]
+[CloseEyes]No[Beat] I wanted to[Beat][A][X]
 
 ## MirabelleName
 Mirabelle[X]
@@ -83,7 +85,7 @@ Inheritor of the dragon's claw.[X]
 
 ## MirabelleDeathQuote
 [MidRight][LoadMirabelle]
-[A][X]
+Looks like[Beat] this is it for me[Beat][A][X]
 
 ## LaurenName
 Lauren[X]
@@ -93,7 +95,7 @@ placeholder[X]
 
 ## LaurenDeathQuote
 [MidRight][LoadLauren]
-[A][X]
+So[Beat][CloseEyes] annoying[Beat][A][X]
 
 ## MauritchName
 Mauritch[X]
@@ -103,7 +105,7 @@ placeholder[X]
 
 ## MauritchDeathQuote
 [MidRight][LoadMauritch]
-[A][X]
+[CloseEyes]Sorry[Beat] Lauren[Beat][A][X]
 
 ## KatjaName
 Katja[X]
@@ -114,7 +116,8 @@ Loves brawling.[X]
 
 ## KatjaDeathQuote
 [MidRight][LoadKatja]
-[A][X]
+[ToggleSmile]Is that[Beat] all you got?[.4][n]
+I can still[Beat][ToggleSmile][CloseEyes] Geh[Beat][A][X]
 
 ## LibbyName
 Libby[X]
@@ -124,7 +127,7 @@ placeholder[X]
 
 ## LibbyDeathQuote
 [MidRight][LoadLibby]
-[A][X]
+Is that[Beat] light?[.4][CloseEyes] Am I[ToggleMouthMove]...?[ToggleMouthMove][A][X]
 
 ## EmmanuelName
 Emmanuel[X]
@@ -134,7 +137,7 @@ placeholder[X]
 
 ## EmmanuelDeathQuote
 [MidRight][LoadEmmanuel]
-[A][X]
+No[Beat][CloseEyes] I still[Beat][A][X]
 
 ## HollieName
 Hollie[X]
@@ -144,7 +147,7 @@ placeholder[X]
 
 ## HollieDeathQuote
 [MidRight][LoadHollie]
-[A][X]
+This is the[Beat] end of the road[Beat][CloseEyes] for me[Beat][A][X]
 
 ## GarryName
 Garry[X]
@@ -154,7 +157,7 @@ placeholder[X]
 
 ## GarryDeathQuote
 [MidRight][LoadGarry]
-[A][X]
+I can[Beat] still stand[ToggleMouthMove]...![ToggleMouthMove][CloseEyes] Gah[Beat][A][X]
 
 ## PieterName
 Pieter[X]
@@ -165,7 +168,7 @@ guard. Ever the optimist.[X]
 
 ## PieterDeathQuote
 [MidRight][LoadPieter]
-[A][X]
+Ah shucks[Beat][CloseEyes] Is this really it for me?[A][X]
 
 ## NellaName
 Nella[X]
@@ -176,7 +179,7 @@ cavalier division.[X]
 
 ## NellaDeathQuote
 [MidRight][LoadNella]
-[A][X]
+My future[Beat][CloseEyes] gone[Beat][A][X]
 
 ## LeoffName
 Leoff[X]
@@ -355,7 +358,7 @@ Inheritor of the dragon's tail.[X]
 
 ## HefinaDeathQuote
 [MidRight][LoadHefina]
-[A][X]
+[CloseEyes]Mother[Beat] Father[Beat] Sorry[Beat][A][X]
 
 ## GlawName
 Glaw[X]
