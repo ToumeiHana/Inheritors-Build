@@ -94,4 +94,10 @@ ALIGN 4
 ALIGN 4
 */
 
+#include "asm/CanUnitAttackWithWeapon.lyn.event"
+ALIGN 4
+
+#include "asm/CannotIfBallisticianMoved.lyn.event"
+ALIGN 4
+
 #include "ExternalChecks/Installer.event" 

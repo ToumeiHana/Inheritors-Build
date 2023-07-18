@@ -91,6 +91,13 @@ POIN CannotIfNotCarryingUnit
 POIN CannotIfEmptyTargetListGive
 WORD 0
 
+AttackUsabilityList:
+POIN CannotIfCantoing
+POIN CannotIfInsideBallista
+POIN CanUnitAttackWithWeapon
+POIN CannotIfBallisticianMoved
+WORD 0
+
 #include "asm/UnitMenuCommandConditionLoop.lyn.event"
 ALIGN 4
 

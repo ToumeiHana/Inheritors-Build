@@ -1,6 +1,16 @@
 
 PUSH
 
+//Attack
+ORG 0x249AC
+SHORT 0xB500 0x4803 //push {r14}; ldr r0, =AttackUsabilityList
+SHORT 0x4903 0x468E //ldr r1, =UnitMenuCommandConditionLoop; mov lr, r1
+SHORT 0xF800 0xBC02 //bl lr+r0; pop {r1}
+SHORT 0x4708 0 //bx r1 
+POIN AttackUsabilityList
+POIN UnitMenuCommandConditionLoop
+PROTECT 0x249AC CURRENTOFFSET-1
+
 //Seize
 ORG 0x22FDC
 SHORT 0xB500 0x4803 //push {r14}; ldr r0, =SeizeUsabilityList

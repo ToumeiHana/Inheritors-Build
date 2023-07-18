@@ -185,8 +185,8 @@ Fang[X]
 Ballistician[X]
 
 ## BallistaDesc
-Armored masters of siege weaponry.[N]
-Equip: Bows, Ballistae[X]
+Armored siege weaponeers. Cannot[N]
+shoot after moving. Equip: Ballistae[X]
 
 ## SandskipperClass
 Sandskipper[X]

@@ -31,9 +31,19 @@ BYTE EndLockArray
 
 BallistaArray:
 BYTE HardClassLock
-BYTE Ballistician
+BYTE Ballistician Ballistician_F
 BYTE Fleet
 BYTE Sandskipper
+BYTE EndLockArray
+
+BowArray:
+BYTE HardClassLock
+BYTE Outlaw Outlaw_F
+BYTE Adventurer Adventurer_F
+BYTE Ranger Ranger_F
+BYTE BowKnight
+BYTE General General_F
+BYTE Warrior Warrior_F
 BYTE EndLockArray
 
 #endif // ADV_WEAPON_LOCKS

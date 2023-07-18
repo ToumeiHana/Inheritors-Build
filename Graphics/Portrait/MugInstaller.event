@@ -3,6 +3,8 @@
 //setMugEntry(number, data, mouth_x, mouth_y, eye_x, eye_y)
 
 /*
+ALIGN 4
+_Mug:
 #incbin "dmp/_mug.dmp"
 #incbin "dmp/_frames.dmp"
 #incbin "dmp/_palette.dmp"
@@ -217,6 +219,22 @@ Caitlind_Mug:
 setMugEntry(0x2A,Caitlind_Mug,4,5,4,3)
 
 ALIGN 4
+FerrynFrighten_Mug:
+#incbin "dmp/Ferrynfrighten_mug.dmp"
+#incbin "dmp/Ferrynfrighten_frames.dmp"
+#incbin "dmp/Ferrynfrighten_palette.dmp"
+#incbin "dmp/Ferrynfrighten_minimug.dmp"
+setMugEntry(0x2E,FerrynFrighten_Mug,3,6,3,4)
+
+ALIGN 4
+Ferryn_Mug:
+#incbin "dmp/Ferryndeterm_mug.dmp"
+#incbin "dmp/Ferryndeterm_frames.dmp"
+#incbin "dmp/Ferryndeterm_palette.dmp"
+#incbin "dmp/Ferryndeterm_minimug.dmp"
+setMugEntry(0x2F,Ferryn_Mug,3,6,3,4)
+
+ALIGN 4
 Boss1_Mug:
 #incbin "dmp/Bossman1_mug.dmp"
 #incbin "dmp/Bossman1_frames.dmp"
@@ -247,6 +265,14 @@ Boss4_Mug:
 #incbin "dmp/PlateheadCanDy_palette.dmp"
 #incbin "dmp/PlateheadCanDy_minimug.dmp"
 setMugEntry(0x33, Boss4_Mug, 3,5,3,3)
+
+ALIGN 4
+Garry_Mug:
+#incbin "dmp/Garry_mug.dmp"
+#incbin "dmp/Garry_frames.dmp"
+#incbin "dmp/Garry_palette.dmp"
+#incbin "dmp/Garry_minimug.dmp"
+setMugEntry(0x53,Garry_Mug,3,5,3,3)
 
 ALIGN 4
 Sideburns_Mug:

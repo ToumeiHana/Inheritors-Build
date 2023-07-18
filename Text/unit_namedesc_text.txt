@@ -433,6 +433,15 @@ placeholder[X]
 Plato[Beat] Are you there?[N]
 I can't[Beat] feel[Beat][A][X]
 
+## FerrynName
+Ferryn[X]
+
+## FerrynDesc
+[X]
+
+## FerrynDeathQuote
+[X]
+
 ## ThomName
 Thom[X]
 

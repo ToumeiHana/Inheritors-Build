@@ -78,6 +78,7 @@ DeathQuote(Hudson,AllChapters,0,HudsonDeathQuote)
 DeathQuote(Vidar,AllChapters,0,VidarDeathQuote)
 DeathQuote(Caitlind,AllChapters,0,CaitlindDeathQuote)
 DeathQuote(Ellie,AllChapters,0,EllieDeathQuote)
+DeathQuote(Ferryn,AllChapters,0,FerrynDeathQuote)
 
 DeathQuote(0xFFFF,0,0,0) // Terminator
 

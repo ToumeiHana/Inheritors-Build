@@ -161,8 +161,8 @@ ExtraBridgeBoys:
 	UNIT
 	
 AIChangeCavs:
-	UNIT Farum AxeCavalier Bazba Level(6,Enemy,True) [26,9] 0x0 0x0 0x0 0x0 [IronAxe] MoveWithLeaderAI
-	UNIT Farum LanceCavalier Bazba Level(6,Enemy,True) [26,11] 0x0 0x0 0x0 0x0 [IronLance] MoveWithLeaderAI
+	UNIT Farum AxeCavalier Bazba Level(6,Enemy,True) [26,9] 0x0 0x0 0x0 0x0 [IronAxe] DefaultAI
+	UNIT Farum LanceCavalier Bazba Level(6,Enemy,True) [26,11] 0x0 0x0 0x0 0x0 [IronLance] DefaultAI
 	UNIT
 	
 HollieGroup:

@@ -18,6 +18,7 @@
 #define Garry 0x11
 #define Pieter 0x12
 #define Duane 0x13
+#define Dave Duane
 #define Anis 0x14
 #define Sibyl 0x15
 #define Suhaira 0x16
@@ -30,6 +31,7 @@
 #define Inga 0x1E
 #define Sana 0x1F
 #define Bo 0x20
+#define Bobbe Bo
 #define Henrik 0x21
 #define Llewella 0x22
 #define Hefina 0x23
@@ -40,8 +42,8 @@
 #define Vidar 0x28
 #define Caitlind 0x29
 #define Ellie 0x2A
-/*#define IsmaireCC 0x2B
-#define HaydenCC 0x2C
+#define Ferryn 0x2B
+/*#define HaydenCC 0x2C
 #define LyonSummon 0x3B*/
 #define BoulderSummon 0x3E
 #define PhantomSummon 0x3F

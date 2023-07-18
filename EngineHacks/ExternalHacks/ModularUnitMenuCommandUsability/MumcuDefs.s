@@ -14,3 +14,6 @@
 .equ MakeTakeTargetList, 0x080254E0
 .equ MakeGiveTargetList, 0x08025594
 .equ MakeTradeTargetList, 0x080252D0
+.equ MakeTargetListForWeapon, 0x80251B5
+.equ GetItemAttributes, 0x801756D
+.equ CanUnitUseWeapon, 0x8016575

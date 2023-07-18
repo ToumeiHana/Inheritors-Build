@@ -57,6 +57,8 @@
 #endif
 #define ClawLock 0x01000000
 #define SkygazerLock 0x02000000
+#define BallistaLock 0x03000000
+#define BowLock 0x04000000
 
 
 // Weapon Effect
