@@ -131,3 +131,5 @@ a skill when used.[X]
 #include "shoptext.txt"
 
 #include "splitmenutext.txt"
+
+#include "SupportText/SupportTextInstaller.txt"

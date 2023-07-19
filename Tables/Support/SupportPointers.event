@@ -1,0 +1,301 @@
+#define SupportDataCharacters(char1,char2,char3,char4,char5) "BYTE char1 char2 char3 char4 char5 0 0"
+#define SupportDataInitialValues(value1,value2,value3,value4,value5) "BYTE value1 value2 value3 value4 value5 0 0"
+#define SupportDataGrowths(growth1,growth2,growth3,growth4,growth5) "BYTE growth1 growth2 growth3 growth4 growth5 0 0"
+#define SupportCountAmount(supportCount) "BYTE supportCount 0 0"
+#define CSupportLevel 81
+#define BSupportLevel 161
+#define ASupportLevel 241
+
+ALIGN 4
+CurtisSupportPointer:
+SupportDataCharacters(Vidar,Leoff,0,0,0) 
+SupportDataInitialValues(1,1,0,0,0)
+SupportDataGrowths(30,25,0,0,0)
+SupportCountAmount(2)
+
+ALIGN 4
+JanessaSupportPointer:
+SupportDataCharacters(Alysa,Marco,0,0,0) 
+SupportDataInitialValues(1,1,0,0,0)
+SupportDataGrowths(15,15,0,0,0)
+SupportCountAmount(2)
+
+ALIGN 4
+AlysaSupportPointer:
+SupportDataCharacters(Janessa,Caitlind,Sana,0,0) 
+SupportDataInitialValues(1,1,80,0,0)
+SupportDataGrowths(15,15,20,0,0)
+SupportCountAmount(3)
+
+ALIGN 4
+JacobSupportPointer:
+SupportDataCharacters(Lucian,0,0,0,0) 
+SupportDataInitialValues(15,0,0,0,0)
+SupportDataGrowths(15,0,0,0,0)
+SupportCountAmount(1)
+
+ALIGN 4
+LucianSupportPointer:
+SupportDataCharacters(Jacob,0,0,0,0) 
+SupportDataInitialValues(15,0,0,0,0)
+SupportDataGrowths(0,0,0,0,0)
+SupportCountAmount(1)
+
+ALIGN 4
+DianeSupportPointer:
+SupportDataCharacters(Marco,Henrik,0,0,0) 
+SupportDataInitialValues(20,1,0,0,0)
+SupportDataGrowths(15,25,0,0,0)
+SupportCountAmount(2)
+
+ALIGN 4
+MarcoSupportPointer:
+SupportDataCharacters(Diane,Janessa,Hudson,0,0) 
+SupportDataInitialValues(20,1,1,0,0)
+SupportDataGrowths(15,15,30,0,0)
+SupportCountAmount(3)
+
+ALIGN 4
+MirabelleSupportPointer:
+SupportDataCharacters(Pieter,Conleth,0,0,0) 
+SupportDataInitialValues(6,20,0,0,0)
+SupportDataGrowths(15,20,0,0,0)
+SupportCountAmount(2)
+
+ALIGN 4
+LaurenSupportPointer:
+SupportDataCharacters(Mauritch,0,0,0,0) 
+SupportDataInitialValues(20,0,0,0,0)
+SupportDataGrowths(20,0,0,0,0)
+SupportCountAmount(1)
+
+ALIGN 4
+MauritchSupportPointer:
+SupportDataCharacters(Lauren,Inga,0,0,0) 
+SupportDataInitialValues(20,1,0,0,0)
+SupportDataGrowths(20,20,0,0,0)
+SupportCountAmount(2)
+
+ALIGN 4
+KatjaSupportPointer:
+SupportDataCharacters(Anis,Winton,0,0,0) 
+SupportDataInitialValues(1,1,0,0,0)
+SupportDataGrowths(15,20,0,0,0)
+SupportCountAmount(2)
+
+ALIGN 4
+LibbySupportPointer:
+SupportDataCharacters(Emmanuel,0,0,0,0) 
+SupportDataInitialValues(30,0,0,0,0)
+SupportDataGrowths(15,0,0,0,0)
+SupportCountAmount(1)
+
+ALIGN 4
+EmmanuelSupportPointer:
+SupportDataCharacters(Libby,0,0,0,0) 
+SupportDataInitialValues(30,0,0,0,0)
+SupportDataGrowths(15,0,0,0,0)
+SupportCountAmount(1)
+
+ALIGN 4
+HollieSupportPointer:
+SupportDataCharacters(Garry,0,0,0,0) 
+SupportDataInitialValues(1,0,0,0,0)
+SupportDataGrowths(15,0,0,0,0)
+SupportCountAmount(1)
+
+ALIGN 4
+PieterSupportPointer:
+SupportDataCharacters(Mirabelle,Conleth,0,0,0) 
+SupportDataInitialValues(6,20,0,0,0)
+SupportDataGrowths(15,20,0,0,0)
+SupportCountAmount(1)
+
+ALIGN 4
+GarrySupportPointer:
+SupportDataCharacters(Hollie,0,0,0,0) 
+SupportDataInitialValues(1,0,0,0,0)
+SupportDataGrowths(15,0,0,0,0)
+SupportCountAmount(1)
+
+ALIGN 4
+DaveSupportPointer:
+SupportDataCharacters(Kimiko,Caitlind,Ellie,0,0) 
+SupportDataInitialValues(1,1,1,0,0)
+SupportDataGrowths(20,15,30,0,0)
+SupportCountAmount(3)
+
+ALIGN 4
+AnisSupportPointer:
+SupportDataCharacters(Katja,Ellie,0,0,0) 
+SupportDataInitialValues(1,1,0,0,0)
+SupportDataGrowths(15,25,0,0,0)
+SupportCountAmount(2)
+
+ALIGN 4
+ConlethSupportPointer:
+SupportDataCharacters(Mirabelle,Pieter,0,0,0) 
+SupportDataInitialValues(20,20,0,0,0)
+SupportDataGrowths(20,20,0,0,0)
+SupportCountAmount(2)
+
+ALIGN 4
+WintonSupportPointer:
+SupportDataCharacters(Katja,Caitlind,0,0,0) 
+SupportDataInitialValues(1,1,0,0,0)
+SupportDataGrowths(20,20,0,0,0)
+SupportCountAmount(2)
+
+ALIGN 4
+NellaSupportPointer:
+SupportDataCharacters(Hudson,0,0,0,0) 
+SupportDataInitialValues(80,0,0,0,0)
+SupportDataGrowths(30,0,0,0,0)
+SupportCountAmount(1)
+
+ALIGN 4
+AverySupportPointer:
+SupportDataCharacters(Rochelle,0,0,0,0) 
+SupportDataInitialValues(1,0,0,0,0)
+SupportDataGrowths(30,0,0,0,0)
+SupportCountAmount(1)
+
+ALIGN 4
+IngaSupportPointer:
+SupportDataCharacters(Sana,Mauritch,0,0,0) 
+SupportDataInitialValues(80,1,0,0,0)
+SupportDataGrowths(24,20,0,0,0)
+SupportCountAmount(2)
+
+ALIGN 4
+SanaSupportPointer:
+SupportDataCharacters(Inga,Alysa,0,0,0) 
+SupportDataInitialValues(80,80,0,0,0)
+SupportDataGrowths(24,20,0,0,0)
+SupportCountAmount(2)
+
+ALIGN 4
+HenrikSupportPointer:
+SupportDataCharacters(Diane,0,0,0,0) 
+SupportDataInitialValues(1,0,0,0,0)
+SupportDataGrowths(25,0,0,0,0)
+SupportCountAmount(1)
+
+ALIGN 4
+NishaySupportPointer:
+SupportDataCharacters(Bobbe,0,0,0,0) 
+SupportDataInitialValues(1,0,0,0,0)
+SupportDataGrowths(20,0,0,0,0)
+SupportCountAmount(1)
+
+ALIGN 4
+RochelleSupportPointer:
+SupportDataCharacters(Avery,0,0,0,0) 
+SupportDataInitialValues(1,0,0,0,0)
+SupportDataGrowths(30,0,0,0,0)
+SupportCountAmount(1)
+
+ALIGN 4
+KimikoSupportPointer:
+SupportDataCharacters(Dave,Suhaira,0,0,0) 
+SupportDataInitialValues(1,1,0,0,0)
+SupportDataGrowths(20,20,0,0,0)
+SupportCountAmount(2)
+
+ALIGN 4
+HudsonSupportPointer:
+SupportDataCharacters(Nella,Marco,0,0,0) 
+SupportDataInitialValues(80,1,0,0,0)
+SupportDataGrowths(30,30,0,0,0)
+SupportCountAmount(2)
+
+ALIGN 4
+LlewellaSupportPointer:
+SupportDataCharacters(Glaw,0,0,0,0) 
+SupportDataInitialValues(ASupportLevel,0,0,0,0)
+SupportDataGrowths(0,0,0,0,0)
+SupportCountAmount(1)
+
+ALIGN 4
+HefinaSupportPointer:
+SupportDataCharacters(Ferryn,0,0,0,0) 
+SupportDataInitialValues(1,0,0,0,0)
+SupportDataGrowths(30,0,0,0,0)
+SupportCountAmount(1)
+
+ALIGN 4
+GlawSupportPointer:
+SupportDataCharacters(Llewella,0,0,0,0) 
+SupportDataInitialValues(ASupportLevel,0,0,0,0)
+SupportDataGrowths(0,0,0,0,0)
+SupportCountAmount(1)
+
+ALIGN 4
+VidarSupportPointer:
+SupportDataCharacters(Curtis,0,0,0,0) 
+SupportDataInitialValues(1,0,0,0,0)
+SupportDataGrowths(30,0,0,0,0)
+SupportCountAmount(1)
+
+ALIGN 4
+BobbeSupportPointer:
+SupportDataCharacters(Nishay,0,0,0,0) 
+SupportDataInitialValues(1,0,0,0,0)
+SupportDataGrowths(20,0,0,0,0)
+SupportCountAmount(1)
+
+ALIGN 4
+RadcliffSupportPointer:
+SupportDataCharacters(Fabian,0,0,0,0) 
+SupportDataInitialValues(1,0,0,0,0)
+SupportDataGrowths(25,0,0,0,0)
+SupportCountAmount(1)
+
+ALIGN 4
+SibylSupportPointer:
+SupportDataCharacters(Leoff,Suhaira,0,0,0) 
+SupportDataInitialValues(1,1,0,0,0)
+SupportDataGrowths(22,20,0,0,0)
+SupportCountAmount(2)
+
+ALIGN 4
+SuhairaSupportPointer:
+SupportDataCharacters(Kimiko,Sibyl,Fabian,0,0) 
+SupportDataInitialValues(1,1,1,0,0)
+SupportDataGrowths(20,20,20,0,0)
+SupportCountAmount(3)
+
+ALIGN 4
+FabianSupportPointer:
+SupportDataCharacters(Radcliff,Suhaira,0,0,0) 
+SupportDataInitialValues(1,1,0,0,0)
+SupportDataGrowths(25,20,0,0,0)
+SupportCountAmount(2)
+
+ALIGN 4
+LeoffSupportPointer:
+SupportDataCharacters(Sibyl,Curtis,0,0,0) 
+SupportDataInitialValues(1,1,0,0,0)
+SupportDataGrowths(25,25,0,0,0)
+SupportCountAmount(2)
+
+ALIGN 4
+CaitlindSupportPointer:
+SupportDataCharacters(Alysa,Dave,Winton,0,0) 
+SupportDataInitialValues(1,1,1,0,0)
+SupportDataGrowths(15,15,20,0,0)
+SupportCountAmount(3)
+
+ALIGN 4
+EllieSupportPointer:
+SupportDataCharacters(Anis,Dave,0,0,0) 
+SupportDataInitialValues(1,1,0,0,0)
+SupportDataGrowths(25,25,0,0,0)
+SupportCountAmount(2)
+
+ALIGN 4
+FerrynSupportPointer:
+SupportDataCharacters(Hefina,0,0,0,0) 
+SupportDataInitialValues(1,0,0,0,0)
+SupportDataGrowths(30,0,0,0,0)
+SupportCountAmount(1)

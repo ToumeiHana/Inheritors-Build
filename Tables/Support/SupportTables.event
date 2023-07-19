@@ -1,0 +1,74 @@
+PUSH
+ORG $84784
+POIN NewSupportConvoTable
+ORG $847FC
+POIN NewSupportConvoTable
+POP
+
+#define SupportConvoEntry(charID1, charID2, CRankTextEntry, BRankTextEntry, ARankTextEntry) "SHORT charID1 charID2 CRankTextEntry BRankTextEntry ARankTextEntry 0 0 0"
+#define SupportConvoTerminator "SHORT 0xFFFF 0 0 0 0 0 0 0"
+
+ALIGN 4
+NewSupportConvoTable:
+SupportConvoEntry(Curtis,Vidar,CurtisVidarC,CurtisVidarB,CurtisVidarA)
+SupportConvoEntry(Curtis,Leoff,CurtisLeoffC,CurtisLeoffB,CurtisLeoffA)
+
+SupportConvoEntry(Janessa,Alysa,JanessaAlysaC,JanessaAlysaB,JanessaAlysaA)
+SupportConvoEntry(Janessa,Marco,JanessaMarcoC,JanessaMarcoB,JanessaMarcoA)
+
+SupportConvoEntry(Alysa,Caitlind,AlysaCaitlindC,AlysaCaitlindB,AlysaCaitlindA)
+SupportConvoEntry(Alysa,Sana,AlysaSanaC,AlysaSanaB,AlysaSanaA)
+
+SupportConvoEntry(Jacob,Lucian,JacobLucianC,JacobLucianB,JacobLucianA)
+
+SupportConvoEntry(Diane,Marco,DianeMarcoC,DianeMarcoB,DianeMarcoA)
+SupportConvoEntry(Diane,Henrik,DianeHenrikC,DianeHenrikB,DianeHenrikA)
+
+SupportConvoEntry(Marco,Hudson,MarcoHudsonC,MarcoHudsonB,MarcoHudsonA)
+
+SupportConvoEntry(Mirabelle,Pieter,MirabellePieterC,MirabellePieterB,MirabellePieterA)
+SupportConvoEntry(Mirabelle,Conleth,MirabelleConlethC,MirabelleConlethB,MirabelleConlethA)
+
+SupportConvoEntry(Lauren,Mauritch,LaurenMauritchC,LaurenMauritchB,LaurenMauritchA)
+
+SupportConvoEntry(Mauritch,Inga,MauritchIngaC,MauritchIngaB,MauritchIngaA)
+
+SupportConvoEntry(Katja,Anis,KatjaAnisC,KatjaAnisB,KatjaAnisA)
+SupportConvoEntry(Katja,Winton,KatjaWintonC,KatjaWintonB,KatjaWintonA)
+
+SupportConvoEntry(Libby,Emmanuel,LibbyEmmanuelC,LibbyEmmanuelB,LibbyEmmanuelA)
+
+SupportConvoEntry(Hollie,Garry,HollieGarryC,HollieGarryB,HollieGarryA)
+
+SupportConvoEntry(Pieter,Conleth,PieterConlethC,PieterConlethB,PieterConlethA)
+
+SupportConvoEntry(Dave,Kimiko,DaveKimikoC,DaveKimikoB,DaveKimikoA)
+SupportConvoEntry(Dave,Caitlind,DaveCaitlindC,DaveCaitlindB,DaveCaitlindA)
+SupportConvoEntry(Dave,Ellie,DaveEllieC,DaveEllieB,DaveEllieA)
+
+SupportConvoEntry(Anis,Ellie,AnisEllieC,AnisEllieB,AnisEllieA)
+
+SupportConvoEntry(Winton,Caitlind,WintonCaitlindC,WintonCaitlindB,WintonCaitlindA)
+
+SupportConvoEntry(Nella,Hudson,NellaHudsonC,NellaHudsonB,NellaHudsonA)
+
+SupportConvoEntry(Avery,Rochelle,AveryRochelleC,AveryRochelleB,AveryRochelleA)
+
+SupportConvoEntry(Inga,Sana,IngaSanaC,IngaSanaB,IngaSanaA)
+
+SupportConvoEntry(Nishay,Bobbe,NishayBobbeC,NishayBobbeB,NishayBobbeA)
+
+SupportConvoEntry(Kimiko,Suhaira,KimikoSuhairaC,KimikoSuhairaB,KimikoSuhairaA)
+
+SupportConvoEntry(Llewella,Glaw,0,0,0)
+
+SupportConvoEntry(Hefina,Ferryn,HefinaFerrynC,HefinaFerrynB,HefinaFerrynA)
+
+SupportConvoEntry(Radcliff,Fabian,RadcliffFabianC,RadcliffFabianB,RadcliffFabianA)
+
+SupportConvoEntry(Sibyl,Leoff,SibylLeoffC,SibylLeoffB,SibylLeoffA)
+SupportConvoEntry(Sibyl,Suhaira,SibylSuhairaC,SibylSuhairaB,SibylSuhairaA)
+
+SupportConvoEntry(Suhaira,Fabian,SuhairaFabianC,SuhairaFabianB,SuhairaFabianA)
+
+SupportConvoTerminator

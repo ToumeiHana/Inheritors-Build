@@ -187,19 +187,21 @@ FloorTextBranches:
 	MUSC LakesNMarshesID
 	CAMERA Curtis
 	SET_CURSOR [14,2]
-	CHECK_DEPLOYED Jacob
+	
+	CHECK_DEPLOYED Lauren
 	BEQ 2 s0 sC
-	CHECK_DEPLOYED Lucian
+	CHECK_DEPLOYED Mauritch
 	BEQ 2 s0 sC
-	Text(JacobLucianFloorText)
+	Text(LaurenMauritchFloorText)
 	GOTO 4
 	
 	LABEL 2
-	CHECK_DEPLOYED Lauren
+	CHECK_DEPLOYED Jacob
 	BEQ 3 s0 sC
-	CHECK_DEPLOYED Mauritch
+	CHECK_DEPLOYED Lucian
 	BEQ 3 s0 sC
-	Text(LaurenMauritchFloorText)
+	Text(JacobLucianFloorText)
+	
 	GOTO 4
 	
 	LABEL 3

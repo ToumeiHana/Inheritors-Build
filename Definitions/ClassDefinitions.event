@@ -8,7 +8,9 @@
 //#define Paladin 0x07
 //#define Paladin_F 0x08
 #define LanceKnight 0x09
+#define LanceArmor LanceKnight
 #define BowKnight 0x0A
+#define BowArmor BowKnight
 //#define General 0x0B
 //#define General_F 0x0C
 #define ForrestKnight 0x0D
@@ -80,7 +82,9 @@
 #define Flamelash 0x59
 #define Gut 0x5A
 #define AxeKnight 0x5B
+#define AxeArmor AxeKnight
 #define SwordKnight 0x5C
+#define SwordArmor SwordKnight
 #define Fighter_F 0x5D
 #define Warrior_F 0x5E
 #define Berserker_F 0x5F

@@ -27,3 +27,8 @@
 
 //Global Flags
 #define MauritchDeathFlag 0xC8
+#define MirabelleDeathFlag 0xC9
+#define FabianDeathFlag 0xCA
+#define SuhairaDeathFlag 0xCB
+#define HefinaDeathFlag 0xCC
+#define VidarDeathFlag 0xCD
