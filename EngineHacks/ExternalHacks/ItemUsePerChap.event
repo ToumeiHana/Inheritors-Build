@@ -78,3 +78,8 @@ ORG 0xA3824
 BYTE 0x01
 POP
 
+PUSH
+ORG (TextTable+(4*ProtagName))
+WORD 0x8202bd10
+POP
+

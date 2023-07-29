@@ -100,12 +100,12 @@ adding yourself!
 # External & Inline hacks
 
 - SKILLSYS QoL+Other credits here
-- Scraiza: NarrowFont 
+- Scraiza: NarrowFont, Dynamic Portraits
 - Huichelaar: Minimug Palette Fix
 - circles: drumfix
 - Alusq: NIMAP 2 (with keysplits)
 - Tequila: New CHAI, walking sounds fix. text engine rework
-- HyperGammaSpaces: Summon rework
+- HyperGammaSpaces: Summon rework, Dynamic equip
 - Aera: Thracia trading, remove link arena
 - Zane: MMB
 - Teraspark: IER, fancy staves
@@ -114,6 +114,7 @@ adding yourself!
 - stan: lordsplitmenu
 - AuraWolf: Modular Unit Menu
 - Mokha: Status rework
+- Snakey1: Gendered Text
 
 # Music
 

@@ -1,5 +1,17 @@
-## CurtisName
+## ProtagName
+[X]
+
+## MaleText
+Male[X]
+
+## FemaleText
+Female[X]
+
+#0x0ecf CurtisName
 Curtis[X]
+
+#0x0ed0 CeleisName
+Celeis[X]
 
 ## CurtisDesc
 Minor noble from Laftia.[N]

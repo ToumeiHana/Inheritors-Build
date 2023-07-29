@@ -154,13 +154,7 @@ GarryHelmet_Mug:
 #incbin "dmp/GarryHelmet_minimug.dmp"
 setMugEntry(0x13,GarryHelmet_Mug,3,5,3,3)
 
-ALIGN 4
-Pieter_Mug:
-#incbin "dmp/Pieter_mug.dmp"
-#incbin "dmp/Pieter_frames.dmp"
-#incbin "dmp/Pieter_palette.dmp"
-#incbin "dmp/Pieter_minimug.dmp"
-setMugEntry(0x14,Pieter_Mug,2,5,2,3)
+
 
 ALIGN 4
 Dave_Mug:
@@ -265,6 +259,14 @@ Boss4_Mug:
 #incbin "dmp/PlateheadCanDy_palette.dmp"
 #incbin "dmp/PlateheadCanDy_minimug.dmp"
 setMugEntry(0x33, Boss4_Mug, 3,5,3,3)
+
+ALIGN 4
+Pieter_Mug:
+#incbin "dmp/Pieter_mug.dmp"
+#incbin "dmp/Pieter_frames.dmp"
+#incbin "dmp/Pieter_palette.dmp"
+#incbin "dmp/Pieter_minimug.dmp"
+setMugEntry(0x52,Pieter_Mug,2,5,2,3)
 
 ALIGN 4
 Garry_Mug:

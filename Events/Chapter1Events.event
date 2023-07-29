@@ -136,10 +136,30 @@ BeginningScene:
 	LABEL 776
 	FADI 10
 #endif // __DEBUG__
-	
+
+	SetBackground(0x31)
 	ASMC StartingGold|1
+	
+	CGTEXTSTART
+	TEXTSHOW GenderSelectText
+	TEXTEND
+	REMA
+	FACE_SHOW 1 0x14
+	STAL 3
+	FACE_SHOW 4 0x2
+	STAL 3
+	ASMC GenderMenu_ASMC|1
+	SVAL s7 0
+	BNE 200 sC s7
+	ENUT GenderEventID
+	
+	LABEL 200	
+	ASMC NameSwitch|1
+	FADI 10
+	
 	LOAD1 0x1 EnemyUnits
 	ENUN
+	
 	LOAD1 0x01 Units1
 	ENUN
 	

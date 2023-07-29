@@ -1,3 +1,7 @@
+## GenderSelectText
+      Select a form.[n]
+(This is purely aesthetic)[a][X]
+
 ## Ch1PreMap
 [MidRight][LoadFace][0x57][0x01]
 Oho? what do we have here?[AN]

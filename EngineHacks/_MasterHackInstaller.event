@@ -74,6 +74,8 @@ POP
   
   //#include "ExternalHacks/AutosaveKiller/AutosaveKiller.event"
   
+  #include "ExternalHacks/DynamicPortraits/DynamicPortraitsInstaller.event"
+  
   #include "ExternalHacks/WalkingSoundsFix/WalkSounds.event"
   
   #include "ExternalHacks/ASMC/ASMCInstaller.event"

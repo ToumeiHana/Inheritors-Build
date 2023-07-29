@@ -109,7 +109,7 @@ PieterSupportPointer:
 SupportDataCharacters(Mirabelle,Conleth,0,0,0) 
 SupportDataInitialValues(6,20,0,0,0)
 SupportDataGrowths(15,20,0,0,0)
-SupportCountAmount(1)
+SupportCountAmount(2)
 
 ALIGN 4
 GarrySupportPointer:

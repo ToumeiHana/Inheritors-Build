@@ -29,6 +29,7 @@ Debug1MenuCommands:
 	EventMenuCommand(NormalPlayText)
 EventMenuCommandEnd
 
+
 ALIGN 4
 Debug2Menu_ASMC:
 MenuASMC
@@ -49,4 +50,22 @@ Debug2MenuCommands:
 	EventMenuCommand(0x162)
 	EventMenuCommand(0x163)
 EventMenuCommandEnd
+
+
+ALIGN 4
+GenderMenu_ASMC:
+MenuASMC
+POIN GenderMenuDefs
+
+ALIGN 4
+GenderMenuDefs:
+	BYTE 11 8 8 0           // Geomerty, order: X, Y, Width, Height (Height doesn't matter)
+	WORD 1                  // style (change it if u want)
+	POIN GenderMenuCommands //pCommandDefinition // Command Definitions
+	WORD 0 0 0 0 0 0        // No routines to handle B press/R press/construction/etc
 	
+ALIGN 4
+GenderMenuCommands:
+	EventMenuCommand(MaleText)
+	EventMenuCommand(FemaleText)
+EventMenuCommandEnd

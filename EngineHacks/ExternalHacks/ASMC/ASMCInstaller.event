@@ -2,3 +2,7 @@ ALIGN 4
 StartingGold:
 #incbin "StartingGold.dmp"
 
+ALIGN 4
+NameSwitch:
+#incbin "NameSwitch.dmp"
+
