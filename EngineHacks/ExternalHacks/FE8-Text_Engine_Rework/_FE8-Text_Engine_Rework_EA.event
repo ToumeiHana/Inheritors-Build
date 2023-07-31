@@ -7,7 +7,7 @@
 
 #include EAStdlib.event
 #include "Extensions/Hack Installation.txt"
-#include "Extensions/6CDefinitions.txt"
+#include "Extensions/ProcDefinitions.txt"
 
 #ifndef FreeSpace
 	#define FreeSpace 0xB2B000
@@ -194,5 +194,12 @@ POIN MoveFaceToPositionVariableSpeed
 POIN MoveFaceToPositionVariableSpeed
 POIN MoveFaceToPositionVariableSpeed	//80 37 (MoveFarFarRight with variable speed)
 POIN ChangeTextSpeed		//80 38
+POIN GenderedTextStringHack   //80 39 He/She
+POIN GenderedTextStringHack   //80 3A he/she
+POIN GenderedTextStringHack   //80 3B Him/Her
+POIN GenderedTextStringHack   //80 3C him/her
+POIN GenderedTextStringHack   //80 3D His/Hers
+POIN GenderedTextStringHack   //80 3E his/hers
+POIN GenderedTextStringHack   //80 3F tis/eis
 
 #include "_Text_Engine_Tables.txt"

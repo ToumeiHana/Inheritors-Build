@@ -101,7 +101,7 @@ adding yourself!
 
 - SKILLSYS QoL+Other credits here
 - Scraiza: NarrowFont, Dynamic Portraits
-- Huichelaar: Minimug Palette Fix
+- Huichelaar: Minimug Palette Fix, Gendered text
 - circles: drumfix
 - Alusq: NIMAP 2 (with keysplits)
 - Tequila: New CHAI, walking sounds fix. text engine rework

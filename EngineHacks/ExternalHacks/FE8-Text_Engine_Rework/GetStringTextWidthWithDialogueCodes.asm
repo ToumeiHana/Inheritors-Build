@@ -136,6 +136,13 @@ b		SetNewActivePos3
 b		SetNewActivePos3	
 b		SetNewActivePos3	
 b		Advance2			@80 38 [SetTextSpeed]
+b   GenderedTextWidthHack
+b   GenderedTextWidthHack
+b   GenderedTextWidthHack
+b   GenderedTextWidthHack
+b   GenderedTextWidthHack
+b   GenderedTextWidthHack
+b   GenderedTextWidthHack
 
 .ltorg
 
@@ -250,6 +257,12 @@ ldrb	r0,[r4,#1]
 sub		r0,#1					@font argument
 bl		UpdateFontGlyphSet
 b		Advance2
+
+GenderedTextWidthHack:
+bl    GetGenderedTextString
+bl    GetStringTextWidth
+add   r6, r0
+b     Advance1
 
 EndAndReturnWidth:
 cmp		r6,r7

@@ -52,8 +52,9 @@
 .equ GetCharTextWidth,						0x8003F3C
 .equ CreateMovingFaceProc,					0x8007A58
 .equ SetFaceGfxConfigForBattle,				0x8007844
+.equ CheckEventId,        0x8083DA8
 
-.equ MaxExtraTextCode, 						0x38
+.equ MaxExtraTextCode, 						0x3F
 .equ FontIdOffset,							0x00
 .equ TextColorGroupIdOffset,				0x01
 .equ TextBoxBgPaletteIdOffset,				0x02

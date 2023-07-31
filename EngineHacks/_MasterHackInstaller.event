@@ -68,11 +68,13 @@ POP
   
   //#include "Necessary/Debuffs/Debuffs.event"
   
+   //#include "ExternalHacks/AutosaveKiller/AutosaveKiller.event"
+  
   #include "ExternalHacks/FE8-Text_Engine_Rework/_FE8-Text_Engine_Rework_EA.event"
   
   #include "ExternalHacks/ItemSpecialEffect/Installer.event"
   
-  //#include "ExternalHacks/AutosaveKiller/AutosaveKiller.event"
+  //#include "ExternalHacks/GenderedText/GenderedText.event"
   
   #include "ExternalHacks/DynamicPortraits/DynamicPortraitsInstaller.event"
   

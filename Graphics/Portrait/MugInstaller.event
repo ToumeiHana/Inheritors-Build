@@ -19,7 +19,7 @@ Curtis_Mug:
 #incbin "dmp/Curtis_frames.dmp"
 #incbin "dmp/Curtis_palette.dmp"
 #incbin "dmp/Curtis_minimug.dmp"
-setMugEntry(0x02, Curtis_Mug, 3,5,3,3)
+setMugEntry(0x02, Curtis_Mug, 4,5,4,3)
 
 ALIGN 4
 CurtisShirtless_Mug:
@@ -154,7 +154,13 @@ GarryHelmet_Mug:
 #incbin "dmp/GarryHelmet_minimug.dmp"
 setMugEntry(0x13,GarryHelmet_Mug,3,5,3,3)
 
-
+ALIGN 4
+Celeis_Mug:
+#incbin "dmp/Celeis_mug.dmp"
+#incbin "dmp/Celeis_frames.dmp"
+#incbin "dmp/Celeis_palette.dmp"
+#incbin "dmp/Celeis_minimug.dmp"
+setMugEntry(0x14,Celeis_Mug,4,5,4,3)
 
 ALIGN 4
 Dave_Mug:

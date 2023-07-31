@@ -73,9 +73,17 @@ DianeGroup:
 	UNIT Diane Outlaw_F Curtis Level(1,Ally,False) [9,3] 0x00 0x00 0x01 REDA8R4 [IronBow] NoAI
 	UNIT
 	
+CurtisGroup:
+	UNIT Curtis Eye Curtis Level(1,Ally,False) [8,21] 0x00 0x00 0x00 0x01 [Rapier, Vulnerary] NoAI
+	UNIT
+	
+CeleisGroup:
+	UNIT Curtis Eye_F Curtis Level(1,Ally,False) [8,21] 0x00 0x00 0x00 0x01 [Rapier, Vulnerary] NoAI 
+	UNIT
+	
 Units1:
 
-	UNIT Curtis Eye Curtis Level(1,Ally,False) [8,21] 0x00 0x00 0x00 0x01 [Rapier, Vulnerary] NoAI 
+	//UNIT Curtis Eye Curtis Level(1,Ally,False) [8,21] 0x00 0x00 0x00 0x01 [Rapier, Vulnerary] NoAI 
 	UNIT Janessa CerapterKnight Curtis Level(1,Ally,False) [6,21] 0x00 0x00 0x00 0x01 [SilverAxe, SlimLance] NoAI //[6,23]
 	UNIT Alysa Recruit_1 Curtis Level(1,Ally,False) [7,21] 0x00 0x00 0x01 [Skygazer, IronLance, Vulnerary] NoAI
 	UNIT Jacob SwordCavalier Curtis Level(1,Ally,False) [8,22] 0x00 0x00 0x00 0x01 [IronSword] NoAI
@@ -144,10 +152,10 @@ BeginningScene:
 	TEXTSHOW GenderSelectText
 	TEXTEND
 	REMA
-	FACE_SHOW 1 0x14
-	STAL 3
-	FACE_SHOW 4 0x2
-	STAL 3
+	FACE_SHOW 1 0x2
+	STAL 6
+	FACE_SHOW 4 0x14
+	STAL 6
 	ASMC GenderMenu_ASMC|1
 	SVAL s7 0
 	BNE 200 sC s7
@@ -160,6 +168,17 @@ BeginningScene:
 	LOAD1 0x1 EnemyUnits
 	ENUN
 	
+	CHECK_FLAG GenderEventID
+	BNE 201 sC s0
+	LOAD1 0x01 CeleisGroup
+	ENUN
+	GOTO 202
+	
+	LABEL 201
+	LOAD1 0x01 CurtisGroup
+	ENUN
+	
+	LABEL 202
 	LOAD1 0x01 Units1
 	ENUN
 	

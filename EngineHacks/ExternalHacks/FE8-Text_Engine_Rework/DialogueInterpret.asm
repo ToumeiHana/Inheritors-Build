@@ -58,6 +58,8 @@
 .global LoadFaceFancy
 .global MoveFaceToPositionVariableSpeed
 .global ChangeTextSpeed
+.global GenderedTextStringHack
+.global GetGenderedTextString
 
 .global GetCurrentSpeakerAttributesList
 .global UpdateFontGlyphSet
@@ -658,6 +660,41 @@ strb	r0,[r5,#0x13]		@text speed
 add		r4,#1
 str		r4,[r5]
 b		RetThree
+
+@ This hack pretty much looks at how the [Tact] control code works.
+GenderedTextStringHack:
+ldr   r0, [r5]
+sub   r0, #0x2
+str   r0, [r5, #0x4]
+mov   r0, r6
+bl    GetGenderedTextString
+str   r0, [r5]
+b		  MainLoop
+
+  GetGenderedTextString: @ Return the pointer to the appropriate string.
+  push  {r4, lr}
+  ldr   r4, =GenderedTextList
+  StartGetGenderedLoop:
+  ldrh  r1, [r4]
+  lsr   r1, r1, #0x8
+  cmp   r0, r1
+  beq   GetGenderedTextEntryFound
+    add   r4, r4, #0xC
+    cmp   r1, #0x0
+    bne   StartGetGenderedLoop
+      mov   r0, #0x0 @ No entry found. Just... return NULL.
+      b     EndGetGenderedTextControlCode
+  
+  GetGenderedTextEntryFound: @ We've found the entry. Check the event ID.
+  ldrh  r0, [r4, #0x2]
+  bl    CheckEventId
+  lsl   r0, r0, #0x2 @ Multiply the boolean result by 4.
+  add   r0, r0, #0x4
+  ldr   r0, [r4, r0]
+  EndGetGenderedTextControlCode:
+  pop   {r4}
+  pop   {r1}
+  bx    r1
 
 ReturnValue:
 add		sp,#8

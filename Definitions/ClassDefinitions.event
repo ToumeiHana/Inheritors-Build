@@ -2,7 +2,7 @@
 #define LancerPrince 0x01
 #define Eye 0x02
 #define PrincePromo 0x03
-#define EyePromo 0x04
+#define Seer 0x04
 #define SwordCavalier 0x05
 #define LanceCavalier 0x06
 //#define Paladin 0x07
@@ -75,9 +75,9 @@
 #define Claw 0x52
 #define Sharpclaw 0x53
 #define Horn 0x54
-//#define Bonewalker_Bow 0x55
+#define Eye_F 0x55
 #define Skypiercer 0x56
-//#define Wight_Bow 0x57
+#define Seer_F 0x57
 #define Tail 0x58
 #define Flamelash 0x59
 #define Gut 0x5A

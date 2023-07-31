@@ -33,7 +33,7 @@ It's those floors! They slow my horse down![a][n]
 ## JanessaFloorText
 [MidLeft][LoadCurtis]
 [MidRight][LoadJanessa]
-Curtis.[.] A moment, please.[a]
+[Tact].[.] A moment, please.[a]
 [MidLeft]
 Commander Janessa?[a]
 [MidRight]
