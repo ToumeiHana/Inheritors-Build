@@ -39,7 +39,7 @@ Dawn Edge[X]
 
 ## DawnEdgeDesc
 Attacking: heals 50 % of damage dealt.[N]
-Defending: ignores 50 % of enemy def.[X]
+Defending: ignores 50 % of enemy Def.[X]
 
 ## GheistName
 Gheist[X]

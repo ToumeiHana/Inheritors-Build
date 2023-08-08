@@ -29,9 +29,11 @@
 #define GenderEventID 0xC5
 #define HollieHelmetlessFlag 0xC6
 #define GarryHelmetlessFlag 0xC7
-#define MauritchDeathFlag 0xC8
+#define FerrynFaceFlag 0xC8
+
 #define MirabelleDeathFlag 0xC9
 #define FabianDeathFlag 0xCA
 #define SuhairaDeathFlag 0xCB
 #define HefinaDeathFlag 0xCC
 #define VidarDeathFlag 0xCD
+#define MauritchDeathFlag 0xCF

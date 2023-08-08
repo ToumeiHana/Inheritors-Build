@@ -24,7 +24,7 @@ Swordmaster (F),0x81ce65c,0x81ceee0
 Assassin,0x81cf040,0x81cf7e8
 Assassin (F),0x81cf940,0x81d0160
 Archer,0x81d02b8,0x81d0a7c
-Archer (F),0x81d0bd4,0x81d13c8
+Archer (F),OutlawFWalk|IsPointer,0x81d13c8
 Sniper,AdventurerWalk|IsPointer,0x81d1d48
 Sniper (F),AdventurerFWalk|IsPointer,0x81d2714
 Forrest Knight,0x81d286c,0x81d3194
@@ -113,10 +113,10 @@ Civilian,0x8200c54,0x8201338
 Civilian (F),0x8201490,0x8201b84
 Civilian,0x8200c54,0x8201338
 Civilian (F),0x8201490,0x8201b84
-Halberdier,0x8201cdc,0x8202558
-HalberdierF,0x82026b0,0x8202c04
+Halberdier,HalberdierWalk|IsPointer,0x8202558
+HalberdierF,HalberdierWalk|IsPointer,0x8202c04
 Ballistician,BallisticianWalk|IsPointer,0x8203368
-Queen,0x82034c0,0x82039a0
+Monk_F,MonkFWalk|IsPointer,0x82039a0
 Rock,RockWalk|IsPointer,0x81f95f4
 Fallen Prince,0x8203fe4,0x82043c8
 Tent,0x8204520,0x8204940

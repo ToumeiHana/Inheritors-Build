@@ -45,3 +45,21 @@ WernerCav:
 LagrangePal:
 	#incbin "./_palettes/LagrangePal.lzpal" 
 
+AnisMonk:
+	#incbin "./_palettes/AnisMonk.lzpal" 
+
+CaitlindPeg:
+	#incbin "./_palettes/CaitlindPeg.lzpal" 
+
+AlysaPeg:
+	#incbin "./_palettes/AlysaPeg.lzpal" 
+
+IngaHero:
+	#incbin "./_palettes/IngaHero.lzpal" 
+
+DaveMerc:
+	#incbin "./_palettes/DaveMerc.lzpal" 
+
+DaveHero:
+	#incbin "./_palettes/DaveHero.lzpal" 
+

@@ -70,6 +70,7 @@ adding yourself!
 - Peerles: Soldier
 - Teraspark: FMonk
 - ArcherBias: Adventurers
+- TheBlindArcher: Halberdier
 
 # Mugs
 

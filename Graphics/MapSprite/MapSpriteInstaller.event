@@ -180,3 +180,14 @@ ALIGN 4
 MonkFWalk:
 #incbin "dmp/MonkFTerasparkwalk.dmp"
 
+ALIGN 4
+HalberdierStand:
+#incbin "dmp/HalberdierTBAstand.dmp"
+
+ALIGN 4
+HalberdierWalk:
+#incbin "dmp/HalberdierTBAwalk.dmp"
+
+ALIGN 4
+OutlawFWalk:
+#incbin "dmp/OutlawFWalk.dmp"

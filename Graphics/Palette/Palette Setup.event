@@ -59,3 +59,27 @@
 // LagrangePal
 	setPalette(0xE,LagrangePal)
 	setCBSP(0xE,Bazba,0x2,Paladin_F)
+
+// AnisMonk
+	setPalette(0xF,AnisMonk)
+	setCBSP(0xF,Anis,0x1,Monk_F)
+
+// CaitlindPeg
+	setPalette(0x10,CaitlindPeg)
+	setCBSP(0x10,Caitlind,0x1,AxePeg)
+
+// AlysaPeg
+	setPalette(0x11,AlysaPeg)
+	setCBSP(0x11,Alysa,0x1,PegasusKnight)
+
+// IngaHero
+	setPalette(0x12,IngaHero)
+	setCBSP(0x12,Inga,0x2,Hero_F)
+
+// DaveMerc
+	setPalette(0x13,DaveMerc)
+	setCBSP(0x13,Dave,0x1,Mercenary)
+
+// DaveHero
+	setPalette(0x14,DaveHero)
+	setCBSP(0x14,Dave,0x2,Hero)
