@@ -63,3 +63,6 @@ DaveMerc:
 DaveHero:
 	#incbin "./_palettes/DaveHero.lzpal" 
 
+KimikoMyrm:
+	#incbin "./_palettes/KimikoMyrm.lzpal" 
+

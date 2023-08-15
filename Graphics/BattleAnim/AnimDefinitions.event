@@ -101,6 +101,9 @@
 #define TroubStaff 0x85
 #define TroubUnarmed 0x86
 
+#define AltMyrmSword 0xD9
+#define AltMyrmUnarmed 0xDA
+
 //////////
  
 ALIGN 4
@@ -221,4 +224,10 @@ ALIGN 4
 TroubAnims:
 StaffAnim(TroubStaff)
 UnarmedAnim(TroubUnarmed)
+WORD 0x0
+
+ALIGN 4
+FMyrm2Anims:
+SwordAnim(AltMyrmSword)
+UnarmedAnim(AltMyrmUnarmed)
 WORD 0x0

@@ -80,6 +80,10 @@ There's still danger afoot.[A]
 ## Ch3DVText
 Break walls[X]
 
+## EmmanuelBattleQuote
+[MidLeft][LoadEmmanuel]
+Sorry[Beat][CloseEyes] I have no choice[Beat][A][X]
+
 ## SledgeBattleQuote
 [MidLeft][LoadBossThree]
 I-[.4] I'll crush you![A][X]

@@ -23,6 +23,7 @@ BattleQuoteTable:
 BattleQuoteGeneric(ONeill,0,0,Ch1BossEvent,1)
 BattleQuoteSpecific(Breguet,Mirabelle,1,0,Ch2BossEventMirabelle,1)
 BattleQuoteGeneric(Breguet,1,0,Ch2BossEvent,1)
+BattleQuoteGeneric(Emmanuel,2,EmmanuelBattleQuote,0,1)
 BattleQuoteGeneric(Bone,2,0,Ch3BossEvent,1)
 BattleQuoteGeneric(Bazba,3,LagrangeBattleQuote,0,1)
 BYTE 0xFF 0xFF 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 // Terminator

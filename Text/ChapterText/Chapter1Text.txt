@@ -1,10 +1,10 @@
 ## GenderSelectText
-      Select a form.[n]
-(This is purely aesthetic)[a][X]
+           Select a form.[n]
+     (This is purely aesthetic)[a][X]
 
 ## Ch1PreMap
 [MidRight][LoadFace][0x57][0x01]
-Oho? what do we have here?[AN]
+Oho? What do we have here?[AN]
 [FarFarRight][LoadJacob]
 ...[tis]![N]
 ...ke up![AN]

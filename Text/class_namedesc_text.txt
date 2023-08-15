@@ -208,3 +208,7 @@ Engineer[X]
 ## EngineerDesc
 Workers on the battlefield.[N]
 Bad at combat. Equip: Axes[X]
+
+## FalcoDesc
+Swift sky warriors who shrug off[NL]
+magic attacks. Equip: Swords, Lances[.][X]

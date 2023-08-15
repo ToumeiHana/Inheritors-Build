@@ -8,6 +8,8 @@
 .equ SetTacticianName, 0x80314ED
 .equ GetStringFromIndex, 0x800A241
 .equ CheckEventId, 0x800D4B9
+.equ CeleisName, NameSwitchLiterals
+.equ CurtisName, CeleisName+4
 
 push	{lr}
 
@@ -16,14 +18,21 @@ blh CheckEventId
 cmp r0, #0
 bne Male
 
-ldrh r0, =#0x0ed0
+ldr r0, CeleisName
 b SetText
 
 Male:
-ldrh r0, =#0x0ecf
+ldr r0, CurtisName
 
 SetText:
 blh GetStringFromIndex
 blh SetTacticianName
 
 pop {pc}
+
+.align
+.ltorg
+
+NameSwitchLiterals:
+@WORD CeleisName
+@WORD CurtisName

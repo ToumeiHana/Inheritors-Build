@@ -122,8 +122,6 @@ UnitMenuTable:
   
   UM_Summon_DK
   UM_Pick
-
-  MenuCommand(UM_Bait, UM_BaitDesc, NormalText, BaitUsability, BaitEffect)
   
 #ifndef COMBAT_ARTS
 
@@ -179,6 +177,10 @@ UnitMenuTable:
   // MenuCommand(UMText_Switch,UMText_SwitchDesc,GreenText,SwitchUsability,SwitchCommand)   //switch
   UM_Drop
 
+  MenuCommand(UM_Bait, UM_BaitDesc, NormalText, BaitUsability, BaitEffect)
+  
+  MenuCommand(UM_Promote, UM_PromoteDesc, NormalText, PromoteUsability, PromoteEffect) 
+  
   #ifdef __DEBUG__
 	#ifndef Playtest
         MenuCommand(UM_EditSkill, UM_EditSkillDesc, OrangeText, $04F449, SkillDebugCommand_OnSelect)

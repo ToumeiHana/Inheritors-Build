@@ -83,3 +83,7 @@
 // DaveHero
 	setPalette(0x14,DaveHero)
 	setCBSP(0x14,Dave,0x2,Hero)
+
+// KimikoMyrm
+	setPalette(0x16,KimikoMyrm)
+	setCBSP(0x16,Kimiko,0x1,Myrmidon_F)

@@ -23,9 +23,9 @@ Stalwart: If Garry attacks without[N]
 moving, he will double.[X]
 
 ## SD_Alacrity
-^{Alacrity: If unit initiates combat with an AS}[N]
-^{advantage of 8 or more, unit's follow-up}[N]
-^{(if possible) occurs before counterattack.}[X]
+Alacrity: If unit initiates with an AS[N]
+advantage of 8 or more, unit's follow-up[N]
+occurs before enemy's counterattack.[X]
 
 ## SD_Lumberjack
 Lumberjack: Negates terrain bonuses[N]
@@ -967,7 +967,7 @@ gain 1.5x Str, Skl, & Spd.[X]
 Insight: Hit +20.[X]
 
 ## SD_Vigilance
-Baitstep: Avoid +10. Bait command[N]
+Baitstep: Avoid +10. "Bait" command[N]
 grants Diane provoke & 15 additonal[N]
 avoid until next player phase.[X]
 

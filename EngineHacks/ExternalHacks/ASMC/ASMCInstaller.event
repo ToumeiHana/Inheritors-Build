@@ -5,4 +5,5 @@ StartingGold:
 ALIGN 4
 NameSwitch:
 #incbin "NameSwitch.dmp"
-
+WORD CeleisName
+WORD CurtisName

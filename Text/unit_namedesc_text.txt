@@ -7,10 +7,10 @@ Male[X]
 ## FemaleText
 Female[X]
 
-#0x0ecf CurtisName
+## CurtisName
 Curtis[X]
 
-#0x0ed0 CeleisName
+## CeleisName
 Celeis[X]
 
 ## CurtisDesc

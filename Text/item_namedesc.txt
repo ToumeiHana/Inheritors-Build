@@ -32,7 +32,7 @@ A cursed, bloodthirsty katana.[X]
 Mooncleaver[X]
 
 ## MooncleaverDesc
-Magical. Ignores res.[X]
+Magical. Ignores Res. Cannot double.[X]
 
 ## DawnEdgeName
 Dawn Edge[X]

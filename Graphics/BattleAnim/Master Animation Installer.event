@@ -100,3 +100,7 @@
 #include "TroubadourShortHairRepalBatimaTheBat/Unarmed Installer.event"
 }
 
+{
+#include "Maiser6FMyrmReskin/Sword Installer.event"
+#include "Maiser6FMyrmReskin/Unarmed Installer.event"
+}

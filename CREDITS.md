@@ -53,7 +53,7 @@ adding yourself!
 - Pikmin1211: MPaladin, FCav
 - Temp: FWarrior
 - helmfried: FWarrior
-- Maiser6; FCav
+- Maiser6; FCav, FMyrm
 - BatimaTheBat: Troubadour
 
 # Tilesets
@@ -110,8 +110,8 @@ adding yourself!
 - Aera: Thracia trading, remove link arena
 - Zane: MMB
 - Teraspark: IER, fancy staves
-- 7743: Flag-based map bgm change, continue map bgm to battle
-- Vesly: Additional prebattle calcloop, extended weapon desc box
+- 7743: Flag-based map bgm change, continue map bgm to battle, individual banim by unit
+- Vesly: Additional prebattle calcloop, extended weapon desc box, promote by menu command
 - stan: lordsplitmenu
 - AuraWolf: Modular Unit Menu
 - Mokha: Status rework

@@ -74,7 +74,9 @@ POP
   
   #include "ExternalHacks/ItemSpecialEffect/Installer.event"
   
-  //#include "ExternalHacks/GenderedText/GenderedText.event"
+  #include "ExternalHacks/PromoteCommand/Installer.event"
+  
+  #include "ExternalHacks/Individual_animation_ea_2/Installer.event"
   
   #include "ExternalHacks/DynamicPortraits/DynamicPortraitsInstaller.event"
   
