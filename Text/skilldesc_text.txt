@@ -1,3 +1,8 @@
+## SD_WasteNot
+Waste Not: On the hit his[N]
+weapon breaks, Dave gains extra[N]
+damage equal to its might.[X]
+
 ## SD_KillingIntent
 Killing Intent: Caitlind gains[N]
 +15 hit if a hit from her[N]

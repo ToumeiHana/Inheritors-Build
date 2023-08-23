@@ -130,7 +130,7 @@ BYTE 0
 
 ShoveClassList:
 BYTE Outlaw Outlaw_F Mercenary Mercenary_F Fighter Brigand Pirate Berserker Warrior Priest Cleric Bishop Bishop_F Summoner Summoner_F Mage Mage_F Sage Sage_F Monk Shaman Shaman_F Druid Druid_F Eye EphraimLord Recruit_1 Fighter_F Claw Myrmidon
-BYTE Soldier Tail Flamelash Sharpclaw Horn Skypiercer Halberdier Halberdier_F Monk_F Gut
+BYTE Soldier Tail Flamelash Sharpclaw Horn Skypiercer Halberdier Halberdier_F Monk_F Gut Eye_F Seer Seer_F Berserker_F Warrior_F Myrmidon_F
 BYTE 0
 
 SmiteClassList:

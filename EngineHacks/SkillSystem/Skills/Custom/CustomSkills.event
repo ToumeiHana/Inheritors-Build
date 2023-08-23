@@ -72,3 +72,8 @@ KillingIntent:
 POIN SkillTester
 WORD KillingIntentID
 
+ALIGN 4
+WasteNot:
+#incbin "WasteNot.dmp"
+POIN SkillTester
+WORD WasteNotID

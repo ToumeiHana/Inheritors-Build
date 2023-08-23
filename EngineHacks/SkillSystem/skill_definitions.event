@@ -667,6 +667,9 @@
 
 //Proc Skills
 
+// WasteNot
+#define WasteNotID 28
+
 //DawnEffect
 #define DawnID 22
 
@@ -712,7 +715,7 @@
 //Colossus: Triples Strength. (Skill % activation)
 //Author Unknown (Initial Commit)
 //#define ColossusID 32
-#define ColossusID 28
+#define ColossusID 255
 
 //Corona: Negate enemy resistance. (Skill% activation)
 //By Sme
