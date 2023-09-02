@@ -145,6 +145,7 @@ BeginningScene:
 	FADI 10
 #endif // __DEBUG__
 
+	EVBIT_MODIFY 1
 	SetBackground(0x31)
 	ASMC StartingGold|1
 	
@@ -163,6 +164,7 @@ BeginningScene:
 	
 	LABEL 200	
 	ASMC NameSwitch|1
+	EVBIT_MODIFY 0
 	FADI 10
 	
 	LOAD1 0x1 EnemyUnits

@@ -47,3 +47,17 @@ Gheist[X]
 ## GheistDesc
 Equip to summon phantoms.[X]
 
+## PeikonhammasName
+Peikonhammas[X]
+
+## VedenneitoName
+Vedenneito[X]
+
+## UkonvasaraName
+Ukonvasara[X]
+
+## HiidenhirviName
+Hiidenhirvi[X]
+
+## KokkolintuName
+Kokkolintu[X]

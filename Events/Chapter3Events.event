@@ -23,6 +23,7 @@ PointerList:
 TurnBasedEvents:
 
 	TurnEventPlayer(0,FloorTextBranches,1)
+	TurnEventPlayer(0,DVIntroTextEvent,1)
 	TurnEventPlayer(0,LooterSpawn,8)
 	//TurnEventPlayer(0,BrigandCharge,6)
 	//TurnEventPlayer(10,BossDefeatedEvent,1)
@@ -140,12 +141,20 @@ Traps2:
 
 BeginningScene:
 
+
+	
+
 	CAMERA [5,6]
 	LOAD1 0x1 EnemyUnits
 	ENUN
 	
 	LOAD1 0x1 LibbyGroup
 	ENUN
+
+	MUSC TroubleID
+	SetBackground(Outside_Village_Day)
+	Text(Ch3PreMapText)
+	EndConvo
 	
 	Text(Ch3OpeningText)
 	MOVE 0 Libby [4,1]
@@ -210,6 +219,21 @@ FloorTextBranches:
 	Text(JanessaFloorText)
 	
 	LABEL 4
+	NoFade
+	ENDA
+	
+DVIntroTextEvent:
+	CHECK_DEPLOYED Mirabelle
+	BEQ 5 s0 sC
+	
+	CAMERA [22,17]
+	CURSOR_FLASHING [22,17]
+	STAL 50
+	REMOVE_CURSORS
+	CAMERA Curtis
+	Text(ProtagMirabelleDVText)
+	
+	LABEL 5
 	NoFade
 	ENDA
 	
