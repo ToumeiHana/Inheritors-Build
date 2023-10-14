@@ -6,6 +6,8 @@
 #define WindDestinationID 0x0d
 #define TruthID 0x0e
 #define SteelCockpitID 0x0F
+#define HouraiVictimID 0x13
+#define IcemanID 0x14
 #define VanishingTrooperID 0x15
 #define MiitopiaBattleID 0x16
 #define DarkColossusID 0x17
@@ -20,7 +22,7 @@
 #define LandOfConflictID 0x24
 #define TroubleID 0x26
 #define OffToWarID 0x27
-#define DepartureID 0x27
+//#define DepartureID 0x27
 #define KnightsOathID 0x28
 #define RuinsNightID 0x2A
 #define NearFarID 0x30

@@ -161,7 +161,7 @@ Equip: Claws[X]
 Horn[X]
 
 ## SkypiercerClass
-Skypiercer[X]
+Hardhorn[X]
 
 ## WingClass
 Wing[X]

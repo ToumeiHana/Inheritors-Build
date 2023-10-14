@@ -64,7 +64,8 @@ VeinHPFix2:
 
 ALIGN 4
 VeinTextBox:
-  #incbin "asm/dv_display.dmp"
+  //#incbin "asm/dv_display.dmp"
+  #include "asm/dv_display.lyn.event"
 
 
 

@@ -17,8 +17,8 @@ SongTable(QuestBattleID,questbattle,MapMusicGroup)
 SongTable(DefendGlobeID,song2E,BattleMusicGroup)
 #include "event/DefendGlobePsyche.event"
 
-SongTable(DepartureID,Departure,MapMusicGroup)
-#include "event/DepartureRSFlame.event"
+//SongTable(DepartureID,Departure,MapMusicGroup)
+//#include "event/DepartureRSFlame.event"
 
 SongTable(KnightsOathID,song28,MapMusicGroup)
 #include "event/FE7AKnight_sOathRandomWizard.event"
@@ -108,3 +108,9 @@ SongTable(WindDestinationID,WindDestination,MapMusicGroup)
 
 SongTable(TruthID,Truth0,MapMusicGroup)
 #include "event/Truth0.event"
+
+SongTable(IcemanID,iceman0000,MapMusicGroup)
+#include "event/iceman0000.event"
+
+SongTable(HouraiVictimID,extend_ash_hourai_victim_000,MapMusicGroup)
+#include "event/extend_ash_hourai_victim_000.event"

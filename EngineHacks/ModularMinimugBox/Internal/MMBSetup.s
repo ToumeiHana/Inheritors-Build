@@ -2,6 +2,7 @@
 .thumb
 
 .include "../CommonDefinitions.inc"
+.include "Definitions.s"
 
 MMBSetup:
 
@@ -26,10 +27,9 @@ MMBSetup:
 	bllr
 
 	cmp		r0, #0x00
-	beq		End
-
+	beq		DVcheck
+	
 	@ save unit slot
-
 	mov		r6, r0
 
 	@ Set flag for unit at cursor
@@ -38,9 +38,19 @@ MMBSetup:
 	add		r1, #UnitFlag
 	mov		r0, #0x01
 	strb	r0, [r1]
-
+	b WindowCheck
+	
+	@ Dragon vein things
+	DVcheck:
+	bl DV_check @r0 is text id, or 0 if no text/not a dv
+	cmp r0, #0
+	beq End
+	@ There's text to be printed so raise a flag or smth idk
+	bl DrawDVBox @bad
+	b End
+	
 	@ Next we figure out where to put the window
-
+	WindowCheck:
 	ldr		r0, =WindowPosCheck
 	mov		lr, r0
 	bllr

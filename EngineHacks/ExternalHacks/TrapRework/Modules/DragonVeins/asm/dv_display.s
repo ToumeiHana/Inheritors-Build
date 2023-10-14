@@ -33,7 +33,10 @@ Return_HasUnit:
 Return_normal:
 .long 0x0808CD5C+1
 
+
 DV_check:
+.global	DV_check
+.type	DV_check, %function
 push {r4-r6}
 ldr r2, =0x202bcb0 @misc ram data
 mov r1, #0x14
@@ -105,6 +108,8 @@ bx lr
 @@ CPUFastSet. 
 
 DrawDVBox:
+.global	DrawDVBox
+.type	DrawDVBox, %function
 push {r4-r7, lr}
 mov     r7, r0              @@ save text ID to draw
 
