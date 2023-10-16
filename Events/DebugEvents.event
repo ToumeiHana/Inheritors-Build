@@ -75,7 +75,7 @@ EnemyUnits:
 	UNIT ONeill Hero 0x0 Level(1,Enemy,True) [12,1] 0x00 0x00 0x00 0x00 [SilverAxe, HandAxe] NeverMoveAI
 	UNIT Farum Hero ONeill Level(1,Enemy,True) [11,2] 0x0 0x0 0x0 0x0 [HandAxe] NeverMoveAI
 	UNIT Farum Sage ONeill Level(1,Enemy,True) [12,3] 0x0 0x0 0x0 0x0 [Lightning] NeverMoveAI
-	UNIT Farum Soldier ONeill Level(3,Enemy,True) [5,2] 0x0 0x0 0x0 [AxeReaver] NeverMoveAI
+	UNIT Farum Soldier ONeill Level(3,Enemy,True) [5,2] 0x0 0x0 0x0 [AxeReaver,Javelin] NeverMoveAI
 	UNIT Farum Mercenary ONeill Level(10,Enemy,True) [5,1] 0x0 0x0 0x0 [IronSword] NeverMoveAI
 	UNIT
 

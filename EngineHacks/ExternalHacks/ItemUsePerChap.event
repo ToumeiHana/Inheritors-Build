@@ -45,20 +45,32 @@ ORG $18290
 BYTE NewMovCap
 POP
 
-//WTA things
+//WTA things (bonus damage zeroed, applied elsewhere)
 PUSH
+ORG $59ba93
+BYTE 0x0
 ORG $59ba97
-BYTE 0x02
+BYTE 0x0
+ORG $59a9b
+BYTE 0x0
 ORG $59a9f
-BYTE 0x02
+BYTE 0x0
+ORG $59baa3
+BYTE 0x0
 ORG $59BAA7
-BYTE 0x02
+BYTE 0x0
+ORG $59baab
+BYTE 0x0
 ORG $59BAAf
-BYTE 0x02
+BYTE 0x00
+ORG $59bab3
+BYTE 0x0
 ORG $59BAB7
-BYTE 0x02
+BYTE 0x0
+ORG $59BABb
+BYTE 0x0
 ORG $59BABF
-BYTE 0x02
+BYTE 0x0
 POP
 
 //Remove Link Arena
