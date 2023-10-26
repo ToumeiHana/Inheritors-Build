@@ -70,6 +70,8 @@ POP
   
    //#include "ExternalHacks/AutosaveKiller/AutosaveKiller.event"
    
+  //#include "ExternalHacks/UnitTargeting/UnitTargeting.event" //Uncomment for GaidenMagicAI later?
+   
   #include "ExternalHacks/Asymmetric_WTA/Asymmetric_WTA.event"
   
   #include "ExternalHacks/FE8-Text_Engine_Rework/_FE8-Text_Engine_Rework_EA.event"

@@ -103,7 +103,10 @@ setMugEntry(0x0C, Katja_Mug, 3,6,3,4)
 
 ALIGN 4
 Libby_Mug:
-#incext PortraitFormatter "Cleric.png"
+#incbin "dmp/Cleric_mug.dmp"
+#incbin "dmp/Cleric_frames.dmp"
+#incbin "dmp/Cleric_palette.dmp"
+#incbin "dmp/Cleric_minimug.dmp"
 setMugEntry(0x0D, Libby_Mug, 4,6,4,4)
 
 ALIGN 4
@@ -209,6 +212,14 @@ Llewella_Mug:
 #incbin "dmp/Lewella_palette.dmp"
 #incbin "dmp/Lewella_minimug.dmp"
 setMugEntry(0x23,Llewella_Mug,3,6,3,4)
+
+ALIGN 4
+Radcliff_Mug:
+#incbin "dmp/Radcliff_mug.dmp"
+#incbin "dmp/Radcliff_frames.dmp"
+#incbin "dmp/Radcliff_palette.dmp"
+#incbin "dmp/Radcliff_minimug.dmp"
+setMugEntry(0x26,Radcliff_Mug,3,5,3,3)
 
 ALIGN 4
 Caitlind_Mug:

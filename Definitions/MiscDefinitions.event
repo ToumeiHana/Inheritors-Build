@@ -27,8 +27,8 @@
 
 //Global Flags
 #define GenderEventID 0xC5
-#define HollieHelmetlessFlag 0xC6
-#define GarryHelmetlessFlag 0xC7
+#define HollieHelmetlessFlag 0x8B
+#define GarryHelmetlessFlag 0x8C
 #define FerrynFaceFlag 0xC8
 
 #define MirabelleDeathFlag 0xC9

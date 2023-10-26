@@ -114,3 +114,6 @@ SongTable(IcemanID,iceman0000,MapMusicGroup)
 
 SongTable(HouraiVictimID,extend_ash_hourai_victim_000,MapMusicGroup)
 #include "event/extend_ash_hourai_victim_000.event"
+
+SongTable(BloomNoblyID,bloomnobly_yoimutu,BattleMusicGroup)
+#include "event/bloomnobly_yoimutu.event"

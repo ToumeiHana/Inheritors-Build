@@ -59,7 +59,7 @@ and thickets on the dark grass.[A][N]
 How much longer until the bridge[N]
 is ready to be deployed?[A][N]
 [MidLeft]
-Uh... about [Red]4 more turns,[Red] madam![A][X]
+Uh[Beat] about [Red]4 more turns,[Red] madam![A][X]
 
 ## Ch4Pegs
 [MidRight][LoadFace][0x33][0x1]
@@ -86,3 +86,24 @@ We[.] will[.] break[.] through![A][X]
 ## LagrangeDeathQuote
 [MidLeft][LoadBossFour]
 Damn[Beat][.] it[Beat][A][X]
+
+## Ch4EndText1
+[FarLeft][LoadCurtis]
+[Left][LoadJanessa]
+[FarRight][LoadHollie]
+[Right][LoadGarry]
+a[A]
+[X]
+
+## GarryHelmetText
+Keep Garry without helmet?[N]
+(No gameplay effect)[N]
+[Yes][X]
+
+## HollieHelmetText
+Keep Hollie without helmet?[N]
+(No gameplay effect)[N]
+[Yes][X]
+
+## Ch4EndText2
+[X]

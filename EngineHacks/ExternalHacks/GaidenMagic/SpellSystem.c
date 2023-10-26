@@ -44,10 +44,14 @@ u8* SpellsGetterForLevel(Unit* unit, int level, int type)  // Same as SpellsGett
 int NewGetUnitEquippedWeapon(Unit* unit) // Autohook to 0x08016B28.
 {
 	int vanillaEquipped = GetVanillaEquipped(unit);
+	int spell = GetFirstAttackSpell(unit);
+
 	if ( gChapterData.currentPhase == ( unit->index & 0xC0 ) )
 	{
 		// It is our phase.
-		if ( !UsingSpellMenu ) { return vanillaEquipped; }
+		//if ( !UsingSpellMenu ) { return vanillaEquipped; }
+		if (!UsingSpellMenu && (unit->index & 0xC0)) { return vanillaEquipped; } // enemies wielding their vanilla wep 		
+		if (!UsingSpellMenu && !(unit->index & 0xC0)) { return (spell ? spell | 0xFF00 : 0); } // for mmb - show first spell 
 		else
 		{
 			// We need to cover the case of using a helpful staff on an ally.
@@ -61,13 +65,17 @@ int NewGetUnitEquippedWeapon(Unit* unit) // Autohook to 0x08016B28.
 	{
 		// It is not our phase.
 		// Well, all the logic is in NewGetUnitEquippedWeaponSlot. Why not get the slot then return that item, checking for case 9 (Gaiden magic)?
-		if ( GetUnitEquippedWeaponSlot(unit) == 9 )
-		{
+		//if ( GetUnitEquippedWeaponSlot(unit) == 9 )
+		//{
 			// We're not using the spell menu, but we're still using Gaiden magic. We must be trying to counter with it.
-			int spell = GetFirstAttackSpell(unit);
-			return ( spell ? spell|0xFF00 : 0 );
-		}
-		else { return vanillaEquipped; }
+			//int spell = GetFirstAttackSpell(unit);
+			//return ( spell ? spell|0xFF00 : 0 );
+		//}
+		//else { return vanillaEquipped; }
+		if (!UsingSpellMenu && (unit->index & 0xC0)) { return vanillaEquipped; } // mmb - enemies wielding their vanilla wep 		
+		if (!UsingSpellMenu && !(unit->index & 0xC0)) { return (spell ? spell | 0xFF00 : 0); } // for mmb - show first spell 
+
+		return (spell ? spell | 0xFF00 : 0);
 	}
 }
 

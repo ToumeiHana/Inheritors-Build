@@ -34,7 +34,8 @@ TurnBasedEvents:
 	TurnEventPlayer(0,Turn8Reinforcements,8)
 	TurnEventPlayer(11,AIChanges,10)
 	//TurnEventPlayer(0,EndingScene,13)
-	Survive(EndingScene,13)
+	//Survive(EndingScene,13)
+	Survive(EndingScene,3)
 	END_MAIN
 
 ALIGN 32
@@ -453,6 +454,38 @@ SHORT 0
 SHORT 0
 	
 EndingScene:
+
+	Text(Ch4EndText1)
+	
+	EVBIT_MODIFY 4
+	
+	CHECK_ALIVE Garry
+	BEQ 30 s0 sC
+	CenterTutorialTextBox
+	TUTORIALTEXTBOXSTART
+	TEXTSHOW GarryHelmetText
+	TEXTEND
+	REMA
+	
+	BEQ 30 s0 sC
+	ENUT GarryHelmetlessFlag
+	
+	LABEL 30
+	CHECK_ALIVE Hollie
+	BEQ 40 s0 sC
+	CenterTutorialTextBox
+	TUTORIALTEXTBOXSTART
+	TEXTSHOW HollieHelmetText
+	TEXTEND
+	REMA
+	
+	BEQ 40 s0 sC
+	ENUT HollieHelmetlessFlag
+	
+	LABEL 40
+	EVBIT_MODIFY 0
+	Text(Ch4EndText2)
+	
 	MNC2 Chapter5
 	NoFade
 	ENDA

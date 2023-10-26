@@ -7,3 +7,7 @@ NameSwitch:
 #incbin "NameSwitch.dmp"
 WORD CeleisName
 WORD CurtisName
+
+ALIGN 4
+ClearMirabelleInv:
+#incbin "ClearMirabelleInv.dmp"

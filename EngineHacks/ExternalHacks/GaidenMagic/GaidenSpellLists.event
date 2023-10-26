@@ -29,7 +29,8 @@ GaidenList(Curtis,CurtisSpellList)
 
 ALIGN 4
 MirabelleSpellList:
-	BYTE 1 RustyNail
+	BYTE 1 DragonClaw
+	BYTE 2 RustyNail
 	BYTE 81 DesperationSlash
 	BYTE 90 BraveTalon
 	BYTE 0 0

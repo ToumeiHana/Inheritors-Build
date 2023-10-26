@@ -66,7 +66,8 @@ bhi NoWeapon
 NoWeapon:
 	@ This was a jump to FinalCase, but it seems the exact same as vanilla (with the exception of mov r0, #0xFF and mov r0, #0xFE, but that could be a typo?
 	@ We're just gonna jump to vanilla.
-	ldr r0, =#0x802A831
+	ldr r0,  =#0x802A80D 
+	@ldr r0, =#0x802A831 @ Snek did this but vanilla jumps to the above address 
 	bx r0
 
 .ltorg
@@ -85,6 +86,10 @@ cmp r0, r5
 beq SpellMenuDefending
 	ldr r1, =SelectedSpell
 	ldrb r0, [ r1 ]
+	
+	cmp r0, #0  @ Vesly added 
+	beq SpellMenuDefending @ - mmb/stat screen case
+	
 	b WriteSpell
 SpellMenuDefending:
 	@ r0 is already the defense struct, so...

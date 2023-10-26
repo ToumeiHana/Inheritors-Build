@@ -131,6 +131,8 @@ adding yourself!
 - Miffe: Xenoblade - An Obstacle In Our Path
 - Alusq: Custom instrument samples, advanced music suite, FE3 - Off to War Remix
 - Azula: FE11 - Trouble!
+- Baka94: Extended ash ~ Hourai victim
+- yoimutu: Bloom nobly, ink-black cherry blossom ~ Border of life
 
 # Other
 

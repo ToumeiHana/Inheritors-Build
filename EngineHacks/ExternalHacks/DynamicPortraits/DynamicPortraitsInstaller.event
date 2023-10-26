@@ -68,14 +68,14 @@ BYTE 0x00*/
 // Hollie helmet on/off
 SHORT 0x000F
 SHORT 0x0010
-SHORT 0x00C6
+SHORT HollieHelmetlessFlag
 BYTE  0x00 
 BYTE  0x00 
 
 // Garry helmet on/off
 SHORT 0x0013
 SHORT 0x0053
-SHORT 0x00C7
+SHORT GarryHelmetlessFlag
 BYTE  0x00
 BYTE  0x00 
 
