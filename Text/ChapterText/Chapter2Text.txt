@@ -118,3 +118,33 @@ going to beat me! Perish![A][X]
 ## WernerDeathQuote
 [MidLeft][LoadBossTwo]
 To think I[Beat] lost to[Beat][CloseEyes][A][X]
+
+## Ch2EndingTextMiraAlive
+[FarLeft][LoadCurtis]
+[Left][LoadJanessa]
+[MidRight][LoadMirabelle]
+[X]
+
+## Ch2EndingTextMiraDead
+[MidLeft][LoadCurtis]
+[MidRight][LoadJanessa]
+[X]
+
+## MauritchLaurenEndText
+[FarLeft][LoadCurtis]
+[Left][LoadJanessa]
+[FarRight][LoadMauritch]
+[Right][LoadLauren]
+[X]
+
+## LaurenSoloEndText
+[FarLeft][LoadCurtis]
+[Left][LoadJanessa]
+[MidRight][LoadLauren]
+[X]
+
+## KatjaEndText
+[FarLeft][LoadCurtis]
+[Left][LoadJanessa]
+[MidRight][LoadKatja]
+[X]

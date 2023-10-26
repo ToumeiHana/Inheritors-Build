@@ -227,6 +227,33 @@ VillageEvent:
 	ENDA
 
 EndingScene:
+	CHECK_ALIVE Mirabelle
+	BEQ 1 s0 sC
+	Text(Ch2EndingTextMiraAlive]
+	GOTO 2
+	LABEL 1
+	Text(Ch2EndingTextMiraDead)
+	LABEL 2
+	
+	CHECK_ALIVE Mauritch
+	BEQ 3 s0 sC
+	
+	CHECK_ALIVE Lauren
+	BEQ 4 s0 sC
+	Text(MauritchLaurenEndingText)
+	GOTO 5
+	
+	LABEL 3
+	CHECK_ALIVE Lauren
+	BEQ 4 s0 sC
+	Text(LaurenSoloEndingText)
+	GOTO 5
+	
+	LABEL 4
+	//Mauritch Leaves if Lauren dead
+	
+	LABEL 5
+	
 	MNC2 Chapter3
 	NoFade
 	ENDA
