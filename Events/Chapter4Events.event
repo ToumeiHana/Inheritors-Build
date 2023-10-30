@@ -455,7 +455,7 @@ SHORT 0
 	
 EndingScene:
 
-	Text(Ch4EndText1)
+	//Text(Ch4EndText1)
 	
 	EVBIT_MODIFY 4
 	
@@ -466,11 +466,11 @@ EndingScene:
 	TEXTSHOW GarryHelmetText
 	TEXTEND
 	REMA
-	
-	BEQ 30 s0 sC
+	SVAL s1 0x1
+	BNE 0x2 s1 sC
 	ENUT GarryHelmetlessFlag
 	
-	LABEL 30
+	LABEL 0x2
 	CHECK_ALIVE Hollie
 	BEQ 40 s0 sC
 	CenterTutorialTextBox
@@ -478,11 +478,11 @@ EndingScene:
 	TEXTSHOW HollieHelmetText
 	TEXTEND
 	REMA
-	
-	BEQ 40 s0 sC
+	SVAL s1 0x1
+	BNE 0x3 s1 sC
 	ENUT HollieHelmetlessFlag
 	
-	LABEL 40
+	LABEL 0x3
 	EVBIT_MODIFY 0
 	Text(Ch4EndText2)
 	

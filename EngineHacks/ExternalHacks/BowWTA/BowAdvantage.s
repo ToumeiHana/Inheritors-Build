@@ -25,7 +25,7 @@ ble End @No effect when range <= 1
 cmp r0,#4
 bge End @No effect when range >= 4
 
-@Nella's arrowsbane is coded into charID
+@Nella's arrowsbane is hardcoded into charID
 ldr r0, [r5,#0]
 ldrb r0,[r0,#0x4] @defender charID
 cmp r0, #0xD
@@ -58,31 +58,71 @@ cmp r2,#0x3
 beq AttackerBow
 cmp r0,#0x3
 bne End @ If neither have bows, end
+
+mov r0, #0x2B @bow rank
+ldrb r6, [r5, r0] @r6 = wrank byte
+
 ldr r0, =0x203A53F @ Location for hit change for attacker
 ldr r1, =0x203A5BF @ Location for hit change for defender
 mov r2, #0x0F      @ 15 for hit advantage
 mov r3, #0xF1      @ -15 for hit disadvantage
+mov r4, #0x02      @ 2 for damage advantage
+mov r5, #0xFF      @ -1 for damage disadvantage
+
+cmp r6, #121 @121 = Brank
+blt StoreDefender
+add r2, #0x05
+
+cmp r6, #181 @181 = Arank
+blt StoreDefender
+add r4, #0x01
+sub r5, #0x01
+
+cmp r6, #251 @251 = Srank
+blt StoreDefender
+add r2, #0x05
+add r4, #0x01
+
+StoreDefender:
 strb r3, [ r0 ]
 strb r2, [ r1 ]
-mov r2, #0x02      @ 2 for damage advantage
-mov r3, #0xFF      @ -1 for damage disadvantage
-strb r3, [ r0, #1 ]
-strb r2, [ r1, #1 ] @ Damage location is only one up from hit location
+strb r5, [ r0, #1 ]
+strb r4, [ r1, #1 ] @ Damage location is only one up from hit location
 b End
 
 AttackerBow:
 cmp r0,r2
 beq End @ If both have bows, end
+
+mov r0, #0x2B @bow rank
+ldrb r6, [r4, r0] @r6 = wrank byte
+
 ldr r0, =0x203A53F @ Location for hit change for attacker
 ldr r1, =0x203A5BF @ Location for hit change for defender
 mov r2, #0x0F      @ 15 for hit advantage
 mov r3, #0xF1      @ -15 for hit disadvantage
+mov r4, #0x02      @ 2 for damage advantage
+mov r5, #0xFF      @ -1 for damage disadvantage
+
+cmp r6, #121 @121 = Brank
+blt StoreAttacker
+add r2, #0x05
+
+cmp r6, #181 @181 = Arank
+blt StoreAttacker
+add r4, #0x01
+sub r5, #0x01
+
+cmp r6, #251 @251 = Srank
+blt StoreAttacker
+add r2, #0x05
+add r4, #0x01
+
+StoreAttacker:
 strb r2, [ r0 ]
 strb r3, [ r1 ]
-mov r2, #0x02      @ 2 for damage advantage
-mov r3, #0xFF      @ -1 for damage disadvantage
-strb r2, [ r0, #1 ]
-strb r3, [ r1, #1 ] @ Damage location is only one up from hit location
+strb r4, [ r0, #1 ]
+strb r5, [ r1, #1 ] @ Damage location is only one up from hit location
 
 
 End:

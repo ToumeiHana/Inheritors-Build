@@ -54,14 +54,14 @@ BYTE  #0x00 We don't care about Seth's class here
 // Celeis/Curtis
 SHORT 0x0014
 SHORT 0x0002
-SHORT 0x00C5
+SHORT GenderEventID
 BYTE  0x00
 BYTE  0x00 
 
 // Celeis/Curtis 2: dragon eye bogaloo
 /*SHORT
 SHORT
-SHORT 0x00C5
+SHORT GenderEventID
 BYTE 0x00
 BYTE 0x00*/
 

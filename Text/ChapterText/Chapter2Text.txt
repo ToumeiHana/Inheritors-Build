@@ -127,7 +127,14 @@ To think I[Beat] lost to[Beat][CloseEyes][A][X]
 
 ## Ch2EndingTextMiraDead
 [MidLeft][LoadCurtis]
+[Beat][AN]
 [MidRight][LoadJanessa]
+[Tact][Beat][AN]
+[MidLeft]
+We were too late[Beat][.4][N]
+We couldn't save her[Beat][AN]
+[MidRight]
+
 [X]
 
 ## MauritchLaurenEndText

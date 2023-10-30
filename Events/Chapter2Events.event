@@ -229,7 +229,7 @@ VillageEvent:
 EndingScene:
 	CHECK_ALIVE Mirabelle
 	BEQ 1 s0 sC
-	Text(Ch2EndingTextMiraAlive]
+	Text(Ch2EndingTextMiraAlive)
 	GOTO 2
 	LABEL 1
 	Text(Ch2EndingTextMiraDead)
@@ -240,20 +240,25 @@ EndingScene:
 	
 	CHECK_ALIVE Lauren
 	BEQ 4 s0 sC
-	Text(MauritchLaurenEndingText)
+	Text(MauritchLaurenEndText)
 	GOTO 5
 	
 	LABEL 3
 	CHECK_ALIVE Lauren
 	BEQ 4 s0 sC
-	Text(LaurenSoloEndingText)
+	Text(LaurenSoloEndText)
 	GOTO 5
 	
 	LABEL 4
 	//Mauritch Leaves if Lauren dead
+	REMOVEUNIT Mauritch
 	
 	LABEL 5
+	CHECK_ALIVE Katja
+	BEQ 6 s0 sC
+	Text(KatjaEndText)
 	
+	LABEL 6
 	MNC2 Chapter3
 	NoFade
 	ENDA
