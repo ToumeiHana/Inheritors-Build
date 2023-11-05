@@ -59,6 +59,7 @@ adding yourself!
 # Tilesets
 
 - Flasuban: Improved Village
+- Gamma, ZoramineFae, Venno, N426: Desert Bastion
 
 # MapSprites
 

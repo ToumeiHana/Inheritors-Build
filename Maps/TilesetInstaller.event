@@ -9,14 +9,24 @@ VillageConfig:
 #incext compress "VillageV2Config.mapchip_config"
 
 ALIGN 4
-VillageDefendConfig:
-#incext compress "VillageV2ConfigVerDefend.mapchip_config"
-
-ALIGN 4
 VillagePallette:
 #incbin "VillageV2Palette.dmp"
 
+ALIGN 4
+DesertBObjects:
+#incext Png2Dmp "DesertBObjects.png" --lz77
+
+ALIGN 4
+DesertBConfig:
+#incext compress "Desert Bastion Village Mapchip Config.mapchip_config"
+
+ALIGN 4
+DesertBPalette:
+#incext Png2Dmp "DesertBObjects.png" --palette-only
+
 EventPointerTable(VillageObjectsID, VillageObjects)
 EventPointerTable(VillageConfigID, VillageConfig)
-EventPointerTable(VillageDefendConfigID, VillageDefendConfig)
 EventPointerTable(VillagePaletteID, VillagePallette)
+EventPointerTable(DesertBObjectsID, DesertBObjects)
+EventPointerTable(DesertBConfigID,DesertBConfig)
+EventPointerTable(DesertBPaletteID,DesertBPalette)

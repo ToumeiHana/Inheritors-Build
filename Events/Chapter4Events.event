@@ -34,8 +34,8 @@ TurnBasedEvents:
 	TurnEventPlayer(0,Turn8Reinforcements,8)
 	TurnEventPlayer(11,AIChanges,10)
 	//TurnEventPlayer(0,EndingScene,13)
-	//Survive(EndingScene,13)
-	Survive(EndingScene,3)
+	Survive(EndingScene,13)
+	//Survive(EndingScene,3)
 	END_MAIN
 
 ALIGN 32
@@ -387,7 +387,8 @@ CounterCheck:
 	SVAL 1 3
 	BNE 1 s1 sC
 	
-	TILEREVERT 5
+	//TILEREVERT 5
+	TILECHANGE 6
 	
 	LABEL 1	
 	NoFade
