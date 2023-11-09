@@ -117,6 +117,7 @@ adding yourself!
 - AuraWolf: Modular Unit Menu
 - Mokha: Status rework
 - Snakey1: Gendered Text
+- 2WB: Portrait Height Fix
 
 # Music
 

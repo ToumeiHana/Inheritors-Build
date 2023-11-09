@@ -191,3 +191,11 @@ HalberdierWalk:
 ALIGN 4
 OutlawFWalk:
 #incbin "dmp/OutlawFWalk.dmp"
+
+ALIGN 4
+OutlawStand:
+#incbin "dmp/OutlawStand.dmp"
+
+ALIGN 4
+OutlawWalk:
+#incbin "dmp/OutlawWalk.dmp"

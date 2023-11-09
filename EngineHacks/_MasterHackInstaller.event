@@ -71,6 +71,8 @@ POP
    //#include "ExternalHacks/AutosaveKiller/AutosaveKiller.event"
    
   //#include "ExternalHacks/UnitTargeting/UnitTargeting.event" //Uncomment for GaidenMagicAI later?
+  
+  #include "ExternalHacks/PortraitShift/Portrait Shift Table.event"
    
   #include "ExternalHacks/Asymmetric_WTA/Asymmetric_WTA.event"
   
