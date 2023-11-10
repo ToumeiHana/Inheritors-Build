@@ -5,6 +5,7 @@
 .endm
 .equ CantoID, SkillTester+4
 .equ Option, CantoID+4
+.equ PerfectionistID, Option+4
 .thumb
 push	{lr}
 @check if dead
@@ -57,6 +58,10 @@ and	r0, r1
 cmp	r0, #0x00
 bne	End
 
+@Check for moving after staffing for Lauren
+cmp r0, #0x4 @check if staff used
+beq PerfectionistCheck
+
 @check for option and ability
 ldr	r0,Option
 cmp	r0,#0
@@ -87,6 +92,22 @@ mov	lr, r3
 .short	0xf800
 cmp	r0,#0x00
 beq	End
+b CanCanto
+
+PerfectionistCheck:
+mov	r0, r4
+ldr	r1, PerfectionistID
+ldr	r3, SkillTester
+mov	lr, r3
+.short	0xf800
+cmp	r0,#0x00
+beq	End
+
+@hp not at full
+ldrb r0, [r4, #0x12] @max hp
+ldrb r1, [r4, #0x13] @curr hp
+cmp r0, r1
+bne End @skip if not max hp
 
 CanCanto:
 @if canto, unset 0x2 and set 0x40

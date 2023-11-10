@@ -847,8 +847,8 @@ Point Blank: Minimum range of[N]
 equipped bows is set to 1.[X]
 
 ## SD_Perfectionist
-Perfectionist: +15 Hit/Avoid when[N]
-user's HP is at maximum.[X]
+Perfect Poise: Lauren gains +20 avo[N]
+and Canto after staffing at full HP.[X]
 
 ## SD_Puissance
 Puissance: +3 Damage when the user's[N]

@@ -89,6 +89,7 @@ Canto:
 POIN SkillTester
 WORD CantoID
 WORD ENABLE_LEGACY_CANTO
+WORD PerfectionistID
 
 ALIGN 4
 CantoPlus:
