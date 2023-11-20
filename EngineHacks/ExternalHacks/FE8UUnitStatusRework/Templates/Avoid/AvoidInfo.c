@@ -5,8 +5,8 @@
 extern const u16 Gfx_UnitStatus_Avoid[];
 
 const struct UnitStatusInfo StatusInfo_Avoid = {
-	.msg_name = 0x3c, // ENUM_msg_UnitStatusName_Avoid,
-	.msg_desc = 0x3d, // ENUM_msg_UnitStatusDesc_Avoid,
+	.msg_name = 0xd4e, // ENUM_msg_UnitStatusName_Avoid,
+	.msg_desc = 0xd4f, // ENUM_msg_UnitStatusDesc_Avoid,
 	.is_buff = 1,
 	.duration = 1,
 	.avo_bonus = 15,

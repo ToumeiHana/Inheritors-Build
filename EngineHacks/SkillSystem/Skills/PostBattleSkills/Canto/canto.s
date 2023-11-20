@@ -59,7 +59,8 @@ cmp	r0, #0x00
 bne	End
 
 @Check for moving after staffing for Lauren
-cmp r0, #0x4 @check if staff used
+ldrb  r0, [r6,#0x11]  @action taken this turn
+cmp r0, #0x3 @check if staff used
 beq PerfectionistCheck
 
 @check for option and ability

@@ -7,7 +7,7 @@ Routine_Start:
 
 push {r4-r5,lr}
 
-mov r0, #0x5A
+ldrh r0, =DragonPowerDesc
 
 mov r1,r4
 add r1, #0x4c

@@ -31,6 +31,7 @@
 //#define HeavyArmorCorpsID 0x34
 //#define MushroomGorgeID 0x35
 #define WaterStarID 0x35
+#define WindSummonID 0x36
 #define SupremancyBreakerID 0x39
 #define DefendGlobeID 0x3f
 #define FlapperGirlID 0x44

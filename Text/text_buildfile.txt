@@ -12,22 +12,18 @@ Set health bar display[X]
 //first text ID in the free block
 Learned  [X]
 
-#include "statscreen_text.txt"
-
-#include "unitmenu_text.txt"
-
-#0xd4c LikesText
+#0xd4c PromoteText
 //first text ID in the free block
 Promotes to:[X]
 
-#0xd4d DislikesText
-[0x9E]i[0x90]li[0x8A][0x85][0x90]:[X]
+#0xd4d DragonPowersText
+Dragon Powers:[X]
 
-#0xd4e HeightText
-Height:[X]
+#0xd4e SS_BaitText
+Bait[X]
 
-#0xd4f AgeText
-Age:[X]
+#0xd4f SS_BaitDesc
+Provoke & +15 avoid[X]
 
 ## HouseText
 //first text ID in the free block
@@ -133,3 +129,7 @@ a skill when used.[X]
 #include "splitmenutext.txt"
 
 #include "SupportText/SupportTextInstaller.txt"
+
+#include "statscreen_text.txt"
+
+#include "unitmenu_text.txt"

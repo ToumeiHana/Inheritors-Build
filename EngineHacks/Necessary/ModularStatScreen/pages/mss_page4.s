@@ -135,7 +135,7 @@ add    r7, #8
 
 cmp r0, #0x0
 beq NoDP
-draw_textID_at 13, 11, textID=0x059, width=16, colour=Blue
+draw_textID_at 13, 11, textID=0xd4d width=16, colour=Blue
 add r7,#8
 draw_gaiden_spells_at 13, 13, GaidenStatScreen @ GaidenStatScreen is a pointer to the routine, GaidenStatScreen.
 

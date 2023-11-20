@@ -1,11 +1,5 @@
-#0x3B SS_TalkText
+## SS_TalkText
 Talk[X]
-
-## SS_BaitStatus
- Bait[X]
-
-## SS_BaitDesc
-+15 avo and provoke[X]
 
 ## SS_SkillsText
 Skills[X]
@@ -100,9 +94,6 @@ to a new class.[X]
 ## PromotionDataDesc
 Classes this unit can promote[N]
 to and their class skills.[X]
-
-## DragonPowerText
-Dragon Powers:[X]
 
 ## DragonPowerDesc
 Dragonic powers unit can use.[X]

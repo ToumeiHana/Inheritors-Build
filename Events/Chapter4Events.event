@@ -92,7 +92,7 @@ EnemyUnits:
 	UNIT Farum Ballistician Bazba Level(1,Enemy,True) [24,6] 0x0 0x0 0x0 0x0 [Ballista] NeverMoveAI
 	UNIT Engineer EngiClass Bazba Level(3,Enemy,True) [25,3] 0x0 0x0 0x0 0x0  [Hammer] TrueDoNothing
 	UNIT Engineer EngiClass Bazba Level(3,Enemy,True) [25,2] 0x0 0x0 0x0 0x0  [Hammer] TrueDoNothing
-	UNIT Farum PegasusKnight Bazba Level(5,Enemy,True) [20,15] 0x0 0x0 0x0 0x0 [IronLance,Javelin] DefaultAI
+	UNIT Farum PegasusKnight Bazba Level(5,Enemy,True) [20,15] 0x0 0x0 0x0 0x0 [IronLance] DefaultAI
 	UNIT Farum SwordCavalier Bazba Level(6,Enemy,True) [25,10] 0x0 0x0 0x0 0x0 [SteelSword] DefaultAI
 	UNIT Farum AxeCavalier Bazba Level(5,Enemy,True) [26,9] 0x0 0x0 0x0 0x0 [HandAxe] DefaultAI
 	UNIT Farum LanceCavalier Bazba Level(5,Enemy,True) [26,11] 0x0 0x0 0x0 0x0 [Javelin] DefaultAI	
@@ -101,15 +101,15 @@ EnemyUnits:
 	UNIT Farum LanceKnight Bazba Level(5,Enemy,True) [23,9] 0x0 0x0 0x0 0x0 [SteelLance] DelayedChargeAI
 	UNIT Farum BowKnight Bazba Level(5,Enemy,True) [23,10] 0x0 0x0 0x0 0x0 [SteelBow] DelayedChargeAI
 	UNIT Farum LanceKnight Bazba Level(5,Enemy,True) [23,11] 0x0 0x0 0x0 0x0 [SteelLance] DelayedChargeAI
-	UNIT FarumWeak General 0x0 Level(1,Enemy,True) [24,10] 0x0 0x0 0x0 0x0 [SteelBlade,SteelBow,RedGem] NeverMoveAI
+	UNIT FarumWeak General 0x0 Level(1,Enemy,True) [24,10] 0x0 0x0 0x0 0x0 [IronBlade,IronBow,RedGem] NeverMoveAI
 	UNIT
 
 EnemyUnits2:
-	UNIT Farum LanceKnight Bazba Level(5,Enemy,True) [4,10] 0x0 0x0 0x0 0x0 [SteelLance, Javelin] NeverMoveAI
+	//UNIT Farum LanceKnight Bazba Level(5,Enemy,True) [4,10] 0x0 0x0 0x0 0x0 [SteelLance, Javelin] NeverMoveAI
 	UNIT Goon BowKnight Bazba Level(5,Enemy,True) [1,12] 0x0 0x0 0x0 0x0 [SteelBow] AttackInRangeAI
 	UNIT Farum AxeKnight Goon Level(5,Enemy,True) [0,11] 0x0 0x0 0x0 0x0 [IronAxe] MoveWithLeaderAI
 	UNIT Farum SwordKnight Goon Level(5,Enemy,True) [0,13] 0x0 0x0 0x0 0x0 [IronBlade] MoveWithLeaderAI
-	UNIT Farum Priest Goon Level(4,Enemy,True) [0,12] DropItem 0x0 0x0 0x0 [Heal, MineStaff] HealUnits
+	UNIT Farum Priest Goon Level(4,Enemy,True) [0,12] DropItem 0x0 0x0 0x0 [Heal, MineStaff] MoveWithLeaderAI
 	UNIT Farum Soldier Bazba Level(5,Enemy,True) [17,7] 0x0 0x0 0x0 0x0 [SteelLance,Javelin] DefaultAI
 	UNIT Farum Mercenary Bazba Level(5,Enemy,True) [7,7] 0x0 0x0 0x0 0x0 [SteelSword] DefaultAI
 	UNIT Farum Myrmidon_F Bazba Level(5,Enemy,True) [18,13] 0x0 0x0 0x0 0x0 [SteelSword] AttackInRangeAI
@@ -152,8 +152,8 @@ Turn8Lads:
 	UNIT Farum Mage Bazba Level(6,Enemy,True) [10,15] 0x0 0x0 0x1 REDA10R15 [Fire] AttackingSeizerAI
 	UNIT Farum Mercenary_F Bazba Level(5,Enemy,True) [12,15] 0x0 0x0 0x1 REDA12R15 [SteelSword] AttackingSeizerAI
 	UNIT Farum Fighter Bazba Level(5,Enemy,True) [8,15] 0x0 0x0 0x1 REDA8R15 [Hammer] AttackingSeizerAI
-	UNIT Farum AxePegasus Bazba Level(4,Enemy,True) [2,15] 0x0 0x0 0x1 REDA2R15 [IronAxe] SeizerAI
-	UNIT Farum LancePegasus Bazba Level(4,Enemy,True) [25,15] 0x0 0x0 0x1 REDA25R15 [IronLance] SeizerAI
+	//UNIT Farum AxePegasus Bazba Level(4,Enemy,True) [2,15] 0x0 0x0 0x1 REDA2R15 [IronAxe] SeizerAI
+	//UNIT Farum LancePegasus Bazba Level(4,Enemy,True) [25,15] 0x0 0x0 0x1 REDA25R15 [IronLance] SeizerAI
 	UNIT
 
 ExtraBridgeBoys:

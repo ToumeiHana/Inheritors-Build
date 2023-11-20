@@ -78,7 +78,7 @@ POP
   
   #include "ExternalHacks/FE8-Text_Engine_Rework/_FE8-Text_Engine_Rework_EA.event"
   
-  #include "ExternalHacks/ItemSpecialEffect/Installer.event"
+  //#include "ExternalHacks/ItemSpecialEffect/Installer.event"
   
   #include "ExternalHacks/PromoteCommand/Installer.event"
   
