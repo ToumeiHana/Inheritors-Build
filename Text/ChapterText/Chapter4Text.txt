@@ -49,8 +49,8 @@ single one of them through![A][X]
 This is the final push! Charge![A][X]
 
 ## Ch4DVText
-The dragon vein will spawn forests[N]
-and thickets on the dark grass.[A][N]
+The dragon vein will spawn peaks[N]
+as chokepoints on the dark grass.[A][N]
 [Red]The effect will last for 3 turns.[Red][A][X]
 
 ## Ch4BridgeText

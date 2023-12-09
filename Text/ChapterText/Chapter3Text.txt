@@ -137,3 +137,21 @@ Rats[Beat][A][X]
 [MidRight][LoadSideburns]
 They killed boss?[n]
 Let's get them![A][X]
+
+## Ch3EndTextA
+[FarLeft][LoadCurtis]
+[Left][LoadJanessa]
+[FarRight][LoadEmmanuel]
+[Right][LoadLibby]
+[X]
+
+## Ch3EndTextB
+[FarLeft][LoadCurtis]
+[Left][LoadJanessa]
+[MidRight][LoadLibby]
+[X]
+
+## Ch3EndTextC
+[MidLeft][LoadJanessa]
+[MidRight][LoadCurtis]
+[X]
