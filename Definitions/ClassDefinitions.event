@@ -1,5 +1,7 @@
 //Classes
 #define LancerPrince 0x01
+#undef Prince
+#define Prince LancerPrince
 #define Eye 0x02
 #define PrincePromo 0x03
 #define Seer 0x04

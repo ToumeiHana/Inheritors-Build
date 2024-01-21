@@ -192,7 +192,7 @@
 0xBE Gargoyle Disarmed
 0xBF Death Gargoyle
 0xC0 Death Gargoyle Disarmed
-0xC1 Zombie Dragon
+0xC1 Zombie Dragon	//DO NOT TOUCH ZONE
 0xC2 Demon King w/ Ravager
 0xC3 Demon King w/ Demon Light
 0xC4 Mamkute (F)
@@ -200,7 +200,7 @@
 0xC6 White Mamkute Disarmed
 0xC7 Myrra Disarmed
 0xC8 Sister Disarmed
-0xC9 Mamkute
+0xC9 Mamkute	////
 0xCA Fzerker axe
 0xCB Fzerker handaxe
 0xCC Fzerker unarmed
@@ -218,9 +218,9 @@
 0xD8 Hero E
 0xD9 AltMyrmSw
 0xDA AltMyrmUnarm
-0xDB 
+0xDB BaldFighter S
 0xDC 
-0xDD 
+0xDD BF E
 0xDE 
 0xDF 
 0xE0 

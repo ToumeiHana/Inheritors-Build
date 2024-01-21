@@ -63,3 +63,13 @@ ALIGN 4
 BookSummonUsability:
 #incbin "BookSummonUsability.dmp"
 POIN SummonTable
+
+ALIGN 4
+PUSH
+ORG $31224
+jumpToHack(UnitClearFix)
+POP
+
+ALIGN 4
+UnitClearFix:
+#incbin "UnitClearFix.dmp"

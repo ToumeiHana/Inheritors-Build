@@ -104,6 +104,10 @@
 #define AltMyrmSword 0xD9
 #define AltMyrmUnarmed 0xDA
 
+#define BaldFighterAxe 0xDB
+#define BaldFighterHandaxe 0xdc
+#define BaldFighterUnarmed 0xdd
+
 //////////
  
 ALIGN 4
@@ -230,4 +234,11 @@ ALIGN 4
 FMyrm2Anims:
 SwordAnim(AltMyrmSword)
 UnarmedAnim(AltMyrmUnarmed)
+WORD 0x0
+
+ALIGN 4
+BaldFighterAnims:
+AxeAnim(BaldFighterAxe)
+HandAxeAnim(BaldFighterHandaxe)
+UnarmedAnim(BaldFighterUnarmed)
 WORD 0x0

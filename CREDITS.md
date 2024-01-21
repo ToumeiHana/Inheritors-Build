@@ -45,7 +45,7 @@ adding yourself!
 - BlackMage: FFighter
 - Norikins: Elstone
 - eCut: FBerserker
-- Natsumi: FBerserker
+- serif: FBerserker
 - Skitty: FBerserker
 - Eldritch Abomination: FMonk
 - Leo_link: Paladins
@@ -55,6 +55,7 @@ adding yourself!
 - helmfried: FWarrior
 - Maiser6; FCav, FMyrm
 - BatimaTheBat: Troubadour
+- Ty the Bub: Bald Fighter
 
 # Tilesets
 

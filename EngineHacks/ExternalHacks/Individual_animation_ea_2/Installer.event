@@ -24,11 +24,17 @@ POIN CustomAnimeTable
 
 
 CustomAnimeTable:
-BYTE Kimiko  //Unit: Eirika
-BYTE Myrmidon_F  //Class: Lord
+BYTE Kimiko  //Unit
+BYTE Myrmidon_F  //Class
 BYTE 0x00  //dummy
 BYTE 0x00  //dummy
-POIN FMyrm2Anims //Eirika Master Load Battle Animation.
+POIN FMyrm2Anims //Animation
+
+BYTE Marco  //Unit
+BYTE Fighter  //Class
+BYTE 0x00  //dummy
+BYTE 0x00  //dummy
+POIN BaldFighterAnims //Animation
 
 BYTE 0x00  //Unit: term data
 BYTE 0x00  //dummy

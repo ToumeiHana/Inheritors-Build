@@ -35,7 +35,7 @@ TurnBasedEvents:
 	TurnEventPlayer(11,AIChanges,10)
 	//TurnEventPlayer(0,EndingScene,13)
 	Survive(EndingScene,13)
-	//Survive(EndingScene,3)
+	//Survive(EndingScene,2)
 	END_MAIN
 
 ALIGN 32

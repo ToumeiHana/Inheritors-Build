@@ -66,3 +66,6 @@ DaveHero:
 KimikoMyrm:
 	#incbin "./_palettes/KimikoMyrm.lzpal" 
 
+MarcoFighter:
+	#incbin "./_palettes/MarcoFighter.lzpal" 
+

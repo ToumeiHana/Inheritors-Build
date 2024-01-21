@@ -87,3 +87,7 @@
 // KimikoMyrm
 	setPalette(0x16,KimikoMyrm)
 	setCBSP(0x16,Kimiko,0x1,Myrmidon_F)
+
+// MarcoFighter
+	setPalette(0x17,MarcoFighter)
+	setCBSP(0x17,Marco,0x1,Fighter)
