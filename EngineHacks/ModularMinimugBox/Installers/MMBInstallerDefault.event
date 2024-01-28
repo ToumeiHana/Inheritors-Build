@@ -793,7 +793,7 @@ After each set of module options are definitions that you can use to adjust the 
 // DV Module settings
 	#define MMBDVText //undef if you don't want the module
 	#define MMBDVColor TextBlack
-	#define MMBDVX 7
+	#define MMBDVX 1
 	#define MMBDVY 1
 
 ALIGN 4

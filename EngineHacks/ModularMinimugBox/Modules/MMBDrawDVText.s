@@ -3,7 +3,7 @@
 
 .include "../CommonDefinitions.inc"
 
-MMBDrawNameUncentered:
+MMBDrawDVText:
 
 	.global	MMBDrawDVText
 	.type	MMBDrawDVText, %function
@@ -11,6 +11,12 @@ MMBDrawNameUncentered:
 	.set MMBTextColor,			EALiterals + 0
 	.set MMBDVTextXCoordinate,	EALiterals + 4
 	.set MMBDVTextYCoordinate,	EALiterals + 8
+	
+	.set TextDraw, 0x8003E71
+	.set TextSetParameters, 0x8003E69
+	.set TextClear, 0x8003DC9
+	.set TextBufferWriter, 0x800A241
+	.set TextAppendString, 0x8004005
 	
 	@ Inputs:
 	@ r0: Pointer to Proc State
@@ -26,8 +32,8 @@ MMBDrawNameUncentered:
 	@ First, write the unit's name to
 	@ the text decompression buffer
 
-	ldr		r0, [r1]
-	ldrh	r0, [r0]
+	@ldr		r0, [r1]
+	@ldrh	r0, [r0]
 
 	ldr		r1, =TextBufferWriter
 	mov		lr, r1

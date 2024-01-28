@@ -1411,6 +1411,8 @@
 		WORD MMBDVY
 	#endif //MMBDVText
 	
+	WORD 0
+	
 
 	ALIGN 4
 
@@ -1584,10 +1586,14 @@
 	ALIGN 4
 	
 	MMBDVBuilder:
+	/*
+		#ifdef MMBStandardTilemap
+			POIN MMBDrawTilemap
+		#endif // MMBStandardTilemap
 	
 		#ifdef MMBDVText
 			POIN MMBDrawDVText
-		#endif //MMBDVText
+		#endif // MMBDVText*/
 		
 	WORD 0
 	

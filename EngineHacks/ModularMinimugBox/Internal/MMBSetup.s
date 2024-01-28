@@ -46,8 +46,8 @@ MMBSetup:
 	cmp r0, #0
 	beq End
 	@ There's text to be printed so raise a flag or smth idk
-	@bl DrawDVBox @bad
-	@b End
+	bl DrawDVBox @bad
+	b End
 	
 	@ Next we figure out where to put the window
 	WindowCheck:
@@ -117,7 +117,7 @@ TerrainNotDrawn:
 	add		r0, #CursorY
 	strb	r2, [r0]
 
-
+BuildWindow:
 	@ Put things on window
 
 	mov		r0, r4
