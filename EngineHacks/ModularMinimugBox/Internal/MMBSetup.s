@@ -46,8 +46,8 @@ MMBSetup:
 	cmp r0, #0
 	beq End
 	@ There's text to be printed so raise a flag or smth idk
-	bl DrawDVBox @bad
-	b End
+	@bl DrawDVBox @bad
+	@b End
 	
 	@ Next we figure out where to put the window
 	WindowCheck:

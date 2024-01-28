@@ -41,8 +41,17 @@ MMBBuildWindow:
 	add		r1, #BattleStructFlag
 	str		r0, [r1]
 
+	@ More DV things
+	bl DV_check
+	cmp r0, #0
+	beq Unit
+	
+	ldr		r6, =MMBDVBuilder
+	
+	b Loop
+	
 	@ Loop through all build routines
-
+Unit:
 	ldr		r6, =MMBBuildRoutines
 
 Loop:

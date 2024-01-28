@@ -789,6 +789,12 @@ After each set of module options are definitions that you can use to adjust the 
 	#define MMBHPLabelVRAMTile 0x120
 	#define MMBHPLabelPaletteIndex 2
 	#define MMBHPLabelTileCount 2
+	
+// DV Module settings
+	#define MMBDVText //undef if you don't want the module
+	#define MMBDVColor TextBlack
+	#define MMBDVX 7
+	#define MMBDVY 1
 
 ALIGN 4
 

@@ -17,6 +17,10 @@ MMBBuildDynamics:
 	mov		r4, r0
 	mov		r5, r1
 
+	bl DV_check @r0 is text id, or 0 if no text/not a dv
+	cmp r0, #0
+	bne End	
+	
 	@ Loop through all build routines
 
 	ldr		r6, =MMBDynamicRoutines

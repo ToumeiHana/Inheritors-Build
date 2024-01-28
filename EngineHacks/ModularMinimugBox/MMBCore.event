@@ -1400,6 +1400,17 @@
 			#endif // MMBHPLabel
 			WORD 0
 		#endif // MMBLabelDrawing
+		
+		ALIGN 4
+		
+	// DV Text Module
+	#ifdef MMBDVText
+		#include "Modules/MMBDrawDVText.lyn.event"
+		WORD MMBDVColor
+		WORD MMBDVX
+		WORD MMBDVY
+	#endif //MMBDVText
+	
 
 	ALIGN 4
 
@@ -1492,6 +1503,7 @@
 		#ifdef MMBSkills
 			POIN MMBDrawSkills
 		#endif // MMBSkills
+		
 
 	WORD 0
 
@@ -1568,3 +1580,17 @@
 		#endif // MMBRenderEquippedWeaponSkill
 
 	WORD 0
+	
+	ALIGN 4
+	
+	MMBDVBuilder:
+	
+		#ifdef MMBDVText
+			POIN MMBDrawDVText
+		#endif //MMBDVText
+		
+	WORD 0
+	
+	ALIGN 4
+	
+	

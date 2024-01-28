@@ -230,6 +230,14 @@ Caitlind_Mug:
 setMugEntry(0x2A,Caitlind_Mug,4,5,4,3)
 
 ALIGN 4
+Nella_Mug:
+#incbin "dmp/Nella_mug.dmp"
+#incbin "dmp/Nella_frames.dmp"
+#incbin "dmp/Nella_palette.dmp"
+#incbin "dmp/Nella_minimug.dmp"
+setMugEntry(0x2C,Nella_Mug,3,6,3,4)
+
+ALIGN 4
 FerrynFrighten_Mug:
 #incbin "dmp/Ferrynfrighten_mug.dmp"
 #incbin "dmp/Ferrynfrighten_frames.dmp"
