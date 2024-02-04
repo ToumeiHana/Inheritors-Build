@@ -53,6 +53,10 @@ The dragon vein will spawn peaks[N]
 as chokepoints on the dark grass.[A][N]
 [Red]The effect will last for 3 turns.[Red][A][X]
 
+## Ch4DVBoxText
+Spawns peaks[N]
+for 3 turns.[X]
+
 ## Ch4BridgeText
 [MidLeft][LoadSoldierBlue]
 [MidRight][LoadFace][0x33][0x1]

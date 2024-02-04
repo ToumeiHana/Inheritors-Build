@@ -176,7 +176,7 @@ GreenGroup:
 	UNIT
 
 Traps1:
-	Vein(10,9,2)
+	Vein(10,9,2,Ch4DVBoxText)
 	MapSpriteTrap(IndicatorTrapID,10,0)
 	MapSpriteTrap(IndicatorTrapID,11,0)
 	MapSpriteTrap(IndicatorTrapID,12,0)
@@ -487,6 +487,7 @@ EndingScene:
 	EVBIT_MODIFY 0
 	Text(Ch4EndText2)
 	
-	MNC2 Chapter5
+	//MNC2 Chapter5
+	GOTO_TITLE
 	NoFade
 	ENDA

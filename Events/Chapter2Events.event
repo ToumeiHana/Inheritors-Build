@@ -227,11 +227,16 @@ VillageEvent:
 	ENDA
 
 EndingScene:
+
+	SetBackground(Plain)
+
 	CHECK_ALIVE Mirabelle
 	BEQ 1 s0 sC
+	MUSC Victory
 	Text(Ch2EndingTextMiraAlive)
 	GOTO 2
 	LABEL 1
+	MUSC SorrowID
 	Text(Ch2EndingTextMiraDead)
 	LABEL 2
 	
@@ -240,12 +245,14 @@ EndingScene:
 	
 	CHECK_ALIVE Lauren
 	BEQ 4 s0 sC
+	MUSC Victory
 	Text(MauritchLaurenEndText)
 	GOTO 5
 	
 	LABEL 3
 	CHECK_ALIVE Lauren
 	BEQ 4 s0 sC
+	MUSC SorrowID
 	Text(LaurenSoloEndText)
 	GOTO 5
 	
@@ -256,9 +263,11 @@ EndingScene:
 	LABEL 5
 	CHECK_ALIVE Katja
 	BEQ 6 s0 sC
+	MUSC Victory
 	Text(KatjaEndText)
 	
 	LABEL 6
+	EndConvo
 	MNC2 Chapter3
 	NoFade
 	ENDA

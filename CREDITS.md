@@ -119,6 +119,7 @@ adding yourself!
 - Mokha: Status rework
 - Snakey1: Gendered Text
 - 2WB: Portrait Height Fix
+- Relic: Levelups restore hp
 
 # Music
 

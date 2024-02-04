@@ -242,3 +242,11 @@ AxeAnim(BaldFighterAxe)
 HandAxeAnim(BaldFighterHandaxe)
 UnarmedAnim(BaldFighterUnarmed)
 WORD 0x0
+
+ALIGN 4
+EyeAnims:
+WORD 0x0
+
+ALIGN 4
+EyeFAnims:
+WORD 0x0

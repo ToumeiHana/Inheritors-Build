@@ -27,6 +27,7 @@
 #define KnightsOathID 0x28
 #define RuinsNightID 0x2A
 #define NearFarID 0x30
+#define VictoryB 0x32
 #define GumshoeID 0x34
 //#define HeavyArmorCorpsID 0x34
 //#define MushroomGorgeID 0x35
@@ -49,3 +50,4 @@
 #define ThunderSFX 0xF5
 #define Thunder2SFX 0x11A
 #define EndlessFightingMapID 0x26d
+#define SorrowID 0x26e

@@ -72,6 +72,8 @@ POP
    
   //#include "ExternalHacks/UnitTargeting/UnitTargeting.event" //Uncomment for GaidenMagicAI later?
   
+  #include "ExternalHacks/LevelUpsRestoreHP/LevelUpChange.lyn.event"
+  
   #include "ExternalHacks/PortraitShift/Portrait Shift Table.event"
    
   #include "ExternalHacks/Asymmetric_WTA/Asymmetric_WTA.event"

@@ -314,6 +314,32 @@ EmmanuelRecruitment:
 	ENDA
 
 EndingScene:
+
+	SetBackground(Woodland)
+
+	CHECK_ALIVE Libby
+	BNE 6 s0 sC
+	CHECK_ALIVE Emmanuel
+	BNE 7 s0 sC
+	MUSC Victory
+	Text(Ch3EndTextA)
+	GOTO 8
+	
+	//Libby dead
+	LABEL 6
+	MUSC SorrowID
+	Text(Ch3EndTextC)
+	REMOVEUNIT Emmanuel
+	GOTO 8
+	
+	//Emmanuel dead
+	LABEL 7
+	MUSC SorrowID
+	Text(Ch3EndTextB)
+	
+	LABEL 8
+	EndConvo
 	MNC2 Chapter4
 	NoFade
 	ENDA
+	
