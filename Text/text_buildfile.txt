@@ -133,3 +133,5 @@ a skill when used.[X]
 #include "statscreen_text.txt"
 
 #include "unitmenu_text.txt"
+
+#include "soundroom_text.txt"

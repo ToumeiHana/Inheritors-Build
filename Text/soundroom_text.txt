@@ -1,0 +1,86 @@
+## LakesNMarshesName ^
+From the Incompatible Land of Lakes and Marshes[X]
+
+## WarCloudsName
+War Clouds[X]
+
+## JhenMohranName
+Intercepting the Great Gong[X]
+
+## WindOfLaGiasName
+Wind of La Gias[X]
+
+## WindDestinationName ^
+Only the Wind Knows Where Your Destination Lies[X]
+
+## SteelCockpitName
+Cockpit of Steel[X]
+
+## HouraiVictimName
+Extend Ash ~ Hourai Victim[X]
+
+## IcemanName
+Ice Man[X]
+
+## VanishingTrooperName
+Vanishing Trooper[X]
+
+## MiitopiaBattleName
+Miitopia Event Battle[X]
+
+## DarkColossusName
+Dark Colossus Destroys All[X]
+
+## FirstCampaingName
+First Campaign[X]
+
+## ObstacleInOurPathName
+Obstacle in Our Path[X]
+
+## EndlessFightingName
+Endless Battle[X]
+
+## OffToWarRemixName
+Off to War (Remix)[X]
+
+## EienNoIczerName
+Eternal Iczer-1[X]
+
+## BloomNoblyName ^
+Bloom Nobly, Ink-Black Cherry Blossoms ~ Border of Life[X]
+
+## CruelAngelStaffName
+Cruel Angel's Thesis[X]
+
+## LandOfConflictName
+Land of Conflict[X]
+
+## TroubleName
+Trouble![X]
+
+## OffToWarName
+Off to War[X]
+
+## GumshoeName ^
+Dick Gumshoe ~ It's Detective Gumshoe, Pal![X]
+
+## WaterStarName
+From the Aqueous Star with Love[X]
+
+## WindSummonName ^
+Town ~ The Wind Doesn't Draw Heroes[X]
+
+## SupremancyBreakerName ^
+Roar, O One Who Breaks Supremacy[X]
+
+## DefendGlobeName
+Defend Globe[X]
+
+## NCastleName
+N's Castle (BW1)[X]
+
+## NCastle2Name
+N's Castle (BW2)[X]
+
+## SorrowName
+Sorrow[X]

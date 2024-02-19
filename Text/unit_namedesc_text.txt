@@ -103,7 +103,8 @@ Looks like[Beat] this is it for me[Beat][A][X]
 Lauren[X]
 
 ## LaurenDesc
-placeholder[X]
+Troubadour traveling with her[N]
+brother. Sassy.[X]
 
 ## LaurenDeathQuote
 [MidRight][LoadLauren]
@@ -113,7 +114,8 @@ So[Beat][CloseEyes] annoying[Beat][A][X]
 Mauritch[X]
 
 ## MauritchDesc
-placeholder[X]
+Myrmidon traveling with his[N]
+sister. Quiet.[X]
 
 ## MauritchDeathQuote
 [MidRight][LoadMauritch]
@@ -135,7 +137,7 @@ I can still[Beat][ToggleSmile][CloseEyes] Geh[Beat][A][X]
 Libby[X]
 
 ## LibbyDesc
-placeholder[X]
+Good natured blind cleric.[X]
 
 ## LibbyDeathQuote
 [MidRight][LoadLibby]
@@ -157,15 +159,24 @@ Hollie[X]
 ## HollieDesc
 placeholder[X]
 
+## HollieRetreatQuote
+[MidRight][LoadHollie]
+Sorry, I must pull back[Beat][A][X]
+
 ## HollieDeathQuote
 [MidRight][LoadHollie]
-This is the[Beat] end of the road[Beat][CloseEyes] for me[Beat][A][X]
+This is the[Beat] end of the road[Beat][CloseEyes][.][.] for me[Beat][A][X]
 
 ## GarryName
 Garry[X]
 
 ## GarryDesc
 placeholder[X]
+
+## GarryRetreatQuote
+[MidRight][LoadGarry]
+Can't[Beat] afford to fall here[Beat][N]
+Must get[Beat][.] back[Beat][A][X]
 
 ## GarryDeathQuote
 [MidRight][LoadGarry]
@@ -180,7 +191,7 @@ guard. Ever the optimist.[X]
 
 ## PieterDeathQuote
 [MidRight][LoadPieter]
-Ah shucks[Beat][CloseEyes] Is this really it for me?[A][X]
+Ah shucks[Beat][CloseEyes][.][.] Is this really it for me?[A][X]
 
 ## NellaName
 Nella[X]
@@ -458,19 +469,22 @@ Ferryn[X]
 Thom[X]
 
 ## ThomDesc
-placeholder[X]
+Low-ranking Farumese officer.[N]
+Has an impatient streak.[X]
 
 ## WernerName
 Werner[X]
 
 ## WernerDesc
-placeholder[X]
+Third-rate cavalry commander[N]
+with no hopes of promotion.[X]
 
 ## SledgeName
 Sledge[X]
 
 ## SledgeDesc
-placeholder[X]
+Local bandit leader.[N]
+As smart as he is good-looking.[X]
 
 ## WolframName
 Wolfram[X]
@@ -482,7 +496,8 @@ placeholder[X]
 Lagrange[X]
 
 ## LagrangeDesc
-placeholder[X]
+Paladin leading the on the border.[N]
+Loyal to her country.[X]
 
 ## FarumName
 Farumese[X]

@@ -57,3 +57,4 @@ defWeaponDebuffs(4,0,4,0,4,4,0) //0x5: Pebble debuff.
 #include "Quote/QuoteTables.event"
 #include "Support/SupportPointers.event"
 #include "Support/SupportTables.event"
+#include "Repointed/NewSoundroomTable.event"

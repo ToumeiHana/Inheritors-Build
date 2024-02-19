@@ -1,0 +1,36 @@
+#define SoundRoomEntry(songid,name) "WORD songid 0 0 name"
+#define SoundRoomTerminator "WORD 0xFFFFFFFF 0 0 0"
+
+ALIGN 4
+NewSoundRoom:
+
+SoundRoomEntry(LakesNMarshesID,LakesNMarshesName)
+SoundRoomEntry(WarCloudsID,WarCloudsName)
+SoundRoomEntry(JhenMohranID,JhenMohranName)
+SoundRoomEntry(WindOfLaGiasID,WindOfLaGiasName)
+SoundRoomEntry(WindDestinationID,WindDestinationName)
+SoundRoomEntry(SteelCockpitID,SteelCockpitName)
+SoundRoomEntry(HouraiVictimID,HouraiVictimName)
+SoundRoomEntry(IcemanID,IcemanName)
+SoundRoomEntry(VanishingTrooperID,VanishingTrooperName)
+SoundRoomEntry(MiitopiaBattleID,MiitopiaBattleName)
+SoundRoomEntry(DarkColossusID,DarkColossusName)
+SoundRoomEntry(FirstCampaingID,FirstCampaingName)
+SoundRoomEntry(ObstacleInOurPathID,ObstacleInOurPathName)
+SoundRoomEntry(EndlessFightingID,EndlessFightingName)
+SoundRoomEntry(OffToWarRemixID,OffToWarRemixName)
+SoundRoomEntry(EienNoIczerID,EienNoIczerName)
+SoundRoomEntry(BloomNoblyID,BloomNoblyName)
+SoundRoomEntry(CruelAngelStaffID,CruelAngelStaffName)
+SoundRoomEntry(LandOfConflictID,LandOfConflictName)
+SoundRoomEntry(TroubleID,TroubleName)
+SoundRoomEntry(OffToWarID,OffToWarName)
+SoundRoomEntry(GumshoeID,GumshoeName)
+SoundRoomEntry(WaterStarID,WaterStarName)
+SoundRoomEntry(WindSummonID,WindSummonName)
+SoundRoomEntry(SupremancyBreakerID,SupremancyBreakerName)
+SoundRoomEntry(DefendGlobeID,DefendGlobeName)
+SoundRoomEntry(BW1NCastleID,NCastleName)
+SoundRoomEntry(BW2NCastleID,NCastle2Name)
+SoundRoomEntry(SorrowID,SorrowName)
+SoundRoomTerminator

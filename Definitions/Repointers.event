@@ -256,30 +256,30 @@ POIN TextTable
 
 //ORG $8483C
 //POIN CharacterForcerTable
-
+*/
 ORG $1BC14
-POIN SoundRoom
+POIN NewSoundRoom
 ORG $1BCC4
-POIN SoundRoom
+POIN NewSoundRoom
 ORG $AECA8
-POIN SoundRoom
+POIN NewSoundRoom
 ORG $AECD0
-POIN SoundRoom
+POIN NewSoundRoom
 ORG $AED2C
-POIN SoundRoom
+POIN NewSoundRoom
 ORG $AEEBC
-POIN SoundRoom
+POIN NewSoundRoom
 ORG $AF438
-POIN SoundRoom
+POIN NewSoundRoom
 ORG $AF830
-POIN SoundRoom
+POIN NewSoundRoom
 ORG $AFE30
-POIN SoundRoom
+POIN NewSoundRoom
 ORG $B0080
-POIN SoundRoom
+POIN NewSoundRoom
 ORG $B042C
-POIN SoundRoom
-
+POIN NewSoundRoom
+/*
 ORG $5524
 POIN PortraitTable
 
