@@ -7,6 +7,7 @@
 
 #include "Tools/Tool Helpers.txt"
 #include "../../../../Necessary/MSG/InstallHelpers.event"
+#include "../../../../Necessary/MSG/Extensions/SkillSystem.event"
 
 #define ACTION_MOVETARGET 0x23
 #define ACTION_MOVEACTIVE 0x24
@@ -81,6 +82,7 @@ prSwapCommand_Availability:
 prShoveCommand_Availability:
 	rGetWrapper
 		rIfUnitHasNotState(US_CANTOING)
+			rIfUnitHasNotSkill(QuickDrawID)	//Hollie gets her own supershove
 				rCallExternal(ShoveClassCheck-1)
 
 prSmiteCommand_Availability:
@@ -92,6 +94,12 @@ prSwarpCommand_Availability:
 	rGetWrapper
 		rIfUnitHasNotState(US_CANTOING)
 				rCallExternal(SwarpClassCheck-1)
+				
+prShovePlusCommand_Availability:
+	rGetWrapper
+		rIfUnitHasNotState(US_CANTOING)	
+			rWithConstant(QuickDrawID)
+				rCallExternal(SkillTester)
 
 #endif // HEROES_MOVEMENT_SKILL_REQUIRED
 
@@ -111,8 +119,21 @@ prShove_TargetLegality:
 prSmite_TargetLegality:
     rGetWrapper // Defaults to 0
         rIfUnitHasNotGuardAI
-            rConstant(True)
+			rIfUnitsAreAllied
+				rIfUnitHasNotAttribute(CA_MOUNTED)
+					rIfUnitHasNotAttribute(CA_PEGASUS)
+						rIfUnitHasNotAttribute(CA_WYVERN)
+							rIfUnitIsNotClass(Ballistician)
+								rIfUnitIsNotClass(Ballistician_F)
+									rConstant(True)
 		
+		
+prShovePlus_TargetLegality:
+	rGetWrapper
+		rIfUnitHasNotGuardAI
+			rIfUnitsAreAllied
+				rConstant(True)
+				
 // class lists, if enabled
 #ifndef HEROES_MOVEMENT_SKILL_REQUIRED
 
@@ -130,11 +151,11 @@ BYTE 0
 
 ShoveClassList:
 BYTE Outlaw Outlaw_F Mercenary Mercenary_F Fighter Brigand Pirate Berserker Warrior Priest Cleric Bishop Bishop_F Summoner Summoner_F Mage Mage_F Sage Sage_F Monk Shaman Shaman_F Druid Druid_F Eye EphraimLord Recruit_1 Fighter_F Claw Myrmidon
-BYTE Soldier Tail Flamelash Sharpclaw Horn Skypiercer Halberdier Halberdier_F Monk_F Gut Eye_F Seer Seer_F Berserker_F Warrior_F Myrmidon_F Hero Hero_F
+BYTE Soldier Tail Flamelash Sharpclaw Horn Skypiercer Halberdier Halberdier_F Monk_F Gut Eye_F Seer Seer_F Berserker_F Warrior_F Myrmidon_F Hero Hero_F LanceKnight BowKnight AxeKnight SwordKnight General General_F Ballistician Ballistician_F
 BYTE 0
 
 SmiteClassList:
-BYTE LanceKnight BowKnight AxeKnight SwordKnight General General_F
+BYTE 0
 BYTE 0
 
 SwarpClassList:

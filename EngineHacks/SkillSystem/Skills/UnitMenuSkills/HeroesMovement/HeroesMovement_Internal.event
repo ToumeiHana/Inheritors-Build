@@ -106,7 +106,18 @@ prSwarpCommand_Effect:
 	#incbin "asm/TargetCommandEffect.bin"
 	POIN (_prSwarp_MakeTargetList+1)
 	POIN _pSwarpSelectorDefinition
+	
+ALIGN 4
+prShovePlusCommand_Usability:
+	#incbin "asm/TargetCommandUsability.bin"
+	POIN (_prShovePlus_MakeTargetList+1)
+	POIN (prShovePlusCommand_Availability+1) // Availability
 
+ALIGN 4
+prShovePlusCommand_Effect:
+	#incbin "asm/TargetCommandEffect.bin"
+	POIN (_prShovePlus_MakeTargetList+1)
+	POIN _pShoveSelectorDefinition
 
 
 // PIVOT STUFF
@@ -376,6 +387,22 @@ _pSmiteSelectorDefinition:
 	POIN 0x22749 // B Press (Generic Vanilla One that calls the unit menu back)
 	WORD 0 // idk (same)
 
+	
+// SHOVEPLUS STUFF
+// most things can be recycled from regular shove
+	
+ALIGN 4
+_prShovePlus_MakeTargetList:
+	#incbin "asm/MakeAdjacentTargetList.bin"
+	POIN (prClearRangeMap+1)
+	POIN (_prShovePlus_TargetCheck+1)
+	
+ALIGN 4
+_prShovePlus_TargetCheck:
+	#incbin "asm/Shove_TargetCheck.bin"
+	POIN (_prGetShovePosition+1)
+	POIN (prShovePlus_TargetLegality+1)
+	
 // COMMON STUFF
 // ------------
 
