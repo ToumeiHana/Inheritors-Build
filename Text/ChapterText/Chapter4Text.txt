@@ -96,7 +96,7 @@ Damn[Beat][.] it[Beat][A][X]
 [Left][LoadJanessa]
 [FarRight][LoadHollie]
 [Right][LoadGarry]
-a[A]
+[A]
 [X]
 
 ## GarryHelmetText

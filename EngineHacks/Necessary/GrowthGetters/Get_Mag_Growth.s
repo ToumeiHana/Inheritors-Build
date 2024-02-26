@@ -3,7 +3,9 @@
 
 .set MagCharTable, Extra_Growth_Boosts+4
 .set MagClassTable, MagCharTable+4
-.set ClassGrowthOption, MagClassTable+4
+.set PromoBonusTable, MagClassTable+4
+.set ClassGrowthOption, PromoBonusTable+4
+
 
 @r0=battle struct or char data ptr
 ldr		r1,[r0]
@@ -12,6 +14,16 @@ ldr 	r2, MagCharTable
 lsl 	r1, #1 @index in mag char table
 add 	r1, #1 @growth
 ldrb 	r1, [r2, r1]
+
+ldr		r2, [r0,#4] @class pointer
+add		r2,#4
+ldrb	r2,[r2] @class id
+ldr 	r3, PromoBonusTable
+lsl 	r2, #3 @index
+add 	r2, #7 @mag
+ldrb 	r2, [r3, r2]
+add		r1,r2
+
 ldr 	r2,ClassGrowthOption
 cmp		r2,#0
 beq		GetExtraGrowthBoost

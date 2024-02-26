@@ -119,19 +119,19 @@ setMugEntry(0x0E,Emmanuel_Mug,3,5,3,3)
 
 ALIGN 4
 HollieHelmet_Mug:
-#incbin "dmp/HollieHelmet_mug.dmp"
-#incbin "dmp/HollieHelmet_frames.dmp"
-#incbin "dmp/HollieHelmet_palette.dmp"
-#incbin "dmp/HollieHelmet_minimug.dmp"
-setMugEntry(0x0F,HollieHelmet_Mug,3,5,3,3)
+#incbin "dmp/Hollie2Helmet_mug.dmp"
+#incbin "dmp/Hollie2Helmet_frames.dmp"
+#incbin "dmp/Hollie2Helmet_palette.dmp"
+#incbin "dmp/Hollie2Helmet_minimug.dmp"
+setMugEntry(0x0F,HollieHelmet_Mug,3,6,3,4)
 
 ALIGN 4
 Hollie_Mug:
-#incbin "dmp/Hollie_mug.dmp"
-#incbin "dmp/Hollie_frames.dmp"
-#incbin "dmp/Hollie_palette.dmp"
-#incbin "dmp/Hollie_minimug.dmp"
-setMugEntry(0x10,Hollie_Mug,3,5,3,3)
+#incbin "dmp/Hollie2_mug.dmp"
+#incbin "dmp/Hollie2_frames.dmp"
+#incbin "dmp/Hollie2_palette.dmp"
+#incbin "dmp/Hollie2_minimug.dmp"
+setMugEntry(0x10,Hollie_Mug,3,6,3,4)
 
 ALIGN 4
 Mirabelle_Mug:

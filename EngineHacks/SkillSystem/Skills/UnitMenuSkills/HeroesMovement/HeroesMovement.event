@@ -125,14 +125,18 @@ prSmite_TargetLegality:
 						rIfUnitHasNotAttribute(CA_WYVERN)
 							rIfUnitIsNotClass(Ballistician)
 								rIfUnitIsNotClass(Ballistician_F)
-									rConstant(True)
+									rIfUnitIsNotClass(Fleet)
+										rIfUnitIsNotClass(Sandskipper)
+											rConstant(True)
 		
 		
 prShovePlus_TargetLegality:
 	rGetWrapper
 		rIfUnitHasNotGuardAI
 			rIfUnitsAreAllied
-				rConstant(True)
+				rIfUnitIsNotClass(Fleet)
+					rIfUnitIsNotClass(Sandskipper)
+						rConstant(True)
 				
 // class lists, if enabled
 #ifndef HEROES_MOVEMENT_SKILL_REQUIRED

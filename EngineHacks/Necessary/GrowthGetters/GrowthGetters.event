@@ -23,12 +23,14 @@
   Get_Hp_Growth:
     #incbin "Get_Hp_Growth.dmp"
     POIN Extra_Growth_Boosts|1
+	POIN PromoGrowthBonusTable
 	WORD USE_CHAR_AND_CLASS_GROWTHS
 
   ALIGN 4
   Get_Str_Growth:
     #incbin "Get_Str_Growth.dmp"
     POIN Extra_Growth_Boosts|1
+	POIN PromoGrowthBonusTable
 	WORD USE_CHAR_AND_CLASS_GROWTHS
 
   #ifdef USE_STRMAG_SPLIT
@@ -38,6 +40,7 @@
 	POIN Extra_Growth_Boosts|1
 	POIN MagCharTable
 	POIN MagClassTable
+	POIN PromoGrowthBonusTable
 	WORD USE_CHAR_AND_CLASS_GROWTHS
   #endif
 	
@@ -45,30 +48,35 @@
   Get_Skl_Growth:
     #incbin "Get_Skl_Growth.dmp"
     POIN Extra_Growth_Boosts|1
+	POIN PromoGrowthBonusTable
 	WORD USE_CHAR_AND_CLASS_GROWTHS
 
   ALIGN 4
   Get_Spd_Growth:
     #incbin "Get_Spd_Growth.dmp"
     POIN Extra_Growth_Boosts|1
+	POIN PromoGrowthBonusTable
 	WORD USE_CHAR_AND_CLASS_GROWTHS
 
   ALIGN 4
   Get_Def_Growth:
     #incbin "Get_Def_Growth.dmp"
     POIN Extra_Growth_Boosts|1
+	POIN PromoGrowthBonusTable
 	WORD USE_CHAR_AND_CLASS_GROWTHS
 
   ALIGN 4
   Get_Res_Growth:
     #incbin "Get_Res_Growth.dmp"
     POIN Extra_Growth_Boosts|1
+	POIN PromoGrowthBonusTable
 	WORD USE_CHAR_AND_CLASS_GROWTHS
 
   ALIGN 4
   Get_Luk_Growth:
     #incbin "Get_Luk_Growth.dmp"
     POIN Extra_Growth_Boosts|1
+	POIN PromoGrowthBonusTable
 	WORD USE_CHAR_AND_CLASS_GROWTHS
   
   ALIGN 4
