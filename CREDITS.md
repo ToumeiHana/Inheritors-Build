@@ -103,7 +103,7 @@ adding yourself!
 # External & Inline hacks
 
 - SKILLSYS QoL+Other credits here
-- Scraiza: NarrowFont, Dynamic Portraits
+- Scraiza: NarrowFont, Dynamic Portraits, Droppable/Stealable Item Display
 - Huichelaar: Minimug Palette Fix, Gendered text
 - circles: drumfix
 - Alusq: NIMAP 2 (with keysplits)
@@ -120,6 +120,7 @@ adding yourself!
 - Snakey1: Gendered Text
 - 2WB: Portrait Height Fix
 - Relic: Levelups restore hp
+- Mkol: Droppable/Stealable Item Display
 
 # Music
 

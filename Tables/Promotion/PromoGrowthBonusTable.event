@@ -4,3 +4,4 @@ PromoGrowthBonusTable:
 FILL (8*128)
 PromoGrowthBonusEntry(CerapterKnight,15,10,0,0,15,0,0,0)
 PromoGrowthBonusEntry(FalcoKnight,0,0,10,15,0,15,0,0)
+PromoGrowthBonusEntry(DarkKnight,0,0,(-10),(-30),10,15,0,25)
