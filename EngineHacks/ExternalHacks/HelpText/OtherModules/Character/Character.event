@@ -1,0 +1,19 @@
+
+#include "CharacterInternal.event"
+
+/*
+#include "asmModules/CheckForAgeRevelation.lyn.event"
+
+AgeRevelationEventIdLink:
+SHORT 0x66
+ALIGN 4
+
+#include "asmModules/PrologueFiveYearGap.lyn.event"
+ALIGN 4
+
+#include "asmModules/IdentifyAsWoman.lyn.event"
+
+SelfDiscoveryEventIdLink:
+SHORT 0x67
+ALIGN 4
+*/

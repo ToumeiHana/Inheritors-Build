@@ -115,7 +115,7 @@ adding yourself!
 - 7743: Flag-based map bgm change, continue map bgm to battle, individual banim by unit
 - Vesly: Additional prebattle calcloop, extended weapon desc box, promote by menu command
 - stan: lordsplitmenu
-- AuraWolf: Modular Unit Menu
+- AuraWolf: Modular Unit Menu, HelpText
 - Mokha: Status rework
 - Snakey1: Gendered Text
 - 2WB: Portrait Height Fix

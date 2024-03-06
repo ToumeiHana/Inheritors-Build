@@ -1,7 +1,7 @@
-#define PromoGrowthBonusEntry(index,HpGrowth,StrGrowth,SklGrowth,SpdGrowth,DefGrowth,ResGrowth,LukGrowth,MagGrowth) "PUSH; ORG PromoGrowthBonusTable+(8*index); BYTE HpGrowth StrGrowth SklGrowth SpdGrowth DefGrowth ResGrowth LukGrowth MagGrowth ; POP"
+#define PromoGrowthBonusEntry(index,HpGrowth,StrGrowth,MagGrowth,SklGrowth,SpdGrowth,LukGrowth,DefGrowth,ResGrowth) "PUSH; ORG PromoGrowthBonusTable+(8*index); BYTE HpGrowth StrGrowth MagGrowth SklGrowth SpdGrowth LukGrowth DefGrowth ResGrowth ; POP"
 
 PromoGrowthBonusTable:
 FILL (8*128)
-PromoGrowthBonusEntry(CerapterKnight,15,10,0,0,15,0,0,0)
-PromoGrowthBonusEntry(FalcoKnight,0,0,10,15,0,15,0,0)
-PromoGrowthBonusEntry(DarkKnight,0,0,(-10),(-30),10,15,0,25)
+PromoGrowthBonusEntry(CerapterKnight,15,10,0,0,0,0,10,0)
+PromoGrowthBonusEntry(FalcoKnight,0,0,10,0,10,0,0,15)
+PromoGrowthBonusEntry(DarkKnight,0,0,15,(-10),(-20),0,10,15)

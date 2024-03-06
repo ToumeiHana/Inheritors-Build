@@ -1,0 +1,14 @@
+
+//Credit to Vesly for his ExtendWeaponDescBox assembly and for getting the Flashing Arrow to appear for MultipleHelpTextPages (HelpBoxOnOpenHook and FlashIcon)
+
+#define MoreStaffInfoInstall
+
+#include "_HelpTextEssentials/HelpTextEssentials.event"
+
+#include "HelpTextTypes.event"
+
+#include "ExtendWeaponDescBox/Installer.event"
+
+#include "MultipleHelpTextPages/MultipleHelpTextPages.event"
+
+#include "OtherModules/OtherModules.event"

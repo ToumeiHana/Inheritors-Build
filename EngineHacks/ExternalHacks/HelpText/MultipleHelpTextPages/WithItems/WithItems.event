@@ -1,0 +1,45 @@
+
+PUSH
+
+ORG 0x88E94
+POIN HelpTextGetItemDesc
+
+POP
+
+#include "asm/NextPageOfTextForItemDesc.lyn.event"
+ALIGN 4
+
+#include "asm/HelpTextGetItemDesc.lyn.event"
+ALIGN 4
+
+#include "asm/HelpTextNonStatScreenCheckButton_A.lyn.event"
+ALIGN 4
+
+HelpTextNonStatScreenMultiplePageProc: 
+PROC_YIELD // Buffer.
+PROC_SET_NAME(HelpTextNonStatScreenMultiplePageName)
+PROC_LABEL(0) 
+PROC_SLEEP(0)
+PROC_CALL_ROUTINE(HelpTextNonStatScreenCheckButton_A)
+PROC_LABEL(1) 
+PROC_END
+ALIGN 4 
+
+HelpTextNonStatScreenMultiplePageName:
+String("HelpTextNonStatScreenMultiplePage")
+BYTE 0
+ALIGN 4
+
+
+//--------------------------------
+//Stat Screen
+//--------------------------------
+
+#include "asm/StatScreen_NextPageOfTextForItemDesc.lyn.event"
+ALIGN 4
+
+#include "asm/StatScreen_HelpBoxCurrentItem.lyn.event"
+ALIGN 4
+
+#include "asm/StatScreen_DoesItemHaveMultiplePages.lyn.event"
+ALIGN 4

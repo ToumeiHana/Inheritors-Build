@@ -1,0 +1,39 @@
+ALIGN 4
+#include "asm/PromoGainsHelpTextLabels.lyn.event"
+
+ALIGN 4
+#include "asm/PromoGainsGetter.lyn.event"
+
+ALIGN 4
+#include "asm/PromoGainsHelpTextSpace.lyn.event"
+
+ALIGN 4
+#include "asm/PromoGainsHelpTextValues.lyn.event"
+
+ALIGN 4
+PromoGainsHelpTextLabelsLink:
+//Row 1
+SHORT 0x04E9 //Hp
+SHORT 0x04FE //Str
+SHORT 0x04FF //Mag
+SHORT 0
+
+//Row 2
+SHORT 0x04EC //Skl
+SHORT 0x04ED //Spd
+SHORT 0x04EE //Luk
+SHORT 0
+
+//Row 3
+SHORT 0x04EF //Def
+SHORT 0x04F0 //Res
+SHORT 0
+
+ALIGN 4
+HelpTextPromoGainsLabelSpacing:
+BYTE 0x00 0x34 0x68 //Column 1, 2, 3 respectively
+
+ALIGN 4
+HelpTextPromoGainsNumberSpacing:
+BYTE 0x20 0x54 0x88  //Column 1, 2, 3* respectively (*except for Row 1)
+BYTE 0x78 //Range

@@ -72,6 +72,8 @@ POP
    
   //#include "ExternalHacks/UnitTargeting/UnitTargeting.event" //Uncomment for GaidenMagicAI later?
   
+  #include "ExternalHacks/HelpText/HelpText.event"
+  
   #include "ExternalHacks/FE8_Stealable+Droppable/Display Droppable Item.event"
   
   #include "ExternalHacks/LevelUpsRestoreHP/LevelUpChange.lyn.event"
@@ -96,7 +98,7 @@ POP
   
   #include "ExternalHacks/FE8UUnitStatusRework/UnitStatus.event"
  
-  #include "ExternalHacks/ExtendWeaponDescBox/Installer.event"
+  //#include "ExternalHacks/ExtendWeaponDescBox/Installer.event" //Installed in HelpText instead, dunno if files are any different but it's there
 
   #include "ExternalHacks/ModularUnitMenuCommandUsability/ModularUnitMenuCommandUsability.event"
   

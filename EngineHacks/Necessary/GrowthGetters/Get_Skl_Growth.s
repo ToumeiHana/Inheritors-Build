@@ -13,7 +13,7 @@ add		r2,#4
 ldrb	r2,[r2] @class id
 ldr 	r3, PromoBonusTable
 lsl 	r2, #3 @index
-add 	r2, #2 @skl
+add 	r2, #3 @skl
 ldsb 	r2, [r3, r2]
 add		r1,r2
 

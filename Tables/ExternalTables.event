@@ -59,3 +59,15 @@ defWeaponDebuffs(4,0,4,0,4,4,0) //0x5: Pebble debuff.
 #include "Support/SupportTables.event"
 #include "Repointed/NewSoundroomTable.event"
 #include "Promotion/PromoGrowthBonusTable.event"
+
+ALIGN 4
+MultipleHelpTextPageList_Items: //TODO: Move this elsewhere if used
+/*
+BYTE BronzeSword 2 //item id; number of pages
+SHORT 0x0405 0x026E //text id for each page
+*/
+BYTE 0 //Terminator
+
+ALIGN 4
+MultipleHelpTextPageList_Skills:
+BYTE 0
