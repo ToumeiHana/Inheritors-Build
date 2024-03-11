@@ -10,7 +10,7 @@ Intercepting the Great Gong[X]
 ## WindOfLaGiasName
 Wind of La Gias[X]
 
-## WindDestinationName ^
+## WindDestinationName 
 Only the Wind Knows Where Your Destination Lies[X]
 
 ## SteelCockpitName
@@ -61,16 +61,16 @@ Trouble![X]
 ## OffToWarName
 Off to War[X]
 
-## GumshoeName ^
+## GumshoeName 
 Dick Gumshoe ~ It's Detective Gumshoe, Pal![X]
 
 ## WaterStarName
 From the Aqueous Star with Love[X]
 
-## WindSummonName ^
+## WindSummonName 
 Town ~ The Wind Doesn't Draw Heroes[X]
 
-## SupremancyBreakerName ^
+## SupremancyBreakerName 
 Roar, O One Who Breaks Supremacy[X]
 
 ## DefendGlobeName

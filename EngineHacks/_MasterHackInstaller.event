@@ -72,6 +72,8 @@ POP
    
   //#include "ExternalHacks/UnitTargeting/UnitTargeting.event" //Uncomment for GaidenMagicAI later?
   
+  #include	"ExternalHacks/SoundroomThing/Installer.event"
+  
   #include "ExternalHacks/HelpText/HelpText.event"
   
   #include "ExternalHacks/FE8_Stealable+Droppable/Display Droppable Item.event"
