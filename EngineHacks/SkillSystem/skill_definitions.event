@@ -332,6 +332,9 @@
 
 //Pre-Battle Skills
 
+//
+#define CaringColdShoulderID 38
+
 // KillingIntent
 #define KillingIntentID 8
 

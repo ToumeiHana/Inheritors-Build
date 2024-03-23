@@ -1,4 +1,11 @@
 ALIGN 4
+CaringColdShoulderID_Link:
+WORD CaringColdShoulderID
+
+ALIGN 4
+#include "C_Code.lyn.event"
+
+ALIGN 4
 Rockhard:
 #incbin "Rockhard.dmp"
 POIN SkillTester

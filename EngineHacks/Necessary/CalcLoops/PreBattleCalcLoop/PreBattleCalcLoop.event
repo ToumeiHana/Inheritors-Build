@@ -49,7 +49,7 @@ POIN LethalitySkill NonGBALethalitySkill Bane
 #endif
 
 //POIN DesperateGambit
-POIN Rockhard
+POIN Rockhard CaringColdShoulder
 POIN HonorDuel
 POIN StunningSmile
 POIN ChaosStyle
@@ -58,6 +58,7 @@ POIN Stalwart
 POIN GuardianPromise
 POIN BlindFaithCombat
 POIN Lumberjack
+
 
 
 #ifdef MODULAR_PRE_BATTLE_SKILLS

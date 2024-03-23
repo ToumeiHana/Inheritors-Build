@@ -1,0 +1,8 @@
+ALIGN 16
+ORG CURRENTOFFSET + 0x08
+NewClassAnimTable:
+ORG CURRENTOFFSET + 0x20 * 0xFF // 255 Entries Total
+PUSH
+ORG NewClassAnimTable
+#incbin "VanillaClassAnimTable.dmp"
+POP

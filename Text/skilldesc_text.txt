@@ -1,3 +1,13 @@
+## SD_CaringColdShoulder
+Caring Cold Shoulder: Inga deals[N]
++3 more and takes -3 less damage[N]
+when fighting exactly 3 tiles[N]
+away from a support partner(s).[X]
+
+## SD_StunningSmile
+Stunning Smile: Female enemies[N]
+lose 20 avoid during combat.[X]
+
 ## SD_WasteNot
 Waste Not: On the hit his[N]
 weapon breaks, Dave gains extra[N]

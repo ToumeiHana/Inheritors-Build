@@ -7,7 +7,7 @@
   #endif
 #endif
 
-#define AnimTableEntry(index) "ORG ClassAnimTable + (index * 0x20)"
+#define AnimTableEntry(index) "ORG NewClassAnimTable - 0x20 + (index * 0x20)"
 
 
 
@@ -34,14 +34,14 @@
 #define CerapterLance 0x04
 #define CerapterUnarmed 0x05
 
-#define SALVCavSword 0x09
+#define SALVCavSword 0x06
 #define SALVCavLance 0x07
 #define SALVCavAxe 0x38
 #define SALVCavHandaxe 0x39
 #define SALVCavUnarmed 0x08
 
 #define ArmorSword 0x0D
-#define ArmorLance 0x0A //delete
+#define ArmorLance 0x40
 #define ArmorAxe 0x0E
 #define ArmorHandaxe 0x0F
 #define ArmorUnarmed 0x36
@@ -78,35 +78,35 @@
 #define FMercSword 0x53
 #define FMercUnarmed 0x41
 
-#define FZerkerAxe 0xCA
-#define FZerkerHandaxe 0xCB
-#define FZerkerUnarmed 0xCC
+#define FZerkerAxe 0xA2
+#define FZerkerHandaxe 0xA3
+#define FZerkerUnarmed 0xA4
 
-#define FMonkMagic 0xCD
+#define FMonkMagic 0xA5
 
-#define FWarriorAxe 0xce
-#define FWarriorHandaxe 0xcf
-#define FWarriorBow 0xD0
-#define FWarriorUnarmed 0xd1
+#define FWarriorAxe 0xA6
+#define FWarriorHandaxe 0xA7
+#define FWarriorBow 0xa8
+#define FWarriorUnarmed 0xa9
 
-#define FCavAxe 0xd2
-#define FCavHandaxe 0xd3
-#define FCavUnarmed 0xd4
+#define FCavAxe 0xaa
+#define FCavHandaxe 0xab
+#define FCavUnarmed 0xac
 
-#define HeroSword 0xd5
-#define HeroAxe 0xd6
-#define HeroHandaxe 0xd7
-#define HeroUnarmed 0xd8
+#define HeroSword 0xad
+#define HeroAxe 0xae
+#define HeroHandaxe 0xaf
+#define HeroUnarmed 0xb0
 
 #define TroubStaff 0x85
 #define TroubUnarmed 0x86
 
-#define AltMyrmSword 0xD9
-#define AltMyrmUnarmed 0xDA
+#define AltMyrmSword 0xb1
+#define AltMyrmUnarmed 0xb2
 
-#define BaldFighterAxe 0xDB
-#define BaldFighterHandaxe 0xdc
-#define BaldFighterUnarmed 0xdd
+#define BaldFighterAxe 0xb3
+#define BaldFighterHandaxe 0xb4
+#define BaldFighterUnarmed 0xb5
 
 //////////
  

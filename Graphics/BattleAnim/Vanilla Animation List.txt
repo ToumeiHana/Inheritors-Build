@@ -161,15 +161,15 @@
 0x9F Archer on Ballista (unused)
 0xA0 Zombie
 0xA1 Mummy
-0xA2 Skeleton w/ Sword
-0xA3 Skeleton w/ Spear
-0xA4 Skeleton Disarmed
-0xA5 Skeleton w/ Bow
-0xA6 Skeleton Disarmed
-0xA7 Hellbone w/ Sword
-0xA8 Hellbone w/ Spear
-0xA9 Hellbone Disarmed
-0xAA Hellbone w/ Bow
+0xA2 Skeleton w/ Sword		//All replaced up to 
+0xA3 Skeleton w/ Spear 		
+0xA4 Skeleton Disarmed		
+0xA5 Skeleton w/ Bow		
+0xA6 Skeleton Disarmed		
+0xA7 Hellbone w/ Sword		
+0xA8 Hellbone w/ Spear		
+0xA9 Hellbone Disarmed		
+0xAA Hellbone w/ Bow		
 0xAB Hellbone Disarmed
 0xAC Bael
 0xAD Elder Bael
@@ -180,7 +180,7 @@
 0xB2 Cerberus
 0xB3 Tarvos
 0xB4 Tarvos w/ Hand Axe
-0xB5 Tarvos Disarmed
+0xB5 Tarvos Disarmed		//End for now
 0xB6 Macdaire w/ Axe
 0xB7 Macdaire w/ Hand Axe
 0xB8 Macdaire w/ Bow
@@ -200,15 +200,15 @@
 0xC6 White Mamkute Disarmed
 0xC7 Myrra Disarmed
 0xC8 Sister Disarmed
-0xC9 Mamkute	////
-0xCA Fzerker axe
-0xCB Fzerker handaxe
-0xCC Fzerker unarmed
-0xCD FMonk
-0xCE Fwarrior start
+0xC9 Mamkute	////  //END OF TABLE
+0xCA 
+0xCB 
+0xCC 
+0xCD 
+0xCE 
 0xCF 
 0xD0 
-0xD1 FWarrior end
+0xD1 
 0xD2 FCav S
 0xD3 
 0xD4 FCav E
