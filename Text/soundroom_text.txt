@@ -84,3 +84,6 @@ N's Castle (BW2)[X]
 
 ## SorrowName
 Sorrow[X]
+
+## DanceNBraceName
+Dance & Brace[X]

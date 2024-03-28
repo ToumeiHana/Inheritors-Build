@@ -26,7 +26,8 @@
 //#define DepartureID 0x27
 #define KnightsOathID 0x28
 #define RuinsNightID 0x2A
-#define NearFarID 0x30
+#define DanceBraceID 0x30
+#define NearFarID DanceBraceID
 #define VictoryB 0x32
 #define GumshoeID 0x34
 //#define HeavyArmorCorpsID 0x34

@@ -33,4 +33,5 @@ SoundRoomEntry(DefendGlobeID,DefendGlobeName)
 SoundRoomEntry(BW1NCastleID,NCastleName)
 SoundRoomEntry(BW2NCastleID,NCastle2Name)
 SoundRoomEntry(SorrowID,SorrowName)
+SoundRoomEntry(NearFarID,DanceNBraceName)
 SoundRoomTerminator

@@ -80,8 +80,11 @@ SongTable(OffToWarRemixID,fe3offtowarremix,BattleMusicGroup)
 SongTable(WindOfLaGiasID,WindOfLaGias,MapMusicGroup)
 #include "event/WindOfLaGias.event"
 
-SongTable(NearFarID,NearFarFrontier000,MapMusicGroup)
-#include "event/NearFarFrontier000.event"
+//SongTable(NearFarID,NearFarFrontier000,MapMusicGroup)
+//#include "event/NearFarFrontier000.event"
+
+SongTable(DanceBraceID,Dance_Brace_lesslessdrum,MapMusicGroup)
+#include "event/Dance&Brace_lesslessdrum.event"
 
 SongTable(LakesNMarshesID,SEQ_021_00000,MapMusicGroup)
 #include "event/SEQ_021_00000.event"
