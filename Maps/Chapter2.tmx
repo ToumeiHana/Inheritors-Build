@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="27" height="20" tilewidth="16" tileheight="16" infinite="0" nextlayerid="7" nextobjectid="1">
- <tileset firstgid="1" source="../../Program Files/tiled/tilesets/Fields 1 Tiles.tsx"/>
+<map version="1.10" tiledversion="git" orientation="orthogonal" renderorder="right-down" width="27" height="20" tilewidth="16" tileheight="16" infinite="0" nextlayerid="7" nextobjectid="1">
+ <tileset firstgid="1" source="Fields 1 Tiles.tsx"/>
  <layer id="1" name="Main" width="27" height="20">
   <properties>
    <property name="Anims1" value="0x05"/>
