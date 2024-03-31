@@ -185,6 +185,12 @@ BeginningScene:
 	MOVE 0 Emmanuel [1,12]
 	ENUN
 	
+	CAMERA [5,6]
+	CURSOR_FLASHING Bone
+	STAL 60
+	REMOVE_CURSORS
+	Text(SledgeGloat)
+	
 	FADI 10
 	REMOVEUNIT Goon
 	LOAD1 0x1 BoulderTwoReal
@@ -286,7 +292,9 @@ BossDefeatedEvent:
 	CHAI Emmanuel
 	SVAL s1 0x00400000
 	CHAI Brigand_Enemy
+	ENUN
 	LOAD1 0x0 ExtraLads
+	ENUN
 	MUSC LakesNMarshesID
 	ENUF 2
 	CAMERA [14,1]
@@ -318,9 +326,9 @@ EndingScene:
 	SetBackground(Woodland)
 
 	CHECK_ALIVE Libby
-	BNE 6 s0 sC
+	BEQ 6 s0 sC
 	CHECK_ALIVE Emmanuel
-	BNE 7 s0 sC
+	BEQ 7 s0 sC
 	MUSC Victory
 	Text(Ch3EndTextA)
 	GOTO 8

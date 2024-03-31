@@ -41,7 +41,7 @@ class NightmareTable:
     if str(stripped[5]) != "NULL":
       path = os.path.join(directory, str(stripped[5]))
       try:
-        with open(path,'r') as textfile:
+        with open(path,'r',encoding='cp1252') as textfile:
           self.entryNames = self.getEntryNames(textfile.readlines())
       except FileNotFoundError:
         self.entryNames = []

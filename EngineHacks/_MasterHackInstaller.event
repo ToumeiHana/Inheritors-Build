@@ -72,7 +72,7 @@ POP
    
   //#include "ExternalHacks/UnitTargeting/UnitTargeting.event" //Uncomment for GaidenMagicAI later?
   
-  #include	"ExternalHacks/SoundroomThing/Installer.event"
+  #include "ExternalHacks/SoundroomThing/Installer.event"
   
   #include "ExternalHacks/HelpText/HelpText.event"
   
@@ -114,7 +114,7 @@ POP
   
   #include "ModularMinimugBox/Installers/MMBInstallerDefault.event"
 
-  #include "Externalhacks/ItemUsePerChap.event"
+  #include "ExternalHacks/ItemUsePerChap.event"
 
   #include "AiPerformExtension/AiInstaller.event"
 

@@ -130,8 +130,8 @@ Sometimes you have to pick up the[n]
 axe to protect thing you care about.[AN]
 This time is no different.[A]
 [MidLeft][ToggleSmile]
-Let's hope woodcutting hasn't[N]
-dulled your skills.[ToggleSmile][A][X]
+Let's hope years of woodcutting[N]
+hasn't dulled your skills.[ToggleSmile][A][X]
 
 ## Ch1TopVillageA
 [MidLeft][LoadFace][CurrentPortrait]

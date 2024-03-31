@@ -69,7 +69,7 @@ SongTable(CruelAngelStaffID,CruelAngelsThesisCut,BattleMusicGroup)
 #include "event/CruelAngelsThesisCut.event"
 
 SongTable(OffToWarID,OffToWar,MapMusicGroup)
-#include "event/OffToWarRSFlame.event"
+#include "event/OffToWarRSflame.event"
 
 SongTable(TroubleID,Trouble,MapMusicGroup)
 #include "event/TroubleAzula.event"

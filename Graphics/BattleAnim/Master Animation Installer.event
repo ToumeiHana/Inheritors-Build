@@ -106,7 +106,7 @@
 }
 
 {
-#include "BaldFighterTythebub/Axe Installer.event"
-#include "BaldFighterTythebub/Handaxe Installer.event"
-#include "BaldFighterTythebub/Unarmed Installer.event"
+#include "BaldFighterTytheBub/Axe Installer.event"
+#include "BaldFighterTytheBub/Handaxe Installer.event"
+#include "BaldFighterTytheBub/Unarmed Installer.event"
 }

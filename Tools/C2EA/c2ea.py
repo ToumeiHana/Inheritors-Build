@@ -61,7 +61,7 @@ def process(inputCSV, inputNMM, filename, rom):
         else:
             macroOutput+=(argx + ' ')
 
-    with open(inputCSV, 'r') as myfile:
+    with open(inputCSV, 'r',encoding='cp1252') as myfile:
         table = csv.reader(myfile)
         tableOffset = next(table)[0]
         for row in table:

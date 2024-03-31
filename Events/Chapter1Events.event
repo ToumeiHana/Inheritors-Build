@@ -130,7 +130,7 @@ BeginningScene:
 #ifdef __DEBUG__
 
 	FADU 10
-
+	ENUT 0xB0
 	ASMC Debug1Menu_ASMC|1
 	SVAL s7 0 
 	BEQ 404 sC s7 

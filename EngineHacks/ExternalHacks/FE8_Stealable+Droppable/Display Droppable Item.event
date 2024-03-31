@@ -2,7 +2,7 @@
 ERROR "You're not assembling to an FE8 ROM!"
 #endif
 
-#include EAStdlib.event
+#include EAstdlib.event
 #include "Extensions/Hack Installation.txt"
 	#ifndef Free_Space
 	#define Free_Space 0x0F3D000//D12000
