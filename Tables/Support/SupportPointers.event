@@ -29,10 +29,10 @@ SupportCountAmount(3)
 
 ALIGN 4
 JacobSupportPointer:
-SupportDataCharacters(Lucian,0,0,0,0) 
-SupportDataInitialValues(15,0,0,0,0)
-SupportDataGrowths(15,0,0,0,0)
-SupportCountAmount(1)
+SupportDataCharacters(Lucian,Hudson,0,0,0) 
+SupportDataInitialValues(15,20,0,0,0)
+SupportDataGrowths(15,15,0,0,0)
+SupportCountAmount(2)
 
 ALIGN 4
 LucianSupportPointer:
@@ -204,9 +204,9 @@ SupportCountAmount(2)
 
 ALIGN 4
 HudsonSupportPointer:
-SupportDataCharacters(Nella,Marco,0,0,0) 
-SupportDataInitialValues(80,1,0,0,0)
-SupportDataGrowths(30,30,0,0,0)
+SupportDataCharacters(Nella,Marco,Jacob,0,0) 
+SupportDataInitialValues(80,1,20,0,0)
+SupportDataGrowths(30,30,20,15,0)
 SupportCountAmount(2)
 
 ALIGN 4

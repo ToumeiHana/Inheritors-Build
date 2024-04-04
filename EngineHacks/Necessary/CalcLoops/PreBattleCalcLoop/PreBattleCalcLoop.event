@@ -49,7 +49,7 @@ POIN LethalitySkill NonGBALethalitySkill Bane
 #endif
 
 //POIN DesperateGambit
-POIN Rockhard CaringColdShoulder
+POIN Rockhard CaringColdShoulder Bravery
 POIN HonorDuel
 POIN StunningSmile
 POIN ChaosStyle

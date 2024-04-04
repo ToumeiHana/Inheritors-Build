@@ -230,3 +230,5 @@
 #define Mooncleaver 0xC2
 #define DawnEdge 0xC3
 #define Gheist 0xC4
+#define Repositioner 0xC7
+#define BraverysGift 0xCA

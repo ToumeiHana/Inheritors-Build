@@ -23,7 +23,7 @@ bne   Effect
 ldr r0,DefenderStruct
 mov r1, #0x30
 ldrb r0,[r0,r1]
-cmp r0,#0x0F @duration nibble doesn't exist because of statusrework ig
+cmp r0,#0x0F 		@duration nibble doesn't exist because of statusrework ig
 bne End
 
 Effect:

@@ -47,6 +47,27 @@ Gheist[X]
 ## GheistDesc
 Equip to summon phantoms.[X]
 
+## RepostionerName
+Repositioner[X]
+
+## RepostionerDesc
+Lauren only. Pulls an adjacent[N]
+ally to her opposite side.[X]
+
+## RepostionerUseDesc
+Repositions an ally.[X]
+
+## BraveryName
+Bravery's Gift[X]
+
+## BraveryDesc
+Libby only. Grants "Brave" -status to[N]
+an adjacent ally for rest of the turn.[X]
+
+## BraveryUseDesc
+Grants "Brave"[N]
+to an ally.[X]
+
 ## PeikonhammasName
 Peikonhammas[X]
 

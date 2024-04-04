@@ -25,6 +25,13 @@ Bait[X]
 #0xd4f SS_BaitDesc
 Provoke & +15 avoid[X]
 
+#0xd50 SS_BraveStatus
+Brave[X]
+ 
+#0xd51 SS_BraveDesc
+Weapons become brave[N]
+when initiating attacks.[X]
+
 ## HouseText
 //first text ID in the free block
 [MidRight][LoadFace][CurrentPortrait]Nothing to see here.[A][X]

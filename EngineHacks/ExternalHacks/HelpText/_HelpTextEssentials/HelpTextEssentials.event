@@ -20,11 +20,15 @@ WeaponMagicHelpTextLabels:
 ORG 0x89CD4
 //#include "WeaponMagic/WeaponMagicHelpTextValues.event"
 
+ORG 0x89D4E
+StaffHelpTextLabels:
+
+/*
 #ifndef MoreStaffInfoInstall
 	#include "Staff/StaffHelpTextLabels.event"
 	ALIGN 4
 #endif
-
+*/
 //Monster Weapon stat display (credit Brendor, circles for buildfile version)
 
 ORG 0x16E20
@@ -56,10 +60,7 @@ ALIGN 4
 
 #include "WeaponMagic/WeaponMagicHelpTextSpace.lyn.event"
 ALIGN 4
-/*
-#include "WeaponMagic/WeaponMagicHelpTextValues.event"
-ALIGN 4
-*/
+
 
 #include "Staff/StaffHelpTextCheck.lyn.event"
 ALIGN 4
@@ -71,6 +72,7 @@ ALIGN 4
 
 	StaffRankItemLink:
 	SHORT 0x0509
+	ALIGN 4
 	StaffRangeItemLink:
 	SHORT 0x0500
 	ALIGN 4

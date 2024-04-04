@@ -94,11 +94,12 @@ adding yourself!
 - L95: FMercenary, FMyrm
 
 # Item Icons
-- Erekshigal: Skygazer, Youtou, Dawn Edge
+- Erekshigal: Skygazer, Youtou, Dawn Edge, Bravery's Gift
 - LordGlenn: Mine Staff
 - Zane: Elstone
 - Celice: Mooncleaver
 - Seal: Gheist
+- Lisandra Brave: Repostioner
 
 # External & Inline hacks
 
@@ -107,7 +108,7 @@ adding yourself!
 - Huichelaar: Minimug Palette Fix, Gendered text
 - circles: drumfix
 - Alusq: NIMAP 2 (with keysplits)
-- Tequila: New CHAI, walking sounds fix. text engine rework
+- Tequila: New CHAI, walking sounds fix, text engine rework, staff locks
 - HyperGammaSpaces: Summon rework, Dynamic equip
 - Aera: Thracia trading, remove link arena
 - Zane: MMB
@@ -121,6 +122,7 @@ adding yourself!
 - 2WB: Portrait Height Fix
 - Relic: Levelups restore hp
 - Mkol: Droppable/Stealable Item Display
+- jjl2357: staff locks
 
 # Music
 

@@ -1,16 +1,30 @@
 ALIGN 4
 RepostionStaffRangeSetup:
-rfItemRangeSetup(RewarpStaff_TCondition,Item_TTRange)
+rfItemRangeSetup(_prReposition_MakeTargetList,Item_TURange)
 
-//unused, uses barrier routine
-/*ALIGN 4
+ALIGN 4
 RepostionStaffUsability: 
-rfStaffUsability(Staff_FSUsability, rfTrueCheck, rfTrueCheck)*/
+rfStaffUsability(Staff_TSUsability, rfTrueCheck, RepostionStaffRangeSetup)
+
+ALIGN 4
+_pRepositionStaffSelectorDefinition:
+	POIN (_prRepositionSelection_OnConstruction+1) // Constructor
+	POIN (_prSelection_DestructMoveDisplay+1) // Destructor
+	WORD 0 // idk (actually ik kinda, see my notes)
+	POIN (_prRepositionSelection_OnChange+1) // target change
+	WORD 0 // idk (same)
+	POIN 0x29550 | 1 // Staff A Press
+	POIN 0x22749 // B Press (Generic Vanilla One that calls the unit menu back)
+	WORD 0 // idk (same)
 
 ALIGN 4
 RepostionStaffTargeting:
-rfStaffTargeting(Staff_FSTargeting, RepostionStaffRangeSetup, RewarpStaff_FreeSelect)
+rfStaffTargeting(Staff_TSTargeting, RepostionStaffRangeSetup, _pRepositionStaffSelectorDefinition)
 
 ALIGN 4
 RepostionStaffEffect:
-rfStaffEffect(Staff_UETemplate, _prRepositionSelection_OnSelection)
+rfStaffEffect(Staff_UETemplate, RepoStaffAsm)
+
+ALIGN 4
+RepoStaffAsm:
+#incbin "RepoStaffAsm.dmp"

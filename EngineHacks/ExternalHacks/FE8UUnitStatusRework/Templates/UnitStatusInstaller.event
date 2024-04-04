@@ -40,7 +40,7 @@ InjectUnitStatusInfo(EA_UNIT_NEW_STATUS_WEAKEN, StatusInfo_Weaken)
 SetStatusBlinkyIconFunc(EA_UNIT_NEW_STATUS_WEAKEN, CostumBlankyIcon_DeBuffStatus)
 
 
-// Avoid
+// Avoid / Bait
 ALIGN 4
 Gfx_UnitStatus_Avoid:
 #incbin "Avoid/Gfx_UnitStatus_Avoid.4bpp"
@@ -57,12 +57,11 @@ Gfx_UnitStatus_AvoidPlus:
 InjectUnitStatusInfo(EA_UNIT_NEW_STATUS_AVOIDPLUS, StatusInfo_AvoidPlus)
 SetStatusBlinkyIconFunc(EA_UNIT_NEW_STATUS_AVOIDPLUS, CostumBlankyIcon_BuffStatus)
 
-/*
-// Bait
+
+// Bravery
 ALIGN 4
-Gfx_UnitStatus_Bait:
+Gfx_UnitStatus_Brave:
 #incbin "Avoid/Gfx_UnitStatus_Avoid.4bpp"
-#include "Bait/BaitInfo.lyn.event"
-InjectUnitStatusInfo(EA_UNIT_NEW_STATUS_BAIT, StatusInfo_Bait)
-SetStatusBlinkyIconFunc(EA_UNIT_NEW_STATUS_BAIT, CostumBlankyIcon_BuffStatus)
-*/
+#include "Brave/BraveInfo.lyn.event"
+InjectUnitStatusInfo(EA_UNIT_NEW_STATUS_BRAVE, StatusInfo_Brave)
+SetStatusBlinkyIconFunc(EA_UNIT_NEW_STATUS_BRAVE, CostumBlankyIcon_BuffStatus)

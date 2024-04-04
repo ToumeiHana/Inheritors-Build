@@ -10,6 +10,7 @@ SHORT 0x1C03 0x1C20 //mov r3, r0; mov r0, r4
 SHORT 0x2100 0x2208 //mov r1, #0; mov r2, #8
 BL(0x4480) //SHORT 0xF77A 0xFB8B
 
+ALIGN 4
 //Range
 SHORT 0x4808 0x8800 //ldr r0 (StaffRangeItemLink); ldrh r0, [r0]
 BL(0xA240) //SHORT 0xF780 0xFA67

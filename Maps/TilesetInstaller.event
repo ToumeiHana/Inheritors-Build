@@ -1,4 +1,4 @@
-//#include "TileAnims/TileAnimInstaller.event"
+#include "TileAnims/TileAnimInstaller.event"
 
 ALIGN 4
 VillageObjects:

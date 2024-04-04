@@ -3,3 +3,10 @@
 
 ## SS_BaitDesc
 +15 avo and provoke[X]
+
+## SS_BraveStatus
+ Bravery[X]
+ 
+## SS_BraveDesc
+Weapons become brave[N]
+when initiating.[X]

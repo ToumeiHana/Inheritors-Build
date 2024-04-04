@@ -1,0 +1,31 @@
+//unused, uses barrier instead
+/*ALIGN 4
+BraveStaffRangeSetup:
+rfItemRangeSetup($28adc, Item_TURange)
+
+ALIGN 4
+BraveStaffUsability: 
+rfStaffUsability(Staff_TSUsability, rfTrueCheck, BraveStaffRangeSetup)
+
+ALIGN 4
+BraveStaffSelectorDefinition:
+	POIN	0x247F4 |1	//display bottom help text
+	POIN 	0x4E884 |1
+	WORD 	0x0
+	POIN 	0x24814 |1
+	WORD 	0x0
+	POIN 0x29550 | 1 // Staff A Press
+	POIN 0x22749 // B Press (Generic Vanilla One that calls the unit menu back)
+	WORD 0 
+
+ALIGN 4
+BraveStaffTargeting:
+rfStaffTargeting(Staff_TSTargeting, BraveStaffRangeSetup, BraveStaffSelectorDefinition)*/
+
+ALIGN 4
+BraveStaffEffect:
+rfStaffEffect(Staff_UETemplate, BraveStaffAsm)
+
+ALIGN 4
+BraveStaffAsm:
+#incbin "BraveStaffAsm.dmp"

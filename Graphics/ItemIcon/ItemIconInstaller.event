@@ -20,6 +20,8 @@ POP
 #define MooncleaverItemIconID 226
 #define DawnEdgeItemIconID 227
 #define GheistItemIconID 228
+#define RepostionerIconID 229
+#define BraveryIconID 230
 
 PUSH 
 ItemIconEntry(SkygazerIconID)
@@ -42,5 +44,11 @@ ItemIconEntry(DawnEdgeItemIconID)
 
 ItemIconEntry(GheistItemIconID)
 #incbin "dmp/SealDark6.dmp"
+
+ItemIconEntry(RepostionerIconID)
+#incbin "dmp/LisandraBraveStaff114.dmp"
+
+ItemIconEntry(BraveryIconID)
+#incbin "dmp/EreshkigalStaff13.dmp"
  
 POP 

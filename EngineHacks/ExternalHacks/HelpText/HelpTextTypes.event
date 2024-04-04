@@ -62,13 +62,13 @@ HelpTextTypeList:
 	HTTLE(LearningRingHelpTextCheck,LearningRingHelpTextSpace,LearningRingHelpTextLabels,LearningRingHelpTextValues)
 */
 	HTTLE(WeaponMagicHelpTextCheck,WeaponMagicHelpTextSpace,WeaponMagicHelpTextLabels,0x89CD4)
-/*	
+	
 	#ifndef MoreStaffInfoInstall
-		HTTTE(StaffHelpTextCheck,OneLineHelpTextSpace,StaffHelpTextLabels,StaffHelpTextValues)
+		HTTLE(StaffHelpTextCheck,OneLineHelpTextSpace,StaffHelpTextLabels,StaffHelpTextValues)
 	#else
 		HTTLE(StaffHelpTextCheck,MoreStaffHelpTextSpace,MoreStaffHelpTextLabels,MoreStaffHelpTextValues)
 	#endif
-*/
+
 	//end of the list
 	WORD 0
 	POIN DefaultHelpTextSpace

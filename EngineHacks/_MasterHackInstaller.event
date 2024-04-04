@@ -68,9 +68,15 @@ POP
   
   //#include "Necessary/Debuffs/Debuffs.event"
   
-   //#include "ExternalHacks/AutosaveKiller/AutosaveKiller.event"
+  //#include "ExternalHacks/AutosaveKiller/AutosaveKiller.event"
    
   //#include "ExternalHacks/UnitTargeting/UnitTargeting.event" //Uncomment for GaidenMagicAI later?
+  
+  //#include "ExternalHacks/ExtendWeaponDescBox/Installer.event" //Installed in HelpText instead, dunno if files are any different but it's there
+  
+  //#include "ExternalHacks/ItemSpecialEffect/Installer.event"
+  
+  #include "ExternalHacks/FE8U-Staff and Item Lock/FE8-Staff and Item Lock EA.event"
   
   #include "ExternalHacks/SoundroomThing/Installer.event"
   
@@ -84,9 +90,7 @@ POP
    
   #include "ExternalHacks/Asymmetric_WTA/Asymmetric_WTA.event"
   
-  #include "ExternalHacks/FE8-Text_Engine_Rework/_FE8-Text_Engine_Rework_EA.event"
-  
-  //#include "ExternalHacks/ItemSpecialEffect/Installer.event"
+  #include "ExternalHacks/FE8-Text_Engine_Rework/_FE8-Text_Engine_Rework_EA.event" 
   
   #include "ExternalHacks/PromoteCommand/Installer.event"
   
@@ -99,8 +103,6 @@ POP
   #include "ExternalHacks/ASMC/ASMCInstaller.event"
   
   #include "ExternalHacks/FE8UUnitStatusRework/UnitStatus.event"
- 
-  //#include "ExternalHacks/ExtendWeaponDescBox/Installer.event" //Installed in HelpText instead, dunno if files are any different but it's there
 
   #include "ExternalHacks/ModularUnitMenuCommandUsability/ModularUnitMenuCommandUsability.event"
   

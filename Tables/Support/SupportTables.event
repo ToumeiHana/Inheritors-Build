@@ -20,6 +20,7 @@ SupportConvoEntry(Alysa,Caitlind,AlysaCaitlindC,AlysaCaitlindB,AlysaCaitlindA)
 SupportConvoEntry(Alysa,Sana,AlysaSanaC,AlysaSanaB,AlysaSanaA)
 
 SupportConvoEntry(Jacob,Lucian,JacobLucianC,JacobLucianB,JacobLucianA)
+SupportConvoEntry(Jacob,Hudson,JacobHudsonC,JacobHudsonB,JacobHudsonA)
 
 SupportConvoEntry(Diane,Marco,DianeMarcoC,DianeMarcoB,DianeMarcoA)
 SupportConvoEntry(Diane,Henrik,DianeHenrikC,DianeHenrikB,DianeHenrikA)

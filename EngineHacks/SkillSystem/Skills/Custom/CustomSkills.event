@@ -84,3 +84,7 @@ WasteNot:
 #incbin "WasteNot.dmp"
 POIN SkillTester
 WORD WasteNotID
+
+ALIGN 4
+Bravery:
+#incbin "BraveryEffect.dmp"

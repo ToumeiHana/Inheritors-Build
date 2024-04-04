@@ -1,7 +1,0 @@
-ALIGN 4
-PUSH
-ORG CURRENTOFFSET+$0;StatusInfo_Bait:
-POP
-WORD $2120212
-POIN Gfx_UnitStatus_Bait
-WORD $0 $0 $0 $10002 $0 $0 $140000 $0

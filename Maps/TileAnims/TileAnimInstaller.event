@@ -1,0 +1,40 @@
+#define tilesetAnimation(speed, size, pointer)    "BYTE speed 0; SHORT size; POIN pointer"
+
+ALIGN 4
+VillageAnim0:
+#incbin "villageanims000.dmp"
+ALIGN 4
+VillageAnim1:
+#incbin "villageanims001.dmp"
+ALIGN 4
+VillageAnim2:
+#incbin "villageanims002.dmp"
+ALIGN 4
+VillageAnim3:
+#incbin "villageanims003.dmp"
+ALIGN 4
+VillageAnim4:
+#incbin "villageanims004.dmp"
+ALIGN 4
+VillageAnim5:
+#incbin "villageanims005.dmp"
+ALIGN 4
+VillageAnim6:
+#incbin "villageanims006.dmp"
+ALIGN 4
+VillageAnim7:
+#incbin "villageanims007.dmp"
+
+ALIGN 4
+VillageTileAnims:
+tilesetAnimation(0x1C,0x1000,VillageAnim0)
+tilesetAnimation(0x1C,0x1000,VillageAnim1)
+tilesetAnimation(0x1C,0x1000,VillageAnim2)
+tilesetAnimation(0x1C,0x1000,VillageAnim3)
+tilesetAnimation(0x1C,0x1000,VillageAnim4)
+tilesetAnimation(0x1C,0x1000,VillageAnim5)
+tilesetAnimation(0x1C,0x1000,VillageAnim6)
+tilesetAnimation(0x1C,0x1000,VillageAnim7)
+WORD 0 0
+
+EventPointerTable(VillageAnimsID,VillageTileAnims)

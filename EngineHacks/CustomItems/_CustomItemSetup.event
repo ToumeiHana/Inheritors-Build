@@ -24,6 +24,8 @@
 
 #include "RepostionStaff/RepostionStaffSetup.event"
 
+#include "ExStatusStaves/BraveStaffSetup.event"
+
 //custom items
 //#include "SelfHealItems/MigVul_Setup.event"
 

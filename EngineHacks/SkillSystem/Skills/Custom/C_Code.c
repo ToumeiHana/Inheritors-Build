@@ -6,6 +6,7 @@ extern int AuraSkillCheck(struct Unit* unit, int ID, int allyOption, int maxRang
 extern int GetROMUnitSupportCount(struct Unit* unit);
 extern struct Unit* GetUnitSupportingUnit(struct Unit* unit, int num);
 extern int GetSupportLevelBySupportIndex(struct Unit*, int num);
+extern void SetBit(u32* address, u8 bitOffset);
 
 extern int CaringColdShoulderID_Link;
 

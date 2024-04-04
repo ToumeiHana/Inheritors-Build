@@ -1,0 +1,7 @@
+ALIGN 4
+PUSH
+ORG CURRENTOFFSET+$0;StatusInfo_Brave:
+POP
+WORD $D510D50
+POIN Gfx_UnitStatus_Brave
+WORD $0 $0 $0 $10002 $0 $0 $0 $0

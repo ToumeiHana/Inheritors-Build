@@ -111,7 +111,7 @@ InnGroup:
 	UNIT Mirabelle Claw Curtis Level(2,NPC,False) [22,4] 0x00 0x00 0x01 REDA20R5 [DragonClaw,RustyNail] HalfRangeAI
 	UNIT Katja Fighter_F Curtis Level(2,NPC,False) [22,4] 0x00 0x00 0x01 REDA21R6 [IronAxe] HalfRangeAI
 	UNIT Mauritch Myrmidon Curtis Level(2,NPC,False) [22,4] 0x00 0x00 0x01 REDA23R6 [KillingEdge] HalfRangeAI
-	UNIT Lauren Troubadour Curtis Level(2,NPC,False) [22,4] 0x00 0x00 0x01 REDA24R5 [Heal, Vulnerary] HealUnits
+	UNIT Lauren Troubadour Curtis Level(2,NPC,False) [22,4] 0x00 0x00 0x01 REDA24R5 [Heal, Repositioner, Vulnerary] HealUnits
 	UNIT
 
 Traps1:
