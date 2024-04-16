@@ -8,7 +8,7 @@ ldrb 	r0, [r4, #0xD]
 
 _blh GetUnit
 
-mov		r1, #0x14
+mov		r1, #0x11
 mov		r2, #0x30
 strb	r1, [r0, r2]
 

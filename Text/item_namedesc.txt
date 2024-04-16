@@ -57,7 +57,7 @@ ally to her opposite side.[X]
 ## RepostionerUseDesc
 Repositions an ally.[X]
 
-## BraveryName
+## BraveryName ^
 Bravery's Gift[X]
 
 ## BraveryDesc
