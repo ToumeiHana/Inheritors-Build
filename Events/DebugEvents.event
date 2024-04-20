@@ -124,6 +124,7 @@ ASMC Debug2Menu_ASMC|1
 	LOAD1 0x1 EnemyUnits
 	ENUN
 	
+	GiveMoney(4000)
 	ENDA
 	
 GoCh1:
@@ -147,7 +148,6 @@ GoCh3:
 
 GoCh4:	
 	LOAD1 0x1 Ch4DebugUnits
-	GiveMoney(4000)
 	ENUN
 	MNC2 Chapter4
 	NoFade

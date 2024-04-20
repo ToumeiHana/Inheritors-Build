@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="15" height="10" tilewidth="16" tileheight="16" infinite="0" nextlayerid="2" nextobjectid="1">
+ <tileset firstgid="1" source="Fields 1 Tiles.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="15" height="10">
+  <properties>
+   <property name="Anims1" value="0x05"/>
+   <property name="Anims2" value="0"/>
+   <property name="ChapterID" value="DebugChapter"/>
+   <property name="Main" value=""/>
+   <property name="MapChangesID" value="0xCD"/>
+   <property name="MapID" value="DebugMap"/>
+   <property name="ObjectType" value="PlainsObjectsID"/>
+   <property name="PaletteID" value="Plains1PaletteID"/>
+   <property name="TileConfig" value="PlainsConfigID"/>
+  </properties>
+  <data encoding="csv">
+99,100,99,100,99,100,99,100,99,100,99,100,99,100,99,
+131,132,131,132,131,132,131,132,131,132,131,132,131,132,131,
+99,100,99,100,99,100,99,100,99,100,99,100,99,100,99,
+131,132,131,132,131,132,131,132,131,132,131,132,131,132,131,
+99,100,99,100,99,100,99,100,99,100,99,100,99,100,99,
+131,132,131,132,131,132,131,132,131,132,131,132,131,132,131,
+99,100,99,100,99,100,99,100,99,100,99,100,99,100,99,
+131,132,131,132,131,132,131,478,478,132,131,132,131,132,131,
+99,997,998,934,99,100,99,478,478,100,99,100,99,100,99,
+131,132,131,132,131,132,131,132,131,132,131,132,131,132,131
+</data>
+ </layer>
+</map>
