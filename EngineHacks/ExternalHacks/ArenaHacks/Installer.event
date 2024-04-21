@@ -1,3 +1,8 @@
+PUSH
+ORG $30EA8
+SHORT 0x3019 //Hijacks initializing unk48 in chapter start, which would be used in keeping track of kills for dungeon(?)
+POP
+
 ExtraArenaTextID_Link:
 WORD 0xd52
 
