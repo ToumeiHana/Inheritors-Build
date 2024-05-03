@@ -52,3 +52,6 @@
 #define Thunder2SFX 0x11A
 #define EndlessFightingMapID 0x26d
 #define SorrowID 0x26e
+#define AshToAshID 0x5d
+#define AshToAshBurstID 0x5e
+#define FirstWardID 0x5f

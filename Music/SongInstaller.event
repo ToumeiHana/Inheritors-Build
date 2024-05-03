@@ -126,3 +126,12 @@ SongTable(WindSummonID,TOWN_NIGHT00,MapMusicGroup)
 
 SongTable(SorrowID,SorrowKiN,MapMusicGroup)
 #include "event/Sorrow.event"
+
+SongTable(AshToAshID,SEQ_BGM_053_0000,MapMusicGroup)
+#include "event/SEQ_BGM_053_0000.event"
+
+SongTable(AshToAshBurstID,SEQ_BGM_054_00,MapMusicGroup)
+#include "event/SEQ_BGM_054_00.event"
+
+SongTable(FirstWardID,FirstWard,MapMusicGroup)
+#include "event/FirstWard.event"

@@ -34,4 +34,7 @@ SoundRoomEntry(BW1NCastleID,NCastleName)
 SoundRoomEntry(BW2NCastleID,NCastle2Name)
 SoundRoomEntry(SorrowID,SorrowName)
 SoundRoomEntry(NearFarID,DanceNBraceName)
+SoundRoomEntry(AshToAshID,AshToAshName)
+SoundRoomEntry(AshToAshBurstID,AshToAshBurstName)
+SoundRoomEntry(FirstWardID,FirstWardName)
 SoundRoomTerminator
