@@ -34,7 +34,7 @@ MiscBasedEvents:
 	END_MAIN
 
 LocationBasedEvents:
-
+	Armory(DebugArmory,0,8)
 	VeinEffect(3,DebugVein)
 	END_MAIN
 
@@ -64,7 +64,7 @@ Units1:
 	UNIT Caitlind AxePeg 0x0 Level(1,Ally,False) [0,2] 0x0 0x0 0x0 0x0 [KillerAxe,IronAxe,0xc6, Handaxe] NoAI
 	UNIT Kimiko Myrmidon_F 0x0 Level(1,Ally,False) [2,2] 0x0 0x0 0x0 0x0 [DawnEdge] NoAI
 	UNIT Mauritch Myrmidon 0x0 Level(1,Ally,False) [2,3] 0x0 0x0 0x0 0x0 [KillingEdge] NoAI
-	UNIT Sana FalcoKnight 0x0 Level(1,Ally,False) [2,4] 0x0 0x0 0x0 0x0 [0x0] NoAI
+	UNIT Sana FalcoKnight 0x0 Level(1,Ally,False) [2,4] 0x0 0x0 0x0 0x0 [SilverCard,SilverCard] NoAI
 	UNIT Jacob SwordCavalier 0x0 Level(1,Ally,False) [2,5] 0x0 0x0 0x0 0x0 [0x0] NoAI
 	UNIT Hollie Ballistician_F 0x0 Level(2,Ally,True) [1,2] 0x0 0x0 0x0 0x0 [Ballista] NoAI
 	UNIT Anis Monk_F 0x0 Level(3,Ally,True) [3,0] 0x0 0x0 0x0 0x0 [Lightning] NoAI
@@ -163,6 +163,21 @@ EndingScene:
 DebugVein:
 	NoFade
 	ENDA
+	
+ALIGN 4
+DebugArmory:
+	SHORT IronSword
+	SHORT SteelSword
+	SHORT IronLance
+	SHORT SteelLance
+	SHORT IronAxe
+	SHORT SteelAxe
+	SHORT Hammer
+	SHORT IronBow
+	SHORT SteelBow
+	SHORT Longbow
+	SHORT 0
+	SHORT 0	
 	
 Ch2DebugUnits:
 	UNIT Curtis Eye Curtis Level(2,Ally,True) [0,0] 0x00 0x00 0x00 0x01 [Rapier, Vulnerary] NoAI //[27,16]

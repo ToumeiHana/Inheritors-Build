@@ -432,14 +432,14 @@ Ch4VillageEvent:
 	
 ALIGN 4
 Ch4Armory:
-SHORT IronSword
+//SHORT IronSword
 SHORT SteelSword
-SHORT IronLance
+//SHORT IronLance
 SHORT SteelLance
-SHORT IronAxe
+//SHORT IronAxe
 SHORT SteelAxe
 SHORT Hammer
-SHORT IronBow
+//SHORT IronBow
 SHORT SteelBow
 SHORT Longbow
 SHORT 0

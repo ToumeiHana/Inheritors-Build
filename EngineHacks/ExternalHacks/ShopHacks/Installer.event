@@ -1,0 +1,4 @@
+CouponID_Link:
+WORD 0x73 // Silver Card
+
+#include "C_Code.lyn.event"

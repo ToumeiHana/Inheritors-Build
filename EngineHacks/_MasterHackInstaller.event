@@ -76,6 +76,8 @@ POP
   
   //#include "ExternalHacks/ItemSpecialEffect/Installer.event"
   
+  #include "ExternalHacks/ShopHacks/Installer.event"
+  
   #include "ExternalHacks/ArenaHacks/Installer.event"
   
   #include "ExternalHacks/FE8U-Staff and Item Lock/FE8-Staff and Item Lock EA.event"
