@@ -123,6 +123,8 @@ adding yourself!
 - Relic: Levelups restore hp
 - Mkol: Droppable/Stealable Item Display
 - jjl2357: staff locks
+- MikasaMikoto: hackbox exceed
+- Pikmin1211: hackbox exceed buildfile port
 
 # Music
 

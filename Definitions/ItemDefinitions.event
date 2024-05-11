@@ -127,7 +127,8 @@
 #define TorchItem 0x70
 #define DelphiShield 0x71
 #define MemberCard 0x72
-#define SilverCard 0x73
+#define SilverCard 0x73*/
+#define Coupon 0x73 /*
 #define WhiteGem 0x74
 #define BlueGem 0x75
 #define RedGem 0x76

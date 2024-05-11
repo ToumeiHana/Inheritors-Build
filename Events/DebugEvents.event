@@ -36,6 +36,7 @@ MiscBasedEvents:
 LocationBasedEvents:
 	Armory(DebugArmory,0,8)
 	VeinEffect(3,DebugVein)
+	House(11,HouseEvent,0,7)
 	END_MAIN
 
 Dunno1:
@@ -72,6 +73,7 @@ Units1:
 	UNIT Alysa Recruit_1 0x0 Level(10,Ally,True) [0,3] 0x0 0x0 0x0 [Skygazer] NoAI
 	UNIT Winton Outlaw 0x0 Level(10,Ally,True) [3,3] 0x0 0x0 0x0 [0x0] NoAI
 	UNIT Lauren Troubadour 0x0 Level(3,Ally,True) [3,3] 0x0 0x0 0x0 0x1 [Heal, Mend, Vulnerary] NoAI
+	UNIT Ellie Druid 0x0 Level(1,Ally,False) [0,6] 0x0 0x0 0x0 0x0 [Flux] NoAI
 	UNIT
 
 EnemyUnits:
@@ -162,6 +164,10 @@ EndingScene:
 	
 DebugVein:
 	NoFade
+	ENDA
+	
+HouseEvent:
+	HouseEvent(Ch1HouseText,0x00)
 	ENDA
 	
 ALIGN 4

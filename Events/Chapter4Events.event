@@ -101,7 +101,7 @@ EnemyUnits:
 	UNIT Farum LanceKnight Bazba Level(5,Enemy,True) [23,9] 0x0 0x0 0x0 0x0 [SteelLance] DelayedChargeAI
 	UNIT Farum BowKnight Bazba Level(5,Enemy,True) [23,10] 0x0 0x0 0x0 0x0 [SteelBow] DelayedChargeAI
 	UNIT Farum LanceKnight Bazba Level(5,Enemy,True) [23,11] 0x0 0x0 0x0 0x0 [SteelLance] DelayedChargeAI
-	UNIT FarumWeak General 0x0 Level(1,Enemy,True) [24,10] 0x0 0x0 0x0 0x0 [IronBlade,IronBow,RedGem] NeverMoveAI
+	UNIT FarumWeak General 0x0 Level(1,Enemy,True) [24,10] 0x0 0x0 0x0 0x0 [IronBlade,IronBow,Coupon] NeverMoveAI
 	UNIT
 
 EnemyUnits2:
@@ -432,14 +432,10 @@ Ch4VillageEvent:
 	
 ALIGN 4
 Ch4Armory:
-//SHORT IronSword
 SHORT SteelSword
-//SHORT IronLance
 SHORT SteelLance
-//SHORT IronAxe
 SHORT SteelAxe
 SHORT Hammer
-//SHORT IronBow
 SHORT SteelBow
 SHORT Longbow
 SHORT 0

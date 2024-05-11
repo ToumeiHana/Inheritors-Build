@@ -93,7 +93,8 @@ to a new class.[X]
 
 ## PromotionDataDesc
 Classes this unit can promote[N]
-to and their class skills.[X]
+to, their growth boosts[N]
+and their class skills.[X]
 
 ## DragonPowerDesc
 Dragonic powers unit can use.[X]

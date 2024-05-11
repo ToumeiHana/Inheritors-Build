@@ -2,6 +2,8 @@
 //this file defines the macro:
 //setMugEntry(number, data, mouth_x, mouth_y, eye_x, eye_y)
 
+#define setMugEntryExtend(mugEntry, mugLocation, mouthX, mouthY, eyeX, eyeY, extend1X, extend1Y, extend2X, extend2Y) "PUSH; ORG PortraitTable+mugEntry*0x1C; POIN mugLocation; POIN mugLocation+0x1624; POIN mugLocation+0x1604; POIN mugLocation+0x1004; BYTE extend1X extend1Y extend2X extend2Y; BYTE mouthX mouthY eyeX eyeY; BYTE 1 0 1 0; POP"
+
 /*
 ALIGN 4
 _Mug:
@@ -228,6 +230,14 @@ Caitlind_Mug:
 #incbin "dmp/Caitlind_palette.dmp"
 #incbin "dmp/Caitlind_minimug.dmp"
 setMugEntry(0x2A,Caitlind_Mug,4,5,4,3)
+
+ALIGN 4
+Ellie_Mug:
+#incbin "dmp/Ellie_mug.dmp"
+#incbin "dmp/Ellie_frames.dmp"
+#incbin "dmp/Ellie_palette.dmp"
+#incbin "dmp/Ellie_minimug.dmp"
+setMugEntryExtend(0x2B,Ellie_Mug,4,6,4,0,4,(-2),6,(-2))
 
 ALIGN 4
 Nella_Mug:

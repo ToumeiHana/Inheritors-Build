@@ -38,8 +38,8 @@ Magical. Ignores Res. Cannot double.[X]
 Dawn Edge[X]
 
 ## DawnEdgeDesc
-Attacking: heals 50 % of damage dealt.[N]
-Defending: ignores 50 % of enemy Def.[X]
+Attacking: heals 50% of damage dealt.[N]
+Defending: ignores 50% of enemy Def.[X]
 
 ## GheistName
 Gheist[X]
@@ -67,6 +67,13 @@ an adjacent ally for rest of the turn.[X]
 ## BraveryUseDesc
 Grants "Brave"[N]
 to an ally.[X]
+
+## CouponName
+Coupon[X]
+
+## CouponDesc
+50% off from a single purchase.[N]
+Vanishes afterwards.[X]
 
 ## PeikonhammasName
 Peikonhammas[X]
