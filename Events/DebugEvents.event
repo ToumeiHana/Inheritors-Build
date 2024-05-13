@@ -139,7 +139,8 @@ GoCh1:
 GoCh2:
 	LOAD1 0x1 Ch2DebugUnits
 	ENUN
-	MNC2 Chapter2
+	WM_SETDESTINATION 0 1 0
+	MNCH Chapter2
 	NoFade
 	ENDB
 	

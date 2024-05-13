@@ -325,7 +325,8 @@ EndingScene:
 	LABEL 2
 	Text(Ch1EndText)
 	EndConvo
-	MNC2 Chapter2
+	WM_SETDESTINATION 0 1 0
+	MNCH Chapter2
 	//NoFade
 	ENDA
 	

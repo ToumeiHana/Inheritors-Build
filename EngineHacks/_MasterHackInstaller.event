@@ -76,6 +76,8 @@ POP
   
   //#include "ExternalHacks/ItemSpecialEffect/Installer.event"
   
+  //#include "C_Code.lyn.event"
+  
   #include "ExternalHacks/hackbox_exceed/EA.txt"
   
   #include "ExternalHacks/ShopHacks/Installer.event"

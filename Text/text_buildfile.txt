@@ -152,3 +152,5 @@ Game saved![A][X]
 #include "unitmenu_text.txt"
 
 #include "soundroom_text.txt"
+
+#include "wm_text.txt"

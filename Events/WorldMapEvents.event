@@ -1,6 +1,38 @@
 //World Map Events Installer
 //#define WorldMapIntroPointerTable(id,offset) "PUSH; ORG 0x8B3ad8+(4*id); POIN offset; POP"
 
+
+PUSH
+// WM Node Things
+//ORG $2060B8
+//BYTE 1
+//BYTE 1
+
+ORG $2060D0
+BYTE 0
+ORG $2060D4
+BYTE 1
+BYTE 1
+
+/*
+//Fixes the world map chapter ID being loaded instead of the actual chapter ID.
+ORG 0x897B2
+BYTE 0x0 0x0 0x0 0x0
+
+
+//Fixes the game considering some chapters postgame.
+ORG 0x897C4
+BYTE 0x0E 0x20 0x20 0x56
+*/
+
+// nops that fix NMCH somehow
+ORG 0xA8B7C
+SHORT 0x46C0
+ORG 0xB9B62
+SHORT 0x46C0
+
+POP
+
 {
   #define PrologueWMEventsID 0x1
   ALIGN 4
@@ -9,6 +41,10 @@
 {
   ALIGN 4
   #include "WM2_Prologue.event"
+}
+{
+  ALIGN 4
+  #include "WM_Chapter2.event"
 }
 ALIGN 4
 // #include "EpilogueEvents.event"

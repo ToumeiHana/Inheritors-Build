@@ -1,0 +1,16 @@
+## WM_Opening_text
+The continent of whatever.[.4] These lands were[N]
+ravaged by a sudden appearance of a dragon[.4][N]
+whenever years ago, but have since been[.4][N]
+blessed with times of relative peace.[A][N][N]
+[Event]
+On the southernmost reaches resides the[N]
+country of Laftia, run by a council of nobles.[A][N]
+In Laftian tradition, each heir of a house must[N]
+undergo militia training with other local recruits.[A][N]
+Our story begins with one such party...[A][X]
+
+## WM_Ch2_text
+[Tact][N][N]
+[Event]
+Farum[X]
