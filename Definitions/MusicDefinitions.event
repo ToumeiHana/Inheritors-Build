@@ -1,10 +1,9 @@
-//#define SwordsBurstingID 0x09
+
 #define LakesNMarshesID 0x09
 #define WarCloudsID 0x0a
 #define JhenMohranID 0x0b
 #define WindOfLaGiasID 0x0c
 #define WindDestinationID 0x0d
-#define TruthID 0x0e
 #define SteelCockpitID 0x0F
 #define HouraiVictimID 0x13
 #define IcemanID 0x14
@@ -13,7 +12,6 @@
 #define DarkColossusID 0x17
 #define FirstCampaingID 0x19
 #define ObstacleInOurPathID 0x1a
-#define TrombeID 0x1d
 #define CapAmericaID 0x1c
 #define EndlessFightingID 0x1b
 #define OffToWarRemixID 0x1e
@@ -23,15 +21,10 @@
 #define LandOfConflictID 0x24
 #define TroubleID 0x26
 #define OffToWarID 0x27
-//#define DepartureID 0x27
-#define KnightsOathID 0x28
 #define RuinsNightID 0x2A
 #define DanceBraceID 0x30
-#define NearFarID DanceBraceID
 #define VictoryB 0x32
 #define GumshoeID 0x34
-//#define HeavyArmorCorpsID 0x34
-//#define MushroomGorgeID 0x35
 #define WaterStarID 0x35
 #define WindSummonID 0x36
 #define SupremancyBreakerID 0x39
@@ -55,3 +48,4 @@
 #define AshToAshID 0x5d
 #define AshToAshBurstID 0x5e
 #define FirstWardID 0x5f
+#define FirstUnisonID 0x62

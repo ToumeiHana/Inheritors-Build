@@ -310,7 +310,7 @@ CurtisLibbyTalk:
 
 EmmanuelRecruitment:
 
-	MUSS NearFarID
+	MUSS DanceBraceID
 	Text(EmmanuelRecruitText)
 	CUSA Emmanuel
 	//CUSA Libby
@@ -347,7 +347,9 @@ EndingScene:
 	
 	LABEL 8
 	EndConvo
-	MNC2 Chapter4
+	_0xA640 0 0 2
+	WM_SETDESTINATION 0 3 0
+	MNCH Chapter4
 	NoFade
 	ENDA
 	

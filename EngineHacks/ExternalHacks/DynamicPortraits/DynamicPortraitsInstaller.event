@@ -63,7 +63,14 @@ BYTE  0x00
 SHORT
 SHORT GenderEventID
 BYTE 0x00
-BYTE 0x00*/
+BYTE 0x00
+
+// Celeis/Curtis 3: the one tahts not picked
+SHORT 0x0002
+SHORT 0x0014
+SHORT GenderEventID
+BYTE  0x00	//TODO: charID
+BYTE  0x00 */
 
 // Hollie helmet on/off
 SHORT 0x000F

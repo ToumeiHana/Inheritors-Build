@@ -263,14 +263,14 @@ ReinforcementGroupSpawn:
 	ENDA
 	
 Ch1JanessaDianeTalk:
-	MUSS NearFarID
+	MUSS DanceBraceID
 	Text(Ch1JanessaDianeTalkText)
 	MURE 5
 	NoFade
 	ENDA
 	
 Ch1JanessaMarcoTalk:
-	MUSS NearFarID
+	MUSS DanceBraceID
 	Text(Ch1JanessaMarcoTalkText)
 	MURE 5
 	NoFade

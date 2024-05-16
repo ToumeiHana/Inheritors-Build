@@ -4,6 +4,52 @@
 
 #define setMugEntryExtend(mugEntry, mugLocation, mouthX, mouthY, eyeX, eyeY, extend1X, extend1Y, extend2X, extend2Y) "PUSH; ORG PortraitTable+mugEntry*0x1C; POIN mugLocation; POIN mugLocation+0x1624; POIN mugLocation+0x1604; POIN mugLocation+0x1004; BYTE extend1X extend1Y extend2X extend2Y; BYTE mouthX mouthY eyeX eyeY; BYTE 1 0 1 0; POP"
 
+// Portait IDs
+#define ProtagMugID 0x14 // Celeis default, dynamic ingame
+#define NotProtagMugID 0x2 // Unused lord mug
+#define JanessaMugID 0x4
+#define AlysaMugID 0x5
+#define JacobMugID 0x6
+#define LucianMugID 0x7
+#define MarcoMugID 0x8
+#define DianeMugID 0x9
+#define LaurenMugID 0xa
+#define MauritchMugID 0xb
+#define KatjaMugID 0xc
+#define MirabelleMugID 0x11
+#define MiraNoClawMugID 0x12
+#define LibbyMugID 0xd
+#define NellaMugID 0x2c
+#define EmmanuelMugID 0xe
+#define LeoffMugID 0x2d
+#define HollieMugID 0xf
+#define GarryMugID 0x13
+#define PieterMugID 0x52
+#define DaveMugID 0x15
+#define AnisMugID 0x16
+#define SibylMugID 0x17
+#define SuhairaMugID 0x18
+#define FabianMugID 0x19
+#define KimikoMugID 0x1a
+#define ConlethMugID 0x1b
+#define WintonMugID 0x1c
+#define NishayMugID 0x1d
+#define AveryMugID 0x1e
+#define IngaMugID 0x1f
+#define SanaMugID 0x20
+#define BobbeMugID 0x21
+#define HenrikMugID 0x22
+#define LlewllaMugID 0x23
+#define HefinaMugID 0x24
+#define GlawMugID 0x25
+#define RadcliffMugID 0x26
+#define RochelleMugID 0x27
+#define HudsonMugID 0x28
+#define VidarMugID 0x29
+#define CaitlindMugID 0x2a
+#define EllieMugID 0x2b
+#define FerrynMugID 0x2e
+
 /*
 ALIGN 4
 _Mug:

@@ -5,9 +5,6 @@ Defend the border for[NL]
 ## BorderDefendShortDesc
 Defend[X]
 
-## Ch4OpenNarration
-But the Laftian group isn't the only one up at crack of dawn...[X]
-
 ## Ch4EnemyOpeningText
 [MidRight][LoadBossFour]
 [MidLeft][LoadSoldierGamma]

@@ -1,5 +1,7 @@
-WorldMapIntroPointerTable(0,Intro)
-WorldMapIntroPointerTable(1,Ch2Init)
+WorldMapIntroPointerTable(1,Intro)
+WorldMapIntroPointerTable(2,Ch2Init)
+WorldMapIntroPointerTable(3,EmptyEvent)
+WorldMapIntroPointerTable(4,EmptyEvent)
 
 Intro:
 EVBIT_MODIFY 0x1
@@ -9,4 +11,7 @@ ENDA
 Ch2Init:
 EVBIT_MODIFY 0x1
 ENUT 0x88
+ENDA
+
+EmptyEvent:
 ENDA

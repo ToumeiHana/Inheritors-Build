@@ -2,29 +2,14 @@
 SongTable(VanishingTrooperID,Vanishing_Trooper0000,MapMusicGroup)
 #include "event/Vanishing_Trooper0000.event"
 
-SongTable(TrombeID,Trombe0,BattleMusicGroup)
-#include "event/Trombe0.event"
-
 SongTable(FirstCampaingID,FirstCampaingCut,BattleMusicGroup)
 #include "event/FirstCampaingCut.event"
-
-//SongTable(HeavyArmorCorpsID,HeavyArmorCorps0,MapMusicGroup)
-//#include "event/HeavyArmorCorps0.event"
 
 SongTable(QuestBattleID,questbattle,MapMusicGroup)
 #include "event/TokyoMirageSessionFEQuestBattleSme.event"
 
 SongTable(DefendGlobeID,song2E,BattleMusicGroup)
 #include "event/DefendGlobePsyche.event"
-
-//SongTable(DepartureID,Departure,MapMusicGroup)
-//#include "event/DepartureRSFlame.event"
-
-SongTable(KnightsOathID,song28,MapMusicGroup)
-#include "event/FE7AKnight_sOathRandomWizard.event"
-
-//SongTable(MushroomGorgeID,Gorge,MapMusicGroup)
-//#include "event/MarioKartWiiMushroomGorgeSme.event"
 
 SongTable(MiitopiaBattleID,EventBattle,MapMusicGroup)
 #include "event/MiitopiaEventBattleSme.event"
@@ -53,9 +38,6 @@ SongTable(CapAmericaID,CapAm,BattleMusicGroup)
 SongTable(EndlessFightingID,EndlessFighting0,BattleMusicGroup)
 #include "event/EndlessFighting0.event"
 
-//SongTable(SwordsBurstingID,SwordsBursting0,MapMusicGroup)
-//#include "event/SwordsBursting0.event"
-
 SongTable(BW1NCastleID,NCastle1,MapMusicGroup)
 #include "event/BWNCastleThegis.event"
 
@@ -79,9 +61,6 @@ SongTable(OffToWarRemixID,fe3offtowarremix,BattleMusicGroup)
 
 SongTable(WindOfLaGiasID,WindOfLaGias,MapMusicGroup)
 #include "event/WindOfLaGias.event"
-
-//SongTable(NearFarID,NearFarFrontier000,MapMusicGroup)
-//#include "event/NearFarFrontier000.event"
 
 SongTable(DanceBraceID,Dance_Brace_lesslessdrum,MapMusicGroup)
 #include "event/Dance&Brace_lesslessdrum.event"
@@ -109,9 +88,6 @@ SongTable(SupremancyBreakerID,SupremancyBreak00,BattleMusicGroup)
 SongTable(WindDestinationID,WindDestination,MapMusicGroup)
 #include "event/WindDestination0000.event"
 
-SongTable(TruthID,Truth0,MapMusicGroup)
-#include "event/Truth0.event"
-
 SongTable(IcemanID,iceman0000,MapMusicGroup)
 #include "event/iceman0000.event"
 
@@ -135,3 +111,6 @@ SongTable(AshToAshBurstID,SEQ_BGM_054_00,MapMusicGroup)
 
 SongTable(FirstWardID,FirstWard,MapMusicGroup)
 #include "event/FirstWard.event"
+
+SongTable(FirstUnisonID,TheFirstUnison00,MapMusicGroup)
+#include "event/TheFirstUnison0.event"

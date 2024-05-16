@@ -3,7 +3,7 @@
 
 
 PUSH
-// WM Node Things
+// WM Node Things TODO: a macro?
 //ORG $2060B8
 //BYTE 1
 //BYTE 1
@@ -25,7 +25,7 @@ ORG 0x897C4
 BYTE 0x0E 0x20 0x20 0x56
 */
 
-// nops that fix NMCH somehow
+// nops that fix NMCH somehow(?)
 ORG 0xA8B7C
 SHORT 0x46C0
 ORG 0xB9B62
@@ -45,6 +45,14 @@ POP
 {
   ALIGN 4
   #include "WM_Chapter2.event"
+}
+{
+  ALIGN 4
+  #include "WM_Chapter3.event"
+}
+{
+  ALIGN 4
+  #include "WM_Chapter4.event"
 }
 ALIGN 4
 // #include "EpilogueEvents.event"

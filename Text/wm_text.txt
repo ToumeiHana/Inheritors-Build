@@ -11,6 +11,31 @@ undergo militia training with other local recruits.[A][N]
 Our story begins with one such party...[A][X]
 
 ## WM_Ch2_text
-[Tact][N][N]
+At the heart of the continent lies Farum,[N]
+the kingdom founded by the dragonslayer.[A][N]
+Proud of their legacy and history, Farum[.4][N]
+stands as the largest country on the continent,[.4][N]
+both in it's size and military might.[A][N][N]
 [Event]
-Farum[X]
+With the kingdoms motives unknown, [Tact]'[N]
+group move further north to investigate.[A][X]
+
+## WM_Ch3_text
+Chasing after the enemy troops, the party[N]
+makes a pit stop at a local village.[A][N]
+Just passing through, unexpected[N]
+trouble brews on the road ahead...[A][X]
+
+## WM_Ch4_text
+Starting an early march by Janessa's orders,[.4][N]
+the group starts moving towards the border,[A][N]
+[Event]
+hoping to find answers,[.] or at least[N]
+drive back the invasive forces.[A][N]
+As the army reaches the border of Laftia,[A][N]
+[Event]
+split from Farum by a river to the north-east,[N]
+and from Audina by arid desert to the north,[A][N]
+[Event]
+they quickly realize that they are not the[N]
+only ones up at the crack of dawn...[A][X]

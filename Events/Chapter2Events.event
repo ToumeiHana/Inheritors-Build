@@ -157,7 +157,7 @@ BeginningScene:
 	ENDA
 
 ClawRecriutment:
-	MUSS NearFarID
+	MUSS DanceBraceID
 	Text(ClawRecruitText)
 	CUSA Mirabelle
 	ASMC ClearMirabelleInv|1
@@ -166,7 +166,7 @@ ClawRecriutment:
 	ENDA
 	
 KatjaRecruitment:
-	MUSS NearFarID
+	MUSS DanceBraceID
 	Text(KatjaRecruitText)
 	CUSA Katja
 	MURE 5
@@ -174,7 +174,7 @@ KatjaRecruitment:
 	ENDA
 
 LaurenRecruitment:
-	MUSS NearFarID
+	MUSS DanceBraceID
 	Text(LaurenRecruitText)
 	CUSA Lauren
 	MURE 5
@@ -182,7 +182,7 @@ LaurenRecruitment:
 	ENDA
 
 MauritchRecruitment:
-	MUSS NearFarID
+	MUSS DanceBraceID
 	Text(MauritchRecruitText)
 	CUSA Mauritch
 	MURE 5
@@ -268,6 +268,8 @@ EndingScene:
 	
 	LABEL 6
 	EndConvo
-	MNC2 Chapter3
+	_0xA640 0 0 1
+	WM_SETDESTINATION 0 2 0
+	MNCH Chapter3
 	NoFade
 	ENDA

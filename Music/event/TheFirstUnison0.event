@@ -1,0 +1,4317 @@
+//Event file generated from Sappy .s format.
+        #include "MPlayDef.event"
+
+        #define    TheFirstUnison00_grp  voicegroup000
+        #define    TheFirstUnison00_pri  0
+        #define    TheFirstUnison00_rev  0
+        #define    TheFirstUnison00_key  0
+
+        // .rodata
+        // TheFirstUnison00
+        ALIGN 4
+
+//****************** Track 0 (Midi-Chn.0) ******************//
+
+TheFirstUnison00_0:
+        BYTE   KEYSH   TheFirstUnison00_key+0
+// 000   ----------------------------------------
+        BYTE   TEMPO   144/2
+        BYTE           VOICE   96
+        BYTE           VOL     30
+        BYTE           BENDR   12
+        BYTE   W01
+        BYTE           PAN     c_v-24
+        BYTE           N32     Cn4   v120   gtp3
+        BYTE                   An3
+        BYTE   W36
+        BYTE                   Bn3
+        BYTE           N32     Gn3   v120   gtp3
+        BYTE   W36
+        BYTE           N23     Cn4
+        BYTE           N23     An3
+        BYTE   W23
+// 001   ----------------------------------------
+        BYTE   W01
+        BYTE           N32     Dn4   v120   gtp3
+        BYTE                   Bn3
+        BYTE   W36
+        BYTE                   En4
+        BYTE           N32     Cn4   v120   gtp3
+        BYTE   W36
+        BYTE           N23     Dn4
+        BYTE           N23     Bn3
+        BYTE   W23
+// 002   ----------------------------------------
+        BYTE   W01
+        BYTE           N32     Cn4   v120   gtp3
+        BYTE                   An3
+        BYTE   W36
+        BYTE                   Bn3
+        BYTE           N32     Gn3   v120   gtp3
+        BYTE   W36
+        BYTE           N68     Cn4   v120   gtp3
+        BYTE           N23     An3
+        BYTE   W23
+// 003   ----------------------------------------
+        BYTE   W01
+        BYTE           N92     En3   v120   gtp3
+        BYTE           N44     An2   v120   gtp3
+        BYTE   W48
+        BYTE                   Bn3
+        BYTE           N44     Gs2   v120   gtp3
+        BYTE   W44
+        BYTE   W03
+// 004   ----------------------------------------
+TheFirstUnison00_0_LOOP:
+        BYTE   W01
+        BYTE           N60     En4   v120   gtp1
+        BYTE                   Cn4
+        BYTE   W60
+        BYTE           N13     Fn4
+        BYTE           N13     Dn4
+        BYTE   W12
+        BYTE                   En4
+        BYTE           N13     Cn4
+        BYTE   W12
+        BYTE                   Dn4
+        BYTE           N13     Bn3
+        BYTE   W11
+// 005   ----------------------------------------
+TheFirstUnison00_0_5:
+        BYTE   W01
+        BYTE           N44     En4   v120   gtp3
+        BYTE           N92     Cn4   v120   gtp3
+        BYTE   W48
+        BYTE           N44     An3   v120   gtp3
+        BYTE   W44
+        BYTE   W03
+        BYTE   PEND
+// 006   ----------------------------------------
+TheFirstUnison00_0_6:
+        BYTE   W01
+        BYTE           N60     En4   v120   gtp1
+        BYTE                   Cn4
+        BYTE   W60
+        BYTE           N13     Fn4
+        BYTE           N13     Dn4
+        BYTE   W12
+        BYTE                   En4
+        BYTE           N13     Cn4
+        BYTE   W12
+        BYTE                   Dn4
+        BYTE           N13     Bn3
+        BYTE   W11
+        BYTE   PEND
+// 007   ----------------------------------------
+TheFirstUnison00_0_7:
+        BYTE   W01
+        BYTE           N44     Cn4   v120   gtp3
+        BYTE                   An3
+        BYTE           N92     En3   v120   gtp3
+        BYTE   W48
+        BYTE           N44     Bn3   v120   gtp3
+        BYTE                   Gs3
+        BYTE   W44
+        BYTE   W03
+        BYTE   PEND
+// 008   ----------------------------------------
+TheFirstUnison00_0_8:
+        BYTE   W01
+        BYTE           N13     An3   v122
+        BYTE   W12
+        BYTE                   Bn3
+        BYTE   W12
+        BYTE                   Cn4
+        BYTE   W12
+        BYTE                   En4
+        BYTE   W12
+        BYTE                   An4
+        BYTE   W12
+        BYTE                   Gs4
+        BYTE   W12
+        BYTE                   An4
+        BYTE   W12
+        BYTE                   Bn4
+        BYTE   W11
+        BYTE   PEND
+// 009   ----------------------------------------
+TheFirstUnison00_0_9:
+        BYTE   W01
+        BYTE           N09     Cn5   v122
+        BYTE   W08
+        BYTE                   An4
+        BYTE   W08
+        BYTE                   En4
+        BYTE   W08
+        BYTE                   An4
+        BYTE   W08
+        BYTE                   En4
+        BYTE   W08
+        BYTE                   Cn4
+        BYTE   W08
+        BYTE           N24     Dn4   v122   gtp1
+        BYTE           TIE     An3
+        BYTE   W24
+        BYTE           N24     Dn3   v122   gtp1
+        BYTE   W23
+        BYTE   PEND
+// 010   ----------------------------------------
+TheFirstUnison00_0_10:
+        BYTE   W01
+        BYTE           N60     Cn4   v122   gtp1
+        BYTE   W60
+        BYTE           N24     Bn3   v122   gtp1
+        BYTE                   Gn3
+        BYTE   W01
+        BYTE           EOT     An3
+        BYTE   W23
+        BYTE           N13     Cn4
+        BYTE           N56     An3   v122   gtp3
+        BYTE   W11
+        BYTE   PEND
+// 011   ----------------------------------------
+TheFirstUnison00_0_11:
+        BYTE   W01
+        BYTE           N44     Dn4   v122   gtp3
+        BYTE                   En3
+        BYTE   W48
+        BYTE                   En4
+        BYTE           N44     Bn3   v122   gtp3
+        BYTE                   Gs3
+        BYTE   W44
+        BYTE   W03
+        BYTE   PEND
+// 012   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_0_6
+// 013   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_0_5
+// 014   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_0_6
+// 015   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_0_7
+// 016   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_0_8
+// 017   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_0_9
+// 018   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_0_10
+// 019   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_0_11
+// 020   ----------------------------------------
+TheFirstUnison00_0_20:
+        BYTE   W01
+        BYTE           N92     Cs4   v117   gtp3
+        BYTE                   En3
+        BYTE           N92     An2   v117   gtp3
+        BYTE   W92
+        BYTE   W03
+        BYTE   PEND
+// 021   ----------------------------------------
+TheFirstUnison00_0_21:
+        BYTE   W01
+        BYTE           N92     Ds4   v117   gtp3
+        BYTE                   Fs3
+        BYTE           N92     Bn2   v117   gtp3
+        BYTE   W92
+        BYTE   W03
+        BYTE   PEND
+// 022   ----------------------------------------
+TheFirstUnison00_0_22:
+        BYTE   W01
+        BYTE           N92     Dn4   v117   gtp3
+        BYTE                   Fn3
+        BYTE           N92     Bn2   v117   gtp3
+        BYTE   W92
+        BYTE   W03
+        BYTE   PEND
+// 023   ----------------------------------------
+TheFirstUnison00_0_23:
+        BYTE   W01
+        BYTE           N92     Cs4   v117   gtp3
+        BYTE                   Fs3
+        BYTE           N92     An2   v117   gtp3
+        BYTE   W92
+        BYTE   W03
+        BYTE   PEND
+// 024   ----------------------------------------
+TheFirstUnison00_0_24:
+        BYTE   W01
+        BYTE           N92     Bn3   v117   gtp3
+        BYTE                   Fn3
+        BYTE           N92     Gs2   v117   gtp3
+        BYTE   W92
+        BYTE   W03
+        BYTE   PEND
+// 025   ----------------------------------------
+TheFirstUnison00_0_25:
+        BYTE   W01
+        BYTE           N92     An3   v117   gtp3
+        BYTE                   Cs3
+        BYTE           N92     Fs2   v117   gtp3
+        BYTE   W92
+        BYTE   W03
+        BYTE   PEND
+// 026   ----------------------------------------
+TheFirstUnison00_0_26:
+        BYTE   W01
+        BYTE           N92     Gs3   v117   gtp3
+        BYTE                   Cn3
+        BYTE           N92     Fs2   v117   gtp3
+        BYTE   W92
+        BYTE   W03
+        BYTE   PEND
+// 027   ----------------------------------------
+TheFirstUnison00_0_27:
+        BYTE   W01
+        BYTE           N92     Gs3   v117   gtp3
+        BYTE                   Cs3
+        BYTE           N92     Fn2   v117   gtp3
+        BYTE   W92
+        BYTE   W03
+        BYTE   PEND
+// 028   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_0_20
+// 029   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_0_21
+// 030   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_0_22
+// 031   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_0_23
+// 032   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_0_24
+// 033   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_0_25
+// 034   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_0_26
+// 035   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_0_27
+// 036   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_0_6
+// 037   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_0_5
+// 038   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_0_6
+// 039   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_0_7
+// 040   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_0_8
+// 041   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_0_9
+// 042   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_0_10
+// 043   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_0_11
+// 044   ----------------------------------------
+        BYTE   W01
+        BYTE           N92     Dn4   v122   gtp3
+        BYTE                   Fn3
+        BYTE   W92
+        BYTE   W03
+// 045   ----------------------------------------
+TheFirstUnison00_0_45:
+        BYTE   W01
+        BYTE           N44     En4   v122   gtp3
+        BYTE                   Gn3
+        BYTE   W48
+        BYTE                   Fn4
+        BYTE           N44     An3   v122   gtp3
+        BYTE   W44
+        BYTE   W03
+        BYTE   PEND
+// 046   ----------------------------------------
+TheFirstUnison00_0_46:
+        BYTE   W01
+        BYTE           N92     En4   v122   gtp3
+        BYTE           TIE     An3
+        BYTE   W92
+        BYTE   W03
+        BYTE   PEND
+// 047   ----------------------------------------
+TheFirstUnison00_0_47:
+        BYTE   W01
+        BYTE           N92     En3   v122   gtp3
+        BYTE   W92
+        BYTE   W03
+        BYTE   PEND
+// 048   ----------------------------------------
+TheFirstUnison00_0_48:
+        BYTE           EOT     An3
+        BYTE   W01
+        BYTE           N92     Fs3   v122   gtp3
+        BYTE                   Ds3
+        BYTE   W92
+        BYTE   W03
+        BYTE   PEND
+// 049   ----------------------------------------
+TheFirstUnison00_0_49:
+        BYTE   W01
+        BYTE           N44     Gn3   v122   gtp3
+        BYTE                   En3
+        BYTE   W48
+        BYTE                   An3
+        BYTE           N44     Fs3   v122   gtp3
+        BYTE   W44
+        BYTE   W03
+        BYTE   PEND
+// 050   ----------------------------------------
+TheFirstUnison00_0_50:
+        BYTE   W01
+        BYTE           N92     An3   v122   gtp3
+        BYTE           TIE     En3
+        BYTE           TIE     Bn2
+        BYTE   W92
+        BYTE   W03
+        BYTE   PEND
+// 051   ----------------------------------------
+TheFirstUnison00_0_51:
+        BYTE   W01
+        BYTE           N92     Gn3   v122   gtp3
+        BYTE   W92
+        BYTE   W03
+        BYTE   PEND
+// 052   ----------------------------------------
+        BYTE           EOT     En3
+        BYTE                   Bn2
+        BYTE   W01
+        BYTE           N92     Dn4   v122   gtp3
+        BYTE                   Fn3
+        BYTE   W92
+        BYTE   W03
+// 053   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_0_45
+// 054   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_0_46
+// 055   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_0_47
+// 056   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_0_48
+// 057   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_0_49
+// 058   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_0_50
+// 059   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_0_51
+// 060   ----------------------------------------
+        BYTE           EOT     En3
+        BYTE                   Bn2
+        BYTE   GoTo
+         POIN2  TheFirstUnison00_0_LOOP
+        BYTE   W01
+        BYTE   FINE
+
+//****************** Track 1 (Midi-Chn.1) ******************//
+
+TheFirstUnison00_1:
+        BYTE   KEYSH   TheFirstUnison00_key+0
+// 000   ----------------------------------------
+        BYTE           VOICE   49
+        BYTE           BENDR   12
+        BYTE           VOL     20
+        BYTE   W01
+        BYTE           PAN     c_v-64
+        BYTE           VOL     14
+        BYTE           TIE     An3   v113
+        BYTE   W18
+        BYTE           VOL     15
+        BYTE   W24
+        BYTE   W03
+        BYTE                   16
+        BYTE   W24
+        BYTE   W03
+        BYTE                   17
+        BYTE   W23
+// 001   ----------------------------------------
+        BYTE   W13
+        BYTE                   18
+        BYTE   W32
+        BYTE   W01
+        BYTE                   19
+        BYTE   W36
+        BYTE                   20
+        BYTE   W14
+// 002   ----------------------------------------
+        BYTE   W96
+// 003   ----------------------------------------
+        BYTE   W48
+        BYTE           EOT
+        BYTE   W01
+        BYTE           N44     Bn3   v113   gtp3
+        BYTE   W44
+        BYTE   W03
+// 004   ----------------------------------------
+TheFirstUnison00_1_LOOP:
+        BYTE   W96
+// 005   ----------------------------------------
+        BYTE   W96
+// 006   ----------------------------------------
+        BYTE   W96
+// 007   ----------------------------------------
+        BYTE   W96
+// 008   ----------------------------------------
+        BYTE   W96
+// 009   ----------------------------------------
+        BYTE   W96
+// 010   ----------------------------------------
+        BYTE   W01
+        BYTE           TIE     An3   v127
+        BYTE   W92
+        BYTE   W03
+// 011   ----------------------------------------
+TheFirstUnison00_1_11:
+        BYTE   W48
+        BYTE           EOT     An3
+        BYTE   W01
+        BYTE           N44     Bn3   v127   gtp3
+        BYTE   W44
+        BYTE   W03
+        BYTE   PEND
+// 012   ----------------------------------------
+        BYTE   W01
+        BYTE           TIE     An3
+        BYTE   W92
+        BYTE   W03
+// 013   ----------------------------------------
+        BYTE   W96
+// 014   ----------------------------------------
+        BYTE   W96
+// 015   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_1_11
+// 016   ----------------------------------------
+TheFirstUnison00_1_16:
+        BYTE   W01
+        BYTE           N44     Cn4   v127   gtp3
+        BYTE   W48
+        BYTE                   Bn3
+        BYTE   W44
+        BYTE   W03
+        BYTE   PEND
+// 017   ----------------------------------------
+        BYTE   W01
+        BYTE           TIE     An3
+        BYTE   W92
+        BYTE   W03
+// 018   ----------------------------------------
+        BYTE   W96
+// 019   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_1_11
+// 020   ----------------------------------------
+        BYTE   W96
+// 021   ----------------------------------------
+        BYTE   W96
+// 022   ----------------------------------------
+        BYTE   W96
+// 023   ----------------------------------------
+        BYTE   W96
+// 024   ----------------------------------------
+        BYTE   W96
+// 025   ----------------------------------------
+        BYTE   W96
+// 026   ----------------------------------------
+        BYTE   W96
+// 027   ----------------------------------------
+        BYTE   W96
+// 028   ----------------------------------------
+        BYTE   W96
+// 029   ----------------------------------------
+        BYTE   W96
+// 030   ----------------------------------------
+        BYTE   W96
+// 031   ----------------------------------------
+        BYTE   W96
+// 032   ----------------------------------------
+        BYTE   W96
+// 033   ----------------------------------------
+        BYTE   W96
+// 034   ----------------------------------------
+        BYTE   W96
+// 035   ----------------------------------------
+        BYTE   W96
+// 036   ----------------------------------------
+        BYTE   W01
+        BYTE           TIE     An3   v127
+        BYTE   W92
+        BYTE   W03
+// 037   ----------------------------------------
+        BYTE   W96
+// 038   ----------------------------------------
+        BYTE   W96
+// 039   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_1_11
+// 040   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_1_16
+// 041   ----------------------------------------
+        BYTE   W01
+        BYTE           TIE     An3   v127
+        BYTE   W92
+        BYTE   W03
+// 042   ----------------------------------------
+        BYTE   W96
+// 043   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_1_11
+// 044   ----------------------------------------
+        BYTE   W96
+// 045   ----------------------------------------
+        BYTE   W96
+// 046   ----------------------------------------
+        BYTE   W96
+// 047   ----------------------------------------
+        BYTE   W96
+// 048   ----------------------------------------
+        BYTE   W96
+// 049   ----------------------------------------
+        BYTE   W96
+// 050   ----------------------------------------
+        BYTE   W96
+// 051   ----------------------------------------
+        BYTE   W96
+// 052   ----------------------------------------
+        BYTE   W01
+        BYTE           TIE     An3   v127
+        BYTE   W92
+        BYTE   W03
+// 053   ----------------------------------------
+        BYTE   W96
+// 054   ----------------------------------------
+        BYTE   W96
+// 055   ----------------------------------------
+        BYTE   W96
+// 056   ----------------------------------------
+        BYTE   W96
+// 057   ----------------------------------------
+        BYTE   W01
+        BYTE           EOT
+        BYTE           TIE     Bn3
+        BYTE   W92
+        BYTE   W03
+// 058   ----------------------------------------
+        BYTE   W96
+// 059   ----------------------------------------
+        BYTE   W96
+// 060   ----------------------------------------
+        BYTE           EOT
+        BYTE   GoTo
+         POIN2  TheFirstUnison00_1_LOOP
+        BYTE   W01
+        BYTE   FINE
+
+//****************** Track 2 (Midi-Chn.2) ******************//
+
+TheFirstUnison00_2:
+        BYTE   KEYSH   TheFirstUnison00_key+0
+// 000   ----------------------------------------
+        BYTE           VOICE   97
+        BYTE           BENDR   12
+        BYTE           VOL     32
+        BYTE   W01
+        BYTE           PAN     c_v+63
+        BYTE           TIE     An0   v127
+        BYTE   W92
+        BYTE   W03
+// 001   ----------------------------------------
+        BYTE   W96
+// 002   ----------------------------------------
+        BYTE   W48
+        BYTE           EOT
+        BYTE   W01
+        BYTE           N44     Gn0   v127   gtp3
+        BYTE   W44
+        BYTE   W03
+// 003   ----------------------------------------
+        BYTE   W01
+        BYTE                   Fs0
+        BYTE   W48
+        BYTE                   En0
+        BYTE   W44
+        BYTE   W03
+// 004   ----------------------------------------
+TheFirstUnison00_2_LOOP:
+        BYTE   W96
+// 005   ----------------------------------------
+        BYTE   W96
+// 006   ----------------------------------------
+        BYTE   W96
+// 007   ----------------------------------------
+        BYTE   W96
+// 008   ----------------------------------------
+        BYTE   W96
+// 009   ----------------------------------------
+        BYTE   W96
+// 010   ----------------------------------------
+TheFirstUnison00_2_10:
+        BYTE   W01
+        BYTE           N92     Fn0   v127   gtp3
+        BYTE   W92
+        BYTE   W03
+        BYTE   PEND
+// 011   ----------------------------------------
+TheFirstUnison00_2_11:
+        BYTE   W01
+        BYTE           N92     En0   v127   gtp3
+        BYTE   W92
+        BYTE   W03
+        BYTE   PEND
+// 012   ----------------------------------------
+        BYTE   W96
+// 013   ----------------------------------------
+        BYTE   W96
+// 014   ----------------------------------------
+        BYTE   W96
+// 015   ----------------------------------------
+        BYTE   W96
+// 016   ----------------------------------------
+        BYTE   W96
+// 017   ----------------------------------------
+        BYTE   W96
+// 018   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_2_10
+// 019   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_2_11
+// 020   ----------------------------------------
+        BYTE   W96
+// 021   ----------------------------------------
+        BYTE   W96
+// 022   ----------------------------------------
+        BYTE   W96
+// 023   ----------------------------------------
+        BYTE   W96
+// 024   ----------------------------------------
+        BYTE   W96
+// 025   ----------------------------------------
+        BYTE   W96
+// 026   ----------------------------------------
+        BYTE   W96
+// 027   ----------------------------------------
+        BYTE   W96
+// 028   ----------------------------------------
+        BYTE   W96
+// 029   ----------------------------------------
+        BYTE   W96
+// 030   ----------------------------------------
+        BYTE   W96
+// 031   ----------------------------------------
+        BYTE   W96
+// 032   ----------------------------------------
+        BYTE   W96
+// 033   ----------------------------------------
+        BYTE   W96
+// 034   ----------------------------------------
+        BYTE   W96
+// 035   ----------------------------------------
+        BYTE   W96
+// 036   ----------------------------------------
+        BYTE   W96
+// 037   ----------------------------------------
+        BYTE   W96
+// 038   ----------------------------------------
+        BYTE   W96
+// 039   ----------------------------------------
+        BYTE   W96
+// 040   ----------------------------------------
+        BYTE   W96
+// 041   ----------------------------------------
+        BYTE   W96
+// 042   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_2_10
+// 043   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_2_11
+// 044   ----------------------------------------
+        BYTE   W96
+// 045   ----------------------------------------
+        BYTE   W96
+// 046   ----------------------------------------
+        BYTE   W96
+// 047   ----------------------------------------
+        BYTE   W96
+// 048   ----------------------------------------
+        BYTE   W96
+// 049   ----------------------------------------
+        BYTE   W96
+// 050   ----------------------------------------
+        BYTE   W96
+// 051   ----------------------------------------
+        BYTE   W96
+// 052   ----------------------------------------
+        BYTE   W96
+// 053   ----------------------------------------
+        BYTE   W96
+// 054   ----------------------------------------
+        BYTE   W96
+// 055   ----------------------------------------
+        BYTE   W96
+// 056   ----------------------------------------
+        BYTE   W96
+// 057   ----------------------------------------
+        BYTE   W96
+// 058   ----------------------------------------
+        BYTE   W96
+// 059   ----------------------------------------
+        BYTE   W96
+// 060   ----------------------------------------
+        BYTE   GoTo
+         POIN2  TheFirstUnison00_2_LOOP
+        BYTE   W01
+        BYTE   FINE
+
+//****************** Track 3 (Midi-Chn.3) ******************//
+
+TheFirstUnison00_3:
+        BYTE   KEYSH   TheFirstUnison00_key+0
+// 000   ----------------------------------------
+        BYTE           VOICE   105
+        BYTE           BENDR   12
+        BYTE           VOL     21
+        BYTE   W01
+        BYTE           PAN     c_v+16
+        BYTE           TIE     An1   v127
+        BYTE   W92
+        BYTE   W03
+// 001   ----------------------------------------
+        BYTE   W96
+// 002   ----------------------------------------
+        BYTE   W48
+        BYTE           EOT
+        BYTE   W01
+        BYTE           N44     Gn1   v127   gtp3
+        BYTE   W44
+        BYTE   W03
+// 003   ----------------------------------------
+        BYTE   W01
+        BYTE                   Fs1
+        BYTE   W48
+        BYTE                   En1
+        BYTE   W44
+        BYTE   W03
+// 004   ----------------------------------------
+TheFirstUnison00_3_LOOP:
+        BYTE   W01
+        BYTE           TIE     An1   v127
+        BYTE   W92
+        BYTE   W03
+// 005   ----------------------------------------
+        BYTE   W96
+// 006   ----------------------------------------
+TheFirstUnison00_3_6:
+        BYTE           EOT     An1
+        BYTE   W01
+        BYTE           N92     Fn1   v127   gtp3
+        BYTE   W92
+        BYTE   W03
+        BYTE   PEND
+// 007   ----------------------------------------
+TheFirstUnison00_3_7:
+        BYTE   W01
+        BYTE           N44     Gn1   v127   gtp3
+        BYTE   W48
+        BYTE                   Gs1
+        BYTE   W44
+        BYTE   W03
+        BYTE   PEND
+// 008   ----------------------------------------
+TheFirstUnison00_3_8:
+        BYTE   W01
+        BYTE           N44     An1   v127   gtp3
+        BYTE   W48
+        BYTE                   Gs1
+        BYTE   W44
+        BYTE   W03
+        BYTE   PEND
+// 009   ----------------------------------------
+TheFirstUnison00_3_9:
+        BYTE   W01
+        BYTE           N44     Gn1   v127   gtp3
+        BYTE   W48
+        BYTE                   Fs1
+        BYTE   W44
+        BYTE   W03
+        BYTE   PEND
+// 010   ----------------------------------------
+TheFirstUnison00_3_10:
+        BYTE   W01
+        BYTE           N92     Fn1   v127   gtp3
+        BYTE   W92
+        BYTE   W03
+        BYTE   PEND
+// 011   ----------------------------------------
+TheFirstUnison00_3_11:
+        BYTE   W01
+        BYTE           N92     En1   v127   gtp3
+        BYTE   W92
+        BYTE   W03
+        BYTE   PEND
+// 012   ----------------------------------------
+        BYTE   W01
+        BYTE           TIE     An1
+        BYTE   W92
+        BYTE   W03
+// 013   ----------------------------------------
+        BYTE   W96
+// 014   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_3_6
+// 015   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_3_7
+// 016   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_3_8
+// 017   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_3_9
+// 018   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_3_10
+// 019   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_3_11
+// 020   ----------------------------------------
+        BYTE   W01
+        BYTE           TIE     Fs1   v127
+        BYTE   W92
+        BYTE   W03
+// 021   ----------------------------------------
+        BYTE   W96
+// 022   ----------------------------------------
+        BYTE   W96
+// 023   ----------------------------------------
+        BYTE   W96
+// 024   ----------------------------------------
+TheFirstUnison00_3_24:
+        BYTE           EOT     Fs1
+        BYTE   W01
+        BYTE           TIE     Fs1   v127
+        BYTE   W92
+        BYTE   W03
+        BYTE   PEND
+// 025   ----------------------------------------
+        BYTE   W96
+// 026   ----------------------------------------
+        BYTE   W96
+// 027   ----------------------------------------
+        BYTE   W96
+// 028   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_3_24
+// 029   ----------------------------------------
+        BYTE   W96
+// 030   ----------------------------------------
+        BYTE   W96
+// 031   ----------------------------------------
+        BYTE   W96
+// 032   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_3_24
+// 033   ----------------------------------------
+        BYTE   W96
+// 034   ----------------------------------------
+        BYTE   W96
+// 035   ----------------------------------------
+        BYTE   W96
+// 036   ----------------------------------------
+        BYTE           EOT     Fs1
+        BYTE   W01
+        BYTE           TIE     An1   v127
+        BYTE   W92
+        BYTE   W03
+// 037   ----------------------------------------
+        BYTE   W96
+// 038   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_3_6
+// 039   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_3_7
+// 040   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_3_8
+// 041   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_3_9
+// 042   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_3_10
+// 043   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_3_11
+// 044   ----------------------------------------
+        BYTE   W01
+        BYTE           TIE     Dn1   v127
+        BYTE   W92
+        BYTE   W03
+// 045   ----------------------------------------
+        BYTE   W96
+// 046   ----------------------------------------
+TheFirstUnison00_3_46:
+        BYTE           EOT     Dn1
+        BYTE   W01
+        BYTE           TIE     Cn1   v127
+        BYTE   W92
+        BYTE   W03
+        BYTE   PEND
+// 047   ----------------------------------------
+        BYTE   W96
+// 048   ----------------------------------------
+TheFirstUnison00_3_48:
+        BYTE           EOT     Cn1
+        BYTE   W01
+        BYTE           TIE     Bn0   v127
+        BYTE   W92
+        BYTE   W03
+        BYTE   PEND
+// 049   ----------------------------------------
+        BYTE   W96
+// 050   ----------------------------------------
+TheFirstUnison00_3_50:
+        BYTE           EOT     Bn0
+        BYTE   W01
+        BYTE           TIE     En1   v127
+        BYTE   W92
+        BYTE   W03
+        BYTE   PEND
+// 051   ----------------------------------------
+        BYTE   W96
+// 052   ----------------------------------------
+        BYTE           EOT
+        BYTE   W01
+        BYTE           TIE     Dn1
+        BYTE   W92
+        BYTE   W03
+// 053   ----------------------------------------
+        BYTE   W96
+// 054   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_3_46
+// 055   ----------------------------------------
+        BYTE   W96
+// 056   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_3_48
+// 057   ----------------------------------------
+        BYTE   W96
+// 058   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_3_50
+// 059   ----------------------------------------
+        BYTE   W96
+// 060   ----------------------------------------
+        BYTE           EOT     En1
+        BYTE   GoTo
+         POIN2  TheFirstUnison00_3_LOOP
+        BYTE   W01
+        BYTE   FINE
+
+//****************** Track 4 (Midi-Chn.4) ******************//
+
+TheFirstUnison00_4:
+        BYTE   KEYSH   TheFirstUnison00_key+0
+// 000   ----------------------------------------
+        BYTE           VOICE   68
+        BYTE           VOL     36
+        BYTE           BENDR   12
+        BYTE   W01
+        BYTE           PAN     c_v+6
+        BYTE   W92
+        BYTE   W03
+// 001   ----------------------------------------
+        BYTE   W96
+// 002   ----------------------------------------
+        BYTE   W96
+// 003   ----------------------------------------
+        BYTE   W96
+// 004   ----------------------------------------
+TheFirstUnison00_4_LOOP:
+        BYTE   W01
+        BYTE           N54     En4   v118   gtp1
+        BYTE                   Cn4
+        BYTE   W60
+        BYTE           N12     Fn4
+        BYTE           N12     Dn4
+        BYTE   W12
+        BYTE                   En4
+        BYTE           N12     Cn4
+        BYTE   W12
+        BYTE                   Dn4
+        BYTE           N12     Bn3
+        BYTE   W11
+// 005   ----------------------------------------
+TheFirstUnison00_4_5:
+        BYTE   W01
+        BYTE           N40     En4   v118
+        BYTE           N40     Cn4
+        BYTE   W48
+        BYTE                   Cn4
+        BYTE           N40     An3
+        BYTE   W44
+        BYTE   W03
+        BYTE   PEND
+// 006   ----------------------------------------
+TheFirstUnison00_4_6:
+        BYTE   W01
+        BYTE           N54     En4   v118   gtp1
+        BYTE                   Cn4
+        BYTE   W60
+        BYTE           N12     Fn4
+        BYTE           N12     Dn4
+        BYTE   W12
+        BYTE                   En4
+        BYTE           N12     Cn4
+        BYTE   W12
+        BYTE                   Dn4
+        BYTE           N12     Bn3
+        BYTE   W11
+        BYTE   PEND
+// 007   ----------------------------------------
+TheFirstUnison00_4_7:
+        BYTE   W01
+        BYTE           N40     Cn4   v118
+        BYTE           N40     En3
+        BYTE   W48
+        BYTE                   Bn3
+        BYTE           N40     En3
+        BYTE   W44
+        BYTE   W03
+        BYTE   PEND
+// 008   ----------------------------------------
+TheFirstUnison00_4_8:
+        BYTE   W01
+        BYTE           N12     An3   v125
+        BYTE   W12
+        BYTE                   Bn3
+        BYTE   W12
+        BYTE                   Cn4
+        BYTE   W12
+        BYTE                   En4
+        BYTE   W12
+        BYTE                   An4
+        BYTE   W12
+        BYTE                   Gs4
+        BYTE   W12
+        BYTE                   An4
+        BYTE   W12
+        BYTE                   Bn4
+        BYTE   W11
+        BYTE   PEND
+// 009   ----------------------------------------
+TheFirstUnison00_4_9:
+        BYTE   W01
+        BYTE           N06     Cn5   v125
+        BYTE   W08
+        BYTE                   An4
+        BYTE   W08
+        BYTE                   En4
+        BYTE   W08
+        BYTE                   An4
+        BYTE   W08
+        BYTE                   En4
+        BYTE   W08
+        BYTE                   Cn4
+        BYTE   W08
+        BYTE           N20     Dn4
+        BYTE           N20     An3
+        BYTE   W24
+        BYTE                   An3
+        BYTE           N20     Dn3
+        BYTE   W23
+        BYTE   PEND
+// 010   ----------------------------------------
+        BYTE   W96
+// 011   ----------------------------------------
+        BYTE   W96
+// 012   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_4_6
+// 013   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_4_5
+// 014   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_4_6
+// 015   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_4_7
+// 016   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_4_8
+// 017   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_4_9
+// 018   ----------------------------------------
+        BYTE   W96
+// 019   ----------------------------------------
+        BYTE   W96
+// 020   ----------------------------------------
+        BYTE   W96
+// 021   ----------------------------------------
+        BYTE   W96
+// 022   ----------------------------------------
+        BYTE   W96
+// 023   ----------------------------------------
+        BYTE   W96
+// 024   ----------------------------------------
+        BYTE   W96
+// 025   ----------------------------------------
+        BYTE   W96
+// 026   ----------------------------------------
+        BYTE   W96
+// 027   ----------------------------------------
+        BYTE   W96
+// 028   ----------------------------------------
+        BYTE   W96
+// 029   ----------------------------------------
+        BYTE   W96
+// 030   ----------------------------------------
+        BYTE   W96
+// 031   ----------------------------------------
+        BYTE   W96
+// 032   ----------------------------------------
+        BYTE   W96
+// 033   ----------------------------------------
+        BYTE   W96
+// 034   ----------------------------------------
+        BYTE   W96
+// 035   ----------------------------------------
+        BYTE   W96
+// 036   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_4_6
+// 037   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_4_5
+// 038   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_4_6
+// 039   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_4_7
+// 040   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_4_8
+// 041   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_4_9
+// 042   ----------------------------------------
+        BYTE   W96
+// 043   ----------------------------------------
+        BYTE   W96
+// 044   ----------------------------------------
+        BYTE   W96
+// 045   ----------------------------------------
+        BYTE   W96
+// 046   ----------------------------------------
+        BYTE   W96
+// 047   ----------------------------------------
+        BYTE   W96
+// 048   ----------------------------------------
+        BYTE   W96
+// 049   ----------------------------------------
+        BYTE   W96
+// 050   ----------------------------------------
+        BYTE   W96
+// 051   ----------------------------------------
+        BYTE   W96
+// 052   ----------------------------------------
+        BYTE   W01
+        BYTE           N90     Fn4   v120
+        BYTE   W92
+        BYTE   W03
+// 053   ----------------------------------------
+        BYTE   W01
+        BYTE           N44     Gn4   v120   gtp3
+        BYTE   W48
+        BYTE                   An4
+        BYTE   W44
+        BYTE   W03
+// 054   ----------------------------------------
+        BYTE   W01
+        BYTE           N90
+        BYTE   W92
+        BYTE   W03
+// 055   ----------------------------------------
+TheFirstUnison00_4_55:
+        BYTE   W01
+        BYTE           N90     En4   v120
+        BYTE   W92
+        BYTE   W03
+        BYTE   PEND
+// 056   ----------------------------------------
+        BYTE   W01
+        BYTE                   Ds4
+        BYTE   W92
+        BYTE   W03
+// 057   ----------------------------------------
+        BYTE   W01
+        BYTE           N44     En4   v120   gtp3
+        BYTE   W48
+        BYTE                   Fs4
+        BYTE   W44
+        BYTE   W03
+// 058   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_4_55
+// 059   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_4_55
+// 060   ----------------------------------------
+        BYTE   GoTo
+         POIN2  TheFirstUnison00_4_LOOP
+        BYTE   W01
+        BYTE   FINE
+
+//****************** Track 5 (Midi-Chn.5) ******************//
+
+TheFirstUnison00_5:
+        BYTE   KEYSH   TheFirstUnison00_key+0
+// 000   ----------------------------------------
+        BYTE           VOICE   5
+        BYTE           BENDR   12
+        BYTE           VOL     32
+        BYTE   W01
+        BYTE           PAN     c_v+16
+        BYTE           N32     Cn4   v127   gtp3
+        BYTE                   An3
+        BYTE   W36
+        BYTE                   Bn3
+        BYTE           N32     Gn3   v127   gtp3
+        BYTE   W36
+        BYTE           N23     Cn4
+        BYTE           N23     An3
+        BYTE   W23
+// 001   ----------------------------------------
+        BYTE   W01
+        BYTE           N32     Dn4   v127   gtp3
+        BYTE                   Bn3
+        BYTE   W36
+        BYTE                   En4
+        BYTE           N32     Cn4   v127   gtp3
+        BYTE   W36
+        BYTE           N23     Dn4
+        BYTE           N23     Bn3
+        BYTE   W23
+// 002   ----------------------------------------
+        BYTE   W01
+        BYTE           N32     Cn4   v127   gtp3
+        BYTE                   An3
+        BYTE   W36
+        BYTE                   Bn3
+        BYTE           N32     Gn3   v127   gtp3
+        BYTE   W36
+        BYTE           N68     Cn4   v127   gtp3
+        BYTE           N23     An3
+        BYTE   W23
+// 003   ----------------------------------------
+        BYTE   W01
+        BYTE           N92     En3   v127   gtp3
+        BYTE           N44     An2   v127   gtp3
+        BYTE   W48
+        BYTE                   Bn3
+        BYTE           N44     Gs2   v127   gtp3
+        BYTE   W44
+        BYTE   W03
+// 004   ----------------------------------------
+TheFirstUnison00_5_LOOP:
+        BYTE   W96
+// 005   ----------------------------------------
+        BYTE   W96
+// 006   ----------------------------------------
+        BYTE   W96
+// 007   ----------------------------------------
+        BYTE   W96
+// 008   ----------------------------------------
+TheFirstUnison00_5_8:
+        BYTE   W01
+        BYTE           N13     An3   v127
+        BYTE   W12
+        BYTE                   Bn3
+        BYTE   W12
+        BYTE                   Cn4
+        BYTE   W12
+        BYTE                   En4
+        BYTE   W12
+        BYTE                   An4
+        BYTE   W12
+        BYTE                   Gs4
+        BYTE   W12
+        BYTE                   An4
+        BYTE   W12
+        BYTE                   Bn4
+        BYTE   W11
+        BYTE   PEND
+// 009   ----------------------------------------
+TheFirstUnison00_5_9:
+        BYTE   W01
+        BYTE           N09     Cn5   v127
+        BYTE   W08
+        BYTE                   An4
+        BYTE   W08
+        BYTE                   En4
+        BYTE   W08
+        BYTE                   An4
+        BYTE   W08
+        BYTE                   En4
+        BYTE   W08
+        BYTE                   Cn4
+        BYTE   W08
+        BYTE           N24     Dn4   v127   gtp1
+        BYTE           N48     An3   v127   gtp1
+        BYTE   W24
+        BYTE           N24     Dn3   v127   gtp1
+        BYTE   W23
+        BYTE   PEND
+// 010   ----------------------------------------
+TheFirstUnison00_5_10:
+        BYTE   W01
+        BYTE           N05     Fn2   v127
+        BYTE   W06
+        BYTE                   Cn3
+        BYTE   W06
+        BYTE                   Fn3
+        BYTE   W06
+        BYTE                   An3
+        BYTE   W06
+        BYTE                   Cn4
+        BYTE   W06
+        BYTE                   Fn4
+        BYTE   W06
+        BYTE                   An4
+        BYTE   W06
+        BYTE                   Fn4
+        BYTE   W06
+        BYTE                   Cn4
+        BYTE   W06
+        BYTE                   An3
+        BYTE   W06
+        BYTE                   Fn3
+        BYTE   W06
+        BYTE                   Cn3
+        BYTE   W06
+        BYTE                   Fn2
+        BYTE   W06
+        BYTE                   Cn3
+        BYTE   W06
+        BYTE                   Fn3
+        BYTE   W06
+        BYTE                   An3
+        BYTE   W05
+        BYTE   PEND
+// 011   ----------------------------------------
+TheFirstUnison00_5_11:
+        BYTE   W01
+        BYTE           N05     Dn5   v127
+        BYTE   W06
+        BYTE                   An4
+        BYTE   W06
+        BYTE                   En4
+        BYTE   W06
+        BYTE                   Dn4
+        BYTE   W06
+        BYTE                   An3
+        BYTE   W06
+        BYTE                   En3
+        BYTE   W06
+        BYTE                   Dn3
+        BYTE   W06
+        BYTE                   An2
+        BYTE   W06
+        BYTE                   En2
+        BYTE   W06
+        BYTE                   Gs2
+        BYTE   W06
+        BYTE                   Bn2
+        BYTE   W06
+        BYTE                   En3
+        BYTE   W06
+        BYTE                   Gs3
+        BYTE   W06
+        BYTE                   Bn3
+        BYTE   W06
+        BYTE                   En4
+        BYTE   W06
+        BYTE                   Bn4
+        BYTE   W05
+        BYTE   PEND
+// 012   ----------------------------------------
+        BYTE   W96
+// 013   ----------------------------------------
+        BYTE   W96
+// 014   ----------------------------------------
+        BYTE   W96
+// 015   ----------------------------------------
+        BYTE   W96
+// 016   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_5_8
+// 017   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_5_9
+// 018   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_5_10
+// 019   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_5_11
+// 020   ----------------------------------------
+TheFirstUnison00_5_20:
+        BYTE   W01
+        BYTE           N08     Fs2   v127
+        BYTE           N08     Cs2
+        BYTE           N08     Fs1
+        BYTE   W12
+        BYTE                   Fs2
+        BYTE           N08     Cs2
+        BYTE           N08     Fs1
+        BYTE   W12
+        BYTE                   Fs2
+        BYTE           N08     Cs2
+        BYTE           N08     Fs1
+        BYTE   W12
+        BYTE                   Fs2
+        BYTE           N08     Cs2
+        BYTE           N08     Fs1
+        BYTE   W12
+        BYTE                   Fs2
+        BYTE           N08     Cs2
+        BYTE           N08     Fs1
+        BYTE   W12
+        BYTE                   Fs2
+        BYTE           N08     Cs2
+        BYTE           N08     Fs1
+        BYTE   W12
+        BYTE                   Fs2
+        BYTE           N08     Cs2
+        BYTE           N08     Fs1
+        BYTE   W12
+        BYTE                   Fs2
+        BYTE           N08     Cs2
+        BYTE           N08     Fs1
+        BYTE   W11
+        BYTE   PEND
+// 021   ----------------------------------------
+TheFirstUnison00_5_21:
+        BYTE   W01
+        BYTE           N08     Fs2   v127
+        BYTE           N08     Bn1
+        BYTE           N08     Fs1
+        BYTE   W12
+        BYTE                   Fs2
+        BYTE           N08     Bn1
+        BYTE           N08     Fs1
+        BYTE   W12
+        BYTE                   Fs2
+        BYTE           N08     Bn1
+        BYTE           N08     Fs1
+        BYTE   W12
+        BYTE                   Fs2
+        BYTE           N08     Bn1
+        BYTE           N08     Fs1
+        BYTE   W12
+        BYTE                   Fs2
+        BYTE           N08     Bn1
+        BYTE           N08     Fs1
+        BYTE   W12
+        BYTE                   Fs2
+        BYTE           N08     Bn1
+        BYTE           N08     Fs1
+        BYTE   W12
+        BYTE                   Fs2
+        BYTE           N08     Bn1
+        BYTE           N08     Fs1
+        BYTE   W12
+        BYTE                   Fs2
+        BYTE           N08     Bn1
+        BYTE           N08     Fs1
+        BYTE   W11
+        BYTE   PEND
+// 022   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_5_21
+// 023   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_5_20
+// 024   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_5_21
+// 025   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_5_20
+// 026   ----------------------------------------
+TheFirstUnison00_5_26:
+        BYTE   W01
+        BYTE           N08     Fs2   v127
+        BYTE           N08     Cn2
+        BYTE           N08     Fs1
+        BYTE   W12
+        BYTE                   Fs2
+        BYTE           N08     Cn2
+        BYTE           N08     Fs1
+        BYTE   W12
+        BYTE                   Fs2
+        BYTE           N08     Cn2
+        BYTE           N08     Fs1
+        BYTE   W12
+        BYTE                   Fs2
+        BYTE           N08     Cn2
+        BYTE           N08     Fs1
+        BYTE   W12
+        BYTE                   Fs2
+        BYTE           N08     Cn2
+        BYTE           N08     Fs1
+        BYTE   W12
+        BYTE                   Fs2
+        BYTE           N08     Cn2
+        BYTE           N08     Fs1
+        BYTE   W12
+        BYTE                   Fs2
+        BYTE           N08     Cn2
+        BYTE           N08     Fs1
+        BYTE   W12
+        BYTE                   Fs2
+        BYTE           N08     Cn2
+        BYTE           N08     Fs1
+        BYTE   W11
+        BYTE   PEND
+// 027   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_5_20
+// 028   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_5_20
+// 029   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_5_21
+// 030   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_5_21
+// 031   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_5_20
+// 032   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_5_21
+// 033   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_5_20
+// 034   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_5_26
+// 035   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_5_20
+// 036   ----------------------------------------
+        BYTE   W96
+// 037   ----------------------------------------
+        BYTE   W96
+// 038   ----------------------------------------
+        BYTE   W96
+// 039   ----------------------------------------
+        BYTE   W96
+// 040   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_5_8
+// 041   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_5_9
+// 042   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_5_10
+// 043   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_5_11
+// 044   ----------------------------------------
+TheFirstUnison00_5_44:
+        BYTE   W01
+        BYTE           N08     Dn2   v127
+        BYTE           N08     An1
+        BYTE           N08     Dn1
+        BYTE   W12
+        BYTE                   Dn2
+        BYTE           N08     An1
+        BYTE           N08     Dn1
+        BYTE   W12
+        BYTE                   Dn2
+        BYTE           N08     An1
+        BYTE           N08     Dn1
+        BYTE   W12
+        BYTE                   Dn2
+        BYTE           N08     An1
+        BYTE           N08     Dn1
+        BYTE   W12
+        BYTE                   Dn2
+        BYTE           N08     An1
+        BYTE           N08     Dn1
+        BYTE   W12
+        BYTE                   Dn2
+        BYTE           N08     An1
+        BYTE           N08     Dn1
+        BYTE   W12
+        BYTE                   Dn2
+        BYTE           N08     An1
+        BYTE           N08     Dn1
+        BYTE   W12
+        BYTE                   Dn2
+        BYTE           N08     An1
+        BYTE           N08     Dn1
+        BYTE   W11
+        BYTE   PEND
+// 045   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_5_44
+// 046   ----------------------------------------
+TheFirstUnison00_5_46:
+        BYTE   W01
+        BYTE           N08     Cn2   v127
+        BYTE           N08     An1
+        BYTE           N08     Cn1
+        BYTE   W12
+        BYTE                   Cn2
+        BYTE           N08     An1
+        BYTE           N08     Cn1
+        BYTE   W12
+        BYTE                   Cn2
+        BYTE           N08     An1
+        BYTE           N08     Cn1
+        BYTE   W12
+        BYTE                   Cn2
+        BYTE           N08     An1
+        BYTE           N08     Cn1
+        BYTE   W12
+        BYTE                   Cn2
+        BYTE           N08     An1
+        BYTE           N08     Cn1
+        BYTE   W12
+        BYTE                   Cn2
+        BYTE           N08     An1
+        BYTE           N08     Cn1
+        BYTE   W12
+        BYTE                   Cn2
+        BYTE           N08     An1
+        BYTE           N08     Cn1
+        BYTE   W12
+        BYTE                   Cn2
+        BYTE           N08     An1
+        BYTE           N08     Cn1
+        BYTE   W11
+        BYTE   PEND
+// 047   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_5_46
+// 048   ----------------------------------------
+TheFirstUnison00_5_48:
+        BYTE   W01
+        BYTE           N08     Bn1   v127
+        BYTE           N08     Fs1
+        BYTE           N08     Bn0
+        BYTE   W12
+        BYTE                   Bn1
+        BYTE           N08     Fs1
+        BYTE           N08     Bn0
+        BYTE   W12
+        BYTE                   Bn1
+        BYTE           N08     Fs1
+        BYTE           N08     Bn0
+        BYTE   W12
+        BYTE                   Bn1
+        BYTE           N08     Fs1
+        BYTE           N08     Bn0
+        BYTE   W12
+        BYTE                   Bn1
+        BYTE           N08     Fs1
+        BYTE           N08     Bn0
+        BYTE   W12
+        BYTE                   Bn1
+        BYTE           N08     Fs1
+        BYTE           N08     Bn0
+        BYTE   W12
+        BYTE                   Bn1
+        BYTE           N08     Fs1
+        BYTE           N08     Bn0
+        BYTE   W12
+        BYTE                   Bn1
+        BYTE           N08     Fs1
+        BYTE           N08     Bn0
+        BYTE   W11
+        BYTE   PEND
+// 049   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_5_21
+// 050   ----------------------------------------
+TheFirstUnison00_5_50:
+        BYTE   W01
+        BYTE           N08     En2   v127
+        BYTE           N08     Bn1
+        BYTE           N08     En1
+        BYTE   W12
+        BYTE                   En2
+        BYTE           N08     Bn1
+        BYTE           N08     En1
+        BYTE   W12
+        BYTE                   En2
+        BYTE           N08     Bn1
+        BYTE           N08     En1
+        BYTE   W12
+        BYTE                   En2
+        BYTE           N08     Bn1
+        BYTE           N08     En1
+        BYTE   W12
+        BYTE                   En2
+        BYTE           N08     Bn1
+        BYTE           N08     En1
+        BYTE   W12
+        BYTE                   En2
+        BYTE           N08     Bn1
+        BYTE           N08     En1
+        BYTE   W12
+        BYTE                   En2
+        BYTE           N08     Bn1
+        BYTE           N08     En1
+        BYTE   W12
+        BYTE                   En2
+        BYTE           N08     Bn1
+        BYTE           N08     En1
+        BYTE   W11
+        BYTE   PEND
+// 051   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_5_50
+// 052   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_5_44
+// 053   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_5_44
+// 054   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_5_46
+// 055   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_5_46
+// 056   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_5_48
+// 057   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_5_21
+// 058   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_5_50
+// 059   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_5_50
+// 060   ----------------------------------------
+        BYTE   GoTo
+         POIN2  TheFirstUnison00_5_LOOP
+        BYTE   W01
+        BYTE   FINE
+
+//****************** Track 6 (Midi-Chn.6) ******************//
+
+TheFirstUnison00_6:
+        BYTE   KEYSH   TheFirstUnison00_key+0
+// 000   ----------------------------------------
+        BYTE           VOICE   60
+        BYTE           VOL     39
+        BYTE           BENDR   12
+        BYTE   W01
+        BYTE           PAN     c_v+26
+        BYTE   W92
+        BYTE   W03
+// 001   ----------------------------------------
+        BYTE   W96
+// 002   ----------------------------------------
+        BYTE   W96
+// 003   ----------------------------------------
+        BYTE   W96
+// 004   ----------------------------------------
+TheFirstUnison00_6_LOOP:
+        BYTE   W96
+// 005   ----------------------------------------
+        BYTE   W96
+// 006   ----------------------------------------
+        BYTE   W96
+// 007   ----------------------------------------
+        BYTE   W96
+// 008   ----------------------------------------
+        BYTE   W96
+// 009   ----------------------------------------
+        BYTE   W96
+// 010   ----------------------------------------
+TheFirstUnison00_6_10:
+        BYTE   W01
+        BYTE           N54     Cn3   v127   gtp1
+        BYTE   W60
+        BYTE           N23     Bn2
+        BYTE   W24
+        BYTE           N12     Cn3
+        BYTE   W11
+        BYTE   PEND
+// 011   ----------------------------------------
+TheFirstUnison00_6_11:
+        BYTE   W01
+        BYTE           N44     Dn3   v127   gtp3
+        BYTE                   An2
+        BYTE   W48
+        BYTE                   En3
+        BYTE           N44     Gs2   v127   gtp3
+        BYTE   W44
+        BYTE   W03
+        BYTE   PEND
+// 012   ----------------------------------------
+        BYTE   W96
+// 013   ----------------------------------------
+        BYTE   W96
+// 014   ----------------------------------------
+        BYTE   W96
+// 015   ----------------------------------------
+        BYTE   W96
+// 016   ----------------------------------------
+        BYTE   W96
+// 017   ----------------------------------------
+        BYTE   W96
+// 018   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_6_10
+// 019   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_6_11
+// 020   ----------------------------------------
+        BYTE   W96
+// 021   ----------------------------------------
+        BYTE   W96
+// 022   ----------------------------------------
+        BYTE   W96
+// 023   ----------------------------------------
+        BYTE   W96
+// 024   ----------------------------------------
+        BYTE   W96
+// 025   ----------------------------------------
+        BYTE   W96
+// 026   ----------------------------------------
+        BYTE   W96
+// 027   ----------------------------------------
+        BYTE   W96
+// 028   ----------------------------------------
+        BYTE   W01
+        BYTE           N54     En3   v127   gtp1
+        BYTE   W60
+        BYTE           N12     Dn3
+        BYTE   W12
+        BYTE                   Cs3
+        BYTE   W12
+        BYTE           N08     Bn2
+        BYTE   W11
+// 029   ----------------------------------------
+        BYTE   W01
+        BYTE           N40
+        BYTE   W48
+        BYTE                   Fs2
+        BYTE   W44
+        BYTE   W03
+// 030   ----------------------------------------
+        BYTE   W01
+        BYTE           N17     Gs2
+        BYTE   W18
+        BYTE                   An2
+        BYTE   W18
+        BYTE           N10     Bn2
+        BYTE   W12
+        BYTE           N17
+        BYTE   W18
+        BYTE                   An2
+        BYTE   W18
+        BYTE           N10     Gs2
+        BYTE   W11
+// 031   ----------------------------------------
+TheFirstUnison00_6_31:
+        BYTE   W01
+        BYTE           N90     An2   v127
+        BYTE   W92
+        BYTE   W03
+        BYTE   PEND
+// 032   ----------------------------------------
+        BYTE   W01
+        BYTE           N40     Bn2
+        BYTE   W48
+        BYTE                   Cs3
+        BYTE   W44
+        BYTE   W03
+// 033   ----------------------------------------
+        BYTE   W01
+        BYTE           N17     Dn3
+        BYTE   W18
+        BYTE                   Cs3
+        BYTE   W18
+        BYTE           N10     Bn2
+        BYTE   W12
+        BYTE           N17     An2
+        BYTE   W18
+        BYTE                   Gs2
+        BYTE   W18
+        BYTE           N10     An2
+        BYTE   W11
+// 034   ----------------------------------------
+        BYTE   W01
+        BYTE           N40     Gs2
+        BYTE   W48
+        BYTE                   Cn3
+        BYTE   W44
+        BYTE   W03
+// 035   ----------------------------------------
+        BYTE   W01
+        BYTE           N92     Cs3   v127   gtp3
+        BYTE   W92
+        BYTE   W03
+// 036   ----------------------------------------
+        BYTE   W96
+// 037   ----------------------------------------
+        BYTE   W96
+// 038   ----------------------------------------
+        BYTE   W96
+// 039   ----------------------------------------
+        BYTE   W96
+// 040   ----------------------------------------
+        BYTE   W96
+// 041   ----------------------------------------
+        BYTE   W96
+// 042   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_6_10
+// 043   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_6_11
+// 044   ----------------------------------------
+TheFirstUnison00_6_44:
+        BYTE   W01
+        BYTE           N90     Dn3   v127
+        BYTE   W92
+        BYTE   W03
+        BYTE   PEND
+// 045   ----------------------------------------
+TheFirstUnison00_6_45:
+        BYTE   W01
+        BYTE           N44     En3   v127   gtp3
+        BYTE   W48
+        BYTE                   Fn3
+        BYTE   W44
+        BYTE   W03
+        BYTE   PEND
+// 046   ----------------------------------------
+TheFirstUnison00_6_46:
+        BYTE   W01
+        BYTE           N90     En3   v127
+        BYTE   W92
+        BYTE   W03
+        BYTE   PEND
+// 047   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_6_31
+// 048   ----------------------------------------
+TheFirstUnison00_6_48:
+        BYTE   W01
+        BYTE           N90     Fs2   v127
+        BYTE   W92
+        BYTE   W03
+        BYTE   PEND
+// 049   ----------------------------------------
+TheFirstUnison00_6_49:
+        BYTE   W01
+        BYTE           N44     Gn2   v127   gtp3
+        BYTE   W48
+        BYTE                   An2
+        BYTE   W44
+        BYTE   W03
+        BYTE   PEND
+// 050   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_6_31
+// 051   ----------------------------------------
+TheFirstUnison00_6_51:
+        BYTE   W01
+        BYTE           N90     Bn2   v127
+        BYTE   W92
+        BYTE   W03
+        BYTE   PEND
+// 052   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_6_44
+// 053   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_6_45
+// 054   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_6_46
+// 055   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_6_31
+// 056   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_6_48
+// 057   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_6_49
+// 058   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_6_31
+// 059   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_6_51
+// 060   ----------------------------------------
+        BYTE   GoTo
+         POIN2  TheFirstUnison00_6_LOOP
+        BYTE   W01
+        BYTE   FINE
+
+//****************** Track 7 (Midi-Chn.7) ******************//
+
+TheFirstUnison00_7:
+        BYTE   KEYSH   TheFirstUnison00_key+0
+// 000   ----------------------------------------
+        BYTE           VOICE   34
+        BYTE           VOL     33
+        BYTE           BENDR   12
+        BYTE   W01
+        BYTE           N80     An1   v127   gtp3
+        BYTE   W84
+        BYTE           N05
+        BYTE   W06
+        BYTE                   An1
+        BYTE   W05
+// 001   ----------------------------------------
+        BYTE   W01
+        BYTE           N44     An1   v127   gtp3
+        BYTE   W48
+        BYTE                   An1
+        BYTE   W44
+        BYTE   W03
+// 002   ----------------------------------------
+        BYTE   W01
+        BYTE           N32     An1   v127   gtp3
+        BYTE   W36
+        BYTE           N05     An2
+        BYTE   W06
+        BYTE                   An2
+        BYTE   W06
+        BYTE           N23     Gn1
+        BYTE   W24
+        BYTE                   Gn1
+        BYTE   W23
+// 003   ----------------------------------------
+        BYTE   W01
+        BYTE           N12     Fs1
+        BYTE   W12
+        BYTE                   Fs1
+        BYTE   W12
+        BYTE                   Fs1
+        BYTE   W12
+        BYTE                   Fs1
+        BYTE   W12
+        BYTE                   En1
+        BYTE   W12
+        BYTE                   En1
+        BYTE   W12
+        BYTE                   En1
+        BYTE   W12
+        BYTE                   En1
+        BYTE   W11
+// 004   ----------------------------------------
+TheFirstUnison00_7_LOOP:
+        BYTE   W01
+        BYTE           N12     An1   v127
+        BYTE   W12
+        BYTE                   An1
+        BYTE   W12
+        BYTE                   An2
+        BYTE   W12
+        BYTE           N05     An1
+        BYTE   W06
+        BYTE           N12
+        BYTE   W12
+        BYTE                   An1
+        BYTE   W12
+        BYTE           N05
+        BYTE   W06
+        BYTE                   An1
+        BYTE   W06
+        BYTE                   An1
+        BYTE   W06
+        BYTE                   An2
+        BYTE   W06
+        BYTE                   An1
+        BYTE   W05
+// 005   ----------------------------------------
+TheFirstUnison00_7_5:
+        BYTE   W01
+        BYTE           N12     An1   v127
+        BYTE   W12
+        BYTE                   An1
+        BYTE   W12
+        BYTE                   An2
+        BYTE   W12
+        BYTE           N05     An1
+        BYTE   W06
+        BYTE           N12
+        BYTE   W12
+        BYTE                   An1
+        BYTE   W12
+        BYTE           N05
+        BYTE   W06
+        BYTE                   An1
+        BYTE   W06
+        BYTE                   An1
+        BYTE   W06
+        BYTE                   An2
+        BYTE   W06
+        BYTE                   An1
+        BYTE   W05
+        BYTE   PEND
+// 006   ----------------------------------------
+TheFirstUnison00_7_6:
+        BYTE   W01
+        BYTE           N12     Fn1   v127
+        BYTE   W12
+        BYTE                   Fn1
+        BYTE   W12
+        BYTE                   Fn2
+        BYTE   W12
+        BYTE           N05     Fn1
+        BYTE   W06
+        BYTE           N12
+        BYTE   W12
+        BYTE                   Fn1
+        BYTE   W12
+        BYTE           N05
+        BYTE   W06
+        BYTE                   Fn1
+        BYTE   W06
+        BYTE                   Fn1
+        BYTE   W06
+        BYTE                   Fn2
+        BYTE   W06
+        BYTE                   Fn1
+        BYTE   W05
+        BYTE   PEND
+// 007   ----------------------------------------
+TheFirstUnison00_7_7:
+        BYTE   W01
+        BYTE           N12     Gn1   v127
+        BYTE   W12
+        BYTE                   Gn2
+        BYTE   W12
+        BYTE                   Gn1
+        BYTE   W12
+        BYTE                   Gn2
+        BYTE   W12
+        BYTE                   Gs1
+        BYTE   W12
+        BYTE                   Gs2
+        BYTE   W12
+        BYTE                   Gs1
+        BYTE   W12
+        BYTE                   Gs2
+        BYTE   W11
+        BYTE   PEND
+// 008   ----------------------------------------
+TheFirstUnison00_7_8:
+        BYTE   W01
+        BYTE           N12     An1   v127
+        BYTE   W12
+        BYTE                   An1
+        BYTE   W12
+        BYTE                   An1
+        BYTE   W12
+        BYTE                   An1
+        BYTE   W12
+        BYTE                   Gs1
+        BYTE   W12
+        BYTE                   Gs1
+        BYTE   W12
+        BYTE                   Gs1
+        BYTE   W12
+        BYTE                   Gs1
+        BYTE   W11
+        BYTE   PEND
+// 009   ----------------------------------------
+TheFirstUnison00_7_9:
+        BYTE   W01
+        BYTE           N12     Gn1   v127
+        BYTE   W12
+        BYTE                   Gn2
+        BYTE   W12
+        BYTE                   Gn1
+        BYTE   W12
+        BYTE                   Gn2
+        BYTE   W12
+        BYTE                   Fs1
+        BYTE   W12
+        BYTE                   Fs2
+        BYTE   W12
+        BYTE                   Fs1
+        BYTE   W12
+        BYTE                   Fs2
+        BYTE   W11
+        BYTE   PEND
+// 010   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_7_6
+// 011   ----------------------------------------
+TheFirstUnison00_7_11:
+        BYTE   W01
+        BYTE           N12     En1   v127
+        BYTE   W12
+        BYTE                   En1
+        BYTE   W12
+        BYTE                   En2
+        BYTE   W12
+        BYTE           N05     En1
+        BYTE   W06
+        BYTE           N12
+        BYTE   W12
+        BYTE                   En1
+        BYTE   W12
+        BYTE           N05
+        BYTE   W06
+        BYTE                   En1
+        BYTE   W06
+        BYTE                   En1
+        BYTE   W06
+        BYTE                   En2
+        BYTE   W06
+        BYTE                   En1
+        BYTE   W05
+        BYTE   PEND
+// 012   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_7_5
+// 013   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_7_5
+// 014   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_7_6
+// 015   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_7_7
+// 016   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_7_8
+// 017   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_7_9
+// 018   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_7_6
+// 019   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_7_11
+// 020   ----------------------------------------
+TheFirstUnison00_7_20:
+        BYTE   W01
+        BYTE           N12     Fs1   v127
+        BYTE   W12
+        BYTE                   Fs1
+        BYTE   W12
+        BYTE                   Fs1
+        BYTE   W12
+        BYTE                   Fs1
+        BYTE   W12
+        BYTE                   Fs1
+        BYTE   W12
+        BYTE                   Fs1
+        BYTE   W12
+        BYTE                   Fs1
+        BYTE   W12
+        BYTE                   Fs1
+        BYTE   W11
+        BYTE   PEND
+// 021   ----------------------------------------
+TheFirstUnison00_7_21:
+        BYTE   W01
+        BYTE           N12     Fs1   v127
+        BYTE   W12
+        BYTE                   Fs1
+        BYTE   W12
+        BYTE                   Fs1
+        BYTE   W12
+        BYTE                   Fs1
+        BYTE   W12
+        BYTE                   Fs1
+        BYTE   W12
+        BYTE                   Fs2
+        BYTE   W12
+        BYTE                   Fs1
+        BYTE   W12
+        BYTE                   Fs1
+        BYTE   W11
+        BYTE   PEND
+// 022   ----------------------------------------
+TheFirstUnison00_7_22:
+        BYTE   W01
+        BYTE           N12     Fs1   v127
+        BYTE   W12
+        BYTE                   Fs1
+        BYTE   W12
+        BYTE                   Fs1
+        BYTE   W12
+        BYTE                   Fs1
+        BYTE   W12
+        BYTE                   Fs1
+        BYTE   W12
+        BYTE                   Fs1
+        BYTE   W12
+        BYTE                   En1
+        BYTE   W12
+        BYTE                   Fs1
+        BYTE   W11
+        BYTE   PEND
+// 023   ----------------------------------------
+TheFirstUnison00_7_23:
+        BYTE   W01
+        BYTE           N12     Fs1   v127
+        BYTE   W12
+        BYTE                   Fs1
+        BYTE   W12
+        BYTE                   Fs1
+        BYTE   W12
+        BYTE                   Fs1
+        BYTE   W12
+        BYTE                   Fs2
+        BYTE   W12
+        BYTE                   Fs1
+        BYTE   W12
+        BYTE                   Fs1
+        BYTE   W12
+        BYTE                   Fs1
+        BYTE   W11
+        BYTE   PEND
+// 024   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_7_20
+// 025   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_7_21
+// 026   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_7_22
+// 027   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_7_23
+// 028   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_7_20
+// 029   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_7_21
+// 030   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_7_22
+// 031   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_7_23
+// 032   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_7_20
+// 033   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_7_21
+// 034   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_7_22
+// 035   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_7_23
+// 036   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_7_5
+// 037   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_7_5
+// 038   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_7_6
+// 039   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_7_7
+// 040   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_7_8
+// 041   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_7_9
+// 042   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_7_6
+// 043   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_7_11
+// 044   ----------------------------------------
+TheFirstUnison00_7_44:
+        BYTE   W01
+        BYTE           N12     Dn1   v127
+        BYTE   W12
+        BYTE                   Dn2
+        BYTE   W12
+        BYTE                   Dn1
+        BYTE   W12
+        BYTE                   Dn2
+        BYTE   W12
+        BYTE                   Dn1
+        BYTE   W12
+        BYTE                   Dn2
+        BYTE   W12
+        BYTE                   Dn1
+        BYTE   W12
+        BYTE                   Dn2
+        BYTE   W11
+        BYTE   PEND
+// 045   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_7_44
+// 046   ----------------------------------------
+TheFirstUnison00_7_46:
+        BYTE   W01
+        BYTE           N12     Cn2   v127
+        BYTE   W12
+        BYTE                   Cn3
+        BYTE   W12
+        BYTE                   Cn2
+        BYTE   W12
+        BYTE                   Cn3
+        BYTE   W12
+        BYTE                   Cn2
+        BYTE   W12
+        BYTE                   Cn3
+        BYTE   W12
+        BYTE                   Cn2
+        BYTE   W12
+        BYTE                   Cn3
+        BYTE   W11
+        BYTE   PEND
+// 047   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_7_46
+// 048   ----------------------------------------
+TheFirstUnison00_7_48:
+        BYTE   W01
+        BYTE           N12     Bn1   v127
+        BYTE   W12
+        BYTE                   Bn2
+        BYTE   W12
+        BYTE                   Bn1
+        BYTE   W12
+        BYTE                   Bn2
+        BYTE   W12
+        BYTE                   Bn1
+        BYTE   W12
+        BYTE                   Bn2
+        BYTE   W12
+        BYTE                   Bn1
+        BYTE   W12
+        BYTE                   Bn2
+        BYTE   W11
+        BYTE   PEND
+// 049   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_7_48
+// 050   ----------------------------------------
+TheFirstUnison00_7_50:
+        BYTE   W01
+        BYTE           N12     En1   v127
+        BYTE   W12
+        BYTE                   En2
+        BYTE   W12
+        BYTE                   En1
+        BYTE   W12
+        BYTE                   En2
+        BYTE   W12
+        BYTE                   En1
+        BYTE   W12
+        BYTE                   En2
+        BYTE   W12
+        BYTE                   En1
+        BYTE   W12
+        BYTE                   En2
+        BYTE   W11
+        BYTE   PEND
+// 051   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_7_50
+// 052   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_7_44
+// 053   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_7_44
+// 054   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_7_46
+// 055   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_7_46
+// 056   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_7_48
+// 057   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_7_48
+// 058   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_7_50
+// 059   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_7_50
+// 060   ----------------------------------------
+        BYTE   GoTo
+         POIN2  TheFirstUnison00_7_LOOP
+        BYTE   W01
+        BYTE   FINE
+
+//****************** Track 8 (Midi-Chn.8) ******************//
+
+TheFirstUnison00_8:
+        BYTE   KEYSH   TheFirstUnison00_key+0
+// 000   ----------------------------------------
+        BYTE           VOICE   68
+        BYTE           VOL     35
+        BYTE           BENDR   12
+        BYTE   W01
+        BYTE           PAN     c_v+11
+        BYTE   W92
+        BYTE   W03
+// 001   ----------------------------------------
+        BYTE   W96
+// 002   ----------------------------------------
+        BYTE   W96
+// 003   ----------------------------------------
+        BYTE   W96
+// 004   ----------------------------------------
+TheFirstUnison00_8_LOOP:
+        BYTE   W96
+// 005   ----------------------------------------
+        BYTE   W96
+// 006   ----------------------------------------
+        BYTE   W96
+// 007   ----------------------------------------
+        BYTE   W96
+// 008   ----------------------------------------
+        BYTE   W96
+// 009   ----------------------------------------
+        BYTE   W96
+// 010   ----------------------------------------
+        BYTE   W96
+// 011   ----------------------------------------
+        BYTE   W96
+// 012   ----------------------------------------
+        BYTE   W96
+// 013   ----------------------------------------
+        BYTE   W96
+// 014   ----------------------------------------
+        BYTE   W96
+// 015   ----------------------------------------
+        BYTE   W96
+// 016   ----------------------------------------
+        BYTE   W96
+// 017   ----------------------------------------
+        BYTE   W96
+// 018   ----------------------------------------
+        BYTE   W96
+// 019   ----------------------------------------
+        BYTE   W96
+// 020   ----------------------------------------
+TheFirstUnison00_8_20:
+        BYTE   W01
+        BYTE           N54     En4   v127   gtp1
+        BYTE   W60
+        BYTE           N12     Dn4
+        BYTE   W12
+        BYTE                   Cs4
+        BYTE   W12
+        BYTE           N08     Bn3
+        BYTE   W11
+        BYTE   PEND
+// 021   ----------------------------------------
+TheFirstUnison00_8_21:
+        BYTE   W01
+        BYTE           N40     Bn3   v127
+        BYTE   W48
+        BYTE                   Fs3
+        BYTE   W44
+        BYTE   W03
+        BYTE   PEND
+// 022   ----------------------------------------
+TheFirstUnison00_8_22:
+        BYTE   W01
+        BYTE           N17     Gs3   v127
+        BYTE   W18
+        BYTE                   An3
+        BYTE   W18
+        BYTE           N10     Bn3
+        BYTE   W12
+        BYTE           N17
+        BYTE   W18
+        BYTE                   An3
+        BYTE   W18
+        BYTE           N10     Gs3
+        BYTE   W11
+        BYTE   PEND
+// 023   ----------------------------------------
+TheFirstUnison00_8_23:
+        BYTE   W01
+        BYTE           N90     An3   v127
+        BYTE   W92
+        BYTE   W03
+        BYTE   PEND
+// 024   ----------------------------------------
+TheFirstUnison00_8_24:
+        BYTE   W01
+        BYTE           N40     Bn3   v127
+        BYTE   W48
+        BYTE                   Cs4
+        BYTE   W44
+        BYTE   W03
+        BYTE   PEND
+// 025   ----------------------------------------
+TheFirstUnison00_8_25:
+        BYTE   W01
+        BYTE           N17     Dn4   v127
+        BYTE   W18
+        BYTE                   Cs4
+        BYTE   W18
+        BYTE           N10     Bn3
+        BYTE   W12
+        BYTE           N17     An3
+        BYTE   W18
+        BYTE                   Gs3
+        BYTE   W18
+        BYTE           N10     An3
+        BYTE   W11
+        BYTE   PEND
+// 026   ----------------------------------------
+TheFirstUnison00_8_26:
+        BYTE   W01
+        BYTE           N40     Gs3   v127
+        BYTE   W48
+        BYTE                   Cn4
+        BYTE   W44
+        BYTE   W03
+        BYTE   PEND
+// 027   ----------------------------------------
+TheFirstUnison00_8_27:
+        BYTE   W01
+        BYTE           N92     Cs4   v127   gtp3
+        BYTE   W92
+        BYTE   W03
+        BYTE   PEND
+// 028   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_8_20
+// 029   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_8_21
+// 030   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_8_22
+// 031   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_8_23
+// 032   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_8_24
+// 033   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_8_25
+// 034   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_8_26
+// 035   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_8_27
+// 036   ----------------------------------------
+        BYTE   W96
+// 037   ----------------------------------------
+        BYTE   W96
+// 038   ----------------------------------------
+        BYTE   W96
+// 039   ----------------------------------------
+        BYTE   W96
+// 040   ----------------------------------------
+        BYTE   W96
+// 041   ----------------------------------------
+        BYTE   W96
+// 042   ----------------------------------------
+        BYTE   W96
+// 043   ----------------------------------------
+        BYTE   W96
+// 044   ----------------------------------------
+        BYTE   W96
+// 045   ----------------------------------------
+        BYTE   W96
+// 046   ----------------------------------------
+        BYTE   W96
+// 047   ----------------------------------------
+        BYTE   W96
+// 048   ----------------------------------------
+        BYTE   W96
+// 049   ----------------------------------------
+        BYTE   W96
+// 050   ----------------------------------------
+        BYTE   W96
+// 051   ----------------------------------------
+        BYTE   W96
+// 052   ----------------------------------------
+        BYTE   W01
+        BYTE           N90     Dn4   v117
+        BYTE   W92
+        BYTE   W03
+// 053   ----------------------------------------
+        BYTE   W01
+        BYTE           N44     En4   v117   gtp3
+        BYTE   W48
+        BYTE                   Fn4
+        BYTE   W44
+        BYTE   W03
+// 054   ----------------------------------------
+        BYTE   W01
+        BYTE           N90     En4
+        BYTE   W92
+        BYTE   W03
+// 055   ----------------------------------------
+TheFirstUnison00_8_55:
+        BYTE   W01
+        BYTE           N90     An3   v117
+        BYTE   W92
+        BYTE   W03
+        BYTE   PEND
+// 056   ----------------------------------------
+        BYTE   W01
+        BYTE                   Fs3
+        BYTE   W92
+        BYTE   W03
+// 057   ----------------------------------------
+        BYTE   W01
+        BYTE           N44     Gn3   v117   gtp3
+        BYTE   W48
+        BYTE                   An3
+        BYTE   W44
+        BYTE   W03
+// 058   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_8_55
+// 059   ----------------------------------------
+        BYTE   W01
+        BYTE           N90     Bn3   v117
+        BYTE   W92
+        BYTE   W03
+// 060   ----------------------------------------
+        BYTE   GoTo
+         POIN2  TheFirstUnison00_8_LOOP
+        BYTE   W01
+        BYTE   FINE
+
+//***************** Track 9 (Midi-Chn.10) ******************//
+
+TheFirstUnison00_9:
+        BYTE   KEYSH   TheFirstUnison00_key+0
+// 000   ----------------------------------------
+        BYTE           VOICE   127
+        BYTE           BENDR   12
+        BYTE           VOL     31
+        BYTE   W01
+        BYTE           N92     An2   v127   gtp3
+        BYTE   W92
+        BYTE   W03
+// 001   ----------------------------------------
+        BYTE   W96
+// 002   ----------------------------------------
+TheFirstUnison00_9_2:
+        BYTE   W01
+        BYTE           N92     An2   v127   gtp3
+        BYTE   W92
+        BYTE   W03
+        BYTE   PEND
+// 003   ----------------------------------------
+        BYTE   W01
+        BYTE           N44     An2   v127   gtp3
+        BYTE   W48
+        BYTE                   An2
+        BYTE   W44
+        BYTE   W03
+// 004   ----------------------------------------
+TheFirstUnison00_9_LOOP:
+        BYTE   W01
+        BYTE           N92     An2   v127   gtp3
+        BYTE   W92
+        BYTE   W03
+// 005   ----------------------------------------
+        BYTE   W96
+// 006   ----------------------------------------
+        BYTE   W96
+// 007   ----------------------------------------
+        BYTE   W96
+// 008   ----------------------------------------
+TheFirstUnison00_9_8:
+        BYTE   W01
+        BYTE           N44     An2   v127   gtp3
+        BYTE   W48
+        BYTE                   Cs2
+        BYTE   W44
+        BYTE   W03
+        BYTE   PEND
+// 009   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_9_8
+// 010   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_9_2
+// 011   ----------------------------------------
+        BYTE   W96
+// 012   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_9_2
+// 013   ----------------------------------------
+        BYTE   W96
+// 014   ----------------------------------------
+        BYTE   W96
+// 015   ----------------------------------------
+        BYTE   W96
+// 016   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_9_8
+// 017   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_9_8
+// 018   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_9_2
+// 019   ----------------------------------------
+        BYTE   W96
+// 020   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_9_2
+// 021   ----------------------------------------
+        BYTE   W96
+// 022   ----------------------------------------
+        BYTE   W96
+// 023   ----------------------------------------
+        BYTE   W96
+// 024   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_9_2
+// 025   ----------------------------------------
+        BYTE   W96
+// 026   ----------------------------------------
+        BYTE   W96
+// 027   ----------------------------------------
+        BYTE   W96
+// 028   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_9_2
+// 029   ----------------------------------------
+        BYTE   W96
+// 030   ----------------------------------------
+        BYTE   W96
+// 031   ----------------------------------------
+        BYTE   W96
+// 032   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_9_2
+// 033   ----------------------------------------
+        BYTE   W96
+// 034   ----------------------------------------
+        BYTE   W96
+// 035   ----------------------------------------
+        BYTE   W96
+// 036   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_9_2
+// 037   ----------------------------------------
+        BYTE   W96
+// 038   ----------------------------------------
+        BYTE   W96
+// 039   ----------------------------------------
+        BYTE   W96
+// 040   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_9_8
+// 041   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_9_8
+// 042   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_9_2
+// 043   ----------------------------------------
+        BYTE   W96
+// 044   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_9_2
+// 045   ----------------------------------------
+        BYTE   W96
+// 046   ----------------------------------------
+        BYTE   W96
+// 047   ----------------------------------------
+        BYTE   W96
+// 048   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_9_8
+// 049   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_9_8
+// 050   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_9_2
+// 051   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_9_2
+// 052   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_9_2
+// 053   ----------------------------------------
+        BYTE   W96
+// 054   ----------------------------------------
+        BYTE   W96
+// 055   ----------------------------------------
+        BYTE   W96
+// 056   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_9_8
+// 057   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_9_8
+// 058   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_9_2
+// 059   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_9_2
+// 060   ----------------------------------------
+        BYTE   GoTo
+         POIN2  TheFirstUnison00_9_LOOP
+        BYTE   W01
+        BYTE   FINE
+
+//***************** Track 10 (Midi-Chn.11) *****************//
+
+TheFirstUnison00_10:
+        BYTE   KEYSH   TheFirstUnison00_key+0
+// 000   ----------------------------------------
+        BYTE           VOICE   47
+        BYTE           BENDR   12
+        BYTE           VOL     27
+        BYTE   W01
+        BYTE           N92     AnM1   v127   gtp3
+        BYTE                   Dn0
+        BYTE   W92
+        BYTE   W03
+// 001   ----------------------------------------
+        BYTE   W96
+// 002   ----------------------------------------
+TheFirstUnison00_10_2:
+        BYTE   W01
+        BYTE           N92     AnM1   v127   gtp3
+        BYTE                   Dn0
+        BYTE   W92
+        BYTE   W03
+        BYTE   PEND
+// 003   ----------------------------------------
+TheFirstUnison00_10_3:
+        BYTE   W01
+        BYTE           N44     AnM1   v127   gtp3
+        BYTE                   Dn0
+        BYTE   W48
+        BYTE                   AnM1
+        BYTE           N44     Dn0   v127   gtp3
+        BYTE   W44
+        BYTE   W03
+        BYTE   PEND
+// 004   ----------------------------------------
+TheFirstUnison00_10_LOOP:
+        BYTE   W96
+// 005   ----------------------------------------
+        BYTE   W96
+// 006   ----------------------------------------
+        BYTE   W96
+// 007   ----------------------------------------
+        BYTE   W96
+// 008   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_10_3
+// 009   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_10_3
+// 010   ----------------------------------------
+        BYTE   W96
+// 011   ----------------------------------------
+        BYTE   W96
+// 012   ----------------------------------------
+        BYTE   W96
+// 013   ----------------------------------------
+        BYTE   W96
+// 014   ----------------------------------------
+        BYTE   W96
+// 015   ----------------------------------------
+        BYTE   W96
+// 016   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_10_3
+// 017   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_10_3
+// 018   ----------------------------------------
+        BYTE   W96
+// 019   ----------------------------------------
+        BYTE   W96
+// 020   ----------------------------------------
+        BYTE   W96
+// 021   ----------------------------------------
+        BYTE   W96
+// 022   ----------------------------------------
+        BYTE   W96
+// 023   ----------------------------------------
+        BYTE   W96
+// 024   ----------------------------------------
+        BYTE   W96
+// 025   ----------------------------------------
+        BYTE   W96
+// 026   ----------------------------------------
+        BYTE   W96
+// 027   ----------------------------------------
+        BYTE   W96
+// 028   ----------------------------------------
+        BYTE   W96
+// 029   ----------------------------------------
+        BYTE   W96
+// 030   ----------------------------------------
+        BYTE   W96
+// 031   ----------------------------------------
+        BYTE   W96
+// 032   ----------------------------------------
+        BYTE   W96
+// 033   ----------------------------------------
+        BYTE   W96
+// 034   ----------------------------------------
+        BYTE   W96
+// 035   ----------------------------------------
+        BYTE   W96
+// 036   ----------------------------------------
+        BYTE   W96
+// 037   ----------------------------------------
+        BYTE   W96
+// 038   ----------------------------------------
+        BYTE   W96
+// 039   ----------------------------------------
+        BYTE   W96
+// 040   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_10_3
+// 041   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_10_3
+// 042   ----------------------------------------
+        BYTE   W96
+// 043   ----------------------------------------
+        BYTE   W96
+// 044   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_10_2
+// 045   ----------------------------------------
+        BYTE   W96
+// 046   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_10_2
+// 047   ----------------------------------------
+        BYTE   W96
+// 048   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_10_2
+// 049   ----------------------------------------
+        BYTE   W96
+// 050   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_10_2
+// 051   ----------------------------------------
+        BYTE   W96
+// 052   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_10_2
+// 053   ----------------------------------------
+        BYTE   W96
+// 054   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_10_2
+// 055   ----------------------------------------
+        BYTE   W96
+// 056   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_10_2
+// 057   ----------------------------------------
+        BYTE   W96
+// 058   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_10_2
+// 059   ----------------------------------------
+        BYTE   W96
+// 060   ----------------------------------------
+        BYTE   GoTo
+         POIN2  TheFirstUnison00_10_LOOP
+        BYTE   W01
+        BYTE   FINE
+
+//***************** Track 11 (Midi-Chn.12) *****************//
+
+TheFirstUnison00_11:
+        BYTE   KEYSH   TheFirstUnison00_key+0
+// 000   ----------------------------------------
+        BYTE           VOICE   117
+        BYTE           VOL     27
+        BYTE           BENDR   12
+        BYTE   W01
+        BYTE           N24     Cn3   v127
+        BYTE   W92
+        BYTE   W03
+// 001   ----------------------------------------
+        BYTE   W01
+        BYTE           N23
+        BYTE   W36
+        BYTE           N05
+        BYTE   W06
+        BYTE                   Cn3
+        BYTE   W18
+        BYTE           N12
+        BYTE   W12
+        BYTE                   Cn3
+        BYTE   W12
+        BYTE           N05
+        BYTE   W06
+        BYTE                   Cn3
+        BYTE   W05
+// 002   ----------------------------------------
+        BYTE   W01
+        BYTE           N44     Cn3   v127   gtp3
+        BYTE   W48
+        BYTE                   Cn3
+        BYTE   W44
+        BYTE   W03
+// 003   ----------------------------------------
+        BYTE   W01
+        BYTE           N23
+        BYTE   W24
+        BYTE                   Cn3
+        BYTE   W24
+        BYTE           N12
+        BYTE   W12
+        BYTE                   Cn3
+        BYTE   W32
+        BYTE   W03
+// 004   ----------------------------------------
+TheFirstUnison00_11_LOOP:
+        BYTE   W01
+        BYTE           N10     Cn3   v127
+        BYTE   W12
+        BYTE                   Cn3
+        BYTE   W24
+        BYTE           N05
+        BYTE   W06
+        BYTE           N10
+        BYTE   W12
+        BYTE           N05
+        BYTE   W06
+        BYTE           N10
+        BYTE   W32
+        BYTE   W03
+// 005   ----------------------------------------
+TheFirstUnison00_11_5:
+        BYTE   W01
+        BYTE           N10     Cn3   v127
+        BYTE   W12
+        BYTE                   Cn3
+        BYTE   W24
+        BYTE           N05
+        BYTE   W06
+        BYTE           N10
+        BYTE   W12
+        BYTE           N05
+        BYTE   W06
+        BYTE           N10
+        BYTE   W32
+        BYTE   W03
+        BYTE   PEND
+// 006   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_11_5
+// 007   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_11_5
+// 008   ----------------------------------------
+TheFirstUnison00_11_8:
+        BYTE   W01
+        BYTE           N12     Cn3   v127
+        BYTE   W48
+        BYTE                   Cn3
+        BYTE   W44
+        BYTE   W03
+        BYTE   PEND
+// 009   ----------------------------------------
+TheFirstUnison00_11_9:
+        BYTE   W01
+        BYTE           N23     Cn3   v127
+        BYTE   W24
+        BYTE                   Cn3
+        BYTE   W24
+        BYTE                   Cn3
+        BYTE   W44
+        BYTE   W03
+        BYTE   PEND
+// 010   ----------------------------------------
+TheFirstUnison00_11_10:
+        BYTE   W13
+        BYTE           N12     Cn3   v127
+        BYTE   W24
+        BYTE                   Cn3
+        BYTE   W24
+        BYTE                   Cn3
+        BYTE   W24
+        BYTE                   Cn3
+        BYTE   W11
+        BYTE   PEND
+// 011   ----------------------------------------
+TheFirstUnison00_11_11:
+        BYTE   W13
+        BYTE           N12     Cn3   v127
+        BYTE   W24
+        BYTE                   Cn3
+        BYTE   W24
+        BYTE                   Cn3
+        BYTE   W32
+        BYTE   W03
+        BYTE   PEND
+// 012   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_11_5
+// 013   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_11_5
+// 014   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_11_5
+// 015   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_11_5
+// 016   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_11_8
+// 017   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_11_9
+// 018   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_11_10
+// 019   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_11_11
+// 020   ----------------------------------------
+TheFirstUnison00_11_20:
+        BYTE   W01
+        BYTE           N10     Cn3   v127
+        BYTE   W48
+        BYTE                   Cn3
+        BYTE   W12
+        BYTE                   Cn3
+        BYTE   W32
+        BYTE   W03
+        BYTE   PEND
+// 021   ----------------------------------------
+TheFirstUnison00_11_21:
+        BYTE   W01
+        BYTE           N10     Cn3   v127
+        BYTE   W48
+        BYTE           N05
+        BYTE   W06
+        BYTE                   Cn3
+        BYTE   W06
+        BYTE           N10
+        BYTE   W32
+        BYTE   W03
+        BYTE   PEND
+// 022   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_11_20
+// 023   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_11_20
+// 024   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_11_20
+// 025   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_11_21
+// 026   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_11_21
+// 027   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_11_20
+// 028   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_11_20
+// 029   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_11_21
+// 030   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_11_20
+// 031   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_11_20
+// 032   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_11_20
+// 033   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_11_21
+// 034   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_11_21
+// 035   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_11_20
+// 036   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_11_5
+// 037   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_11_5
+// 038   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_11_5
+// 039   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_11_5
+// 040   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_11_8
+// 041   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_11_9
+// 042   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_11_10
+// 043   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_11_11
+// 044   ----------------------------------------
+TheFirstUnison00_11_44:
+        BYTE   W01
+        BYTE           N10     Cn3   v127
+        BYTE   W12
+        BYTE                   Cn3
+        BYTE   W24
+        BYTE           N05
+        BYTE   W06
+        BYTE           N10
+        BYTE   W24
+        BYTE           N05
+        BYTE   W18
+        BYTE           N12
+        BYTE   W11
+        BYTE   PEND
+// 045   ----------------------------------------
+TheFirstUnison00_11_45:
+        BYTE   W01
+        BYTE           N10     Cn3   v127
+        BYTE   W12
+        BYTE                   Cn3
+        BYTE   W24
+        BYTE           N05
+        BYTE   W06
+        BYTE           N10
+        BYTE   W24
+        BYTE           N05
+        BYTE   W28
+        BYTE   W01
+        BYTE   PEND
+// 046   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_11_44
+// 047   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_11_45
+// 048   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_11_44
+// 049   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_11_45
+// 050   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_11_44
+// 051   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_11_45
+// 052   ----------------------------------------
+TheFirstUnison00_11_52:
+        BYTE   W13
+        BYTE           N12     Cn3   v127
+        BYTE   W24
+        BYTE           N05
+        BYTE   W06
+        BYTE                   Cn3
+        BYTE   W18
+        BYTE           N12
+        BYTE   W18
+        BYTE           N05
+        BYTE   W06
+        BYTE                   Cn3
+        BYTE   W06
+        BYTE                   Cn3
+        BYTE   W05
+        BYTE   PEND
+// 053   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_11_52
+// 054   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_11_52
+// 055   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_11_52
+// 056   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_11_52
+// 057   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_11_52
+// 058   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_11_52
+// 059   ----------------------------------------
+        BYTE   W13
+        BYTE           N12     Cn3   v127
+        BYTE   W24
+        BYTE           N05
+        BYTE   W06
+        BYTE                   Cn3
+        BYTE   W18
+        BYTE           N12
+        BYTE   W32
+        BYTE   W03
+// 060   ----------------------------------------
+        BYTE   GoTo
+         POIN2  TheFirstUnison00_11_LOOP
+        BYTE   W01
+        BYTE   FINE
+
+//***************** Track 12 (Midi-Chn.13) *****************//
+
+TheFirstUnison00_12:
+        BYTE   KEYSH   TheFirstUnison00_key+0
+// 000   ----------------------------------------
+        BYTE           VOICE   117
+        BYTE           BENDR   12
+        BYTE           VOL     24
+        BYTE   W01
+        BYTE           PAN     c_v-64
+        BYTE   W92
+        BYTE   W03
+// 001   ----------------------------------------
+TheFirstUnison00_12_1:
+        BYTE   W48
+        BYTE   W01
+        BYTE           N12     Cn3   v127
+        BYTE   W44
+        BYTE   W03
+        BYTE   PEND
+// 002   ----------------------------------------
+        BYTE   W96
+// 003   ----------------------------------------
+TheFirstUnison00_12_3:
+        BYTE   W72
+        BYTE   W01
+        BYTE           N05     Cn3   v127
+        BYTE   W06
+        BYTE                   Cn3
+        BYTE   W06
+        BYTE                   Cn3
+        BYTE   W06
+        BYTE                   Cn3
+        BYTE   W05
+        BYTE   PEND
+// 004   ----------------------------------------
+TheFirstUnison00_12_LOOP:
+        BYTE   W24
+        BYTE   W01
+        BYTE           N23     Cn3   v127
+        BYTE   W48
+        BYTE                   Cn3
+        BYTE   W23
+// 005   ----------------------------------------
+TheFirstUnison00_12_5:
+        BYTE   W24
+        BYTE   W01
+        BYTE           N23     Cn3   v127
+        BYTE   W48
+        BYTE           N12
+        BYTE   W12
+        BYTE                   Cn3
+        BYTE   W11
+        BYTE   PEND
+// 006   ----------------------------------------
+TheFirstUnison00_12_6:
+        BYTE   W24
+        BYTE   W01
+        BYTE           N23     Cn3   v127
+        BYTE   W48
+        BYTE                   Cn3
+        BYTE   W23
+        BYTE   PEND
+// 007   ----------------------------------------
+TheFirstUnison00_12_7:
+        BYTE   W24
+        BYTE   W01
+        BYTE           N23     Cn3   v127
+        BYTE   W48
+        BYTE           N05
+        BYTE   W06
+        BYTE                   Cn3
+        BYTE   W06
+        BYTE                   Cn3
+        BYTE   W06
+        BYTE                   Cn3
+        BYTE   W05
+        BYTE   PEND
+// 008   ----------------------------------------
+TheFirstUnison00_12_8:
+        BYTE   W36
+        BYTE   W01
+        BYTE           N05     Cn3   v127
+        BYTE   W06
+        BYTE                   Cn3
+        BYTE   W42
+        BYTE                   Cn3
+        BYTE   W06
+        BYTE                   Cn3
+        BYTE   W05
+        BYTE   PEND
+// 009   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_12_3
+// 010   ----------------------------------------
+TheFirstUnison00_12_10:
+        BYTE   W01
+        BYTE           N12     Cn3   v127
+        BYTE   W24
+        BYTE                   Cn3
+        BYTE   W24
+        BYTE                   Cn3
+        BYTE   W24
+        BYTE                   Cn3
+        BYTE   W23
+        BYTE   PEND
+// 011   ----------------------------------------
+TheFirstUnison00_12_11:
+        BYTE   W01
+        BYTE           N12     Cn3   v127
+        BYTE   W24
+        BYTE                   Cn3
+        BYTE   W24
+        BYTE                   Cn3
+        BYTE   W24
+        BYTE           N05
+        BYTE   W06
+        BYTE                   Cn3
+        BYTE   W06
+        BYTE                   Cn3
+        BYTE   W06
+        BYTE                   Cn3
+        BYTE   W05
+        BYTE   PEND
+// 012   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_12_6
+// 013   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_12_5
+// 014   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_12_6
+// 015   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_12_7
+// 016   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_12_8
+// 017   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_12_3
+// 018   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_12_10
+// 019   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_12_11
+// 020   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_12_6
+// 021   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_12_6
+// 022   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_12_6
+// 023   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_12_5
+// 024   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_12_6
+// 025   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_12_6
+// 026   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_12_5
+// 027   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_12_7
+// 028   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_12_6
+// 029   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_12_6
+// 030   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_12_6
+// 031   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_12_5
+// 032   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_12_6
+// 033   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_12_6
+// 034   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_12_5
+// 035   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_12_7
+// 036   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_12_6
+// 037   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_12_5
+// 038   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_12_6
+// 039   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_12_7
+// 040   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_12_8
+// 041   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_12_3
+// 042   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_12_10
+// 043   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_12_11
+// 044   ----------------------------------------
+TheFirstUnison00_12_44:
+        BYTE   W24
+        BYTE   W01
+        BYTE           N23     Cn3   v127
+        BYTE   W30
+        BYTE           N17
+        BYTE   W18
+        BYTE           N12
+        BYTE   W23
+        BYTE   PEND
+// 045   ----------------------------------------
+TheFirstUnison00_12_45:
+        BYTE   W24
+        BYTE   W01
+        BYTE           N23     Cn3   v127
+        BYTE   W30
+        BYTE           N17
+        BYTE   W18
+        BYTE           N12
+        BYTE   W12
+        BYTE                   Cn3
+        BYTE   W11
+        BYTE   PEND
+// 046   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_12_44
+// 047   ----------------------------------------
+TheFirstUnison00_12_47:
+        BYTE   W24
+        BYTE   W01
+        BYTE           N23     Cn3   v127
+        BYTE   W30
+        BYTE           N17
+        BYTE   W18
+        BYTE           N12
+        BYTE   W12
+        BYTE           N05
+        BYTE   W06
+        BYTE                   Cn3
+        BYTE   W05
+        BYTE   PEND
+// 048   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_12_44
+// 049   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_12_45
+// 050   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_12_44
+// 051   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_12_47
+// 052   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_12_10
+// 053   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_12_10
+// 054   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_12_10
+// 055   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_12_10
+// 056   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_12_10
+// 057   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_12_10
+// 058   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_12_10
+// 059   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_12_11
+// 060   ----------------------------------------
+        BYTE   GoTo
+         POIN2  TheFirstUnison00_12_LOOP
+        BYTE   W01
+        BYTE   FINE
+
+//***************** Track 13 (Midi-Chn.14) *****************//
+
+TheFirstUnison00_13:
+        BYTE   KEYSH   TheFirstUnison00_key+0
+// 000   ----------------------------------------
+        BYTE           VOICE   127
+        BYTE           VOL     30
+        BYTE           BENDR   12
+        BYTE   W01
+        BYTE           PAN     c_v-24
+        BYTE   W92
+        BYTE   W03
+// 001   ----------------------------------------
+        BYTE   W96
+// 002   ----------------------------------------
+        BYTE   W96
+// 003   ----------------------------------------
+        BYTE   W96
+// 004   ----------------------------------------
+TheFirstUnison00_13_LOOP:
+        BYTE   W01
+        BYTE           N12     Gn1   v118
+        BYTE   W12
+        BYTE                   Gn1
+        BYTE   W12
+        BYTE                   Gn1   v127
+        BYTE   W12
+        BYTE                   Gn1   v118
+        BYTE   W12
+        BYTE                   Gn1
+        BYTE   W12
+        BYTE                   Gn1
+        BYTE   W12
+        BYTE                   Gn1   v127
+        BYTE   W12
+        BYTE                   Gn1   v118
+        BYTE   W11
+// 005   ----------------------------------------
+TheFirstUnison00_13_5:
+        BYTE   W01
+        BYTE           N12     Gn1   v118
+        BYTE   W12
+        BYTE                   Gn1
+        BYTE   W12
+        BYTE                   Gn1   v127
+        BYTE   W12
+        BYTE           N05     Gn1   v118
+        BYTE   W06
+        BYTE           N12
+        BYTE   W12
+        BYTE           N05
+        BYTE   W06
+        BYTE           N12
+        BYTE   W12
+        BYTE                   Gn1   v127
+        BYTE   W12
+        BYTE                   Gn1   v118
+        BYTE   W11
+        BYTE   PEND
+// 006   ----------------------------------------
+TheFirstUnison00_13_6:
+        BYTE   W01
+        BYTE           N12     Gn1   v118
+        BYTE   W12
+        BYTE                   Gn1
+        BYTE   W12
+        BYTE                   Gn1   v127
+        BYTE   W12
+        BYTE                   Gn1   v118
+        BYTE   W12
+        BYTE                   Gn1
+        BYTE   W12
+        BYTE                   Gn1
+        BYTE   W12
+        BYTE                   Gn1   v127
+        BYTE   W12
+        BYTE                   Gn1   v118
+        BYTE   W11
+        BYTE   PEND
+// 007   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_13_5
+// 008   ----------------------------------------
+        BYTE   W96
+// 009   ----------------------------------------
+        BYTE   W96
+// 010   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_13_6
+// 011   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_13_6
+// 012   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_13_6
+// 013   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_13_5
+// 014   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_13_6
+// 015   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_13_5
+// 016   ----------------------------------------
+        BYTE   W96
+// 017   ----------------------------------------
+        BYTE   W96
+// 018   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_13_6
+// 019   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_13_6
+// 020   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_13_6
+// 021   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_13_6
+// 022   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_13_6
+// 023   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_13_6
+// 024   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_13_6
+// 025   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_13_6
+// 026   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_13_6
+// 027   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_13_6
+// 028   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_13_6
+// 029   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_13_6
+// 030   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_13_6
+// 031   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_13_6
+// 032   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_13_6
+// 033   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_13_6
+// 034   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_13_6
+// 035   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_13_6
+// 036   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_13_6
+// 037   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_13_5
+// 038   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_13_6
+// 039   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_13_5
+// 040   ----------------------------------------
+        BYTE   W96
+// 041   ----------------------------------------
+        BYTE   W96
+// 042   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_13_6
+// 043   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_13_6
+// 044   ----------------------------------------
+TheFirstUnison00_13_44:
+        BYTE   W13
+        BYTE           N12     Gn1   v127
+        BYTE   W24
+        BYTE                   Gn1
+        BYTE   W24
+        BYTE                   Gn1
+        BYTE   W24
+        BYTE                   Gn1
+        BYTE   W11
+        BYTE   PEND
+// 045   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_13_44
+// 046   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_13_44
+// 047   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_13_44
+// 048   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_13_44
+// 049   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_13_44
+// 050   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_13_44
+// 051   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_13_44
+// 052   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_13_6
+// 053   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_13_6
+// 054   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_13_6
+// 055   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_13_6
+// 056   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_13_6
+// 057   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_13_6
+// 058   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_13_6
+// 059   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_13_6
+// 060   ----------------------------------------
+        BYTE   GoTo
+         POIN2  TheFirstUnison00_13_LOOP
+        BYTE   W01
+        BYTE   FINE
+
+//***************** Track 14 (Midi-Chn.15) *****************//
+
+TheFirstUnison00_14:
+        BYTE   KEYSH   TheFirstUnison00_key+0
+// 000   ----------------------------------------
+        BYTE           VOICE   117
+        BYTE           BENDR   12
+        BYTE           VOL     24
+        BYTE   W01
+        BYTE           PAN     c_v+63
+        BYTE   W92
+        BYTE   W03
+// 001   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_12_1
+// 002   ----------------------------------------
+        BYTE   W96
+// 003   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_12_3
+// 004   ----------------------------------------
+TheFirstUnison00_14_LOOP:
+        BYTE   W24
+        BYTE   W01
+        BYTE           N23     Cn3   v127
+        BYTE   W48
+        BYTE                   Cn3
+        BYTE   W23
+// 005   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_12_5
+// 006   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_12_6
+// 007   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_12_7
+// 008   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_12_8
+// 009   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_12_3
+// 010   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_12_10
+// 011   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_12_11
+// 012   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_12_6
+// 013   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_12_5
+// 014   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_12_6
+// 015   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_12_7
+// 016   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_12_8
+// 017   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_12_3
+// 018   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_12_10
+// 019   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_12_11
+// 020   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_12_6
+// 021   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_12_6
+// 022   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_12_6
+// 023   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_12_5
+// 024   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_12_6
+// 025   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_12_6
+// 026   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_12_5
+// 027   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_12_7
+// 028   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_12_6
+// 029   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_12_6
+// 030   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_12_6
+// 031   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_12_5
+// 032   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_12_6
+// 033   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_12_6
+// 034   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_12_5
+// 035   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_12_7
+// 036   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_12_6
+// 037   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_12_5
+// 038   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_12_6
+// 039   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_12_7
+// 040   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_12_8
+// 041   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_12_3
+// 042   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_12_10
+// 043   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_12_11
+// 044   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_12_44
+// 045   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_12_45
+// 046   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_12_44
+// 047   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_12_47
+// 048   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_12_44
+// 049   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_12_45
+// 050   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_12_44
+// 051   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_12_47
+// 052   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_12_10
+// 053   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_12_10
+// 054   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_12_10
+// 055   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_12_10
+// 056   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_12_10
+// 057   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_12_10
+// 058   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_12_10
+// 059   ----------------------------------------
+        BYTE   PATT
+         POIN2  TheFirstUnison00_12_11
+// 060   ----------------------------------------
+        BYTE   GoTo
+         POIN2  TheFirstUnison00_14_LOOP
+        BYTE   W01
+        BYTE   FINE
+
+
+//********************** End of Song ***********************//
+
+        ALIGN 4
+TheFirstUnison00:
+        BYTE   15                      // Num Tracks
+        BYTE   0                       // Unknown
+        BYTE   TheFirstUnison00_pri    // Priority
+        BYTE   TheFirstUnison00_rev    // Reverb
+
+        POIN2   TheFirstUnison00_grp   
+
+        POIN2   TheFirstUnison00_0
+        POIN2   TheFirstUnison00_1
+        POIN2   TheFirstUnison00_2
+        POIN2   TheFirstUnison00_3
+        POIN2   TheFirstUnison00_4
+        POIN2   TheFirstUnison00_5
+        POIN2   TheFirstUnison00_6
+        POIN2   TheFirstUnison00_7
+        POIN2   TheFirstUnison00_8
+        POIN2   TheFirstUnison00_9
+        POIN2   TheFirstUnison00_10
+        POIN2   TheFirstUnison00_11
+        POIN2   TheFirstUnison00_12
+        POIN2   TheFirstUnison00_13
+        POIN2   TheFirstUnison00_14
+
+        
