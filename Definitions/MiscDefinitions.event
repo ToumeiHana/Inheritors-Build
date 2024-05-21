@@ -18,13 +18,6 @@
 #define jumpToHackr6(offset) "BYTE 0x00 0x4E 0x30 0x47; POIN (offset|0x1)" 
 #define jumpToHackr7(offset) "BYTE 0x00 0x4F 0x38 0x47; POIN (offset|0x1)"
 
-//Aliases
-#define AxeReaver Axereaver
-#define LanceReaver Lancereaver
-#define SwordReaver Swordreaver
-#define RescueStaff Rescue
-#define Handaxe HandAxe
-
 //Global Flags
 #define GenderEventID 0xC5
 #define HollieHelmetlessFlag 0x8B

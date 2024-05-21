@@ -21,7 +21,7 @@ s8 ArenaIsUnitAllowed(struct Unit* unit) {
         return 0;
     }
 
-    if (gPlaySt.unk19 >= GetChapterDefinition(gPlaySt.chapterIndex)->unk3D) {
+    if (gPlaySt.unk19 >= GetChapterDefinition(gPlaySt.chapterIndex)->unk5E) {
         return 0;
     }
     
@@ -47,7 +47,7 @@ u8 ArenaCommandEffect(struct MenuProc* menu, struct MenuItemProc* menuItem) {
             MenuFrozenHelpBox(menu, 0x853); // TODO: msgid "You can't enter the[.][NL]arena while Silenced.[.]"
         }
 
-        else if (gPlaySt.unk19 >= GetChapterDefinition(gPlaySt.chapterIndex)->unk3D) {
+        else if (gPlaySt.unk19 >= GetChapterDefinition(gPlaySt.chapterIndex)->unk5E) {
             MenuFrozenHelpBox(menu, ExtraArenaTextID_Link);
         }
 

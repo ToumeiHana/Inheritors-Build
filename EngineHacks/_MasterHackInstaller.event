@@ -78,6 +78,8 @@ POP
   
   //#include "C_Code.lyn.event"
   
+  #include "ExternalHacks/FE8_Convoy_Hax/FE8-Convoy_Stuff_EA.event"
+  
   #include "ExternalHacks/hackbox_exceed/EA.txt"
   
   #include "ExternalHacks/ShopHacks/Installer.event"

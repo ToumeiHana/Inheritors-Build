@@ -1,5 +1,5 @@
 ## ProtagName
-[X]
+Dummy[X]
 
 ## MaleText
 Male[X]
@@ -26,7 +26,7 @@ Janessa[X]
 
 ## JanessaDesc
 Commander of a Laftian militia unit.[N]
-adjective1 & adjective2[X]
+[X]
 
 ## JanessaDeathQuote
 [MidRight][LoadJanessa]
@@ -104,7 +104,7 @@ Lauren[X]
 
 ## LaurenDesc
 Troubadour traveling with her[N]
-brother. Sassy.[X]
+brother.[X]
 
 ## LaurenDeathQuote
 [MidRight][LoadLauren]
@@ -147,7 +147,7 @@ Is that[Beat] light?[.4][CloseEyes] Am I[ToggleMouthMove]...?[ToggleMouthMove][A
 Emmanuel[X]
 
 ## EmmanuelDesc
-placeholder[X]
+Traveling mage.[X]
 
 ## EmmanuelDeathQuote
 [MidRight][LoadEmmanuel]
@@ -157,7 +157,8 @@ No[Beat][CloseEyes] I still[Beat][A][X]
 Hollie[X]
 
 ## HollieDesc
-placeholder[X]
+Second-in-command of the border[N]
+guard. [X]
 
 ## HollieRetreatQuote
 [MidRight][LoadHollie]
@@ -171,7 +172,8 @@ This is the[Beat] end of the road[Beat][CloseEyes][.][.] for me[Beat][A][X]
 Garry[X]
 
 ## GarryDesc
-placeholder[X]
+Commander of a border guard unit.[N]
+[X]
 
 ## GarryRetreatQuote
 [MidRight][LoadGarry]
@@ -503,7 +505,7 @@ Loyal to her country.[X]
 Farumese[X]
 
 ## FarumDesc
-Soldiers of Farum.[X]
+Ordinary soldiers of Farum.[X]
 
 ## BrigandName
 Brigand[X]

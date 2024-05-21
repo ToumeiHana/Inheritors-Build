@@ -35,7 +35,7 @@ TurnBasedEvents:
 	TurnEventPlayer(11,AIChanges,10)
 	//TurnEventPlayer(0,EndingScene,13)
 	Survive(EndingScene,13)
-	//Survive(EndingScene,2)
+	Survive(EndingScene,2)
 	END_MAIN
 
 ALIGN 32
@@ -259,6 +259,7 @@ DVBox:
 	
 GarryRecruitment:
 	MUSS DanceBraceID
+	Text(GarryRecruitText)
 	CUSA Garry
 	CUSA Hollie
 	CUSA Pieter
@@ -440,19 +441,18 @@ SHORT SteelBow
 SHORT Longbow
 SHORT 0
 SHORT 0	
-
-ALIGN 4
-Ch4Shop:
-SHORT Fire
-SHORT Elfire
-SHORT Heal
-SHORT Vulnerary
-SHORT 0
-SHORT 0
 	
 EndingScene:
 
-	//Text(Ch4EndText1)
+	CHECK_EXISTS Bazba
+	BEQ 32 s0 sC
+	Text(LagrangeRetreat)
+	LABEL 32
+	
+	MUSC VictoryB
+	SetBackground(Fort_Ruins_Outside)
+	
+	Text(Ch4EndText1)
 	
 	EVBIT_MODIFY 4
 	

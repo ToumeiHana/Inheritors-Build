@@ -233,3 +233,10 @@
 #define Gheist 0xC4
 #define Repositioner 0xC7
 #define BraverysGift 0xCA
+
+//Aliases
+#define AxeReaver Axereaver
+#define LanceReaver Lancereaver
+#define SwordReaver Swordreaver
+#define RescueStaff Rescue
+#define Handaxe HandAxe

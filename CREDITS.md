@@ -108,7 +108,7 @@ adding yourself!
 - Huichelaar: Minimug Palette Fix, Gendered text
 - circles: drumfix
 - Alusq: NIMAP 2 (with keysplits)
-- Tequila: New CHAI, walking sounds fix, text engine rework, staff locks
+- Tequila: New CHAI, walking sounds fix, text engine rework, staff locks, Convoy partition & item combining
 - HyperGammaSpaces: Summon rework, Dynamic equip
 - Aera: Thracia trading, remove link arena
 - Zane: MMB

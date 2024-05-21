@@ -45,7 +45,8 @@ occurs before enemy's counterattack.[X]
 ## SD_Lumberjack
 Lumberjack: Negates terrain bonuses[N]
 for enemies on forest tiles, halves[N]
-terrain bonuses for other tiles.[X]
+terrain bonuses for other tiles.[N]
+Also cleaves snags in a single blow.[X]
 
 ## SD_AirRaidDef
 Air Raid: Grants +5 Def when[N]
