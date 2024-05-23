@@ -23,7 +23,7 @@ group move further north to investigate.[A][X]
 ## WM_Ch3_text
 Chasing after the enemy troops, the party[N]
 makes a pit stop at a local village.[A][N]
-Just passing through, unexpected[N]
+Planning to just pass through, unexpected[N]
 trouble brews on the road ahead...[A][X]
 
 ## WM_Ch4_text
