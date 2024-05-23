@@ -49,3 +49,4 @@
 #define AshToAshBurstID 0x5e
 #define FirstWardID 0x5f
 #define FirstUnisonID 0x62
+#define HiddenHighlandID 0x63

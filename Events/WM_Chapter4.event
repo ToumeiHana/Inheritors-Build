@@ -3,7 +3,7 @@ WorldMapPointerTable(3,WM_Events)
 WM_Events:
 MUSCFAST 0x7FFF
 STAL 32
-MUSC 43
+MUSC HiddenHighlandID
 WM_SHOWDRAWNMAP 0x0 0x0 0x0 0x10 0x0
 STAL 2
 WM_FADEOUT 0x0 0x0 0x0

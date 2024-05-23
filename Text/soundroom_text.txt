@@ -99,3 +99,6 @@ Ash to Ash BURST[X]
 
 ## FirstUnisonName
 The First Unison[X]
+
+## HiddenHighlandName
+Hidden Highland[X]

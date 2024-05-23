@@ -46,7 +46,7 @@ You're same as me, right?[N]
 I can sense it[Beat][A][N]
 The curse of draconic power.[A][N]
 [MidLeft]
-Yes[Beat] I have an eye on my chest.[N]
+Yes[Beat] I have an eye on my shoulder.[N]
 It gives me weird visions sometimes.[A][N]
 Uh, anyway we should discuss this[N]
 further after the battle.[A][N]
@@ -56,13 +56,13 @@ Right.[A][X]
 ## KatjaRecruitText
 [MidLeft][LoadFace][CurrentPortrait]
 [MidRight][LoadKatja]
-Reinforcements? Alright![N]
+Reinforcements?[.4] Alright![.4][N]
 Let's go and give 'em hell![A][X]
 
 ## LaurenRecruitText
 [MidLeft][LoadFace][CurrentPortrait]
 [MidRight][LoadLauren]
-Finally, some help to clean this mess![n]
+Finally,[.] some help to clean this mess![.4][n]
 I'll go smack some sense to my brother.[A][X]
 
 ## MauritchRecruitText
@@ -86,8 +86,8 @@ looks ripe for picking![a][X]
 
 ## Ch2BossChargeText
 [MidLeft][LoadFace][0x31][0x1]
-Bah! This is going nowhere.[n]
-Men! Charge in![A][X]
+Bah![.] This is going nowhere.[.][n]
+Men![.4] Charge in![A][X]
 
 ## Ch2VillageText
 [MidLeft][LoadFace][CurrentPortrait]
@@ -99,7 +99,7 @@ please take this with you.[a][X]
 
 ## WernerGenBattleQuote
 [MidLeft][LoadBossTwo]
-This isn't any of your business.[N]
+This isn't any of your business.[.][N]
 Get out of our way.[A][X]
 
 ## WernerMirabelleBattleQuote

@@ -12,7 +12,7 @@ PUSH
 POP
 
 ALIGN 4
-MESSAGE Boss Music Table begins at CURRENTOFFSET
+//MESSAGE Boss Music Table begins at CURRENTOFFSET
 BossMusicTable:
 SetCustomBossMusic(ONeill,0xFFFFF)
 MapOverrideBossMusic(Breguet)

@@ -26,7 +26,7 @@ Janessa[X]
 
 ## JanessaDesc
 Commander of a Laftian militia unit.[N]
-[X]
+Strict but straightforward.[X]
 
 ## JanessaDeathQuote
 [MidRight][LoadJanessa]

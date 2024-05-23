@@ -59,13 +59,13 @@ BYTE  0x00
 BYTE  0x00 
 
 // Celeis/Curtis 2: dragon eye bogaloo
-/*SHORT
-SHORT
+SHORT ProtagEyeMugID
+SHORT 0x0003
 SHORT GenderEventID
 BYTE 0x00
 BYTE 0x00
-
-// Celeis/Curtis 3: the one tahts not picked
+/*
+// Celeis/Curtis 3: the one thats not picked
 SHORT 0x0002
 SHORT 0x0014
 SHORT GenderEventID

@@ -113,7 +113,7 @@ adding yourself!
 - Aera: Thracia trading, remove link arena
 - Zane: MMB
 - Teraspark: IER, fancy staves
-- 7743: Flag-based map bgm change, continue map bgm to battle, individual banim by unit
+- 7743: Flag-based map bgm change, continue map bgm to battle, individual banim by unit, set battle bgm by chapter
 - Vesly: Additional prebattle calcloop, extended weapon desc box, promote by menu command
 - stan: lordsplitmenu
 - AuraWolf: Modular Unit Menu, HelpText
@@ -140,6 +140,7 @@ adding yourself!
 - Azula: FE11 - Trouble!
 - Baka94: Extended ash ~ Hourai victim
 - yoimutu: Bloom nobly, ink-black cherry blossom ~ Border of life
+- psy_commando: PMD EoS - Hidden Higland
 
 # Other
 

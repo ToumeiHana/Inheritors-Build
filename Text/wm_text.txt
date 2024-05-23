@@ -1,7 +1,7 @@
 ## WM_Opening_text
-The continent of whatever.[.4] These lands were[N]
+The continent of Beleria.[.4] These lands were[N]
 ravaged by a sudden appearance of a dragon[.4][N]
-whenever years ago, but have since been[.4][N]
+some 600 years ago, but have since been[.4][N]
 blessed with times of relative peace.[A][N][N]
 [Event]
 On the southernmost reaches resides the[N]

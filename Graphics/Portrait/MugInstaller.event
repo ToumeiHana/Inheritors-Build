@@ -49,6 +49,7 @@
 #define CaitlindMugID 0x2a
 #define EllieMugID 0x2b
 #define FerrynMugID 0x2e
+#define ProtagEyeMugID 0x6d
 
 /*
 ALIGN 4
@@ -71,10 +72,10 @@ setMugEntry(0x02, Curtis_Mug, 4,5,4,3)
 
 ALIGN 4
 CurtisShirtless_Mug:
-#incbin "dmp/CurtisShirtless_mug.dmp"
-#incbin "dmp/CurtisShirtless_frames.dmp"
-#incbin "dmp/CurtisShirtless_palette.dmp"
-#incbin "dmp/CurtisShirtless_minimug.dmp"
+#incbin "dmp/CurtisPlaceholder_mug.dmp"
+#incbin "dmp/CurtisPlaceholder_frames.dmp"
+#incbin "dmp/CurtisPlaceholder_palette.dmp"
+#incbin "dmp/CurtisPlaceholder_minimug.dmp"
 setMugEntry(0x03, CurtisShirtless_Mug, 3,5,3,3)
 
 ALIGN 4
@@ -214,6 +215,14 @@ Celeis_Mug:
 setMugEntry(0x14,Celeis_Mug,4,5,4,3)
 
 ALIGN 4
+CeleisShirtless_Mug:
+#incbin "dmp/CeleisPlaceholder_mug.dmp"
+#incbin "dmp/CeleisPlaceholder_frames.dmp"
+#incbin "dmp/CeleisPlaceholder_palette.dmp"
+#incbin "dmp/CeleisPlaceholder_minimug.dmp"
+setMugEntry(ProtagEyeMugID,CeleisShirtless_Mug,3,5,3,3)
+
+ALIGN 4
 Dave_Mug:
 #incbin "dmp/Dave_mug.dmp"
 #incbin "dmp/Dave_frames.dmp"
@@ -351,10 +360,10 @@ setMugEntry(0x52,Pieter_Mug,2,5,2,3)
 
 ALIGN 4
 Garry_Mug:
-#incbin "dmp/Garry_mug.dmp"
-#incbin "dmp/Garry_frames.dmp"
-#incbin "dmp/Garry_palette.dmp"
-#incbin "dmp/Garry_minimug.dmp"
+#incbin "dmp/Garry2_mug.dmp"
+#incbin "dmp/Garry2_frames.dmp"
+#incbin "dmp/Garry2_palette.dmp"
+#incbin "dmp/Garry2_minimug.dmp"
 setMugEntry(0x53,Garry_Mug,3,5,3,3)
 
 ALIGN 4

@@ -114,3 +114,6 @@ SongTable(FirstWardID,FirstWard,MapMusicGroup)
 
 SongTable(FirstUnisonID,TheFirstUnison00,MapMusicGroup)
 #include "event/TheFirstUnison0.event"
+
+SongTable(HiddenHighlandID,HiddenHighland,MapMusicGroup)
+#include "event/HiddenHighland.event"

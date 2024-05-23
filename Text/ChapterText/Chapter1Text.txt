@@ -13,7 +13,7 @@ It would be a shame to leave such[N]
 a magnificent corpse to rot around.[AN]
 [ClearFace]
 [LoadOverworldFaces]
-[NearLeft][LoadFaceFancy][0x3][0x1][0x2][0x1][0x2][0x1][0x1][0xD]
+[NearLeft][LoadFaceFancy][0x6d][0x1][0x2][0x1][0x2][0x1][0x1][0xD]
 [FarFarRight]
 Hey [Tact], wake up![N]
 Were marching out soon![AN]
@@ -63,7 +63,7 @@ a local village.[.] Let's move out.[A][X]
 [MidRight][LoadBossOne]
 Alrighty lad, what's the report?[A][N]
 [MidLeft]
-Sire![N]
+Sire![.4][N]
 The village hasn't put on much resistance,[AN]
 so we're almost done with the search.[A][N]
 [MidRight]
@@ -144,8 +144,8 @@ This looks useful.[A][X]
 ## Ch1BottomVillageText
 [MidLeft][LoadFace][CurrentPortrait]
 [MidRight][LoadFace][0x59][0x01]
-You're with the militia?[N]
-Good![.] Take this![A][X]
+You're with the militia?[.4][N]
+Good![.4] Take this![A][X]
 
 ## Ch1MoneyVillageText
 [MidLeft][LoadFace][CurrentPortrait]
@@ -160,7 +160,7 @@ other weapons at range.[A][X]
 
 ## ThomGenBattleQuote
 [MidLeft][LoadBossOne]
-What!? There wasn't supposed[N]
+What!?[.4] There wasn't supposed[N]
 to be any resistance![A][X]
 
 ## ThomDeathQuote

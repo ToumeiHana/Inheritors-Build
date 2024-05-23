@@ -78,6 +78,10 @@ POP
   
   //#include "C_Code.lyn.event"
   
+  #include "ExternalHacks/ChangingBattleBGM/Installer.event"
+  
+  #include "ExternalHacks/MusicFix/Installer.event"
+  
   #include "ExternalHacks/FE8_Convoy_Hax/FE8-Convoy_Stuff_EA.event"
   
   #include "ExternalHacks/hackbox_exceed/EA.txt"
