@@ -1,42 +1,7 @@
-Note: This list is incomplete and insufficiently organized. If you contributed
-something that you'd like special recognition for, please make a pull request
-adding yourself!
+# Hack Credits
 
-# Skill contributors
 
-- Tequila
-- Rossendale
-- StanH
-- Leonarth
-- 2WB
-- Teraspark
-- Darrman
-- SD9k
-- Kao
-- blademaster
-- Snakey1
-- Zeta
-- Kirb
-- Sme
-- Ganzap
-- Mikey Seregon
-
-# Other
-
-- 7743: various bugfixes
-- RobertFPY, Pikmin1211, and Snakey1: Str/Mag Split Finalization
-
-# Icons
-
-- Monkeybard, Black Mage
-- Blaze: Stances
-- vlak: Drives
-- Pikmin1211: Miscellaneous
-- 2WB: Miscellaneous
-- Zaim: Indoor March
-- Reds: Quick Riposte
-
-# Animations
+# Battle Animations
 
 - Flasuban: Improved FalcoKnight, FHero, PegasusKnight. FPaladin
 - SALVAGED: Cavaliers, Paladins
@@ -57,12 +22,12 @@ adding yourself!
 - BatimaTheBat: Troubadour
 - Ty the Bub: Bald Fighter
 
-# Tilesets
+# Map Tilesets
 
 - Flasuban: Improved Village
 - Gamma, ZoramineFae, Venno, N426: Desert Bastion
 
-# MapSprites
+# Map Sprites
 
 - Flasuban: Improved FalcoKnight
 - SALVAGED: Cavaliers
@@ -99,35 +64,40 @@ adding yourself!
 - Zane: Elstone
 - Celice: Mooncleaver
 - Seal: Gheist
-- Lisandra Brave: Repostioner
+- Lisandra Brave: Repositioner
 
 # External & Inline hacks
 
-- SKILLSYS QoL+Other credits here
 - Scraiza: NarrowFont, Dynamic Portraits, Droppable/Stealable Item Display
 - Huichelaar: Minimug Palette Fix, Gendered text
-- circles: drumfix
+- circles: drumfix, contemporary talk/support, danger zone, dragon veins, casual mode, Trap/Rescue/Convoy event AMSC's, Event Writer, hp bars, anim L-toggle, menu semi-transparency, Improved Sound Mixer port, prologue supply, movement arrow hack, chapter names as text, negative crit, MSS
 - Alusq: NIMAP 2 (with keysplits)
-- Tequila: New CHAI, walking sounds fix, text engine rework, staff locks, Convoy partition & item combining
-- HyperGammaSpaces: Summon rework, Dynamic equip
-- Aera: Thracia trading, remove link arena
+- Tequila: New CHAI, walking sounds fix, text engine rework, staff locks, Convoy partition & item combining, str/mag split, effectiveness rework, battle stats with anims off, lvl up wrank display, hp bars, MSS
+- HyperGammaSpaces: Summon rework, Dynamic equip, gaiden magic
+- Aera: Thracia-style trading, remove link arena
 - Zane: MMB
 - Teraspark: IER, fancy staves
-- 7743: Flag-based map bgm change, continue map bgm to battle, individual banim by unit, set battle bgm by chapter
+- 7743: Flag-based map bgm change, continue map bgm to battle, individual banim by unit, set battle bgm by chapter, dump items to convoy event
 - Vesly: Additional prebattle calcloop, extended weapon desc box, promote by menu command
-- stan: lordsplitmenu
+- stan: lordsplitmenu, lvl up wrank display, EMS, icon rework, negative crit, popup rework, unit action rework, wrank fix
 - AuraWolf: Modular Unit Menu, HelpText
 - Mokha: Status rework
-- Snakey1: Gendered Text
+- Snakey1: Gendered Text, 200 Convoy EMS stuff, stairs, gaiden magic, heal tiles
 - 2WB: Portrait Height Fix
 - Relic: Levelups restore hp
 - Mkol: Droppable/Stealable Item Display
 - jjl2357: staff locks
 - MikasaMikoto: hackbox exceed
 - Pikmin1211: hackbox exceed buildfile port
+- Leonarth: 256 color title screen
+- Venno: AdvWeaponLocks
+- Sme: Trap Rework, reaver split, escape-arrive, AdvWeaponLocks port
+- Colorz: dragon veins
+- ipatix: Improved Sound Mixer
 
-# Music //TODO: separate .s & midi providers
+# Music
 
+## .s providers
 - Thegis: Etrian Odyssey 3 - The First Campaing, Pokemon BW - N's Castle
 - Sme: TMS#FE - Quest Battle
 - Psyche: PMD EoS - Defend Globe
@@ -135,12 +105,17 @@ adding yourself!
 - Mycahel: Monster Hunter 3 - Jhen Mohran Battle, NieR Automata - Dark Colossus Destroys All 
 - MeatOfJustice: Marvel vs Capcom Clash of the Superheroes - Captain America's Theme
 - MonopolyRubix: Xenoblade - An Obstacle In Our Path
-- Miffe: Xenoblade - An Obstacle In Our Path
-- Alusq: Custom instrument samples, advanced music suite, FE3 - Off to War Remix
+- Alusq: FE3 - Off to War Remix
 - Azula: FE11 - Trouble!
+
+## midi rippers/transcribers
+- Miffe: Xenoblade - An Obstacle In Our Path
 - Baka94: Extended ash ~ Hourai victim
 - yoimutu: Bloom nobly, ink-black cherry blossom ~ Border of life
-- psy_commando: PMD EoS - Hidden Higland
+- psy_commando: PMD EoS - Hidden Highland
+
+## Other
+- Alusq: Custom instrument samples, advanced music suite
 
 # Other
 
@@ -149,3 +124,43 @@ adding yourself!
 # Special Thanks
 
 - Everyone who helped via discord :)
+
+# SkillSys default credits start here:
+
+Note: This list is incomplete and insufficiently organized. If you contributed
+something that you'd like special recognition for, please make a pull request
+adding yourself!
+
+# Skill contributors
+
+- Tequila
+- Rossendale
+- StanH
+- Leonarth
+- 2WB
+- Teraspark
+- Darrman
+- SD9k
+- Kao
+- blademaster
+- Snakey1
+- Zeta
+- Kirb
+- Sme
+- Ganzap
+- Mikey Seregon
+
+# Other
+
+- 7743: various bugfixes
+- RobertFPY, Pikmin1211, and Snakey1: Str/Mag Split Finalization
+
+# Skill Icons
+
+- Monkeybard, Black Mage
+- Blaze: Stances
+- vlak: Drives
+- Pikmin1211: Miscellaneous
+- 2WB: Miscellaneous
+- Zaim: Indoor March
+- Reds: Quick Riposte

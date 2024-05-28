@@ -193,6 +193,9 @@ BeginningScene:
 	TEXTCONT
 	TEXTEND
 	MUSC LandOfConflictID
+	//BACKGROUND_FROMCOLOR 0 4
+	//STAL 6
+	//BACKGROUND_TOCOLOR 0x32 1 4
 	BACKGROUND_CHANGE 0x32 1 4
 	TEXTCONT
 	TEXTEND
@@ -250,8 +253,6 @@ BeginningScene:
 	REMOVEUNIT Goon
 	Text(VillageSpawnText2)	
 	NoFade
-	
-	//WEATHER 4
 	
 	ENDA
 

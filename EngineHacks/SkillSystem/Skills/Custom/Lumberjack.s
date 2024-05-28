@@ -31,8 +31,8 @@ bne NotASnag
 mov r3,#0x12
 ldrb r1,[r5,r3]
 mov r3,#0x5A
-strh r1,[r4,r3]
-
+strb r1,[r4,r3]
+b End
 
 NotASnag:
 mov 	r3,#0x55
@@ -42,11 +42,11 @@ bne OtherTerrain
 
 @negate forest effect
 mov r1, #0x57
-ldrh r3, [r5, r1] @defender terrain avo
+ldrb r3, [r5, r1] @defender terrain avo
 mov r1, #0x60
-ldrh r2, [r4, r1] @attacker hit
+ldrb r2, [r4, r1] @attacker hit
 add r2,r3
-strh r2,[r4,r1]  @store new hit
+strb r2,[r4,r1]  @store new hit
 
 mov r1, #0x4c    @Move to the attacker's weapon ability
 ldr r1, [r4,r1]
@@ -55,22 +55,22 @@ tst r1, r2
 bne End @do nothing if magic bit set
 
 mov r1, #0x56
-ldrh r3, [r5, r1] @defender terrain def
+ldrb r3, [r5, r1] @defender terrain def
 mov r1, #0x5A
-ldrh r2, [r4, r1] @attacker atk
+ldrb r2, [r4, r1] @attacker atk
 add r2,r3
-strh r2,[r4,r1]  @store new atk
+strb r2,[r4,r1]  @store new atk
 b End
 
 OtherTerrain:
 @halve other terrain effect
 mov r1, #0x57
-ldrh r3, [r5, r1] @defender terrain avo
+ldrb r3, [r5, r1] @defender terrain avo
 lsr r3,#0x1		  @divide by 2
 mov r1, #0x60
-ldrh r2, [r4, r1] @attacker hit
+ldrb r2, [r4, r1] @attacker hit
 add r2,r3
-strh r2,[r4,r1]  @store new hit
+strb r2,[r4,r1]  @store new hit
 
 mov r1, #0x4c    @Move to the attacker's weapon ability
 ldr r1, [r4,r1]
@@ -79,12 +79,12 @@ tst r1, r2
 bne End @do nothing if magic bit set
 
 mov r1, #0x56
-ldrh r3, [r5, r1] @defender terrain def
+ldrb r3, [r5, r1] @defender terrain def
 lsr r3,#0x1		  @divide by 2
 mov r1, #0x5A
-ldrh r2, [r4, r1] @attacker atk
+ldrb r2, [r4, r1] @attacker atk
 add r2,r3
-strh r2,[r4,r1]  @store new atk
+strb r2,[r4,r1]  @store new atk
 
 
 End:

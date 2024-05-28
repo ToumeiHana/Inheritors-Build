@@ -81,7 +81,7 @@ Understood.[A][X]
 
 ## Ch2BrigandText
 [MidRight][LoadFace][0x56][0x1]
-Hee hee hoo! That village[n]
+Hee[.] hee[.] hoo![.4] That village[n]
 looks ripe for picking![a][X]
 
 ## Ch2BossChargeText
@@ -99,15 +99,15 @@ please take this with you.[a][X]
 
 ## WernerGenBattleQuote
 [MidLeft][LoadBossTwo]
-This isn't any of your business.[.][N]
+This isn't any of your business.[.4][N]
 Get out of our way.[A][X]
 
 ## WernerMirabelleBattleQuote
 [MidLeft][LoadBossTwo]
 Hrmph![N]
 You could have come quietly,[AN]
-but you just had to put on a fight,[N]
-didn't you?[AN][CloseSpeechSlow][ClearFace]
+but you just had to put on[N]
+a fight, didn't you?[AN][CloseSpeechSlow][ClearFace]
 
 [MidRight][LoadMirabelle]
 Savor this fight.[N]
@@ -135,7 +135,7 @@ But why?[AN]
 It could be a cultural thing.[AN]
 [MidRight]
 Yes. Farum was founded by[N]
-the dragonslayer afterall.[AN]
+the dragonslayer after all.[AN]
 They are very superstitious.[AN]
 [FarLeft]
 But going as far as invading[N]

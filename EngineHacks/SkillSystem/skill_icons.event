@@ -702,7 +702,7 @@ ORG SkillIcon(DauntID)
 #incbin "SkillIcons/Daunt.dmp"
 
 ORG SkillIcon(BloodTideID)
-#incbin "SkillIcons/BloodTide.dmp"
+#incbin "SkillIcons/HearthyCheer.dmp"
 
 ORG SkillIcon(WhitePoolID)
 #incbin "SkillIcons/WhitePool.dmp"

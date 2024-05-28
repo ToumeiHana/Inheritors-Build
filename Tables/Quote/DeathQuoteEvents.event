@@ -1,0 +1,235 @@
+
+ALIGN 4
+JanessaDeathQuoteEvent:
+Text(JanessaDeathQuote)
+DumpItems(Janessa)
+ENDA
+
+ALIGN 4
+AlysaDeathQuoteEvent:
+Text(AlysaDeathQuote)
+DumpItems(Alysa)
+ENDA
+
+ALIGN 4
+JacobDeathQuoteEvent:
+Text(JacobDeathQuote)
+DumpItems(Jacob)
+ENDA
+
+ALIGN 4
+LucianDeathQuoteEvent:
+Text(LucianDeathQuote)
+DumpItems(Lucian)
+ENDA
+
+ALIGN 4
+MarcoDeathQuoteEvent:
+Text(MarcoDeathQuote)
+DumpItems(Marco)
+ENDA
+
+ALIGN 4
+DianeDeathQuoteEvent:
+Text(DianeDeathQuote)
+DumpItems(Diane)
+ENDA
+
+ALIGN 4
+LaurenDeathQuoteEvent:
+Text(LaurenDeathQuote)
+DumpItems(Lauren)
+ENDA
+
+ALIGN 4
+MauritchDeathQuoteEvent:
+Text(MauritchDeathQuote)
+DumpItems(Mauritch)
+ENDA
+
+ALIGN 4
+KatjaDeathQuoteEvent:
+Text(KatjaDeathQuote)
+DumpItems(Katja)
+ENDA
+
+ALIGN 4
+MirabelleDeathQuoteEvent:
+Text(MirabelleDeathQuote)
+DumpItems(Mirabelle)
+ENDA
+
+ALIGN 4
+LibbyDeathQuoteEvent:
+Text(LibbyDeathQuote)
+DumpItems(Libby)
+ENDA
+
+ALIGN 4
+NellaDeathQuoteEvent:
+Text(NellaDeathQuote)
+DumpItems(Nella)
+ENDA
+
+ALIGN 4
+EmmanuelDeathQuoteEvent:
+Text(EmmanuelDeathQuote)
+DumpItems(Emmanuel)
+ENDA
+
+ALIGN 4
+HollieDeathQuoteEvent:
+Text(HollieDeathQuote)
+DumpItems(Hollie)
+ENDA
+
+ALIGN 4
+GarryDeathQuoteEvent:
+Text(GarryDeathQuote)
+DumpItems(Garry)
+ENDA
+
+ALIGN 4
+PieterDeathQuoteEvent:
+Text(PieterDeathQuote)
+DumpItems(Pieter)
+ENDA
+
+ALIGN 4
+DaveDeathQuoteEvent:
+Text(DaveDeathQuote)
+DumpItems(Dave)
+ENDA
+
+ALIGN 4
+AnisDeathQuoteEvent:
+Text(AnisDeathQuote)
+DumpItems(Anis)
+ENDA
+
+ALIGN 4
+FabianDeathQuoteEvent:
+Text(FabianDeathQuote)
+DumpItems(Fabian)
+ENDA
+
+ALIGN 4
+SuhairaDeathQuoteEvent:
+Text(SuhairaDeathQuote)
+DumpItems(Suhaira)
+ENDA
+
+ALIGN 4
+KimikoDeathQuoteEvent:
+Text(KimikoDeathQuote)
+DumpItems(Kimiko)
+ENDA
+
+ALIGN 4
+ConlethDeathQuoteEvent:
+Text(ConlethDeathQuote)
+DumpItems(Conleth)
+ENDA
+
+ALIGN 4
+WintonDeathQuoteEvent:
+Text(WintonDeathQuote)
+DumpItems(Winton)
+ENDA
+
+ALIGN 4
+NishayDeathQuoteEvent:
+Text(NishayDeathQuote)
+DumpItems(Nishay)
+ENDA
+
+ALIGN 4
+AveryDeathQuoteEvent:
+Text(AveryDeathQuote)
+DumpItems(Avery)
+ENDA
+
+ALIGN 4
+IngaDeathQuoteEvent:
+Text(IngaDeathQuote)
+DumpItems(Inga)
+ENDA
+
+ALIGN 4
+SanaDeathQuoteEvent:
+Text(SanaDeathQuote)
+DumpItems(Sana)
+ENDA
+
+ALIGN 4
+BobbeDeathQuoteEvent:
+Text(BobbeDeathQuote)
+DumpItems(Bobbe)
+ENDA
+
+ALIGN 4
+HenrikDeathQuoteEvent:
+Text(HenrikDeathQuote)
+DumpItems(Henrik)
+ENDA
+
+ALIGN 4
+LlewellaDeathQuoteEvent:
+Text(LlewellaDeathQuote)
+DumpItems(Llewella)
+ENDA
+
+ALIGN 4
+HefinaDeathQuoteEvent:
+Text(HefinaDeathQuote)
+DumpItems(Hefina)
+ENDA
+
+ALIGN 4
+GlawDeathQuoteEvent:
+Text(GlawDeathQuote)
+DumpItems(Glaw)
+ENDA
+
+ALIGN 4
+RadcliffDeathQuoteEvent:
+Text(RadcliffDeathQuote)
+DumpItems(Radcliff)
+ENDA
+
+ALIGN 4
+RochelleDeathQuoteEvent:
+Text(RochelleDeathQuote)
+DumpItems(Rochelle)
+ENDA
+
+ALIGN 4
+HudsonDeathQuoteEvent:
+Text(HudsonDeathQuote)
+DumpItems(Hudson)
+ENDA
+
+ALIGN 4
+VidarDeathQuoteEvent:
+Text(VidarDeathQuote)
+DumpItems(Vidar)
+ENDA
+
+ALIGN 4
+CaitlindDeathQuoteEvent:
+Text(CaitlindDeathQuote)
+DumpItems(Caitlind)
+ENDA
+
+ALIGN 4
+EllieDeathQuoteEvent:
+Text(EllieDeathQuote)
+DumpItems(Ellie)
+ENDA
+
+ALIGN 4
+FerrynDeathQuoteEvent:
+Text(FerrynDeathQuote)
+DumpItems(Ferryn)
+ENDA
+

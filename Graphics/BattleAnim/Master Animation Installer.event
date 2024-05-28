@@ -17,7 +17,7 @@
 #include "KnightBaseVanillaWeapons/Sword Installer.event"
 #include "KnightBaseVanillaWeapons/Axe Installer.event"
 #include "KnightBaseVanillaWeapons/Handaxe Installer.event"
-#include "KnightBaseVanillaWeapons/Lance Installer.event"
+//#include "KnightBaseVanillaWeapons/Lance Installer.event"
 #include "KnightBaseVanillaWeapons/Unarmed Installer.event"
 }
 

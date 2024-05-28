@@ -1,6 +1,6 @@
 0x9a2e00,Animation pointer,Another pointer
 Ephraim Lord,0x81c33cc,0x81c3d7c
-Eirika Lord,0x81c3ed4,0x81c46cc
+Eirika Lord,LordMWalk|IsPointer,0x81c46cc
 Ephraim Master Lord,0x81c4824,0x81c52b4
 Eirika Master Lord,0x81c5414,0x81c5e84
 SwordCav,SwordCavWalk|IsPointer,0x81c692c
@@ -83,7 +83,7 @@ Ghost Fighter,0x81eedec,0x81ef5cc
 claw,ClawWalk|IsPointer,0x81efe70
 Mummy,0x81effc8,0x81f06d8
 Horn,0x81f0830,0x81f1080
-Skeleton (Bow),0x81f11d8,0x81f1a54
+Skeleton (Bow),LordFWalk|IsPointer,0x81c46cc
 Skypiercer,0x81f1bac,0x81f249c
 Hellbone (Bow),0x81f25f4,0x81f2ec4
 Tail,0x81f301c,0x81f3794

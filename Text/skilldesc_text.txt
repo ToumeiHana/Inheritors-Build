@@ -993,7 +993,7 @@ Daunt: -5 Hit and Crit to all[N]
 enemy units in a 3-tile radius.[X]
 
 ## SD_BloodTide
-Blood Tide: Atk +3 and Hit +5[N]
+Hearty Cheer: Atk +3 and Hit +5[N]
 to adjacent allies.[X]
 
 ## SD_WhitePool

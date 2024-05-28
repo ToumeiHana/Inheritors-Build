@@ -483,6 +483,8 @@ EndingScene:
 	EVBIT_MODIFY 0
 	Text(Ch4EndText2)
 	
+	DumpItems(Janessa)
+	REMU Janessa //REVEAL later
 	//MNC2 Chapter5
 	GOTO_TITLE
 	NoFade

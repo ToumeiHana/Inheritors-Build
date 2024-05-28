@@ -79,6 +79,7 @@
 #define Horn 0x54
 #define Eye_F 0x55
 #define Skypiercer 0x56
+#define Hardhorn Skypiercer
 #define Seer_F 0x57
 #define Tail 0x58
 #define Flamelash 0x59

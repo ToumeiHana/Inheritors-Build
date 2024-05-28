@@ -199,3 +199,15 @@ OutlawStand:
 ALIGN 4
 OutlawWalk:
 #incbin "dmp/OutlawWalk.dmp"
+
+ALIGN 4
+LordStand:
+#incbin "dmp/LordStand.dmp"
+
+ALIGN 4
+LordMWalk:
+#incbin "dmp/LordMWalk.dmp"
+
+ALIGN 4
+LordFWalk:
+#incbin "dmp/LordFWalk.dmp"

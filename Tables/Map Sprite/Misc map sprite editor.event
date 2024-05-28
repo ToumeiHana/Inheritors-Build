@@ -3,7 +3,7 @@
 PUSH
 ORG 0x9a2e00
 _C2EA_Misc_map_sprite_editor(0x81c33cc,0x81c3d7c)
-_C2EA_Misc_map_sprite_editor(0x81c3ed4,0x81c46cc)
+_C2EA_Misc_map_sprite_editor(LordMWalk|IsPointer,0x81c46cc)
 _C2EA_Misc_map_sprite_editor(0x81c4824,0x81c52b4)
 _C2EA_Misc_map_sprite_editor(0x81c5414,0x81c5e84)
 _C2EA_Misc_map_sprite_editor(SwordCavWalk|IsPointer,0x81c692c)
@@ -86,7 +86,7 @@ _C2EA_Misc_map_sprite_editor(0x81eedec,0x81ef5cc)
 _C2EA_Misc_map_sprite_editor(ClawWalk|IsPointer,0x81efe70)
 _C2EA_Misc_map_sprite_editor(0x81effc8,0x81f06d8)
 _C2EA_Misc_map_sprite_editor(0x81f0830,0x81f1080)
-_C2EA_Misc_map_sprite_editor(0x81f11d8,0x81f1a54)
+_C2EA_Misc_map_sprite_editor(LordFWalk|IsPointer,0x81c46cc)
 _C2EA_Misc_map_sprite_editor(0x81f1bac,0x81f249c)
 _C2EA_Misc_map_sprite_editor(0x81f25f4,0x81f2ec4)
 _C2EA_Misc_map_sprite_editor(0x81f301c,0x81f3794)

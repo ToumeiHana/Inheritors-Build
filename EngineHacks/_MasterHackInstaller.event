@@ -78,6 +78,10 @@ POP
   
   //#include "C_Code.lyn.event"
   
+  #include "ExternalHacks/256 colors Title background Installer/titlebackgroundinstaller.event"
+  
+  #include "ExternalHacks/EVENTSCRIPT_SendAllTransporter/Installer.event"
+  
   #include "ExternalHacks/ChangingBattleBGM/Installer.event"
   
   #include "ExternalHacks/MusicFix/Installer.event"
