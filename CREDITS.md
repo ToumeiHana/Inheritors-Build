@@ -79,7 +79,7 @@
 - Teraspark: IER, fancy staves
 - 7743: Flag-based map bgm change, continue map bgm to battle, individual banim by unit, set battle bgm by chapter, dump items to convoy event
 - Vesly: Additional prebattle calcloop, extended weapon desc box, promote by menu command
-- stan: lordsplitmenu, lvl up wrank display, EMS, icon rework, negative crit, popup rework, unit action rework, wrank fix
+- stan: lordsplitmenu, lvl up wrank display, EMS, icon rework, negative crit, popup rework, unit action rework, wrank fix, ai perform extension
 - AuraWolf: Modular Unit Menu, HelpText
 - Mokha: Status rework
 - Snakey1: Gendered Text, 200 Convoy EMS stuff, stairs, gaiden magic, heal tiles

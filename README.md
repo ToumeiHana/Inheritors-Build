@@ -1,6 +1,6 @@
 Buildfile for a WIP Fire Emblem Romhack project
 
-FEU project page soon
+[FEU Project Page](https://feuniverse.us/t/fe8-4-22ish-chapters-inheritors-of-the-dragon/25658)
 
 Based on SkillSystem buildfile
 
