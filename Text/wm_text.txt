@@ -1,6 +1,6 @@
 ## WM_Opening_text
 The continent of Beleria.[.4] These lands were[N]
-ravaged by a sudden appearance of a dragon[.4][N]
+ravaged by the sudden appearance of a dragon[.4][N]
 some 600 years ago, but have since been[.4][N]
 blessed with times of relative peace.[A][N][N]
 [Event]
@@ -18,7 +18,7 @@ stands as the largest country on the continent,[.4][N]
 both in it's size and military might.[A][N][N]
 [Event]
 With the kingdoms motives unknown, [Tact]'[N]
-group move further north to investigate.[A][X]
+group moves further north to investigate.[A][X]
 
 ## WM_Ch3_text
 Chasing after the enemy troops, the party[N]
