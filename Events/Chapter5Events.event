@@ -1,0 +1,83 @@
+EventPointerTable(Chapter5Events, PointerList)
+
+PointerList:
+	POIN TurnBasedEvents
+	POIN CharacterBasedEvents
+	POIN LocationBasedEvents
+	POIN MiscBasedEvents
+	POIN Dunno1 Dunno2 Dunno3 Tutorial
+	POIN Traps1 Traps2
+	POIN Units1 Units1  //This unit group determines the number and position of deployment slots when there is a prep screen
+	POIN $0 $0 $0
+	POIN $0 $0 $0
+	POIN BeginningScene EndingScene
+
+TurnBasedEvents:
+
+	END_MAIN
+
+ALIGN 32
+CharacterBasedEvents:
+
+	END_MAIN
+
+MiscBasedEvents:
+	CauseGameOverIfLordDies
+	END_MAIN
+
+LocationBasedEvents:
+
+	END_MAIN
+
+Dunno1:
+
+	END_MAIN
+
+Dunno2:
+
+	END_MAIN
+
+Dunno3:
+
+	END_MAIN
+
+Tutorial:
+
+	END_MAIN
+
+Units1:
+	UNIT Curtis Eye Curtis Level(1,Ally,False) [15,18] 0x00 0x00 0x00 0x01 [0x0] NoAI
+	UNIT Jacob SwordCavalier Curtis Level(1,Ally,False) [14,17] 0x00 0x00 0x00 0x01 [0x0] NoAI
+	UNIT Jacob SwordCavalier Curtis Level(1,Ally,False) [16,17] 0x00 0x00 0x00 0x01 [0x0] NoAI
+	UNIT Jacob SwordCavalier Curtis Level(1,Ally,False) [13,18] 0x00 0x00 0x00 0x01 [0x0] NoAI
+	UNIT Jacob SwordCavalier Curtis Level(1,Ally,False) [17,18] 0x00 0x00 0x00 0x01 [0x0] NoAI
+	UNIT Jacob SwordCavalier Curtis Level(1,Ally,False) [14,19] 0x00 0x00 0x00 0x01 [0x0] NoAI
+	UNIT Jacob SwordCavalier Curtis Level(1,Ally,False) [16,19] 0x00 0x00 0x00 0x01 [0x0] NoAI
+	UNIT Jacob SwordCavalier Curtis Level(1,Ally,False) [15,16] 0x00 0x00 0x00 0x01 [0x0] NoAI
+	UNIT
+
+EnemyUnits:
+	UNIT Caitlind_boss AxePeg Caitlind_boss Level(7,Enemy,False) [6,1] 0x0 0x0 0x0 [IronAxe] AttackInRangeAI
+	UNIT
+
+Traps1:
+	ENDTRAP
+	ALIGN 4
+
+Traps2:
+	ENDTRAP
+	ALIGN 4
+
+BeginningScene:
+	LOAD1 0x1 EnemyUnits
+	ENUN
+	LOAD1 0x0 Units1
+	ENUN
+	
+	GotoPrepScreen
+	ENDA
+
+EndingScene:
+	MNC2 Chapter6
+	NoFade
+	ENDA

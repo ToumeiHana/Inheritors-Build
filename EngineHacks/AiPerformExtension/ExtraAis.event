@@ -1,8 +1,9 @@
 #include "AiScrDefinitions.event"
 #define LIBBY_AI2 0xA
 #define EMMANUEL_AI2 0x0D
+#define SEIZER_AI2 0xF
 
-#define AttackingSeizerAI [0x00, 0x0C, 0x04]
+#define AttackingSeizerAI [0x00, 0x0F, 0x04]
 #define SeizerAI [0x06, 0x0C, 0x04]
 
 #define HalfRangeAI [0x0C,0x03,0x03]
@@ -10,6 +11,7 @@
 #define TrueDoNothing [0x06, 0x03, 0x04, 0x20]
 
 setAI2(EMMANUEL_AI2, EmmanuelAi) // Use whatever macro you use to inject AIs
+setAI2(SEIZER_AI2, SeizerMove)
 
 ALIGN 4
 EmmanuelAi:
@@ -17,4 +19,13 @@ EmmanuelAi:
   AiMoveTowardsCharacter(Libby)
   AiRestart
   }
+  
 ALIGN 4
+SeizerMove:
+  {
+  AiMoveTowardsPoint(10, 0)
+  AiMoveTowardsPoint(11, 0)
+  AiMoveTowardsPoint(12, 0)
+  AiMoveTowardsPoint(13, 0)
+  AiRestart
+  }

@@ -24,9 +24,24 @@ ALIGN 4
 DesertBPalette:
 #incext Png2Dmp "DesertBObjects.png" --palette-only
 
+ALIGN 4
+FrontierObjects:
+#incext Png2Dmp "FrontierObjects.png" --lz77
+
+ALIGN 4
+FrontierConfig:
+#incext compress "Frontier.mapchip_config"
+
+ALIGN 4
+FrontierPalette:
+#incext Png2Dmp "FrontierObjects.png" --palette-only
+
 EventPointerTable(VillageObjectsID, VillageObjects)
 EventPointerTable(VillageConfigID, VillageConfig)
 EventPointerTable(VillagePaletteID, VillagePallette)
 EventPointerTable(DesertBObjectsID, DesertBObjects)
-EventPointerTable(DesertBConfigID,DesertBConfig)
-EventPointerTable(DesertBPaletteID,DesertBPalette)
+EventPointerTable(DesertBConfigID, DesertBConfig)
+EventPointerTable(DesertBPaletteID, DesertBPalette)
+EventPointerTable(FrontierObjectsID, FrontierObjects)
+EventPointerTable(FrontierConfigID, FrontierConfig)
+EventPointerTable(FrontierPaletteID, FrontierPalette)

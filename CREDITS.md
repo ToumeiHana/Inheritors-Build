@@ -25,7 +25,12 @@
 # Map Tilesets
 
 - Flasuban: Improved Village
-- Gamma, ZoramineFae, Venno, N426: Desert Bastion
+- Gamma: Desert Bastion
+- ZoramineFae: Desert Bastion, Frontier
+- Venno: Desert Bastion, Frontier
+- N426: Desert Bastion
+- Peerless: Frontier
+- WAve: Frontier
 
 # Map Sprites
 

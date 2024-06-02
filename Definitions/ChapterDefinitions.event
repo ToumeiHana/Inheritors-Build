@@ -51,17 +51,20 @@
 #define VillageObjectsID 0x88
 #define PlainsObjectsID 0x01
 #define DesertBObjectsID 0x8C
+#define FrontierObjectsID 0x8F
 
 //Palettes
 #define VillagePaletteID 0x89
 #define Plains1PaletteID 0x02
 #define DesertBPaletteID 0x8E
+#define FrontierPaletteID 0x90
 
 //Tile Configs
 #define VillageConfigID 0x8A
 #define MoutainousConfigID 0x6E
 #define PlainsConfigID 0x03
 #define DesertBConfigID 0x8D
+#define FrontierConfigID 0x91
 
 
 //Tile Anims

@@ -402,7 +402,7 @@ AIChanges:
 	
 	CAMERA Bazba
 	Text(Ch4ChargeText)
-	SETVAL 1 0x00040C00
+	SETVAL 1 0x00040F00
 	CHAI	Farum
 	SETVAL 1 0x00400000
 	CHAI	Bazba
@@ -485,7 +485,7 @@ EndingScene:
 	
 	DumpItems(Janessa)
 	REMU Janessa //REVEAL later
-	//MNC2 Chapter5
-	GOTO_TITLE
+	MNC2 Chapter5
+	//GOTO_TITLE
 	NoFade
 	ENDA
