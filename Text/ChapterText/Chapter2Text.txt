@@ -3,15 +3,15 @@
 [MidRight][LoadFSoldier]
 Sire! Our lead was right![A][N]
 [MidLeft]
-So you found the aloof mercenary[N]
-staying at the inn?[A][N]
+So you found the aloof mercenary,[N]
+staying in that inn?[A][N]
 [MidRight]
 Well actually[Beat] There's two of[N]
 them[Beat] In the same inn[Beat][A][N]
 At the same time[Beat][A][N]
 [MidLeft]
 Seriously? Well, whatever.[N][ToggleSmile]
-We'll just get them both.[A][ToggleSmile][N]
+We'll just grab them both.[A][ToggleSmile][N]
 [X]
 
 ## Ch2InnText
