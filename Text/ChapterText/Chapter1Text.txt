@@ -96,6 +96,11 @@ I told you to stay inside.[A]
 [MidLeft]
 And let you to march to[N]
 your own death? [A][N]
+[MidRight]
+This isn't practice, this is serious.[A]
+[MidLeft]
+I know! But I can't let these people attack my home.[n]
+Besides, you've trained me. [AN]
 You know I'm quite good[N]
 with the bow. Let me help![A]
 [MidRight]
@@ -103,13 +108,6 @@ with the bow. Let me help![A]
 [MidLeft]
 I will.
 
-^vaatii elaborointia
-Hahmojen suhde, Marcon persoona. Esim. riville 99 ja mitä siinä nykyään on jatkaa
-[MidRight]
-This isn't practice, this is serious.[A]
-[MidLeft]
-I know! But I can't let these people attack my home.[n]
-Besides, you've trained me.
 
 
 
